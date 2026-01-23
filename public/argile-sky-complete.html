@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Argile - Sky</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { overflow: hidden; background: #000; font-family: system-ui, -apple-system, sans-serif; }
+    
+    #cloudLayer { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; }
+    #starLayer { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 2; pointer-events: none; mix-blend-mode: screen; }
+    #auroraLayer { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 3; pointer-events: none; mix-blend-mode: screen; }
+    #birdLayer { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 4; pointer-events: none; }
+    
+    /* Time selector icons */
+    .time-selector {
+      position: fixed;
+      bottom: 1.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 1.5rem;
+      z-index: 100;
+      opacity: 0.25;
+      transition: opacity 0.5s ease;
+    }
+    .time-selector:hover { opacity: 0.7; }
+    
+    .time-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0.5rem;
+      opacity: 0.5;
+      transition: opacity 0.3s, transform 0.3s;
+    }
+    .time-btn:hover { opacity: 1; transform: scale(1.1); }
+    .time-btn.active { opacity: 1; }
+    .time-btn svg {
+      width: 20px;
+      height: 20px;
+      fill: none;
+      stroke: white;
+      stroke-width: 1.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    
+    /* Control modal */
+    .control-modal {
+      position: fixed;
+      bottom: 4.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(0, 0, 0, 0.65);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 0.85rem;
+      padding: 0.85rem 1rem;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      min-width: 280px;
+    }
+    .control-modal.visible { opacity: 1; pointer-events: auto; }
+    
+    .control-row {
+      display: flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+    }
+    .control-row button {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: rgba(255, 255, 255, 0.8);
+      padding: 0.3rem 0.6rem;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      font-size: 0.68rem;
+      transition: all 0.2s;
+    }
+    .control-row button:hover { background: rgba(255, 255, 255, 0.15); }
+    .control-row button.on {
+      background: rgba(100, 200, 150, 0.25);
+      border-color: rgba(100, 200, 150, 0.4);
+    }
+    
+    .slider-row {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: white;
+      font-size: 0.65rem;
+    }
+    .slider-row label { min-width: 50px; opacity: 0.6; }
+    .slider-row input[type="range"] { flex: 1; accent-color: rgba(100, 200, 150, 0.7); }
+    .slider-row span { min-width: 28px; text-align: right; opacity: 0.4; font-size: 0.6rem; font-family: monospace; }
+    
+    .shooting-btn {
+      background: rgba(255, 255, 200, 0.08) !important;
+      border-color: rgba(255, 255, 200, 0.2) !important;
+    }
+    .shooting-btn:hover { background: rgba(255, 255, 200, 0.15) !important; }
+  </style>
+</head>
+<body>
+  <canvas id="cloudLayer"></canvas>
+  <canvas id="starLayer"></canvas>
+  <canvas id="auroraLayer"></canvas>
+  <canvas id="birdLayer"></canvas>
+  
+  <!-- Time selector icons -->
+  <div class="time-selector" id="timeSelector">
+    <button class="time-btn active" id="btnAuto" title="Real time">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+    </button>
+    <button class="time-btn" id="btnDawn" title="Dawn">
+      <svg viewBox="0 0 24 24"><path d="M12 2v3M4.22 10.22l2.12 2.12M1 18h4M19 18h4M19.78 10.22l-2.12 2.12M12 18a6 6 0 0 1 0-12"/><line x1="2" y1="21" x2="22" y2="21"/></svg>
+    </button>
+    <button class="time-btn" id="btnDay" title="Day">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+    </button>
+    <button class="time-btn" id="btnSunset" title="Sunset">
+      <svg viewBox="0 0 24 24"><path d="M12 10v8M4.22 10.22l2.12 2.12M1 18h4M19 18h4M19.78 10.22l-2.12 2.12M18 18a6 6 0 0 0-12 0"/><line x1="2" y1="21" x2="22" y2="21"/></svg>
+    </button>
+    <button class="time-btn" id="btnNight" title="Night">
+      <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    </button>
+  </div>
+  
+  <!-- Control modal -->
+  <div class="control-modal" id="controlModal">
+    <div class="control-row">
+      <button id="btnStars" class="on">Stars</button>
+      <button id="btnAurora" style="display:none;">Aurora</button>
+      <button id="btnBirds">Birds</button>
+      <button id="btnClouds" class="on">Clouds</button>
+      <button id="btnTracers">Tracers</button>
+    </div>
+    
+    <div class="slider-row" id="starSlider">
+      <label>Stars</label>
+      <input type="range" id="starBrightness" min="0" max="100" value="35">
+      <span id="starVal">35</span>
+    </div>
+    
+    <div class="slider-row" id="auroraSlider" style="display:none;">
+      <label>Aurora</label>
+      <input type="range" id="auroraIntensity" min="0" max="100" value="65">
+      <span id="auroraVal">65</span>
+    </div>
+    
+    <div class="slider-row" id="tracerSlider">
+      <label>Tracers</label>
+      <input type="range" id="tracerLengthInput" min="100" max="3000" value="1500">
+      <span id="tracerVal">1500</span>
+    </div>
+    
+    <div class="slider-row" id="birdSlider">
+      <label>Birds</label>
+      <input type="range" id="birdCountInput" min="1" max="8" value="3">
+      <span id="birdVal">3</span>
+    </div>
+    
+    <div class="control-row" id="shootingRow" style="display:none;">
+      <button id="btnShootingStar" class="shooting-btn">☆ Shooting Star</button>
+    </div>
+  </div>
+
+  <script>
+    // ===========================================
+    // CONFIG
+    // ===========================================
+    const SPEED = 0.04;
+    const FORWARD_SPEED = 0.3;
+    
+    let timeMode = 'auto';
+    let showStars = true, showAurora = false, showBirds = false, showClouds = true, showTracers = false;
+    let starBrightness = 0.35;
+    let auroraIntensity = 0.65;
+    let maxTrailLength = 1500, targetBirdCount = 3;
+    let shootingStars = [];
+    let currentTimeKey = 'day';
+    
+    // ===========================================
+    // LAYERS
+    // ===========================================
+    const starCanvas = document.getElementById('starLayer');
+    const starCtx = starCanvas.getContext('2d');
+    const auroraCanvas = document.getElementById('auroraLayer');
+    const auroraGl = auroraCanvas.getContext('webgl', { alpha: true, premultipliedAlpha: false });
+    const birdCanvas = document.getElementById('birdLayer');
+    const birdCtx = birdCanvas.getContext('2d');
+    const cloudCanvas = document.getElementById('cloudLayer');
+    const gl = cloudCanvas.getContext('webgl', { alpha: true, premultipliedAlpha: false });
+
+    // ===========================================
+    // TIME OF DAY PALETTES (exact from v5_perfect)
+    // ===========================================
+    function getTimeColors(hour) {
+      const times = {
+        night: {
+          skyBase: [0.05, 0.06, 0.12],
+          skyTint: [0.2, 0.15, 0.3],
+          sunColor: [0.15, 0.12, 0.25],
+          sunGlare: [0.1, 0.08, 0.2],
+          cloudLight: [0.18, 0.18, 0.28],
+          cloudDark: [0.06, 0.06, 0.1],
+          ambient: [0.35, 0.4, 0.5],
+          sunDir: [-1.0, -0.3, -1.0],
+          starsVisible: 1.0
+        },
+        dawn: {
+          skyBase: [0.55, 0.45, 0.5],
+          skyTint: [0.5, 0.25, 0.45],
+          sunColor: [1.0, 0.55, 0.25],
+          sunGlare: [1.0, 0.4, 0.15],
+          cloudLight: [1.0, 0.92, 0.82],
+          cloudDark: [0.38, 0.32, 0.38],
+          ambient: [0.62, 0.58, 0.62],
+          sunDir: [-1.0, 0.08, -1.0],
+          starsVisible: 0.3
+        },
+        day: {
+          skyBase: [0.6, 0.71, 0.75],
+          skyTint: [1.0, 0.5, 1.0],
+          sunColor: [1.0, 0.6, 0.1],
+          sunGlare: [1.0, 0.4, 0.2],
+          cloudLight: [1.0, 0.95, 0.8],
+          cloudDark: [0.25, 0.3, 0.35],
+          ambient: [0.65, 0.7, 0.75],
+          sunDir: [-1.0, 0.6, -1.0],
+          starsVisible: 0
+        },
+        sunset: {
+          skyBase: [0.5, 0.35, 0.45],
+          skyTint: [0.7, 0.25, 0.5],
+          sunColor: [1.0, 0.42, 0.08],
+          sunGlare: [1.0, 0.32, 0.12],
+          cloudLight: [1.0, 0.78, 0.58],
+          cloudDark: [0.42, 0.26, 0.32],
+          ambient: [0.62, 0.52, 0.58],
+          sunDir: [-1.0, 0.02, -1.0],
+          starsVisible: 0.4
+        },
+      };
+      
+      if (typeof hour === 'string') {
+        currentTimeKey = hour;
+        return times[hour] || times.day;
+      }
+      
+      hour = hour % 24;
+      let from, to, t;
+      
+      if (hour < 5 || hour >= 21) {
+        currentTimeKey = 'night';
+        return times.night;
+      } else if (hour < 7) {
+        currentTimeKey = 'dawn';
+        from = times.night; to = times.dawn; t = (hour - 5) / 2;
+      } else if (hour < 9) {
+        currentTimeKey = 'dawn';
+        from = times.dawn; to = times.day; t = (hour - 7) / 2;
+      } else if (hour < 17) {
+        currentTimeKey = 'day';
+        return times.day;
+      } else if (hour < 19) {
+        currentTimeKey = 'sunset';
+        from = times.day; to = times.sunset; t = (hour - 17) / 2;
+      } else {
+        currentTimeKey = 'sunset';
+        from = times.sunset; to = times.night; t = (hour - 19) / 2;
+      }
+      
+      t = t * t * (3 - 2 * t);
+      const lerp = (a, b, t) => a.map((v, i) => v + (b[i] - v) * t);
+      const result = {};
+      for (const key in from) {
+        result[key] = lerp(from[key], to[key], t);
+      }
+      return result;
+    }
+
+    // ===========================================
+    // STAR DATA
+    // ===========================================
+    const STARS = [
+      ['Betelgeuse', 5.92, 7.41, 0.45], ['Rigel', 5.24, -8.20, 0.18],
+      ['Bellatrix', 5.42, 6.35, 1.64], ['Mintaka', 5.53, -0.30, 2.25],
+      ['Alnilam', 5.60, -1.20, 1.69], ['Alnitak', 5.68, -1.94, 1.74],
+      ['Saiph', 5.80, -9.67, 2.07], ['Dubhe', 11.06, 61.75, 1.81],
+      ['Merak', 11.03, 56.38, 2.34], ['Phecda', 11.90, 53.69, 2.41],
+      ['Megrez', 12.26, 57.03, 3.32], ['Alioth', 12.90, 55.96, 1.76],
+      ['Mizar', 13.40, 54.93, 2.23], ['Alkaid', 13.79, 49.31, 1.85],
+      ['Schedar', 0.68, 56.54, 2.24], ['Caph', 0.15, 59.15, 2.28],
+      ['Polaris', 2.53, 89.26, 1.97], ['Sirius', 6.75, -16.72, -1.46],
+      ['Vega', 18.62, 38.78, 0.03], ['Capella', 5.28, 46.00, 0.08],
+      ['Arcturus', 14.26, 19.18, -0.05], ['Procyon', 7.65, 5.22, 0.34],
+      ['Deneb', 20.69, 45.28, 1.25], ['Castor', 7.58, 31.89, 1.58],
+      ['Pollux', 7.76, 28.03, 1.16],
+      ...Array.from({length: 120}, () => [
+        'dim', Math.random() * 24, Math.random() * 180 - 90, 3.5 + Math.random() * 2.5
+      ])
+    ];
+
+    function drawStars(time, colors) {
+      const w = window.innerWidth, h = window.innerHeight;
+      starCtx.clearRect(0, 0, w, h);
+      
+      const visibility = (colors.starsVisible || 0) * starBrightness;
+      if (!showStars || visibility < 0.01) return;
+      
+      STARS.forEach(([name, ra, dec, mag]) => {
+        const rotatedRA = (ra + time * 0.01) % 24;
+        const x = (rotatedRA / 24) * w;
+        const y = h * 0.5 - (dec / 90) * h * 0.45;
+        if (y < 0 || y > h * 0.85) return;
+        
+        const size = Math.max(0.5, 3.5 - mag * 0.6) * visibility;
+        const alpha = Math.min(1, Math.max(0.1, 1.2 - mag * 0.15)) * visibility;
+        const twinkle = 0.85 + 0.15 * Math.sin(time * (2 + mag * 0.5) + ra * 100);
+        
+        const gradient = starCtx.createRadialGradient(x, y, 0, x, y, size * 3);
+        gradient.addColorStop(0, `rgba(255, 252, 245, ${alpha * twinkle})`);
+        gradient.addColorStop(0.3, `rgba(200, 220, 255, ${alpha * twinkle * 0.5})`);
+        gradient.addColorStop(1, 'rgba(150, 180, 255, 0)');
+        starCtx.beginPath();
+        starCtx.arc(x, y, size * 3, 0, Math.PI * 2);
+        starCtx.fillStyle = gradient;
+        starCtx.fill();
+        
+        starCtx.beginPath();
+        starCtx.arc(x, y, size * 0.5, 0, Math.PI * 2);
+        starCtx.fillStyle = `rgba(255, 255, 255, ${alpha * twinkle})`;
+        starCtx.fill();
+      });
+      
+      // Shooting stars
+      shootingStars.forEach((star, i) => {
+        star.progress += 0.02;
+        if (star.progress > 1) { shootingStars.splice(i, 1); return; }
+        const len = 80 * (1 - star.progress);
+        const x = star.startX + star.dx * star.progress * 300;
+        const y = star.startY + star.dy * star.progress * 300;
+        const gradient = starCtx.createLinearGradient(x - star.dx * len, y - star.dy * len, x, y);
+        gradient.addColorStop(0, 'rgba(255, 255, 255, 0)');
+        gradient.addColorStop(1, `rgba(255, 255, 255, ${0.8 * (1 - star.progress)})`);
+        starCtx.strokeStyle = gradient;
+        starCtx.lineWidth = 2 * (1 - star.progress);
+        starCtx.lineCap = 'round';
+        starCtx.beginPath();
+        starCtx.moveTo(x - star.dx * len, y - star.dy * len);
+        starCtx.lineTo(x, y);
+        starCtx.stroke();
+      });
+    }
+    
+    function triggerShootingStar() {
+      shootingStars.push({
+        startX: Math.random() * window.innerWidth * 0.7 + window.innerWidth * 0.15,
+        startY: Math.random() * window.innerHeight * 0.3,
+        dx: 0.5 + Math.random() * 0.5, dy: 0.3 + Math.random() * 0.4, progress: 0
+      });
+    }
+
+    // ===========================================
+    // AURORA SHADER
+    // ===========================================
+    const auroraVsSource = `attribute vec2 a_position; void main() { gl_Position = vec4(a_position, 0.0, 1.0); }`;
+    const auroraFsSource = `
+      precision highp float;
+      uniform vec2 iResolution;
+      uniform float iTime;
+      uniform float uIntensity;
+      
+      mat2 mm2(float a) { float c = cos(a), s = sin(a); return mat2(c, -s, s, c); }
+      float tri(float x) { return clamp(abs(fract(x) - 0.5), 0.01, 0.49); }
+      vec2 tri2(vec2 p) { return vec2(tri(p.x) + tri(p.y), tri(p.y + tri(p.x))); }
+      
+      float triNoise2d(vec2 p, float spd) {
+        float z = 1.8, z2 = 2.5, rz = 0.0;
+        p *= mm2(p.x * 0.06);
+        vec2 bp = p;
+        for (float i = 0.0; i < 5.0; i++) {
+          vec2 dg = tri2(bp * 1.85) * 0.75;
+          dg *= mm2(iTime * spd);
+          p -= dg / z2;
+          bp *= 1.3; z2 *= 0.45; z *= 0.42;
+          p *= 1.21 + (rz - 1.0) * 0.02;
+          rz += tri(p.x + tri(p.y)) * z;
+          p *= -mat2(0.95534, -0.29552, 0.29552, 0.95534);
+        }
+        return clamp(1.0 / pow(rz * 29.0, 1.3), 0.0, 0.55);
+      }
+      
+      float hash21(vec2 n) { return fract(sin(dot(n, vec2(12.9898, 4.1414))) * 43758.5453); }
+      
+      vec4 aurora(vec3 ro, vec3 rd) {
+        vec4 col = vec4(0.0), avgCol = vec4(0.0);
+        for (float i = 0.0; i < 50.0; i++) {
+          float of = 0.006 * hash21(gl_FragCoord.xy) * smoothstep(0.0, 15.0, i);
+          float pt = ((0.8 + pow(i, 1.4) * 0.002) - ro.y) / (rd.y * 2.0 + 0.4);
+          pt -= of;
+          vec3 bpos = ro + pt * rd;
+          float rzt = triNoise2d(bpos.zx, 0.06);
+          vec4 col2 = vec4((sin(1.0 - vec3(2.15, -0.5, 1.2) + i * 0.043) * 0.5 + 0.5) * rzt, rzt);
+          avgCol = mix(avgCol, col2, 0.5);
+          col += avgCol * exp2(-i * 0.065 - 2.5) * smoothstep(0.0, 5.0, i);
+        }
+        col *= clamp(rd.y * 15.0 + 0.4, 0.0, 1.0);
+        return col * 1.8;
+      }
+      
+      void main() {
+        vec2 p = (gl_FragCoord.xy / iResolution.xy - 0.5) * vec2(iResolution.x / iResolution.y, 1.0);
+        vec3 ro = vec3(0.0, 0.0, -6.7), rd = normalize(vec3(p, 1.3));
+        rd.xz *= mm2(sin(iTime * 0.05) * 0.1);
+        vec4 aur = rd.y > 0.0 ? smoothstep(0.0, 1.5, aurora(ro, rd)) : vec4(0.0);
+        gl_FragColor = vec4(aur.rgb * uIntensity, aur.a * uIntensity);
+      }
+    `;
+    
+    function createAuroraShader(type, source) {
+      const s = auroraGl.createShader(type);
+      auroraGl.shaderSource(s, source);
+      auroraGl.compileShader(s);
+      return s;
+    }
+    const auroraVs = createAuroraShader(auroraGl.VERTEX_SHADER, auroraVsSource);
+    const auroraFs = createAuroraShader(auroraGl.FRAGMENT_SHADER, auroraFsSource);
+    const auroraProgram = auroraGl.createProgram();
+    auroraGl.attachShader(auroraProgram, auroraVs);
+    auroraGl.attachShader(auroraProgram, auroraFs);
+    auroraGl.linkProgram(auroraProgram);
+    
+    const auroraPosBuffer = auroraGl.createBuffer();
+    auroraGl.bindBuffer(auroraGl.ARRAY_BUFFER, auroraPosBuffer);
+    auroraGl.bufferData(auroraGl.ARRAY_BUFFER, new Float32Array([-1,-1,1,-1,-1,1,-1,1,1,-1,1,1]), auroraGl.STATIC_DRAW);
+    const auroraLocs = {
+      pos: auroraGl.getAttribLocation(auroraProgram, 'a_position'),
+      res: auroraGl.getUniformLocation(auroraProgram, 'iResolution'),
+      time: auroraGl.getUniformLocation(auroraProgram, 'iTime'),
+      intensity: auroraGl.getUniformLocation(auroraProgram, 'uIntensity')
+    };
+    auroraGl.enable(auroraGl.BLEND);
+    auroraGl.blendFunc(auroraGl.SRC_ALPHA, auroraGl.ONE_MINUS_SRC_ALPHA);
+
+    // ===========================================
+    // CLOUD SHADER (exact from v5_perfect)
+    // ===========================================
+    const vsSource = `attribute vec2 a_position; void main() { gl_Position = vec4(a_position, 0.0, 1.0); }`;
+    const fsSource = `
+      precision highp float;
+      uniform vec2 iResolution;
+      uniform float iTime;
+      uniform float iForward;
+      uniform float u_showClouds;
+      uniform vec3 u_skyBase, u_skyTint, u_sunColor, u_sunGlare, u_cloudLight, u_cloudDark, u_ambient, u_sunDir;
+      
+      float hash(float n) { return fract(sin(n) * 43758.5453123); }
+      float noise(vec3 x) {
+        vec3 p = floor(x), f = fract(x);
+        f = f * f * (3.0 - 2.0 * f);
+        float n = p.x + p.y * 57.0 + p.z * 113.0;
+        float a = hash(n), b = hash(n + 1.0), c = hash(n + 57.0), d = hash(n + 58.0);
+        float e = hash(n + 113.0), f1 = hash(n + 114.0), g = hash(n + 170.0), h = hash(n + 171.0);
+        return mix(mix(mix(a, b, f.x), mix(c, d, f.x), f.y), mix(mix(e, f1, f.x), mix(g, h, f.x), f.y), f.z);
+      }
+      
+      float map5(vec3 p) { vec3 q = p - vec3(0.0, 0.1, 0.0) * iTime; float f = 0.5*noise(q); q *= 2.02; f += 0.25*noise(q); q *= 2.03; f += 0.125*noise(q); q *= 2.01; f += 0.0625*noise(q); q *= 2.02; f += 0.03125*noise(q); return clamp(1.5 - p.y - 2.0 + 1.75*f, 0.0, 1.0); }
+      float map4(vec3 p) { vec3 q = p - vec3(0.0, 0.1, 0.0) * iTime; float f = 0.5*noise(q); q *= 2.02; f += 0.25*noise(q); q *= 2.03; f += 0.125*noise(q); q *= 2.01; f += 0.0625*noise(q); return clamp(1.5 - p.y - 2.0 + 1.75*f, 0.0, 1.0); }
+      float map3(vec3 p) { vec3 q = p - vec3(0.0, 0.1, 0.0) * iTime; float f = 0.5*noise(q); q *= 2.02; f += 0.25*noise(q); q *= 2.03; f += 0.125*noise(q); return clamp(1.5 - p.y - 2.0 + 1.75*f, 0.0, 1.0); }
+      float map2(vec3 p) { vec3 q = p - vec3(0.0, 0.1, 0.0) * iTime; float f = 0.5*noise(q); q *= 2.02; f += 0.25*noise(q); return clamp(1.5 - p.y - 2.0 + 1.75*f, 0.0, 1.0); }
+      
+      vec3 sundir;
+      vec4 integrate(vec4 sum, float dif, float den, vec3 bgcol, float t) {
+        vec3 lin = u_ambient * 1.4 + u_sunColor * dif;
+        vec4 col = vec4(mix(u_cloudLight, u_cloudDark, den), den);
+        col.xyz *= lin;
+        col.xyz = mix(col.xyz, bgcol, 1.0 - exp(-0.003 * t * t));
+        col.a *= 0.4;
+        col.rgb *= col.a;
+        return sum + col * (1.0 - sum.a);
+      }
+      
+      vec4 raymarch(vec3 ro, vec3 rd, vec3 bgcol) {
+        vec4 sum = vec4(0.0); float t = 0.0;
+        for (int i = 0; i < 30; i++) { vec3 pos = ro + t * rd; if (pos.y < -3.0 || pos.y > 2.0 || sum.a > 0.99) break; float den = map5(pos); if (den > 0.01) { float dif = clamp((den - map4(pos + 0.3 * sundir)) / 0.6, 0.0, 1.0); sum = integrate(sum, dif, den, bgcol, t); } t += max(0.05, 0.02 * t); }
+        for (int i = 0; i < 30; i++) { vec3 pos = ro + t * rd; if (pos.y < -3.0 || pos.y > 2.0 || sum.a > 0.99) break; float den = map4(pos); if (den > 0.01) { float dif = clamp((den - map3(pos + 0.3 * sundir)) / 0.6, 0.0, 1.0); sum = integrate(sum, dif, den, bgcol, t); } t += max(0.05, 0.02 * t); }
+        for (int i = 0; i < 30; i++) { vec3 pos = ro + t * rd; if (pos.y < -3.0 || pos.y > 2.0 || sum.a > 0.99) break; float den = map3(pos); if (den > 0.01) { float dif = clamp((den - map2(pos + 0.3 * sundir)) / 0.6, 0.0, 1.0); sum = integrate(sum, dif, den, bgcol, t); } t += max(0.05, 0.02 * t); }
+        for (int i = 0; i < 30; i++) { vec3 pos = ro + t * rd; if (pos.y < -3.0 || pos.y > 2.0 || sum.a > 0.99) break; float den = map2(pos); if (den > 0.01) { float dif = clamp((den - map2(pos + 0.3 * sundir)) / 0.6, 0.0, 1.0); sum = integrate(sum, dif, den, bgcol, t); } t += max(0.05, 0.02 * t); }
+        return clamp(sum, 0.0, 1.0);
+      }
+      
+      mat3 setCamera(vec3 ro, vec3 ta, float cr) { vec3 cw = normalize(ta - ro), cp = vec3(sin(cr), cos(cr), 0.0), cu = normalize(cross(cw, cp)), cv = normalize(cross(cu, cw)); return mat3(cu, cv, cw); }
+      
+      vec4 render(vec3 ro, vec3 rd) {
+        float sun = clamp(dot(sundir, rd), 0.0, 1.0);
+        vec3 col = u_skyBase - rd.y * 0.2 * u_skyTint + 0.15 * 0.5;
+        col += 0.2 * u_sunColor * pow(sun, 8.0);
+        if (u_showClouds > 0.5) {
+          vec4 res = raymarch(ro, rd, col);
+          col = col * (1.0 - res.w) + res.xyz;
+        }
+        col += 0.2 * u_sunGlare * pow(sun, 3.0);
+        return vec4(col, 1.0);
+      }
+      
+      void main() {
+        vec2 p = (-iResolution.xy + 2.0 * gl_FragCoord.xy) / iResolution.y;
+        sundir = normalize(u_sunDir);
+        vec3 ro = vec3(0.0, 0.3, iForward), ta = vec3(0.0, -0.2, iForward + 10.0);
+        mat3 ca = setCamera(ro, ta, 0.0);
+        vec3 rd = ca * normalize(vec3(p.xy, 1.5));
+        gl_FragColor = render(ro, rd);
+      }
+    `;
+    
+    function createShader(gl, type, source) {
+      const shader = gl.createShader(type);
+      gl.shaderSource(shader, source);
+      gl.compileShader(shader);
+      return shader;
+    }
+    const vs = createShader(gl, gl.VERTEX_SHADER, vsSource);
+    const fs = createShader(gl, gl.FRAGMENT_SHADER, fsSource);
+    const program = gl.createProgram();
+    gl.attachShader(program, vs);
+    gl.attachShader(program, fs);
+    gl.linkProgram(program);
+    
+    const posBuffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, posBuffer);
+    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1, 1,-1, -1,1, -1,1, 1,-1, 1,1]), gl.STATIC_DRAW);
+    
+    const locs = {
+      pos: gl.getAttribLocation(program, 'a_position'),
+      res: gl.getUniformLocation(program, 'iResolution'),
+      time: gl.getUniformLocation(program, 'iTime'),
+      forward: gl.getUniformLocation(program, 'iForward'),
+      showClouds: gl.getUniformLocation(program, 'u_showClouds'),
+      skyBase: gl.getUniformLocation(program, 'u_skyBase'),
+      skyTint: gl.getUniformLocation(program, 'u_skyTint'),
+      sunColor: gl.getUniformLocation(program, 'u_sunColor'),
+      sunGlare: gl.getUniformLocation(program, 'u_sunGlare'),
+      cloudLight: gl.getUniformLocation(program, 'u_cloudLight'),
+      cloudDark: gl.getUniformLocation(program, 'u_cloudDark'),
+      ambient: gl.getUniformLocation(program, 'u_ambient'),
+      sunDir: gl.getUniformLocation(program, 'u_sunDir')
+    };
+
+    // ===========================================
+    // BIRDS
+    // ===========================================
+    function rollD20() { return Math.floor(Math.random() * 20) + 1; }
+    function createBird(now) {
+      const roll = rollD20();
+      let lifespan = roll === 20 ? Infinity : roll >= 17 ? 50 + Math.random() * 30 : roll >= 11 ? 30 + Math.random() * 20 : 15 + Math.random() * 15;
+      return { centerX: 0.3 + Math.random() * 0.4, centerY: 0.15 + Math.random() * 0.25, radius: 0.12 + Math.random() * 0.1, phase: Math.random() * Math.PI * 2, speed: 0.18 + Math.random() * 0.12, riseRate: 0.002 + Math.random() * 0.002, glideBob: Math.random() * Math.PI * 2, trail: [], birthTime: now, lifespan, roll, bodyAlpha: 0, state: 'fadingIn', size: 40 + Math.random() * 12, trailFadeSpeed: 4 };
+    }
+    const birds = [];
+    const startTime = Date.now() / 1000;
+    
+    function drawBird(x, y, size, depthFactor, wingFactor, alpha) {
+      if (alpha <= 0) return;
+      const scale = size * (0.6 + depthFactor * 0.4), wingSpan = scale * (0.4 + wingFactor * 0.6);
+      birdCtx.save(); birdCtx.translate(x, y);
+      const baseAlpha = (0.75 + depthFactor * 0.2) * alpha;
+      const isNight = currentTimeKey === 'night';
+      
+      if (isNight) {
+        const glow = birdCtx.createRadialGradient(0, 0, 0, 0, 0, scale * 0.4);
+        glow.addColorStop(0, `rgba(150, 200, 255, ${baseAlpha * 0.25})`);
+        glow.addColorStop(1, 'rgba(150, 200, 255, 0)');
+        birdCtx.fillStyle = glow;
+        birdCtx.beginPath(); birdCtx.arc(0, 0, scale * 0.4, 0, Math.PI * 2); birdCtx.fill();
+        birdCtx.strokeStyle = `rgba(180,190,200,${baseAlpha})`;
+        birdCtx.fillStyle = `rgba(180,190,200,${baseAlpha})`;
+      } else {
+        birdCtx.strokeStyle = `rgba(20,18,15,${baseAlpha})`;
+        birdCtx.fillStyle = `rgba(20,18,15,${baseAlpha})`;
+      }
+      
+      birdCtx.lineCap = 'round'; birdCtx.lineWidth = scale * 0.035;
+      birdCtx.beginPath(); birdCtx.moveTo(-wingSpan, -scale * 0.05); birdCtx.quadraticCurveTo(-wingSpan * 0.5, scale * 0.015, 0, 0); birdCtx.quadraticCurveTo(wingSpan * 0.5, scale * 0.015, wingSpan, -scale * 0.05); birdCtx.stroke();
+      birdCtx.beginPath(); birdCtx.ellipse(scale * 0.05, 0, scale * 0.08, scale * 0.025, 0, 0, Math.PI * 2); birdCtx.fill();
+      birdCtx.restore();
+    }
+
+    // ===========================================
+    // CONTROL MODAL
+    // ===========================================
+    const timeSelector = document.getElementById('timeSelector');
+    const controlModal = document.getElementById('controlModal');
+    let hoverTimeout = null;
+    
+    function showModal() { controlModal.classList.add('visible'); }
+    function hideModal() { controlModal.classList.remove('visible'); }
+    
+    timeSelector.addEventListener('mouseenter', () => { hoverTimeout = setTimeout(showModal, 200); });
+    timeSelector.addEventListener('mouseleave', () => {
+      clearTimeout(hoverTimeout);
+      setTimeout(() => { if (!controlModal.matches(':hover')) hideModal(); }, 150);
+    });
+    controlModal.addEventListener('mouseenter', showModal);
+    controlModal.addEventListener('mouseleave', () => {
+      setTimeout(() => { if (!timeSelector.matches(':hover')) hideModal(); }, 150);
+    });
+    
+    function updateModalForTime() {
+      const isNight = currentTimeKey === 'night';
+      document.getElementById('btnAurora').style.display = isNight ? '' : 'none';
+      document.getElementById('auroraSlider').style.display = isNight ? '' : 'none';
+      document.getElementById('shootingRow').style.display = isNight ? '' : 'none';
+      
+      if (!isNight && showAurora) {
+        showAurora = false;
+        document.getElementById('btnAurora').classList.remove('on');
+      }
+    }
+    
+    // Time buttons
+    const buttons = { btnAuto: 'auto', btnDawn: 'dawn', btnDay: 'day', btnSunset: 'sunset', btnNight: 'night' };
+    Object.keys(buttons).forEach(id => {
+      document.getElementById(id).addEventListener('click', () => {
+        timeMode = buttons[id];
+        document.querySelectorAll('.time-btn').forEach(b => b.classList.remove('active'));
+        document.getElementById(id).classList.add('active');
+
+        // Turn aurora on by default when switching to night
+        if (buttons[id] === 'night') {
+          showAurora = true;
+          document.getElementById('btnAurora').classList.add('on');
+        }
+      });
+    });
+    
+    // Control bindings
+    document.getElementById('btnStars').addEventListener('click', function() { showStars = !showStars; this.classList.toggle('on', showStars); });
+    document.getElementById('btnAurora').addEventListener('click', function() { showAurora = !showAurora; this.classList.toggle('on', showAurora); });
+    document.getElementById('btnBirds').addEventListener('click', function() { showBirds = !showBirds; this.classList.toggle('on', showBirds); });
+    document.getElementById('btnClouds').addEventListener('click', function() { showClouds = !showClouds; this.classList.toggle('on', showClouds); });
+    document.getElementById('btnTracers').addEventListener('click', function() { showTracers = !showTracers; this.classList.toggle('on', showTracers); });
+    document.getElementById('btnShootingStar').addEventListener('click', triggerShootingStar);
+    
+    document.getElementById('starBrightness').addEventListener('input', function() { starBrightness = this.value / 100; document.getElementById('starVal').textContent = this.value; });
+    document.getElementById('auroraIntensity').addEventListener('input', function() { auroraIntensity = this.value / 100; document.getElementById('auroraVal').textContent = this.value; });
+    document.getElementById('tracerLengthInput').addEventListener('input', function() { maxTrailLength = parseInt(this.value); document.getElementById('tracerVal').textContent = this.value; });
+    document.getElementById('birdCountInput').addEventListener('input', function() { targetBirdCount = parseInt(this.value); document.getElementById('birdVal').textContent = this.value; });
+
+    // ===========================================
+    // RESIZE
+    // ===========================================
+    function resize() {
+      const dpr = devicePixelRatio, w = window.innerWidth, h = window.innerHeight;
+      
+      // Star canvas
+      starCanvas.width = w * dpr;
+      starCanvas.height = h * dpr;
+      starCtx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      
+      // Aurora canvas
+      auroraCanvas.width = w * dpr;
+      auroraCanvas.height = h * dpr;
+      auroraGl.viewport(0, 0, auroraCanvas.width, auroraCanvas.height);
+      
+      // Bird canvas
+      birdCanvas.width = w * dpr;
+      birdCanvas.height = h * dpr;
+      birdCtx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      
+      // Cloud canvas
+      cloudCanvas.width = w * dpr;
+      cloudCanvas.height = h * dpr;
+      gl.viewport(0, 0, cloudCanvas.width, cloudCanvas.height);
+    }
+    window.addEventListener('resize', resize);
+    resize();
+
+    // ===========================================
+    // RENDER
+    // ===========================================
+    const renderStart = Date.now();
+    
+    // Rare shooting stars at night
+    setInterval(() => { if (currentTimeKey === 'night' && Math.floor(Math.random() * 20) + 1 === 20) triggerShootingStar(); }, 8000);
+    
+    function render() {
+      const now = Date.now() / 1000;
+      const elapsed = (Date.now() - renderStart) / 1000;
+      const time = elapsed * SPEED;
+      const forward = elapsed * FORWARD_SPEED;
+      const w = window.innerWidth, h = window.innerHeight;
+      
+      // Get colors
+      let colors;
+      if (timeMode === 'auto') {
+        const nowDate = new Date();
+        const hour = nowDate.getHours() + nowDate.getMinutes() / 60;
+        colors = getTimeColors(hour);
+      } else {
+        colors = getTimeColors(timeMode);
+      }
+      
+      updateModalForTime();
+      
+      // Stars
+      drawStars(elapsed, colors);
+      
+      // Aurora (night only)
+      auroraGl.clearColor(0, 0, 0, 0);
+      auroraGl.clear(auroraGl.COLOR_BUFFER_BIT);
+      if (showAurora && currentTimeKey === 'night') {
+        auroraGl.useProgram(auroraProgram);
+        auroraGl.uniform2f(auroraLocs.res, auroraCanvas.width, auroraCanvas.height);
+        auroraGl.uniform1f(auroraLocs.time, time);
+        auroraGl.uniform1f(auroraLocs.intensity, auroraIntensity);
+        auroraGl.enableVertexAttribArray(auroraLocs.pos);
+        auroraGl.bindBuffer(auroraGl.ARRAY_BUFFER, auroraPosBuffer);
+        auroraGl.vertexAttribPointer(auroraLocs.pos, 2, auroraGl.FLOAT, false, 0, 0);
+        auroraGl.drawArrays(auroraGl.TRIANGLES, 0, 6);
+      }
+      
+      // Birds
+      birdCtx.clearRect(0, 0, w, h);
+      if (showBirds) {
+        const active = birds.filter(b => b.state !== 'dead' && b.state !== 'trailFading');
+        if (active.length < targetBirdCount) birds.push(createBird(now));
+        
+        birds.forEach(bird => {
+          if (bird.state === 'dead') return;
+          const age = now - bird.birthTime, gt = now - startTime;
+          const phase = bird.phase + gt * bird.speed;
+          const circleX = Math.cos(phase) * bird.radius, depth = Math.sin(phase), depthFactor = (depth + 1) / 2;
+          const screenX = (bird.centerX + circleX) * w;
+          const rise = age * bird.riseRate;
+          const screenY = (bird.centerY - rise - depth * 0.02) * h;
+          const wingFactor = Math.abs(Math.cos(phase));
+          const glideOffset = Math.sin(bird.glideBob + gt * 0.8) * 2;
+          const finalY = screenY + glideOffset;
+          
+          if (bird.state === 'fadingIn') { bird.bodyAlpha += 0.008; if (bird.bodyAlpha >= 1) { bird.bodyAlpha = 1; bird.state = 'alive'; } }
+          if (bird.state === 'alive' && ((bird.lifespan !== Infinity && age > bird.lifespan) || finalY < -50)) bird.state = 'fadingOut';
+          if (bird.state === 'fadingOut') { bird.bodyAlpha -= 0.004; if (bird.bodyAlpha <= 0) { bird.bodyAlpha = 0; bird.state = 'trailFading'; } }
+          if (bird.state === 'trailFading') { for (let i = 0; i < bird.trailFadeSpeed && bird.trail.length > 0; i++) bird.trail.shift(); if (bird.trail.length === 0) { bird.state = 'dead'; return; } }
+          
+          if (bird.state !== 'trailFading' && bird.bodyAlpha > 0) bird.trail.push({ x: screenX, y: finalY, depth: depthFactor });
+          while (bird.trail.length > maxTrailLength) bird.trail.shift();
+          
+          if (showTracers && bird.trail.length > 2) {
+            birdCtx.lineCap = 'round';
+            const isNight = currentTimeKey === 'night';
+            for (let i = 1; i < bird.trail.length; i++) {
+              const t = i / bird.trail.length, pt = bird.trail[i], prev = bird.trail[i-1];
+              birdCtx.strokeStyle = isNight ? `rgba(150,180,220,${t * 0.3 * (0.4 + pt.depth * 0.6)})` : `rgba(80,60,40,${t * 0.25 * (0.4 + pt.depth * 0.6)})`;
+              birdCtx.lineWidth = 0.5 + t * 1.5;
+              birdCtx.beginPath(); birdCtx.moveTo(prev.x, prev.y); birdCtx.lineTo(pt.x, pt.y); birdCtx.stroke();
+            }
+          }
+          if (bird.bodyAlpha > 0) drawBird(screenX, finalY, bird.size, depthFactor, wingFactor, bird.bodyAlpha);
+        });
+        for (let i = birds.length - 1; i >= 0; i--) if (birds[i].state === 'dead') birds.splice(i, 1);
+      }
+      
+      // Clouds (always renders sky, conditionally renders clouds)
+      gl.useProgram(program);
+      gl.uniform2f(locs.res, cloudCanvas.width, cloudCanvas.height);
+      gl.uniform1f(locs.time, time);
+      gl.uniform1f(locs.forward, forward);
+      gl.uniform1f(locs.showClouds, showClouds ? 1.0 : 0.0);
+      gl.uniform3fv(locs.skyBase, colors.skyBase);
+      gl.uniform3fv(locs.skyTint, colors.skyTint);
+      gl.uniform3fv(locs.sunColor, colors.sunColor);
+      gl.uniform3fv(locs.sunGlare, colors.sunGlare);
+      gl.uniform3fv(locs.cloudLight, colors.cloudLight);
+      gl.uniform3fv(locs.cloudDark, colors.cloudDark);
+      gl.uniform3fv(locs.ambient, colors.ambient);
+      gl.uniform3fv(locs.sunDir, colors.sunDir);
+      gl.enableVertexAttribArray(locs.pos);
+      gl.bindBuffer(gl.ARRAY_BUFFER, posBuffer);
+      gl.vertexAttribPointer(locs.pos, 2, gl.FLOAT, false, 0, 0);
+      gl.drawArrays(gl.TRIANGLES, 0, 6);
+      
+      requestAnimationFrame(render);
+    }
+    
+    render();
+  </script>
+</body>
+</html>

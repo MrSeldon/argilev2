@@ -1,0 +1,3267 @@
+{
+  "version": "1.0",
+  "generated": "2026-01-23",
+  "description": "CC Mode data layer for Le Four Argile - alternative suitability metrics for CeCe's visit",
+  "dataSchema": {
+    "probabilityOfWeed": "Cannabis accessibility: score 0-100, legality status, notes",
+    "fashionEcosystem": "Clothing manufacturing, fabric sourcing, vintage/thrift, dance/theatre scenes",
+    "trimWorkOpportunities": "Seasonal cannabis harvest work opportunities"
+  },
+  "locations": {
+    "Arcata, California, USA": {
+      "location": "Arcata, California, USA",
+      "country": "USA",
+      "region": "California",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal dispensaries throughout California. Premium quality available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Sep-Nov (Emerald Triangle)",
+        "notes": "Humboldt, Mendocino, Trinity counties. $25-50/hr. Cash work."
+      }
+    },
+    "Berkeley, California, USA": {
+      "location": "Berkeley, California, USA",
+      "country": "USA",
+      "region": "California",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal dispensaries throughout California. Premium quality available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Sep-Nov (Emerald Triangle)",
+        "notes": "Humboldt, Mendocino, Trinity counties. $25-50/hr. Cash work."
+      }
+    },
+    "Chico, California, USA": {
+      "location": "Chico, California, USA",
+      "country": "USA",
+      "region": "California",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal dispensaries throughout California. Premium quality available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Sep-Nov (Emerald Triangle)",
+        "notes": "Humboldt, Mendocino, Trinity counties. $25-50/hr. Cash work."
+      }
+    },
+    "Davis, California, USA": {
+      "location": "Davis, California, USA",
+      "country": "USA",
+      "region": "California",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal dispensaries throughout California. Premium quality available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Sep-Nov (Emerald Triangle)",
+        "notes": "Humboldt, Mendocino, Trinity counties. $25-50/hr. Cash work."
+      }
+    },
+    "Eugene, Oregon, USA": {
+      "location": "Eugene, Oregon, USA",
+      "country": "USA",
+      "region": "Oregon",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal dispensaries. Portland has excellent options."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Sep-Nov",
+        "notes": "Southern Oregon has opportunities. Legal market."
+      }
+    },
+    "Fairbanks, Alaska, USA": {
+      "location": "Fairbanks, Alaska, USA",
+      "country": "USA",
+      "region": "Alaska",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Unknown",
+        "notes": "Research local laws before visit."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Honolulu, Hawaii, USA": {
+      "location": "Honolulu, Hawaii, USA",
+      "country": "USA",
+      "region": "Hawaii",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Unknown",
+        "notes": "Research local laws before visit."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Idyllwild, California, USA": {
+      "location": "Idyllwild, California, USA",
+      "country": "USA",
+      "region": "California",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal dispensaries throughout California. Premium quality available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Sep-Nov (Emerald Triangle)",
+        "notes": "Humboldt, Mendocino, Trinity counties. $25-50/hr. Cash work."
+      }
+    },
+    "Long Beach, California, USA": {
+      "location": "Long Beach, California, USA",
+      "country": "USA",
+      "region": "California",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal dispensaries throughout California. Premium quality available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Sep-Nov (Emerald Triangle)",
+        "notes": "Humboldt, Mendocino, Trinity counties. $25-50/hr. Cash work."
+      }
+    },
+    "Los Angeles, California, USA": {
+      "location": "Los Angeles, California, USA",
+      "country": "USA",
+      "region": "California",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal dispensaries throughout California. Premium quality available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Sep-Nov (Emerald Triangle)",
+        "notes": "Humboldt, Mendocino, Trinity counties. $25-50/hr. Cash work."
+      }
+    },
+    "Mendocino, California, USA": {
+      "location": "Mendocino, California, USA",
+      "country": "USA",
+      "region": "California",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal dispensaries throughout California. Premium quality available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Sep-Nov (Emerald Triangle)",
+        "notes": "Humboldt, Mendocino, Trinity counties. $25-50/hr. Cash work."
+      }
+    },
+    "Northridge, California, USA": {
+      "location": "Northridge, California, USA",
+      "country": "USA",
+      "region": "California",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal dispensaries throughout California. Premium quality available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Sep-Nov (Emerald Triangle)",
+        "notes": "Humboldt, Mendocino, Trinity counties. $25-50/hr. Cash work."
+      }
+    },
+    "Otis, Oregon, USA": {
+      "location": "Otis, Oregon, USA",
+      "country": "USA",
+      "region": "Oregon",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal dispensaries. Portland has excellent options."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Sep-Nov",
+        "notes": "Southern Oregon has opportunities. Legal market."
+      }
+    },
+    "Oysterville, Washington, USA": {
+      "location": "Oysterville, Washington, USA",
+      "country": "USA",
+      "region": "Washington",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal since 2012. Seattle has many dispensaries."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Sep-Nov",
+        "notes": "Some opportunities. Less than California."
+      }
+    },
+    "Pasadena, California, USA": {
+      "location": "Pasadena, California, USA",
+      "country": "USA",
+      "region": "California",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal dispensaries throughout California. Premium quality available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Sep-Nov (Emerald Triangle)",
+        "notes": "Humboldt, Mendocino, Trinity counties. $25-50/hr. Cash work."
+      }
+    },
+    "Port Townsend, Washington, USA": {
+      "location": "Port Townsend, Washington, USA",
+      "country": "USA",
+      "region": "Washington",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal since 2012. Seattle has many dispensaries."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Sep-Nov",
+        "notes": "Some opportunities. Less than California."
+      }
+    },
+    "Portland, Oregon, USA": {
+      "location": "Portland, Oregon, USA",
+      "country": "USA",
+      "region": "Oregon",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal dispensaries. Portland has excellent options."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Sep-Nov",
+        "notes": "Southern Oregon has opportunities. Legal market."
+      }
+    },
+    "San Francisco, California, USA": {
+      "location": "San Francisco, California, USA",
+      "country": "USA",
+      "region": "California",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal dispensaries throughout California. Premium quality available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Sep-Nov (Emerald Triangle)",
+        "notes": "Humboldt, Mendocino, Trinity counties. $25-50/hr. Cash work."
+      }
+    },
+    "San Jose, California, USA": {
+      "location": "San Jose, California, USA",
+      "country": "USA",
+      "region": "California",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal dispensaries throughout California. Premium quality available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Sep-Nov (Emerald Triangle)",
+        "notes": "Humboldt, Mendocino, Trinity counties. $25-50/hr. Cash work."
+      }
+    },
+    "Santa Monica, California, USA": {
+      "location": "Santa Monica, California, USA",
+      "country": "USA",
+      "region": "California",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal dispensaries throughout California. Premium quality available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Sep-Nov (Emerald Triangle)",
+        "notes": "Humboldt, Mendocino, Trinity counties. $25-50/hr. Cash work."
+      }
+    },
+    "Saratoga, California, USA": {
+      "location": "Saratoga, California, USA",
+      "country": "USA",
+      "region": "California",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal dispensaries throughout California. Premium quality available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Sep-Nov (Emerald Triangle)",
+        "notes": "Humboldt, Mendocino, Trinity counties. $25-50/hr. Cash work."
+      }
+    },
+    "Sausalito, California, USA": {
+      "location": "Sausalito, California, USA",
+      "country": "USA",
+      "region": "California",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal dispensaries throughout California. Premium quality available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Sep-Nov (Emerald Triangle)",
+        "notes": "Humboldt, Mendocino, Trinity counties. $25-50/hr. Cash work."
+      }
+    },
+    "Seattle, Washington, USA": {
+      "location": "Seattle, Washington, USA",
+      "country": "USA",
+      "region": "Washington",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal since 2012. Seattle has many dispensaries."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Sep-Nov",
+        "notes": "Some opportunities. Less than California."
+      }
+    },
+    "Seaview, Washington, USA": {
+      "location": "Seaview, Washington, USA",
+      "country": "USA",
+      "region": "Washington",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal since 2012. Seattle has many dispensaries."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Sep-Nov",
+        "notes": "Some opportunities. Less than California."
+      }
+    },
+    "Sisters, Oregon, USA": {
+      "location": "Sisters, Oregon, USA",
+      "country": "USA",
+      "region": "Oregon",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal dispensaries. Portland has excellent options."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Sep-Nov",
+        "notes": "Southern Oregon has opportunities. Legal market."
+      }
+    },
+    "Woodside, California, USA": {
+      "location": "Woodside, California, USA",
+      "country": "USA",
+      "region": "California",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal dispensaries throughout California. Premium quality available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Sep-Nov (Emerald Triangle)",
+        "notes": "Humboldt, Mendocino, Trinity counties. $25-50/hr. Cash work."
+      }
+    },
+    "Asheville, North Carolina, USA": {
+      "location": "Asheville, North Carolina, USA",
+      "country": "USA",
+      "region": "North Carolina",
+      "probabilityOfWeed": {
+        "score": 25,
+        "status": "Illegal",
+        "notes": "Small amounts decriminalized in some cities."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Athens, Georgia, USA": {
+      "location": "Athens, Georgia, USA",
+      "country": "USA",
+      "region": "Georgia",
+      "probabilityOfWeed": {
+        "score": 25,
+        "status": "CBD only",
+        "notes": "Very restrictive. Not recommended."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Atlanta, Georgia, USA": {
+      "location": "Atlanta, Georgia, USA",
+      "country": "USA",
+      "region": "Georgia",
+      "probabilityOfWeed": {
+        "score": 25,
+        "status": "CBD only",
+        "notes": "Very restrictive. Not recommended."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Baton Rouge, Louisiana, USA": {
+      "location": "Baton Rouge, Louisiana, USA",
+      "country": "USA",
+      "region": "Louisiana",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Unknown",
+        "notes": "Research local laws before visit."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Boone, North Carolina, USA": {
+      "location": "Boone, North Carolina, USA",
+      "country": "USA",
+      "region": "North Carolina",
+      "probabilityOfWeed": {
+        "score": 25,
+        "status": "Illegal",
+        "notes": "Small amounts decriminalized in some cities."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Boston, Massachusetts, USA": {
+      "location": "Boston, Massachusetts, USA",
+      "country": "USA",
+      "region": "Massachusetts",
+      "probabilityOfWeed": {
+        "score": 85,
+        "status": "Recreational legal",
+        "notes": "Legal but dispensaries less common than West Coast."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Charlotte, North Carolina, USA": {
+      "location": "Charlotte, North Carolina, USA",
+      "country": "USA",
+      "region": "North Carolina",
+      "probabilityOfWeed": {
+        "score": 25,
+        "status": "Illegal",
+        "notes": "Small amounts decriminalized in some cities."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Chattanooga, Tennessee, USA": {
+      "location": "Chattanooga, Tennessee, USA",
+      "country": "USA",
+      "region": "Tennessee",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Unknown",
+        "notes": "Research local laws before visit."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Dartmouth, Massachusetts, USA": {
+      "location": "Dartmouth, Massachusetts, USA",
+      "country": "USA",
+      "region": "Massachusetts",
+      "probabilityOfWeed": {
+        "score": 85,
+        "status": "Recreational legal",
+        "notes": "Legal but dispensaries less common than West Coast."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Denton, Texas, USA": {
+      "location": "Denton, Texas, USA",
+      "country": "USA",
+      "region": "Texas",
+      "probabilityOfWeed": {
+        "score": 20,
+        "status": "Very limited medical",
+        "notes": "Essentially illegal. Do not attempt."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Edinboro, Pennsylvania, USA": {
+      "location": "Edinboro, Pennsylvania, USA",
+      "country": "USA",
+      "region": "Pennsylvania",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Unknown",
+        "notes": "Research local laws before visit."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Englewood, Florida, USA": {
+      "location": "Englewood, Florida, USA",
+      "country": "USA",
+      "region": "Florida",
+      "probabilityOfWeed": {
+        "score": 40,
+        "status": "Medical only",
+        "notes": "Medical only. Strict requirements."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Fayetteville, Arkansas, USA": {
+      "location": "Fayetteville, Arkansas, USA",
+      "country": "USA",
+      "region": "Arkansas",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Unknown",
+        "notes": "Research local laws before visit."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Gainesville, Florida, USA": {
+      "location": "Gainesville, Florida, USA",
+      "country": "USA",
+      "region": "Florida",
+      "probabilityOfWeed": {
+        "score": 40,
+        "status": "Medical only",
+        "notes": "Medical only. Strict requirements."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Gatlinburg, Tennessee, USA": {
+      "location": "Gatlinburg, Tennessee, USA",
+      "country": "USA",
+      "region": "Tennessee",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Unknown",
+        "notes": "Research local laws before visit."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Greenville, North Carolina, USA": {
+      "location": "Greenville, North Carolina, USA",
+      "country": "USA",
+      "region": "North Carolina",
+      "probabilityOfWeed": {
+        "score": 25,
+        "status": "Illegal",
+        "notes": "Small amounts decriminalized in some cities."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Knoxville, Tennessee, USA": {
+      "location": "Knoxville, Tennessee, USA",
+      "country": "USA",
+      "region": "Tennessee",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Unknown",
+        "notes": "Research local laws before visit."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Layton, New Jersey, USA": {
+      "location": "Layton, New Jersey, USA",
+      "country": "USA",
+      "region": "New Jersey",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Unknown",
+        "notes": "Research local laws before visit."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Lexington, Kentucky, USA": {
+      "location": "Lexington, Kentucky, USA",
+      "country": "USA",
+      "region": "Kentucky",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Unknown",
+        "notes": "Research local laws before visit."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Lubbock, Texas, USA": {
+      "location": "Lubbock, Texas, USA",
+      "country": "USA",
+      "region": "Texas",
+      "probabilityOfWeed": {
+        "score": 20,
+        "status": "Very limited medical",
+        "notes": "Essentially illegal. Do not attempt."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Morgantown, West Virginia, USA": {
+      "location": "Morgantown, West Virginia, USA",
+      "country": "USA",
+      "region": "West Virginia",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Unknown",
+        "notes": "Research local laws before visit."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Newark, Delaware, USA": {
+      "location": "Newark, Delaware, USA",
+      "country": "USA",
+      "region": "Delaware",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Unknown",
+        "notes": "Research local laws before visit."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Philadelphia, Pennsylvania, USA": {
+      "location": "Philadelphia, Pennsylvania, USA",
+      "country": "USA",
+      "region": "Pennsylvania",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Unknown",
+        "notes": "Research local laws before visit."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Rabun Gap, Georgia, USA": {
+      "location": "Rabun Gap, Georgia, USA",
+      "country": "USA",
+      "region": "Georgia",
+      "probabilityOfWeed": {
+        "score": 25,
+        "status": "CBD only",
+        "notes": "Very restrictive. Not recommended."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Richmond, Virginia, USA": {
+      "location": "Richmond, Virginia, USA",
+      "country": "USA",
+      "region": "Virginia",
+      "probabilityOfWeed": {
+        "score": 60,
+        "status": "Decriminalized",
+        "notes": "Possession decriminalized. No retail sales."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Rochester, New York, USA": {
+      "location": "Rochester, New York, USA",
+      "country": "USA",
+      "region": "New York",
+      "probabilityOfWeed": {
+        "score": 70,
+        "status": "Recreational legal (limited)",
+        "notes": "Legal but rollout slow. Gray market exists."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Star, North Carolina, USA": {
+      "location": "Star, North Carolina, USA",
+      "country": "USA",
+      "region": "North Carolina",
+      "probabilityOfWeed": {
+        "score": 25,
+        "status": "Illegal",
+        "notes": "Small amounts decriminalized in some cities."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "State College, Pennsylvania, USA": {
+      "location": "State College, Pennsylvania, USA",
+      "country": "USA",
+      "region": "Pennsylvania",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Unknown",
+        "notes": "Research local laws before visit."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Syracuse, New York, USA": {
+      "location": "Syracuse, New York, USA",
+      "country": "USA",
+      "region": "New York",
+      "probabilityOfWeed": {
+        "score": 70,
+        "status": "Recreational legal (limited)",
+        "notes": "Legal but rollout slow. Gray market exists."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Tallahassee, Florida, USA": {
+      "location": "Tallahassee, Florida, USA",
+      "country": "USA",
+      "region": "Florida",
+      "probabilityOfWeed": {
+        "score": 40,
+        "status": "Medical only",
+        "notes": "Medical only. Strict requirements."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "West Hartford, Connecticut, USA": {
+      "location": "West Hartford, Connecticut, USA",
+      "country": "USA",
+      "region": "Connecticut",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Unknown",
+        "notes": "Research local laws before visit."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Albuquerque, New Mexico, USA": {
+      "location": "Albuquerque, New Mexico, USA",
+      "country": "USA",
+      "region": "New Mexico",
+      "probabilityOfWeed": {
+        "score": 85,
+        "status": "Recreational legal",
+        "notes": "Legal since 2021. Expanding access."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Athens, Ohio, USA": {
+      "location": "Athens, Ohio, USA",
+      "country": "USA",
+      "region": "Ohio",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Unknown",
+        "notes": "Research local laws before visit."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Bloomington, Indiana, USA": {
+      "location": "Bloomington, Indiana, USA",
+      "country": "USA",
+      "region": "Indiana",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Unknown",
+        "notes": "Research local laws before visit."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Boulder, Colorado, USA": {
+      "location": "Boulder, Colorado, USA",
+      "country": "USA",
+      "region": "Colorado",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal since 2012. Excellent dispensary network."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Year-round (indoor)",
+        "notes": "Denver area. Legal commercial grows."
+      }
+    },
+    "Bowling Green, Ohio, USA": {
+      "location": "Bowling Green, Ohio, USA",
+      "country": "USA",
+      "region": "Ohio",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Unknown",
+        "notes": "Research local laws before visit."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Bozeman, Montana, USA": {
+      "location": "Bozeman, Montana, USA",
+      "country": "USA",
+      "region": "Montana",
+      "probabilityOfWeed": {
+        "score": 80,
+        "status": "Recreational legal",
+        "notes": "Legal but limited dispensaries in rural areas."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Chicago, Illinois, USA": {
+      "location": "Chicago, Illinois, USA",
+      "country": "USA",
+      "region": "Illinois",
+      "probabilityOfWeed": {
+        "score": 80,
+        "status": "Recreational legal",
+        "notes": "Legal but higher taxes. Chicago has options."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Cincinnati, Ohio, USA": {
+      "location": "Cincinnati, Ohio, USA",
+      "country": "USA",
+      "region": "Ohio",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Unknown",
+        "notes": "Research local laws before visit."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Edwardsville, Illinois, USA": {
+      "location": "Edwardsville, Illinois, USA",
+      "country": "USA",
+      "region": "Illinois",
+      "probabilityOfWeed": {
+        "score": 80,
+        "status": "Recreational legal",
+        "notes": "Legal but higher taxes. Chicago has options."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Iowa City, Iowa, USA": {
+      "location": "Iowa City, Iowa, USA",
+      "country": "USA",
+      "region": "Iowa",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Unknown",
+        "notes": "Research local laws before visit."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Kansas City, Missouri, USA": {
+      "location": "Kansas City, Missouri, USA",
+      "country": "USA",
+      "region": "Missouri",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Unknown",
+        "notes": "Research local laws before visit."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Lincoln, Nebraska, USA": {
+      "location": "Lincoln, Nebraska, USA",
+      "country": "USA",
+      "region": "Nebraska",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Unknown",
+        "notes": "Research local laws before visit."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Logan, Utah, USA": {
+      "location": "Logan, Utah, USA",
+      "country": "USA",
+      "region": "Utah",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Unknown",
+        "notes": "Research local laws before visit."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Madison, Wisconsin, USA": {
+      "location": "Madison, Wisconsin, USA",
+      "country": "USA",
+      "region": "Wisconsin",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Unknown",
+        "notes": "Research local laws before visit."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Minneapolis, Minnesota, USA": {
+      "location": "Minneapolis, Minnesota, USA",
+      "country": "USA",
+      "region": "Minnesota",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Unknown",
+        "notes": "Research local laws before visit."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Missoula, Montana, USA": {
+      "location": "Missoula, Montana, USA",
+      "country": "USA",
+      "region": "Montana",
+      "probabilityOfWeed": {
+        "score": 80,
+        "status": "Recreational legal",
+        "notes": "Legal but limited dispensaries in rural areas."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Normal, Illinois, USA": {
+      "location": "Normal, Illinois, USA",
+      "country": "USA",
+      "region": "Illinois",
+      "probabilityOfWeed": {
+        "score": 80,
+        "status": "Recreational legal",
+        "notes": "Legal but higher taxes. Chicago has options."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Snowmass Village, Colorado, USA": {
+      "location": "Snowmass Village, Colorado, USA",
+      "country": "USA",
+      "region": "Colorado",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal",
+        "notes": "Legal since 2012. Excellent dispensary network."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Year-round (indoor)",
+        "notes": "Denver area. Legal commercial grows."
+      }
+    },
+    "Tempe, Arizona, USA": {
+      "location": "Tempe, Arizona, USA",
+      "country": "USA",
+      "region": "Arizona",
+      "probabilityOfWeed": {
+        "score": 85,
+        "status": "Recreational legal",
+        "notes": "Legal since 2020. Growing dispensary network."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
+        "fabricSourcing": "American denim. Varied supply chain.",
+        "vintageThrift": "Massive thrift culture. Every city has options.",
+        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Aakirkeby, Bornholm, Denmark": {
+      "location": "Aakirkeby, Bornholm, Denmark",
+      "country": "Denmark",
+      "region": "Bornholm",
+      "probabilityOfWeed": {
+        "score": 45,
+        "status": "Illegal but Christiania",
+        "notes": "Illegal but Christiania in Copenhagen has open market."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Local production. Some traditional crafts.",
+        "fabricSourcing": "Traditional local materials.",
+        "vintageThrift": "Growing or limited scene.",
+        "danceTheatre": "Local traditional and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Amsterdam, North Holland, Netherlands": {
+      "location": "Amsterdam, North Holland, Netherlands",
+      "country": "Netherlands",
+      "region": "North Holland",
+      "probabilityOfWeed": {
+        "score": 90,
+        "status": "Coffeeshop tolerance",
+        "notes": "Coffeeshops legally sell cannabis. Amsterdam, Rotterdam have many options."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Sustainable fashion leaders. Amsterdam brands.",
+        "fabricSourcing": "Sustainable textiles. Design-focused.",
+        "vintageThrift": "Amsterdam has great vintage scene.",
+        "danceTheatre": "NDT (Nederlands Dans Theater). World-class."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Bath, Somerset, UK": {
+      "location": "Bath, Somerset, UK",
+      "country": "UK",
+      "region": "Somerset",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Illegal",
+        "notes": "Illegal but enforcement varies. Gray market exists."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Savile Row tailoring. Emerging designers.",
+        "fabricSourcing": "Scottish wool, Harris Tweed",
+        "vintageThrift": "Excellent charity shops. London vintage scene.",
+        "danceTheatre": "West End. World-class ballet and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Belfast, Northern Ireland, UK": {
+      "location": "Belfast, Northern Ireland, UK",
+      "country": "UK",
+      "region": "Northern Ireland",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Illegal",
+        "notes": "Illegal but enforcement varies. Gray market exists."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Savile Row tailoring. Emerging designers.",
+        "fabricSourcing": "Scottish wool, Harris Tweed",
+        "vintageThrift": "Excellent charity shops. London vintage scene.",
+        "danceTheatre": "West End. World-class ballet and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Bergen, Vestland, Norway": {
+      "location": "Bergen, Vestland, Norway",
+      "country": "Norway",
+      "region": "Vestland",
+      "probabilityOfWeed": {
+        "score": 15,
+        "status": "Illegal",
+        "notes": "Illegal with strict enforcement."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Local production. Some traditional crafts.",
+        "fabricSourcing": "Traditional local materials.",
+        "vintageThrift": "Growing or limited scene.",
+        "danceTheatre": "Local traditional and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Berlin, Berlin, Germany": {
+      "location": "Berlin, Berlin, Germany",
+      "country": "Germany",
+      "region": "Berlin",
+      "probabilityOfWeed": {
+        "score": 55,
+        "status": "Recently legalized",
+        "notes": "Legal for personal use since 2024. Clubs forming."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Technical sportswear. Berlin fashion week.",
+        "fabricSourcing": "Technical fabrics. Historic textile regions.",
+        "vintageThrift": "Berlin excellent for vintage. Growing scene.",
+        "danceTheatre": "Tanztheater Wuppertal. Strong contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Brighton, Sussex, UK": {
+      "location": "Brighton, Sussex, UK",
+      "country": "UK",
+      "region": "Sussex",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Illegal",
+        "notes": "Illegal but enforcement varies. Gray market exists."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Savile Row tailoring. Emerging designers.",
+        "fabricSourcing": "Scottish wool, Harris Tweed",
+        "vintageThrift": "Excellent charity shops. London vintage scene.",
+        "danceTheatre": "West End. World-class ballet and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Brussels, Brussels, Belgium": {
+      "location": "Brussels, Brussels, Belgium",
+      "country": "Belgium",
+      "region": "Brussels",
+      "probabilityOfWeed": {
+        "score": 45,
+        "status": "Tolerated",
+        "notes": "Small amounts tolerated. No legal sales."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Local production. Some traditional crafts.",
+        "fabricSourcing": "Traditional local materials.",
+        "vintageThrift": "Growing or limited scene.",
+        "danceTheatre": "Local traditional and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Budapest, Central Hungary, Hungary": {
+      "location": "Budapest, Central Hungary, Hungary",
+      "country": "Hungary",
+      "region": "Central Hungary",
+      "probabilityOfWeed": {
+        "score": 15,
+        "status": "Illegal",
+        "notes": "Illegal with harsh penalties."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Local production. Some traditional crafts.",
+        "fabricSourcing": "Traditional local materials.",
+        "vintageThrift": "Growing or limited scene.",
+        "danceTheatre": "Local traditional and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Caldas da Rainha, Leiria, Portugal": {
+      "location": "Caldas da Rainha, Leiria, Portugal",
+      "country": "Portugal",
+      "region": "Leiria",
+      "probabilityOfWeed": {
+        "score": 60,
+        "status": "Decriminalized",
+        "notes": "Personal use decriminalized. No legal sales."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Growing manufacturing hub. Shoes especially.",
+        "fabricSourcing": "Cork, wool, leather",
+        "vintageThrift": "Lisbon vintage growing.",
+        "danceTheatre": "Fado culture. Contemporary dance emerging."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Cardiff, Wales, UK": {
+      "location": "Cardiff, Wales, UK",
+      "country": "UK",
+      "region": "Wales",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Illegal",
+        "notes": "Illegal but enforcement varies. Gray market exists."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Savile Row tailoring. Emerging designers.",
+        "fabricSourcing": "Scottish wool, Harris Tweed",
+        "vintageThrift": "Excellent charity shops. London vintage scene.",
+        "danceTheatre": "West End. World-class ballet and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Dublin, Dublin, Ireland": {
+      "location": "Dublin, Dublin, Ireland",
+      "country": "Ireland",
+      "region": "Dublin",
+      "probabilityOfWeed": {
+        "score": 25,
+        "status": "Illegal",
+        "notes": "Illegal. Not recommended."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Local production. Some traditional crafts.",
+        "fabricSourcing": "Traditional local materials.",
+        "vintageThrift": "Growing or limited scene.",
+        "danceTheatre": "Local traditional and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Edinburgh, Scotland, UK": {
+      "location": "Edinburgh, Scotland, UK",
+      "country": "UK",
+      "region": "Scotland",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Illegal",
+        "notes": "Illegal but enforcement varies. Gray market exists."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Savile Row tailoring. Emerging designers.",
+        "fabricSourcing": "Scottish wool, Harris Tweed",
+        "vintageThrift": "Excellent charity shops. London vintage scene.",
+        "danceTheatre": "West End. World-class ballet and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Eindhoven, North Brabant, Netherlands": {
+      "location": "Eindhoven, North Brabant, Netherlands",
+      "country": "Netherlands",
+      "region": "North Brabant",
+      "probabilityOfWeed": {
+        "score": 90,
+        "status": "Coffeeshop tolerance",
+        "notes": "Coffeeshops legally sell cannabis. Amsterdam, Rotterdam have many options."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Sustainable fashion leaders. Amsterdam brands.",
+        "fabricSourcing": "Sustainable textiles. Design-focused.",
+        "vintageThrift": "Amsterdam has great vintage scene.",
+        "danceTheatre": "NDT (Nederlands Dans Theater). World-class."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Espoo, Uusimaa, Finland": {
+      "location": "Espoo, Uusimaa, Finland",
+      "country": "Finland",
+      "region": "Uusimaa",
+      "probabilityOfWeed": {
+        "score": 20,
+        "status": "Illegal",
+        "notes": "Illegal with moderate enforcement."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Local production. Some traditional crafts.",
+        "fabricSourcing": "Traditional local materials.",
+        "vintageThrift": "Growing or limited scene.",
+        "danceTheatre": "Local traditional and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Faenza, Ravenna, Italy": {
+      "location": "Faenza, Ravenna, Italy",
+      "country": "Italy",
+      "region": "Ravenna",
+      "probabilityOfWeed": {
+        "score": 40,
+        "status": "Decriminalized",
+        "notes": "Personal use decriminalized. Quality varies."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "High-end ateliers. Leather goods, tailoring.",
+        "fabricSourcing": "Silk (Como), wool, premium leather",
+        "vintageThrift": "Growing scene. Milan, Florence have vintage markets.",
+        "danceTheatre": "Opera houses. Contemporary dance in major cities."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Farnham, Surrey, UK": {
+      "location": "Farnham, Surrey, UK",
+      "country": "UK",
+      "region": "Surrey",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Illegal",
+        "notes": "Illegal but enforcement varies. Gray market exists."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Savile Row tailoring. Emerging designers.",
+        "fabricSourcing": "Scottish wool, Harris Tweed",
+        "vintageThrift": "Excellent charity shops. London vintage scene.",
+        "danceTheatre": "West End. World-class ballet and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Geneva, Geneva, Switzerland": {
+      "location": "Geneva, Geneva, Switzerland",
+      "country": "Switzerland",
+      "region": "Geneva",
+      "probabilityOfWeed": {
+        "score": 50,
+        "status": "Decriminalized",
+        "notes": "Small amounts decriminalized. CBD shops common."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Local production. Some traditional crafts.",
+        "fabricSourcing": "Traditional local materials.",
+        "vintageThrift": "Growing or limited scene.",
+        "danceTheatre": "Local traditional and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Glasgow, Scotland, UK": {
+      "location": "Glasgow, Scotland, UK",
+      "country": "UK",
+      "region": "Scotland",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Illegal",
+        "notes": "Illegal but enforcement varies. Gray market exists."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Savile Row tailoring. Emerging designers.",
+        "fabricSourcing": "Scottish wool, Harris Tweed",
+        "vintageThrift": "Excellent charity shops. London vintage scene.",
+        "danceTheatre": "West End. World-class ballet and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Gothenburg, V\u00e4stra G\u00f6taland, Sweden": {
+      "location": "Gothenburg, V\u00e4stra G\u00f6taland, Sweden",
+      "country": "Sweden",
+      "region": "V\u00e4stra G\u00f6taland",
+      "probabilityOfWeed": {
+        "score": 15,
+        "status": "Illegal",
+        "notes": "Strict zero-tolerance policy."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Local production. Some traditional crafts.",
+        "fabricSourcing": "Traditional local materials.",
+        "vintageThrift": "Growing or limited scene.",
+        "danceTheatre": "Local traditional and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Halle (Saale), Saxony-Anhalt, Germany": {
+      "location": "Halle (Saale), Saxony-Anhalt, Germany",
+      "country": "Germany",
+      "region": "Saxony-Anhalt",
+      "probabilityOfWeed": {
+        "score": 55,
+        "status": "Recently legalized",
+        "notes": "Legal for personal use since 2024. Clubs forming."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Technical sportswear. Berlin fashion week.",
+        "fabricSourcing": "Technical fabrics. Historic textile regions.",
+        "vintageThrift": "Berlin excellent for vintage. Growing scene.",
+        "danceTheatre": "Tanztheater Wuppertal. Strong contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "H\u00f6hr-Grenzhausen, Rhineland-Palatinate, Germany": {
+      "location": "H\u00f6hr-Grenzhausen, Rhineland-Palatinate, Germany",
+      "country": "Germany",
+      "region": "Rhineland-Palatinate",
+      "probabilityOfWeed": {
+        "score": 55,
+        "status": "Recently legalized",
+        "notes": "Legal for personal use since 2024. Clubs forming."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Technical sportswear. Berlin fashion week.",
+        "fabricSourcing": "Technical fabrics. Historic textile regions.",
+        "vintageThrift": "Berlin excellent for vintage. Growing scene.",
+        "danceTheatre": "Tanztheater Wuppertal. Strong contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Kiel, Schleswig-Holstein, Germany": {
+      "location": "Kiel, Schleswig-Holstein, Germany",
+      "country": "Germany",
+      "region": "Schleswig-Holstein",
+      "probabilityOfWeed": {
+        "score": 55,
+        "status": "Recently legalized",
+        "notes": "Legal for personal use since 2024. Clubs forming."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Technical sportswear. Berlin fashion week.",
+        "fabricSourcing": "Technical fabrics. Historic textile regions.",
+        "vintageThrift": "Berlin excellent for vintage. Growing scene.",
+        "danceTheatre": "Tanztheater Wuppertal. Strong contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "La Bisbal d'Empord\u00e0, Catalonia, Spain": {
+      "location": "La Bisbal d'Empord\u00e0, Catalonia, Spain",
+      "country": "Spain",
+      "region": "Catalonia",
+      "probabilityOfWeed": {
+        "score": 65,
+        "status": "Decriminalized/Clubs",
+        "notes": "Cannabis clubs exist (Barcelona). Public use illegal."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Zara homeland. Leather goods tradition.",
+        "fabricSourcing": "Leather. Traditional textiles.",
+        "vintageThrift": "Barcelona growing scene.",
+        "danceTheatre": "Flamenco. Contemporary dance growing."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Landshut, Bavaria, Germany": {
+      "location": "Landshut, Bavaria, Germany",
+      "country": "Germany",
+      "region": "Bavaria",
+      "probabilityOfWeed": {
+        "score": 55,
+        "status": "Recently legalized",
+        "notes": "Legal for personal use since 2024. Clubs forming."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Technical sportswear. Berlin fashion week.",
+        "fabricSourcing": "Technical fabrics. Historic textile regions.",
+        "vintageThrift": "Berlin excellent for vintage. Growing scene.",
+        "danceTheatre": "Tanztheater Wuppertal. Strong contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Leksand, Dalarna, Sweden": {
+      "location": "Leksand, Dalarna, Sweden",
+      "country": "Sweden",
+      "region": "Dalarna",
+      "probabilityOfWeed": {
+        "score": 15,
+        "status": "Illegal",
+        "notes": "Strict zero-tolerance policy."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Local production. Some traditional crafts.",
+        "fabricSourcing": "Traditional local materials.",
+        "vintageThrift": "Growing or limited scene.",
+        "danceTheatre": "Local traditional and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Leusden, Utrecht, Netherlands": {
+      "location": "Leusden, Utrecht, Netherlands",
+      "country": "Netherlands",
+      "region": "Utrecht",
+      "probabilityOfWeed": {
+        "score": 90,
+        "status": "Coffeeshop tolerance",
+        "notes": "Coffeeshops legally sell cannabis. Amsterdam, Rotterdam have many options."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Sustainable fashion leaders. Amsterdam brands.",
+        "fabricSourcing": "Sustainable textiles. Design-focused.",
+        "vintageThrift": "Amsterdam has great vintage scene.",
+        "danceTheatre": "NDT (Nederlands Dans Theater). World-class."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Limoges, Nouvelle-Aquitaine, France": {
+      "location": "Limoges, Nouvelle-Aquitaine, France",
+      "country": "France",
+      "region": "Nouvelle-Aquitaine",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Illegal",
+        "notes": "Illegal despite high use. Gray market."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Haute couture capital. Paris ateliers.",
+        "fabricSourcing": "Lace (Calais), silk, haute couture fabrics",
+        "vintageThrift": "Paris flea markets. Vintage couture available.",
+        "danceTheatre": "Opera de Paris. Contemporary dance strong."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Lisbon, Lisbon, Portugal": {
+      "location": "Lisbon, Lisbon, Portugal",
+      "country": "Portugal",
+      "region": "Lisbon",
+      "probabilityOfWeed": {
+        "score": 60,
+        "status": "Decriminalized",
+        "notes": "Personal use decriminalized. No legal sales."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Growing manufacturing hub. Shoes especially.",
+        "fabricSourcing": "Cork, wool, leather",
+        "vintageThrift": "Lisbon vintage growing.",
+        "danceTheatre": "Fado culture. Contemporary dance emerging."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "London, England, UK": {
+      "location": "London, England, UK",
+      "country": "UK",
+      "region": "England",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Illegal",
+        "notes": "Illegal but enforcement varies. Gray market exists."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Savile Row tailoring. Emerging designers.",
+        "fabricSourcing": "Scottish wool, Harris Tweed",
+        "vintageThrift": "Excellent charity shops. London vintage scene.",
+        "danceTheatre": "West End. World-class ballet and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Lous\u00e3, Coimbra, Portugal": {
+      "location": "Lous\u00e3, Coimbra, Portugal",
+      "country": "Portugal",
+      "region": "Coimbra",
+      "probabilityOfWeed": {
+        "score": 60,
+        "status": "Decriminalized",
+        "notes": "Personal use decriminalized. No legal sales."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Growing manufacturing hub. Shoes especially.",
+        "fabricSourcing": "Cork, wool, leather",
+        "vintageThrift": "Lisbon vintage growing.",
+        "danceTheatre": "Fado culture. Contemporary dance emerging."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Manises, Valencia, Spain": {
+      "location": "Manises, Valencia, Spain",
+      "country": "Spain",
+      "region": "Valencia",
+      "probabilityOfWeed": {
+        "score": 65,
+        "status": "Decriminalized/Clubs",
+        "notes": "Cannabis clubs exist (Barcelona). Public use illegal."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Zara homeland. Leather goods tradition.",
+        "fabricSourcing": "Leather. Traditional textiles.",
+        "vintageThrift": "Barcelona growing scene.",
+        "danceTheatre": "Flamenco. Contemporary dance growing."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Montelupo Fiorentino, Tuscany, Italy": {
+      "location": "Montelupo Fiorentino, Tuscany, Italy",
+      "country": "Italy",
+      "region": "Tuscany",
+      "probabilityOfWeed": {
+        "score": 40,
+        "status": "Decriminalized",
+        "notes": "Personal use decriminalized. Quality varies."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "High-end ateliers. Leather goods, tailoring.",
+        "fabricSourcing": "Silk (Como), wool, premium leather",
+        "vintageThrift": "Growing scene. Milan, Florence have vintage markets.",
+        "danceTheatre": "Opera houses. Contemporary dance in major cities."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Nex\u00f8, Bornholm, Denmark": {
+      "location": "Nex\u00f8, Bornholm, Denmark",
+      "country": "Denmark",
+      "region": "Bornholm",
+      "probabilityOfWeed": {
+        "score": 45,
+        "status": "Illegal but Christiania",
+        "notes": "Illegal but Christiania in Copenhagen has open market."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Local production. Some traditional crafts.",
+        "fabricSourcing": "Traditional local materials.",
+        "vintageThrift": "Growing or limited scene.",
+        "danceTheatre": "Local traditional and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Oslo, Oslo, Norway": {
+      "location": "Oslo, Oslo, Norway",
+      "country": "Norway",
+      "region": "Oslo",
+      "probabilityOfWeed": {
+        "score": 15,
+        "status": "Illegal",
+        "notes": "Illegal with strict enforcement."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Local production. Some traditional crafts.",
+        "fabricSourcing": "Traditional local materials.",
+        "vintageThrift": "Growing or limited scene.",
+        "danceTheatre": "Local traditional and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Prague, Prague, Czech Republic": {
+      "location": "Prague, Prague, Czech Republic",
+      "country": "Czech Republic",
+      "region": "Prague",
+      "probabilityOfWeed": {
+        "score": 55,
+        "status": "Decriminalized",
+        "notes": "Small amounts decriminalized. Prague has gray market."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Local production. Some traditional crafts.",
+        "fabricSourcing": "Traditional local materials.",
+        "vintageThrift": "Growing or limited scene.",
+        "danceTheatre": "Local traditional and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Stockholm, Stockholm, Sweden": {
+      "location": "Stockholm, Stockholm, Sweden",
+      "country": "Sweden",
+      "region": "Stockholm",
+      "probabilityOfWeed": {
+        "score": 15,
+        "status": "Illegal",
+        "notes": "Strict zero-tolerance policy."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Local production. Some traditional crafts.",
+        "fabricSourcing": "Traditional local materials.",
+        "vintageThrift": "Growing or limited scene.",
+        "danceTheatre": "Local traditional and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Stoke-on-Trent, Staffordshire, UK": {
+      "location": "Stoke-on-Trent, Staffordshire, UK",
+      "country": "UK",
+      "region": "Staffordshire",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Illegal",
+        "notes": "Illegal but enforcement varies. Gray market exists."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Savile Row tailoring. Emerging designers.",
+        "fabricSourcing": "Scottish wool, Harris Tweed",
+        "vintageThrift": "Excellent charity shops. London vintage scene.",
+        "danceTheatre": "West End. World-class ballet and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Strasbourg, Grand Est, France": {
+      "location": "Strasbourg, Grand Est, France",
+      "country": "France",
+      "region": "Grand Est",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Illegal",
+        "notes": "Illegal despite high use. Gray market."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Haute couture capital. Paris ateliers.",
+        "fabricSourcing": "Lace (Calais), silk, haute couture fabrics",
+        "vintageThrift": "Paris flea markets. Vintage couture available.",
+        "danceTheatre": "Opera de Paris. Contemporary dance strong."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Sunderland, Tyne and Wear, UK": {
+      "location": "Sunderland, Tyne and Wear, UK",
+      "country": "UK",
+      "region": "Tyne and Wear",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Illegal",
+        "notes": "Illegal but enforcement varies. Gray market exists."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Savile Row tailoring. Emerging designers.",
+        "fabricSourcing": "Scottish wool, Harris Tweed",
+        "vintageThrift": "Excellent charity shops. London vintage scene.",
+        "danceTheatre": "West End. World-class ballet and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Tallinn, Harju, Estonia": {
+      "location": "Tallinn, Harju, Estonia",
+      "country": "Estonia",
+      "region": "Harju",
+      "probabilityOfWeed": {
+        "score": 20,
+        "status": "Illegal",
+        "notes": "Illegal but decriminalized for small amounts."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Local production. Some traditional crafts.",
+        "fabricSourcing": "Traditional local materials.",
+        "vintageThrift": "Growing or limited scene.",
+        "danceTheatre": "Local traditional and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Vickleby, \u00d6land, Sweden": {
+      "location": "Vickleby, \u00d6land, Sweden",
+      "country": "Sweden",
+      "region": "\u00d6land",
+      "probabilityOfWeed": {
+        "score": 15,
+        "status": "Illegal",
+        "notes": "Strict zero-tolerance policy."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Local production. Some traditional crafts.",
+        "fabricSourcing": "Traditional local materials.",
+        "vintageThrift": "Growing or limited scene.",
+        "danceTheatre": "Local traditional and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Wolverhampton, West Midlands, UK": {
+      "location": "Wolverhampton, West Midlands, UK",
+      "country": "UK",
+      "region": "West Midlands",
+      "probabilityOfWeed": {
+        "score": 30,
+        "status": "Illegal",
+        "notes": "Illegal but enforcement varies. Gray market exists."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Savile Row tailoring. Emerging designers.",
+        "fabricSourcing": "Scottish wool, Harris Tweed",
+        "vintageThrift": "Excellent charity shops. London vintage scene.",
+        "danceTheatre": "West End. World-class ballet and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Wroc\u0142aw, Lower Silesia, Poland": {
+      "location": "Wroc\u0142aw, Lower Silesia, Poland",
+      "country": "Poland",
+      "region": "Lower Silesia",
+      "probabilityOfWeed": {
+        "score": 15,
+        "status": "Illegal",
+        "notes": "Illegal with strict enforcement."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Local production. Some traditional crafts.",
+        "fabricSourcing": "Traditional local materials.",
+        "vintageThrift": "Growing or limited scene.",
+        "danceTheatre": "Local traditional and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Adelaide, South Australia, Australia": {
+      "location": "Adelaide, South Australia, Australia",
+      "country": "Australia",
+      "region": "South Australia",
+      "probabilityOfWeed": {
+        "score": 45,
+        "status": "Varies by state",
+        "notes": "ACT legal for personal. Other states decriminalized."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Surf and outdoor brands. Sustainable focus.",
+        "fabricSourcing": "Merino wool. Technical outdoor fabrics.",
+        "vintageThrift": "Sydney, Melbourne have good scenes.",
+        "danceTheatre": "Sydney Dance Company. Strong contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Arita, Saga, Japan": {
+      "location": "Arita, Saga, Japan",
+      "country": "Japan",
+      "region": "Saga",
+      "probabilityOfWeed": {
+        "score": 5,
+        "status": "Strictly illegal",
+        "notes": "SEVERE penalties including imprisonment. DO NOT ATTEMPT."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Precision craftwork. World-class denim, streetwear.",
+        "fabricSourcing": "Premium denim (Okayama), indigo, kimono silks",
+        "vintageThrift": "Exceptional vintage scene. Tokyo, Osaka packed with finds.",
+        "danceTheatre": "Traditional kabuki, butoh. Contemporary dance thriving."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Bandung, West Java, Indonesia": {
+      "location": "Bandung, West Java, Indonesia",
+      "country": "Indonesia",
+      "region": "West Java",
+      "probabilityOfWeed": {
+        "score": 5,
+        "status": "Strictly illegal",
+        "notes": "SEVERE penalties including death for trafficking."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Local production. Some traditional crafts.",
+        "fabricSourcing": "Traditional local materials.",
+        "vintageThrift": "Growing or limited scene.",
+        "danceTheatre": "Local traditional and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Bangkok, Bangkok, Thailand": {
+      "location": "Bangkok, Bangkok, Thailand",
+      "country": "Thailand",
+      "region": "Bangkok",
+      "probabilityOfWeed": {
+        "score": 75,
+        "status": "Recently decriminalized",
+        "notes": "Decriminalized 2022. Bangkok has many shops."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Local production. Some traditional crafts.",
+        "fabricSourcing": "Traditional local materials.",
+        "vintageThrift": "Growing or limited scene.",
+        "danceTheatre": "Local traditional and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Beijing, Beijing, China": {
+      "location": "Beijing, Beijing, China",
+      "country": "China",
+      "region": "Beijing",
+      "probabilityOfWeed": {
+        "score": 5,
+        "status": "Strictly illegal",
+        "notes": "SEVERE penalties including possible death. DO NOT ATTEMPT."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Local production. Some traditional crafts.",
+        "fabricSourcing": "Traditional local materials.",
+        "vintageThrift": "Growing or limited scene.",
+        "danceTheatre": "Local traditional and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Canberra, ACT, Australia": {
+      "location": "Canberra, ACT, Australia",
+      "country": "Australia",
+      "region": "ACT",
+      "probabilityOfWeed": {
+        "score": 45,
+        "status": "Varies by state",
+        "notes": "ACT legal for personal. Other states decriminalized."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Surf and outdoor brands. Sustainable focus.",
+        "fabricSourcing": "Merino wool. Technical outdoor fabrics.",
+        "vintageThrift": "Sydney, Melbourne have good scenes.",
+        "danceTheatre": "Sydney Dance Company. Strong contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Hachioji, Tokyo, Japan": {
+      "location": "Hachioji, Tokyo, Japan",
+      "country": "Japan",
+      "region": "Tokyo",
+      "probabilityOfWeed": {
+        "score": 5,
+        "status": "Strictly illegal",
+        "notes": "SEVERE penalties including imprisonment. DO NOT ATTEMPT."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Precision craftwork. World-class denim, streetwear.",
+        "fabricSourcing": "Premium denim (Okayama), indigo, kimono silks",
+        "vintageThrift": "Exceptional vintage scene. Tokyo, Osaka packed with finds.",
+        "danceTheatre": "Traditional kabuki, butoh. Contemporary dance thriving."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Hangzhou, Zhejiang, China": {
+      "location": "Hangzhou, Zhejiang, China",
+      "country": "China",
+      "region": "Zhejiang",
+      "probabilityOfWeed": {
+        "score": 5,
+        "status": "Strictly illegal",
+        "notes": "SEVERE penalties including possible death. DO NOT ATTEMPT."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Local production. Some traditional crafts.",
+        "fabricSourcing": "Traditional local materials.",
+        "vintageThrift": "Growing or limited scene.",
+        "danceTheatre": "Local traditional and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Itoshima, Fukuoka, Japan": {
+      "location": "Itoshima, Fukuoka, Japan",
+      "country": "Japan",
+      "region": "Fukuoka",
+      "probabilityOfWeed": {
+        "score": 5,
+        "status": "Strictly illegal",
+        "notes": "SEVERE penalties including imprisonment. DO NOT ATTEMPT."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Precision craftwork. World-class denim, streetwear.",
+        "fabricSourcing": "Premium denim (Okayama), indigo, kimono silks",
+        "vintageThrift": "Exceptional vintage scene. Tokyo, Osaka packed with finds.",
+        "danceTheatre": "Traditional kabuki, butoh. Contemporary dance thriving."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Jingdezhen, Jiangxi, China": {
+      "location": "Jingdezhen, Jiangxi, China",
+      "country": "China",
+      "region": "Jiangxi",
+      "probabilityOfWeed": {
+        "score": 5,
+        "status": "Strictly illegal",
+        "notes": "SEVERE penalties including possible death. DO NOT ATTEMPT."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Local production. Some traditional crafts.",
+        "fabricSourcing": "Traditional local materials.",
+        "vintageThrift": "Growing or limited scene.",
+        "danceTheatre": "Local traditional and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Kanazawa, Ishikawa, Japan": {
+      "location": "Kanazawa, Ishikawa, Japan",
+      "country": "Japan",
+      "region": "Ishikawa",
+      "probabilityOfWeed": {
+        "score": 5,
+        "status": "Strictly illegal",
+        "notes": "SEVERE penalties including imprisonment. DO NOT ATTEMPT."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Precision craftwork. World-class denim, streetwear.",
+        "fabricSourcing": "Premium denim (Okayama), indigo, kimono silks",
+        "vintageThrift": "Exceptional vintage scene. Tokyo, Osaka packed with finds.",
+        "danceTheatre": "Traditional kabuki, butoh. Contemporary dance thriving."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Kyoto, Kyoto, Japan": {
+      "location": "Kyoto, Kyoto, Japan",
+      "country": "Japan",
+      "region": "Kyoto",
+      "probabilityOfWeed": {
+        "score": 5,
+        "status": "Strictly illegal",
+        "notes": "SEVERE penalties including imprisonment. DO NOT ATTEMPT."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Precision craftwork. World-class denim, streetwear.",
+        "fabricSourcing": "Premium denim (Okayama), indigo, kimono silks",
+        "vintageThrift": "Exceptional vintage scene. Tokyo, Osaka packed with finds.",
+        "danceTheatre": "Traditional kabuki, butoh. Contemporary dance thriving."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Melbourne, Victoria, Australia": {
+      "location": "Melbourne, Victoria, Australia",
+      "country": "Australia",
+      "region": "Victoria",
+      "probabilityOfWeed": {
+        "score": 45,
+        "status": "Varies by state",
+        "notes": "ACT legal for personal. Other states decriminalized."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Surf and outdoor brands. Sustainable focus.",
+        "fabricSourcing": "Merino wool. Technical outdoor fabrics.",
+        "vintageThrift": "Sydney, Melbourne have good scenes.",
+        "danceTheatre": "Sydney Dance Company. Strong contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Mittagong, NSW, Australia": {
+      "location": "Mittagong, NSW, Australia",
+      "country": "Australia",
+      "region": "NSW",
+      "probabilityOfWeed": {
+        "score": 45,
+        "status": "Varies by state",
+        "notes": "ACT legal for personal. Other states decriminalized."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Surf and outdoor brands. Sustainable focus.",
+        "fabricSourcing": "Merino wool. Technical outdoor fabrics.",
+        "vintageThrift": "Sydney, Melbourne have good scenes.",
+        "danceTheatre": "Sydney Dance Company. Strong contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Nagakute, Aichi, Japan": {
+      "location": "Nagakute, Aichi, Japan",
+      "country": "Japan",
+      "region": "Aichi",
+      "probabilityOfWeed": {
+        "score": 5,
+        "status": "Strictly illegal",
+        "notes": "SEVERE penalties including imprisonment. DO NOT ATTEMPT."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Precision craftwork. World-class denim, streetwear.",
+        "fabricSourcing": "Premium denim (Okayama), indigo, kimono silks",
+        "vintageThrift": "Exceptional vintage scene. Tokyo, Osaka packed with finds.",
+        "danceTheatre": "Traditional kabuki, butoh. Contemporary dance thriving."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "New Taipei City, Taipei, Taiwan": {
+      "location": "New Taipei City, Taipei, Taiwan",
+      "country": "Taiwan",
+      "region": "Taipei",
+      "probabilityOfWeed": {
+        "score": 5,
+        "status": "Strictly illegal",
+        "notes": "Harsh penalties. Not recommended at all."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Local production. Some traditional crafts.",
+        "fabricSourcing": "Traditional local materials.",
+        "vintageThrift": "Growing or limited scene.",
+        "danceTheatre": "Local traditional and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Nomi, Ishikawa, Japan": {
+      "location": "Nomi, Ishikawa, Japan",
+      "country": "Japan",
+      "region": "Ishikawa",
+      "probabilityOfWeed": {
+        "score": 5,
+        "status": "Strictly illegal",
+        "notes": "SEVERE penalties including imprisonment. DO NOT ATTEMPT."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Precision craftwork. World-class denim, streetwear.",
+        "fabricSourcing": "Premium denim (Okayama), indigo, kimono silks",
+        "vintageThrift": "Exceptional vintage scene. Tokyo, Osaka packed with finds.",
+        "danceTheatre": "Traditional kabuki, butoh. Contemporary dance thriving."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Onishi, Gunma, Japan": {
+      "location": "Onishi, Gunma, Japan",
+      "country": "Japan",
+      "region": "Gunma",
+      "probabilityOfWeed": {
+        "score": 5,
+        "status": "Strictly illegal",
+        "notes": "SEVERE penalties including imprisonment. DO NOT ATTEMPT."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Precision craftwork. World-class denim, streetwear.",
+        "fabricSourcing": "Premium denim (Okayama), indigo, kimono silks",
+        "vintageThrift": "Exceptional vintage scene. Tokyo, Osaka packed with finds.",
+        "danceTheatre": "Traditional kabuki, butoh. Contemporary dance thriving."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Osaka, Osaka, Japan": {
+      "location": "Osaka, Osaka, Japan",
+      "country": "Japan",
+      "region": "Osaka",
+      "probabilityOfWeed": {
+        "score": 5,
+        "status": "Strictly illegal",
+        "notes": "SEVERE penalties including imprisonment. DO NOT ATTEMPT."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Precision craftwork. World-class denim, streetwear.",
+        "fabricSourcing": "Premium denim (Okayama), indigo, kimono silks",
+        "vintageThrift": "Exceptional vintage scene. Tokyo, Osaka packed with finds.",
+        "danceTheatre": "Traditional kabuki, butoh. Contemporary dance thriving."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Seoul, Seoul, South Korea": {
+      "location": "Seoul, Seoul, South Korea",
+      "country": "South Korea",
+      "region": "Seoul",
+      "probabilityOfWeed": {
+        "score": 5,
+        "status": "Strictly illegal",
+        "notes": "SEVERE penalties. Law applies to citizens even abroad."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "K-fashion industry. Technical manufacturing.",
+        "fabricSourcing": "Technical fabrics. Traditional silks.",
+        "vintageThrift": "Vintage scene in Seoul (Dongmyo, Gwangjang).",
+        "danceTheatre": "K-pop dance culture. Traditional dance."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Sydney, NSW, Australia": {
+      "location": "Sydney, NSW, Australia",
+      "country": "Australia",
+      "region": "NSW",
+      "probabilityOfWeed": {
+        "score": 45,
+        "status": "Varies by state",
+        "notes": "ACT legal for personal. Other states decriminalized."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Surf and outdoor brands. Sustainable focus.",
+        "fabricSourcing": "Merino wool. Technical outdoor fabrics.",
+        "vintageThrift": "Sydney, Melbourne have good scenes.",
+        "danceTheatre": "Sydney Dance Company. Strong contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Tainan, Tainan, Taiwan": {
+      "location": "Tainan, Tainan, Taiwan",
+      "country": "Taiwan",
+      "region": "Tainan",
+      "probabilityOfWeed": {
+        "score": 5,
+        "status": "Strictly illegal",
+        "notes": "Harsh penalties. Not recommended at all."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Local production. Some traditional crafts.",
+        "fabricSourcing": "Traditional local materials.",
+        "vintageThrift": "Growing or limited scene.",
+        "danceTheatre": "Local traditional and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Taipei, Taipei, Taiwan": {
+      "location": "Taipei, Taipei, Taiwan",
+      "country": "Taiwan",
+      "region": "Taipei",
+      "probabilityOfWeed": {
+        "score": 5,
+        "status": "Strictly illegal",
+        "notes": "Harsh penalties. Not recommended at all."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Local production. Some traditional crafts.",
+        "fabricSourcing": "Traditional local materials.",
+        "vintageThrift": "Growing or limited scene.",
+        "danceTheatre": "Local traditional and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Tajimi, Gifu, Japan": {
+      "location": "Tajimi, Gifu, Japan",
+      "country": "Japan",
+      "region": "Gifu",
+      "probabilityOfWeed": {
+        "score": 5,
+        "status": "Strictly illegal",
+        "notes": "SEVERE penalties including imprisonment. DO NOT ATTEMPT."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Precision craftwork. World-class denim, streetwear.",
+        "fabricSourcing": "Premium denim (Okayama), indigo, kimono silks",
+        "vintageThrift": "Exceptional vintage scene. Tokyo, Osaka packed with finds.",
+        "danceTheatre": "Traditional kabuki, butoh. Contemporary dance thriving."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Tokyo, Tokyo, Japan": {
+      "location": "Tokyo, Tokyo, Japan",
+      "country": "Japan",
+      "region": "Tokyo",
+      "probabilityOfWeed": {
+        "score": 5,
+        "status": "Strictly illegal",
+        "notes": "SEVERE penalties including imprisonment. DO NOT ATTEMPT."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Precision craftwork. World-class denim, streetwear.",
+        "fabricSourcing": "Premium denim (Okayama), indigo, kimono silks",
+        "vintageThrift": "Exceptional vintage scene. Tokyo, Osaka packed with finds.",
+        "danceTheatre": "Traditional kabuki, butoh. Contemporary dance thriving."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Banff, Alberta, Canada": {
+      "location": "Banff, Alberta, Canada",
+      "country": "Canada",
+      "region": "Alberta",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Fully legal",
+        "notes": "Legal dispensaries throughout. Quality products widely available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Outdoor and technical wear. Toronto fashion.",
+        "fabricSourcing": "Technical fabrics. Fur (traditional).",
+        "vintageThrift": "Toronto, Vancouver have good scenes.",
+        "danceTheatre": "National Ballet. Strong contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Year-round (licensed)",
+        "notes": "Legal LP (licensed producer) jobs. Work permit required."
+      }
+    },
+    "Calgary, Alberta, Canada": {
+      "location": "Calgary, Alberta, Canada",
+      "country": "Canada",
+      "region": "Alberta",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Fully legal",
+        "notes": "Legal dispensaries throughout. Quality products widely available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Outdoor and technical wear. Toronto fashion.",
+        "fabricSourcing": "Technical fabrics. Fur (traditional).",
+        "vintageThrift": "Toronto, Vancouver have good scenes.",
+        "danceTheatre": "National Ballet. Strong contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Year-round (licensed)",
+        "notes": "Legal LP (licensed producer) jobs. Work permit required."
+      }
+    },
+    "Halifax, Nova Scotia, Canada": {
+      "location": "Halifax, Nova Scotia, Canada",
+      "country": "Canada",
+      "region": "Nova Scotia",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Fully legal",
+        "notes": "Legal dispensaries throughout. Quality products widely available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Outdoor and technical wear. Toronto fashion.",
+        "fabricSourcing": "Technical fabrics. Fur (traditional).",
+        "vintageThrift": "Toronto, Vancouver have good scenes.",
+        "danceTheatre": "National Ballet. Strong contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Year-round (licensed)",
+        "notes": "Legal LP (licensed producer) jobs. Work permit required."
+      }
+    },
+    "Jerusalem, Jerusalem, Israel": {
+      "location": "Jerusalem, Jerusalem, Israel",
+      "country": "Israel",
+      "region": "Jerusalem",
+      "probabilityOfWeed": {
+        "score": 50,
+        "status": "Decriminalized",
+        "notes": "Personal use decriminalized. Medical available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Local production. Some traditional crafts.",
+        "fabricSourcing": "Traditional local materials.",
+        "vintageThrift": "Growing or limited scene.",
+        "danceTheatre": "Local traditional and contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "N/A",
+        "notes": "Not a legal cannabis production region."
+      }
+    },
+    "Medicine Hat, Alberta, Canada": {
+      "location": "Medicine Hat, Alberta, Canada",
+      "country": "Canada",
+      "region": "Alberta",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Fully legal",
+        "notes": "Legal dispensaries throughout. Quality products widely available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Outdoor and technical wear. Toronto fashion.",
+        "fabricSourcing": "Technical fabrics. Fur (traditional).",
+        "vintageThrift": "Toronto, Vancouver have good scenes.",
+        "danceTheatre": "National Ballet. Strong contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Year-round (licensed)",
+        "notes": "Legal LP (licensed producer) jobs. Work permit required."
+      }
+    },
+    "Montreal, Quebec, Canada": {
+      "location": "Montreal, Quebec, Canada",
+      "country": "Canada",
+      "region": "Quebec",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Fully legal",
+        "notes": "Legal dispensaries throughout. Quality products widely available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Outdoor and technical wear. Toronto fashion.",
+        "fabricSourcing": "Technical fabrics. Fur (traditional).",
+        "vintageThrift": "Toronto, Vancouver have good scenes.",
+        "danceTheatre": "National Ballet. Strong contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Year-round (licensed)",
+        "notes": "Legal LP (licensed producer) jobs. Work permit required."
+      }
+    },
+    "Oakville, Ontario, Canada": {
+      "location": "Oakville, Ontario, Canada",
+      "country": "Canada",
+      "region": "Ontario",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Fully legal",
+        "notes": "Legal dispensaries throughout. Quality products widely available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Outdoor and technical wear. Toronto fashion.",
+        "fabricSourcing": "Technical fabrics. Fur (traditional).",
+        "vintageThrift": "Toronto, Vancouver have good scenes.",
+        "danceTheatre": "National Ballet. Strong contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Year-round (licensed)",
+        "notes": "Legal LP (licensed producer) jobs. Work permit required."
+      }
+    },
+    "Toronto, Ontario, Canada": {
+      "location": "Toronto, Ontario, Canada",
+      "country": "Canada",
+      "region": "Ontario",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Fully legal",
+        "notes": "Legal dispensaries throughout. Quality products widely available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Outdoor and technical wear. Toronto fashion.",
+        "fabricSourcing": "Technical fabrics. Fur (traditional).",
+        "vintageThrift": "Toronto, Vancouver have good scenes.",
+        "danceTheatre": "National Ballet. Strong contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Year-round (licensed)",
+        "notes": "Legal LP (licensed producer) jobs. Work permit required."
+      }
+    },
+    "Vancouver, British Columbia, Canada": {
+      "location": "Vancouver, British Columbia, Canada",
+      "country": "Canada",
+      "region": "British Columbia",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Fully legal",
+        "notes": "Legal dispensaries throughout. Quality products widely available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Outdoor and technical wear. Toronto fashion.",
+        "fabricSourcing": "Technical fabrics. Fur (traditional).",
+        "vintageThrift": "Toronto, Vancouver have good scenes.",
+        "danceTheatre": "National Ballet. Strong contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Year-round (licensed)",
+        "notes": "Legal LP (licensed producer) jobs. Work permit required."
+      }
+    },
+    "Winnipeg, Manitoba, Canada": {
+      "location": "Winnipeg, Manitoba, Canada",
+      "country": "Canada",
+      "region": "Manitoba",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Fully legal",
+        "notes": "Legal dispensaries throughout. Quality products widely available."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Outdoor and technical wear. Toronto fashion.",
+        "fabricSourcing": "Technical fabrics. Fur (traditional).",
+        "vintageThrift": "Toronto, Vancouver have good scenes.",
+        "danceTheatre": "National Ballet. Strong contemporary."
+      },
+      "trimWorkOpportunities": {
+        "available": true,
+        "season": "Year-round (licensed)",
+        "notes": "Legal LP (licensed producer) jobs. Work permit required."
+      }
+    }
+  }
+}

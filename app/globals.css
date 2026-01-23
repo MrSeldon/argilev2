@@ -1,0 +1,252 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primary colors */
+    --color-bg: #FAFAF8;
+    --color-bg-dark: #1A1A18;
+    --color-text: #2D2D2A;
+    --color-text-light: #6B6B66;
+    --color-text-inverse: #FAFAF8;
+
+    /* Accent colors */
+    --color-accent: #8B7355;
+    --color-accent-light: #C4B5A0;
+    --color-gold: #B8956E;
+
+    /* Surface colors */
+    --color-surface: #FFFFFF;
+    --color-surface-warm: #F5F3EF;
+    --color-border: #E5E3DF;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased;
+  }
+
+  /* Typography - Serif headlines */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif text-charcoal;
+  }
+
+  /* Selection styling - subtle warm tone */
+  ::selection {
+    background-color: rgba(196, 181, 160, 0.3);
+    color: inherit;
+  }
+
+  /* Default border color */
+  * {
+    @apply border-warm-100;
+  }
+}
+
+@layer components {
+  /* Container */
+  .container-content {
+    @apply max-w-content mx-auto px-gutter;
+  }
+
+  .container-narrow {
+    @apply max-w-narrow mx-auto px-gutter;
+  }
+
+  /* Hero sections */
+  .hero {
+    @apply relative h-hero w-full overflow-hidden;
+  }
+
+  .hero-full {
+    @apply relative h-hero-full w-full overflow-hidden;
+  }
+
+  .hero-overlay {
+    @apply absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent;
+  }
+
+  .hero-content {
+    @apply absolute inset-0 flex flex-col items-center justify-center text-center;
+  }
+
+  /* Card component - minimal, no borders */
+  .card {
+    @apply bg-white transition-all duration-300;
+  }
+
+  .card-bordered {
+    @apply card border border-warm-100;
+  }
+
+  /* Gallery-style button - underline style */
+  .btn-link {
+    @apply inline-flex items-center text-sm uppercase tracking-widest
+           border-b border-current pb-1
+           hover:opacity-70 transition-opacity duration-200;
+  }
+
+  /* Filled button - for primary actions */
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3
+           text-sm uppercase tracking-wider
+           transition-all duration-200;
+  }
+
+  .btn-primary {
+    @apply btn bg-charcoal text-cream hover:bg-charcoal-dark;
+  }
+
+  .btn-secondary {
+    @apply btn border border-charcoal text-charcoal
+           hover:bg-charcoal hover:text-cream;
+  }
+
+  .btn-ghost {
+    @apply btn text-charcoal hover:bg-warm-50;
+  }
+
+  /* Tag/badge - minimal */
+  .tag {
+    @apply inline-flex items-center px-3 py-1
+           text-xs uppercase tracking-wider
+           bg-warm-50 text-warm-700;
+  }
+
+  /* Input styling - underline only */
+  .input {
+    @apply w-full bg-transparent border-b border-warm-200
+           py-3 text-body-md
+           focus:border-charcoal focus:outline-none
+           transition-colors duration-200
+           placeholder:text-warm-200;
+  }
+
+  .input-filled {
+    @apply w-full px-4 py-3 bg-warm-50 border-0
+           text-body-md
+           focus:outline-none focus:ring-1 focus:ring-warm-200
+           transition-all duration-200
+           placeholder:text-warm-200;
+  }
+
+  /* Section spacing */
+  .section {
+    @apply py-section;
+  }
+
+  .section-lg {
+    @apply py-section-lg;
+  }
+
+  /* Navigation link - gallery style */
+  .nav-link {
+    @apply text-xs uppercase tracking-widest
+           transition-opacity duration-200 hover:opacity-60;
+  }
+
+  .nav-link-active {
+    @apply opacity-100;
+  }
+
+  /* Grid layouts */
+  .grid-gallery {
+    @apply grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4;
+  }
+
+  .grid-cards {
+    @apply grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3;
+  }
+
+  /* Prose for long-form content */
+  .prose-custom {
+    @apply text-body-md leading-relaxed;
+    color: var(--color-text-light);
+  }
+
+  .prose-custom p {
+    @apply mb-6;
+  }
+
+  .prose-custom a {
+    @apply text-charcoal underline underline-offset-4
+           hover:opacity-70 transition-opacity;
+  }
+
+  /* Pull quote */
+  .pull-quote {
+    @apply text-display-sm font-serif italic text-center
+           max-w-prose mx-auto py-section;
+    color: var(--color-text-light);
+  }
+
+  /* Filter tabs - horizontal pipe-separated */
+  .filter-tabs {
+    @apply flex justify-center items-center gap-4
+           text-xs uppercase tracking-widest;
+  }
+
+  .filter-tab {
+    @apply transition-opacity duration-200 hover:opacity-100;
+  }
+
+  .filter-tab-active {
+    @apply opacity-100;
+  }
+
+  .filter-tab-inactive {
+    @apply opacity-40;
+  }
+
+  .filter-divider {
+    @apply text-warm-200;
+  }
+}
+
+@layer utilities {
+  /* Text utilities */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Image zoom on hover */
+  .img-zoom {
+    @apply transition-transform duration-500 ease-out;
+  }
+
+  .group:hover .img-zoom {
+    @apply scale-105;
+  }
+
+  /* Hide scrollbar but keep functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Fade edges for horizontal scroll */
+  .fade-edges {
+    mask-image: linear-gradient(to right, transparent, black 1rem, black calc(100% - 1rem), transparent);
+  }
+
+  /* Aspect ratios */
+  .aspect-portrait {
+    aspect-ratio: 3 / 4;
+  }
+
+  .aspect-landscape {
+    aspect-ratio: 4 / 3;
+  }
+
+  .aspect-wide {
+    aspect-ratio: 16 / 9;
+  }
+}
