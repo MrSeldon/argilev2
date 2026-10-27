@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
 import * as d3 from "d3";
 
 interface GraphNode {
@@ -26,6 +27,7 @@ interface ConnectionsGraphProps {
 
 export function ConnectionsGraph({ nodes, links }: ConnectionsGraphProps) {
   const svgRef = useRef<SVGSVGElement>(null);
+  const router = useRouter();
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
   const [selectedNode, setSelectedNode] = useState<GraphNode | null>(null);
 
@@ -132,6 +134,10 @@ export function ConnectionsGraph({ nodes, links }: ConnectionsGraphProps) {
         setSelectedNode(d);
         event.stopPropagation();
       })
+      .on("dblclick", (event, d) => {
+        event.stopPropagation();
+        router.push(`/inspirations/${d.category}/${d.id}`);
+      })
       .on("mouseenter", function () {
         d3.select(this).attr("r", 16);
       })
@@ -169,11 +175,10 @@ export function ConnectionsGraph({ nodes, links }: ConnectionsGraphProps) {
   }, [nodes, links, dimensions]);
 
   return (
-    <div className="relative w-full h-full min-h-[600px]">
+    <div className="relative w-full h-full">
       <svg
         ref={svgRef}
         className="w-full h-full"
-        style={{ minHeight: "600px" }}
       />
 
       {/* Selected Node Info */}

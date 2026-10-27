@@ -80,7 +80,7 @@ export default async function ConnectionsPage() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="h-screen flex flex-col overflow-hidden">
       {/* Header */}
       <section className="py-8 border-b border-warm-100">
         <div className="max-w-6xl mx-auto px-8">
@@ -118,9 +118,11 @@ export default async function ConnectionsPage() {
         </div>
       </section>
 
-      {/* Graph */}
-      <section className="flex-1 bg-warm-50">
-        <ConnectionsGraph nodes={nodes} links={links} />
+      {/* Graph - fills remaining viewport height */}
+      <section className="flex-1 bg-warm-50 overflow-hidden">
+        <div className="h-full w-full">
+          <ConnectionsGraph nodes={nodes} links={links} />
+        </div>
       </section>
     </div>
   );
