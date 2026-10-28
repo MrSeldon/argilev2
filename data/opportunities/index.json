@@ -14894,33 +14894,6 @@
       "lastVerified": "2026-10-28"
     },
     {
-      "id": "pollock-krasner",
-      "name": "Pollock-Krasner Foundation",
-      "type": "grant",
-      "location": "International",
-      "region": "international",
-      "duration": "One-time grant",
-      "deadline": "Rolling",
-      "cost": "No fee",
-      "stipend": "$5,000-$30,000",
-      "funding": true,
-      "description": "For visual artists facing financial hardship.",
-      "details": "No application fee. Decisions in 4-6 months. Need-based.",
-      "goodFor": "Artists in financial need, career transitions, emergencies.",
-      "eligibility": "Visual artists with financial need, 5+ years practice",
-      "facilities": null,
-      "howToApply": "Online application, portfolio, financial information.",
-      "website": "https://pkf.org",
-      "tags": [
-        "grant",
-        "need-based",
-        "international",
-        "emergency"
-      ],
-      "status": "active",
-      "lastVerified": "2026-10-28"
-    },
-    {
       "id": "usa-fellowship",
       "name": "United States Artists Fellowship",
       "type": "fellowship",
