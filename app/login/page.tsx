@@ -8,12 +8,11 @@ export const metadata = {
 export default async function LoginPage({ searchParams }: { searchParams: Promise<{ next?: string }> }) {
   const { next } = await searchParams;
   return (
-    <div className="min-h-screen pb-16">
-      {/* dark band behind the fixed white nav (this page has no hero) */}
-      <div className="h-14 md:h-[88px] bg-charcoal-dark" aria-hidden />
-      <div className="max-w-sm mx-auto px-4 pt-10">
-        <h1 className="font-serif text-display-sm md:text-display-md mb-2">Sign in</h1>
-        <p className="text-body-sm text-warm-500 mb-8">Your glaze shelf, saved and the same on your phone and laptop.</p>
+    <div className="wrap-narrow !max-w-sm pt-12 md:pt-20 pb-24">
+      <div>
+        <p className="eyebrow">Account</p>
+        <h1 className="display text-[2.4rem] leading-tight mt-2 mb-3">Sign in</h1>
+        <p className="text-body-md text-ink-2 mb-8">Your shelf, your sketches and your renders, the same on your phone and laptop.</p>
         <LoginForm next={next} />
       </div>
     </div>
