@@ -3072,7 +3072,7 @@
       "name": "Sandy Brown",
       "lifespan": "1946–",
       "origin": "Britain",
-      "hasImage": false,
+      "hasImage": true,
       "fallbackColor": "#D4A574",
       "visualCaption": "Wild clay, wild spirit. Joy in making.",
       "story": {
@@ -3106,7 +3106,14 @@
           "label": "Sandy Brown's site",
           "url": "https://www.sandybrownarts.com/"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/sandy-brown.webp",
+        "alt": "Earth Goddess sculpture by Sandy Brown, Aylmer Square, St Austell, Cornwall - November 2022",
+        "credit": "Mutney / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Earth_Goddess_sculpture_by_Sandy_Brown,_Aylmer_Square,_St_Austell,_Cornwall_-_November_2022.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "ken-matsuzaki",
@@ -3534,7 +3541,7 @@
       "name": "Victoria and Albert Museum",
       "country": "UK",
       "type": "museum",
-      "hasImage": false,
+      "hasImage": true,
       "visualCaption": "The world's greatest decorative arts collection.",
       "connections": [
         "rie",
@@ -3556,7 +3563,14 @@
           "label": "V&A",
           "url": "https://www.vam.ac.uk/collections/ceramics"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/victoria-albert.webp",
+        "alt": "Display case, Ceramics Gallery, V&A London",
+        "credit": "14GTR / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Display_case,_Ceramics_Gallery,_V%26A_London.jpg",
+        "license": "CC0"
+      }
     },
     {
       "id": "faenza",
@@ -3839,7 +3853,7 @@
         "High calcium glazes",
         "Thick application"
       ],
-      "hasImage": false,
+      "hasImage": true,
       "story": {
         "hook": "A surface that looks as if it boiled and froze in the moment of cooling.",
         "body": "Volcanic or crater glazes trap gas as they melt. Silicon carbide added to a glaze gives off gas in the firing and leaves bubbles and craters; very high-calcium or underfired glazes can blister on their own. Thick application and a fast cool freeze the bubbles in place.\n\nThe result is pitted, lunar and tactile: beautiful on sculpture and planters, poor on anything that touches food or lips, because the craters hold dirt and can be sharp.",
@@ -3851,7 +3865,14 @@
           "label": "Ceramic glaze (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Ceramic_glaze"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/volcanic.webp",
+        "alt": "Thrown, Volcanic vase by Barbara Cass (YORYM-2004.1.252)",
+        "credit": "Creator:Barbara Cass / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Thrown,_Volcanic_vase_by_Barbara_Cass_(YORYM-2004.1.252).JPG",
+        "license": "CC BY-SA 3.0"
+      }
     },
     {
       "id": "liquid",
@@ -4116,7 +4137,7 @@
         "Shino-type glazes",
         "Heavy reduction"
       ],
-      "hasImage": false,
+      "hasImage": true,
       "story": {
         "hook": "Grey and black smoke caught inside a glaze for good.",
         "body": "Carbon trapping happens when a glaze containing soda ash or other soluble sodium melts early in a reduction firing, sealing carbon from the smoky atmosphere into the surface. It shows as grey shadows and black flecks, especially in Shino glazes.\n\nIt depends on timing: heavy reduction early, before the glaze seals, is what captures the carbon, which is why results vary across the kiln.",
@@ -4128,7 +4149,14 @@
           "label": "Shino ware (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Shino_ware"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/carbon-trap.webp",
+        "alt": "Tea bowl (chawan), E-shino style, Japan, Gifu prefecture, Oyabu, c. 1600, stoneware, ash glaze - Montreal Museum of Fine Arts - Montreal, Canada - DSC09535",
+        "credit": "Daderot / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Tea_bowl_(chawan),_E-shino_style,_Japan,_Gifu_prefecture,_Oyabu,_c._1600,_stoneware,_ash_glaze_-_Montreal_Museum_of_Fine_Arts_-_Montreal,_Canada_-_DSC09535.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "oil-spot",
@@ -4139,7 +4167,7 @@
         "Saturated iron glaze",
         "Precise temperature"
       ],
-      "hasImage": false,
+      "hasImage": true,
       "story": {
         "hook": "A black glaze scattered with silver spots, like drops of oil on water.",
         "body": "Oil-spot comes from Song dynasty Jian ware. During firing, iron oxide releases oxygen and bubbles rise through the glaze, carrying iron to the surface where it crystallises as metallic spots on the black ground. The most prized example, the yohen tenmoku bowls in Japan, are national treasures.\n\nIt needs a high-iron, thick glaze and a carefully controlled firing; modern potters have made reliable versions at cone 10 and even cone 6.",
@@ -4151,7 +4179,14 @@
           "label": "Jian ware (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Jian_ware"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/oil-spot.webp",
+        "alt": "Drinking bowl, Jian ware with oil spot glaze, China, Fujian Province, Jian kilns, Northern or Southern Song dynasty, probably 1100s AD, stoneware, iron-colored glaze - Freer Gallery of Art - DSC05049",
+        "credit": "Daderot / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Drinking_bowl,_Jian_ware_with_oil_spot_glaze,_China,_Fujian_Province,_Jian_kilns,_Northern_or_Southern_Song_dynasty,_probably_1100s_AD,_stoneware,_iron-colored_glaze_-_Freer_Gallery_of_Art_-_DSC05049.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "crawling",
@@ -4245,7 +4280,7 @@
         "Iron-saturated glaze",
         "Specific cooling"
       ],
-      "hasImage": false,
+      "hasImage": true,
       "story": {
         "hook": "Fine brown and gold streaks running through black glaze, like animal fur.",
         "body": "Hare's fur is another Song dynasty Jian ware glaze: as an iron-saturated glaze runs down the pot, iron crystallises into fine streaks. Tea masters in China and Japan prized these bowls for whisked tea, which showed well against the dark glaze.\n\nIt needs a fluid, high-iron glaze applied thick on the upper part of the pot so it streaks as it runs.",
@@ -4257,7 +4292,14 @@
           "label": "Jian ware (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Jian_ware"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/hares-fur.webp",
+        "alt": "Bowl, Jian ware, China, Southern Song dynasty, 1100s-1200s AD, ceramic, black glaze with hare's fur marks - Tokyo National Museum - Tokyo, Japan - DSC08422",
+        "credit": "Daderot / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bowl,_Jian_ware,_China,_Southern_Song_dynasty,_1100s-1200s_AD,_ceramic,_black_glaze_with_hare%27s_fur_marks_-_Tokyo_National_Museum_-_Tokyo,_Japan_-_DSC08422.jpg",
+        "license": "Public domain"
+      }
     }
   ],
   "techniques": [
@@ -4271,7 +4313,7 @@
         "Non-round shapes",
         "No wheel needed"
       ],
-      "hasImage": false,
+      "hasImage": true,
       "sourceUrl": "https://www.britannica.com/art/coiling",
       "story": {
         "hook": "The oldest way to build a pot: one rope of clay at a time.",
@@ -4288,7 +4330,14 @@
           "label": "Encyclopaedia Britannica",
           "url": "https://www.britannica.com/art/coiling"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/coiling.webp",
+        "alt": "Grand Canyon Archaeology Day 2013 Making a Pot 3664 - Flickr - Grand Canyon NPS",
+        "credit": "Grand Canyon National Park / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_Archaeology_Day_2013_Making_a_Pot_3664_-_Flickr_-_Grand_Canyon_NPS.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "burnishing",
@@ -4362,7 +4411,7 @@
         "Drawing",
         "Simple tools"
       ],
-      "hasImage": false,
+      "hasImage": true,
       "sourceUrl": "https://www.britannica.com/art/sgraffito",
       "story": {
         "hook": "Scratching through a layer of slip to draw with the clay underneath.",
@@ -4379,7 +4428,14 @@
           "label": "Encyclopaedia Britannica",
           "url": "https://www.britannica.com/art/sgraffito"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/sgraffito.webp",
+        "alt": "Sgraffito ware Bowl - Mamluk period - 14th century - MET - inventory number 30.112.18",
+        "credit": "Faqscl / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Sgraffito_ware_Bowl_-_Mamluk_period_-_14th_century_-_MET_-_inventory_number_30.112.18.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "pit-firing",
@@ -4422,7 +4478,7 @@
         "Celadons",
         "Tenmokus"
       ],
-      "hasImage": false,
+      "hasImage": true,
       "story": {
         "hook": "Starving the fire of oxygen to change the colour of clay and glaze.",
         "body": "In a fuel-burning kiln, cutting the air supply makes the flame hunt for oxygen in the clay and glazes. Iron turns from brown to blue-green or black, copper turns red, and clay bodies darken and speckle. Celadon, Shino, tenmoku and copper red all depend on reduction.\n\nElectric kilns fire in oxidation, so reduction means gas or wood kilns; some Bay Area studios run cone 10 gas reduction for members.",
@@ -4434,7 +4490,14 @@
           "label": "Kiln (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Kiln"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/reduction-firing.webp",
+        "alt": "Iniciando la Quema de Cerámica en UAM-X en la Ciudad de México",
+        "credit": "Mex e can / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Iniciando_la_Quema_de_Cer%C3%A1mica_en_UAM-X_en_la_Ciudad_de_M%C3%A9xico.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "kintsugi",
@@ -4610,7 +4673,7 @@
         "Local materials",
         "Connection to place"
       ],
-      "hasImage": false,
+      "hasImage": true,
       "story": {
         "hook": "Turning the ash of a fire into glaze.",
         "body": "Wood ash is rich in calcium, potassium and some silica and phosphorus, so at high temperatures it melts into glass. Ash glazes, often about half ash and half clay or feldspar, give greens, ambers and runs that recall wood-fired pots, and every batch is different depending on the tree and how the ash was washed.\n\nWashing removes the caustic soluble salts; always wear gloves and a mask when handling ash.",
@@ -4626,7 +4689,14 @@
           "label": "Ash Glazes, Phil Rogers (Open Library)",
           "url": "https://openlibrary.org/search?title=Ash+Glazes&author=Phil+Rogers"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/ash-glazing.webp",
+        "alt": "Storage jar, Shigaraki ware, Japan, Shiga prefecture, Muromachi period, 1400-1500, stoneware, natural ash glaze - Asian Art Museum - San Francisco, CA - DSC07912",
+        "credit": "Daderot / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Storage_jar,_Shigaraki_ware,_Japan,_Shiga_prefecture,_Muromachi_period,_1400-1500,_stoneware,_natural_ash_glaze_-_Asian_Art_Museum_-_San_Francisco,_CA_-_DSC07912.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "raku-firing",
@@ -4638,7 +4708,7 @@
         "Quick results",
         "Metallic lusters"
       ],
-      "hasImage": false,
+      "hasImage": true,
       "story": {
         "hook": "Pulling red-hot pots from the kiln and smoking them in sawdust.",
         "body": "Raku began in 16th-century Kyoto with tea bowls fired quickly and pulled from the kiln. American potters, led by Paul Soldner in the 1960s, added post-firing reduction: hot pots go into a can of sawdust or paper, which flames, then is closed. Glazes crackle and the cracks turn black, and copper glazes flash with metallic lustre.\n\nIt is fast, theatrical and outdoors, and needs a clay body that tolerates thermal shock. Pots are decorative, not for food.",
@@ -4650,7 +4720,14 @@
           "label": "Raku ware (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Raku_ware"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/raku-firing.webp",
+        "alt": "Raku 15.06.2014 11-38-23",
+        "credit": "Dirk Ingo Franke / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Raku_15.06.2014_11-38-23.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "soda-firing",
@@ -4753,7 +4830,7 @@
         "Consistent forms",
         "Tiles"
       ],
-      "hasImage": false,
+      "hasImage": true,
       "story": {
         "hook": "Pressing slabs of clay into or over a mould to repeat a form.",
         "body": "Press moulding is one of the oldest ways of making in multiples: clay is pressed into a bisque or plaster mould, or draped over a hump mould, and released as it stiffens. Roman lamps, Mesoamerican figures and Japanese dishes were all made this way.\n\nIt allows square and irregular shapes that would be hard on a wheel, and lets a hand-built form be repeated.",
@@ -4765,7 +4842,14 @@
           "label": "Molding (process) (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Molding_(process)"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/press-molding.webp",
+        "alt": "Press Moulded Bottle with incised decoration.",
+        "credit": "Hajeonglee / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Press_Moulded_Bottle_with_incised_decoration..jpg",
+        "license": "CC BY-SA 3.0"
+      }
     },
     {
       "id": "slip-casting",
@@ -4808,7 +4892,7 @@
         "Unpredictable",
         "Drama"
       ],
-      "hasImage": false,
+      "hasImage": true,
       "story": {
         "hook": "Blackening and patterning bare clay with smoke.",
         "body": "Smoke firing exposes bisqued, often burnished or terra sigillata-coated pots to smoke from sawdust, paper, leaves or horse hair, in a pit, a barrel or a saggar. Carbon soaks into the porous surface in blacks and greys, and resists such as tape or clay slip make patterns.\n\nThe pots stay porous and are for display, sealed with wax if needed.",
@@ -4820,7 +4904,14 @@
           "label": "Pit fired pottery (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Pit_fired_pottery"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/smoke-firing.webp",
+        "alt": "Clay pot workshop - pit fired pottery 20220916120912",
+        "credit": "Philtom12 / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Clay_pot_workshop_-_pit_fired_pottery_20220916120912.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "oxide-wash",
@@ -4980,7 +5071,7 @@
         "natural-ash",
         "bizen"
       ],
-      "hasImage": false,
+      "hasImage": true,
       "story": {
         "hook": "The kiln as a partner, not a tool.",
         "body": "In wood, soda, salt and raku firings, the fire leaves marks the potter cannot fully plan: ash deposits, flashing, smoke and cracks. Many potters think of the firing as the last collaborator in the making, and design their pots to receive the fire, leaving bare clay where flame will touch, placing them in the kiln by intuition.\n\nIt asks for trust and for a willingness to accept results that surprise you.",
@@ -4992,7 +5083,14 @@
           "label": "Anagama kiln (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Anagama_kiln"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/fire-collaboration.webp",
+        "alt": "Jiaotanxia dragon kiln Hangzhou 2009",
+        "credit": "G41rn8 / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Jiaotanxia_dragon_kiln_Hangzhou_2009.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "constraint-creativity",
@@ -5004,7 +5102,7 @@
         "african-coil",
         "pit-firing"
       ],
-      "hasImage": false,
+      "hasImage": true,
       "story": {
         "hook": "Limits that make the work better.",
         "body": "Many great pottery traditions grew from limits: one clay, one kiln, one form repeated thousands of times. Constraints force invention: Korean buncheong potters, with grey clay and no porcelain, invented a whole language of white slip; Mingei potters made beauty within the needs of everyday use.\n\nIn the studio, a self-imposed limit, one glaze, one form, one day, often opens more doors than a free hand.",
@@ -5016,7 +5114,14 @@
           "label": "Buncheong (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Buncheong"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/constraint-creativity.webp",
+        "alt": "Buncheong ceramics korea, Goryeo dynasty to Joseon period",
+        "credit": "Lightbearer03 / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Buncheong_ceramics_korea,_Goryeo_dynasty_to_Joseon_period.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "daily-object",
@@ -5096,7 +5201,7 @@
         "yanagi",
         "mingei"
       ],
-      "hasImage": false,
+      "hasImage": true,
       "sourceUrl": "https://www.mingeikan.or.jp/english/about/",
       "story": {
         "hook": "Beauty made by people whose names were never recorded.",
@@ -5117,7 +5222,14 @@
           "label": "The Unknown Craftsman, Soetsu Yanagi (Open Library)",
           "url": "https://openlibrary.org/search?title=The+Unknown+Craftsman&author=Soetsu+Yanagi"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/anonymous-craft.webp",
+        "alt": "Moon jar. 18thC.Joseon Dynasty.British Museum",
+        "credit": "Ismoon (talk) 15:44, 31 January 2018 (UTC) / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Moon_jar._18thC.Joseon_Dynasty.British_Museum.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "tradition-innovation",
@@ -5129,7 +5241,7 @@
         "dyalvane",
         "contemporary"
       ],
-      "hasImage": false,
+      "hasImage": true,
       "story": {
         "hook": "Every new thing in clay begins inside an old one.",
         "body": "Potters have always worked between inheritance and invention. Korean potters taken to Japan founded new traditions; Maria Martinez revived a lost San Ildefonso black ware and changed it; Peter Voulkos took the functional jar and broke it open into sculpture. Tradition gives a vocabulary, and innovation comes from knowing it well enough to change it.\n\nThe question is not whether to follow or break tradition but which one you belong to and what you add.",
@@ -5141,7 +5253,14 @@
           "label": "Studio pottery (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Studio_pottery"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/tradition-innovation.webp",
+        "alt": "Waistel Cooper clam-shell sgraffito stoneware vase",
+        "credit": "Metadadaist / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Waistel_Cooper_clam-shell_sgraffito_stoneware_vase.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "material-honesty",
@@ -5229,7 +5348,7 @@
         "price",
         "contemporary"
       ],
-      "hasImage": false,
+      "hasImage": true,
       "story": {
         "hook": "When a vessel is also a sculpture, and a sculpture still holds something.",
         "body": "The line between a useful pot and a sculpture has long been blurred. Song dynasty vases, Bizen flower vessels, Hans Coper's spade forms and Peter Voulkos's stacked jars all hold space and suggest use while being chiefly about form.\n\nFunctional sculpture keeps the vessel's logic, an opening, an inside and outside, while freeing it from daily duty.",
@@ -5241,7 +5360,14 @@
           "label": "Studio pottery (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Studio_pottery"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/functional-sculpture.webp",
+        "alt": "Spade-shaped vase by Hans Coper, V&A London 01",
+        "credit": "14GTR / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Spade-shaped_vase_by_Hans_Coper,_V%26A_London_01.jpg",
+        "license": "CC0"
+      }
     }
   ],
   "moments": [
@@ -5293,7 +5419,7 @@
         "jomon",
         "ancient"
       ],
-      "hasImage": false,
+      "hasImage": true,
       "sourceUrl": "https://www.metmuseum.org/toah/hd/jomo/hd_jomo.htm",
       "story": {
         "hook": "An American zoologist digs a shell mound and names the world's oldest pottery.",
@@ -5310,7 +5436,14 @@
           "label": "The Met",
           "url": "https://www.metmuseum.org/toah/hd/jomo/hd_jomo.htm"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/jomon-discovery.webp",
+        "alt": "Omori Shell Mound Monument - Omori, Tokyo, Japan - DSC05591",
+        "credit": "Daderot / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Omori_Shell_Mound_Monument_-_Omori,_Tokyo,_Japan_-_DSC05591.jpg",
+        "license": "CC0"
+      }
     },
     {
       "id": "leach-hamada-meeting",
@@ -5355,7 +5488,7 @@
         "price",
         "sculptural"
       ],
-      "hasImage": false,
+      "hasImage": true,
       "story": {
         "hook": "In 1950s Los Angeles, clay broke free of the pot.",
         "body": "Peter Voulkos started a ceramics department at the Los Angeles County Art Institute (later Otis) in 1954. With students and friends including Paul Soldner, John Mason, Ken Price and Billy Al Bengston, he worked through the night, throwing huge forms, tearing and stacking them, with the energy of Abstract Expressionist painting.\n\nThe work changed what clay could be in America. In 1959 Voulkos moved to UC Berkeley, where he taught for decades and helped make the Bay Area a centre of ceramic sculpture.",
@@ -5367,7 +5500,14 @@
           "label": "Otis College of Art and Design (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Otis_College_of_Art_and_Design"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/voulkos-otis.webp",
+        "alt": "Two works by Peter Voulkos, V&A London",
+        "credit": "14GTR / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Two_works_by_Peter_Voulkos,_V%26A_London.jpg",
+        "license": "CC0"
+      }
     },
     {
       "id": "meissen-secret",
@@ -5417,7 +5557,7 @@
         "pueblo",
         "burnishing"
       ],
-      "hasImage": false,
+      "hasImage": true,
       "sourceUrl": "https://americanindian.si.edu/explore/collections/object/NMAI_239377",
       "story": {
         "hook": "A Pueblo couple revive and reinvent a black pottery that becomes famous worldwide.",
@@ -5434,7 +5574,14 @@
           "label": "Smithsonian National Museum of the American Indian",
           "url": "https://americanindian.si.edu/explore/collections/object/NMAI_239377"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/maria-black-on-black.webp",
+        "alt": "María and Julián Martinez pit firing blackware pottery (c.1920)",
+        "credit": "Unknown photographer (early 20th C) / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Mar%C3%ADa_and_Juli%C3%A1n_Martinez_pit_firing_blackware_pottery_(c.1920).jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "chojiro-first-raku",
@@ -5484,7 +5631,7 @@
         "coper",
         "modernism"
       ],
-      "hasImage": false,
+      "hasImage": true,
       "story": {
         "hook": "A refugee potter and a refugee assistant in a London mews.",
         "body": "Lucie Rie, who fled Vienna in 1938, set up a studio in Albion Mews in London. In 1946 Hans Coper, also a refugee, came to help her make ceramic buttons. She taught him to throw, and they shared the studio until 1958, each developing a modernist language very different from Leach's rustic stoneware: thin walls, sgraffito lines, volcanic and pitted glazes.\n\nRie's studio was later reconstructed in the V&A.",
@@ -5496,7 +5643,14 @@
           "label": "Lucie Rie (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Lucie_Rie"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/rie-coper-studio.webp",
+        "alt": "Bowl by Lucie Rie, National Museum Cardiff",
+        "credit": "14GTR / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bowl_by_Lucie_Rie,_National_Museum_Cardiff.jpg",
+        "license": "CC0"
+      }
     },
     {
       "id": "song-five-kilns",
@@ -5546,7 +5700,7 @@
         "picasso",
         "artist-ceramics"
       ],
-      "hasImage": false,
+      "hasImage": true,
       "sourceUrl": "https://www.britannica.com/biography/Pablo-Picasso/Ceramics",
       "story": {
         "hook": "At 65, Picasso falls for clay in a small Riviera workshop.",
@@ -5563,7 +5717,14 @@
           "label": "Encyclopaedia Britannica",
           "url": "https://www.britannica.com/biography/Pablo-Picasso/Ceramics"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/picasso-vallauris.webp",
+        "alt": "York Art Gallery, 'Petit Buste de Femme' (Small Female Bust) by Pablo Picasso - geograph.org.uk - 7648912",
+        "credit": "Michael Garlick / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:York_Art_Gallery,_%27Petit_Buste_de_Femme%27_(Small_Female_Bust)_by_Pablo_Picasso_-_geograph.org.uk_-_7648912.jpg",
+        "license": "CC BY-SA 2.0"
+      }
     },
     {
       "id": "mingei-movement",
@@ -5576,7 +5737,7 @@
         "mingei",
         "hamada"
       ],
-      "hasImage": false,
+      "hasImage": true,
       "sourceUrl": "https://www.mingeikan.or.jp/english/about/",
       "story": {
         "hook": "A philosopher and two potters name the beauty of everyday things.",
@@ -5593,7 +5754,14 @@
           "label": "The Unknown Craftsman, Soetsu Yanagi (Open Library)",
           "url": "https://openlibrary.org/search?title=The+Unknown+Craftsman&author=Soetsu+Yanagi"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/mingei-movement.webp",
+        "alt": "Japan Folk Crafts Museum 2026 Aug 30 various 04",
+        "credit": "Nesnad / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Japan_Folk_Crafts_Museum_2026_Aug_30_various_04.jpg",
+        "license": "CC BY 4.0"
+      }
     },
     {
       "id": "dona-rosa-discovery",
@@ -5606,7 +5774,7 @@
         "dona-rosa",
         "burnishing"
       ],
-      "hasImage": false,
+      "hasImage": true,
       "sourceUrl": "https://ich.unesco.org/en/RL/artisanal-processes-of-barro-negro-pottery-of-oaxaca-00732",
       "story": {
         "hook": "A potter in Oaxaca discovers how to make black clay shine.",
@@ -5623,7 +5791,14 @@
           "label": "UNESCO Intangible Heritage",
           "url": "https://ich.unesco.org/en/RL/artisanal-processes-of-barro-negro-pottery-of-oaxaca-00732"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/dona-rosa-discovery.webp",
+        "alt": "Barro negro de Oaxaca",
+        "credit": "Slevinr / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Barro_negro_de_Oaxaca.JPG",
+        "license": "CC BY 3.0"
+      }
     },
     {
       "id": "chinese-export-collapse",
@@ -5672,7 +5847,7 @@
         "leach",
         "studio-pottery"
       ],
-      "hasImage": false,
+      "hasImage": true,
       "story": {
         "hook": "A book that taught generations to become potters.",
         "body": "Bernard Leach published A Potter's Book in 1940. It joined practical instruction, on clay, glazes, kilns and throwing, with a philosophy of the pot as a balance of beauty and use, drawn from his years in Japan. For decades it was the first book many studio potters read.\n\nIt also set a standard of the 'good pot' that later potters both learned from and argued against.",
@@ -5688,7 +5863,14 @@
           "label": "A Potter's Book, Bernard Leach (Open Library)",
           "url": "https://openlibrary.org/search?title=A+Potter%27s+Book&author=Bernard+Leach"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/potters-book.webp",
+        "alt": "Studio Ceramics water pot by Bernard Leach (YORYM-2004.1.2022.2)",
+        "credit": "Bernard Leach / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Studio_Ceramics_water_pot_by_Bernard_Leach_(YORYM-2004.1.2022.2).JPG",
+        "license": "CC BY-SA 3.0"
+      }
     },
     {
       "id": "ohr-rediscovery",
@@ -5700,7 +5882,7 @@
         "george-ohr",
         "biloxi"
       ],
-      "hasImage": false,
+      "hasImage": true,
       "sourceUrl": "https://www.georgeohr.org/",
       "story": {
         "hook": "Thousands of pots by the 'Mad Potter of Biloxi', hidden for decades, are found.",
@@ -5717,7 +5899,14 @@
           "label": "Ohr-O'Keefe Museum",
           "url": "https://www.georgeohr.org/"
         }
-      ]
+      ],
+      "image": {
+        "src": "/images/inspirations/ohr-rediscovery.webp",
+        "alt": "George E. Ohr pottery workshop",
+        "credit": "Detroit Publishing Co. / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:George_E._Ohr_pottery_workshop.jpg",
+        "license": "Public domain"
+      }
     }
   ]
 }
