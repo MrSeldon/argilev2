@@ -1,0 +1,1356 @@
+[
+  {
+    "id": "co-raquira-alfareria",
+    "name": "Ráquira: capital artesanal de la alfarería",
+    "nameEnglish": "Ráquira: pottery capital",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "Ráquira",
+      "region": "Boyacá",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 5.53801,
+        "lng": -73.63222
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "traditional",
+      "wheel",
+      "earthenware"
+    ],
+    "description": "Boyacá town known as Colombia's craft capital, where pottery is the main craft. Artesanías de Colombia's 2026 coverage notes a protected denomination of origin for Ráquira artisan ceramics and JICA-backed technical assistance workshops for local artisans.",
+    "descriptionOriginal": "Artesanos de Ráquira ahora con Denominación de Origen: la SIC protegió la «Cerámica Artesanal de Ráquira Colombia».",
+    "details": "Artesanías de Colombia also runs a clay-to-object feature series on Ráquira techniques ('de arcilla a objeto artesanal'). Many shops let visitors try the wheel (travel press, not verified individually). No published rules on clay collecting found; clay is worked locally (Ráquira red clay, see Santiago Rodríguez Ruiz entry).",
+    "website": "https://artesaniasdecolombia.com.co/PortalAC/Contenido/ListaTag.jsf?tag=R%C3%A1quira",
+    "tags": [
+      "colombia",
+      "boyaca",
+      "pottery-town",
+      "wheel",
+      "community",
+      "materials",
+      "workshop"
+    ],
+    "category": "community",
+    "categories": [
+      "community",
+      "materials",
+      "workshop"
+    ],
+    "source": "https://artesaniasdecolombia.com.co/PortalAC/Contenido/ListaTag.jsf?tag=R%C3%A1quira",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-raquira-concurso-torneros",
+    "name": "Fiestas Patronales de Ráquira: Concurso de Torneros",
+    "nameEnglish": "Ráquira Patron Festival: potters' wheel contest",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "Ráquira",
+      "region": "Boyacá",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 5.53801,
+        "lng": -73.63222
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "wheel",
+      "traditional"
+    ],
+    "description": "Annual town festival (12 to 15 June 2026) whose programme included a Concurso de Torneros, a cultural contest on the wheel-throwing process behind Ráquira's pottery, on Monday 15 June at 2 pm.",
+    "descriptionOriginal": "Concurso de Torneros, competencia cultural el proceso de las artesanías.",
+    "details": "Venue for the contest not named on the page. Dates for the 2027 edition not yet known.",
+    "website": "https://viajaporcolombia.com/noticias/fiestas-patronales-2026-en-raquira-boyaca_10881/",
+    "tags": [
+      "colombia",
+      "boyaca",
+      "festival",
+      "wheel",
+      "festival",
+      "community"
+    ],
+    "category": "festival",
+    "categories": [
+      "festival",
+      "community"
+    ],
+    "source": "https://viajaporcolombia.com/noticias/fiestas-patronales-2026-en-raquira-boyaca_10881/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-raquira-taller-artesania",
+    "name": "Taller de artesanía en Ráquira",
+    "nameEnglish": "Pottery workshop in Ráquira",
+    "type": "workshop",
+    "status": "unconfirmed",
+    "location": {
+      "city": "Ráquira",
+      "region": "Boyacá",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 5.53801,
+        "lng": -73.63222
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "handbuilding",
+      "traditional"
+    ],
+    "description": "Three-hour guided pottery workshop in Ráquira where a craftsperson teaches you to design and make your own clay piece; guides speak Spanish and English.",
+    "descriptionOriginal": "Un experto artesano guía a los participantes para diseñar y elaborar su propia pieza de barro.",
+    "details": "Booking-platform listing (from 56 EUR). Operator not named and no dates shown; meeting point listed as a hotel in Villa de Leyva. Confirm before travelling.",
+    "website": "https://www.minube.com/actividades/taller-de-artesania-en-raquira-villa-de-leyva-t92339",
+    "tags": [
+      "colombia",
+      "boyaca",
+      "tourist-workshop",
+      "workshop"
+    ],
+    "category": "workshop",
+    "categories": [
+      "workshop"
+    ],
+    "source": "https://www.minube.com/actividades/taller-de-artesania-en-raquira-villa-de-leyva-t92339",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-raquira-santiago-rodriguez-ruiz",
+    "name": "Santiago Rodríguez Ruiz (escultor raquireño)",
+    "nameEnglish": "Santiago Rodríguez Ruiz, Ráquira-born sculptor",
+    "type": "artist",
+    "status": "active",
+    "location": {
+      "city": "Ráquira",
+      "region": "Boyacá",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 5.53801,
+        "lng": -73.63222
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "sculpture",
+      "red-clay",
+      "slip",
+      "sgraffito"
+    ],
+    "description": "Ráquira-born sculptor whose 2026 installation ABA used about 200 hand-modelled pieces of Ráquira red clay, dried, fired and polished, decorated with engobes and sgraffito. Shown at UN_FAIR Tequendama, Bogotá, 18 to 27 September 2026.",
+    "descriptionOriginal": "Piezas de «arcilla roja de Ráquira»; las superficies usan «engobes y esgrafiados».",
+    "details": "Evidence of a working contemporary artist using local clay; no information found on teaching or hosting, so contact only as an inspiration/networking lead.",
+    "website": "https://boyaca7dias.com.co/2026/09/24/aba-propuesta-de-escultor-raquireno-brilla-en-la-feria-internacional-un_fair-2026/",
+    "tags": [
+      "colombia",
+      "boyaca",
+      "red-clay",
+      "artist",
+      "materials"
+    ],
+    "category": "artist",
+    "categories": [
+      "artist",
+      "materials"
+    ],
+    "source": "https://boyaca7dias.com.co/2026/09/24/aba-propuesta-de-escultor-raquireno-brilla-en-la-feria-internacional-un_fair-2026/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-la-chamba-ceramica-negra",
+    "name": "Cerámica Negra de La Chamba",
+    "nameEnglish": "La Chamba black pottery (Tolima)",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "La Chamba (Guamo)",
+      "region": "Tolima",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 4.0257,
+        "lng": -74.86893
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "traditional",
+      "blackware",
+      "smoke-firing",
+      "burnishing"
+    ],
+    "description": "Riverside veredas (La Chamba and Chipuelo Oriente) with 300+ years of black and red pottery, protected since December 2019 as the Denominación de Origen 'Cerámica Negra de La Chamba'. Pieces are made from three local clays, finished with a slip varnish and smoked ('negreado').",
+    "descriptionOriginal": "Se combinan tres arcillas de la zona: la lisa (plasticidad), la arenosa (secado uniforme) y la roja (negreado).",
+    "details": "Use of the denomination is authorised through the SIC, delegated to the artisan association ASOARCH (Asociación de Artesanos de las Veredas La Chamba y Chipuelo). Products covered: domestic and culinary ware.",
+    "website": "https://sedeelectronica.sic.gov.co/noticias/superindustria-declara-la-proteccion-de-la-denominacion-de-origen-ceramica-negra-de-la-chamba",
+    "tags": [
+      "colombia",
+      "tolima",
+      "denominacion-de-origen",
+      "smoke-fired",
+      "community",
+      "materials"
+    ],
+    "category": "community",
+    "categories": [
+      "community",
+      "materials"
+    ],
+    "source": "https://sedeelectronica.sic.gov.co/noticias/superindustria-declara-la-proteccion-de-la-denominacion-de-origen-ceramica-negra-de-la-chamba",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-la-chamba-arcilla-predio",
+    "name": "Predio de arcilla negra de La Chamba",
+    "nameEnglish": "La Chamba black-clay pit (community clay plot)",
+    "type": "materials",
+    "status": "unconfirmed",
+    "location": {
+      "city": "La Chamba (Guamo)",
+      "region": "Tolima",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 4.0257,
+        "lng": -74.86893
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "wild-clay",
+      "clay-extraction"
+    ],
+    "description": "Clay plot owned by the Tolima departmental government with about 1.79 ha suitable for extraction; in 2023 artisans reported having no legal access and digging by hand in open pits about 0.5 m deep on private rice and corn land, while an ordinance to recover the plot for community use was pursued.",
+    "descriptionOriginal": "Los artesanos están «obligados a ingresar a predios privados» para extraer arcilla; se busca recuperar el predio de la Gobernación del Tolima.",
+    "details": "Key customs and rules for wild clay: manual extraction, three clays blended, access governed by landowner/Gobernación. A 2025 thesis cites the 2023 initiative as a model for formalising artisanal clay mining. Current legal status of access not confirmed; ask ASOARCH before collecting.",
+    "website": "https://www.infobae.com/colombia/2023/02/02/buscan-rescatar-predio-en-tolima-donde-se-produce-la-arcilla-negra-para-la-elaboracion-de-ceramica/",
+    "tags": [
+      "colombia",
+      "tolima",
+      "wild-clay",
+      "community-clay-pit",
+      "materials",
+      "community"
+    ],
+    "category": "materials",
+    "categories": [
+      "materials",
+      "community"
+    ],
+    "source": "https://www.infobae.com/colombia/2023/02/02/buscan-rescatar-predio-en-tolima-donde-se-produce-la-arcilla-negra-para-la-elaboracion-de-ceramica/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-la-chamba-taller-escuela-manos-de-oro",
+    "name": "Taller Escuela Manos de Oro (La Chamba)",
+    "nameEnglish": "Manos de Oro workshop-school, La Chamba",
+    "type": "workshop",
+    "status": "unconfirmed",
+    "location": {
+      "city": "La Chamba (Guamo)",
+      "region": "Tolima",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 4.0257,
+        "lng": -74.86893
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "traditional",
+      "blackware",
+      "handbuilding"
+    ],
+    "description": "Workshop-school in the vereda La Chamba run by local artisans where visitors can watch and take part in black-clay work from clay extraction through modelling and firing.",
+    "descriptionOriginal": "Visitantes pueden participar «desde la extracción del barro hasta el moldeado y cocción de las piezas».",
+    "details": "Documented by Canal Trece's 'Rezeteando' in August 2024; no booking details found. Products: tableware, pots, decorative and pre-Columbian-style pieces, nativity figures.",
+    "website": "https://canaltrece.com.co/editorial/barro-negro-palma-real-la-chamba/",
+    "tags": [
+      "colombia",
+      "tolima",
+      "hands-on",
+      "visit",
+      "workshop",
+      "community",
+      "mentorship"
+    ],
+    "category": "workshop",
+    "categories": [
+      "workshop",
+      "community",
+      "mentorship"
+    ],
+    "source": "https://canaltrece.com.co/editorial/barro-negro-palma-real-la-chamba/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-carmen-de-viboral-ceramica",
+    "name": "Cerámica de El Carmen de Viboral",
+    "nameEnglish": "El Carmen de Viboral hand-painted ceramics",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "El Carmen de Viboral",
+      "region": "Antioquia",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 6.08331,
+        "lng": -75.33535
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "traditional",
+      "tableware",
+      "underglaze-painting",
+      "hand-painting"
+    ],
+    "description": "Antioquia pottery town famed for hand-painted underglaze tableware, inscribed in 2024 on Colombia's national intangible heritage list. In September 2026 about 11 workshops and 12 decorators produced a new collection; visitors can tour workshops and paint their own piece.",
+    "descriptionOriginal": "Visitantes pueden recorrer talleres, conocer el proceso y pintar su pieza; «conozca a quienes mantienen vivo este oficio».",
+    "details": "Associated with white kaolin clay (secondary source, not opened). Plan Especial de Salvaguardia published by the Ministerio de Cultura. Contact via the town's tourism office (@turismoelcarmendeviboral).",
+    "website": "https://telemedellin.tv/?p=198066",
+    "tags": [
+      "colombia",
+      "antioquia",
+      "heritage",
+      "kaolin",
+      "community",
+      "workshop"
+    ],
+    "category": "community",
+    "categories": [
+      "community",
+      "workshop"
+    ],
+    "source": "https://telemedellin.tv/?p=198066",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-carmen-de-viboral-fiesta-saberes-ceramicos",
+    "name": "Fiesta de los Saberes Cerámicos Patrimoniales",
+    "nameEnglish": "Festival of Heritage Ceramic Knowledge",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "El Carmen de Viboral",
+      "region": "Antioquia",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 6.08331,
+        "lng": -75.33535
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "traditional",
+      "underglaze-painting"
+    ],
+    "description": "2026 festival of El Carmen de Viboral's ceramic tradition at which the collection 'Jardín en casa: la taza de nuestra tierra' (hand-painted coffee cups) was launched.",
+    "descriptionOriginal": "Propuesta presentada durante la Fiesta de los Saberes Cerámicos Patrimoniales 2026 con 12 decoradores y 11 talleres.",
+    "details": "Article dated 27 September 2026; exact festival dates not stated. The earlier 'Fiestas de la Loza' (December 2020 edition seen) is a related town celebration.",
+    "website": "https://telemedellin.tv/?p=198066",
+    "tags": [
+      "colombia",
+      "antioquia",
+      "festival",
+      "festival",
+      "community"
+    ],
+    "category": "festival",
+    "categories": [
+      "festival",
+      "community"
+    ],
+    "source": "https://telemedellin.tv/?p=198066",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-pitalito-ceramica-laboyana",
+    "name": "Cerámica artesanal de Pitalito (laboyana)",
+    "nameEnglish": "Pitalito artisanal ceramics",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "Pitalito",
+      "region": "Huila",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 1.84471,
+        "lng": -76.04569
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "traditional",
+      "chiva",
+      "handbuilding"
+    ],
+    "description": "Huila pottery centre known for the clay 'chiva'. A 2025 master's thesis surveyed 69 artisans: over 80% are in low socioeconomic strata and struggle to access quality clay.",
+    "descriptionOriginal": "Dificultades para acceder a arcilla de calidad; «la extracción en Pitalito se realiza sin una planificación técnica».",
+    "details": "Thesis (Universidad de Manizales, 2025) says identified clay deposits lack environmental management plans or legal recognition by mining authorities, so collecting rules are unsettled; treat any clay access as informal and ask local associations first.",
+    "website": "https://ridum.umanizales.edu.co/bitstreams/07c946dc-002c-4fd6-be6a-55dbdbe9797b/download",
+    "tags": [
+      "colombia",
+      "huila",
+      "wild-clay",
+      "research",
+      "community",
+      "materials"
+    ],
+    "category": "community",
+    "categories": [
+      "community",
+      "materials"
+    ],
+    "source": "https://ridum.umanizales.edu.co/bitstreams/07c946dc-002c-4fd6-be6a-55dbdbe9797b/download",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-pitalito-arcilla-yacimientos",
+    "name": "Yacimientos de arcilla de Pitalito",
+    "nameEnglish": "Pitalito clay deposits (informal extraction)",
+    "type": "materials",
+    "status": "active",
+    "location": {
+      "city": "Pitalito",
+      "region": "Huila",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 1.84471,
+        "lng": -76.04569
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "wild-clay",
+      "clay-extraction"
+    ],
+    "description": "Clay deposits used by Pitalito potters, currently extracted without technical planning or recognised management plans; the thesis proposes tying artisans to formal, community-based mining.",
+    "descriptionOriginal": "Los yacimientos identificados no cuentan aún con planes de manejo ambiental ni esquemas de legalidad reconocidos.",
+    "details": "Useful context on wild-clay customs and legality; exact pit locations not published. Recommended practice cited: sieving and ageing clay 3 to 6 months, separating by veins (Ministerio de Ambiente / Minas guide, 2021).",
+    "website": "https://ridum.umanizales.edu.co/bitstreams/07c946dc-002c-4fd6-be6a-55dbdbe9797b/download",
+    "tags": [
+      "colombia",
+      "huila",
+      "wild-clay",
+      "legal",
+      "materials"
+    ],
+    "category": "materials",
+    "categories": [
+      "materials"
+    ],
+    "source": "https://ridum.umanizales.edu.co/bitstreams/07c946dc-002c-4fd6-be6a-55dbdbe9797b/download",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-pitalito-taller-chivas-arcilla",
+    "name": "Taller de chivas de arcilla (Manos de Alfareros / COARPI)",
+    "nameEnglish": "Clay chiva workshop in Pitalito",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "Pitalito",
+      "region": "Huila",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 1.84471,
+        "lng": -76.04569
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "traditional",
+      "handbuilding",
+      "chiva"
+    ],
+    "description": "Five-hour guided visit combining a clay factory (Manos de Alfareros), the artisan cooperative COARPI and a hands-on session shaping and painting your own chiva.",
+    "descriptionOriginal": "Visita a la fábrica de arcilla Manos de Alfareros y a COARPI; el visitante moldea y pinta su propia chiva.",
+    "details": "Sold via Civitatis (from about US$124, English-speaking guide). Operator not named; availability live on the page.",
+    "website": "https://www.civitatis.com/en/pitalito/clay-chiva-workshop/",
+    "tags": [
+      "colombia",
+      "huila",
+      "tourist-workshop",
+      "workshop",
+      "community"
+    ],
+    "category": "workshop",
+    "categories": [
+      "workshop",
+      "community"
+    ],
+    "source": "https://www.civitatis.com/en/pitalito/clay-chiva-workshop/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-pitalito-coarpi",
+    "name": "Cooperativa de Artesanos de Pitalito (COARPI)",
+    "nameEnglish": "Pitalito Artisans' Cooperative",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "Pitalito",
+      "region": "Huila",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 1.84471,
+        "lng": -76.04569
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "traditional",
+      "chiva"
+    ],
+    "description": "Artisan cooperative of Pitalito that explains the history and production of the Chiva de Pitalito, a product with a Huila designation of origin.",
+    "descriptionOriginal": "COARPI: la historia, el concepto y el proceso de producción de la Chiva de Pitalito.",
+    "details": "Visited as part of the tour above; no standalone website found.",
+    "website": "https://www.civitatis.com/en/pitalito/clay-chiva-workshop/",
+    "tags": [
+      "colombia",
+      "huila",
+      "cooperative",
+      "community"
+    ],
+    "category": "community",
+    "categories": [
+      "community"
+    ],
+    "source": "https://www.civitatis.com/en/pitalito/clay-chiva-workshop/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-feria-nacional-artesanal-pitalito",
+    "name": "Feria Nacional Artesanal de Pitalito",
+    "nameEnglish": "National Craft Fair of Pitalito",
+    "type": "community",
+    "status": "unconfirmed",
+    "location": {
+      "city": "Pitalito",
+      "region": "Huila",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 1.84471,
+        "lng": -76.04569
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "traditional"
+    ],
+    "description": "Long-running national craft fair held each November at the Cámara de Comercio in the Valle de Laboyos; edition 58 ran 8 to 12 November 2024.",
+    "descriptionOriginal": "Pitalito, Huila celebra la versión 58 de la Feria Nacional Artesanal (8 al 12 de noviembre).",
+    "details": "Latest dates confirmed are 2024; 2026 edition dates not confirmed (an edition 60 would be expected). Hours then: 9 am to 9 pm.",
+    "website": "https://radionacional.co/cultura/ferias-y-fiestas/feria-nacional-artesanal-en-pitalito-huila",
+    "tags": [
+      "colombia",
+      "huila",
+      "fair",
+      "festival"
+    ],
+    "category": "festival",
+    "categories": [
+      "festival"
+    ],
+    "source": "https://radionacional.co/cultura/ferias-y-fiestas/feria-nacional-artesanal-en-pitalito-huila",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-barichara-taller-guane",
+    "name": "Taller de cerámica técnica guane (Barichara)",
+    "nameEnglish": "Guane-technique pottery workshop, Barichara",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "Barichara",
+      "region": "Santander",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 6.63572,
+        "lng": -73.22344
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "traditional",
+      "handbuilding",
+      "pre-columbian"
+    ],
+    "description": "Two-hour ceramics workshop learning the Guane technique used by Indigenous peoples of the Barichara area: tools, clay preparation and shaping a piece.",
+    "descriptionOriginal": "El taller comienza con la «técnica guane», usada por los pueblos indígenas que vivieron en Barichara.",
+    "details": "Civitatis listing (about 3 hours incl. transfer, from US$33). You receive a pre-made piece because yours needs a day to dry. Operator not named.",
+    "website": "https://www.civitatis.com/es/barichara/taller-artesania-barichara/",
+    "tags": [
+      "colombia",
+      "santander",
+      "tourist-workshop",
+      "workshop",
+      "community"
+    ],
+    "category": "workshop",
+    "categories": [
+      "workshop",
+      "community"
+    ],
+    "source": "https://www.civitatis.com/es/barichara/taller-artesania-barichara/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-mompox-casa-taller-el-boga",
+    "name": "Casa Taller El Boga",
+    "nameEnglish": "El Boga Workshop House (Mompox residency)",
+    "type": "residency",
+    "status": "active",
+    "location": {
+      "city": "Santa Cruz de Mompox",
+      "region": "Bolívar",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 9.24149,
+        "lng": -74.42515
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "interdisciplinary",
+      "traditional-crafts"
+    ],
+    "description": "Artist residency in a 17th-century house in Mompox's heritage centre. Stays 1 to 4 weeks or 1 to 3 months, applications open year-round; ties residents to local artisans and knowledge-holders.",
+    "descriptionOriginal": "Residencia en Mompox con encuentros y talleres con artesanos y sabedores locales.",
+    "details": "One month costs COP 3,100,000 (Colombians) or EUR 890 (international), with private room. No clay or kiln facilities mentioned on the listing; ask whether ceramics work is possible. Website: elbogamompox.com.",
+    "website": "https://www.elbogamompox.com/",
+    "tags": [
+      "colombia",
+      "bolivar",
+      "heritage-town",
+      "residency",
+      "community"
+    ],
+    "category": "residency",
+    "categories": [
+      "residency",
+      "community"
+    ],
+    "source": "https://www.transartists.org/en/air/casa-taller-el-boga-mompox",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-mompox-rosario-summer-2026-ceramica",
+    "name": "Mompox Summer 2026 (Universidad del Rosario): foco cerámica y alfarería",
+    "nameEnglish": "Mompox Summer 2026 pottery module",
+    "type": "workshop",
+    "status": "past-2026",
+    "location": {
+      "city": "Santa Cruz de Mompox",
+      "region": "Bolívar",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 9.24149,
+        "lng": -74.42515
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "traditional",
+      "firing",
+      "pottery"
+    ],
+    "description": "Universidad del Rosario summer programme in Mompox whose schedule opens with a pottery (alfarería) focus: virtual seminars and in-person ceramics workshops from 1 to 8 June 2026, daily workshops and two ceramic firings later in the programme.",
+    "descriptionOriginal": "Cerámica: Alfarería. Introducción a los materiales y técnicas. Taller de cerámica. QUEMA CERÁMICA.",
+    "details": "Schedule PDF dated April 2026; the 2026 edition has ended, so check urosario.edu.co for a 2027 call. Eligibility and fees not stated in the schedule.",
+    "website": "https://urosario.edu.co/sites/default/files/2026-04/cronograma-mompox-summer-2026.pdf",
+    "tags": [
+      "colombia",
+      "bolivar",
+      "university",
+      "firing",
+      "workshop",
+      "school"
+    ],
+    "category": "workshop",
+    "categories": [
+      "workshop",
+      "school"
+    ],
+    "source": "https://urosario.edu.co/sites/default/files/2026-04/cronograma-mompox-summer-2026.pdf",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-artesumapaz",
+    "name": "ArteSumapaz",
+    "nameEnglish": "ArteSumapaz art residency (San Bernardo)",
+    "type": "residency",
+    "status": "unconfirmed",
+    "location": {
+      "city": "San Bernardo",
+      "region": "Cundinamarca",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 4.17828,
+        "lng": -74.42227
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "interdisciplinary",
+      "clay"
+    ],
+    "description": "Self-directed month-long residency near San Bernardo (Sumapaz) for visual artists, clay artists, writers and others, on a campus of about 230 acres with home-stay housing, meals and weekly open critiques.",
+    "descriptionOriginal": "Residencia autodirigida con acceso a estudios en un campus con parque natural.",
+    "details": "2026 edition ran 1 to 31 May (fee about USD 975, unfunded). Listing mentions a 'ceramic facility' but not a kiln; confirm kiln and next call with the organiser. Information comes from an aggregator listing, not the organiser's own site.",
+    "website": "https://rivet.es/calls/view/copy-of-art-residency-may-2026-colombia",
+    "tags": [
+      "colombia",
+      "cundinamarca",
+      "residency"
+    ],
+    "category": "residency",
+    "categories": [
+      "residency"
+    ],
+    "source": "https://rivet.es/calls/view/copy-of-art-residency-may-2026-colombia",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-los-santos-ceramica-por-el-agua",
+    "name": "Cerámica por el agua (Fuego Refugio, Patialegre, La Cabuya)",
+    "nameEnglish": "Ceramics for water project, Los Santos",
+    "type": "community",
+    "status": "unconfirmed",
+    "location": {
+      "city": "Los Santos",
+      "region": "Santander",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 6.81787,
+        "lng": -73.09611
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "clay-water-filters",
+      "community-kiln",
+      "firing"
+    ],
+    "description": "Project by the Fuego Refugio and Patialegre ceramic workshops and the La Cabuya foundation that revives the local ceramic trade in Los Santos, Santander: clay water filters, a community-built kiln and a new training group (semillero).",
+    "descriptionOriginal": "Creación de filtros de agua en arcilla; se construyó un horno cerámico comunitario.",
+    "details": "Funded by a Ministerio de Cultura artistic-training grant; reported 13 November 2024. Source of clay not stated. Good contact for community kiln-building and local clay practice.",
+    "website": "https://radionacional.co/noticias-colombia/por-el-agua-y-la-vida-tres-santandereanas-le-apuestan-su-conservacion-traves-de",
+    "tags": [
+      "colombia",
+      "santander",
+      "community-kiln",
+      "community",
+      "workshop",
+      "studio"
+    ],
+    "category": "community",
+    "categories": [
+      "community",
+      "workshop",
+      "studio"
+    ],
+    "source": "https://radionacional.co/noticias-colombia/por-el-agua-y-la-vida-tres-santandereanas-le-apuestan-su-conservacion-traves-de",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-narino-mundo-de-la-forma",
+    "name": "Mundo de la Forma y la Voz de la Materia",
+    "nameEnglish": "World of Form and the Voice of Matter (Nariño women potters)",
+    "type": "artist",
+    "status": "unconfirmed",
+    "location": {
+      "city": "Pasto",
+      "region": "Nariño",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 1.21403,
+        "lng": -77.27851
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "wheel",
+      "handbuilding",
+      "pre-columbian"
+    ],
+    "description": "Collective of twelve women potters in Pasto and Nariño, coordinated by Ana Tumal, combining technologists and licensed ceramists and linking their work to Pastos, Abades and Quillasinga ceramic heritage.",
+    "descriptionOriginal": "Un encuentro de saberes y profesiones: mujeres nariñenses que esculpen la historia con el barro.",
+    "details": "Article dated 22 November 2023; current activity not confirmed. Clay source not stated.",
+    "website": "https://radionacional.co/noticias-colombia/historia-de-mujeres-narinenses-que-esculpen-la-historia-con-barro",
+    "tags": [
+      "colombia",
+      "narino",
+      "collective",
+      "artist",
+      "community"
+    ],
+    "category": "artist",
+    "categories": [
+      "artist",
+      "community"
+    ],
+    "source": "https://radionacional.co/noticias-colombia/historia-de-mujeres-narinenses-que-esculpen-la-historia-con-barro",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-sibundoy-daniel-hurtado",
+    "name": "Daniel Felipe Hurtado Sánchez (Sibundoy)",
+    "nameEnglish": "Daniel Hurtado, potter and teacher, Sibundoy",
+    "type": "mentorship",
+    "status": "unconfirmed",
+    "location": {
+      "city": "Sibundoy",
+      "region": "Putumayo",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 1.20541,
+        "lng": -76.916
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "handbuilding",
+      "pinch",
+      "coil",
+      "slab",
+      "wild-clay"
+    ],
+    "description": "Young Sibundoy potter (geology student) teaching ancestral hand-building techniques (pinch, coil, slab) with Kamëntsá collaborators to keep Putumayo's nearly extinct ceramic tradition alive; clay is gathered and cleaned by hand.",
+    "descriptionOriginal": "La tradición se ha ido perdiendo; talleres de pellizco, enrollado y plancha con arcilla recogida a mano.",
+    "details": "Source is a June 2022 Radio Nacional piece; current activity unconfirmed. A museum in Sibundoy's public library holds Pastos/Quillacinga funerary urns.",
+    "website": "https://radionacional.co/cultura/tradiciones/artesanos-de-colombia-alfareros-del-barro-en-el-putumayo",
+    "tags": [
+      "colombia",
+      "putumayo",
+      "hand-building",
+      "wild-clay",
+      "mentorship",
+      "artist",
+      "workshop"
+    ],
+    "category": "mentorship",
+    "categories": [
+      "mentorship",
+      "artist",
+      "workshop"
+    ],
+    "source": "https://radionacional.co/cultura/tradiciones/artesanos-de-colombia-alfareros-del-barro-en-el-putumayo",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-bogota-magma-ceramica",
+    "name": "Magma Cerámica",
+    "nameEnglish": "Magma Ceramics school",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "Bogotá (La Candelaria)",
+      "region": "Bogotá D.C.",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 4.59682,
+        "lng": -74.07167
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "wheel",
+      "handbuilding",
+      "glaze"
+    ],
+    "description": "Ceramics school and workshop in La Candelaria, Bogotá, with a Fundamentos de la Cerámica course; Artesanías de Colombia has also promoted a workshop with the master potter Rosa María Jerez and her exhibition 'Cien Vírgenes' (14 to 28 May).",
+    "descriptionOriginal": "La Escuela Magma Cerámica tiene abiertas las inscripciones para sus cursos de cerámica en Bogotá.",
+    "details": "Revista Diners (Sept 2024) gave Calle 12B #2-55, one-hour group classes (about COP 50,000) with firing included. Year of the Jerez workshop/exhibition not stated on the page (listing updated Oct 2026).",
+    "website": "https://revistadiners.com.co/tendencias/ceramica-en-bogota/",
+    "tags": [
+      "colombia",
+      "bogota",
+      "courses",
+      "workshop",
+      "studio",
+      "mentorship"
+    ],
+    "category": "workshop",
+    "categories": [
+      "workshop",
+      "studio",
+      "mentorship"
+    ],
+    "source": "https://artesaniasdecolombia.com.co/PortalAC/Contenido/ListaTag.jsf?tag=+Magma+cer%C3%A1mica",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-bogota-primitivo-studio-pottery",
+    "name": "Primitivo Studio Pottery",
+    "nameEnglish": "Primitivo Studio Pottery",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "Bogotá (Usaquén)",
+      "region": "Bogotá D.C.",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 4.69868,
+        "lng": -74.0318
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "wheel",
+      "glaze",
+      "slip"
+    ],
+    "description": "Bogotá studio offering a ceramics training programme, glaze masterclass, hand-shaping experiences, coworking space and firing service, and selling engobes, glazes and clays.",
+    "descriptionOriginal": "Un lugar para crear, aprender, experimentar y descubrir todo lo que puede pasar alrededor de la cerámica.",
+    "details": "Address given as Calle 122 #45-40. Site shows 2026 copyright and content. Good option for glaze work and kiln access.",
+    "website": "https://primitivopottery.com",
+    "tags": [
+      "colombia",
+      "bogota",
+      "glaze",
+      "coworking",
+      "workshop",
+      "studio",
+      "supplier"
+    ],
+    "category": "workshop",
+    "categories": [
+      "workshop",
+      "studio",
+      "supplier"
+    ],
+    "source": "https://primitivopottery.com",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-bogota-ceramyst",
+    "name": "Ceramyst",
+    "nameEnglish": "Ceramyst clay supplies and lab",
+    "type": "supplier",
+    "status": "unconfirmed",
+    "location": {
+      "city": "Bogotá",
+      "region": "Bogotá D.C.",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 4.65338,
+        "lng": -74.08363
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "supplies",
+      "clay",
+      "3d-printing"
+    ],
+    "description": "Bogotá supplier and design lab for clay: glazes, equipment and a corporate clay workshop, plus additive-manufacturing and parametric-design training; catalogue via WhatsApp.",
+    "descriptionOriginal": "Taller de Arcilla Corporativo; CERAMYST LAB; hornos y esmaltes bajo cotización.",
+    "details": "Address Cra 52B #118-63 on the site (geocoding unreliable, shown at city centre). Site shows no dated content later than 2023, so current activity should be confirmed by message.",
+    "website": "https://ceramyst.co",
+    "tags": [
+      "colombia",
+      "bogota",
+      "supplies",
+      "supplier",
+      "workshop"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier",
+      "workshop"
+    ],
+    "source": "https://ceramyst.co",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-bogota-sirena-azuleja",
+    "name": "Sirena Azuleja Cerámica",
+    "nameEnglish": "Sirena Azuleja ceramics (glaze supplies and advice)",
+    "type": "supplier",
+    "status": "active",
+    "location": {
+      "city": "Bogotá",
+      "region": "Bogotá D.C.",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 4.65338,
+        "lng": -74.08363
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "glaze-chemistry",
+      "slip",
+      "cones"
+    ],
+    "description": "Colombian online shop selling base glazes, powdered engobes (1100 to 1220 C) and pyrometric cones, with glaze formulation advice, an online glaze course and in-person workshops listed for 2026.",
+    "descriptionOriginal": "Soporte acerca de formulación de esmaltes, engobes, curvas de quema y conos pirométricos.",
+    "details": "Very relevant for learning glaze chemistry. Page gives no street address (a supplier directory lists it in Bogotá, not independently confirmed); shown at city centre.",
+    "website": "https://sirenaazulejaceramica.mitiendanube.com",
+    "tags": [
+      "colombia",
+      "bogota",
+      "glaze-chemistry",
+      "supplier",
+      "workshop"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier",
+      "workshop"
+    ],
+    "source": "https://sirenaazulejaceramica.mitiendanube.com",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-bogota-unal-educacion-continuada-ceramica",
+    "name": "Cerámica: mirando hacia adentro (Universidad Nacional, Educación Continuada)",
+    "nameEnglish": "Ceramics: looking inward (UNAL continuing education)",
+    "type": "school",
+    "status": "unconfirmed",
+    "location": {
+      "city": "Bogotá",
+      "region": "Bogotá D.C.",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 4.63874,
+        "lng": -74.08524
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "pre-columbian",
+      "handbuilding",
+      "traditional"
+    ],
+    "description": "In-person Saturday ceramics workshop at Universidad Nacional de Colombia's continuing education centre on pre-Columbian ceramic legacy, with hands-on making and a look at Colombia's traditional ceramic groups.",
+    "descriptionOriginal": "Taller sobre el legado de las culturas precolombinas; sábados de 9:00 a 13:00.",
+    "details": "Aprendemas listing without dates, price or instructor; request info from the centre. UNAL's Escuela de Artes Plásticas also has a ceramics studio (secondary sources).",
+    "website": "https://www.aprendemas.com/co/curso/ceramica-mirando-hacia-adentro-legado-de-las-culturas-precolombinas-1003136/",
+    "tags": [
+      "colombia",
+      "bogota",
+      "university",
+      "school",
+      "workshop"
+    ],
+    "category": "school",
+    "categories": [
+      "school",
+      "workshop"
+    ],
+    "source": "https://www.aprendemas.com/co/curso/ceramica-mirando-hacia-adentro-legado-de-las-culturas-precolombinas-1003136/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-bogota-rosario-ceramica",
+    "name": "Cerámica (Universidad del Rosario, Decanatura del Medio Universitario)",
+    "nameEnglish": "Ceramics workshop, Universidad del Rosario",
+    "type": "school",
+    "status": "unconfirmed",
+    "location": {
+      "city": "Bogotá",
+      "region": "Bogotá D.C.",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 4.60001,
+        "lng": -74.07335
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "handbuilding",
+      "glaze",
+      "oxides"
+    ],
+    "description": "University ceramics workshop covering history of art and ceramics, clay properties, hand-building, textures, glazes and oxides, with museum visits and a final exhibition.",
+    "descriptionOriginal": "Propiedades de la arcilla, modelado a mano, esmaltes y óxidos; exposición final.",
+    "details": "Aprendemas listing; duration, price and dates not listed. Confirm with the Decanatura.",
+    "website": "https://www.aprendemas.com/co/curso/ceramica-642325/",
+    "tags": [
+      "colombia",
+      "bogota",
+      "university",
+      "school",
+      "workshop"
+    ],
+    "category": "school",
+    "categories": [
+      "school",
+      "workshop"
+    ],
+    "source": "https://www.aprendemas.com/co/curso/ceramica-642325/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-bogota-uniandes-opcion-ceramica",
+    "name": "Opción en Cerámica (Universidad de los Andes)",
+    "nameEnglish": "Ceramics option, Universidad de los Andes",
+    "type": "school",
+    "status": "active",
+    "location": {
+      "city": "Bogotá",
+      "region": "Bogotá D.C.",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 4.6014,
+        "lng": -74.0649
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "wheel",
+      "glaze",
+      "sculpture"
+    ],
+    "description": "16-credit ceramics option for Universidad de los Andes undergraduates: clay properties, basic techniques, glaze and engobe formulation, throwing as a tool for spatial exploration, moulding and assembly.",
+    "descriptionOriginal": "La opción en Cerámica ofrece cursos para aprender técnicas cerámicas… Se experimenta con técnicas de moldeado, ensamblado, esmaltes y engobes.",
+    "details": "Only for Uniandes undergraduate students; offered subject to semester availability.",
+    "website": "https://artehum.uniandes.edu.co/wp-content/uploads/2026/07/5_Arte_O_Ceramica.pdf",
+    "tags": [
+      "colombia",
+      "bogota",
+      "university",
+      "glaze",
+      "school"
+    ],
+    "category": "school",
+    "categories": [
+      "school"
+    ],
+    "source": "https://artehum.uniandes.edu.co/wp-content/uploads/2026/07/5_Arte_O_Ceramica.pdf",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-bogota-udistrital-asab-ceramica",
+    "name": "Curso de cerámica para jóvenes y adultos (Universidad Distrital, ASAB)",
+    "nameEnglish": "Ceramics course for youth and adults (ASAB)",
+    "type": "school",
+    "status": "unconfirmed",
+    "location": {
+      "city": "Bogotá",
+      "region": "Bogotá D.C.",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 4.65338,
+        "lng": -74.08363
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "handbuilding"
+    ],
+    "description": "In-person ceramics course for young people and adults offered through the Facultad de Artes ASAB of Universidad Distrital Francisco José de Caldas.",
+    "descriptionOriginal": "Curso de cerámica para jóvenes y adultos del centro.",
+    "details": "Aprendemas listing with empty syllabus, price and dates; confirm with the faculty.",
+    "website": "https://www.aprendemas.com/co/curso/curso-de-ceramica-para-jovenes-y-adultos-655773/",
+    "tags": [
+      "colombia",
+      "bogota",
+      "university",
+      "school",
+      "workshop"
+    ],
+    "category": "school",
+    "categories": [
+      "school",
+      "workshop"
+    ],
+    "source": "https://www.aprendemas.com/co/curso/curso-de-ceramica-para-jovenes-y-adultos-655773/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-bogota-musa-casa-marques-san-jorge",
+    "name": "Museo Arqueológico Casa del Marqués de San Jorge (MUSA)",
+    "nameEnglish": "Archaeological Museum, Marqués de San Jorge House",
+    "type": "gallery",
+    "status": "active",
+    "location": {
+      "city": "Bogotá (La Candelaria)",
+      "region": "Bogotá D.C.",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 4.59682,
+        "lng": -74.07167
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "pre-columbian",
+      "museum"
+    ],
+    "description": "La Candelaria museum with pre-Columbian ceramics. Its 2026 exhibition 'Arqueología de la Infancia' (19 June to 15 August) showed rattles, vessels and ceramic stamps; a booked tour pairs a museum visit with a pre-Hispanic-style ceramics workshop.",
+    "descriptionOriginal": "Sonajeros, vasijas, sellos cerámicos y otros objetos de uso cotidiano.",
+    "details": "Address Carrera 6 #7-43 (shown at neighbourhood centre). Workshop is sold on Civitatis (about US$85, 4 hours, reviews Oct 2025 and Jan 2026); local operator not named.",
+    "website": "https://www.civitatis.com/en/bogota/casa-marques-san-jorge-ceramics-workshop",
+    "tags": [
+      "colombia",
+      "bogota",
+      "museum",
+      "pre-columbian",
+      "gallery",
+      "workshop"
+    ],
+    "category": "gallery",
+    "categories": [
+      "gallery",
+      "workshop"
+    ],
+    "source": "https://bogota.gov.co/mi-ciudad/cultura-recreacion-y-deporte/planes-gratis-bogota-exposicion-arqueologia-de-la-infancia-junio-15",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-expoartesanias-2026",
+    "name": "Expoartesanías 2026",
+    "nameEnglish": "Expoartesanías craft fair",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "Bogotá",
+      "region": "Bogotá D.C.",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 4.63047,
+        "lng": -74.08869
+      }
+    },
+    "focusAreas": [
+      "traditional",
+      "contemporary"
+    ],
+    "description": "Colombia's major annual craft fair run by Artesanías de Colombia and Corferias, scheduled for 7 to 20 December 2026 at Corferias, Bogotá; categories include contemporary tableware.",
+    "descriptionOriginal": "Del 7 al 20 de diciembre de 2026, Corferias Bogotá.",
+    "details": "Site does not name ceramics explicitly (categories include 'Vajillas'); useful for meeting potters and buying from communities such as Ráquira, La Chamba and El Carmen.",
+    "website": "https://www.expoartesanias.com",
+    "tags": [
+      "colombia",
+      "bogota",
+      "fair",
+      "festival"
+    ],
+    "category": "festival",
+    "categories": [
+      "festival"
+    ],
+    "source": "https://www.expoartesanias.com",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-medellin-expoartesano-2026",
+    "name": "Expoartesano: La Memoria 2026",
+    "nameEnglish": "Expoartesano craft fair, Medellín",
+    "type": "community",
+    "status": "past-2026",
+    "location": {
+      "city": "Medellín",
+      "region": "Antioquia",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 6.26973,
+        "lng": -75.60256
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "traditional"
+    ],
+    "description": "17th Expoartesano craft fair held 10 to 19 July 2026 at Plaza Mayor Medellín with more than 600 artisans from all 32 Colombian departments.",
+    "descriptionOriginal": "Del 10 al 19 de julio, Plaza Mayor reunirá a más de 600 artesanos del país.",
+    "details": "Official city notice does not mention ceramics specifically. 2026 edition has ended; typically held each July.",
+    "website": "https://www.medellin.gov.co/es/sala-de-prensa/noticias/regresa-expoartesano-la-memoria-la-feria-donde-las-manos-colombianas-contaran-historias-desde-medellin/",
+    "tags": [
+      "colombia",
+      "antioquia",
+      "fair",
+      "festival"
+    ],
+    "category": "festival",
+    "categories": [
+      "festival"
+    ],
+    "source": "https://www.medellin.gov.co/es/sala-de-prensa/noticias/regresa-expoartesano-la-memoria-la-feria-donde-las-manos-colombianas-contaran-historias-desde-medellin/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-envigado-dos-golondrinas",
+    "name": "Dos Golondrinas Estudio",
+    "nameEnglish": "Dos Golondrinas pottery studio",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "Envigado",
+      "region": "Antioquia",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 6.17013,
+        "lng": -75.58742
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "wheel",
+      "glaze",
+      "botanical-print"
+    ],
+    "description": "Pottery studio in Envigado (Medellín area) making work in black and red clay with botanical-print and gradient glazes, and offering pottery classes for adults and children.",
+    "descriptionOriginal": "Taller de cerámica en Medellín; clases de alfarería.",
+    "details": "Address Carrera 27 DA #34 DD Sur-71, Envigado; hours Mon-Fri 9-18. Site shows 2025 copyright; class details are only available by contacting the studio.",
+    "website": "https://www.dosgolondrinasestudio.com/",
+    "tags": [
+      "colombia",
+      "antioquia",
+      "classes",
+      "studio",
+      "workshop"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "workshop"
+    ],
+    "source": "https://www.dosgolondrinasestudio.com/contact",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "co-villa-de-leyva-casa-terracota",
+    "name": "Casa Terracota",
+    "nameEnglish": "Casa Terracota (the clay house)",
+    "type": "gallery",
+    "status": "active",
+    "location": {
+      "city": "Villa de Leyva",
+      "region": "Boyacá",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 5.6348,
+        "lng": -73.53652
+      }
+    },
+    "focusAreas": [
+      "clay-architecture",
+      "fired-clay"
+    ],
+    "description": "Large house built entirely of clay and fired clay by architect and ceramist Octavio Mendoza Morales near Villa de Leyva, visitable with guided tours and talks on clay building.",
+    "descriptionOriginal": "Una obra arquitectónica única; «convirtiendo la tierra cocida en arquitectura».",
+    "details": "Tourism board says clay-working workshops exist but gives no format or prices. Site has ticket and rates pages; welcome post dated July 2026.",
+    "website": "https://www.casaterracota.com",
+    "tags": [
+      "colombia",
+      "boyaca",
+      "earth-architecture",
+      "gallery",
+      "community"
+    ],
+    "category": "gallery",
+    "categories": [
+      "gallery",
+      "community"
+    ],
+    "source": "https://www.casaterracota.com",
+    "lastVerified": "2026-10-27"
+  }
+]

@@ -88,6 +88,11 @@ export default async function OpportunityPage({
           <h1 className="font-serif text-4xl md:text-5xl tracking-tight mb-4">
             {opportunity.name}
           </h1>
+          {opportunity.nameEnglish && (
+            <p className="text-sm italic text-warm-500 mb-4">
+              {opportunity.nameEnglish}
+            </p>
+          )}
           <p className="text-sm uppercase tracking-widest text-warm-500">
             {formatLocation(opportunity.location)}
           </p>

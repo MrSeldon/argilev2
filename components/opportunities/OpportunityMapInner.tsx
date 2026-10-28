@@ -394,6 +394,9 @@ function PinSheet({
             ))}
           </div>
           <h2 className="font-serif text-xl leading-snug">{opp.name}</h2>
+          {opp.nameEnglish && (
+            <p className="text-xs italic text-warm-500">{opp.nameEnglish}</p>
+          )}
         </div>
         <button
           type="button"

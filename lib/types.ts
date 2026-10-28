@@ -99,6 +99,9 @@ export interface Opportunity {
   categories?: string[];
   source?: string;
   lastVerified?: string;
+  /** Short English rendering of a non-English name, and original-language summary */
+  nameEnglish?: string;
+  descriptionOriginal?: string;
 }
 
 export interface OpportunitiesData {
