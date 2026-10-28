@@ -48,7 +48,7 @@ const DOORWAYS: Doorway[] = [
     n: "03",
     title: "Explore",
     line: "Residencies, schools, grants and studios, on a list or a map. Plus a long shelf of inspiration.",
-    href: "/opportunities",
+    href: "/opportunities/map",
     cta: "Explore",
     photo: PHOTOS.earthen,
   },

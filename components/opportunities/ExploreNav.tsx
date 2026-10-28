@@ -7,7 +7,7 @@ export function ExploreNav({ active }: { active: "/opportunities" | "/inspiratio
       label="Explore"
       active={active}
       items={[
-        { href: "/opportunities", label: "Opportunities" },
+        { href: "/opportunities/map", label: "Opportunities" },
         { href: "/inspirations", label: "Inspiration" },
       ]}
     />

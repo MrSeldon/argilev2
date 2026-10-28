@@ -1,0 +1,586 @@
+[
+ {
+  "id": "sfst-clayroom-soma",
+  "name": "Clayroom SoMa",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.77304,
+    "lng": -122.41028
+   },
+   "neighborhood": "SoMa"
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "membership",
+   "teaching"
+  ],
+  "description": "Community ceramics studio on 9th Street between Bryant and Harrison, with memberships for independent potters and six-week wheel and hand-building classes.",
+  "details": "One of Clayroom's San Francisco studios (the other is in Potrero Hill; they also run studios in San Mateo and Oakland). Classes run in six-week sessions, e.g. Intro to Clay, alongside one-time classes, workshops and kids' programmes. Clayroom has invited Winnie to teach a class here: worth following up. Contact soma@clayroomsf.com.",
+  "website": "https://www.clayroomsoma.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "studio",
+   "class"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.clayroomsoma.com",
+  "lastVerified": "2026-10-28",
+  "address": "375 9th St, San Francisco, CA 94103"
+ },
+ {
+  "id": "sfst-clayroom-potrero",
+  "name": "Clayroom Potrero",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.76495,
+    "lng": -122.39824
+   },
+   "neighborhood": "Potrero Hill"
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "membership"
+  ],
+  "description": "Clayroom's Potrero Hill pottery studio: classes, memberships and kids' programmes.",
+  "details": "Sister studio to Clayroom SoMa, on 17th Street in Potrero Hill. Six-week classes, one-time classes and memberships; booking through clayroomsf.com.",
+  "website": "https://www.clayroomsf.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "studio",
+   "class"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.clayroomsf.com",
+  "lastVerified": "2026-10-28",
+  "address": "1431 17th St, San Francisco, CA"
+ },
+ {
+  "id": "sfst-the-pottery-studio-sf",
+  "name": "The Pottery Studio (San Francisco)",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.75907,
+    "lng": -122.41481
+   },
+   "neighborhood": "Mission"
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "cone 10",
+   "membership"
+  ],
+  "description": "High-ceilinged Mission District studio at Folsom and 20th: monthly classes, workshops and memberships with 24-hour access, firing to cone 10.",
+  "details": "Part of The Pottery Studio (also in Los Angeles and Costa Mesa). San Francisco is a cone 10 studio; members get 24-hour access. Classes start monthly; visiting hours Tuesday, Thursday and Saturday 12 to 4 pm. A favourite of Winnie's.",
+  "website": "https://thepotterystudio.com/pages/san-francisco",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "studio",
+   "class"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class"
+  ],
+  "discipline": "ceramics",
+  "source": "https://thepotterystudio.com/pages/san-francisco",
+  "lastVerified": "2026-10-28",
+  "address": "2394 Folsom St, San Francisco, CA 94110"
+ },
+ {
+  "id": "sfst-artillery-ceramics",
+  "name": "Artillery Ceramics",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.75309,
+    "lng": -122.41828
+   },
+   "neighborhood": "Mission"
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "pit firing",
+   "wild clay",
+   "work-trade"
+  ],
+  "description": "Latinx-owned Mission studio with classes, memberships, seasonal pit firing and summer clay foraging.",
+  "details": "One-time beginner classes and 5-week courses, open studio, memberships (tiers around $200 and $250 a month), seasonal pit firing, 'Clay as Ritual' sessions and clay-foraging outings (they have foraged at Thornton State Beach). Work-trade and employment pages on the site.",
+  "website": "https://www.artillery-ag.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "studio",
+   "class",
+   "materials"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class",
+   "materials"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.artillery-ag.com",
+  "lastVerified": "2026-10-28",
+  "address": "2751 Mission St, San Francisco, CA 94110",
+  "cost": {
+   "tuition": "about $200-$250/month"
+  }
+ },
+ {
+  "id": "sfst-redbrick-ceramic-studio",
+  "name": "RedBrick Ceramic Studio",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.76327,
+    "lng": -122.41939
+   },
+   "neighborhood": "Mission"
+  },
+  "focusAreas": [
+   "membership",
+   "cone 6",
+   "nonprofit"
+  ],
+  "description": "Artist-run nonprofit studio on Mission Street: 24/7 member access, cone 6 electric kilns, your own clay and glazes.",
+  "details": "Third floor of 2111 Mission Street. Membership about $200 a month with 24/7 access; members fire to cone 6 and choose their own clay and glazes. Workshops and hands-on events, including free clay demos during Mission open studios.",
+  "website": "https://redbrickceramic.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "studio",
+   "class"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class"
+  ],
+  "discipline": "ceramics",
+  "source": "https://redbrickceramic.com",
+  "lastVerified": "2026-10-28",
+  "address": "2111 Mission St, 3rd floor, San Francisco, CA 94110",
+  "cost": {
+   "tuition": "about $200/month"
+  }
+ },
+ {
+  "id": "sfst-sfclayworks",
+  "name": "sfclayworks",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.74097,
+    "lng": -122.40254
+   },
+   "neighborhood": "Bayview"
+  },
+  "focusAreas": [
+   "cooperative",
+   "private studios",
+   "membership"
+  ],
+  "description": "Not-for-profit cooperative pottery studio in the Bayview, running since 2011: private studio spaces and community memberships for independent work.",
+  "details": "Cooperative on Palou Avenue mixing private artist studios with community memberships (aimed at potters who work on their own), plus a free holiday market. One of the few SF places renting private studio space.",
+  "website": "https://www.sfclayworks.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "studio",
+   "community"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "community"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.sfclayworks.com",
+  "lastVerified": "2026-10-28",
+  "address": "2240 Palou Ave, San Francisco, CA 94124"
+ },
+ {
+  "id": "sfst-smaart-sutter",
+  "name": "SMAart Gallery & Studio (Sutter Street)",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.78786,
+    "lng": -122.41759
+   },
+   "neighborhood": "Lower Nob Hill"
+  },
+  "focusAreas": [
+   "wheel",
+   "membership",
+   "gallery"
+  ],
+  "description": "Steve Allen's ceramics studio and gallery on Sutter Street, with KnK Contemporary gallery at the front.",
+  "details": "SMAart runs several San Francisco ceramics studios (Sutter Street and 24th Street). Classes, memberships and exhibitions; owner Steve Allen counts about 26 pottery studios in the city now, up from a handful in 2012.",
+  "website": "https://www.smaartstudio.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "studio",
+   "gallery",
+   "class"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "gallery",
+   "class"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.smaartstudio.com",
+  "lastVerified": "2026-10-28",
+  "address": "1045 Sutter St, San Francisco, CA 94109"
+ },
+ {
+  "id": "sfst-smaart-24th",
+  "name": "SMAart (24th Street)",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.75224,
+    "lng": -122.41473
+   },
+   "neighborhood": "Mission"
+  },
+  "focusAreas": [
+   "wheel",
+   "membership"
+  ],
+  "description": "SMAart's Mission District ceramics studio on 24th Street.",
+  "details": "Second SMAart studio, in the Mission. Classes and memberships; see smaartstudio.com for the current schedule.",
+  "website": "https://www.smaartstudio.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "studio",
+   "class"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.smaartstudio.com",
+  "lastVerified": "2026-10-28",
+  "address": "3135 24th St, San Francisco, CA 94110"
+ },
+ {
+  "id": "sfst-dusted-and-blue",
+  "name": "Dusted and Blue",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.79488,
+    "lng": -122.41133
+   },
+   "neighborhood": "Chinatown / North Beach"
+  },
+  "focusAreas": [
+   "wheel",
+   "shop"
+  ],
+  "description": "Chinatown pottery studio and shop: take a wheel class in the morning, shop handmade pottery in the afternoon. Where Clay by the Bay began.",
+  "details": "Studio, classes and a shop of handmade pottery on Mason Street. Clay by the Bay was founded here (it later moved to Beach Street and closed in July 2026).",
+  "website": "https://www.dustedandblue.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "studio",
+   "class",
+   "gallery"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class",
+   "gallery"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.dustedandblue.com",
+  "lastVerified": "2026-10-28",
+  "address": "1242 Mason St, San Francisco, CA"
+ },
+ {
+  "id": "sfst-brick-and-mortar-studios",
+  "name": "Brick and Mortar Studios",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.77997,
+    "lng": -122.48238
+   },
+   "neighborhood": "Richmond"
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding"
+  ],
+  "description": "Pottery studio in the Richmond on Geary, with classes and open studio: one of the few on the west side of the city.",
+  "details": "Classes and studio time on Geary Boulevard in the Outer Richmond; schedule on their site (2026 classes listed).",
+  "website": "https://www.brickandmortarstudios.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "studio",
+   "class"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.brickandmortarstudios.com",
+  "lastVerified": "2026-10-28",
+  "address": "5851 Geary Blvd, San Francisco, CA"
+ },
+ {
+  "id": "sfst-stone-gold-polk",
+  "name": "Stone Gold Pottery (Polk Street)",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.79446,
+    "lng": -122.42128
+   },
+   "neighborhood": "Polk Gulch"
+  },
+  "focusAreas": [
+   "wheel",
+   "membership"
+  ],
+  "description": "Stone Gold Pottery's Polk Street studio: pottery classes and memberships.",
+  "details": "Stone Gold runs three San Francisco studios: Polk Street, Fillmore Street (Marina/Cow Hollow) and Waller Street (Duboce Triangle). Classes and memberships at each.",
+  "website": "https://www.stonegoldpottery.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "studio",
+   "class"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.stonegoldpottery.com",
+  "lastVerified": "2026-10-28",
+  "address": "1920 Polk St, San Francisco, CA"
+ },
+ {
+  "id": "sfst-stone-gold-fillmore",
+  "name": "Stone Gold Pottery (Fillmore Street)",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.79742,
+    "lng": -122.43579
+   },
+   "neighborhood": "Cow Hollow"
+  },
+  "focusAreas": [
+   "wheel",
+   "membership"
+  ],
+  "description": "Stone Gold Pottery's Fillmore Street studio.",
+  "details": "See Stone Gold Pottery (Polk Street) for the full picture; this is their Fillmore Street location.",
+  "website": "https://www.stonegoldpottery.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "studio",
+   "class"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.stonegoldpottery.com",
+  "lastVerified": "2026-10-28",
+  "address": "3027 Fillmore St, San Francisco, CA"
+ },
+ {
+  "id": "sfst-stone-gold-waller",
+  "name": "Stone Gold Pottery (Waller Street)",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.77101,
+    "lng": -122.43229
+   },
+   "neighborhood": "Duboce Triangle"
+  },
+  "focusAreas": [
+   "wheel",
+   "membership"
+  ],
+  "description": "Stone Gold Pottery's original Duboce Triangle studio on Waller Street.",
+  "details": "See Stone Gold Pottery (Polk Street); this is the Duboce Triangle location.",
+  "website": "https://www.stonegoldpottery.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "studio",
+   "class"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.stonegoldpottery.com",
+  "lastVerified": "2026-10-28",
+  "address": "518 Waller St, San Francisco, CA"
+ },
+ {
+  "id": "sfst-heath-ceramics-sf",
+  "name": "Heath Ceramics (San Francisco factory)",
+  "type": "gallery",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.76177,
+    "lng": -122.41125
+   },
+   "neighborhood": "Mission"
+  },
+  "focusAreas": [
+   "tile",
+   "factory tour",
+   "design"
+  ],
+  "description": "Heath's Mission District tile factory, showroom and Clay Studio, with factory tours (RSVP).",
+  "details": "2900 18th Street: tile factory, showroom, Heath Newsstand, the Clay Studio and a collective of designer studios, next to Tartine Manufactory. Factory tours need an RSVP; showroom open daily. The Sausalito dinnerware factory is separate.",
+  "website": "https://www.heathceramics.com/pages/locations/san-francisco",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "gallery",
+   "studio"
+  ],
+  "category": "gallery",
+  "categories": [
+   "gallery",
+   "studio"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.heathceramics.com/pages/locations/san-francisco",
+  "lastVerified": "2026-10-28",
+  "address": "2900 18th St, San Francisco, CA 94110"
+ }
+]

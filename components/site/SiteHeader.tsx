@@ -11,7 +11,7 @@ const ITEMS: Item[] = [
   { href: "/", label: "Home", match: ["/"], icon: IconHome },
   { href: "/make", label: "Make", match: ["/make"], icon: IconMake },
   { href: "/glazes", label: "Glazes", match: ["/glazes"], icon: IconGlaze },
-  { href: "/opportunities", label: "Explore", match: ["/opportunities", "/inspirations"], icon: IconExplore },
+  { href: "/opportunities/map", label: "Explore", match: ["/opportunities", "/inspirations"], icon: IconExplore },
   { href: "/mentor", label: "Ask", match: ["/mentor"], icon: IconAsk },
 ];
 

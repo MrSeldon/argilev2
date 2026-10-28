@@ -64,7 +64,7 @@ export function SubNav({
     <nav aria-label={label} className="border-b border-line">
       <ul className="flex gap-7 overflow-x-auto scrollbar-hide -mb-px">
         {items.map((it) => {
-          const on = it.href === active;
+          const on = it.href === active || it.href.startsWith(active + "/");   // "/opportunities" is active on "/opportunities/map" too
           return (
             <li key={it.href} className="shrink-0">
               <Link
@@ -98,7 +98,7 @@ export function Switch({
   return (
     <nav aria-label={label} className="inline-flex p-1 rounded-full bg-oat/80 border border-line">
       {items.map((it) => {
-        const on = it.href === active;
+        const on = it.href === active || it.href.startsWith(active + "/");   // "/opportunities" is active on "/opportunities/map" too
         return (
           <Link
             key={it.href}
