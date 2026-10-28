@@ -1,0 +1,3729 @@
+[
+  {
+    "id": "baymk-imagiknit-sf",
+    "name": "ImagiKnit (San Francisco)",
+    "type": "supplier",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Castro / Mission Dolores",
+      "coordinates": {
+        "lat": 37.76107,
+        "lng": -122.43042
+      }
+    },
+    "address": "3897 18th St, San Francisco, CA 94114",
+    "focusAreas": [
+      "yarn",
+      "knitting",
+      "crochet",
+      "classes"
+    ],
+    "description": "A deep, colourful yarn shop on 18th Street with its own class programme, a good first stop for fibre and a gentle way to meet the city's knitters.",
+    "details": "Runs classes at both its San Francisco and Berkeley shops (separate class calendars on the site). Stocks local yarns alongside kits, needles and books.",
+    "website": "https://imagiknit.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "textiles",
+      "yarn",
+      "knitting"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier",
+      "class"
+    ],
+    "discipline": "textiles",
+    "source": "https://imagiknit.com",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-atelier-yarns-sf",
+    "name": "Atelier Yarns (Divisadero)",
+    "type": "supplier",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "NoPa / Western Addition",
+      "coordinates": {
+        "lat": 37.78654,
+        "lng": -122.43987
+      }
+    },
+    "address": "1818 Divisadero St, San Francisco, CA 94115",
+    "focusAreas": [
+      "yarn",
+      "weaving classes",
+      "knitting",
+      "crochet"
+    ],
+    "description": "Yarn shop that lists weaving classes and weaving tools alongside knitting and crochet, so a likely place to find loom-curious company in the city.",
+    "details": "Class menu on the site covers knitting and crochet instruction, special techniques and weaving classes; carries locally made and hard-to-find yarns. Sister shop in San Rafael.",
+    "website": "https://atelieryarns.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "textiles",
+      "yarn",
+      "weaving"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier",
+      "class"
+    ],
+    "discipline": "textiles",
+    "source": "https://atelieryarns.com",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-britex-fabrics",
+    "name": "Britex Fabrics",
+    "type": "supplier",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Union Square",
+      "coordinates": {
+        "lat": 37.78872,
+        "lng": -122.40409
+      }
+    },
+    "address": "117 Post St, San Francisco, CA 94108",
+    "focusAreas": [
+      "fabric",
+      "buttons",
+      "trims",
+      "lace",
+      "silk ribbon"
+    ],
+    "description": "San Francisco's grand old fabric house near Union Square, worth visiting just for the walls of buttons, laces and hand-dyed silk ribbons.",
+    "details": "Brick-and-mortar store with fabrics (silks, wools, brocades, linens), buttons in horn, bone, shell and corozo, vintage and heirloom lace trims, and a personal swatch-shopper service.",
+    "website": "https://britexfabrics.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "textiles",
+      "fabric",
+      "notions"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier"
+    ],
+    "discipline": "textiles",
+    "source": "https://britexfabrics.com",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-mendels",
+    "name": "Mendel's (Haight Street)",
+    "type": "supplier",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Haight-Ashbury",
+      "coordinates": {
+        "lat": 37.77018,
+        "lng": -122.44795
+      }
+    },
+    "address": "1556 Haight St, San Francisco, CA 94117",
+    "focusAreas": [
+      "art supplies",
+      "craft supplies"
+    ],
+    "description": "Long-running independent art and craft supply store in the Haight, the kind of shop where you go in for one thing and leave with a new project.",
+    "details": "Many but not all in-store products are on the website; the shop invites you to ask for hard-to-find items.",
+    "website": "https://www.mendels.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "multi",
+      "art-supplies"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier"
+    ],
+    "discipline": "multi",
+    "source": "https://www.mendels.com",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-scrap-sf",
+    "name": "SCRAP (creative reuse depot)",
+    "type": "supplier",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Bayview",
+      "coordinates": {
+        "lat": 37.73888,
+        "lng": -122.40235
+      }
+    },
+    "address": "141 Industrial St, San Francisco, CA 94124",
+    "focusAreas": [
+      "reuse materials",
+      "fabric",
+      "workshops",
+      "sustainable fashion"
+    ],
+    "description": "Ruth Asawa's gift to the city: a creative-reuse depot where donated fabric, paper and odd materials are sold cheaply to artists and teachers.",
+    "details": "Runs a materials depot, a workshop calendar and a Sustainable Fashion Design programme. Material drop-offs Tue-Sat 10am-3pm (per the site).",
+    "website": "https://www.scrap-sf.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "multi",
+      "reuse",
+      "fabric"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier",
+      "materials",
+      "class"
+    ],
+    "discipline": "multi",
+    "source": "https://www.scrap-sf.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-sf-quilters-guild",
+    "name": "San Francisco Quilters Guild",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Inner Sunset",
+      "coordinates": {
+        "lat": 37.78794,
+        "lng": -122.40752
+      },
+      "approximate": true
+    },
+    "address": "St. Anne of the Sunset, San Francisco",
+    "focusAreas": [
+      "quilting",
+      "lectures",
+      "workshops",
+      "quilt show"
+    ],
+    "description": "The city's quilting guild, meeting in person at St. Anne of the Sunset, with monthly lectures, workshops and community quilt-making.",
+    "details": "Upcoming: talk 'From fast fashion to sustainable stitching' with Radha Weaver (Nov 10); QUILT SF 2027 show April 2-3, 2027. Also runs Lincoln Park Quilters and a block of the month.",
+    "website": "https://www.sfquiltersguild.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "textiles",
+      "quilting",
+      "guild"
+    ],
+    "category": "community",
+    "categories": [
+      "community",
+      "lecture",
+      "class"
+    ],
+    "discipline": "textiles",
+    "source": "https://www.sfquiltersguild.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-loom-and-shuttle-guild",
+    "name": "Loom and Shuttle Guild",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "West Portal / Forest Hill",
+      "coordinates": {
+        "lat": 37.74649,
+        "lng": -122.45868
+      }
+    },
+    "address": "501 Laguna Honda Blvd, San Francisco, CA 94127",
+    "focusAreas": [
+      "weaving guild",
+      "floor loom",
+      "rigid heddle",
+      "programmes"
+    ],
+    "description": "San Francisco's weaving guild since 1948, around 60 weavers of every level working on all kinds of looms, and open to visitors.",
+    "details": "Meets 10am at St. John's United Church of Christ, 501 Laguna Honda Blvd (first Saturday of even months per the CNCH guild list at cnch.org/guilds; odd months at members' homes). The guild's own online programme calendar was last updated for 2021-22, so confirm dates by email before going.",
+    "website": "https://www.loomandshuttleguild.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "textiles",
+      "weaving",
+      "guild"
+    ],
+    "category": "community",
+    "categories": [
+      "community"
+    ],
+    "discipline": "textiles",
+    "source": "https://www.loomandshuttleguild.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-textile-arts-council",
+    "name": "Textile Arts Council (Fine Arts Museums of SF)",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Golden Gate Park",
+      "coordinates": {
+        "lat": 37.7715,
+        "lng": -122.46909
+      }
+    },
+    "address": "50 Hagiwara Tea Garden Dr, San Francisco, CA 94118",
+    "focusAreas": [
+      "textile lectures",
+      "tours",
+      "ethnic textiles study group",
+      "bazaar"
+    ],
+    "description": "Support group for the textile department of the Fine Arts Museums, with lectures, tours and workshops: the best single door into the city's textile scholars and collectors.",
+    "details": "Runs an Ethnic Textiles Study Group, a Bay Area Fiber Artists Archive, public lecture recordings and an annual Textile Bazaar (2026: Nov 7, 10am-4pm, St Mary's Cathedral Event Center, 1111 Gough St). Mapped at the de Young.",
+    "website": "https://www.textileartscouncil.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "lectures",
+      "textiles",
+      "museum"
+    ],
+    "category": "lecture",
+    "categories": [
+      "lecture",
+      "community"
+    ],
+    "discipline": "lectures",
+    "source": "https://www.textileartscouncil.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-tac-textile-bazaar",
+    "name": "Textile Arts Council Textile Bazaar 2026",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Cathedral Hill",
+      "coordinates": {
+        "lat": 37.78402,
+        "lng": -122.42534
+      }
+    },
+    "address": "1111 Gough St, San Francisco, CA 94109",
+    "focusAreas": [
+      "textile market",
+      "global textiles",
+      "vintage",
+      "makers"
+    ],
+    "description": "One-day bazaar of textile artists, makers and dealers in global and vintage textiles: a place to look, buy and maybe one day show her own weaving.",
+    "details": "Saturday Nov 7, 2026, 10am-4pm at St Mary's Cathedral Event Center, 1111 Gough St at Geary. All vendor spaces for 2026 are filled; watch for the next call.",
+    "website": "https://www.textileartscouncil.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "market",
+      "textiles"
+    ],
+    "category": "market",
+    "categories": [
+      "market",
+      "community"
+    ],
+    "discipline": "market",
+    "source": "https://www.textileartscouncil.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-sfpl-craft-workshops",
+    "name": "San Francisco Public Library craft workshops",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.78794,
+        "lng": -122.40752
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "free workshops",
+      "sashiko",
+      "embroidery",
+      "drop-in"
+    ],
+    "description": "Free, drop-in craft workshops around the branch libraries, such as sashiko embroidery sessions in May 2026: an easy, no-cost way to meet neighbourhood makers.",
+    "details": "Programs are drop-in with no registration unless noted. Check sfpl.org events for the current craft calendar; locations rotate between branches, so this pin is approximate.",
+    "website": "https://sfpl.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "lectures",
+      "free",
+      "embroidery"
+    ],
+    "category": "class",
+    "categories": [
+      "class",
+      "lecture"
+    ],
+    "discipline": "lectures",
+    "source": "https://sfpl.org/events/2026/05/27/workshop-sashiko-embroidery",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-lacis-museum",
+    "name": "Lacis Museum of Lace and Textiles",
+    "type": "gallery",
+    "status": "active",
+    "location": {
+      "city": "Berkeley",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "South Berkeley",
+      "coordinates": {
+        "lat": 37.85494,
+        "lng": -122.26953
+      }
+    },
+    "address": "2982 Adeline St, Berkeley, CA 94703",
+    "focusAreas": [
+      "lace",
+      "embroidery",
+      "textile museum",
+      "classes",
+      "textile supplies"
+    ],
+    "description": "A free lace and textile museum joined to a textile-arts emporium and class programme, where she can study bobbin lace one hour and learn beaded embroidery the next.",
+    "details": "Free tours Monday-Saturday; classes from embroidery basics to Victorian garment construction and lace-making (e.g. Beaded Cabochon, Nov 14, 2026, $55). Current exhibits include Normandy Lace. New East Bay Lacers group.",
+    "website": "https://lacismuseum.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "textiles",
+      "lace",
+      "embroidery",
+      "museum"
+    ],
+    "category": "museum",
+    "categories": [
+      "museum",
+      "class",
+      "supplier"
+    ],
+    "discipline": "textiles",
+    "source": "https://lacismuseum.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-imagiknit-berkeley",
+    "name": "ImagiKnit (Berkeley)",
+    "type": "supplier",
+    "status": "active",
+    "location": {
+      "city": "Berkeley",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Elmwood",
+      "coordinates": {
+        "lat": 37.85815,
+        "lng": -122.25309
+      }
+    },
+    "address": "2921 College Ave, Berkeley, CA 94705",
+    "focusAreas": [
+      "yarn",
+      "knitting",
+      "classes"
+    ],
+    "description": "ImagiKnit's Elmwood shop, with its own class calendar for knitters and crocheters on the Berkeley side of the bay.",
+    "details": "Classes in Berkeley are listed separately from San Francisco on the shop's site.",
+    "website": "https://imagiknit.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "textiles",
+      "yarn"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier",
+      "class"
+    ],
+    "discipline": "textiles",
+    "source": "https://imagiknit.com",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-verb-for-keeping-warm",
+    "name": "A Verb for Keeping Warm",
+    "type": "supplier",
+    "status": "active",
+    "location": {
+      "city": "Oakland",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "North Oakland",
+      "coordinates": {
+        "lat": 37.84673,
+        "lng": -122.28468
+      }
+    },
+    "address": "6328 San Pablo Ave, Oakland, CA 94608",
+    "focusAreas": [
+      "natural dyes",
+      "mordants",
+      "yarn",
+      "mending",
+      "basket-making",
+      "classes"
+    ],
+    "description": "Oakland yarn and fabric shop built around natural dye, selling mordants, dyes and dyeables and teaching classes: the closest thing to a natural-dye home base in the East Bay.",
+    "details": "In-store shopping Fridays and Saturdays 11am-3pm; curbside pickup Tue-Fri. Carries its own AVFKW yarns and fabric, mending and embroidery supplies, basket-making materials and a class and trunk-show calendar.",
+    "website": "https://www.averbforkeepingwarm.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "textiles",
+      "natural-dye",
+      "yarn"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier",
+      "class"
+    ],
+    "discipline": "textiles",
+    "source": "https://www.averbforkeepingwarm.com/collections/classes",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-stonemountain-daughter",
+    "name": "Stonemountain & Daughter Fabrics",
+    "type": "supplier",
+    "status": "active",
+    "location": {
+      "city": "Berkeley",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Downtown Berkeley",
+      "coordinates": {
+        "lat": 37.86276,
+        "lng": -122.26707
+      }
+    },
+    "address": "2518 Shattuck Ave, Berkeley, CA 94704",
+    "focusAreas": [
+      "fabric",
+      "linen",
+      "Japanese imports",
+      "ikat",
+      "sewing classes"
+    ],
+    "description": "Big Berkeley fabric store with deep linen, Japanese and Indian-import shelves and its own sewing classes.",
+    "details": "Stocks double gauze, ikats and Indian imports, Japanese imports, linen, silks, wools and designer deadstock; site links to sewing classes.",
+    "website": "https://stonemountainfabric.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "textiles",
+      "fabric",
+      "sewing"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier",
+      "class"
+    ],
+    "discipline": "textiles",
+    "source": "https://stonemountainfabric.com",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-creative-reuse-east-bay",
+    "name": "East Bay Depot for Creative Reuse",
+    "type": "supplier",
+    "status": "active",
+    "location": {
+      "city": "Oakland",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Temescal",
+      "coordinates": {
+        "lat": 37.83424,
+        "lng": -122.26329
+      }
+    },
+    "address": "4695 Telegraph Ave, Oakland, CA 94609",
+    "focusAreas": [
+      "reuse materials",
+      "craft supplies",
+      "fabric",
+      "yarn"
+    ],
+    "description": "Oakland's sustainable art and craft supply store, stocked with donated materials at low prices: good hunting for yarn, fabric and odd things to weave with.",
+    "details": "Store and donation centre on Telegraph Avenue; phone 510-547-6470 per the site footer.",
+    "website": "https://www.creativereuse.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "multi",
+      "reuse"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier",
+      "materials"
+    ],
+    "discipline": "multi",
+    "source": "https://www.creativereuse.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-bay-quilts",
+    "name": "Bay Quilts",
+    "type": "supplier",
+    "status": "active",
+    "location": {
+      "city": "Richmond",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.89801,
+        "lng": -122.30971
+      }
+    },
+    "address": "5327 Jacuzzi St, Richmond, CA 94804",
+    "focusAreas": [
+      "quilting fabric",
+      "thread",
+      "quilt gallery"
+    ],
+    "description": "Richmond fabric store and quilt gallery with a deep stock of solids and quilting cottons.",
+    "details": "Kona solids, Tula Pink collections, threads and batting. Hello Stitch Studio (closing end of 2026) has held classes here.",
+    "website": "https://www.sfbayquilts.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "textiles",
+      "quilting"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier"
+    ],
+    "discipline": "textiles",
+    "source": "https://www.sfbayquilts.com",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-golden-gate-weavers",
+    "name": "Golden Gate Weavers",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "Berkeley",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "South Berkeley",
+      "coordinates": {
+        "lat": 37.85972,
+        "lng": -122.26875
+      }
+    },
+    "address": "2727 Milvia St, Berkeley, CA 94703",
+    "focusAreas": [
+      "weaving guild",
+      "show and tell",
+      "newsletter",
+      "exhibitions"
+    ],
+    "description": "East Bay weaving guild, active in 2026 with monthly meetings, newsletters and a joint exhibition with the Bay Area Basket Makers.",
+    "details": "Meets 3rd Mondays at 9:30am at Sports Basement, 2727 Milvia St (per the CNCH guild list). Monthly newsletters posted through October 2026. Spring 2026 show 'Tradition, Innovation, and Back' with BABM at Richmond Art Center.",
+    "website": "https://www.goldengateweavers.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "textiles",
+      "weaving",
+      "guild"
+    ],
+    "category": "community",
+    "categories": [
+      "community"
+    ],
+    "discipline": "textiles",
+    "source": "https://www.goldengateweavers.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-spindles-and-flyers",
+    "name": "Spindles & Flyers Spinning Guild",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "Berkeley",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "West Berkeley",
+      "coordinates": {
+        "lat": 37.87009,
+        "lng": -122.28839
+      }
+    },
+    "address": "1970 Chestnut St, Berkeley, CA 94702",
+    "focusAreas": [
+      "spinning",
+      "weaving",
+      "felting",
+      "dyeing",
+      "basketry"
+    ],
+    "description": "Berkeley spinning guild whose members also weave, dye, felt, sprang and make baskets, and who welcome newcomers to monthly meetings.",
+    "details": "Meets usually the fourth Sunday, September-June (Finnish Hall, 1970 Chestnut St per CNCH). Next: Nov 22, 2026, 11am, 'Ergonomics for Makers' with Andrea Lui (Zoom only).",
+    "website": "https://www.spindlesandflyers.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "textiles",
+      "spinning",
+      "guild"
+    ],
+    "category": "community",
+    "categories": [
+      "community"
+    ],
+    "discipline": "textiles",
+    "source": "https://www.spindlesandflyers.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-bay-area-basket-makers",
+    "name": "Bay Area Basket Makers",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "Oakland",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.80446,
+        "lng": -122.27136
+      },
+      "approximate": true
+    },
+    "address": "Chatham School, Oakland",
+    "focusAreas": [
+      "basketry",
+      "gourds",
+      "kelp",
+      "wire",
+      "felt"
+    ],
+    "description": "Guild of Bay Area basketmakers working in fibre, gourds, kelp, wire and felt, active in 2026 with meetings, workshops and a Richmond Art Center exhibition.",
+    "details": "Meets first Saturday, 10:30am (Chatham School, Oakland, per the CNCH list). 2026 posts include workshops with Vicki Assegued and the joint exhibition with Golden Gate Weavers; resource list names The Caning Shop in Berkeley. Pin is approximate.",
+    "website": "https://bayareabasketmakers.wordpress.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "textiles",
+      "basketry",
+      "guild"
+    ],
+    "category": "community",
+    "categories": [
+      "community",
+      "class"
+    ],
+    "discipline": "textiles",
+    "source": "https://bayareabasketmakers.wordpress.com",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-east-bay-heritage-quilters",
+    "name": "East Bay Heritage Quilters",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "Albany",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.88736,
+        "lng": -122.29632
+      }
+    },
+    "address": "980 Stannage Ave, Albany, CA 94706",
+    "focusAreas": [
+      "quilting",
+      "lectures",
+      "workshops",
+      "open quilting"
+    ],
+    "description": "Large East Bay quilt guild with lectures, workshops, weekly open quilting and even a 2026 Japan textile tour.",
+    "details": "Wednesday Open Quilting at Albany United Methodist Church community room, 980 Stannage Ave (e.g. Oct 28, 2026, 9am). Community Quilts programme and an ACAC 2026-2027 exhibit call.",
+    "website": "https://www.ebhq.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "textiles",
+      "quilting",
+      "guild"
+    ],
+    "category": "community",
+    "categories": [
+      "community",
+      "lecture",
+      "class"
+    ],
+    "discipline": "textiles",
+    "source": "https://www.ebhq.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-treadles-to-threads",
+    "name": "Treadles to Threads Spinners Guild",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "Pleasant Hill",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.94803,
+        "lng": -122.06732
+      }
+    },
+    "address": "233 Gregory Ln, Pleasant Hill, CA 94523",
+    "focusAreas": [
+      "spinning",
+      "dye days",
+      "equipment lending library"
+    ],
+    "description": "Friendly Contra Costa spinning guild that welcomes beginners and lends out equipment, so she can try a wheel before buying one.",
+    "details": "Meets at Pleasant Hill Senior Center, 233 Gregory Lane (e.g. Sept 23, 2026, 7-9pm; last Wednesday Jan-Nov per CNCH). Runs dye days, a Fiber Frolic and eco-printing programmes.",
+    "website": "https://treadlestothreads.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "textiles",
+      "spinning",
+      "guild"
+    ],
+    "category": "community",
+    "categories": [
+      "community"
+    ],
+    "discipline": "textiles",
+    "source": "https://treadlestothreads.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-cnch",
+    "name": "Conference of Northern California Handweavers (CNCH)",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "Walnut Creek",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.92581,
+        "lng": -122.02014
+      }
+    },
+    "address": "2660 Ygnacio Valley Rd, Walnut Creek, CA 94598",
+    "focusAreas": [
+      "weaving conference",
+      "workshops",
+      "guild network",
+      "grants"
+    ],
+    "description": "The umbrella for Northern California's weaving and spinning guilds, running a conference with multi-day classes: the 2027 edition is in Redwood City.",
+    "details": "2026 conference at Asilomar offered tablet weaving, inkle, rigid heddle, shibori, painted warps and pine-needle basket classes. Publishes the regional guild list with meeting places, plus a conference grant. Mapped at the Walnut Creek address listed on its site.",
+    "website": "https://www.cnch.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "lectures",
+      "weaving",
+      "conference"
+    ],
+    "category": "community",
+    "categories": [
+      "community",
+      "class",
+      "lecture"
+    ],
+    "discipline": "lectures",
+    "source": "https://www.cnch.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-atelier-yarns-san-rafael",
+    "name": "Atelier Yarns (San Rafael)",
+    "type": "supplier",
+    "status": "active",
+    "location": {
+      "city": "San Rafael",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Downtown",
+      "coordinates": {
+        "lat": 37.97401,
+        "lng": -122.5376
+      }
+    },
+    "address": "1707 4th St, San Rafael, CA 94901",
+    "focusAreas": [
+      "yarn",
+      "weaving classes",
+      "knitting"
+    ],
+    "description": "Atelier's Marin shop, with the same mix of yarn, weaving tools and classes as the Divisadero store.",
+    "details": "See the Atelier site for class schedules at each location.",
+    "website": "https://atelieryarns.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "marin",
+      "beyond-ceramics",
+      "textiles",
+      "yarn",
+      "weaving"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier",
+      "class"
+    ],
+    "discipline": "textiles",
+    "source": "https://atelieryarns.com",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-dharma-trading",
+    "name": "Dharma Trading Co.",
+    "type": "supplier",
+    "status": "active",
+    "location": {
+      "city": "San Rafael",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.97415,
+        "lng": -122.5366
+      }
+    },
+    "address": "1604 Fourth St, San Rafael, CA 94901 (per OpenStreetMap)",
+    "focusAreas": [
+      "natural dyes",
+      "mordants",
+      "fibre-reactive dyes",
+      "silk painting",
+      "dyeables"
+    ],
+    "description": "Dye supplier for natural dyes, extracts and mordants, silk-painting and tie-dye supplies, and undyed cotton, silk and wool to dye.",
+    "details": "Online catalogue covers natural dyeing, batik, marbling, tub dyeing and screen printing, with phone craft support (800-542-5227). Store location taken from OpenStreetMap; confirm hours before visiting.",
+    "website": "https://www.dharmatrading.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "marin",
+      "beyond-ceramics",
+      "textiles",
+      "dye",
+      "natural-dye"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier"
+    ],
+    "discipline": "textiles",
+    "source": "https://www.dharmatrading.com",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-fibershed",
+    "name": "Fibershed Learning Center",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "Point Reyes Station",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 38.07158,
+        "lng": -122.77001
+      }
+    },
+    "address": "14000 Point Reyes-Petaluma Rd, Point Reyes Station, CA 94956",
+    "focusAreas": [
+      "regional fibre systems",
+      "natural dye",
+      "wool",
+      "flax",
+      "workshops",
+      "markets"
+    ],
+    "description": "The Marin non-profit behind the 'fibershed' idea of locally grown, dyed and sewn clothing, with workshops and markets at its Learning Center on Black Mountain Ranch.",
+    "details": "Learning Center open only for scheduled events and workshops (e.g. Broom-making with Abeni Pierson, Oct 10, 2026); inquiries to learningcenter@fibershed.org. Runs symposia, a producer directory, the Weaving Voices podcast and seasonal markets.",
+    "website": "https://fibershed.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "marin",
+      "beyond-ceramics",
+      "textiles",
+      "natural-dye",
+      "wool",
+      "local-fibre"
+    ],
+    "category": "class",
+    "categories": [
+      "class",
+      "community",
+      "materials"
+    ],
+    "discipline": "textiles",
+    "source": "https://fibershed.org/contact/",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-bolinas-museum",
+    "name": "Bolinas Museum",
+    "type": "gallery",
+    "status": "active",
+    "location": {
+      "city": "Bolinas",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.91009,
+        "lng": -122.68481
+      }
+    },
+    "address": "48 Wharf Rd, Bolinas, CA 94924",
+    "focusAreas": [
+      "coastal Marin art",
+      "history",
+      "textile exhibition"
+    ],
+    "description": "Small free museum of coastal Marin art and history; its winter show 'Paul Harris: The Boy Sews Like An Angel' runs Oct 31, 2026-Jan 3, 2027.",
+    "details": "Open Friday 1-5pm and Saturday-Sunday 12-5pm; admission always free.",
+    "website": "https://bolinasmuseum.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "marin",
+      "beyond-ceramics",
+      "museum"
+    ],
+    "category": "museum",
+    "categories": [
+      "museum",
+      "gallery"
+    ],
+    "discipline": "museum",
+    "source": "https://bolinasmuseum.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-black-sheep-handweavers",
+    "name": "Black Sheep Handweavers Guild",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "Redwood City",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.47211,
+        "lng": -122.23957
+      }
+    },
+    "address": "1455 Madison Ave, Redwood City, CA 94061",
+    "focusAreas": [
+      "weaving guild",
+      "speakers",
+      "show and tell"
+    ],
+    "description": "Peninsula weaving guild (HGA and CNCH affiliated) whose evening meetings mix members' show-and-tell with an outside speaker.",
+    "details": "Meets 3rd Thursdays, 7:15pm (social 6:45pm) at Veterans' Memorial Senior Center, 1455 Madison Ave (per the CNCH guild list).",
+    "website": "https://www.blacksheepguild.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "peninsula",
+      "beyond-ceramics",
+      "textiles",
+      "weaving",
+      "guild"
+    ],
+    "category": "community",
+    "categories": [
+      "community"
+    ],
+    "discipline": "textiles",
+    "source": "https://www.blacksheepguild.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-glenna-harris-weavers",
+    "name": "Glenna Harris Weavers Guild",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "San Jose",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.31591,
+        "lng": -121.91261
+      }
+    },
+    "address": "1400 Parkmoor Ave, San Jose, CA 95126",
+    "focusAreas": [
+      "weaving",
+      "spinning",
+      "demonstrations",
+      "classes"
+    ],
+    "description": "San Jose weaving and spinning guild with an education programme and public demonstrations; visitors are welcome at monthly meetings.",
+    "details": "Meets the second Monday of each month, mostly at the Sobrato Community Conference Center, 1400 Parkmoor Ave (some meetings at members' homes; email first).",
+    "website": "https://www.glennaharris.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "south-bay",
+      "beyond-ceramics",
+      "textiles",
+      "weaving",
+      "guild"
+    ],
+    "category": "community",
+    "categories": [
+      "community",
+      "class"
+    ],
+    "discipline": "textiles",
+    "source": "https://www.glennaharris.org/contact/",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-sj-museum-quilts-textiles",
+    "name": "San Jose Museum of Quilts & Textiles",
+    "type": "gallery",
+    "status": "active",
+    "location": {
+      "city": "San Jose",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "SoFA District",
+      "coordinates": {
+        "lat": 37.32824,
+        "lng": -121.88424
+      }
+    },
+    "address": "520 S 1st St, San Jose, CA 95113",
+    "focusAreas": [
+      "quilts",
+      "textile art",
+      "collection",
+      "workshops"
+    ],
+    "description": "San Jose museum devoted to quilts and textiles, with rotating exhibitions, a searchable collection, and events and workshops.",
+    "details": "Site lists exhibitions, events and workshops, a 50th-anniversary programme, SoFA pocket-park murals and 'Fiber Arts for Beginners' resources. Note its web address is now sj-mqt.org.",
+    "website": "https://sj-mqt.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "south-bay",
+      "beyond-ceramics",
+      "museum",
+      "quilts",
+      "textiles"
+    ],
+    "category": "museum",
+    "categories": [
+      "museum",
+      "class"
+    ],
+    "discipline": "museum",
+    "source": "https://sj-mqt.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-humanmade",
+    "name": "Humanmade",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "SoMa",
+      "coordinates": {
+        "lat": 37.77817,
+        "lng": -122.39954
+      }
+    },
+    "address": "655 Bryant St, San Francisco, CA 94107",
+    "focusAreas": [
+      "woodshop",
+      "metal shop",
+      "textiles shop",
+      "digital fabrication",
+      "membership"
+    ],
+    "description": "13,000-square-foot SoMa makerspace with wood, metal, textiles, electronics and digital-fabrication shops open to members after training.",
+    "details": "Memberships, equipment training and project workshops; also runs workforce programmes and a hardware accelerator. Open Mon-Fri 9am-9pm, Sat-Sun 10am-6pm.",
+    "website": "https://www.humanmade.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "multi",
+      "makerspace"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "class"
+    ],
+    "discipline": "multi",
+    "source": "https://www.humanmade.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-workshop-sf",
+    "name": "WorkshopSF",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Haight-Ashbury",
+      "coordinates": {
+        "lat": 37.77051,
+        "lng": -122.44391
+      }
+    },
+    "address": "1310 Haight St, San Francisco, CA 94117",
+    "focusAreas": [
+      "leatherworking",
+      "printmaking",
+      "textile craft",
+      "woodworking",
+      "one-night classes"
+    ],
+    "description": "Haight Street studio of one-evening adult craft classes, from leatherworking and printmaking to textiles and wood, ideal for sampling a new medium.",
+    "details": "Free First Friday pop-ups (e.g. notebook and bookmark making, Nov 6, 2026). Class categories: Art + Printmaking, Leatherworking, Plants, Textile + Craft, Wood + Clay.",
+    "website": "https://workshopsf.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "multi",
+      "leather",
+      "printmaking",
+      "beginner"
+    ],
+    "category": "class",
+    "categories": [
+      "class"
+    ],
+    "discipline": "multi",
+    "source": "https://workshopsf.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-mission-community-woodshop",
+    "name": "Mission Community Woodshop",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Mission",
+      "coordinates": {
+        "lat": 37.7694,
+        "lng": -122.4216
+      }
+    },
+    "address": "20 Clinton Park, San Francisco, CA (per OpenStreetMap)",
+    "focusAreas": [
+      "fine woodworking",
+      "bench rental",
+      "classes",
+      "craft fair"
+    ],
+    "description": "Non-profit, professional-grade woodshop in central San Francisco set up for fine furniture, with bench-rental memberships and classes from introductory to advanced.",
+    "details": "Full- and part-time memberships include a bench, storage and machine access during shop hours. Upcoming: body-surfing handplane class (11/14) and a Craft Fair on Dec 5. Location from OpenStreetMap; confirm via the site's contact page.",
+    "website": "https://www.missioncommunitywoodshop.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "wood",
+      "woodworking"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "class",
+      "market"
+    ],
+    "discipline": "wood",
+    "source": "https://www.missioncommunitywoodshop.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-wood-thumb",
+    "name": "Wood Thumb",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "SoMa",
+      "coordinates": {
+        "lat": 37.78168,
+        "lng": -122.40811
+      }
+    },
+    "address": "968 Mission St, San Francisco, CA 94103",
+    "focusAreas": [
+      "woodworking workshops",
+      "shop time",
+      "woodcut prints"
+    ],
+    "description": "Traditional SoMa woodshop running beginner-friendly public workshops where you build a finished piece in a session, plus private shop time.",
+    "details": "Public workshops need no experience; also offers team events, shop time and custom woodcut prints.",
+    "website": "https://woodthumb.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "wood",
+      "woodworking",
+      "beginner"
+    ],
+    "category": "class",
+    "categories": [
+      "class"
+    ],
+    "discipline": "wood",
+    "source": "https://woodthumb.com",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-metalworks-sf",
+    "name": "Metalworks SF",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "North Beach",
+      "coordinates": {
+        "lat": 37.80119,
+        "lng": -122.40759
+      }
+    },
+    "address": "1544 Grant Ave, San Francisco, CA 94133",
+    "focusAreas": [
+      "jewelry",
+      "silversmithing",
+      "lost wax",
+      "bench rental"
+    ],
+    "description": "North Beach school of hand-fabricated jewelry in silver, copper and brass, with lost-wax classes and bench rental, linked to Macchiarini Design.",
+    "details": "Class schedule 2026-2027 posted on the site; also group events and DIY wedding-ring sessions.",
+    "website": "https://www.metalworkssf.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "jewelry",
+      "metal"
+    ],
+    "category": "class",
+    "categories": [
+      "class",
+      "studio"
+    ],
+    "discipline": "jewelry",
+    "source": "https://www.metalworkssf.com",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-metal-arts-guild-sf",
+    "name": "Metal Arts Guild San Francisco",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.78794,
+        "lng": -122.40752
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "metalsmithing community",
+      "lectures",
+      "demos",
+      "scholarships"
+    ],
+    "description": "Bay Area metalsmiths' guild since 1951, with lectures and demos, workshops, exhibitions and a member directory of local schools and studios.",
+    "details": "MAG and Barbara M. Berk scholarship applications open (deadline Oct 31, 2026). Runs Metalsmithing Day and an 'Elevate Our Art' programme. PO Box only, so the pin is approximate.",
+    "website": "https://metalartsguildsf.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "jewelry",
+      "metal",
+      "guild"
+    ],
+    "category": "community",
+    "categories": [
+      "community",
+      "lecture"
+    ],
+    "discipline": "jewelry",
+    "source": "https://metalartsguildsf.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-public-glass",
+    "name": "Public Glass",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Bayview",
+      "coordinates": {
+        "lat": 37.72793,
+        "lng": -122.39495
+      }
+    },
+    "address": "1750 Armstrong Ave, San Francisco, CA 94124",
+    "focusAreas": [
+      "glassblowing",
+      "flameworking",
+      "stained glass",
+      "fusing and casting",
+      "cold shop"
+    ],
+    "description": "San Francisco's centre for glass art and education, with intro classes, longer courses and rentable hot, flame, fusing and cold shops.",
+    "details": "Memberships with studio orientation, blowslot rentals, a scholarship programme and 'Hot Glass Cold Beer' events.",
+    "website": "https://www.publicglass.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "glass"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "class"
+    ],
+    "discipline": "glass",
+    "source": "https://www.publicglass.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-exploratorium-tinkering",
+    "name": "Exploratorium Tinkering Studio",
+    "type": "gallery",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Embarcadero",
+      "coordinates": {
+        "lat": 37.8009,
+        "lng": -122.39853
+      }
+    },
+    "address": "Pier 15, San Francisco, CA 94111",
+    "focusAreas": [
+      "tinkering",
+      "materials and phenomena",
+      "After Dark Thursdays"
+    ],
+    "description": "The Exploratorium's Tinkering Studio is its workshop for hands-on making and learning; the museum's After Dark Thursdays are a good evening out.",
+    "details": "Pier 15 (Embarcadero at Green Street). 'Glow' runs Nov 19-Jan 24. Also hosts Arts & Artists and Osher Fellows programmes.",
+    "website": "https://www.exploratorium.edu",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "museum",
+      "tinkering"
+    ],
+    "category": "museum",
+    "categories": [
+      "museum",
+      "lecture"
+    ],
+    "discipline": "museum",
+    "source": "https://www.exploratorium.edu/tinkering",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-building-resources",
+    "name": "Building REsources",
+    "type": "supplier",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Bayview",
+      "coordinates": {
+        "lat": 37.74567,
+        "lng": -122.38527
+      }
+    },
+    "address": "701 Amador St, San Francisco, CA 94124",
+    "focusAreas": [
+      "salvaged materials",
+      "wood",
+      "tile",
+      "deconstruction workshop"
+    ],
+    "description": "San Francisco's non-profit salvage yard of reusable building and landscaping materials, nearly three-quarters of an acre of wood, tile and found objects.",
+    "details": "Hosts a Deconstruction Workshop (Apr 17, 2026) and plant exchanges.",
+    "website": "https://buildingresources.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "multi",
+      "salvage",
+      "reuse"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier",
+      "materials"
+    ],
+    "discipline": "multi",
+    "source": "https://buildingresources.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-crucible",
+    "name": "The Crucible",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "Oakland",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "West Oakland",
+      "coordinates": {
+        "lat": 37.80503,
+        "lng": -122.29064
+      }
+    },
+    "address": "1260 7th St, Oakland, CA 94607",
+    "focusAreas": [
+      "metal",
+      "glass",
+      "wood",
+      "foundry",
+      "classes",
+      "studio access"
+    ],
+    "description": "Oakland's big industrial-arts school, teaching glass, metal, clay, wood and more since 1999, with studio access, scholarships and free public tours.",
+    "details": "Events include a Hot Art Halloween iron pour and GIFTY, its holiday craft fair (Dec 5-6, 2026). Adult classes, studio access, private instruction and youth programmes.",
+    "website": "https://www.thecrucible.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "multi",
+      "metal",
+      "glass",
+      "foundry"
+    ],
+    "category": "class",
+    "categories": [
+      "class",
+      "studio"
+    ],
+    "discipline": "multi",
+    "source": "https://www.thecrucible.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-crucible-gifty",
+    "name": "GIFTY: The Crucible's Holiday Craft Fair",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "Oakland",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "West Oakland",
+      "coordinates": {
+        "lat": 37.80503,
+        "lng": -122.29064
+      }
+    },
+    "address": "1260 7th St, Oakland, CA 94607",
+    "focusAreas": [
+      "craft fair",
+      "open house",
+      "60+ makers"
+    ],
+    "description": "Two floors of handmade goods from 60+ Oakland and Bay Area artists at The Crucible, with live demos and kids' activities.",
+    "details": "December 5-6, 2026: Sat 10am-6pm, Sun 11am-4pm.",
+    "website": "https://www.thecrucible.org/gifty/",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "market",
+      "craft-fair"
+    ],
+    "category": "market",
+    "categories": [
+      "market"
+    ],
+    "discipline": "market",
+    "source": "https://www.thecrucible.org/gifty/",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-ace-makerspace",
+    "name": "Ace Makerspace",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "Oakland",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "North Oakland / Emeryville border",
+      "coordinates": {
+        "lat": 37.8447,
+        "lng": -122.27689
+      }
+    },
+    "address": "6050 Lowell St, Oakland, CA 94608",
+    "focusAreas": [
+      "textiles area",
+      "woodshop",
+      "metal",
+      "laser",
+      "CNC",
+      "24/7 membership"
+    ],
+    "description": "Member-run 24/7 makerspace with a textiles area alongside woodshop, metal, laser and CNC tools; 'making is for everyone' is their motto.",
+    "details": "Suite #214. Tours on the 1st and 3rd Wednesdays and the 2nd and 4th Saturdays (RSVP via the calendar); free guest accounts; course catalogue. Formerly Ace Monster Toys.",
+    "website": "https://www.acemakerspace.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "multi",
+      "makerspace"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "class"
+    ],
+    "discipline": "multi",
+    "source": "https://www.acemakerspace.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-hida-tool",
+    "name": "Hida Tool & Hardware",
+    "type": "supplier",
+    "status": "active",
+    "location": {
+      "city": "Berkeley",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "West Berkeley",
+      "coordinates": {
+        "lat": 37.87977,
+        "lng": -122.2958
+      }
+    },
+    "address": "1333 San Pablo Ave, Berkeley, CA 94702",
+    "focusAreas": [
+      "Japanese hand tools",
+      "chisels",
+      "saws",
+      "sharpening stones",
+      "carving tools"
+    ],
+    "description": "Berkeley shop of authentic Japanese hand tools for woodworking, carving, gardening and the kitchen, a pleasure to visit even before you need a chisel.",
+    "details": "Also stocks plaster trowels, adzes, bonsai tools and books.",
+    "website": "https://hidatool.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "wood",
+      "woodworking",
+      "tools"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier"
+    ],
+    "discipline": "wood",
+    "source": "https://hidatool.com",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-stained-glass-garden",
+    "name": "Stained Glass Garden",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "Berkeley",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Fourth Street",
+      "coordinates": {
+        "lat": 37.86979,
+        "lng": -122.30113
+      }
+    },
+    "address": "1800 Fourth St, Berkeley, CA 94710",
+    "focusAreas": [
+      "stained glass",
+      "mosaic",
+      "fusing",
+      "studio time",
+      "supplies"
+    ],
+    "description": "Fourth Street glass shop with classes and studio time in stained glass, mosaic and fusing, plus supplies and custom work.",
+    "details": "Open 7 days, 10am-5pm; phone 510-841-2200.",
+    "website": "https://stainedglassgarden.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "glass",
+      "mosaic"
+    ],
+    "category": "class",
+    "categories": [
+      "class",
+      "supplier",
+      "studio"
+    ],
+    "discipline": "glass",
+    "source": "https://stainedglassgarden.com",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-maker-nexus",
+    "name": "Maker Nexus",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "Sunnyvale",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.41207,
+        "lng": -122.0059
+      }
+    },
+    "address": "1330 Orleans Dr, Sunnyvale, CA 94089",
+    "focusAreas": [
+      "makerspace",
+      "classes",
+      "membership",
+      "Maker Market"
+    ],
+    "description": "South Bay non-profit makerspace with memberships, classes, youth programmes and a Maker Market.",
+    "details": "Also runs youth programmes and the Tech Challenge; rooms can be booked.",
+    "website": "https://www.makernexus.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "south-bay",
+      "beyond-ceramics",
+      "multi",
+      "makerspace"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "class",
+      "market"
+    ],
+    "discipline": "multi",
+    "source": "https://www.makernexus.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-bay-area-glass-institute",
+    "name": "Bay Area Glass Institute (BAGI)",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "San Jose",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.32009,
+        "lng": -121.85753
+      }
+    },
+    "address": "635 Phelan Ave, San Jose, CA 95122 (per OpenStreetMap)",
+    "focusAreas": [
+      "glassblowing",
+      "studio classes",
+      "open studio rental",
+      "visiting artists"
+    ],
+    "description": "South Bay glass studio offering hands-on glass experiences, studio classes, open-studio rentals and visiting-artist workshops.",
+    "details": "Visiting artists in 2026 included 'Mixing Glass with Printmaking' (June 17-21, 2026). Location from OpenStreetMap; confirm on the site.",
+    "website": "https://bagi.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "south-bay",
+      "beyond-ceramics",
+      "glass"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "class"
+    ],
+    "discipline": "glass",
+    "source": "https://bagi.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-spaulding-marine-center",
+    "name": "Spaulding Marine Center",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "Sausalito",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Gate 5",
+      "coordinates": {
+        "lat": 37.86809,
+        "lng": -122.49834
+      }
+    },
+    "address": "600 Gate 5 Rd, Sausalito, CA 94965",
+    "focusAreas": [
+      "wooden boatbuilding",
+      "Boatworks 101",
+      "adult education",
+      "storytelling series"
+    ],
+    "description": "Sausalito waterfront boatworks and maritime centre with adult education (Boatworks 101) and a monthly storytelling series.",
+    "details": "Visit hours Mon-Fri 7:30am-3:30pm; Woodrum Library on site.",
+    "website": "https://www.spauldingcenter.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "marin",
+      "beyond-ceramics",
+      "wood",
+      "woodworking",
+      "boats"
+    ],
+    "category": "class",
+    "categories": [
+      "class"
+    ],
+    "discipline": "wood",
+    "source": "https://www.spauldingcenter.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-sf-center-for-the-book",
+    "name": "San Francisco Center for the Book",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Potrero Hill",
+      "coordinates": {
+        "lat": 37.76537,
+        "lng": -122.40241
+      }
+    },
+    "address": "375 Rhode Island St, San Francisco, CA 94103",
+    "focusAreas": [
+      "letterpress",
+      "bookbinding",
+      "risograph",
+      "certificate programmes",
+      "exhibitions"
+    ],
+    "description": "Thirty years of letterpress and bookbinding in Potrero Hill: weekend workshops, core certificate programmes and a well-equipped print studio.",
+    "details": "Spring 2027 (Jan-Apr) workshop schedule posts Nov 14, 2026. Exhibition 'The Joyful Body of the Word: Betsy Davids and the Book', Sept 26-Dec 20, 2026.",
+    "website": "https://www.sfcb.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "print",
+      "letterpress",
+      "bookbinding"
+    ],
+    "category": "class",
+    "categories": [
+      "class",
+      "studio"
+    ],
+    "discipline": "print",
+    "source": "https://www.sfcb.org/workshops",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-crown-point-press",
+    "name": "Crown Point Press",
+    "type": "gallery",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "SoMa",
+      "coordinates": {
+        "lat": 37.78553,
+        "lng": -122.39911
+      }
+    },
+    "address": "20 Hawthorne St, San Francisco, CA 94105",
+    "focusAreas": [
+      "etching",
+      "printmaking",
+      "gallery",
+      "summer workshops"
+    ],
+    "description": "Publisher of fine-art etchings since 1962, with a gallery open weekdays and summer workshops in its studio.",
+    "details": "Enter at 657 Howard St. Current show: Richard Tuttle and Odili Donald Odita, 'Language and Pattern', Aug 17-Nov 30, 2026. Mon-Fri 9am-5pm.",
+    "website": "https://crownpoint.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "print",
+      "printmaking",
+      "etching"
+    ],
+    "category": "gallery",
+    "categories": [
+      "gallery",
+      "class"
+    ],
+    "discipline": "print",
+    "source": "https://crownpoint.com",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-arion-press",
+    "name": "Arion Press & M&H Type",
+    "type": "gallery",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Fort Mason",
+      "coordinates": {
+        "lat": 37.80689,
+        "lng": -122.43221
+      }
+    },
+    "address": "2 Marina Blvd, Building B, San Francisco, CA 94123",
+    "focusAreas": [
+      "fine press books",
+      "type foundry",
+      "public tours",
+      "artist residency"
+    ],
+    "description": "Makers of artist books by hand for half a century, with M&H Type and public tours at Fort Mason.",
+    "details": "Open Tue-Sat 12-5pm (Landmark Building B, Suite 100). Public tours the second Thursday and third Saturday of each month (Fort Mason listing). The Grabhorn Institute runs a King Artist Residency.",
+    "website": "https://arionpress.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "print",
+      "letterpress",
+      "books"
+    ],
+    "category": "gallery",
+    "categories": [
+      "gallery",
+      "residency",
+      "lecture"
+    ],
+    "discipline": "print",
+    "source": "https://arionpress.com",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-graphic-arts-workshop",
+    "name": "Graphic Arts Workshop",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Dogpatch",
+      "coordinates": {
+        "lat": 37.7607,
+        "lng": -122.3892
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "printmaking co-op",
+      "etching",
+      "open studios"
+    ],
+    "description": "Printmakers' studio in Dogpatch whose members open the space for SF Open Studios.",
+    "details": "Took part in SF Open Studios in October 2026 with members including Christine Innes, Mark Brodie and Javier Chalini. Location from OpenStreetMap; contact the co-op about membership.",
+    "website": "https://graphicartsworkshop.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "print",
+      "printmaking"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "community"
+    ],
+    "discipline": "print",
+    "source": "https://graphicartsworkshop.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-kala-art-institute",
+    "name": "Kala Art Institute",
+    "type": "residency",
+    "status": "active",
+    "location": {
+      "city": "Berkeley",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "West Berkeley",
+      "coordinates": {
+        "lat": 37.85428,
+        "lng": -122.2884
+      }
+    },
+    "address": "1060 Heinz Ave, Berkeley, CA 94710",
+    "focusAreas": [
+      "printmaking",
+      "artist residencies",
+      "fellowships",
+      "adult classes",
+      "print room"
+    ],
+    "description": "Berkeley print and media-arts centre with artist-in-residence and fellowship programmes, a rentable print room and adult art classes.",
+    "details": "Residencies include Artist-in-Residence, Fellowship, Veterans, Media Arts, Parent Artist and Print Public programmes; gallery exhibitions and an annual art auction.",
+    "website": "https://www.kala.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "print",
+      "printmaking",
+      "residency"
+    ],
+    "category": "residency",
+    "categories": [
+      "residency",
+      "class",
+      "studio"
+    ],
+    "discipline": "print",
+    "source": "https://www.kala.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-codex-foundation",
+    "name": "CODEX Foundation",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "Berkeley",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "West Berkeley",
+      "coordinates": {
+        "lat": 37.87897,
+        "lng": -122.30003
+      }
+    },
+    "address": "1331 Seventh St, Berkeley, CA 94710",
+    "focusAreas": [
+      "artists' books",
+      "fine press library",
+      "letterpress studio",
+      "lectures",
+      "book art fair"
+    ],
+    "description": "Berkeley foundation for the handmade book, with a reference library of artists' books, a letterpress studio, lectures and workshops and a biennial international book art fair.",
+    "details": "Unit D. Library includes the Koch Collection and a consignment collection of artists' books; Emerging Artist Fellowship and research scholarship.",
+    "website": "https://www.codexfoundation.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "print",
+      "books",
+      "letterpress"
+    ],
+    "category": "lecture",
+    "categories": [
+      "lecture",
+      "class",
+      "community"
+    ],
+    "discipline": "print",
+    "source": "https://www.codexfoundation.org/visit-us/",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-asian-art-museum",
+    "name": "Asian Art Museum",
+    "type": "gallery",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Civic Center",
+      "coordinates": {
+        "lat": 37.78032,
+        "lng": -122.41599
+      }
+    },
+    "address": "200 Larkin St, San Francisco, CA 94102",
+    "focusAreas": [
+      "Asian art",
+      "Free First Sundays",
+      "cultural celebrations"
+    ],
+    "description": "Civic Center museum of art from across Asia, where Free First Sundays make it easy to return again and again to study surfaces, textiles and form.",
+    "details": "Hours: Thu 1-8pm, Fri-Mon 10am-5pm, closed Tue-Wed. Calendar of cultural celebrations and talks.",
+    "website": "https://asianart.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "museum",
+      "asian-art"
+    ],
+    "category": "museum",
+    "categories": [
+      "museum",
+      "lecture"
+    ],
+    "discipline": "museum",
+    "source": "https://asianart.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-moad",
+    "name": "Museum of the African Diaspora (MoAD)",
+    "type": "gallery",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "SoMa / Yerba Buena",
+      "coordinates": {
+        "lat": 37.78647,
+        "lng": -122.40147
+      }
+    },
+    "address": "685 Mission St, San Francisco, CA 94105",
+    "focusAreas": [
+      "African diaspora art",
+      "Emerging Artist Program",
+      "residencies",
+      "Education Lab"
+    ],
+    "description": "San Francisco's museum of Black art and culture across the African diaspora, with an Emerging Artist Program and residencies: an important home for a Rwandan maker.",
+    "details": "Fall 2026 shows include 'Liberatory Living: Protective Interiors & Radical Black Joy' and 'Dewey Crumpler: Sonic Lineages'. Ground floor of the St. Regis; closed Mondays.",
+    "website": "https://www.moadsf.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "museum",
+      "african-diaspora"
+    ],
+    "category": "museum",
+    "categories": [
+      "museum",
+      "residency",
+      "lecture"
+    ],
+    "discipline": "museum",
+    "source": "https://www.moadsf.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-de-young",
+    "name": "de Young Museum (textile collection)",
+    "type": "gallery",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Golden Gate Park",
+      "coordinates": {
+        "lat": 37.7715,
+        "lng": -122.46909
+      }
+    },
+    "address": "50 Hagiwara Tea Garden Dr, San Francisco, CA 94118",
+    "focusAreas": [
+      "textiles and costume",
+      "Textile Arts Council"
+    ],
+    "description": "The Fine Arts Museums' Golden Gate Park building, home of the textile department that the Textile Arts Council supports with lectures and study groups.",
+    "details": "Tue-Sun 9:30am-5:15pm (per the TAC site). famsf.org blocks automated checks, so exhibitions were confirmed only through the Textile Arts Council.",
+    "website": "https://www.famsf.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "museum",
+      "textiles"
+    ],
+    "category": "museum",
+    "categories": [
+      "museum"
+    ],
+    "discipline": "museum",
+    "source": "https://www.textileartscouncil.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-sfmoma",
+    "name": "SFMOMA",
+    "type": "gallery",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "SoMa",
+      "coordinates": {
+        "lat": 37.78581,
+        "lng": -122.40116
+      }
+    },
+    "address": "151 3rd St, San Francisco, CA 94103",
+    "focusAreas": [
+      "modern and contemporary art"
+    ],
+    "description": "San Francisco's museum of modern and contemporary art, a short walk from MoAD and Yerba Buena.",
+    "details": "Some floors (Atrium, 3-5) are being reinstalled in late 2026; check what is open before visiting.",
+    "website": "https://www.sfmoma.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "museum"
+    ],
+    "category": "museum",
+    "categories": [
+      "museum"
+    ],
+    "discipline": "museum",
+    "source": "https://www.sfmoma.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-cal-academy",
+    "name": "California Academy of Sciences",
+    "type": "gallery",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Golden Gate Park",
+      "coordinates": {
+        "lat": 37.76982,
+        "lng": -122.4661
+      }
+    },
+    "address": "55 Music Concourse Dr, San Francisco, CA 94118",
+    "focusAreas": [
+      "natural history",
+      "aquarium",
+      "NightLife"
+    ],
+    "description": "Natural history museum, aquarium and planetarium in Golden Gate Park, a place to think about where pigments, fibres and minerals come from; NightLife evenings are adults-only.",
+    "details": "Across the concourse from the de Young.",
+    "website": "https://www.calacademy.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "museum",
+      "natural-history"
+    ],
+    "category": "museum",
+    "categories": [
+      "museum"
+    ],
+    "discipline": "museum",
+    "source": "https://www.calacademy.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-oakland-museum",
+    "name": "Oakland Museum of California (OMCA)",
+    "type": "gallery",
+    "status": "active",
+    "location": {
+      "city": "Oakland",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Lake Merritt",
+      "coordinates": {
+        "lat": 37.79861,
+        "lng": -122.2636
+      }
+    },
+    "address": "1000 Oak St, Oakland, CA 94607",
+    "focusAreas": [
+      "California art, history and natural science",
+      "Friday Nights",
+      "gardens"
+    ],
+    "description": "California's art, history and natural sciences under one roof by Lake Merritt, with Friday Nights at OMCA and gallery chats.",
+    "details": "Programmes: Friday Nights, Spotlight Sundays, Gallery Chats, First Sundays.",
+    "website": "https://museumca.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "museum"
+    ],
+    "category": "museum",
+    "categories": [
+      "museum",
+      "lecture"
+    ],
+    "discipline": "museum",
+    "source": "https://museumca.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-bampfa",
+    "name": "BAMPFA (Berkeley Art Museum and Pacific Film Archive)",
+    "type": "gallery",
+    "status": "active",
+    "location": {
+      "city": "Berkeley",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Downtown Berkeley",
+      "coordinates": {
+        "lat": 37.87095,
+        "lng": -122.2664
+      }
+    },
+    "address": "2155 Center St, Berkeley, CA",
+    "focusAreas": [
+      "art museum",
+      "film archive",
+      "talks",
+      "workshops"
+    ],
+    "description": "UC Berkeley's art museum and cinema, with talks, conversations and hands-on workshops alongside its exhibitions.",
+    "details": "Open Wed-Sun 11am-7pm. Library and study centres on site.",
+    "website": "https://bampfa.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "museum"
+    ],
+    "category": "museum",
+    "categories": [
+      "museum",
+      "lecture"
+    ],
+    "discipline": "museum",
+    "source": "https://bampfa.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-uc-botanical-garden",
+    "name": "UC Botanical Garden at Berkeley",
+    "type": "gallery",
+    "status": "active",
+    "location": {
+      "city": "Berkeley",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Strawberry Canyon",
+      "coordinates": {
+        "lat": 37.87567,
+        "lng": -122.23924
+      }
+    },
+    "address": "200 Centennial Dr, Berkeley, CA 94720",
+    "focusAreas": [
+      "plant collections",
+      "classes and workshops",
+      "dye and fibre plants"
+    ],
+    "description": "A hillside garden of plants from around the world with classes and workshops, a living library for anyone growing or foraging dye and fibre plants.",
+    "details": "Classes and workshops, adult tours and a plant nursery; 2026 exhibitions include a Maren Hassinger sculpture show.",
+    "website": "https://botanicalgarden.berkeley.edu",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "museum",
+      "plants",
+      "natural-dye"
+    ],
+    "category": "museum",
+    "categories": [
+      "museum",
+      "class"
+    ],
+    "discipline": "museum",
+    "source": "https://botanicalgarden.berkeley.edu",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-cantor-arts-center",
+    "name": "Cantor Arts Center (Stanford)",
+    "type": "gallery",
+    "status": "active",
+    "location": {
+      "city": "Stanford",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.43301,
+        "lng": -122.17088
+      }
+    },
+    "address": "328 Lomita Dr, Stanford, CA 94305",
+    "focusAreas": [
+      "art museum",
+      "free admission",
+      "Asian American art history"
+    ],
+    "description": "Stanford's free art museum, currently showing Bay Area Asian American and Chicano art histories in its Archive Room.",
+    "details": "Shows include 'Archive Room: Irene Poon and Charles Wong' and 'Archive Room: Amalia Mesa-Bains'. Always free.",
+    "website": "https://museum.stanford.edu",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "peninsula",
+      "beyond-ceramics",
+      "museum"
+    ],
+    "category": "museum",
+    "categories": [
+      "museum"
+    ],
+    "discipline": "museum",
+    "source": "https://museum.stanford.edu",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-museum-american-indian",
+    "name": "Museum of the American Indian (Miwok Park)",
+    "type": "gallery",
+    "status": "active",
+    "location": {
+      "city": "Novato",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Miwok Park",
+      "coordinates": {
+        "lat": 38.11525,
+        "lng": -122.60313
+      }
+    },
+    "address": "2200 Novato Blvd, Novato, CA 94947",
+    "focusAreas": [
+      "Coast Miwok culture",
+      "Indigenous lifeways",
+      "education programmes"
+    ],
+    "description": "A living cultural centre in Miwok Park on Coast Miwok land, focused on Indigenous lifeways and makers of the Americas rather than static display.",
+    "details": "Exhibits, events and education programmes; check the site for opening hours.",
+    "website": "https://www.marinindian.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "marin",
+      "beyond-ceramics",
+      "museum",
+      "indigenous"
+    ],
+    "category": "museum",
+    "categories": [
+      "museum"
+    ],
+    "discipline": "museum",
+    "source": "https://www.marinindian.com/about",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-somarts",
+    "name": "SOMArts Cultural Center",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "SoMa",
+      "coordinates": {
+        "lat": 37.77081,
+        "lng": -122.40628
+      }
+    },
+    "address": "934 Brannan St, San Francisco, CA 94103",
+    "focusAreas": [
+      "printmaking classes",
+      "community exhibitions",
+      "Dia de los Muertos",
+      "curatorial residencies"
+    ],
+    "description": "Cross-cultural, community-rooted arts centre with printmaking (and ceramics) classes, the Ramp Gallery and the city's best-known Día de los Muertos exhibition.",
+    "details": "2026 shows: 'In Their Name: Día de Los Muertos 2026' and the Murphy & Cadogan awards. Currently fundraising to close a $90K gap.",
+    "website": "https://somarts.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "multi",
+      "printmaking",
+      "community"
+    ],
+    "category": "community",
+    "categories": [
+      "community",
+      "class",
+      "gallery"
+    ],
+    "discipline": "multi",
+    "source": "https://somarts.org/visit-us/",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-root-division",
+    "name": "Root Division",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "SoMa",
+      "coordinates": {
+        "lat": 37.77844,
+        "lng": -122.41145
+      }
+    },
+    "address": "1131 Mission St, San Francisco, CA 94103",
+    "focusAreas": [
+      "artist studios programme",
+      "adult art classes",
+      "fellowships",
+      "artist fair"
+    ],
+    "description": "Arts non-profit pairing an artist studios programme with adult classes and exhibitions; its December Artist Fair is open to vendors.",
+    "details": "Artist Fair: Sat Dec 12, 2026, 12-5pm, free, call for vendors open. Also runs Studios Program, fellowships and the Frank-Ratchye Project Space.",
+    "website": "https://rootdivision.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "collective",
+      "studios",
+      "market"
+    ],
+    "category": "community",
+    "categories": [
+      "community",
+      "studio",
+      "class",
+      "market"
+    ],
+    "discipline": "collective",
+    "source": "https://rootdivision.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-art-explosion-studios",
+    "name": "Art Explosion Studios",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Mission / Potrero",
+      "coordinates": {
+        "lat": 37.76439,
+        "lng": -122.40774
+      }
+    },
+    "address": "2425 17th St, San Francisco, CA 94110",
+    "focusAreas": [
+      "affordable artist studios",
+      "open studios",
+      "holiday show"
+    ],
+    "description": "Affordable artist studios in three Mission and Dogpatch buildings, with member open studios and a holiday show.",
+    "details": "Locations: 2425 17th St, 744 Alabama St and 1661 Tennessee St. Phone 415-323-3020.",
+    "website": "https://artexplosionstudios.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "collective",
+      "studios"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "community"
+    ],
+    "discipline": "collective",
+    "source": "https://artexplosionstudios.com",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-hunters-point-shipyard-artists",
+    "name": "Hunters Point Shipyard Artists",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Hunters Point",
+      "coordinates": {
+        "lat": 37.72894,
+        "lng": -122.36006
+      }
+    },
+    "address": "451 Galvez Ave, San Francisco, CA 94124",
+    "focusAreas": [
+      "largest artist studio community",
+      "spring and fall open studios"
+    ],
+    "description": "Huge artist studio community in the former naval shipyard (300+ creatives per Hoodline), with 130+ studios opening to the public each spring and fall.",
+    "details": "Fall 2026 Shipyard Open Studios ran Oct 17-18 (free, RSVP), with satellite studios at Islais Creek; spring 2026 ran Apr 25-26. Organised by the Shipyard Trust for the Arts (shipyardartists.com blocks automated checks).",
+    "website": "https://www.shipyardartists.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "collective",
+      "open-studios",
+      "studios"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "community"
+    ],
+    "discipline": "collective",
+    "source": "https://sf.funcheap.com/shipyard-open-studios-fall-2026-130-artists-free-admission-parking/",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-artspan-sf-open-studios",
+    "name": "ArtSpan: SF Open Studios",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.78794,
+        "lng": -122.40752
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "citywide open studios",
+      "artist directory"
+    ],
+    "description": "San Francisco's citywide open-studios season, now in its 52nd year, when hundreds of artists open their studios neighbourhood by neighbourhood; a route to showing her own work.",
+    "details": "2026 tours ran Sept 18-Oct 25 (Hoodline). Run by ArtSpan; artists register through artspan.org. Pin is approximate.",
+    "website": "https://www.artspan.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "collective",
+      "open-studios"
+    ],
+    "category": "community",
+    "categories": [
+      "community",
+      "market"
+    ],
+    "discipline": "collective",
+    "source": "https://hoodline.com/2026/10/san-francisco-s-52nd-open-studios-welcomes-hundreds-of-artists/",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-minnesota-street-project",
+    "name": "Minnesota Street Project",
+    "type": "gallery",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Dogpatch",
+      "coordinates": {
+        "lat": 37.75425,
+        "lng": -122.38939
+      }
+    },
+    "address": "1275 Minnesota St, San Francisco, CA 94107",
+    "focusAreas": [
+      "galleries",
+      "exhibitions",
+      "MSP Foundation"
+    ],
+    "description": "Dogpatch cluster of galleries and art spaces in converted warehouses, with a steady rhythm of openings.",
+    "details": "Fall 2026 shows include 'Character Development' (1201 Minnesota St) and Megan Broughton: False Horizon (1275 Minnesota St). The MSP Foundation supports artists.",
+    "website": "https://minnesotastreetproject.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "collective",
+      "galleries"
+    ],
+    "category": "gallery",
+    "categories": [
+      "gallery",
+      "community"
+    ],
+    "discipline": "collective",
+    "source": "https://minnesotastreetproject.com",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-creativity-explored",
+    "name": "Creativity Explored",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Mission",
+      "coordinates": {
+        "lat": 37.76447,
+        "lng": -122.42505
+      }
+    },
+    "address": "3245 16th St, San Francisco, CA 94103",
+    "focusAreas": [
+      "artists with disabilities",
+      "studio",
+      "gallery",
+      "shop"
+    ],
+    "description": "Mission District studio and gallery that has supported artists with disabilities for over 40 years; exhibitions and shop are open to visitors.",
+    "details": "Youth programmes (Imaginate camps), partner programmes and events and exhibitions.",
+    "website": "https://www.creativityexplored.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "collective",
+      "studio",
+      "gallery"
+    ],
+    "category": "community",
+    "categories": [
+      "community",
+      "gallery"
+    ],
+    "discipline": "collective",
+    "source": "https://www.creativityexplored.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-gray-area",
+    "name": "Gray Area",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Mission",
+      "coordinates": {
+        "lat": 37.75444,
+        "lng": -122.41826
+      }
+    },
+    "address": "2665 Mission St, San Francisco, CA 94110",
+    "focusAreas": [
+      "art and technology",
+      "courses",
+      "workshops",
+      "talks",
+      "cultural incubator"
+    ],
+    "description": "Art-and-technology centre on Mission Street with courses, workshops, talks and an incubator for artists.",
+    "details": "Current courses include workshops and webinars (e.g. 11/14/26 on protecting artists online). Creative R&D Labs and free synth and sound workshops.",
+    "website": "https://grayarea.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "lectures"
+    ],
+    "category": "lecture",
+    "categories": [
+      "lecture",
+      "class",
+      "community"
+    ],
+    "discipline": "lectures",
+    "source": "https://grayarea.org/courses/",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-fort-mason-center",
+    "name": "Fort Mason Center for Arts & Culture",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Marina",
+      "coordinates": {
+        "lat": 37.80689,
+        "lng": -122.43221
+      }
+    },
+    "address": "2 Marina Blvd, San Francisco, CA 94123",
+    "focusAreas": [
+      "arts campus",
+      "exhibitions",
+      "festivals",
+      "craft fairs"
+    ],
+    "description": "Waterfront arts campus that hosts the big craft fairs (West Coast Craft, Renegade) plus galleries, Arion Press and free exhibitions.",
+    "details": "Current: Leah Rosenberg, 'The Sea Is But Another Sky'; FOR-SITE at The Guardhouse through Jan 24, 2027.",
+    "website": "https://fortmason.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "multi",
+      "arts-campus"
+    ],
+    "category": "community",
+    "categories": [
+      "community",
+      "gallery",
+      "market"
+    ],
+    "discipline": "multi",
+    "source": "https://fortmason.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-long-now-talks",
+    "name": "Long Now Talks",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.78794,
+        "lng": -122.40752
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "lecture series",
+      "long-term thinking",
+      "live talks"
+    ],
+    "description": "A long-running San Francisco lecture series on civilisation-scale ideas, held live on stage and recorded as a podcast.",
+    "details": "Upcoming: Rick Prelinger, 'Lost Landscapes' (Dec 1), then talks Jan-Apr 2027. Venue varies, so the pin is approximate.",
+    "website": "https://longnow.org/talks/",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "lectures"
+    ],
+    "category": "lecture",
+    "categories": [
+      "lecture"
+    ],
+    "discipline": "lectures",
+    "source": "https://longnow.org/talks/",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-creative-growth",
+    "name": "Creative Growth Art Center",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "Oakland",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Uptown",
+      "coordinates": {
+        "lat": 37.81293,
+        "lng": -122.26419
+      }
+    },
+    "address": "355 24th St, Oakland, CA 94612",
+    "focusAreas": [
+      "artists with disabilities",
+      "fiber arts studio",
+      "woodwork",
+      "printmaking",
+      "gallery"
+    ],
+    "description": "Oakland studio for artists with disabilities, whose 12,000-square-foot space includes fiber arts, woodwork, printmaking and ceramics.",
+    "details": "Gallery, shop (wall art, fashion, jewellery, sculpture) and volunteer opportunities; collaborated on SF Black Art Week 2026.",
+    "website": "https://creativegrowth.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "collective",
+      "fiber-art",
+      "studio"
+    ],
+    "category": "community",
+    "categories": [
+      "community",
+      "gallery"
+    ],
+    "discipline": "collective",
+    "source": "https://creativegrowth.org/about",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-niad-art-center",
+    "name": "NIAD Art Center",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "Richmond",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.93924,
+        "lng": -122.34762
+      }
+    },
+    "address": "551 23rd St, Richmond, CA 94804",
+    "focusAreas": [
+      "artists with disabilities",
+      "gallery",
+      "jewellery and fashion"
+    ],
+    "description": "Richmond art studio and gallery for artists with disabilities, whose shop includes jewellery and fashion made in the studio.",
+    "details": "Events and exhibitions open to visitors; volunteer and collaboration options.",
+    "website": "https://niadart.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "collective",
+      "studio",
+      "gallery"
+    ],
+    "category": "community",
+    "categories": [
+      "community",
+      "gallery"
+    ],
+    "discipline": "collective",
+    "source": "https://niadart.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-berkeley-art-center",
+    "name": "Berkeley Art Center",
+    "type": "gallery",
+    "status": "active",
+    "location": {
+      "city": "Berkeley",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Live Oak Park",
+      "coordinates": {
+        "lat": 37.88423,
+        "lng": -122.26855
+      }
+    },
+    "address": "1275 Walnut St, Berkeley, CA 94709",
+    "focusAreas": [
+      "community exhibitions",
+      "members",
+      "events"
+    ],
+    "description": "Berkeley community art centre with exhibitions of Bay Area artists and a member directory.",
+    "details": "Current: 'I see every wave', Sept 12-Nov 22, 2026.",
+    "website": "https://www.berkeleyartcenter.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "collective",
+      "gallery"
+    ],
+    "category": "gallery",
+    "categories": [
+      "gallery",
+      "community"
+    ],
+    "discipline": "collective",
+    "source": "https://www.berkeleyartcenter.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-rhythmix",
+    "name": "Rhythmix Cultural Works",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "Alameda",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.76945,
+        "lng": -122.23513
+      }
+    },
+    "address": "2513 Blanding Ave, Alameda, CA 94501",
+    "focusAreas": [
+      "classes",
+      "workshops",
+      "K Gallery",
+      "public art"
+    ],
+    "description": "Alameda arts centre with classes and workshops, the K Gallery and public-art walks.",
+    "details": "Also home of Maze Daiko taiko; Island City Waterways art walks.",
+    "website": "https://www.rhythmix.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "multi",
+      "community"
+    ],
+    "category": "community",
+    "categories": [
+      "community",
+      "class",
+      "gallery"
+    ],
+    "discipline": "multi",
+    "source": "https://www.rhythmix.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-oakland-asian-cultural-center",
+    "name": "Oakland Asian Cultural Center",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "Oakland",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Chinatown",
+      "coordinates": {
+        "lat": 37.80044,
+        "lng": -122.27184
+      }
+    },
+    "address": "388 9th St, Oakland, CA 94607",
+    "focusAreas": [
+      "weekly art classes",
+      "exhibitions",
+      "cultural events"
+    ],
+    "description": "Chinatown cultural centre with weekly art, music and dance classes and exhibitions, a warm entry point into Oakland's Asian American arts community.",
+    "details": "Suite 290. Accepts exhibition proposals.",
+    "website": "https://oacc.cc",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "multi",
+      "community"
+    ],
+    "category": "community",
+    "categories": [
+      "community",
+      "class"
+    ],
+    "discipline": "multi",
+    "source": "https://oacc.cc/classes/",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-east-bay-open-studios",
+    "name": "East Bay Open Studios (Oakland Art Murmur)",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "Oakland",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.80446,
+        "lng": -122.27136
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "open studios",
+      "First Fridays",
+      "Emerging Artist Program"
+    ],
+    "description": "Self-guided tour of artist studios across Alameda and Contra Costa counties over several weekends, run by Oakland Art Murmur alongside its First Fridays.",
+    "details": "Art Murmur also runs an Emerging Artist Program and Oakland Style Week. Pin is approximate.",
+    "website": "https://oaklandartmurmur.org/east-bay-open-studios/",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "collective",
+      "open-studios"
+    ],
+    "category": "community",
+    "categories": [
+      "community",
+      "market"
+    ],
+    "discipline": "collective",
+    "source": "https://oaklandartmurmur.org/east-bay-open-studios/",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-art-works-downtown",
+    "name": "Art Works Downtown",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "San Rafael",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Downtown",
+      "coordinates": {
+        "lat": 37.97337,
+        "lng": -122.53126
+      }
+    },
+    "address": "1337 4th St, San Rafael, CA 94901",
+    "focusAreas": [
+      "artist studios",
+      "galleries",
+      "Max Thelen Studio Residency",
+      "2nd Friday Art Walk"
+    ],
+    "description": "Downtown San Rafael building of artist studios and galleries with a studio residency and a monthly art walk.",
+    "details": "Studio artist applications and the Max Thelen Studio Residency; galleries 1337 and Founders'. Hosted Tapestry Weavers West shows in the past.",
+    "website": "https://www.artworksdowntown.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "marin",
+      "beyond-ceramics",
+      "collective",
+      "studios"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "gallery",
+      "residency"
+    ],
+    "discipline": "collective",
+    "source": "https://www.artworksdowntown.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-marinmoca",
+    "name": "MarinMOCA",
+    "type": "gallery",
+    "status": "active",
+    "location": {
+      "city": "San Rafael",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Downtown",
+      "coordinates": {
+        "lat": 37.97438,
+        "lng": -122.52956
+      }
+    },
+    "address": "1210 5th Ave, San Rafael, CA 94901",
+    "focusAreas": [
+      "contemporary art",
+      "classes",
+      "family days"
+    ],
+    "description": "Marin's contemporary art museum, with exhibitions, learning programmes and free family art days.",
+    "details": "'In Other Words' curated by Tucker Nichols, Sept 26-Dec 20, 2026. Open Wed-Sun.",
+    "website": "https://www.marinmoca.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "marin",
+      "beyond-ceramics",
+      "collective",
+      "museum"
+    ],
+    "category": "gallery",
+    "categories": [
+      "gallery",
+      "class"
+    ],
+    "discipline": "collective",
+    "source": "https://www.marinmoca.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-marin-open-studios",
+    "name": "Marin Open Studios",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "San Rafael",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.97478,
+        "lng": -122.53167
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "open studios",
+      "juried exhibit"
+    ],
+    "description": "Two May weekends when Marin artists open their studios, a natural way to find makers in the county.",
+    "details": "2026 dates were May 2-3 and May 9-10. Pin approximate (county-wide).",
+    "website": "https://marinopenstudios.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "marin",
+      "beyond-ceramics",
+      "collective",
+      "open-studios"
+    ],
+    "category": "community",
+    "categories": [
+      "community",
+      "market"
+    ],
+    "discipline": "collective",
+    "source": "https://marinopenstudios.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-pacific-art-league",
+    "name": "Pacific Art League",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "Palo Alto",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Downtown",
+      "coordinates": {
+        "lat": 37.44374,
+        "lng": -122.16003
+      }
+    },
+    "address": "668 Ramona St, Palo Alto, CA 94301",
+    "focusAreas": [
+      "adult art classes",
+      "exhibitions",
+      "membership"
+    ],
+    "description": "Downtown Palo Alto art school and gallery with a full seasonal class catalogue and member exhibitions.",
+    "details": "Fall 2026 catalogue online.",
+    "website": "https://www.pacificartleague.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "peninsula",
+      "beyond-ceramics",
+      "multi",
+      "classes"
+    ],
+    "category": "class",
+    "categories": [
+      "class",
+      "gallery"
+    ],
+    "discipline": "multi",
+    "source": "https://www.pacificartleague.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-silicon-valley-open-studios",
+    "name": "Silicon Valley Open Studios",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "Palo Alto",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.44433,
+        "lng": -122.15985
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "open studios",
+      "artist directory"
+    ],
+    "description": "May open-studios tour across the Peninsula, South Bay and coast, look for the yellow signs.",
+    "details": "2026 directory and maps (North, South, Coast) online. Pin approximate (region-wide).",
+    "website": "https://svos.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "peninsula",
+      "beyond-ceramics",
+      "collective",
+      "open-studios"
+    ],
+    "category": "community",
+    "categories": [
+      "community",
+      "market"
+    ],
+    "discipline": "collective",
+    "source": "https://svos.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-scintillant-studio",
+    "name": "Scintillant Studio",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Mission",
+      "coordinates": {
+        "lat": 37.75275,
+        "lng": -122.421
+      }
+    },
+    "address": "1258 Valencia St, San Francisco, CA 94110",
+    "focusAreas": [
+      "jewelry semesters",
+      "wax and casting",
+      "studio rental"
+    ],
+    "description": "Mission District jewellery studio teaching eight-week evening semesters for beginners and intermediates, including wax carving and casting.",
+    "details": "Fall 2026 classes run Mon-Thu evenings 6-9pm (Oct 12-Dec 10); tuition $525 per semester. Winter (Jan-Mar) enrolment opens Nov 1. Studio rentals available. Run by Adam Clark.",
+    "website": "https://www.scintillantstudio.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "jewelry",
+      "metal"
+    ],
+    "category": "class",
+    "categories": [
+      "class",
+      "studio"
+    ],
+    "discipline": "jewelry",
+    "source": "https://www.scintillantstudio.com/classes",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-silverwork-studios-sausalito",
+    "name": "Silverwork Studios (Sausalito)",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "Sausalito",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.85964,
+        "lng": -122.48756
+      }
+    },
+    "address": "305 Caledonia St, Sausalito, CA 94965",
+    "focusAreas": [
+      "guided jewelry sessions",
+      "soldering",
+      "bezel making"
+    ],
+    "description": "Beginner-friendly guided jewellery sessions where you learn to solder and design your own sterling silver piece, walkable from the San Francisco ferry.",
+    "details": "Second studio at 1824 Fourth Street, Berkeley. Open Wednesday-Sunday by appointment; sessions of 1-3 hours, holiday workshops.",
+    "website": "https://silverworkstudios.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "marin",
+      "beyond-ceramics",
+      "jewelry",
+      "beginner"
+    ],
+    "category": "class",
+    "categories": [
+      "class"
+    ],
+    "discipline": "jewelry",
+    "source": "https://silverworkstudios.com/pages/contact",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-renegade-sf-winter-2026",
+    "name": "Renegade Craft Fair San Francisco (Nov 2026)",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Marina",
+      "coordinates": {
+        "lat": 37.80689,
+        "lng": -122.43221
+      }
+    },
+    "address": "Festival Pavilion, Fort Mason Center, San Francisco, CA 94123",
+    "focusAreas": [
+      "craft fair",
+      "makers market",
+      "vendor applications"
+    ],
+    "description": "Big curated craft fair at Fort Mason's Festival Pavilion, one of 15 Renegade fairs a year; open to apply as a vendor.",
+    "details": "November 14-15, 2026, Fort Mason Center Festival Pavilion.",
+    "website": "https://www.renegadecraft.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "market",
+      "craft-fair"
+    ],
+    "category": "market",
+    "categories": [
+      "market"
+    ],
+    "discipline": "market",
+    "source": "https://www.renegadecraft.com/events/",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-alameda-point-antiques-faire",
+    "name": "Alameda Point Antiques Faire",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "Alameda",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Alameda Point",
+      "coordinates": {
+        "lat": 37.79064,
+        "lng": -122.31721
+      }
+    },
+    "address": "3900 Main St, Alameda, CA 94501",
+    "focusAreas": [
+      "antiques",
+      "vintage textiles",
+      "monthly market"
+    ],
+    "description": "Northern California's largest antiques show, 800+ dealers on the first Sunday of every month: vintage textiles, tools and pottery to study and buy.",
+    "details": "Next: Sunday Nov 1, 2026. Tiered entry: VIP 6-7:30am $20, early buy $15, morning $10, afternoon $5.",
+    "website": "https://alamedapointantiquesfaire.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "east-bay",
+      "beyond-ceramics",
+      "market",
+      "antiques",
+      "vintage"
+    ],
+    "category": "market",
+    "categories": [
+      "market"
+    ],
+    "discipline": "market",
+    "source": "https://alamedapointantiquesfaire.com",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-root-division-artist-fair",
+    "name": "Root Division Artist Fair (Dec 2026)",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "SoMa",
+      "coordinates": {
+        "lat": 37.77844,
+        "lng": -122.41145
+      }
+    },
+    "address": "1131 Mission St, San Francisco, CA 94103",
+    "focusAreas": [
+      "artist fair",
+      "call for vendors"
+    ],
+    "description": "Free, all-ages December artist fair at Root Division with an open call for vendors, a low-key first place to sell her work.",
+    "details": "Saturday Dec 12, 2026, 12-5pm.",
+    "website": "https://rootdivision.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "beyond-ceramics",
+      "market"
+    ],
+    "category": "market",
+    "categories": [
+      "market"
+    ],
+    "discipline": "market",
+    "source": "https://rootdivision.org",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "baymk-maker-faire-bay-area",
+    "name": "Maker Faire Bay Area (Mare Island)",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "Vallejo",
+      "region": "California",
+      "country": "USA",
+      "neighborhood": "Mare Island",
+      "coordinates": {
+        "lat": 38.09223,
+        "lng": -122.27047
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "maker festival",
+      "call for makers",
+      "demonstrations"
+    ],
+    "description": "Three days of robots, fire, fabrication and handmade wonders on Mare Island; returns Sept 24-26, 2027.",
+    "details": "Call for Makers opens ahead of each faire. Pin approximate (Mare Island).",
+    "website": "https://makerfaire.com/bay-area/",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "north-bay",
+      "beyond-ceramics",
+      "market",
+      "maker-faire"
+    ],
+    "category": "market",
+    "categories": [
+      "market",
+      "community"
+    ],
+    "discipline": "market",
+    "source": "https://makerfaire.com/bay-area/",
+    "lastVerified": "2026-10-28"
+  }
+]
