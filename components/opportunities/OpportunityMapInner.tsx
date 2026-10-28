@@ -9,6 +9,7 @@ import { formatLocation } from "@/lib/utils";
 import {
   REGIONS,
   inScope,
+  cityOf,
   isCeramics,
   type Craft,
   WORLD_VIEW,
@@ -29,12 +30,24 @@ interface Props {
   initialScope?: MapScope;
   initialSelected?: string;
   initialCraft?: Craft;
+  initialCity?: string;
 }
 
-export default function OpportunityMapInner({ opportunities, initialScope = "bay", initialSelected, initialCraft = "ceramics" }: Props) {
+export default function OpportunityMapInner({ opportunities, initialScope = "bay", initialSelected, initialCraft = "ceramics", initialCity = "" }: Props) {
   const all = opportunities as MapOpportunity[];
   const [scope, setScope] = useState<MapScope>(initialScope);
   const [craft, setCraft] = useState<Craft>(initialCraft);
+  const [city, setCity] = useState<string>(initialCity);
+  const setParam = (k: string, v?: string) => {
+    try {
+      const url = new URL(window.location.href);
+      if (v) url.searchParams.set(k, v);
+      else url.searchParams.delete(k);
+      window.history.replaceState(window.history.state, "", url.toString());
+    } catch {
+      /* non-critical */
+    }
+  };
   const [types, setTypes] = useState<string[]>([]);
   const [cats, setCats] = useState<string[]>([]);
   const [selectedId, setSelectedId] = useState<string | null>(initialSelected || null);
@@ -42,6 +55,8 @@ export default function OpportunityMapInner({ opportunities, initialScope = "bay
   const changeScope = (s: MapScope) => {
     setScope(s);
     setSelectedId(null);
+    setCity("");
+    setParam("city");
     try {
       const url = new URL(window.location.href);
       if (s !== "bay") url.searchParams.set("scope", s);
@@ -54,7 +69,7 @@ export default function OpportunityMapInner({ opportunities, initialScope = "bay
   };
 
   // Everything in the current scope (before type / category chips)
-  const scoped = useMemo(
+  const regional = useMemo(
     () =>
       all.filter((o) => {
         const c = o.location.coordinates;
@@ -64,6 +79,17 @@ export default function OpportunityMapInner({ opportunities, initialScope = "bay
       }),
     [all, scope, craft]
   );
+
+  // The city menu (what's in the region now), then the chosen city
+  const cityChoices = useMemo(() => {
+    const m = new Map<string, number>();
+    regional.forEach((o) => {
+      const c = cityOf(o);
+      if (c) m.set(c, (m.get(c) || 0) + 1);
+    });
+    return [...m.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  }, [regional]);
+  const scoped = useMemo(() => (city ? regional.filter((o) => cityOf(o) === city) : regional), [regional, city]);
 
   const typeOptions = useMemo(() => {
     const counts = new Map<string, number>();
@@ -118,6 +144,8 @@ export default function OpportunityMapInner({ opportunities, initialScope = "bay
           onChange={(v) => {
             setCraft(v as Craft);
             resetFilters();
+            setCity("");
+            setParam("city");
             try {
               const url = new URL(window.location.href);
               if (v === "all") url.searchParams.set("making", "all");
@@ -132,6 +160,33 @@ export default function OpportunityMapInner({ opportunities, initialScope = "bay
             { value: "all", label: "All making" },
           ]}
         />
+        {cityChoices.length > 1 && (
+          <label className="relative inline-flex items-center max-w-full">
+            <span className="sr-only">City</span>
+            <select
+              value={city}
+              onChange={(e) => {
+                setCity(e.target.value);
+                setSelectedId(null);
+                resetFilters();
+                setParam("city", e.target.value || undefined);
+              }}
+              className={`appearance-none max-w-full min-h-11 pl-4 pr-9 rounded-full border text-body-sm bg-paper-soft transition-colors duration-400 focus:outline-none focus:border-ink ${
+                city ? "border-ink text-ink" : "border-line text-ink-2"
+              }`}
+            >
+              <option value="">{scope === "world" ? "Every city" : `All of ${scope === "bay" ? "the Bay Area" : REGIONS[scope].label}`}</option>
+              {cityChoices.map(([c, n]) => (
+                <option key={c} value={c}>
+                  {c} ({n})
+                </option>
+              ))}
+            </select>
+            <svg className="pointer-events-none absolute right-3.5 text-ink-3" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.3">
+              <path d="M2.5 4.5L6 8l3.5-3.5" />
+            </svg>
+          </label>
+        )}
 
         <ChipScroller label="Filter by type">
           <Chip active={types.length === 0} onClick={() => setTypes([])}>
@@ -162,6 +217,7 @@ export default function OpportunityMapInner({ opportunities, initialScope = "bay
       <div className="relative flex-1 min-h-[320px] border-t border-line">
         <LeafletCanvas
           scope={scope}
+          fitTo={city}
           items={filtered}
           selectedId={selected?.id ?? null}
           onSelect={setSelectedId}
@@ -170,7 +226,7 @@ export default function OpportunityMapInner({ opportunities, initialScope = "bay
 
         <div className="absolute top-3 left-3 z-[500] bg-paper-soft/95 border border-line px-3 py-2 text-caption text-ink-2 pointer-events-none">
           {filtered.length} {filtered.length === 1 ? "place" : "places"}
-          {scope === "world" ? " worldwide" : ` ${REGIONS[scope].phrase}`}
+          {city ? ` in ${city}` : scope === "world" ? " worldwide" : ` ${REGIONS[scope].phrase}`}
         </div>
 
         {filtered.length === 0 && (
@@ -200,12 +256,14 @@ export default function OpportunityMapInner({ opportunities, initialScope = "bay
  */
 function LeafletCanvas({
   scope,
+  fitTo,
   items,
   selectedId,
   onSelect,
   onBackground,
 }: {
   scope: MapScope;
+  fitTo?: string;
   items: MapOpportunity[];
   selectedId: string | null;
   onSelect: (id: string) => void;
@@ -257,14 +315,20 @@ function LeafletCanvas({
     map.invalidateSize();
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const animate = !firstFit.current && !reduce;
-    if (scope !== "world") {
+    const pts = fitTo
+      ? items.flatMap((o) => (o.location.coordinates ? [[o.location.coordinates.lat, o.location.coordinates.lng] as [number, number]] : []))
+      : [];
+    if (pts.length) {
+      map.fitBounds(L.latLngBounds(pts), { padding: [40, 40], maxZoom: 14, animate });   // one city: frame its pins
+    } else if (scope !== "world") {
       map.fitBounds(REGIONS[scope].bounds, { padding: [8, 8], animate });
     } else {
       const narrow = map.getSize().x < 600;
       map.setView(WORLD_VIEW.center, narrow ? 1.5 : WORLD_VIEW.zoom, { animate });
     }
     firstFit.current = false;
-  }, [scope, ready]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [scope, ready, fitTo]);
 
   // Draw pins. Visible dot sits inside a larger transparent hit area so it is
   // easy to tap with a thumb.

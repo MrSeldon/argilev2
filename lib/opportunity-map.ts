@@ -47,6 +47,13 @@ export function isCeramics(o: { discipline?: string }): boolean {
   return !o.discipline || o.discipline === "ceramics";
 }
 
+/** The town or city an entry sits in, for the city menu (same on the list and the map). */
+export function cityOf(o: { location?: unknown }): string | undefined {
+  const l = o.location as { city?: unknown } | undefined;
+  const c = l && typeof l === "object" && typeof l.city === "string" ? l.city.trim() : "";
+  return c || undefined;
+}
+
 export const WORLD_VIEW = { center: [25, 10] as [number, number], zoom: 2 };
 
 export function inBayArea(lat: number, lng: number): boolean {

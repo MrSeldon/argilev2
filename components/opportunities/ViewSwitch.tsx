@@ -3,7 +3,7 @@
 import { useRouter, useSearchParams } from "next/navigation";
 import { ListMapSwitch } from "./ExploreNav";
 
-const KEEP = ["scope", "making"];
+const KEEP = ["scope", "making", "city"];
 
 function carried(search: string) {
   const sp = new URLSearchParams(search);

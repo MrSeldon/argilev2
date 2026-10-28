@@ -12,9 +12,9 @@ export const metadata = {
 export default async function OpportunitiesMapPage({
   searchParams,
 }: {
-  searchParams: Promise<{ scope?: string; focus?: string; making?: string }>;
+  searchParams: Promise<{ scope?: string; focus?: string; making?: string; city?: string }>;
 }) {
-  const { scope, focus, making } = await searchParams;
+  const { scope, focus, making, city } = await searchParams;
   const opportunities = await getOpportunities();
 
   const mappable = opportunities.filter(
@@ -37,7 +37,7 @@ export default async function OpportunitiesMapPage({
         <h1 className="font-serif text-[1.6rem] md:text-display-sm leading-none">Opportunities</h1>
         <ViewSwitch active="map" />
       </div>
-      <OpportunityMap opportunities={mappable} initialScope={initialScope} initialSelected={focused?.id} initialCraft={making === "all" ? "all" : "ceramics"} />
+      <OpportunityMap opportunities={mappable} initialScope={initialScope} initialSelected={focused?.id} initialCraft={making === "all" ? "all" : "ceramics"} initialCity={focused ? "" : city || ""} />
     </div>
   );
 }

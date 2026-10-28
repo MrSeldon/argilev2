@@ -18,10 +18,11 @@ interface OpportunityMapProps {
   initialScope?: import("@/lib/opportunity-map").MapScope;
   initialSelected?: string;
   initialCraft?: import("@/lib/opportunity-map").Craft;
+  initialCity?: string;
 }
 
-export function OpportunityMap({ opportunities, initialScope, initialSelected, initialCraft }: OpportunityMapProps) {
+export function OpportunityMap({ opportunities, initialScope, initialSelected, initialCraft, initialCity }: OpportunityMapProps) {
   return (
-    <OpportunityMapInner opportunities={opportunities} initialScope={initialScope} initialSelected={initialSelected} initialCraft={initialCraft} />
+    <OpportunityMapInner opportunities={opportunities} initialScope={initialScope} initialSelected={initialSelected} initialCraft={initialCraft} initialCity={initialCity} />
   );
 }
