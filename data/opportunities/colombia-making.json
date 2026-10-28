@@ -66,6 +66,7 @@
       },
       "approximate": true
     },
+    "address": "Carrera 5 # 2-08, San Antonio, Cali",
     "focusAreas": [
       "wheel-throwing",
       "hand-building",
@@ -73,7 +74,7 @@
     ],
     "description": "A pottery workshop in San Antonio that offers wheel and hand-building classes, creative workshops and handmade ceramics made to order. Classes can be taken one-to-one or in pairs.",
     "descriptionOriginal": "Clases de cerámica | Clases de torno | Venta cerámica artesanal. Clases y talleres creativos, pedidos personalizados. San Antonio, Cali.",
-    "details": "September 2026 flyers advertise hand-building classes in packs of 2, 4 or 8 sessions on Thursdays and Sundays, and wheel classes Monday to Friday. Both can be taken one-to-one or in pairs, and you sign up by Instagram direct message. A flyer shows a street address, but it could not be read reliably, so ask for the exact location. No prices were visible.",
+    "details": "September 2026 flyers advertise hand-building classes in packs of 2, 4 or 8 sessions on Thursdays and Sundays, and wheel classes Monday to Friday. Both can be taken one-to-one or in pairs, and you sign up by Instagram direct message. Its Google Maps listing (October 2026) gives the address as Carrera 5 # 2-08 and the phone as 304 251 3909; confirm by message before going. No prices were visible.",
     "website": "https://www.instagram.com/laalfareria.cali/",
     "tags": [
       "colombia",
@@ -3876,6 +3877,514 @@
     ],
     "discipline": "glass",
     "source": "https://www.elpais.com.co/cultura/la-casa-de-vitrales-mas-antigua-de-colombia-que-aun-mantiene-vivo-este-antiguo-arte-desde-cali-0652.html",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "comk-cali-geominerales-andinos",
+    "name": "Geominerales Andinos",
+    "nameEnglish": "Geominerales Andinos minerals shop",
+    "type": "supplier",
+    "status": "active",
+    "location": {
+      "city": "Cali",
+      "region": "Valle del Cauca",
+      "country": "Colombia",
+      "neighborhood": "Barrio Obrero",
+      "coordinates": {
+        "lat": 3.44763,
+        "lng": -76.52064
+      },
+      "approximate": true
+    },
+    "address": "Calle 22A # 9-33, Barrio Obrero, Cali (second outlet: Casa del Bonsai, Km 3 vía La Buitrera)",
+    "focusAreas": [
+      "kaolin",
+      "bentonite",
+      "talc",
+      "silica-sand",
+      "grog",
+      "raw-materials"
+    ],
+    "description": "A Cali shop for industrial and garden minerals that also stocks several raw materials a potter can use: natural white kaolin, calcium and sodium bentonite, micronised talc, silica sands and ground brick chamotte (grog). It is mainly a landscaping and bonsai supplier, not a ceramics shop.",
+    "descriptionOriginal": "Caolín blanco natural: base para esmaltes, lozas y porcelanas de alta calidad.",
+    "details": "The online store lists the kaolin in 1, 5, 10, 20 and 40 kg sacks from COP 7.000 (the page shows only that one price, the mesh is given as both 150 and 250, and stock was shown as both available and sold out, so confirm before ordering). Micronised talc (mesh 400) is listed from COP 8.000 but is described for farm use, not ceramics. Volume discounts apply. Delivery within Cali and shipping across Colombia; orders over 50 kg by WhatsApp (+57 311 771 2198 or +57 314 296 2523). No feldspar, frits or oxides were found in the catalogue. Confirmed active on its Instagram (@geominerales_cali), October 2026.",
+    "website": "https://www.geominerales.com.co/",
+    "tags": [
+      "colombia",
+      "valle-del-cauca",
+      "cali",
+      "ceramics",
+      "supplier",
+      "raw-materials",
+      "glaze-chemistry"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier",
+      "materials"
+    ],
+    "discipline": "ceramics",
+    "source": "https://www.geominerales.com.co/productos/caolin-blanco-natural-arcilla-blanca/",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "comk-cali-el-pincel-de-marisol",
+    "name": "El Pincel de Marisol, Taller de Arte",
+    "nameEnglish": "Marisol's Paintbrush art workshop",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "Cali",
+      "region": "Valle del Cauca",
+      "country": "Colombia",
+      "neighborhood": "Bretaña",
+      "coordinates": {
+        "lat": 3.44082,
+        "lng": -76.53175
+      },
+      "approximate": true
+    },
+    "address": "Carrera 17 # 1-66, Cali",
+    "focusAreas": [
+      "hand-building",
+      "ceramic-painting",
+      "high-fire-glazes",
+      "underglaze",
+      "moulds",
+      "painting"
+    ],
+    "description": "Marisol Ordóñez's painting and ceramics workshop, with classes in decorative painting and in making ceramics from scratch, group sessions and handmade pieces. The Colombian ceramics collective Entre Grietas lists her as a Cali supplier of high-temperature glazes, watercolour-style high-fire ceramic pigments and slip-casting moulds made to order.",
+    "descriptionOriginal": "Esmaltes para alta temperatura. Pigmentos cerámicos acuarelables para alta temperatura. Elaboración y venta de moldes para cerámica (moldería).",
+    "details": "The supplies listing comes from Entre Grietas' supplier directory (page dated 2021), so ask whether glazes, pigments and moulds are still sold. The workshop itself is current: its Google listing shows the Carrera 17 address and phone 300 759 2445, a November 2025 Superprof guide recommends it for painting classes, and it was confirmed active on its Instagram (@elpinceldemarisol, 'Clase de Pintura y Cerámica en Cali'), October 2026. No prices or class schedules could be read.",
+    "website": "https://www.entregrietas.com/proveedores",
+    "tags": [
+      "colombia",
+      "valle-del-cauca",
+      "cali",
+      "ceramics",
+      "supplier",
+      "workshop",
+      "glazes"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier",
+      "workshop",
+      "class"
+    ],
+    "discipline": "ceramics",
+    "source": "https://www.entregrietas.com/proveedores",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "comk-cali-jberly-art-studio",
+    "name": "JBerly Art Studio",
+    "nameEnglish": "JBerly Art Studio art-supply shop",
+    "type": "supplier",
+    "status": "active",
+    "location": {
+      "city": "Cali",
+      "region": "Valle del Cauca",
+      "country": "Colombia",
+      "neighborhood": "San Pedro",
+      "coordinates": {
+        "lat": 3.45068,
+        "lng": -76.53387
+      },
+      "approximate": true
+    },
+    "address": "Carrera 5 # 2-102, Cali",
+    "focusAreas": [
+      "clay",
+      "tools",
+      "art-supplies"
+    ],
+    "description": "An art and craft supply shop near San Antonio that sells a 2 kg block of kiln-firing ceramic clay for hand-building, wheel and sculpture, plus a clay-cutting wire, alongside paints, brushes and polymer clay. Useful for small quantities, not for bulk clay or glaze materials.",
+    "descriptionOriginal": "Arcilla de textura suave y maleable, ideal para modelado manual, torno, escultura y proyectos cerámicos.",
+    "details": "The 2 kg clay block was listed at COP 13.500 and the cutting wire at COP 6.000 in October 2026. The clay type and firing range are not stated, so ask before glazing or high firing. No glazes were found. Contact: +57 311 379 5165 (WhatsApp) or Contacto@jberlyart.com. Shipping terms were not shown.",
+    "website": "https://jberlyart.com/",
+    "tags": [
+      "colombia",
+      "valle-del-cauca",
+      "cali",
+      "ceramics",
+      "supplier",
+      "clay"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier",
+      "materials"
+    ],
+    "discipline": "ceramics",
+    "source": "https://jberlyart.com/pincel-pelo-de-marta-redondo-1",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "comk-la-estrella-minser-ceramica",
+    "name": "Min&Ser Cerámica (Minerales y Servicios)",
+    "nameEnglish": "Min&Ser ceramic raw materials",
+    "type": "supplier",
+    "status": "active",
+    "location": {
+      "city": "La Estrella",
+      "region": "Antioquia",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 6.15768,
+        "lng": -75.64339
+      },
+      "approximate": true
+    },
+    "address": "Carrera 48B # 99 sur 59, Bodega 7A, Bodegas San Bartolomé, La Estrella, Antioquia",
+    "focusAreas": [
+      "frits",
+      "glazes",
+      "feldspar",
+      "kaolin",
+      "silica",
+      "pigments",
+      "clay-bodies",
+      "kiln-shelves"
+    ],
+    "description": "A Medellín-area raw-materials company with a line for studio and hobby ceramics: powdered glazes and frits, brush-on glazes, clay bodies in rolls, ceramic pigments, bisque tableware, refractory kiln shelves and powdered minerals including national and imported feldspar, kaolin, silica (mesh 325), talc, dolomite, wollastonite, nepheline syenite, zircon opacifier and potter's plaster.",
+    "descriptionOriginal": "Su aliado para la cerámica artesanal y de hobby.",
+    "details": "Listed glazes and frits include transparents for 1050-1120°C and 1200-1220°C, a zircon white at 1100°C, a matte at 1130-1150°C, and frits P-830 (950°C) and 9573 (1170°C). No prices online: orders are by quote form, WhatsApp or phone (+57 604 444 2070, +57 316 741 1095, info@ceramicas.minser.co), and powdered minerals are made to order. The site does not say whether it ships to Cali, so ask; La Estrella is roughly 420 km from Cali by road. Confirmed active on its Instagram (@minserceramica), latest post seen May 2026; check before ordering.",
+    "website": "https://minser.com.co/ceramica-artesanal/",
+    "tags": [
+      "colombia",
+      "antioquia",
+      "ceramics",
+      "supplier",
+      "glaze-chemistry",
+      "raw-materials",
+      "frits"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier",
+      "materials"
+    ],
+    "discipline": "ceramics",
+    "source": "https://minser.com.co/esmaltes-y-fritas/",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "comk-bogota-hornos-santorino",
+    "name": "Hornos Santorino",
+    "nameEnglish": "Santorino electric ceramic kilns",
+    "type": "supplier",
+    "status": "active",
+    "location": {
+      "city": "Bogotá",
+      "region": "Bogotá D.C.",
+      "country": "Colombia",
+      "coordinates": {
+        "lat": 4.65338,
+        "lng": -74.08363
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "electric-kilns",
+      "kiln-repair"
+    ],
+    "description": "A Bogotá maker of electric kilns for ceramics that also restores and repairs kilns, listed in Entre Grietas' directory of Colombian ceramic suppliers.",
+    "descriptionOriginal": "Fabricación y restauración de hornos eléctricos para cerámica.",
+    "details": "No website, prices, sizes or temperature ratings were found, and there is no street address (shown at the city centre). Delivery or installation in Cali is not stated, so ask. Confirmed active on its Instagram (@hornossantorino), latest post seen June 2026, so check before ordering; contact is by the technician's number on that profile.",
+    "website": "https://www.entregrietas.com/proveedores",
+    "tags": [
+      "colombia",
+      "bogota",
+      "ceramics",
+      "supplier",
+      "kilns"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier",
+      "equipment"
+    ],
+    "discipline": "ceramics",
+    "source": "https://www.instagram.com/hornossantorino/",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "comk-cali-alma-de-la-tierra",
+    "name": "Taller de Cerámica Alma de la Tierra",
+    "nameEnglish": "Alma de la Tierra ceramics workshop",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "Cali",
+      "region": "Valle del Cauca",
+      "country": "Colombia",
+      "neighborhood": "Bellavista (oeste)",
+      "coordinates": {
+        "lat": 3.44361,
+        "lng": -76.55053
+      },
+      "approximate": true
+    },
+    "address": "Carrera 24B # 2-28 Oeste, Cali",
+    "focusAreas": [
+      "wheel-throwing",
+      "hand-building",
+      "ceramic-illustration",
+      "teaching",
+      "tableware"
+    ],
+    "description": "Karla Posada's ceramics studio in the hills of west Cali, making one-off pieces and teaching hand-building and wheel classes, ongoing workshops and weekend 'parche cerámigos' sessions where you choose wheel or hand-building. She also teaches guest workshops elsewhere in the city.",
+    "descriptionOriginal": "Piezas únicas. Clases modelado manual y torno. Experiencias con arcilla.",
+    "details": "Bookings are by WhatsApp (+57 319 288 4625); the programme of permanent workshops and of the 'parche cerámigos' sessions is in PDFs linked from linktr.ee/almadelatierra, and their prices could not be read. On 18 October 2026 she led a 'Taza + platico' (cup and saucer) workshop, 3-6 pm, at Pulpo Ink Casa Taller in San Fernando (listed by ViveCali). Confirmed active on its Instagram (@ceramica_almadelatierra), October 2026.",
+    "website": "https://linktr.ee/almadelatierra",
+    "tags": [
+      "colombia",
+      "valle-del-cauca",
+      "cali",
+      "ceramics",
+      "studio",
+      "wheel-throwing",
+      "class"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "class",
+      "workshop"
+    ],
+    "discipline": "ceramics",
+    "source": "https://www.vivecali.com/event/taller-de-ceramica-taza-platico-pulpoink-casataller/",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "comk-cali-serena-morena",
+    "name": "Serena Morena",
+    "nameEnglish": "Serena Morena ceramics studio",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "Cali",
+      "region": "Valle del Cauca",
+      "country": "Colombia",
+      "neighborhood": "Eucarístico",
+      "coordinates": {
+        "lat": 3.42376,
+        "lng": -76.5407
+      },
+      "approximate": true
+    },
+    "address": "Carrera 36 # 6-29, 2nd floor, Eucarístico, Cali",
+    "focusAreas": [
+      "hand-building",
+      "beginner-classes",
+      "children",
+      "tableware"
+    ],
+    "description": "Paula Borja's handmade ceramics brand and studio, which runs beginner ceramics classes and a children's workshop and makes one-off pieces for the home.",
+    "descriptionOriginal": "Cada pieza es única, hecha a mano de manera artesanal.",
+    "details": "The address comes from a business directory (Cybo) and the phone/WhatsApp is +57 300 803 9044. Its Instagram (@serenamorena.co) now gives its base as 'Miami, Fl - Cali, Col.' and announced changes for 2026, so ask whether classes are running in Cali before going. Confirmed active on Instagram, September 2026. No prices could be read.",
+    "website": "https://www.instagram.com/serenamorena.co/",
+    "tags": [
+      "colombia",
+      "valle-del-cauca",
+      "cali",
+      "ceramics",
+      "workshop",
+      "class"
+    ],
+    "category": "workshop",
+    "categories": [
+      "workshop",
+      "class"
+    ],
+    "discipline": "ceramics",
+    "source": "https://www.instagram.com/serenamorena.co/",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "comk-cali-espirare-terra-taller",
+    "name": "Espirare Terra Taller",
+    "nameEnglish": "Espirare Terra craft workshop",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "Cali",
+      "region": "Valle del Cauca",
+      "country": "Colombia",
+      "neighborhood": "Miraflores / Cristales",
+      "coordinates": {
+        "lat": 3.43644,
+        "lng": -76.54341
+      },
+      "approximate": true
+    },
+    "address": "Calle 2A # 26-33, Miraflores, Cali",
+    "focusAreas": [
+      "hand-building",
+      "crafts",
+      "group-workshops"
+    ],
+    "description": "An arts-and-crafts workshop in west Cali whose programme includes one-off hand-building (modelado manual) ceramics sessions, along with other craft workshops and private group experiences.",
+    "descriptionOriginal": "Taller de Cerámica: modelado manual.",
+    "details": "Cali's cultural listings site Circulátelo listed a hand-building session on Saturday 8 August 2026, 3-6 pm, at COP 125.000 per person. Contact espirareterra@gmail.com or WhatsApp via its site. It is a general crafts space rather than a dedicated pottery studio; no wheel or firing service is mentioned. Confirmed active on its Instagram (@espirareterra.taller), October 2026.",
+    "website": "https://espirareterra.wixsite.com/espirareterra-taller",
+    "tags": [
+      "colombia",
+      "valle-del-cauca",
+      "cali",
+      "ceramics",
+      "workshop",
+      "hand-building"
+    ],
+    "category": "workshop",
+    "categories": [
+      "workshop",
+      "class"
+    ],
+    "discipline": "ceramics",
+    "source": "https://circulatelo.com/eventos/taller-ceramica-modelado-manual-cristales-08-ago",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "comk-cali-ibarra-ceramica",
+    "name": "Ibarra Cerámica – A Mano y Corazón",
+    "nameEnglish": "Ibarra Ceramics, by hand and heart",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "Cali",
+      "region": "Valle del Cauca",
+      "country": "Colombia",
+      "neighborhood": "El Peñón",
+      "coordinates": {
+        "lat": 3.4501,
+        "lng": -76.54277
+      },
+      "approximate": true
+    },
+    "address": "Shop and studio: Calle 3 Oeste # 1-38, Local 2, El Peñón, Cali (workshop also listed at Carrera 3 # 11-55, San Pedro)",
+    "focusAreas": [
+      "figurative-ceramics",
+      "high-fire",
+      "glazes",
+      "slips",
+      "oxides"
+    ],
+    "description": "Ana María Ibarra's ceramics studio and shop, making handmade figurative pieces in clay fired at high temperature and finished with glazes, oxides and engobes, including Cali characters such as the chontaduro seller.",
+    "descriptionOriginal": "Las piezas están elaboradas en arcilla de calidad preparada para cocción a altas temperaturas.",
+    "details": "Open Monday to Friday, 8 am-5:30 pm. Contact +57 311 316 5224, ibarraamanoycorazon@gmail.com. Pieces ship within Colombia (quoted by city). The website does not mention public classes; Entre Grietas lists the studio as an 'espacio abierto', so ask whether it takes visitors or students. Site updated 2025-2026.",
+    "website": "https://ibarraceramica.co/home/",
+    "tags": [
+      "colombia",
+      "valle-del-cauca",
+      "cali",
+      "ceramics",
+      "studio"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "artist"
+    ],
+    "discipline": "ceramics",
+    "source": "https://ibarraceramica.co/home/",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "comk-cali-pulpo-ink-casa-taller",
+    "name": "Pulpo Ink Casa Taller",
+    "nameEnglish": "Pulpo Ink craft house",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "Cali",
+      "region": "Valle del Cauca",
+      "country": "Colombia",
+      "neighborhood": "San Fernando / Miraflores",
+      "coordinates": {
+        "lat": 3.43873,
+        "lng": -76.54504
+      },
+      "approximate": true
+    },
+    "address": "Carrera 25 # 2-92, San Fernando, Cali",
+    "focusAreas": [
+      "screen-printing",
+      "embroidery",
+      "bookbinding",
+      "textile-printing",
+      "guest-ceramics-workshops"
+    ],
+    "description": "A crafts house founded in 2009 by Judith Barrera that teaches hand screen printing, embroidery and bookbinding, and hosts guest workshops, including ceramics sessions led by Karla Posada of Alma de la Tierra.",
+    "descriptionOriginal": "Taller de serigrafía personalizado, club de bordado y taller de encuadernación artesanal.",
+    "details": "Regular programme: screen printing on a permanent schedule, an embroidery club on Thursdays 5-8 pm, and bookbinding plus screen printing on Saturdays at 10 am. A ceramics 'Taza + platico' workshop ran on 18 October 2026, and it hosts a creativity, arts and crafts fair (Feria AMARILLA) on 1 November 2026 (free entry). No prices online. Contact +57 310 836 9683, pulpoinkcasataller@gmail.com.",
+    "website": "https://pulpoinkcasataller.com/",
+    "tags": [
+      "colombia",
+      "valle-del-cauca",
+      "cali",
+      "beyond-ceramics",
+      "workshop",
+      "printmaking",
+      "embroidery"
+    ],
+    "category": "workshop",
+    "categories": [
+      "workshop",
+      "class",
+      "community"
+    ],
+    "discipline": "multi",
+    "source": "https://www.vivecali.com/lugar/pulpo-ink-casa-taller-cali/",
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "comk-valle-jamundi-martha-lia-vallejo",
+    "name": "Martha Lia Vallejo – Taller de Arte",
+    "nameEnglish": "Martha Lia Vallejo art workshop",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "Jamundí",
+      "region": "Valle del Cauca",
+      "country": "Colombia",
+      "neighborhood": "Rincón de las Mercedes (Potrerito)",
+      "coordinates": {
+        "lat": 3.2433,
+        "lng": -76.57332
+      },
+      "approximate": true
+    },
+    "address": "Condominio Campestre Rincón de las Mercedes, Jamundí",
+    "focusAreas": [
+      "hand-building",
+      "cuerda-seca",
+      "kurinuki",
+      "mosaic",
+      "fused-glass",
+      "stained-glass"
+    ],
+    "description": "An art workshop on the edge of Jamundí, just south of Cali, with ongoing classes in hand-built ceramics, cuerda seca tile decoration, kurinuki and rustic ceramics, alongside glass mosaic, Tiffany stained glass and fused glass.",
+    "descriptionOriginal": "Clases, talleres permanentes de cerámica, mosaico en vidrio y baldosa, vitral Tiffany, vitrofusión.",
+    "details": "Classes are arranged by WhatsApp (+57 315 562 0809); the studio also teaches in Cali. Entre Grietas lists it as a private ceramics space in Jamundí. No prices or timetable could be read. Confirmed active on its Instagram (@marthaliavallejo.arte), October 2026.",
+    "website": "https://www.instagram.com/marthaliavallejo.arte/",
+    "tags": [
+      "colombia",
+      "valle-del-cauca",
+      "jamundi",
+      "ceramics",
+      "workshop",
+      "class",
+      "glass"
+    ],
+    "category": "workshop",
+    "categories": [
+      "workshop",
+      "class"
+    ],
+    "discipline": "ceramics",
+    "source": "https://www.entregrietas.com/projects-2-3",
     "lastVerified": "2026-10-28"
   }
 ]
