@@ -12,6 +12,7 @@ export interface Location {
   region: string;
   country: string;
   coordinates?: Coordinates;
+  approximate?: boolean;
 }
 
 // =============================================================================
@@ -27,7 +28,13 @@ export type OpportunityType =
   | "internship"
   | "mentorship"
   | "fellowship"
-  | "workshop";
+  | "workshop"
+  | "studio"
+  | "artist"
+  | "gallery"
+  | "supplier"
+  | "materials"
+  | "community";
 
 export interface OpportunityDuration {
   display: string;
@@ -87,6 +94,11 @@ export interface Opportunity {
   eligibility?: string;
   website?: string;
   tags?: string[];
+  /** Bay Area scouting fields */
+  category?: string;
+  categories?: string[];
+  source?: string;
+  lastVerified?: string;
 }
 
 export interface OpportunitiesData {

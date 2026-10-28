@@ -45,7 +45,15 @@ export async function dataExists(filePath: string): Promise<boolean> {
 
 export async function getOpportunities(): Promise<Opportunity[]> {
   const data = await loadData<OpportunitiesData>("opportunities/index.json");
-  return data.opportunities;
+  const extra: Opportunity[] = [];
+  // Additional regional datasets (flat arrays) loaded alongside index.json
+  for (const file of ["opportunities/sf-bay.json"]) {
+    if (await dataExists(file)) {
+      extra.push(...(await loadData<Opportunity[]>(file)));
+    }
+  }
+  const known = new Set(data.opportunities.map((o) => o.id));
+  return [...data.opportunities, ...extra.filter((o) => !known.has(o.id))];
 }
 
 export async function getOpportunityById(

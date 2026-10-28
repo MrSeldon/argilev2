@@ -31,6 +31,12 @@ export function getOpportunityTypeColor(type: OpportunityType): string {
     mentorship: "bg-rose-100 text-rose-700",
     fellowship: "bg-indigo-100 text-indigo-700",
     workshop: "bg-orange-100 text-orange-700",
+    studio: "bg-teal-100 text-teal-700",
+    artist: "bg-fuchsia-100 text-fuchsia-700",
+    gallery: "bg-violet-100 text-violet-700",
+    supplier: "bg-lime-100 text-lime-700",
+    materials: "bg-yellow-100 text-yellow-800",
+    community: "bg-sky-100 text-sky-700",
   };
   return colors[type] || "bg-gray-100 text-gray-700";
 }
