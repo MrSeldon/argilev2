@@ -1,0 +1,1428 @@
+{
+ "totalIngredientRows": 64457,
+ "exact": 63979,
+ "byRule": 400,
+ "unmatchedRows": 78,
+ "unmatchedDistinctNames": 70,
+ "matchedPercent": 99.88,
+ "unmatched": [
+  {
+   "name": "MFA-013 (Teórico!!!)",
+   "count": 4
+  },
+  {
+   "name": "Tinkar Super",
+   "count": 2
+  },
+  {
+   "name": "P41 La Crocetta II (Italian for small cross)",
+   "count": 2
+  },
+  {
+   "name": "CER 5",
+   "count": 2
+  },
+  {
+   "name": "Colorant Jaune Soleil PCS 457",
+   "count": 2
+  },
+  {
+   "name": "Глазурь S-0104",
+   "count": 2
+  },
+  {
+   "name": "Plainsman 3D",
+   "count": 1
+  },
+  {
+   "name": "GSA T-40",
+   "count": 1
+  },
+  {
+   "name": "Blåler, gæt. Dansk ler",
+   "count": 1
+  },
+  {
+   "name": "Blåler, dansk ler",
+   "count": 1
+  },
+  {
+   "name": "Albita MCS 200 MINASOLO",
+   "count": 1
+  },
+  {
+   "name": "ALBITA MCS-200",
+   "count": 1
+  },
+  {
+   "name": "kwarts EU",
+   "count": 1
+  },
+  {
+   "name": "krijt EU",
+   "count": 1
+  },
+  {
+   "name": "MFA 002 DP, B2O3 estimado en 25%",
+   "count": 1
+  },
+  {
+   "name": "bittescher gneis",
+   "count": 1
+  },
+  {
+   "name": "CER 3",
+   "count": 1
+  },
+  {
+   "name": "Pyrax Pyrophllite",
+   "count": 1
+  },
+  {
+   "name": "NKO Kwarts",
+   "count": 1
+  },
+  {
+   "name": "NKO IJzeroxide rood",
+   "count": 1
+  },
+  {
+   "name": "Turkish Ulexide",
+   "count": 1
+  },
+  {
+   "name": "Phyllit-Mehl",
+   "count": 1
+  },
+  {
+   "name": "CER 8",
+   "count": 1
+  },
+  {
+   "name": "Mica 325mesh",
+   "count": 1
+  },
+  {
+   "name": "FTA 1005 (colorobbia,Italy)",
+   "count": 1
+  },
+  {
+   "name": "VSA 7000 Colorobbia(Italy)",
+   "count": 1
+  },
+  {
+   "name": "Sodium Silcofluoride",
+   "count": 1
+  },
+  {
+   "name": "Hyrum Dam Lake Bonneville sediment",
+   "count": 1
+  },
+  {
+   "name": "Hebron white plastic",
+   "count": 1
+  },
+  {
+   "name": "Hebron dark plastic",
+   "count": 1
+  },
+  {
+   "name": "Molybdenum Trioxide",
+   "count": 1
+  },
+  {
+   "name": "CBS01",
+   "count": 1
+  },
+  {
+   "name": "Imerys KaoShine RC70",
+   "count": 1
+  },
+  {
+   "name": "Chances Amber",
+   "count": 1
+  },
+  {
+   "name": "Amblygonite",
+   "count": 1
+  },
+  {
+   "name": "Rutiel (Ker_CH128",
+   "count": 1
+  },
+  {
+   "name": "Albita MCS-200 Minasolo",
+   "count": 1
+  },
+  {
+   "name": "Foundry Hill Creme",
+   "count": 1
+  },
+  {
+   "name": "KALE 9406",
+   "count": 1
+  },
+  {
+   "name": "FLOTE ALBİT",
+   "count": 1
+  },
+  {
+   "name": "Красножгущаяся керамическая масса CG/T",
+   "count": 1
+  },
+  {
+   "name": "P17 Terra rossa - Italian for red Mediterranean soil",
+   "count": 1
+  },
+  {
+   "name": "P7 Leucite",
+   "count": 1
+  },
+  {
+   "name": "XXX 0909_Carbonato de Estrôncio R",
+   "count": 1
+  },
+  {
+   "name": "Mica NOA/Sierras pampeanas, Argentina",
+   "count": 1
+  },
+  {
+   "name": "VSA 7036",
+   "count": 1
+  },
+  {
+   "name": "Colorant bleu ciel PGD 130",
+   "count": 1
+  },
+  {
+   "name": "Colorant bleu roi P134",
+   "count": 1
+  },
+  {
+   "name": "Calziumborat 51",
+   "count": 1
+  },
+  {
+   "name": "Cornwall stone - DF",
+   "count": 1
+  },
+  {
+   "name": "Selenium",
+   "count": 1
+  },
+  {
+   "name": "Roof tile waste - Caki",
+   "count": 1
+  },
+  {
+   "name": "Mussel shell",
+   "count": 1
+  },
+  {
+   "name": "Bodmerton B128",
+   "count": 1
+  },
+  {
+   "name": "Grog, med",
+   "count": 1
+  },
+  {
+   "name": "Cornish Stone Bath Potters",
+   "count": 1
+  },
+  {
+   "name": "Sharon Shale",
+   "count": 1
+  },
+  {
+   "name": "Nukem Ilmenite",
+   "count": 1
+  },
+  {
+   "name": "Оксид никеля, S-4512",
+   "count": 1
+  },
+  {
+   "name": "Оксид титана, S-4630",
+   "count": 1
+  },
+  {
+   "name": "Карбид кремния, S-4778",
+   "count": 1
+  },
+  {
+   "name": "0938_Veículo para underglaze",
+   "count": 1
+  },
+  {
+   "name": "Underglaze Liquid",
+   "count": 1
+  },
+  {
+   "name": "Imerys Polwhite KL",
+   "count": 1
+  },
+  {
+   "name": "Ammonium Sulfate",
+   "count": 1
+  },
+  {
+   "name": "Calcium Molybdate (Powellite)",
+   "count": 1
+  },
+  {
+   "name": "IMCO 400",
+   "count": 1
+  },
+  {
+   "name": "Флюс щелочной S-0101",
+   "count": 1
+  },
+  {
+   "name": "Litharge",
+   "count": 1
+  },
+  {
+   "name": "Карбонат магния",
+   "count": 1
+  }
+ ],
+ "ruleMatches": [
+  {
+   "pair": "朝鮮カオリン Korean Kaolin → kaolin",
+   "count": 9
+  },
+  {
+   "pair": "福島珪石 Fukushima silica → silica",
+   "count": 9
+  },
+  {
+   "pair": "Kreide 190/ Carl Jäger CaO = 56,3% / CaCO3 = 98,2% → whiting",
+   "count": 8
+  },
+  {
+   "pair": "炭酸ストロンチウム Strontium carbonate → strontium-carbonate",
+   "count": 7
+  },
+  {
+   "pair": "Na-Feltspar (Silica) → soda-feldspar",
+   "count": 6
+  },
+  {
+   "pair": "Caolín Patagónico GC/F (Crecer) → kaolin",
+   "count": 6
+  },
+  {
+   "pair": "満州タルク Manchurian talc → talc",
+   "count": 6
+  },
+  {
+   "pair": "XXX 0903_Caulim EPK PSH → kaolin",
+   "count": 5
+  },
+  {
+   "pair": "Bentonite - Eccabond 2014 → bentonite",
+   "count": 4
+  },
+  {
+   "pair": "Calcined B13 Ball Clay - 2019 → ball-clay",
+   "count": 4
+  },
+  {
+   "pair": "P45 - silica Podere Morticini → silica",
+   "count": 3
+  },
+  {
+   "pair": "Kalziniertes Kaolin 233 Carl Jäger → kaolin",
+   "count": 3
+  },
+  {
+   "pair": "Silica 325 mesh → silica",
+   "count": 2
+  },
+  {
+   "pair": "Silverline 303 Talc → talc",
+   "count": 2
+  },
+  {
+   "pair": "OM #4 Ball Clay → ball-clay",
+   "count": 2
+  },
+  {
+   "pair": "G-200 Felspar → potash-feldspar",
+   "count": 2
+  },
+  {
+   "pair": "Каолин КЖФ-1 → kaolin",
+   "count": 2
+  },
+  {
+   "pair": "Volcanic ash - Great Plains → volcanic-ash",
+   "count": 2
+  },
+  {
+   "pair": "Pioneer Valley Basalt → basalt",
+   "count": 2
+  },
+  {
+   "pair": "Нефелин-сиенит Spectrum 45, S-4832 → nepheline-syenite",
+   "count": 2
+  },
+  {
+   "pair": "Jackson Ball Clay → ball-clay",
+   "count": 2
+  },
+  {
+   "pair": "FRIT-90167 CERDEC (Ferro) (KK) → leadfree-frit",
+   "count": 2
+  },
+  {
+   "pair": "Corante Goiaba 728 → stain",
+   "count": 2
+  },
+  {
+   "pair": "Talco magnesiano MINASOLO → talc",
+   "count": 2
+  },
+  {
+   "pair": "Jordan Fireclay → fireclay",
+   "count": 2
+  },
+  {
+   "pair": "Zinc Barium Frit 90420 → leadfree-frit",
+   "count": 2
+  },
+  {
+   "pair": "fritte 3221 EU → frit-3221",
+   "count": 2
+  },
+  {
+   "pair": "Lithium Carbonaat EU → lithium-carbonate",
+   "count": 2
+  },
+  {
+   "pair": "Feldspar Forshammar → potash-feldspar",
+   "count": 2
+  },
+  {
+   "pair": "China Clay Grolleg (Jäger) → kaolin",
+   "count": 2
+  },
+  {
+   "pair": "Spodumene PES200 → spodumene",
+   "count": 2
+  },
+  {
+   "pair": "Norfloat Feldspar → potash-feldspar",
+   "count": 2
+  },
+  {
+   "pair": "Feldspath potassique ICE 10 (ceram decor 2020) → potash-feldspar",
+   "count": 2
+  },
+  {
+   "pair": "Imco 800 Fireclay → fireclay",
+   "count": 2
+  },
+  {
+   "pair": "Johnson Matthey Frit 623 → leadfree-frit",
+   "count": 2
+  },
+  {
+   "pair": "Caolin CRS Imerys (Crecer) → kaolin",
+   "count": 2
+  },
+  {
+   "pair": "Caolín nacional \"Superfino\" Prodesco → kaolin",
+   "count": 2
+  },
+  {
+   "pair": "ARENA DE RUTILO prodesco → rutile",
+   "count": 2
+  },
+  {
+   "pair": "PotteryCrafts Frit P2960 → leadfree-frit",
+   "count": 2
+  },
+  {
+   "pair": "Frita borocalcica alcalina CQ-003 → high-alkaline-frit",
+   "count": 2
+  },
+  {
+   "pair": "Frit 3191 → leadfree-frit",
+   "count": 2
+  },
+  {
+   "pair": "Fritte Zink-Barium 3128 Jaeger → leadfree-frit",
+   "count": 2
+  },
+  {
+   "pair": "Ferro Frit 4108 → leadfree-frit",
+   "count": 2
+  },
+  {
+   "pair": "Calcite omay 10 AU → whiting",
+   "count": 2
+  },
+  {
+   "pair": "Нефелин-сиенит Spectrum N-45 (nephelinsyenit) → nepheline-syenite",
+   "count": 2
+  },
+  {
+   "pair": "Tennessee #1 SGP Ball Clay → ball-clay",
+   "count": 2
+  },
+  {
+   "pair": "Pioneer Kaolin → kaolin",
+   "count": 2
+  },
+  {
+   "pair": "Mason Stain #6103 Golden Brown → stain-brown",
+   "count": 2
+  },
+  {
+   "pair": "白石灰 White limestone → limestone",
+   "count": 2
+  },
+  {
+   "pair": "Ferro Frit 4113 → leadfree-frit",
+   "count": 2
+  },
+  {
+   "pair": "Imerys Wollastonite NYAD M325 → wollastonite",
+   "count": 2
+  },
+  {
+   "pair": "Cerama Krystal fritte → leadfree-frit",
+   "count": 2
+  },
+  {
+   "pair": "Hyplas Ball Clay → ball-clay",
+   "count": 2
+  },
+  {
+   "pair": "Lizella Clay → stoneware-clay",
+   "count": 2
+  },
+  {
+   "pair": "Mason Stain 6306 Vivid Blue → stain-blue",
+   "count": 2
+  },
+  {
+   "pair": "Mason Stain #6315 Zirconium Vanadium → stain",
+   "count": 2
+  },
+  {
+   "pair": "Mason Stain 6410 Canary Yellow → stain-yellow",
+   "count": 2
+  },
+  {
+   "pair": "Dolomit 5/T Carl Jäger → dolomite",
+   "count": 2
+  },
+  {
+   "pair": "Nepheline-Syenit 345/ → nepheline-syenite",
+   "count": 2
+  },
+  {
+   "pair": "Diamond Kaolin → kaolin",
+   "count": 2
+  },
+  {
+   "pair": "Mason Stain #6006 Deep Crimson → stain-red",
+   "count": 2
+  },
+  {
+   "pair": "IMSIL A-25 Microcrystalline Silica → silica",
+   "count": 2
+  },
+  {
+   "pair": "P47 ocra Podere Morticini → yellow-ochre",
+   "count": 2
+  },
+  {
+   "pair": "Dark Pink Stain (us pigment) → stain-pink",
+   "count": 2
+  },
+  {
+   "pair": "Ferro Frit 3403 → leadfree-frit",
+   "count": 2
+  },
+  {
+   "pair": "Ferro Frit CC-279-3 → leadfree-frit",
+   "count": 2
+  },
+  {
+   "pair": "Peddie Clay → stoneware-clay",
+   "count": 2
+  },
+  {
+   "pair": "FKN-45 Feldspar Potterycrafts → potash-feldspar",
+   "count": 2
+  },
+  {
+   "pair": "China Clay CC50 Puraflo → kaolin",
+   "count": 2
+  },
+  {
+   "pair": "FFF K7 feldspar → potash-feldspar",
+   "count": 2
+  },
+  {
+   "pair": "No. 5 Ball Clay → ball-clay",
+   "count": 1
+  },
+  {
+   "pair": "Rutile Ceramic → rutile",
+   "count": 1
+  },
+  {
+   "pair": "Old Hickory #5 Ball Clay → ball-clay",
+   "count": 1
+  },
+  {
+   "pair": "Mason 6666 or 6600 → stain",
+   "count": 1
+  },
+  {
+   "pair": "Alumina Calcined → calcined-alumina",
+   "count": 1
+  },
+  {
+   "pair": "Mason 6666 Black Stain → stain-black",
+   "count": 1
+  },
+  {
+   "pair": "Frit GF 106 → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "Alberta Slip 1000F Roast → engobe",
+   "count": 1
+  },
+  {
+   "pair": "Mason 6006 Stain → stain",
+   "count": 1
+  },
+  {
+   "pair": "Copper Oxide Black → black-copper-oxide",
+   "count": 1
+  },
+  {
+   "pair": "New Zealand Kaolin → kaolin",
+   "count": 1
+  },
+  {
+   "pair": "Mason 6336 Blue Stain → stain-blue",
+   "count": 1
+  },
+  {
+   "pair": "Fritte 90158 → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "Kalkspat → whiting",
+   "count": 1
+  },
+  {
+   "pair": "Kalifältspat NGP → potash-feldspar",
+   "count": 1
+  },
+  {
+   "pair": "XXX 0921_Feldspato de Lítio → potash-feldspar",
+   "count": 1
+  },
+  {
+   "pair": "Eigene Asche 2020 → wood-ash",
+   "count": 1
+  },
+  {
+   "pair": "Fritte 10.05 Loodbisilicaat → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "Fritte 10.01 → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "kaolien → kaolin",
+   "count": 1
+  },
+  {
+   "pair": "Feldspat Potassico M8 → potash-feldspar",
+   "count": 1
+  },
+  {
+   "pair": "P16 ash → wood-ash",
+   "count": 1
+  },
+  {
+   "pair": "P18 Marna ocra del Sanguinaro → yellow-ochre",
+   "count": 1
+  },
+  {
+   "pair": "Kaolin 233/ Jäger → kaolin",
+   "count": 1
+  },
+  {
+   "pair": "Kaolin Grolleg Jäger → kaolin",
+   "count": 1
+  },
+  {
+   "pair": "Enos Park Earthenware → red-clay",
+   "count": 1
+  },
+  {
+   "pair": "Horsetail Ash - Brazoria County, Texas → wood-ash",
+   "count": 1
+  },
+  {
+   "pair": "01_Feldspato K Minasolo → potash-feldspar",
+   "count": 1
+  },
+  {
+   "pair": "Fusion Frit F-496 → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "Fusion Frit F-245 → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "Fusion Frit F-79 → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "caulim terra nova → kaolin",
+   "count": 1
+  },
+  {
+   "pair": "Frit P 2962 → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "Alkali fritte 2495 → high-alkaline-frit",
+   "count": 1
+  },
+  {
+   "pair": "FR5/B Fritte alcaline pour cristallisations (3110)(Solargil 2020-2021) → frit-3110",
+   "count": 1
+  },
+  {
+   "pair": "Frita 3134 Marlyse → frit-3134",
+   "count": 1
+  },
+  {
+   "pair": "National Feldspar Colombia M325 → potash-feldspar",
+   "count": 1
+  },
+  {
+   "pair": "Fritte Calcium Boraat 32.21 - Keramikos, Haarlem → standard-borax-frit",
+   "count": 1
+  },
+  {
+   "pair": "Mason Stain #6464 Zirconium → stain",
+   "count": 1
+  },
+  {
+   "pair": "Hommel Frit 25 → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "Red Terracotta → red-clay",
+   "count": 1
+  },
+  {
+   "pair": "Fusion Frit F-359 → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "Борат кальция → whiting",
+   "count": 1
+  },
+  {
+   "pair": "Bainbridge Feldspar → potash-feldspar",
+   "count": 1
+  },
+  {
+   "pair": "Mason stain 6650 → stain",
+   "count": 1
+  },
+  {
+   "pair": "Crammix Ball Clay - GW → ball-clay",
+   "count": 1
+  },
+  {
+   "pair": "Kaolin Imerys Polwhite B → kaolin",
+   "count": 1
+  },
+  {
+   "pair": "Hommel Frit 33 → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "Magnesium zirconium silicate → zircon",
+   "count": 1
+  },
+  {
+   "pair": "Black Ball Clay → ball-clay",
+   "count": 1
+  },
+  {
+   "pair": "talco magnesiano MXR 325 (Minasolo) → talc",
+   "count": 1
+  },
+  {
+   "pair": "zirconita MINASOLO → zircon",
+   "count": 1
+  },
+  {
+   "pair": "Spodumen 128/ Carl Jäger → spodumene",
+   "count": 1
+  },
+  {
+   "pair": "Magnesit 349 → magnesium-carbonate",
+   "count": 1
+  },
+  {
+   "pair": "Calcita-Cachoeiro-ES-BR → whiting",
+   "count": 1
+  },
+  {
+   "pair": "Sílica Quartzo MinaSolo → silica",
+   "count": 1
+  },
+  {
+   "pair": "Gerstley Borate BSZ Keramikbedarf → gerstley-borate",
+   "count": 1
+  },
+  {
+   "pair": "Mason Stain #6005 Deep Crimson → stain-red",
+   "count": 1
+  },
+  {
+   "pair": "Kaolien RM 255 ( EU ) → kaolin",
+   "count": 1
+  },
+  {
+   "pair": "Feldspar FFF → potash-feldspar",
+   "count": 1
+  },
+  {
+   "pair": "Dolomit 5/T → dolomite",
+   "count": 1
+  },
+  {
+   "pair": "Ferro Frit 4110 → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "Kaolin T → kaolin",
+   "count": 1
+  },
+  {
+   "pair": "Godfrey feldspar → potash-feldspar",
+   "count": 1
+  },
+  {
+   "pair": "NGP Potassium feldspar → potash-feldspar",
+   "count": 1
+  },
+  {
+   "pair": "NKO Natronveldspaat → soda-feldspar",
+   "count": 1
+  },
+  {
+   "pair": "NKO Kaliveldspaat → potash-feldspar",
+   "count": 1
+  },
+  {
+   "pair": "NKO Kaolien → kaolin",
+   "count": 1
+  },
+  {
+   "pair": "NKO Dolomiet → dolomite",
+   "count": 1
+  },
+  {
+   "pair": "NKO Magnesiet → magnesium-carbonate",
+   "count": 1
+  },
+  {
+   "pair": "Nepheline syenite (Keramikos) - Netherlands → nepheline-syenite",
+   "count": 1
+  },
+  {
+   "pair": "Kaolin 50 fra Cerama → kaolin",
+   "count": 1
+  },
+  {
+   "pair": "Quartzo Arte Brasil → silica",
+   "count": 1
+  },
+  {
+   "pair": "Dolomite Arte Brasil → dolomite",
+   "count": 1
+  },
+  {
+   "pair": "Calcita Arte Brasil → whiting",
+   "count": 1
+  },
+  {
+   "pair": "McNamee Kaolin → kaolin",
+   "count": 1
+  },
+  {
+   "pair": "redart clay Calcined → stoneware-clay",
+   "count": 1
+  },
+  {
+   "pair": "Pemco Frit Pb-83 → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "Alumina Hidrate → calcined-alumina",
+   "count": 1
+  },
+  {
+   "pair": "Fritte Boro-Calcique M 9152 → standard-borax-frit",
+   "count": 1
+  },
+  {
+   "pair": "Argile de modelage rouge (Solargil 2018) → stoneware-clay",
+   "count": 1
+  },
+  {
+   "pair": "FR4 fritte silico-alcalino-calcaire (Solargil 2018) → high-alkaline-frit",
+   "count": 1
+  },
+  {
+   "pair": "Corante Alface 21 → stain",
+   "count": 1
+  },
+  {
+   "pair": "AKL Basalt → basalt",
+   "count": 1
+  },
+  {
+   "pair": "Ferro frit KGF4131 → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "Imerys Potash Feldspar → potash-feldspar",
+   "count": 1
+  },
+  {
+   "pair": "Оксид цинка, S-4510 → zinc-oxide",
+   "count": 1
+  },
+  {
+   "pair": "Common ash → wood-ash",
+   "count": 1
+  },
+  {
+   "pair": "Mason Stain #6204 Victoria Green → stain-green",
+   "count": 1
+  },
+  {
+   "pair": "Mason 6528 Charcoal Grey → stain",
+   "count": 1
+  },
+  {
+   "pair": "Craters of the Moon Basalt → basalt",
+   "count": 1
+  },
+  {
+   "pair": "Fusion Frit F367 → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "Blue Ball Clay (Bath Potters) → ball-clay",
+   "count": 1
+  },
+  {
+   "pair": "Violet Stain → stain-purple",
+   "count": 1
+  },
+  {
+   "pair": "Pemco Frit Pb-742 → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "Доломит МИДОЛ → dolomite",
+   "count": 1
+  },
+  {
+   "pair": "Tholeiite Volcano - Icelandic Basalt → basalt",
+   "count": 1
+  },
+  {
+   "pair": "MDF wood ash → wood-ash",
+   "count": 1
+  },
+  {
+   "pair": "Standard Porcelain China Clay → kaolin",
+   "count": 1
+  },
+  {
+   "pair": "Mason Stain 6435 → stain",
+   "count": 1
+  },
+  {
+   "pair": "Z75K13 Feldspar → potash-feldspar",
+   "count": 1
+  },
+  {
+   "pair": "Mason stain 6500 → stain",
+   "count": 1
+  },
+  {
+   "pair": "caulim branco MINASOLO → kaolin",
+   "count": 1
+  },
+  {
+   "pair": "Fusion Frit 134 → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "30011 kalifeldspat → potash-feldspar",
+   "count": 1
+  },
+  {
+   "pair": "Calciumboratefritte M 9152 → standard-borax-frit",
+   "count": 1
+  },
+  {
+   "pair": "Mason Stain #6023 Clover Pink → stain-pink",
+   "count": 1
+  },
+  {
+   "pair": "Feldspat Kali (D75) (KK) → potash-feldspar",
+   "count": 1
+  },
+  {
+   "pair": "Clay Ceram → stoneware-clay",
+   "count": 1
+  },
+  {
+   "pair": "Lead chromate → chrome-oxide",
+   "count": 1
+  },
+  {
+   "pair": "fritte 1510 ne → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "Magnesium carbonaat (Ker_CH121) → magnesium-carbonate",
+   "count": 1
+  },
+  {
+   "pair": "Gerstley boraat synthethisch (Ker_CH158) → gerstley-borate",
+   "count": 1
+  },
+  {
+   "pair": "Lithium carbonaat (Ker_CH118) → lithium-carbonate",
+   "count": 1
+  },
+  {
+   "pair": "Fritte Borax M1 - Keramikos, Haarlem → standard-borax-frit",
+   "count": 1
+  },
+  {
+   "pair": "Silicium / Kwarts (Ker_CH117) → silica",
+   "count": 1
+  },
+  {
+   "pair": "Mason Stain 6300 Mazerine Blue → stain-blue",
+   "count": 1
+  },
+  {
+   "pair": "Mason Stain 6088 Dark Red → stain-red",
+   "count": 1
+  },
+  {
+   "pair": "Mason Stain 6028 Orange → stain-orange",
+   "count": 1
+  },
+  {
+   "pair": "Mason Stain 6006 - Deep Crimson → stain-red",
+   "count": 1
+  },
+  {
+   "pair": "Mason Stain 6479 → stain",
+   "count": 1
+  },
+  {
+   "pair": "China Clay Kaolin 233/ → kaolin",
+   "count": 1
+  },
+  {
+   "pair": "Odenwalder clay → stoneware-clay",
+   "count": 1
+  },
+  {
+   "pair": "Frit #100 → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "Arcilla inglesa HSM molida Prodesco → stoneware-clay",
+   "count": 1
+  },
+  {
+   "pair": "Silicon Carbide #1000 → silicon-carbide",
+   "count": 1
+  },
+  {
+   "pair": "Mason Stain #6020 Manganese Alumina Pink Corundum → stain-pink",
+   "count": 1
+  },
+  {
+   "pair": "Mason Stain #6030 Mango → stain",
+   "count": 1
+  },
+  {
+   "pair": "Mason Stain #6108 Walnut → stain",
+   "count": 1
+  },
+  {
+   "pair": "Mason Stain #6320 Delft → stain",
+   "count": 1
+  },
+  {
+   "pair": "Mason Stain #6330 Cobalt Aluminate → stain",
+   "count": 1
+  },
+  {
+   "pair": "Mason Stain #6371 Dark Teal → stain",
+   "count": 1
+  },
+  {
+   "pair": "Mason Stain #6410 Canary Yellow → stain-yellow",
+   "count": 1
+  },
+  {
+   "pair": "Mason Stain #6485 Titanium Yellow → stain-yellow",
+   "count": 1
+  },
+  {
+   "pair": "Mason Stain #6500 Sage → stain",
+   "count": 1
+  },
+  {
+   "pair": "Mason Stain #6503 Taupe → stain",
+   "count": 1
+  },
+  {
+   "pair": "Feldspato potássico MCK 200 MINASOLO → potash-feldspar",
+   "count": 1
+  },
+  {
+   "pair": "Quartzo MCQ 200 MINASOLO → silica",
+   "count": 1
+  },
+  {
+   "pair": "CALCITA MTN-325 MINASOLO → whiting",
+   "count": 1
+  },
+  {
+   "pair": "Kaolin WA → kaolin",
+   "count": 1
+  },
+  {
+   "pair": "Black Earthenware SiO2/Pasta negra de SiO2 → red-clay",
+   "count": 1
+  },
+  {
+   "pair": "Black Stain C-8382 → stain-black",
+   "count": 1
+  },
+  {
+   "pair": "Bo Glaze Kaolin → kaolin",
+   "count": 1
+  },
+  {
+   "pair": "High Alkali Frit P2962 → high-alkaline-frit",
+   "count": 1
+  },
+  {
+   "pair": "Fusion Frit F-413 → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "Kaolin Eckalite Walker Ceramics Au '22 → kaolin",
+   "count": 1
+  },
+  {
+   "pair": "Rutile Light → rutile",
+   "count": 1
+  },
+  {
+   "pair": "Frit 15.10 → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "High Fire Yellow Inclusion Glaze Stain Ref. ZL-258 → stain-yellow",
+   "count": 1
+  },
+  {
+   "pair": "High Fire Jaffa Orange Inclusion Glaze Stain Ref. ZL-238A → stain-red",
+   "count": 1
+  },
+  {
+   "pair": "Whiting - Kulubrite → whiting",
+   "count": 1
+  },
+  {
+   "pair": "Magnesite GW → magnesium-carbonate",
+   "count": 1
+  },
+  {
+   "pair": "Talc - Microfil 20 → talc",
+   "count": 1
+  },
+  {
+   "pair": "B13 Ball Clay - 2019 → ball-clay",
+   "count": 1
+  },
+  {
+   "pair": "Alkali fritte Silica → high-alkaline-frit",
+   "count": 1
+  },
+  {
+   "pair": "XXX 0923_Frita 3110 → frit-3110",
+   "count": 1
+  },
+  {
+   "pair": "XXX 0922_Frita 3134 → frit-3134",
+   "count": 1
+  },
+  {
+   "pair": "Anorthite Feldspar → potash-feldspar",
+   "count": 1
+  },
+  {
+   "pair": "Mason 6650 Cobalt-free Black Stain → stain-black",
+   "count": 1
+  },
+  {
+   "pair": "Fusion Frit 413 → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "Lead-silica frit 3090 → lead-bisilicate",
+   "count": 1
+  },
+  {
+   "pair": "Frit 3006 → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "Fusion Frit F-18 → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "Delmonte Feldspar → potash-feldspar",
+   "count": 1
+  },
+  {
+   "pair": "fritte 1005 ne → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "Ravenscrag Slip Calcined → engobe",
+   "count": 1
+  },
+  {
+   "pair": "Talc Luzenac 2 (CERADEL 2022) → talc",
+   "count": 1
+  },
+  {
+   "pair": "Rutil /196 (Jäger) → rutile",
+   "count": 1
+  },
+  {
+   "pair": "DA4124 (Australian frit) → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "Black (Cobalt Free) Potters Stain → stain-black",
+   "count": 1
+  },
+  {
+   "pair": "Nephelin Syenit 334/ → nepheline-syenite",
+   "count": 1
+  },
+  {
+   "pair": "China Clay 232 (KK) → kaolin",
+   "count": 1
+  },
+  {
+   "pair": "Titan DDR → titanium-dioxide",
+   "count": 1
+  },
+  {
+   "pair": "Mason Stain #6404 Vanadium Yellow → stain-yellow",
+   "count": 1
+  },
+  {
+   "pair": "M&D Ball Clay → ball-clay",
+   "count": 1
+  },
+  {
+   "pair": "Mason Stain #6097 Dark Red → stain-red",
+   "count": 1
+  },
+  {
+   "pair": "Ulexite - Caki → ulexite",
+   "count": 1
+  },
+  {
+   "pair": "Sodium Feldspar - Caki → soda-feldspar",
+   "count": 1
+  },
+  {
+   "pair": "Potassium Feldspar - Caki → potash-feldspar",
+   "count": 1
+  },
+  {
+   "pair": "Kaolin - Caki → kaolin",
+   "count": 1
+  },
+  {
+   "pair": "Feldspath sodique FN72 (Solargil 2018) → soda-feldspar",
+   "count": 1
+  },
+  {
+   "pair": "Toasted Stoneware Clay → stoneware-clay",
+   "count": 1
+  },
+  {
+   "pair": "Mason Stain #6000 Shell Pink → stain-pink",
+   "count": 1
+  },
+  {
+   "pair": "Hamilton kaolin → kaolin",
+   "count": 1
+  },
+  {
+   "pair": "Kingsley kaolin → kaolin",
+   "count": 1
+  },
+  {
+   "pair": "CALCIUMBORAAT FRITTE 32.21 → standard-borax-frit",
+   "count": 1
+  },
+  {
+   "pair": "Frit 3110 Na K Ca B Al Si → frit-3110",
+   "count": 1
+  },
+  {
+   "pair": "EP Kaolin - Calcined → calcined-kaolin",
+   "count": 1
+  },
+  {
+   "pair": "Victoria Green Stain → stain-green",
+   "count": 1
+  },
+  {
+   "pair": "High Alkaline Ferro P3134 → red-iron-oxide",
+   "count": 1
+  },
+  {
+   "pair": "Pemco Frit P2245 → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "Frit 4131 → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "Cenizas del Puyehue → wood-ash",
+   "count": 1
+  },
+  {
+   "pair": "Mason Stain #6219 French → stain",
+   "count": 1
+  },
+  {
+   "pair": "CARBONATO DE LITIO MLB-100 → lithium-carbonate",
+   "count": 1
+  },
+  {
+   "pair": "Norfloat Sodium Feldspar → soda-feldspar",
+   "count": 1
+  },
+  {
+   "pair": "Frit 3493 → leadfree-frit",
+   "count": 1
+  },
+  {
+   "pair": "Applewood ash → wood-ash",
+   "count": 1
+  },
+  {
+   "pair": "FR7 fritte boro-alcaline (Solargil 2018) → high-alkaline-frit",
+   "count": 1
+  },
+  {
+   "pair": "Mason Stain 6315 - Vanadium Blue → stain-blue",
+   "count": 1
+  },
+  {
+   "pair": "Nepheline Syenite Sibelco → nepheline-syenite",
+   "count": 1
+  },
+  {
+   "pair": "Bioxyde de Titane (Peter Lavem) → titanium-dioxide",
+   "count": 1
+  },
+  {
+   "pair": "Navajo Pumice → pumice",
+   "count": 1
+  },
+  {
+   "pair": "Potash Feldspar ESAN (Ceramiccon) → potash-feldspar",
+   "count": 1
+  },
+  {
+   "pair": "Pine wood ash → softwood-ash",
+   "count": 1
+  },
+  {
+   "pair": "Oat straw ash → straw-ash",
+   "count": 1
+  },
+  {
+   "pair": "Feldspar MSK.063D/01 → potash-feldspar",
+   "count": 1
+  },
+  {
+   "pair": "KOC Kaolin → kaolin",
+   "count": 1
+  },
+  {
+   "pair": "Кварцевый песок тонкомолотый, S-4617 → silica",
+   "count": 1
+  },
+  {
+   "pair": "Волластонит, S-4609 → wollastonite",
+   "count": 1
+  },
+  {
+   "pair": "Knochenasche 187 → wood-ash",
+   "count": 1
+  },
+  {
+   "pair": "Медь углекислая молотая, S-4516 → black-copper-oxide",
+   "count": 1
+  },
+  {
+   "pair": "КАОЛИН КЖФ-1 → kaolin",
+   "count": 1
+  },
+  {
+   "pair": "Нефелин-сиенит Spectrum N-45 → nepheline-syenite",
+   "count": 1
+  }
+ ]
+}

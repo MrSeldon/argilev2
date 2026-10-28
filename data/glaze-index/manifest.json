@@ -1,0 +1,16 @@
+{
+ "sourceHash": "036df1ebc069d126",
+ "model": "Xenova/all-MiniLM-L6-v2",
+ "dtype": "q8",
+ "dim": 384,
+ "count": 9813,
+ "pooling": "mean",
+ "normalize": true,
+ "layout": "float32 scales[count] then int8 vectors[count*dim]",
+ "builtAt": "2026-10-28T00:08:59.259Z",
+ "match": {
+  "matchedPercent": 99.88,
+  "unmatchedRows": 78,
+  "unmatchedDistinctNames": 70
+ }
+}
