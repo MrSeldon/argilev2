@@ -598,8 +598,8 @@
       "probabilityOfChili": {
         "score": 50,
         "rating": "Moderate",
-        "nearest": "Tacubaya (Fourth Street); Ethiopian kitchens on Telegraph Avenue",
-        "notes": "No dedicated chili spot. Tacubaya's Mexico City-style antojitos and the Ethiopian kitchens on Telegraph bring the heat, and Berkeley Bowl's chile shelves let you cook your own."
+        "nearest": "Tacubaya (Fourth Street)",
+        "notes": "No dedicated chili spot. Tacubaya's Mexico City-style antojitos bring the heat, and Berkeley Bowl's chile shelves let you cook your own."
       },
       "creepyCrawlies": {
         "mosquitoes": "low",
@@ -657,7 +657,7 @@
       "foodScene": {
         "score": 92,
         "rating": "Exceptional",
-        "notes": "Berkeley is where California cooking learned to start at the market. Three Ecology Center farmers' markets a week, Berkeley Bowl's produce hall and the Cheese Board co-op make home cooking a joy, and Telegraph Avenue has Ethiopian kitchens for nights you want someone else to make the injera.",
+        "notes": "Berkeley is where California cooking learned to start at the market. Three Ecology Center farmers' markets a week, Berkeley Bowl's produce hall and the Cheese Board co-op make home cooking a joy.",
         "favorites": [
           {
             "name": "Downtown Berkeley Farmers' Market",
@@ -682,12 +682,6 @@
             "what": "Worker co-op bakery, cheese counter and one-pizza-a-day pizzeria",
             "neighborhood": "North Berkeley (Shattuck Ave)",
             "url": "https://cheeseboardcollective.coop/"
-          },
-          {
-            "name": "Meskie's Kitchen",
-            "what": "Ethiopian home cooking on Telegraph (formerly Ethiopia Restaurant)",
-            "neighborhood": "Telegraph Ave (2955 Telegraph)",
-            "url": "https://www.instagram.com/meskisberkeley/"
           },
           {
             "name": "Tacubaya",
@@ -800,7 +794,7 @@
         ],
         "notes": "Rents sit between Oakland's and San Francisco's, and August (when students arrive) is the hardest month to find a place."
       },
-      "forWinnie": "Berkeley is a town built around making, reading and eating well: The Potters' Studio and the Berkeley Potters Guild are classic East Bay pottery institutions, Stonemountain & Daughter and the Lacis Museum will feed your weaving, and Berkeley Bowl's produce aisles would make any cook happy. The weather is gentler than San Francisco's, with sunny afternoons, but winters are wet and cool (about 15 °C). It's expensive and student-heavy, yet smaller and calmer than the cities around it, and there's Ethiopian food on Telegraph Avenue."
+      "forWinnie": "Berkeley is an easy day out from San Francisco by BART: The Potters' Studio and the Berkeley Potters Guild are classic East Bay pottery institutions, Stonemountain & Daughter and the Lacis Museum will feed your weaving, and Berkeley Bowl's produce aisles reward a cook. Afternoons are sunnier than in the city, winters wet and cool (about 15 °C). It's expensive and student-heavy, but smaller and calmer than its neighbours."
     },
     "Chico, California, USA": {
       "location": "Chico, California, USA",
@@ -5577,7 +5571,7 @@
           {
             "name": "Museum of the African Diaspora (MoAD)",
             "url": "https://www.moadsf.org",
-            "notes": "San Francisco's museum of Black art and culture across the African diaspora, with an Emerging Artist Program and residencies: an important home for a Rwandan maker."
+            "notes": "Museum of Black art and culture across the diaspora, with an Emerging Artist Program and residencies."
           },
           {
             "name": "Creativity Explored",
@@ -5618,7 +5612,7 @@
           "Equator Coffees",
           "Blue Bottle"
         ],
-        "notes": "One of the world's great coffee cities, and Ethiopian beans are on almost every menu. Ritual, Sightglass and Four Barrel are San Francisco originals; Blue Bottle actually began across the bay in Oakland in 2002."
+        "notes": "Ritual, Sightglass and Four Barrel are San Francisco originals; Blue Bottle actually began across the bay in Oakland in 2002."
       },
       "localDessert": {
         "signature": "Tartine's morning bun, and a slice of sourdough country loaf",
@@ -5653,7 +5647,7 @@
       "foodScene": {
         "score": 92,
         "rating": "Exceptional",
-        "notes": "You can eat your way from the Ferry Plaza farm stalls to a Mission taqueria in one Saturday. When you miss home, New Eritrea in the Inner Sunset and Sheba Piano Lounge in the Fillmore will bring out injera, shiro and berbere, and Rainbow Grocery's bulk aisles are a cook's playground. There's plenty of fine dining, but many of the best meals here are cheap ones.",
+        "notes": "You can eat your way from the Ferry Plaza farm stalls to a Mission taqueria in one Saturday, and Rainbow Grocery's bulk aisles are a cook's playground. There's plenty of fine dining, but many of the best meals here are cheap ones.",
         "favorites": [
           {
             "name": "Ferry Plaza Farmers Market",
@@ -5678,18 +5672,6 @@
             "what": "Fresh masa, handmade tortillas, tamales and pupusas to take home",
             "neighborhood": "Mission (24th Street)",
             "url": "https://lapalmasf.com/"
-          },
-          {
-            "name": "New Eritrea Restaurant",
-            "what": "Eritrean and Ethiopian dishes, with a long vegetarian and vegan menu; a Sunset fixture since the 1990s",
-            "neighborhood": "Inner Sunset (907 Irving St)",
-            "url": "https://www.theinfatuation.com/san-francisco/guides/best-ethiopian-restaurants-sf"
-          },
-          {
-            "name": "Sheba Piano Lounge",
-            "what": "Ethiopian food with live jazz most nights",
-            "neighborhood": "Fillmore",
-            "url": "https://www.shebapianolounge.com/"
           },
           {
             "name": "Burma Superstar",
@@ -5819,7 +5801,7 @@
         ],
         "notes": "Expect roughly $4,000 a month for a one-bedroom (Zumper, mid-2026); many artists share flats. Studio memberships run about $190-300 a month, and most have wait-lists."
       },
-      "forWinnie": "San Francisco gives you the most clay in the smallest space: a bus ride reaches a dozen studios, and you could buy injera in the Sunset and hear jazz in the Fillmore on the same night. Coming from Kigali's steady warmth, the summer fog will surprise you: a July afternoon here feels like a cool Kigali evening, so you'll want a wool layer all year. The hard part is cost, among the highest rents in the country, which is why many potters live in the East Bay and cross for classes and markets. If you want to teach and be seen, though, this is where many of the doors are."
+      "forWinnie": "San Francisco is home base, and it has the most clay in the smallest space: the Mission alone holds The Pottery Studio, RedBrick, Artillery, SMAart and Heath's factory, Clayroom is on 9th Street in SoMa, and Douglas & Sturgess sells clay and glaze materials a short ride away. Most of what you'll need, classes, open studios, teaching, materials and shows, is reachable by Muni or bike. The summer fog is real (July afternoons around 18 °C on the west side, warmer in the Mission), so a wool layer is a year-round habit. The hard part is cost; choosing a neighbourhood close to the studio you join makes the city much easier to live in."
     },
     "San Jose, California, USA": {
       "location": "San Jose, California, USA",
@@ -6150,7 +6132,7 @@
       "foodScene": {
         "score": 82,
         "rating": "Very Good",
-        "notes": "San Jose eats like the world: the largest Vietnamese community of any US city, deep Mexican roots, a historic Japantown and two very good Ethiopian restaurants. Prices are gentler than in San Francisco, and the farmers' market fruit comes from just down the valley.",
+        "notes": "San Jose eats widely: Vietnamese, Mexican, a historic Japantown, and farmers' market fruit from just down the valley. Prices are gentler than in San Francisco.",
         "favorites": [
           {
             "name": "Japantown Farmers Market",
@@ -6163,18 +6145,6 @@
             "what": "Indoor-outdoor food hall with dozens of stalls",
             "neighborhood": "Downtown",
             "url": "https://sanpedrosquaremarket.com/"
-          },
-          {
-            "name": "LeYou",
-            "what": "Contemporary Ethiopian, Michelin-listed",
-            "neighborhood": "Downtown (N First St)",
-            "url": "https://www.leyouethiopian.com/"
-          },
-          {
-            "name": "Zeni Ethiopian Restaurant",
-            "what": "The South Bay's best-loved Ethiopian restaurant, a pillar of the local community",
-            "neighborhood": "West San Jose (Saratoga Ave)",
-            "url": "https://www.sanjose.org/listings/zeni-ethiopian-restaurant"
           },
           {
             "name": "La Victoria Taqueria",
@@ -6280,7 +6250,7 @@
         ],
         "notes": "One-bedrooms averaged about $2,800 a month in mid-2026 (Zumper), well below San Francisco or Palo Alto."
       },
-      "forWinnie": "San Jose is the warm, sunny, practical choice: summer days around 27 °C feel the closest to Kigali of any place here, winters are mild and dry, and rents are well below San Francisco's. Clay Planet, SJSU's ceramics programme and a ring of community studios give you materials and teaching leads, and LeYou and Zeni will cook you a proper Ethiopian meal. It's sprawling and car-oriented, with less art buzz than Oakland, but life here is calmer and more affordable."
+      "forWinnie": "San Jose is the warm, sunny end of the Bay: summer days around 27 °C, mild dry winters and rents well below San Francisco's. Clay Planet sells clay and materials in neighbouring Santa Clara, SJSU has a strong ceramics programme, and a ring of community studios offers classes. It's sprawling and car-oriented, about an hour from the city, so it's more a place for supplies and the occasional workshop than an everyday haunt."
     },
     "Santa Monica, California, USA": {
       "location": "Santa Monica, California, USA",
@@ -7166,7 +7136,7 @@
       "foodScene": {
         "score": 68,
         "rating": "Good",
-        "notes": "Small-town and seafood-forward: sushi and oysters by the water, good organic grocers, and Marin's big Sunday farmers market 20 minutes north. There is no East African restaurant here; for injera, take the ferry to San Francisco.",
+        "notes": "Small-town and seafood-forward: sushi and oysters by the water, good organic grocers, and Marin's big Sunday farmers market twenty minutes north.",
         "favorites": [
           {
             "name": "Sunday Marin Farmers Market",
@@ -7280,7 +7250,7 @@
         ],
         "notes": "Southern Marin rentals are scarce and expensive; many Marin artists live and work further north, in San Rafael or Novato."
       },
-      "forWinnie": "Southern Marin is breathtaking: Heath Ceramics' original factory is right in Sausalito, Mount Tamalpais is your back garden, and the ferry puts San Francisco half an hour away across the water. But it's quiet and very expensive, with few open-access studios, little East African community, and summer fog on the waterfront (it's sunnier ten minutes inland). It suits a residency or a visit better than a first home; if Marin calls you, San Rafael is the more practical base."
+      "forWinnie": "Southern Marin is breathtaking: Heath Ceramics' original factory is in Sausalito, Mount Tamalpais is the back garden, and the ferry puts San Francisco half an hour away across the water. It's quiet and very expensive, with few open-access studios and summer fog on the waterfront (it's sunnier ten minutes inland). It's a lovely day trip from the city; if you look further north in Marin, Fairfax and San Anselmo, near the Ceramic Art Center of Marin, are the closer fit for clay."
     },
     "Seattle, Washington, USA": {
       "location": "Seattle, Washington, USA",
@@ -47689,7 +47659,7 @@
           "Highwire Coffee Roasters",
           "Timeless Coffee & Bakery"
         ],
-        "notes": "Blue Bottle started as an Oakland farmers-market stall, and Red Bay is a much-loved Black-owned Oakland roaster. Ethiopian-style coffee ceremonies are part of life in the Telegraph Avenue restaurants."
+        "notes": "Blue Bottle started as an Oakland farmers-market stall, and Red Bay is a much-loved Black-owned Oakland roaster."
       },
       "localDessert": {
         "signature": "A sundae at Fentons Creamery, scooping on Piedmont Avenue since 1894",
@@ -47712,7 +47682,7 @@
         "notes": "Lake Merritt is the everyday waterfront: a 5 km path around a tidal lagoon in the middle of the city."
       },
       "practicalInfo": {
-        "language": "English (with large Spanish- and Cantonese-speaking communities, and an Ethiopian and Eritrean community along Telegraph Avenue)",
+        "language": "English (Spanish and Cantonese widely spoken)",
         "visaInfo": "Rwandan citizens need a US visa: a B-1/B-2 visitor visa for visits, applied for at the US Embassy in Kigali. ESTA and 90-day visa-free entry are only for citizens of Visa Waiver Program countries, and Rwanda is not one. Working or teaching for pay needs a separate status with work authorization (for example an O-1 artist visa or an employer-sponsored visa). US visa rules changed often in 2025-26, so check travel.state.gov and the embassy before applying.",
         "healthcareAccess": "Private, insurance-based system: an uninsured visit to a doctor or emergency room is very expensive. Visitors need travel medical insurance; residents usually get cover through an employer or Covered California. Community health clinics offer sliding-scale care.",
         "internetQuality": "Excellent",
@@ -47721,7 +47691,7 @@
       "foodScene": {
         "score": 90,
         "rating": "Excellent",
-        "notes": "Oakland cooks with heart: Saturday mornings at the Grand Lake market, Ethiopian coffee and injera at Café Colucci, soul food at Burdell and taco trucks along International Boulevard. It's more relaxed and cheaper than San Francisco, and the produce is just as good.",
+        "notes": "Oakland cooks with heart: Saturday mornings at the Grand Lake market, soul food at Burdell and taco trucks along International Boulevard. It's more relaxed and cheaper than San Francisco, and the produce is just as good.",
         "favorites": [
           {
             "name": "Grand Lake Farmers Market",
@@ -47734,12 +47704,6 @@
             "what": "Year-round Sunday market by Frog Park, 9am-1pm",
             "neighborhood": "Temescal (Claremont Ave)",
             "url": "https://www.visitoakland.com/blog/post/the-best-farmers-markets-in-oakland/"
-          },
-          {
-            "name": "Café Colucci",
-            "what": "Ethiopian restaurant with Brundo spice shop inside: injera, kitfo, big vegetarian platters",
-            "neighborhood": "North Oakland (San Pablo Ave)",
-            "url": "https://www.cafecolucci.com/"
           },
           {
             "name": "Burdell",
@@ -47853,7 +47817,7 @@
         ],
         "notes": "One-bedrooms averaged about $2,100 a month in mid-2026 (Zumper). Crime is higher than in the suburbs and varies a lot by block."
       },
-      "forWinnie": "Oakland might be the most natural fit: a working clay scene with cone 10 gas firing, a residency that centres Black and Indigenous artists, natural-dye classes at A Verb for Keeping Warm, and an Ethiopian and Eritrean community whose coffee ceremonies and injera will feel familiar. It's sunnier and a few degrees warmer than San Francisco, though still cooler than Kigali for most of the year. Rent is about half of San Francisco's and BART crosses the bay in fifteen minutes. It's also a city with real inequality and some rough blocks, so choose your street with local advice."
+      "forWinnie": "Oakland is the big neighbour across the bay, fifteen minutes by BART: worth knowing for Clayroom's West Oakland studio with cone 10 gas reduction, Merritt Ceramics' outside firing and residency, The Crucible's classes, and natural-dye classes at A Verb for Keeping Warm. It's a few degrees sunnier than San Francisco and much cheaper to rent in, so friends and collaborators may live here even if you don't. Think of it as a day out for firing, materials and markets rather than a second home base."
     },
     "San Rafael, California, USA": {
       "location": "San Rafael, California, USA",
@@ -48175,7 +48139,7 @@
       "foodScene": {
         "score": 70,
         "rating": "Good",
-        "notes": "The Sunday market at the Civic Center is one of the best in the Bay, under Frank Lloyd Wright's blue-roofed building, and downtown has cheerful, unfussy restaurants. There's no East African restaurant in Marin that we could verify; for injera, San Francisco and Oakland are 30-45 minutes away.",
+        "notes": "The Sunday market at the Civic Center is one of the best in the Bay, under Frank Lloyd Wright's blue-roofed building, and downtown has cheerful, unfussy restaurants.",
         "favorites": [
           {
             "name": "Sunday Marin Farmers Market",
@@ -48299,7 +48263,7 @@
         ],
         "notes": "Marin is among California's most expensive counties; San Rafael is its most practical place to rent. Studio space is easier to find in San Rafael and Novato than in the southern towns."
       },
-      "forWinnie": "San Rafael is the practical side of Marin: Amphora, the Ceramic Art Center of Marin and Marin Pottery are all within 20 minutes, Dharma Trading sells natural dyes and mordants by the kilo, and the Sunday farmers market is one of the best in the Bay. Summer afternoons (about 27 °C) feel close to Kigali's, but winters are wetter and colder than you're used to. Rents are high and the arts community skews older, but SMART trains and the Larkspur ferry keep you linked to Petaluma and San Francisco."
+      "forWinnie": "San Rafael is the practical centre of Marin: Amphora, the Ceramic Art Center of Marin in neighbouring San Anselmo and Marin Pottery are all within twenty minutes, Dharma Trading sells natural dyes and mordants by the kilo, and the Sunday farmers market is one of the best in the Bay. Summer afternoons reach about 27 °C, but winters are wetter and colder than the city's. Rents are high and you'll want a car, though SMART trains and the Larkspur ferry link you to San Francisco."
     },
     "Palo Alto, California, USA": {
       "location": "Palo Alto, California, USA",
@@ -48621,7 +48585,7 @@
       "foodScene": {
         "score": 75,
         "rating": "Very Good",
-        "notes": "Polished, healthy and a little pricey, with two great farmers' markets and good South Asian and Georgian cooking. For Ethiopian food you'll drive 25-30 minutes to San Jose, where LeYou and Zeni are excellent.",
+        "notes": "Polished, healthy and a little pricey, with two great farmers' markets and good South Asian and Georgian cooking.",
         "favorites": [
           {
             "name": "Downtown Palo Alto Farmers' Market",
@@ -48664,12 +48628,6 @@
             "what": "Gourmet grocery and cooking school",
             "neighborhood": "Menlo Park / Los Altos",
             "url": "https://www.draegers.com/"
-          },
-          {
-            "name": "LeYou",
-            "what": "Contemporary Ethiopian, Michelin-listed",
-            "neighborhood": "Downtown San Jose (25-30 min)",
-            "url": "https://www.leyouethiopian.com/"
           }
         ]
       },
@@ -48751,7 +48709,7 @@
         ],
         "notes": "Among the most expensive places to rent in the US. Many studios are family-oriented, with long waits for adult wheel classes."
       },
-      "forWinnie": "The Peninsula has Kigali-like sunshine: dry summers around 26 °C and one of the driest, mildest winters on this list, though January nights drop to about 4 °C. Clay here is mostly classes and community studios (Palo Alto Art Center, South Bay Ceramics, Foothill College), with Stanford's free Cantor Arts Center and the May Powwow close by. It's extremely expensive and tech-oriented, and quiet in the evenings, so it may suit you better as a place to teach or show than to live; Mountain View or San Jose would stretch your budget further."
+      "forWinnie": "The Peninsula is sunnier and drier than the city: summers around 26 °C and mild winters, though January nights drop to about 4 °C. Clay here is mostly classes and community studios (Palo Alto Art Center, South Bay Ceramics, Foothill College), with Stanford's free Cantor Arts Center close by. It's very expensive and quiet in the evenings, so it suits a class, a show or a teaching day better than a move; Caltrain gets you there from San Francisco in under an hour."
     },
     "Petaluma, California, USA": {
       "location": "Petaluma, California, USA",
@@ -49046,7 +49004,7 @@
       "foodScene": {
         "score": 66,
         "rating": "Good",
-        "notes": "Farm country on your doorstep: two weekly farmers' markets, wood-fired bread, and cheese from America's oldest cheesemaker in the hills. There's no East African restaurant in town; the nearest injera is in Oakland or Berkeley, about an hour away.",
+        "notes": "Farm country on your doorstep: two weekly farmers' markets, wood-fired bread, and cheese from America's oldest cheesemaker in the hills.",
         "favorites": [
           {
             "name": "Petaluma Saturday Farmers Market",
@@ -49153,7 +49111,7 @@
         ],
         "notes": "Cheaper than Marin and San Francisco but still expensive by US standards. Studio space in the old warehouses is easier to find than in the cities."
       },
-      "forWinnie": "Petaluma is a small river town with a real potter's thread running through it: Petaluma Pottery's classes, Forrest Lesch-Middelton's tile studio, Sonoma County's residencies and wood firing, and Fibershed's local fibre and dye movement nearby. Summers are warm (about 27 °C) and dry, but winter mornings are cold (about 4 °C) and foggy, colder than anything in Kigali. It's calmer and cheaper than the cities, though you'd be an hour from Oakland's community and Ethiopian food, and you'll want a car."
+      "forWinnie": "Petaluma is a small river town with a real potter's thread: Petaluma Pottery's classes, Forrest Lesch-Middelton's tile studio, Sonoma County's residencies and wood firing, and Fibershed's local fibre and dye movement nearby. Summers are warm (about 27 °C) and dry, winter mornings cold (about 4 °C) and foggy. It's calmer and cheaper than the city but about an hour north, so it works as a weekend for firing or fibre rather than a daily trip."
     }
   }
 }
