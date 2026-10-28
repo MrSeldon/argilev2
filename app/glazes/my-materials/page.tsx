@@ -1,42 +1,24 @@
-import Link from "next/link";
-import { MaterialsInventory } from "@/components/glazes/MaterialsInventory";
+import { Shelf } from "@/components/glazes/Shelf";
+import { GlazeCredits } from "@/components/glazes/GlazeCredits";
+import { GlazeHero } from "@/components/glazes/GlazeHero";
 
 export const metadata = {
-  title: "My Materials | Le Four Argile",
-  description: "Track your glaze materials inventory",
+  title: "My Shelf | Le Four Argile",
+  description: "The glaze materials you have, what you can make now, and the one material that unlocks the most.",
 };
 
 export default function MyMaterialsPage() {
   return (
     <div className="min-h-screen">
-      {/* Header */}
-      <section className="py-16 border-b border-warm-100">
-        <div className="max-w-4xl mx-auto px-8 text-center">
-          <h1 className="font-serif text-3xl md:text-4xl tracking-tight mb-4">
-            My Materials
-          </h1>
-          <p className="text-warm-500">
-            Track your glaze materials inventory to find recipes you can make
-          </p>
+      <GlazeHero title="My shelf" subtitle="What you have, what you can make, what to get next" link={{ href: "/glazes", label: "← Describe" }} />
+      <section className="py-8 md:py-12">
+        <div className="max-w-narrow mx-auto px-4 md:px-8">
+          <Shelf />
         </div>
       </section>
-
-      {/* Main Content */}
-      <section className="py-16">
-        <div className="max-w-4xl mx-auto px-8">
-          <MaterialsInventory />
-        </div>
-      </section>
-
-      {/* Back Link */}
-      <section className="pb-24">
-        <div className="max-w-4xl mx-auto px-8">
-          <Link
-            href="/glazes"
-            className="text-sm text-warm-500 hover:text-charcoal transition-colors"
-          >
-            ← Back to Glazes
-          </Link>
+      <section className="pb-16">
+        <div className="max-w-narrow mx-auto px-4 md:px-8 border-t border-warm-100 pt-6">
+          <GlazeCredits />
         </div>
       </section>
     </div>

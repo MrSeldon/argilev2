@@ -4,8 +4,6 @@ import path from "path";
 import type {
   Opportunity,
   OpportunitiesData,
-  Glaze,
-  GlazesData,
   InspirationsData,
   SuitabilityLocation,
   SuitabilityData,
@@ -55,10 +53,8 @@ export async function getOpportunityById(
   return opportunities.find((opp) => opp.id === id);
 }
 
-export async function getGlazes(source: "digitalfire" | "glazy" = "digitalfire"): Promise<Glaze[]> {
-  const data = await loadData<GlazesData>(`glazes/${source}.json`);
-  return data.recipes;
-}
+// Glaze recipes are served from the prebuilt index (lib/glazes/server.ts).
+// The raw sources in data/glazes are only read by scripts/glazes/build-index.mjs.
 
 export async function getInspirations(): Promise<InspirationsData> {
   return loadData<InspirationsData>("inspirations/index.json");
