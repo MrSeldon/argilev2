@@ -1,0 +1,1875 @@
+[
+  {
+    "id": "sfbay-castro-clay",
+    "name": "Castro Clay",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.75763,
+        "lng": -122.43705
+      }
+    },
+    "focusAreas": [
+      "wheel"
+    ],
+    "description": "Pottery studio in the Castro offering independent-work memberships plus beginner wheel classes.",
+    "details": "One-time beginner wheel class; month-to-month weekly beginner wheel course; kids classes and private events. No prices on page.",
+    "facilities": [
+      "wheels"
+    ],
+    "website": "https://www.castroclay.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "studio",
+      "class"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "class"
+    ],
+    "source": "https://www.castroclay.com",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-sharon-art-studio-sf-rec-park",
+    "name": "Sharon Art Studio (SF Rec & Park)",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.7683,
+        "lng": -122.45823
+      }
+    },
+    "focusAreas": [
+      "wheel",
+      "handbuilding"
+    ],
+    "description": "Public art center in Golden Gate Park run by SF Rec & Park with Friends of Sharon Art Studio; extensive weekly ceramics classes plus drop-in Open Studio sessions.",
+    "details": "Fall schedule: adult ceramics Mon-Fri 10am-1pm and 6:30-9:30pm (Sept 8-Nov 13), Saturday class, Tween/Teen ceramics, Open Studio weekdays 1:30-3:30pm, Porcelain Ornaments workshop Dec 3-10. Hours Mon-Fri 10am-10pm, Sat 10am-5pm. Prices not on page.",
+    "facilities": [
+      "open studio sessions"
+    ],
+    "website": "https://sfrecpark.org/704/Sharon-Art-Studio",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "class",
+      "studio"
+    ],
+    "category": "class",
+    "categories": [
+      "class",
+      "studio"
+    ],
+    "source": "https://sfrecpark.org/704/Sharon-Art-Studio",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-mission-arts-center-sf-rec-park",
+    "name": "Mission Arts Center (SF Rec & Park)",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.75824,
+        "lng": -122.41343
+      }
+    },
+    "focusAreas": [
+      "handbuilding"
+    ],
+    "deadline": "Sept 19-Nov 14 (Saturdays)",
+    "description": "Rec & Park arts center with a newly updated ceramics studio; currently scheduled Saturday 'Exploration in Clay' classes.",
+    "details": "Exploration in Clay Saturdays Sept 19-Nov 14 (10am-1pm, #49248; 2-5pm, #49249). Limited ceramics schedule. Summer hours began 6/15/26.",
+    "website": "https://sfrecpark.org/697/Mission-Arts-Center",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "class"
+    ],
+    "category": "class",
+    "categories": [
+      "class"
+    ],
+    "source": "https://sfrecpark.org/697/Mission-Arts-Center",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-studio-ceramica-mel-rice-ceramica",
+    "name": "Studio Ceramica (Mel Rice Ceramica)",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.7803,
+        "lng": -122.48546
+      }
+    },
+    "focusAreas": [
+      "wheel",
+      "handbuilding"
+    ],
+    "deadline": "Next 4-wk packages: Oct 26, Nov 10, Dec 8",
+    "cost": {
+      "tuition": "Membership $230/month (through Nov 2026)"
+    },
+    "description": "Community pottery studio in the Outer Richmond (between 25th and 26th Aves) with wheel and handbuilding classes and one-month memberships.",
+    "details": "One-day classes $85-90 (3 hrs); 4-week packages $225-240 with unlimited studio access; 5-week dinnerware $285. One-month membership $230 (Aug-Nov) / $240 (Dec), unlimited access plus slips, glazes, firings; must complete a class package first. Classes listed Aug-Dec 2026.",
+    "facilities": [
+      "shelf space",
+      "locker (some listings)"
+    ],
+    "website": "https://www.melriceceramica.com/",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "studio",
+      "class"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "class"
+    ],
+    "source": "https://www.melriceceramica.com/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-earthfire-arts-studio",
+    "name": "Earthfire Arts Studio",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.76225,
+        "lng": -122.46706
+      }
+    },
+    "focusAreas": [
+      "handbuilding"
+    ],
+    "description": "Inner Sunset studio focused on pottery painting, clay molding/handbuilding workshops and painting classes; more casual than a throwing studio.",
+    "details": "Drop-in hours Thu-Sun noon-6pm per studio site (address and hours from earthfireartsstudio.com, also fetched). No prices on pages.",
+    "website": "https://www.earthfireartsstudio.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "class"
+    ],
+    "category": "class",
+    "categories": [
+      "class"
+    ],
+    "source": "https://ma.to/venue/earthfirearts",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-the-potters-studio",
+    "name": "The Potters' Studio",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "Berkeley",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.87702,
+        "lng": -122.3025
+      }
+    },
+    "focusAreas": [
+      "wheel",
+      "handbuilding",
+      "glaze"
+    ],
+    "cost": {
+      "tuition": "$185-$275/month"
+    },
+    "description": "Long-running nonprofit ceramics studio in West Berkeley with membership, classes, and visiting artist workshops.",
+    "details": "Monthly membership: Sustaining $225, Supporting $275, Supported $185 (application-based). Annual $2,520; 3-year $7,560; 5-year $12,600. Requires intermediate-advanced clay experience; beginners encouraged to take classes first. Members get advance access/discounts to classes and visiting artist workshops. Apply via online form; inquiries memberships@thepottersstudio.org.",
+    "website": "https://www.thepottersstudio.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "berkeley",
+      "studio",
+      "class"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "class"
+    ],
+    "source": "https://www.thepottersstudio.org/about-membership",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-petaluma-pottery",
+    "name": "Petaluma Pottery",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "Petaluma",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 38.2329,
+        "lng": -122.63494
+      }
+    },
+    "focusAreas": [
+      "wheel",
+      "handbuilding"
+    ],
+    "deadline": "Jan 2027 enrollment opens Dec 12, 2026",
+    "cost": {
+      "tuition": "8-week class $320"
+    },
+    "description": "Warehouse District pottery school with 8-week wheel and handbuilding classes, one-day workshops and studio memberships.",
+    "details": "8-week classes (Oct-Dec 2026) $302-$320; one-night wheel/handbuilding $55; date night $110 per couple; demo day $115; surface/slip workshop $72. Next 8-week session (Jan 2027) enrolls Sat Dec 12 at 10am. Membership page exists; terms not shown on classes page.",
+    "website": "https://www.petalumapottery.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "petaluma",
+      "studio",
+      "class"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "class"
+    ],
+    "source": "https://www.petalumapottery.com/classes",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-alameda-pots",
+    "name": "Alameda Pots",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "Alameda",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.77384,
+        "lng": -122.27706
+      }
+    },
+    "focusAreas": [
+      "wheel",
+      "handbuilding"
+    ],
+    "deadline": "Classes start Nov 10-12",
+    "description": "Alameda pottery studio (opened 2024) with six-week wheel and handbuilding courses and a members program.",
+    "details": "Courses starting Nov 10-12: Handbuilding (Tue 9-11:30am), Intro Wheel (Tue/Thu 6-8:30pm), Adv Beginner Wheel (Wed). Members/Plans pages exist; no prices on pages fetched.",
+    "website": "https://www.alamedapots.art/",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "alameda",
+      "studio",
+      "class"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "class"
+    ],
+    "source": "https://www.alamedapots.art/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-higher-fire-clayspace-gallery",
+    "name": "Higher Fire Clayspace & Gallery",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "San Jose",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.32818,
+        "lng": -121.88576
+      }
+    },
+    "focusAreas": [
+      "wheel",
+      "handbuilding"
+    ],
+    "cost": {
+      "tuition": "Membership $175-195/month"
+    },
+    "description": "Large San Jose teaching and membership studio with two locations, daily classes, and a gallery.",
+    "details": "6-week beginner wheel class $399 including clay, toolkit, glazes, firing (starting Oct 26). Standard membership $175-195/month including class discounts; discounts for 6/12-month commitments. JTown Clay is about 7,000 sq ft with parking.",
+    "website": "https://www.higherfirestudios.com/",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-jose",
+      "studio",
+      "class"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "class"
+    ],
+    "source": "https://www.higherfirestudios.com/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-halo-pottery",
+    "name": "Halo Pottery",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "Los Altos",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.36186,
+        "lng": -122.09925
+      }
+    },
+    "focusAreas": [
+      "wheel",
+      "handbuilding"
+    ],
+    "description": "Small Los Altos studio offering adult, teen, and kids classes, one-time classes, and private workshops.",
+    "details": "Hours Mon/Wed/Thu 9:30-11:30am and 5-8pm; other days by appointment. Prices on request. No membership mentioned.",
+    "website": "https://halopottery.net/",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "los-altos",
+      "class"
+    ],
+    "category": "class",
+    "categories": [
+      "class"
+    ],
+    "source": "https://halopottery.net/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-mill-valley-potter-s-studio",
+    "name": "Mill Valley Potter's Studio",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "Mill Valley",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.88202,
+        "lng": -122.52449
+      }
+    },
+    "focusAreas": [
+      "wheel",
+      "handbuilding"
+    ],
+    "deadline": "Workshops Nov 6, Nov 15, Nov 20, Dec 4",
+    "description": "Marin pottery studio with weekday wheel and handbuilding classes, workshops, youth/teen classes, and a Memberships section.",
+    "details": "Classes e.g. Intro to Functional Pottery (Mon AM), Wheel Wednesdays, Throwing Thursday, Handbuilding & Ceramics (Tue PM), Throwing with Intention (Fri AM). Workshops: Friday Night on the Wheel (Nov 6, Dec 4), Holiday Ornament (Nov 15), Pinch Pots & Pinot (Nov 20). Booking via Kilnfire; no prices on page.",
+    "website": "https://www.millvalleypotterystudio.com/",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "mill-valley",
+      "studio",
+      "class"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "class"
+    ],
+    "source": "https://www.millvalleypotterystudio.com/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-cass-ceramics",
+    "name": "Cass Ceramics",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "Albany",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.89651,
+        "lng": -122.30117
+      }
+    },
+    "focusAreas": [
+      "wheel",
+      "handbuilding"
+    ],
+    "deadline": "Classes start Nov 2-6",
+    "cost": {
+      "tuition": "Classes $290-$350"
+    },
+    "description": "Albany community ceramics studio with wheel and handbuilding classes and members with 24x7 access.",
+    "details": "Fall/winter classes: Wheel 1 $325, Hand Building 1 $325, Wheel 2 Altered Forms $350, Hand Building 2 Slabs $350, Large Form Coil Building $310, Guided Studio sessions $290-350. Members get 24x7 access (price not on page).",
+    "website": "https://cassceramics.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "albany",
+      "studio",
+      "class"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "class"
+    ],
+    "source": "https://cassceramics.com",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-sebastopol-center-for-the-arts-sebarts-ceramics",
+    "name": "Sebastopol Center for the Arts (SebArts) Ceramics",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "Sebastopol",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 38.40013,
+        "lng": -122.82527
+      }
+    },
+    "focusAreas": [
+      "wheel"
+    ],
+    "cost": {
+      "tuition": "$250 per 6-week series"
+    },
+    "description": "Arts center with an on-site ceramics studio running intro and intermediate wheel-throwing series.",
+    "details": "Intro to Wheel Throwing (6 sessions, Fri 5-7:30pm): $205 + $45 clay fee, max 10 students. A 2026 series ran Feb 27-Apr 3. Search results also show June 2026 series (not fetched).",
+    "website": "https://www.sebarts.org",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "sebastopol",
+      "class"
+    ],
+    "category": "class",
+    "categories": [
+      "class"
+    ],
+    "source": "https://www.sebarts.org/classes-lectures/intro-to-wheel-throwing-02/27-04/03-2026",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-kollektiv-clay-studio",
+    "name": "Kollektiv Clay Studio",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "Oakland",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.82512,
+        "lng": -122.25449
+      }
+    },
+    "focusAreas": [
+      "wheel",
+      "handbuilding"
+    ],
+    "deadline": "Winter enrollment Dec 2",
+    "description": "Piedmont Avenue community pottery studio with one-time classes, six-week courses, workshops, youth classes, glaze pass and memberships.",
+    "details": "Six-week course Fall Session 2 runs 10/26-12/13; Winter Session 1 1/4-2/14 with enrollment Wed 12/2 8:30am (schedule release 11/20). Membership page exists; terms and prices not shown.",
+    "website": "https://www.kollektivclaystudio.com/",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "oakland",
+      "studio",
+      "class"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "class"
+    ],
+    "source": "https://www.kollektivclaystudio.com/six-week-courses",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-common-clay-space",
+    "name": "Common Clay Space",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "Cupertino",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.3238,
+        "lng": -122.01791
+      }
+    },
+    "focusAreas": [
+      "wheel",
+      "handbuilding",
+      "pit firing"
+    ],
+    "deadline": "Pit firing Jan 9-10, 2027",
+    "description": "Cupertino studio with memberships for experienced potters, multi-week and one-time classes, and workshops.",
+    "details": "Members have extended access 7am-11pm daily (no prices shown). Workshops: Pit Firing Workshop Jan 9-10, 2027 (firing Jan 23); Advanced Wheel Throwing Boot Camp Jan 5-21 (Tue/Thu eve). Multi-week foundational series posted each quarter.",
+    "website": "https://www.commonclayspace.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "cupertino",
+      "studio",
+      "class"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "class"
+    ],
+    "source": "https://www.commonclayspace.com/workshops",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-clay-creations-pacifica",
+    "name": "Clay Creations Pacifica",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "Pacifica",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.59525,
+        "lng": -122.50952
+      }
+    },
+    "focusAreas": [
+      "atmospheric firing",
+      "raku",
+      "pit firing",
+      "soda",
+      "wood firing",
+      "wheel"
+    ],
+    "deadline": "Obvara workshop Nov 15, 2026",
+    "cost": {
+      "tuition": "Obvara workshop $95-$120"
+    },
+    "description": "Pacifica clay studio with adult/youth classes, memberships, and atmospheric firing programs (raku, pit, soda, wood).",
+    "details": "Obvara Firing Workshop Sun Nov 15, 2026, 9am-3pm in San Gregorio: $120 non-members, $95 members, max 16. Hours Mon-Fri 9am-1pm and 6:30-9pm, Sat-Sun 9am-5pm. Membership page exists; fees not on this page.",
+    "website": "https://claycreationspacifica.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "pacifica",
+      "class",
+      "studio"
+    ],
+    "category": "class",
+    "categories": [
+      "class",
+      "studio"
+    ],
+    "source": "https://claycreationspacifica.com/artist-workshops/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-terra-linda-ceramic-artists",
+    "name": "Terra Linda Ceramic Artists",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "San Rafael",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 38.01503,
+        "lng": -122.56067
+      }
+    },
+    "focusAreas": [
+      "wheel",
+      "handbuilding"
+    ],
+    "description": "Community ceramics studio in San Rafael offering adult and youth classes, workshops and specialty firings; also runs the Ceramic Art Center of Marin art walk.",
+    "details": "Wednesday evening Fundamentals class for new or returning students. Art walk every 2nd Friday at Studio #24, Art Works Downtown. No prices on page.",
+    "website": "https://terralindaceramicartists.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-rafael",
+      "class",
+      "studio"
+    ],
+    "category": "class",
+    "categories": [
+      "class",
+      "studio"
+    ],
+    "source": "https://www.terralindaceramicartists.com/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-cobb-mountain-art-and-ecology-project-wood-fire-long-term-an",
+    "name": "Cobb Mountain Art and Ecology Project (wood-fire, long-term and short-term residencies)",
+    "type": "residency",
+    "status": "active",
+    "location": {
+      "city": "Cobb",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 38.83315,
+        "lng": -122.72285
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "wood firing",
+      "anagama",
+      "work exchange"
+    ],
+    "deadline": "2026-27 long-term and wood-fire cycles closed; rolling applications accepted for the 2027-2028 cycle; exact due dates to be announced January 2027; applications reviewed each March.",
+    "cost": {
+      "tuition": "Residents pay monthly rent for studio and housing (amount varies by housing and work-exchange; see site); residents cover own materials and firing costs; pets $25/month"
+    },
+    "description": "Ceramics residencies on an 80-acre property with wood kilns. The Wood-Fire Residency is a one-year position (renewable up to 3 years) joining winter and spring anagama firings, assisting guest artists, and helping Scott Parady with wood prep and kiln maintenance.",
+    "details": "Also offers 10-12 month long-term and 1-2 month short-term residencies. Apply by email to cobbartandecology@gmail.com with 10-image portfolio, letter of intent, CV, statement/bio, three references. Wood-fire applicants need prior wood-kiln firing experience. Outside the core Bay Area (Lake County). Address as stated on source: Cobb Mountain Recreational Area, Cobb, CA (80-acre property about 40 minutes north of Napa Valley; no street address on site)",
+    "eligibility": "Emerging and established ceramic artists; wood-fire needs wood-kiln firing experience",
+    "website": "https://cobbartandecology.org/",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "cobb",
+      "residency",
+      "mentorship"
+    ],
+    "category": "residency",
+    "categories": [
+      "residency",
+      "mentorship"
+    ],
+    "source": "https://cobbartandecology.org/woodfire-residency",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-chalk-hill-artist-residency",
+    "name": "Chalk Hill Artist Residency",
+    "type": "residency",
+    "status": "active",
+    "location": {
+      "city": "Healdsburg",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 38.61068,
+        "lng": -122.87014
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "residency",
+      "clay arts listed"
+    ],
+    "deadline": "2027 call deadline August 31, 2026 (closed). Next deadline not posted.",
+    "cost": {
+      "tuition": "$500 per week ($100 deposit); $25 application fee"
+    },
+    "description": "One-to-four-week self-funded residency at Warnecke Ranch and Vineyard in Sonoma County for artists in any medium; ceramics/clay is a listed discipline, though the listing mentions no kiln or clay facilities.",
+    "details": "Private and shared studios; non-cash scholarships by need and merit (full scholarship up to four weeks possible with 200-word statement of need). Confirm clay/kiln access with the program before applying. Address taken from the program's own site (chalkhillresidency.com). Address as stated on source: 13427 Chalk Hill Road, Healdsburg, CA 95448",
+    "eligibility": "Artists worldwide, any medium and career stage",
+    "website": "https://www.chalkhillresidency.com/",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "healdsburg",
+      "residency"
+    ],
+    "category": "residency",
+    "categories": [
+      "residency"
+    ],
+    "source": "https://artistcommunities.org/directory/open-calls/call-artists-2027",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-headlands-center-for-the-arts-artist-in-residence-program",
+    "name": "Headlands Center for the Arts - Artist in Residence Program",
+    "type": "residency",
+    "status": "active",
+    "location": {
+      "city": "Sausalito",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.85903,
+        "lng": -122.48547
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "interdisciplinary"
+    ],
+    "deadline": "2027 applications closed (deadline was June 1, 2026 per a third-party listing); 2028 applications open April 2027.",
+    "description": "Fully sponsored residency in the Marin Headlands for artists in all disciplines (sculpture listed among media; ceramics not named), covering studio, housing, chef-prepared meals, and travel and living expenses.",
+    "details": "Contact info@headlands.org to confirm ceramics fit. Jury results for 2027 announced by December 11, 2026. Address as stated on source: 944 Simmonds Road, Sausalito, CA 94965",
+    "eligibility": "Artists in all disciplines; prior-residency and award restrictions apply",
+    "website": "https://www.headlands.org/programs/",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "sausalito",
+      "residency"
+    ],
+    "category": "residency",
+    "categories": [
+      "residency"
+    ],
+    "source": "https://www.headlands.org/programs/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-recology-san-francisco-artist-in-residence-program",
+    "name": "Recology San Francisco Artist in Residence Program",
+    "type": "residency",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.78794,
+        "lng": -122.40752
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "reclaimed materials",
+      "residency"
+    ],
+    "deadline": "2028 residencies (starting Feb 2028): professionals June 1 - Sept 1, 2027; students May 1 - Sept 1, 2027. 2027 applications closed.",
+    "description": "Residency in a large studio at the San Francisco transfer facility giving artists access to discarded materials. Not ceramics-specific; page does not mention ceramics.",
+    "details": "Applicants must attend an on-site tour first, then apply online via SlideRoom. Separate student track. Housing not provided. Applicants must live in the Bay Area (within a one-hour drive of the Transfer Station) when applying and throughout, so relocation must happen first. Address as stated on source: San Francisco, CA (Transfer Station reference point 401 Tunnel Ave.; studio street address not stated on page)",
+    "eligibility": "Local emerging, mid-career and professional artists living in the Bay Area",
+    "website": "https://www.recology.com/",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "residency"
+    ],
+    "category": "residency",
+    "categories": [
+      "residency"
+    ],
+    "source": "https://www.recology.com/?p=9861",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-matt-fishman-local-materials-potter-teaches-at-the-potters-s",
+    "name": "Matt Fishman (local-materials potter, teaches at The Potters' Studio)",
+    "type": "artist",
+    "status": "active",
+    "location": {
+      "city": "Oakland",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.80446,
+        "lng": -122.27136
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "local materials",
+      "teaching"
+    ],
+    "description": "Functional potter whose bio says sourcing materials locally is core to his practice; makes wares for local restaurants and teaches at The Potters' Studio in Berkeley.",
+    "details": "Wild clay or ash not mentioned on the page. Studio Potter article 'Following the Materials'. No assistant or apprenticeship offer stated. Address as stated on source: Oakland, CA",
+    "website": "https://studiopotter.org/following-materials",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "oakland",
+      "artist"
+    ],
+    "category": "artist",
+    "categories": [
+      "artist"
+    ],
+    "source": "https://studiopotter.org/following-materials",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-west-coast-craft-winter-26-fort-mason",
+    "name": "West Coast Craft Winter '26 (Fort Mason)",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.80689,
+        "lng": -122.43221
+      }
+    },
+    "focusAreas": [
+      "craft fair",
+      "ceramics vendors",
+      "buying"
+    ],
+    "deadline": "Sat Nov 21, 2026 10am-6pm and Sun Nov 22, 2026 (to 6pm)",
+    "cost": {
+      "tuition": "Admission not stated on the fetched page (the Summer 2026 edition was listed as free)"
+    },
+    "description": "Juried two-day contemporary craft and design market at Fort Mason where ceramics makers are among the exhibitors.",
+    "details": "Same organizer runs WCC WAVES Vintage Market Sat Dec 5, 2026, 11am-6pm at the Gateway Pavilion. Address taken from the organizer's Summer 2026 listing at the same Festival Pavilion (fortmason.org/series/west-coast-craft-summer-2026/).",
+    "website": "https://westcoastcraft.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "community",
+      "craft-fair"
+    ],
+    "category": "community",
+    "categories": [
+      "community"
+    ],
+    "source": "https://westcoastcraft.com/attendee-calendar",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-the-fellowship-of-craft-formerly-craneway-craft-fair",
+    "name": "The Fellowship of Craft (formerly Craneway Craft Fair)",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "Oakland",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.79758,
+        "lng": -122.26157
+      }
+    },
+    "focusAreas": [
+      "craft fair",
+      "ceramics vendors"
+    ],
+    "deadline": "Nov 28-29, 2026, 10am-5pm",
+    "cost": {
+      "tuition": "Free admission"
+    },
+    "description": "Indoor weekend marketplace of 200+ Bay Area and other artists and craftspeople; ceramics is a listed product category.",
+    "details": "Street address from a California Arts Council listing seen in search (not re-fetched); the official page names only the Kaiser Center. Vendor waitlist open.",
+    "website": "https://www.fellowshipofcraft.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "oakland",
+      "community",
+      "craft-fair"
+    ],
+    "category": "community",
+    "categories": [
+      "community"
+    ],
+    "source": "https://www.fellowshipofcraft.com",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-san-francisco-ceramic-artists-guild-1st-annual-holiday-marke",
+    "name": "San Francisco Ceramic Artists Guild - 1st Annual Holiday Market",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.78794,
+        "lng": -122.40752
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "guild",
+      "community",
+      "selling"
+    ],
+    "deadline": "Sunday Nov 29, 2026, 11am-5pm (load-in 9-10:30am)",
+    "cost": {
+      "tuition": "Vendor space $100 member / $175 non-member; shopper admission not stated"
+    },
+    "description": "Ceramic artist guild founded May 2025 for beginner-to-master potters in SF; holds its first holiday market for members' work.",
+    "details": "Street address not on the page. Members had early table reservations before 9/30/26; table and chair rental requests due 11/15/26. 6-foot vending space fees $100 members / $175 non-members. Guild offers paid memberships (fee not shown). Address as stated on source: The Faight, Haight District, San Francisco, CA",
+    "website": "https://www.sfcag.org/",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "community",
+      "guild"
+    ],
+    "category": "community",
+    "categories": [
+      "community"
+    ],
+    "source": "https://www.sfcag.org/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-ruby-s-clay-studio-gallery",
+    "name": "Ruby's Clay Studio & Gallery",
+    "type": "gallery",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.76183,
+        "lng": -122.43288
+      }
+    },
+    "focusAreas": [
+      "gallery",
+      "community studio"
+    ],
+    "deadline": "Ongoing monthly shows; Strictly Sculpture through Oct 30, 2026 (year inferred from weekdays); Nov/Dec not listed",
+    "description": "Castro community clay studio with a gallery presenting 12 month-long exhibits a year and work by 50+ artists for sale.",
+    "details": "Strictly Sculpture (juried community sculpture show) Oct 2-30, 2026 ends in 3 days; no November or December 2026 shows listed yet. 2027 gallery show application window was Aug 28-Oct 1, 2026. Openings coincide with Castro Art Walk (first Fridays). Phone (415) 558-9819.",
+    "website": "https://www.rubysclaystudio.org/gallery",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "gallery",
+      "community"
+    ],
+    "category": "gallery",
+    "categories": [
+      "gallery",
+      "community"
+    ],
+    "source": "https://www.rubysclaystudio.org/gallery",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-claypeople",
+    "name": "ClayPeople",
+    "type": "supplier",
+    "status": "active",
+    "location": {
+      "city": "Richmond",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.93952,
+        "lng": -122.33762
+      }
+    },
+    "focusAreas": [
+      "clay",
+      "glazes",
+      "raw materials"
+    ],
+    "description": "Richmond ceramic supply shop selling clay, glazes (e.g. Mayco Stoneware, Amaco Cosmos) and related supplies, with an online store and catalog.",
+    "details": "Phone (510) 236-1492; people@claypeople.net. A third-party directory (Digitalfire) says in-store firing up to cone 6 is offered; not confirmed on the shop's own homepage.",
+    "website": "https://claypeople.net",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "richmond",
+      "supplier"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier"
+    ],
+    "source": "https://claypeople.net",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-clay-planet",
+    "name": "Clay Planet",
+    "type": "supplier",
+    "status": "active",
+    "location": {
+      "city": "Santa Clara",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.38728,
+        "lng": -121.95798
+      }
+    },
+    "focusAreas": [
+      "clay",
+      "glazes",
+      "kilns",
+      "plaster"
+    ],
+    "description": "South Bay ceramic supply store and online shop (clay, glazes, tools, kilns, casting plaster).",
+    "details": "Phone (408) 295-3352 or toll-free (800) 443-2529. Hours: Mon-Fri 9am-5pm; Sat 10am-3pm; Sun closed",
+    "website": "https://shop.clay-planet.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "santa-clara",
+      "supplier"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier"
+    ],
+    "source": "https://shop.clay-planet.com",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-gladding-mcbean-lincoln-ca",
+    "name": "Gladding, McBean (Lincoln, CA)",
+    "type": "supplier",
+    "status": "active",
+    "location": {
+      "city": "Lincoln",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 38.89446,
+        "lng": -121.29598
+      }
+    },
+    "focusAreas": [
+      "bulk clay",
+      "terra cotta",
+      "Sierra foothill clay"
+    ],
+    "description": "Historic Lincoln, CA clay manufacturer whose product list includes pottery, terra cotta, roof/floor tile, clay pipe and 'Bulk Clay'.",
+    "details": "Phone 800-776-1133. Page does not say whether bulk clay or pottery is sold to individuals; contact the company (sample request form and contact page exist). About 2 hours' drive from the Bay Area.",
+    "website": "https://www.gladdingmcbean.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "lincoln",
+      "supplier",
+      "materials"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier",
+      "materials"
+    ],
+    "source": "https://www.gladdingmcbean.com",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-creative-ceramics-and-glass-glazequeen-santa-rosa",
+    "name": "Creative Ceramics and Glass / GlazeQueen (Santa Rosa)",
+    "type": "supplier",
+    "status": "active",
+    "location": {
+      "city": "Santa Rosa",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 38.50928,
+        "lng": -122.76524
+      }
+    },
+    "focusAreas": [
+      "clay",
+      "glazes",
+      "chemicals",
+      "kilns"
+    ],
+    "description": "North Bay ceramics and glass supply showroom (same address as GlazeQueen) stocking clay, glazes, underglazes, stains, kiln supplies, kilns, wheels, slab rollers and chemicals.",
+    "details": "Phone (707) 545-6528; GlazeQueen site lists (707) 260-2923. Santa Rosa is outside the core Bay Area but is a North Bay option. GlazeQueen site: https://www.glazequeen.com (also (c) 2026). Hours: Showroom Tue-Fri 8:00-3:30; closed Mon, Sat, Sun",
+    "website": "https://www.creativeceramicsandglass.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "santa-rosa",
+      "supplier"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier"
+    ],
+    "source": "https://www.creativeceramicsandglass.com",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-norcal-kiln-repair",
+    "name": "NorCal Kiln Repair",
+    "type": "supplier",
+    "status": "active",
+    "location": {
+      "city": "Oakland",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.81431,
+        "lng": -122.26763
+      }
+    },
+    "focusAreas": [
+      "kiln repair",
+      "ventilation",
+      "studio setup"
+    ],
+    "description": "Evaluation and repair of gas and electric ceramic and glass kilns, pottery wheels, pug mills and slab rollers; ventilation installation, studio setup and equipment appraisals.",
+    "details": "Site notes drop-offs at a Pinole shop by appointment and that the Oakland studio/gallery is open to the public Saturdays 1-5pm. Contact via website form; Yelp/other listings give (510) 601-5053 (not on the homepage). Hours: Work hours 9am-5pm; Oakland gallery Sat 1-5pm",
+    "website": "https://norcalkilnrepair.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "oakland",
+      "supplier"
+    ],
+    "category": "supplier",
+    "categories": [
+      "supplier"
+    ],
+    "source": "https://norcalkilnrepair.com",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-foraging-clay-at-thornton-state-beach-with-artillery-ceramic",
+    "name": "Foraging clay at Thornton State Beach with Artillery Ceramics (Mission Local, Aug 2024)",
+    "type": "materials",
+    "status": "active",
+    "location": {
+      "city": "Daly City",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.69048,
+        "lng": -122.47267
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "wild clay",
+      "legal access"
+    ],
+    "description": "Article (published Aug 27, 2024) describing a group clay-foraging outing led from Artillery Ceramics (2751 Mission St, SF); dry clay was gathered on the beach near a spring just above the high-tide mark.",
+    "details": "HEARSAY, NOT AN OFFICIAL RULE: in a reader comment, the author states removing things from beaches is not permitted, that rockhounding/educational purposes are an exception, that the group took only a couple of pounds, that the amount may not exceed 15 lbs, and that statutes prohibit removal for later sale. The article itself does not address permission. Confirm with the park/State Parks before collecting. Address as stated on source: Thornton State Beach, Daly City, CA (just south of Fort Funston)",
+    "website": "https://missionlocal.org/2024/08/foraging-for-clay-with-artillery-ceramics/",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "daly-city",
+      "materials"
+    ],
+    "category": "materials",
+    "categories": [
+      "materials"
+    ],
+    "source": "https://missionlocal.org/2024/08/foraging-for-clay-with-artillery-ceramics/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-east-bay-regional-park-district-ordinance-38-section-805-geo",
+    "name": "East Bay Regional Park District Ordinance 38 - Section 805 Geological Features",
+    "type": "materials",
+    "status": "active",
+    "location": {
+      "city": "Alameda",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.60903,
+        "lng": -121.89914
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "wild clay rules",
+      "wood ash rules"
+    ],
+    "description": "EBRPD Ordinance 38 (revised September 2023) Section 805 says no person shall damage, injure, collect or remove earth, rocks, sand, gravel, fossils, minerals or similar geological items on District parklands; Section 804 likewise bars collecting or removing plants including dead wood.",
+    "details": "So digging wild clay or collecting wood for ash in EBRPD parks appears prohibited as written; no exception was found in the text read. Contact the District for any permit. Address as stated on source: East Bay Regional Park District parklands (Alameda and Contra Costa counties)",
+    "website": "https://www.ebparks.org/sites/default/files/Ord38-09052023FINAL.pdf",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "alameda",
+      "materials"
+    ],
+    "category": "materials",
+    "categories": [
+      "materials"
+    ],
+    "source": "https://www.ebparks.org/sites/default/files/Ord38-09052023FINAL.pdf",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-california-state-parks-regulation-14-ccr-4307-geological-fea",
+    "name": "California State Parks regulation 14 CCR 4307 - Geological Features (and 4301(v) rockhounding)",
+    "type": "materials",
+    "status": "active",
+    "location": {
+      "city": "Daly City",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.69048,
+        "lng": -122.47267
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "wild clay rules",
+      "legal access"
+    ],
+    "description": "Section 4307 prohibits damaging, disturbing or taking away earth, sand, gravel, minerals, rocks and fossils in state parks, with subsection (b) saying 'Rockhounding may be permitted' as defined in Section 4301(v).",
+    "details": "Section 4301(v) (https://www.law.cornell.edu/regulations/california/14-CCR-4301) defines rockhounding as recreational gathering of naturally occurring stones and minerals; the pages read do not state where it is permitted, so check with the specific park unit. Does not by itself say clay is allowed. Address as stated on source: California State Park system units (e.g. Thornton State Beach, Daly City)",
+    "website": "https://www.law.cornell.edu/regulations/california/14-CCR-4307",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "daly-city",
+      "materials"
+    ],
+    "category": "materials",
+    "categories": [
+      "materials"
+    ],
+    "source": "https://www.law.cornell.edu/regulations/california/14-CCR-4307",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-ggnra-2025-superintendent-s-compendium-collecting-rules",
+    "name": "GGNRA 2025 Superintendent's Compendium (collecting rules)",
+    "type": "materials",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.78794,
+        "lng": -122.40752
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "wild clay rules",
+      "permits"
+    ],
+    "description": "Compendium (edition dated Dec 30, 2025 per nps.gov GGNRA page) says specimen collection of 'plants, fish, wildlife, rocks or minerals' requires a superintendent permit via the Special Park Uses office; hand-gathering allowed only for certain fruit and unoccupied seashells; no firewood gathering; Muir Woods no collecting.",
+    "details": "Clay, sand or driftwood are not specifically addressed in the portions read. Contact the park before collecting. Address as stated on source: Golden Gate National Recreation Area, San Francisco / Marin / San Mateo",
+    "website": "https://www.nps.gov/goga/learn/management/superintendents-compendium.htm",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "materials"
+    ],
+    "category": "materials",
+    "categories": [
+      "materials"
+    ],
+    "source": "https://www.nps.gov/goga/learn/management/superintendents-compendium.htm",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-sonoma-community-center-ceramics-residency-open-studio-works",
+    "name": "Sonoma Community Center Ceramics (residency, open studio, workshops)",
+    "type": "residency",
+    "status": "active",
+    "location": {
+      "city": "Sonoma",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 38.29172,
+        "lng": -122.45269
+      }
+    },
+    "focusAreas": [
+      "residency",
+      "studio assistant duties",
+      "teaching"
+    ],
+    "deadline": "2027 sessions (Jan-Jun 2027, Jul-Dec 2027): applications were due June 15, 2026 (closed). Next cycle (2028) dates not yet posted.",
+    "cost": {
+      "tuition": "Clay at cost; housing, utilities, glazing and firing free"
+    },
+    "funding": {
+      "available": true,
+      "stipend": "$750 per month"
+    },
+    "description": "Six-month paid ceramics residency with private on-site housing, 24/7 semi-private studio, free glazing and firing, and a solo show in Gallery 212. Residents work about 20 hours/week on studio tasks plus paid teaching opportunities.",
+    "details": "Two sessions per year (Jan-Jun and Jul-Dec). Application needs letter of intent, bio, statement, CV, two references, image portfolio. Contact Meg Billingham, Ceramics Director, (707) 938-4626 ext. 822. The page headline says 10-month but the schedule says six months. Also runs a ceramics open-studio program (https://sonomacommunitycenter.org/ceramics/ceramics-open-studio-program/) and workshops. Soda Club joining requires the Intro to Mid-Range Soda Firing workshop or director pre-approval (from search snippet). Phone (707) 938-4626. Years inferred from weekdays (Nov 14 and 21 are Saturdays in 2026). Workshop dates: Paper Clay Abstraction workshop Sat Nov 14, 2026, 12-4pm; November Soda Club Firing Sat Nov 21, 2026, 10am-6pm",
+    "eligibility": "Ceramic artists living in the United States",
+    "website": "https://sonomacommunitycenter.org/ceramics/",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "sonoma",
+      "residency",
+      "mentorship",
+      "studio",
+      "class",
+      "community"
+    ],
+    "category": "residency",
+    "categories": [
+      "residency",
+      "mentorship",
+      "studio",
+      "class",
+      "community"
+    ],
+    "source": "https://sonomacommunitycenter.org/ceramics/ceramics-residency",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-hickory-clay",
+    "name": "Hickory Clay",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.76551,
+        "lng": -122.41346
+      }
+    },
+    "focusAreas": [
+      "wheel",
+      "handbuilding",
+      "glaze",
+      "wild clay"
+    ],
+    "cost": {
+      "tuition": "$185-$250/month"
+    },
+    "description": "Mission District pottery studio with open-studio membership, multi-week classes, and glaze/ceramics workshops.",
+    "details": "Standard membership $185/month (billed every two months at $370); 24-hour key access upgrade $250/month. Includes locker, damp room, open studio, no extra firing fees; clay bought at studio. Eligibility via 8-week Intro Wheel or Handbuilding. Workshops page (https://hickoryclay.com/workshops): Glaze Design & Mixing six-week $450; Gold Luster $125; Wild Clay named as part of glaze series (no date/price). Also a glaze shop and tool shop: Mission District ceramics studio whose site lists a Glaze Shop selling the studio's handmade glazes and a Tool Shop for pottery tools (browse in studio or order online for pickup). Page does not mention selling clay. Studio tours 1st and 3rd Saturdays at 1pm or by appointment; contact kaitlyn@hickoryclay.com.",
+    "website": "https://hickoryclay.com",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "studio",
+      "class",
+      "supplier"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "class",
+      "supplier"
+    ],
+    "source": "https://hickoryclay.com/membership",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-laney-college-ceramics-wood-firing-workshop",
+    "name": "Laney College Ceramics (Wood Firing Workshop)",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "Oakland",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.79425,
+        "lng": -122.26079
+      }
+    },
+    "focusAreas": [
+      "wood firing",
+      "wheel",
+      "handbuilding",
+      "glaze"
+    ],
+    "deadline": "February 4 - April 22, 2027",
+    "cost": {
+      "tuition": "$765 public / $66 student"
+    },
+    "description": "Laney College Art Studio/Ceramics runs a 12-week wood-firing course for intermediate potters who load and fire a train kiln.",
+    "details": "Thursdays 10am-4pm, Sept 3-Nov 19; $66 student rate, $765 public rate; covers 12 six-hour sessions, glaze materials, firings. Instructor Ian Bassett; organizer Mary Catherine Bassett (Art Dept Chair). Sales ended. | Thursdays 10am-4pm; registration via Eventbrite. Phone (510) 464-3540.",
+    "website": "https://www.eventbrite.com/e/wood-firing-workshop-tickets-1987875889297",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "oakland",
+      "class",
+      "mentorship"
+    ],
+    "category": "class",
+    "categories": [
+      "class",
+      "mentorship"
+    ],
+    "source": "https://www.eventbrite.com/e/wood-firing-workshop-tickets-1987875889297",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-berkeley-art-studio-uc-berkeley",
+    "name": "Berkeley Art Studio (UC Berkeley)",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "Berkeley",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.86924,
+        "lng": -122.2597
+      }
+    },
+    "focusAreas": [
+      "wheel",
+      "handbuilding",
+      "glaze"
+    ],
+    "deadline": "Beginning Pottery (Fri) Oct 23-Dec 11, 2026",
+    "description": "UC Berkeley's public art studio with weekly ceramics classes (all levels, typically 6-9 weeks) open to the community; a second site (Berkeley Art Studio West) is at 1950 Oxford St, Anchor House Rm 230.",
+    "details": "Open ceramics studio access comes with registration in a 6-9 week class (not with workshops). Firings and glazes included in tuition; clay bought at studio ($15-35 per 25 lb bag per registration page). Beginning Pottery (Friday) runs Oct 23-Dec 11, 2026; price shown at registration (community rate). | Glaze/materials: Offers an intermediate 'Ceramics Focus: Glaze Explorations' class (Mondays, Oct 26-Dec 7, 2026) covering glaze composition, application methods and surface treatments; community members can register. Class page says clay is bought at the studio for $15-$35 per 25 lb bag depending on clay body; tool kits $10-$30. Class fee shown only at registration. Studio homepage also lists Berkeley Art Studio West, Anchor House Room 230, 1950 Oxford St, Berkeley, CA 94704. 2495 Bancroft Way, MLK Jr. Building (ASUC Student Union), Berkeley, CA 94720",
+    "website": "https://artstudio.berkeley.edu/ceramics",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "berkeley",
+      "class",
+      "materials",
+      "supplier"
+    ],
+    "category": "class",
+    "categories": [
+      "class",
+      "materials",
+      "supplier"
+    ],
+    "source": "https://artstudio.berkeley.edu/ceramics",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-palo-alto-art-center",
+    "name": "Palo Alto Art Center",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "Palo Alto",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.44397,
+        "lng": -122.139
+      }
+    },
+    "focusAreas": [
+      "wheel",
+      "handbuilding"
+    ],
+    "deadline": "Saturday Dec 5, 2026, 10am-4pm",
+    "description": "City art center with adult studio classes including ceramics, registering four times a year; Palo Alto residents get priority.",
+    "details": "Registration 2026: Fall opened Aug 20 (residents) / Aug 27 (all). Prices not on page. Street address 1313 Newell Rd taken from Mountain View Voice roundup (mv-voice.com 2024), since the city page lists only City Hall. | Studio Holiday Sale: Annual sale of handmade work by artists working in the Art Center studios, including the Adult Ceramics Studios. Proceeds benefit the artists, studios and the Art Center Foundation. Contact artcenter@paloalto.gov, (650) 329-2366. Same venue hosts the ACGA Clay & Glass Festival each July.",
+    "website": "https://www.paloalto.gov/Departments/Community-Services/Arts-Sciences/Palo-Alto-Art-Center/Make-Art/Adults",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "palo-alto",
+      "class",
+      "community"
+    ],
+    "category": "class",
+    "categories": [
+      "class",
+      "community"
+    ],
+    "source": "https://www.paloalto.gov/Departments/Community-Services/Arts-Sciences/Palo-Alto-Art-Center/Make-Art/Adults",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-acga-clay-glass-festival-association-of-clay-and-glass-artis",
+    "name": "ACGA Clay & Glass Festival (Association of Clay and Glass Artists of California)",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "Palo Alto",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.44397,
+        "lng": -122.139
+      }
+    },
+    "focusAreas": [
+      "guild",
+      "annual festival",
+      "ceramics"
+    ],
+    "deadline": "2026 edition: Sat-Sun Jul 11-12, 2026, 10am-5pm (past). Next date not announced.",
+    "cost": {
+      "tuition": "Free"
+    },
+    "description": "Annual free festival of 140+ juried California clay and glass artists with original works for sale, run by ACGA (statewide clay and glass association; origins 1945 as the Association of San Francisco Potters per a search snippet).",
+    "details": "2026 edition already held; next edition date not stated on the fetched pages (historically mid-July). ACGA also collaborated on the Silica/SiO2 show in Santa Cruz. acga.net itself returned truncated content so membership info is unverified.",
+    "website": "https://www.acga.net",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "palo-alto",
+      "community"
+    ],
+    "category": "community",
+    "categories": [
+      "community"
+    ],
+    "source": "https://www.paloalto.gov/Events-Directory/Community-Services/2026-Clay-and-Glass-Festival",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-clayroom-sf-oakland-san-mateo",
+    "name": "Clayroom (SF, Oakland, San Mateo)",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "Oakland",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.83192,
+        "lng": -122.2538
+      }
+    },
+    "focusAreas": [
+      "raku",
+      "obvara",
+      "workshops",
+      "firing"
+    ],
+    "deadline": "Raku Nov 29, 2026; Obvara Nov 1 and Dec 6, 2026 (first Sundays); Nov 7-8, 2026 workshop",
+    "description": "Community clay studios in SF, Oakland and San Mateo that run guest-artist workshops plus recurring monthly raku and obvara firings at the Oakland Temescal studio.",
+    "details": "Raku firing last Sunday of each month 10am-4pm (next: Nov 29, 2026); Obvara firing first Sunday monthly 12-4pm (next: Nov 1, 2026), weather permitting. Workshop: Transforming the Cube with Bill Abright, Sat-Sun Nov 7-8, 10:30am-2:30pm, 3050 S Delaware St Ste 100, San Mateo. Other studios: 375 9th St SF; 1431 17th St SF; 1723 Peralta St Oakland. Year of dated workshops inferred from weekdays. Studios named on site: SoMa and Potrero Hill (SF), San Mateo, Oakland Temescal, West Oakland. Offers 6-week classes, one-time classes, workshops and independent-member studio memberships (prices not on page).",
+    "website": "https://www.clayroomsf.com/workshop",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "oakland",
+      "studio",
+      "class",
+      "community"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "class",
+      "community"
+    ],
+    "source": "https://www.clayroomsf.com/workshop",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-berkeley-potters-guild",
+    "name": "Berkeley Potters Guild",
+    "type": "community",
+    "status": "active",
+    "location": {
+      "city": "Berkeley",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.87514,
+        "lng": -122.30181
+      }
+    },
+    "focusAreas": [
+      "guild",
+      "gallery",
+      "open studios"
+    ],
+    "description": "Berkeley guild of working potters with a members-run gallery open Saturdays 11am-5pm and seasonal sales.",
+    "details": "Events listed for 2026: Spring Seconds Sale May 2-3 and 9-10; East Bay Open Studios June 6-7 and 13-14; National Open Studios July 18-19. Guild artists include Kristin Landowski and Piper Christine. Membership, classes and work-trade details are not on the events page; contact info@berkeleypotters.com, 510-524-7031.",
+    "website": "https://berkeleypotters.com/",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "berkeley",
+      "community",
+      "gallery",
+      "artist"
+    ],
+    "category": "community",
+    "categories": [
+      "community",
+      "gallery",
+      "artist"
+    ],
+    "source": "https://berkeleypotters.com/current-upcoming-events",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-wheelhouse-clay-studio",
+    "name": "Wheelhouse Clay Studio",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.78553,
+        "lng": -122.43671
+      }
+    },
+    "focusAreas": [
+      "wheel",
+      "handbuilding",
+      "pinch",
+      "coil",
+      "slab"
+    ],
+    "deadline": "Winter 1 session Nov 2 - Dec 20, 2026",
+    "cost": {
+      "tuition": "6-week classes from $425"
+    },
+    "description": "San Francisco ceramics school with 6-week wheel and handbuilding courses and an open-studio membership for graduates.",
+    "details": "Membership requires completing a 6-week Wheelhouse course plus an instructor referral; no drop-in or temporary memberships; no firing service. 6-week classes ages 15+ from $425 (Intro wheel, Pinch & Coil, Slabs: Kitchenware, Wheel Cont'n, Throwing Big(ger) $445). One-time Clay Play classes $98. Sessions: current Sept 14-Oct 30, 2026; Winter 1 Nov 2-Dec 20, 2026.",
+    "website": "https://www.wheelhouseclaysf.com/",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "studio",
+      "class"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "class"
+    ],
+    "source": "https://www.wheelhouseclaysf.com/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-marin-pottery",
+    "name": "Marin Pottery",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "Novato",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 38.1079,
+        "lng": -122.57253
+      }
+    },
+    "focusAreas": [
+      "wheel",
+      "handbuilding"
+    ],
+    "cost": {
+      "tuition": "Membership $90-$170 (billing period not stated)"
+    },
+    "description": "Community pottery studio in Novato with tiered memberships, adult and kids classes, and drop-in sessions.",
+    "details": "Memberships: Bronze $90, Silver $130 (adds storage shelf), Gold $170 (adds cubby and one free workshop per month); wheels, slab roller, glazes, shared tools and firing included; spots limited per tier. Drop-in Thursdays 5:30-8:30pm and Saturdays 10am-1pm. Page footer says 2020-2025 but links a 2026 summer camp page.",
+    "website": "https://www.marinpottery.org/",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "novato",
+      "studio",
+      "class"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "class"
+    ],
+    "source": "https://www.marinpottery.org/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-the-clay-life",
+    "name": "The Clay Life",
+    "type": "studio",
+    "status": "active",
+    "location": {
+      "city": "San Mateo",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.55127,
+        "lng": -122.30195
+      }
+    },
+    "focusAreas": [
+      "wheel",
+      "handbuilding",
+      "sculpture"
+    ],
+    "description": "Membership-based teaching studio in San Mateo with intro classes in wheel throwing, hand-building and sculpture.",
+    "details": "Member open-studio hours and levels are on the site; prices not on the page. Session 6 of 2026 open for booking; 2026 summer clay camp; private lessons.",
+    "website": "https://theclaylife.com/",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-mateo",
+      "studio",
+      "class"
+    ],
+    "category": "studio",
+    "categories": [
+      "studio",
+      "class"
+    ],
+    "source": "https://theclaylife.com/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-richmond-art-center",
+    "name": "Richmond Art Center",
+    "type": "workshop",
+    "status": "active",
+    "location": {
+      "city": "Richmond",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.93797,
+        "lng": -122.34449
+      }
+    },
+    "focusAreas": [
+      "classes",
+      "exhibitions"
+    ],
+    "description": "Community art center with adult art classes and several gallery exhibitions; ceramics is among its class areas.",
+    "details": "Homepage lists current exhibitions (\"One Artist Contributes, Then Another, Then Another\", \"Ninety@Ninety\", \"First Impressions\") and says winter semester enrollment opens soon. The ceramics class catalog was not itemized on the page fetched. A teaching-artist (ceramics) job posting at $35/hr is dated Jan 2025 and may be stale. Phone 510-620-6772.",
+    "website": "https://richmondartcenter.org/",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "richmond",
+      "class",
+      "gallery"
+    ],
+    "category": "class",
+    "categories": [
+      "class",
+      "gallery"
+    ],
+    "source": "https://richmondartcenter.org/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-museum-of-craft-and-design",
+    "name": "Museum of Craft and Design",
+    "type": "gallery",
+    "status": "active",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.75704,
+        "lng": -122.388
+      }
+    },
+    "focusAreas": [
+      "craft",
+      "exhibition"
+    ],
+    "deadline": "Sept 5, 2026 - Jan 17, 2027",
+    "description": "San Francisco craft and design museum in Dogpatch; showing OBJECTS: USA, a new iteration of the 1969 American craft exhibition.",
+    "details": "Not confirmed as ceramics-specific; ceramics content not stated on the page fetched. Phone 415-773-0303. 2569 Third Street, San Francisco, CA 94107",
+    "website": "https://sfmcd.org/",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "san-francisco",
+      "gallery"
+    ],
+    "category": "gallery",
+    "categories": [
+      "gallery"
+    ],
+    "source": "https://sfmcd.org/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sfbay-silica-sio2-northern-california-ceramics-santa-cruz-museum-o",
+    "name": "Silica / SiO2: Northern California Ceramics (Santa Cruz Museum of Art & History)",
+    "type": "gallery",
+    "status": "active",
+    "location": {
+      "city": "Santa Cruz",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 36.97448,
+        "lng": -122.02537
+      }
+    },
+    "focusAreas": [
+      "ceramics",
+      "exhibition"
+    ],
+    "deadline": "Sept 4, 2026 - Jan 3, 2027; panel Nov 8, 2026",
+    "description": "Exhibition of Northern California ceramics with invited Bay Area artists plus open-call selections, presented with the Association of Clay & Glass Artists of California.",
+    "details": "Artist panel discussion Sunday Nov 8, 2026. Part of Handwork 2026. Santa Cruz is south of the core Bay Area.",
+    "website": "https://www.handwork2026.org/event/silica-sio2-northern-california-ceramics/",
+    "tags": [
+      "sf-bay",
+      "bay-area",
+      "santa-cruz",
+      "gallery",
+      "community"
+    ],
+    "category": "gallery",
+    "categories": [
+      "gallery",
+      "community"
+    ],
+    "source": "https://www.handwork2026.org/event/silica-sio2-northern-california-ceramics/",
+    "lastVerified": "2026-10-27"
+  }
+]

@@ -44,6 +44,12 @@ export const TYPE_HEX: Record<string, string> = {
   mentorship: "#f43f5e",
   workshop: "#f97316",
   internship: "#06b6d4",
+  studio: "#14b8a6",
+  artist: "#d946ef",
+  gallery: "#8b5cf6",
+  supplier: "#84cc16",
+  materials: "#ca8a04",
+  community: "#0ea5e9",
 };
 
 export function typeHex(type: string): string {
