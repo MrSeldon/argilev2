@@ -39,7 +39,14 @@
   "discipline": "ceramics",
   "source": "https://www.clayroomsoma.com",
   "lastVerified": "2026-10-28",
-  "address": "375 9th St, San Francisco, CA 94103"
+  "address": "375 9th St, San Francisco, CA 94103",
+  "image": {
+   "src": "/images/opportunities/sfst-clayroom-soma.webp",
+   "alt": "Shelf of vases and bottles by Clayroom SoMa members",
+   "credit": "Image: Clayroom SoMa",
+   "creditUrl": "https://www.clayroomsoma.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfst-clayroom-potrero",
@@ -80,7 +87,14 @@
   "discipline": "ceramics",
   "source": "https://www.clayroomsf.com",
   "lastVerified": "2026-10-28",
-  "address": "1431 17th St, San Francisco, CA"
+  "address": "1431 17th St, San Francisco, CA",
+  "image": {
+   "src": "/images/opportunities/sfst-clayroom-potrero.webp",
+   "alt": "Potter throwing at the wheel by the studio shelves at Clayroom Potrero",
+   "credit": "Image: Clayroom Potrero",
+   "creditUrl": "https://www.clayroomsf.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfst-the-pottery-studio-sf",
@@ -122,7 +136,14 @@
   "discipline": "ceramics",
   "source": "https://thepotterystudio.com/pages/san-francisco",
   "lastVerified": "2026-10-28",
-  "address": "2394 Folsom St, San Francisco, CA 94110"
+  "address": "2394 Folsom St, San Francisco, CA 94110",
+  "image": {
+   "src": "/images/opportunities/sfst-the-pottery-studio-sf.webp",
+   "alt": "The Pottery Studio's brick and timber hall with long work tables, San Francisco",
+   "credit": "Image: The Pottery Studio",
+   "creditUrl": "https://thepotterystudio.com/pages/san-francisco",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfst-artillery-ceramics",
@@ -170,6 +191,13 @@
   "address": "2751 Mission St, San Francisco, CA 94110",
   "cost": {
    "tuition": "about $200-$250/month"
+  },
+  "image": {
+   "src": "/images/opportunities/sfst-artillery-ceramics.webp",
+   "alt": "Hands throwing a pot on the wheel, from the Artillery site",
+   "credit": "Image: Artillery",
+   "creditUrl": "https://www.artillery-ag.com",
+   "license": "publisher image"
   }
  },
  {
@@ -214,6 +242,13 @@
   "address": "2111 Mission St, 3rd floor, San Francisco, CA 94110",
   "cost": {
    "tuition": "about $200/month"
+  },
+  "image": {
+   "src": "/images/opportunities/sfst-redbrick-ceramic-studio.webp",
+   "alt": "Two members glazing cups at RedBrick Ceramic Studio",
+   "credit": "Image: RedBrick Ceramic Studio",
+   "creditUrl": "https://redbrickceramic.com",
+   "license": "publisher image"
   }
  },
  {
@@ -255,7 +290,14 @@
   "discipline": "ceramics",
   "source": "https://www.sfclayworks.com",
   "lastVerified": "2026-10-28",
-  "address": "2240 Palou Ave, San Francisco, CA 94124"
+  "address": "2240 Palou Ave, San Francisco, CA 94124",
+  "image": {
+   "src": "/images/opportunities/sfst-sfclayworks.webp",
+   "alt": "A class gathered in the sfclayworks studio",
+   "credit": "Image: sfclayworks",
+   "creditUrl": "https://www.sfclayworks.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfst-smaart-sutter",
@@ -380,7 +422,14 @@
   "discipline": "ceramics",
   "source": "https://www.dustedandblue.com",
   "lastVerified": "2026-10-28",
-  "address": "1242 Mason St, San Francisco, CA"
+  "address": "1242 Mason St, San Francisco, CA",
+  "image": {
+   "src": "/images/opportunities/sfst-dusted-and-blue.webp",
+   "alt": "The Dusted and Blue studio with wheels and hanging plants",
+   "credit": "Image: Dusted and Blue",
+   "creditUrl": "https://www.dustedandblue.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfst-brick-and-mortar-studios",
@@ -420,7 +469,14 @@
   "discipline": "ceramics",
   "source": "https://www.brickandmortarstudios.com",
   "lastVerified": "2026-10-28",
-  "address": "5851 Geary Blvd, San Francisco, CA"
+  "address": "5851 Geary Blvd, San Francisco, CA",
+  "image": {
+   "src": "/images/opportunities/sfst-brick-and-mortar-studios.webp",
+   "alt": "Members working at the benches in Brick and Mortar Studios",
+   "credit": "Image: Brick and Mortar Studios",
+   "creditUrl": "https://www.brickandmortarstudios.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfst-stone-gold-polk",
@@ -460,7 +516,14 @@
   "discipline": "ceramics",
   "source": "https://www.stonegoldpottery.com",
   "lastVerified": "2026-10-28",
-  "address": "1920 Polk St, San Francisco, CA"
+  "address": "1920 Polk St, San Francisco, CA",
+  "image": {
+   "src": "/images/opportunities/sfst-stone-gold-polk.webp",
+   "alt": "Pottery wheels beneath a blue floral mural in a Stone Gold Pottery studio",
+   "credit": "Image: Stone Gold Pottery",
+   "creditUrl": "https://www.stonegoldpottery.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfst-stone-gold-fillmore",
@@ -500,7 +563,14 @@
   "discipline": "ceramics",
   "source": "https://www.stonegoldpottery.com",
   "lastVerified": "2026-10-28",
-  "address": "3027 Fillmore St, San Francisco, CA"
+  "address": "3027 Fillmore St, San Francisco, CA",
+  "image": {
+   "src": "/images/opportunities/sfst-stone-gold-fillmore.webp",
+   "alt": "Wheels and workbenches beneath a poppy mural in a Stone Gold Pottery studio",
+   "credit": "Image: Stone Gold Pottery",
+   "creditUrl": "https://www.stonegoldpottery.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfst-stone-gold-waller",
@@ -540,7 +610,14 @@
   "discipline": "ceramics",
   "source": "https://www.stonegoldpottery.com",
   "lastVerified": "2026-10-28",
-  "address": "518 Waller St, San Francisco, CA"
+  "address": "518 Waller St, San Francisco, CA",
+  "image": {
+   "src": "/images/opportunities/sfst-stone-gold-waller.webp",
+   "alt": "An instructor and students around a work table at Stone Gold Pottery",
+   "credit": "Image: Stone Gold Pottery",
+   "creditUrl": "https://www.stonegoldpottery.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfst-heath-ceramics-sf",
@@ -581,6 +658,13 @@
   "discipline": "ceramics",
   "source": "https://www.heathceramics.com/pages/locations/san-francisco",
   "lastVerified": "2026-10-28",
-  "address": "2900 18th St, San Francisco, CA 94110"
+  "address": "2900 18th St, San Francisco, CA 94110",
+  "image": {
+   "src": "/images/opportunities/sfst-heath-ceramics-sf.webp",
+   "alt": "Table setting with Heath Ceramics dinnerware",
+   "credit": "Image: Heath Ceramics",
+   "creditUrl": "https://www.heathceramics.com/pages/locations/san-francisco",
+   "license": "publisher image"
+  }
  }
 ]

@@ -87,7 +87,14 @@
       "community"
     ],
     "source": "https://viajaporcolombia.com/noticias/fiestas-patronales-2026-en-raquira-boyaca_10881/",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-raquira-concurso-torneros.webp",
+      "alt": "Terracotta statue of a farmer and ox in Raquira, Boyaca",
+      "credit": "Petruss / Wikimedia Commons",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:R%C3%A1quira_figura_barro.JPG",
+      "license": "CC BY-SA 3.0"
+    }
   },
   {
     "id": "co-raquira-taller-artesania",
@@ -221,7 +228,14 @@
       "materials"
     ],
     "source": "https://sedeelectronica.sic.gov.co/noticias/superindustria-declara-la-proteccion-de-la-denominacion-de-origen-ceramica-negra-de-la-chamba",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-la-chamba-ceramica-negra.webp",
+      "alt": "Set of black La Chamba ceramic cookware",
+      "credit": "Image: Infobae",
+      "creditUrl": "https://www.infobae.com/colombia/2023/02/02/buscan-rescatar-predio-en-tolima-donde-se-produce-la-arcilla-negra-para-la-elaboracion-de-ceramica/",
+      "license": "publisher image"
+    }
   },
   {
     "id": "co-la-chamba-arcilla-predio",
@@ -261,7 +275,14 @@
       "community"
     ],
     "source": "https://www.infobae.com/colombia/2023/02/02/buscan-rescatar-predio-en-tolima-donde-se-produce-la-arcilla-negra-para-la-elaboracion-de-ceramica/",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-la-chamba-arcilla-predio.webp",
+      "alt": "Producers holding black La Chamba clay pots",
+      "credit": "Image: Infobae",
+      "creditUrl": "https://www.infobae.com/colombia/2023/02/02/buscan-rescatar-predio-en-tolima-donde-se-produce-la-arcilla-negra-para-la-elaboracion-de-ceramica/",
+      "license": "publisher image"
+    }
   },
   {
     "id": "co-la-chamba-taller-escuela-manos-de-oro",
@@ -399,7 +420,14 @@
       "community"
     ],
     "source": "https://telemedellin.tv/?p=198066",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-carmen-de-viboral-fiesta-saberes-ceramicos.webp",
+      "alt": "Hand-painted ceramic tea set from El Carmen de Viboral",
+      "credit": "Image: Telemedellin",
+      "creditUrl": "https://telemedellin.tv/?p=198066",
+      "license": "publisher image"
+    }
   },
   {
     "id": "co-pitalito-ceramica-laboyana",
@@ -440,7 +468,14 @@
       "materials"
     ],
     "source": "https://ridum.umanizales.edu.co/bitstreams/07c946dc-002c-4fd6-be6a-55dbdbe9797b/download",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-pitalito-ceramica-laboyana.webp",
+      "alt": "Panoramic view of Pitalito and the Laboyos valley, Huila",
+      "credit": "Jhysus / Wikimedia Commons",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Vista_panor%C3%A1mica_de_Pitalito%2C_Huila%2C_Colombia.jpg",
+      "license": "CC BY-SA 4.0"
+    }
   },
   {
     "id": "co-pitalito-arcilla-yacimientos",
@@ -478,7 +513,14 @@
       "materials"
     ],
     "source": "https://ridum.umanizales.edu.co/bitstreams/07c946dc-002c-4fd6-be6a-55dbdbe9797b/download",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-pitalito-arcilla-yacimientos.webp",
+      "alt": "Green farmland of the Laboyos valley near Pitalito",
+      "credit": "Dhg94 / Wikimedia Commons",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:El_Valle_de_Laboyos%2C_Pitalito_-_Huila_-_Colombia.JPG",
+      "license": "CC BY-SA 4.0"
+    }
   },
   {
     "id": "co-pitalito-taller-chivas-arcilla",
@@ -518,7 +560,14 @@
       "community"
     ],
     "source": "https://www.civitatis.com/en/pitalito/clay-chiva-workshop/",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-pitalito-taller-chivas-arcilla.webp",
+      "alt": "A potter at the wheel in a Pitalito clay workshop",
+      "credit": "Image: Civitatis",
+      "creditUrl": "https://www.civitatis.com/en/pitalito/clay-chiva-workshop/",
+      "license": "publisher image"
+    }
   },
   {
     "id": "co-pitalito-coarpi",
@@ -555,7 +604,14 @@
       "community"
     ],
     "source": "https://www.civitatis.com/en/pitalito/clay-chiva-workshop/",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-pitalito-coarpi.webp",
+      "alt": "Visitors gathered around the potter's wheel in a Pitalito workshop",
+      "credit": "Image: Civitatis",
+      "creditUrl": "https://www.civitatis.com/en/pitalito/clay-chiva-workshop/",
+      "license": "publisher image"
+    }
   },
   {
     "id": "co-feria-nacional-artesanal-pitalito",
@@ -591,7 +647,14 @@
       "festival"
     ],
     "source": "https://radionacional.co/cultura/ferias-y-fiestas/feria-nacional-artesanal-en-pitalito-huila",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-feria-nacional-artesanal-pitalito.webp",
+      "alt": "A craftsman at his stand of miniature clay pieces at a Colombian craft fair",
+      "credit": "Image: Radio Nacional de Colombia",
+      "creditUrl": "https://radionacional.co/cultura/ferias-y-fiestas/feria-nacional-artesanal-en-pitalito-huila",
+      "license": "publisher image"
+    }
   },
   {
     "id": "co-barichara-taller-guane",
@@ -631,7 +694,14 @@
       "community"
     ],
     "source": "https://www.civitatis.com/es/barichara/taller-artesania-barichara/",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-barichara-taller-guane.webp",
+      "alt": "Clay tile decorated with a cat silhouette in a Barichara workshop",
+      "credit": "Image: Civitatis",
+      "creditUrl": "https://www.civitatis.com/es/barichara/taller-artesania-barichara/",
+      "license": "publisher image"
+    }
   },
   {
     "id": "co-mompox-casa-taller-el-boga",
@@ -670,7 +740,14 @@
       "community"
     ],
     "source": "https://www.transartists.org/en/air/casa-taller-el-boga-mompox",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-mompox-casa-taller-el-boga.webp",
+      "alt": "Clay pot with modelled frog handles at Casa Taller El Boga",
+      "credit": "Image: Casa Taller El Boga",
+      "creditUrl": "https://www.elbogamompox.com/",
+      "license": "publisher image"
+    }
   },
   {
     "id": "co-mompox-rosario-summer-2026-ceramica",
@@ -711,7 +788,14 @@
       "school"
     ],
     "source": "https://urosario.edu.co/sites/default/files/2026-04/cronograma-mompox-summer-2026.pdf",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-mompox-rosario-summer-2026-ceramica.webp",
+      "alt": "Santa Barbara church in Santa Cruz de Mompox",
+      "credit": "O--o / Wikimedia Commons",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Mompox_-_Chiesa_di_Santa_Barbara.jpg",
+      "license": "CC BY 3.0"
+    }
   },
   {
     "id": "co-artesumapaz",
@@ -747,7 +831,14 @@
       "residency"
     ],
     "source": "https://rivet.es/calls/view/copy-of-art-residency-may-2026-colombia",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-artesumapaz.webp",
+      "alt": "Participants gathered around a long worktable at ArteSumapaz",
+      "credit": "Image: ArteSumapaz",
+      "creditUrl": "https://rivet.es/calls/view/copy-of-art-residency-may-2026-colombia",
+      "license": "publisher image"
+    }
   },
   {
     "id": "co-los-santos-ceramica-por-el-agua",
@@ -937,7 +1028,14 @@
       "mentorship"
     ],
     "source": "https://artesaniasdecolombia.com.co/PortalAC/Contenido/ListaTag.jsf?tag=+Magma+cer%C3%A1mica",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-bogota-magma-ceramica.webp",
+      "alt": "Hands centring clay on the wheel, from Revista Diners",
+      "credit": "Image: Revista Diners",
+      "creditUrl": "https://revistadiners.com.co/tendencias/ceramica-en-bogota/",
+      "license": "publisher image"
+    }
   },
   {
     "id": "co-bogota-primitivo-studio-pottery",
@@ -1020,7 +1118,14 @@
       "workshop"
     ],
     "source": "https://ceramyst.co",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-bogota-ceramyst.webp",
+      "alt": "Potter throwing outdoors at Ceramyst in Bogota",
+      "credit": "Image: Ceramyst",
+      "creditUrl": "https://ceramyst.co",
+      "license": "publisher image"
+    }
   },
   {
     "id": "co-bogota-sirena-azuleja",
@@ -1060,7 +1165,14 @@
       "workshop"
     ],
     "source": "https://sirenaazulejaceramica.mitiendanube.com",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-bogota-sirena-azuleja.webp",
+      "alt": "Hand holding a glazed tea bowl by Sirena Azuleja",
+      "credit": "Image: Sirena Azuleja Ceramica",
+      "creditUrl": "https://sirenaazulejaceramica.mitiendanube.com",
+      "license": "publisher image"
+    }
   },
   {
     "id": "co-bogota-unal-educacion-continuada-ceramica",
@@ -1100,7 +1212,14 @@
       "workshop"
     ],
     "source": "https://www.aprendemas.com/co/curso/ceramica-mirando-hacia-adentro-legado-de-las-culturas-precolombinas-1003136/",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-bogota-unal-educacion-continuada-ceramica.webp",
+      "alt": "Building on the Universidad Nacional de Colombia campus, Bogota",
+      "credit": "Rubashkyn / Wikimedia Commons",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:National_University_of_Colombia%2C_building_of_the_chemistry_department.jpg",
+      "license": "GFDL"
+    }
   },
   {
     "id": "co-bogota-rosario-ceramica",
@@ -1179,7 +1298,14 @@
       "school"
     ],
     "source": "https://artehum.uniandes.edu.co/wp-content/uploads/2026/07/5_Arte_O_Ceramica.pdf",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-bogota-uniandes-opcion-ceramica.webp",
+      "alt": "Building at the Universidad de los Andes in Bogota",
+      "credit": "Leandro Neumann Ciuffo / Wikimedia Commons",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Universidad_de_los_Andes_%283326108271%29.jpg",
+      "license": "CC BY 2.0"
+    }
   },
   {
     "id": "co-bogota-udistrital-asab-ceramica",
@@ -1257,7 +1383,14 @@
       "workshop"
     ],
     "source": "https://bogota.gov.co/mi-ciudad/cultura-recreacion-y-deporte/planes-gratis-bogota-exposicion-arqueologia-de-la-infancia-junio-15",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-bogota-musa-casa-marques-san-jorge.webp",
+      "alt": "A woman shaping a pot on the wheel in a Bogota ceramics workshop",
+      "credit": "Image: Civitatis",
+      "creditUrl": "https://www.civitatis.com/en/bogota/casa-marques-san-jorge-ceramics-workshop",
+      "license": "publisher image"
+    }
   },
   {
     "id": "co-expoartesanias-2026",
@@ -1293,7 +1426,14 @@
       "festival"
     ],
     "source": "https://www.expoartesanias.com",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-expoartesanias-2026.webp",
+      "alt": "The Corferias fairgrounds in Bogota, venue of Expoartesanias",
+      "credit": "Rainercol / Wikimedia Commons",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:High_view_of_corferias.jpg",
+      "license": "CC BY-SA 3.0"
+    }
   },
   {
     "id": "co-medellin-expoartesano-2026",
@@ -1376,7 +1516,14 @@
       "workshop"
     ],
     "source": "https://www.dosgolondrinasestudio.com/contact",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-envigado-dos-golondrinas.webp",
+      "alt": "Three glazed vases with dried flowers by Dos Golondrinas",
+      "credit": "Image: Dos Golondrinas Estudio",
+      "creditUrl": "https://www.dosgolondrinasestudio.com/",
+      "license": "publisher image"
+    }
   },
   {
     "id": "co-villa-de-leyva-casa-terracota",
@@ -1414,6 +1561,13 @@
       "community"
     ],
     "source": "https://www.casaterracota.com",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-villa-de-leyva-casa-terracota.webp",
+      "alt": "Casa Terracota, the clay house in Villa de Leyva",
+      "credit": "Image: Casa Terracota",
+      "creditUrl": "https://www.casaterracota.com",
+      "license": "publisher image"
+    }
   }
 ]
