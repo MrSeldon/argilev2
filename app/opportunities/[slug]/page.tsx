@@ -52,7 +52,7 @@ export default async function OpportunityPage({ params }: { params: Promise<{ sl
   // Short facts go in the band up top; long prose answers move to the side column.
   const short = (x?: Fact) => !!x && x.value.length <= 48;
   const keyFacts = [f.when, f.deadline, f.cost, f.apply].filter(short) as Fact[];
-  const moreFacts = [f.apply && !short(f.apply) ? f.apply : undefined, f.when && !short(f.when) ? f.when : undefined, f.cost && !short(f.cost) ? f.cost : undefined, f.deadline && !short(f.deadline) ? f.deadline : undefined, f.funding, f.housing, f.level, f.eligibility].filter(Boolean) as Fact[];
+  const moreFacts = [f.apply && !short(f.apply) ? f.apply : undefined, f.when && !short(f.when) ? f.when : undefined, f.cost && !short(f.cost) ? f.cost : undefined, f.deadline && !short(f.deadline) ? f.deadline : undefined, f.funding, f.visa, f.housing, f.level, f.eligibility].filter(Boolean) as Fact[];
   const facilities = (o.facilities || []).filter((x) => typeof x === "string" && x.trim());
   const focus = (o.focusAreas || []).filter(Boolean);
 

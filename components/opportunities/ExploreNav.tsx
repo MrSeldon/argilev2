@@ -1,12 +1,13 @@
 import { SubNav, Switch } from "@/components/site/PageHeader";
 
 /** Explore = Opportunities + Inspiration. */
-export function ExploreNav({ active }: { active: "/opportunities" | "/inspirations" }) {
+export function ExploreNav({ active }: { active: "/opportunities" | "/inspirations" | "/highlights" }) {
   return (
     <SubNav
       label="Explore"
       active={active}
       items={[
+        { href: "/highlights", label: "Highlights" },
         { href: "/opportunities/map", label: "Opportunities" },
         { href: "/inspirations", label: "Inspiration" },
       ]}

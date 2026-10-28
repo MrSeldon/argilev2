@@ -1,0 +1,136 @@
+{
+  "about": "Hand-picked finds for Winnie, rotated a few at a time on the home page and listed in full at /highlights. Dated ones disappear after `until`. `tag` is the small label; `line` says why it's worth her time. Curated 2026-10-28.",
+  "items": [
+    {
+      "id": "baycer-root-division",
+      "tag": "Deadline Nov 1",
+      "until": "2026-11-01",
+      "line": "Root Division's Studio Artist programme: a subsidised studio in exchange for teaching. Applications close November 1."
+    },
+    {
+      "id": "baymk-tac-textile-bazaar",
+      "tag": "Sat Nov 7",
+      "until": "2026-11-07",
+      "line": "The Textile Arts Council's bazaar at St Mary's: world and vintage textiles, and a room full of Bay Area weavers to meet."
+    },
+    {
+      "id": "baycer-merritt-ceramics",
+      "tag": "MerrittFest Nov 7",
+      "until": "2026-11-07",
+      "line": "Oakland studio with classes, a residency and outside firing. MerrittFest on November 7 is an easy way in."
+    },
+    {
+      "id": "baymk-lacis-museum",
+      "tag": "Free tours",
+      "line": "A whole museum of lace and textiles in Berkeley, free to visit, with small classes attached (beaded cabochons on November 14)."
+    },
+    {
+      "id": "baymk-sf-center-for-the-book",
+      "tag": "New classes Nov 14",
+      "until": "2026-12-20",
+      "line": "Letterpress and bookbinding in the Mission. The spring workshop schedule goes up November 14; the Betsy Davids show runs to December 20."
+    },
+    {
+      "id": "baymk-crucible-gifty",
+      "tag": "Dec 5-6",
+      "until": "2026-12-06",
+      "line": "The Crucible's holiday craft fair in Oakland: glass, metal, wood and clay, made by the people who teach there."
+    },
+    {
+      "id": "baymk-root-division-artist-fair",
+      "tag": "Sat Dec 12",
+      "until": "2026-12-12",
+      "line": "A free artist fair in the Mission, a good afternoon to see who's making what in the city."
+    },
+    {
+      "id": "fund-winterthur-maker-creator",
+      "tag": "Due Jan 15",
+      "until": "2027-01-15",
+      "line": "US$3,000 a month for four to six weeks with one of the great decorative-arts collections. The portal opens November 1; drafts reviewed until December 1."
+    },
+    {
+      "id": "fund-mino-international-ceramics-competition",
+      "tag": "Due Jan 29",
+      "until": "2027-01-29",
+      "line": "Free to enter, judged from photos, open to everyone. The Grand Prix is five million yen."
+    },
+    {
+      "id": "baycer-ceramic-art-center-of-marin-cacm",
+      "tag": "Residency due Jan 30",
+      "until": "2027-01-30",
+      "line": "A cone 10 studio for experienced potters in San Anselmo. Their 2027 residency is free; applications close January 30."
+    },
+    {
+      "id": "baycer-de-young-museum-rose-b-simpson-lexicon",
+      "tag": "Until Feb 7",
+      "until": "2027-02-07",
+      "line": "Rose B. Simpson's figures fill Wilsey Court at the de Young: clay at its most monumental, included with admission."
+    },
+    {
+      "id": "baycer-sfmoma-go-your-own-way-northern-california-craft-1945-80",
+      "tag": "Opens Feb 13",
+      "until": "2027-11-14",
+      "line": "SFMOMA's survey of Northern California craft, 1945 to 1980: the studio-pottery world she's moving into, and where it came from."
+    },
+    {
+      "id": "sfst-clayroom-soma",
+      "tag": "They asked you",
+      "line": "Clayroom invited you to teach here. Their SoMa studio is on 9th Street; résumés go to jobs@clayroomsf.com."
+    },
+    {
+      "id": "sfst-the-pottery-studio-sf",
+      "tag": "Your favourite",
+      "line": "Cone 10, 24-hour member access, high ceilings, on Folsom at 20th. Visiting hours Tuesday, Thursday and Saturday afternoons."
+    },
+    {
+      "id": "baymk-verb-for-keeping-warm",
+      "tag": "Natural dye",
+      "line": "Naturally dyed yarn and fabric, mending and dye supplies, and classes, in Oakland. Open to shop on Fridays and Saturdays."
+    },
+    {
+      "id": "baycer-mt-vision-ceramics-studio-jess-taylor",
+      "tag": "A kindred studio",
+      "line": "Jess Taylor makes glazes from local granite above Inverness and publishes every test: the closest thing in the Bay to your own way of working."
+    },
+    {
+      "id": "baycer-douglas-and-sturgess-san-francisco",
+      "tag": "For your shelf",
+      "line": "Clay, raw glaze materials and plaster in the city, with free parking out back. Weekdays 9 to 3; the bigger Richmond store opens Saturdays."
+    },
+    {
+      "id": "sfbay-hickory-clay",
+      "tag": "Glaze class",
+      "line": "A six-week Glaze Design and Mixing course in the Mission, plus their own handmade glazes to buy while you build up a shelf."
+    },
+    {
+      "id": "baycer-san-francisco-state-university-school-of-art-ceramics",
+      "tag": "Glaze chemistry",
+      "line": "SF State's ceramics programme has a real glaze room and teaches glaze calculation; they also keep a standing pool of lecturers."
+    },
+    {
+      "id": "sfst-heath-ceramics-sf",
+      "tag": "Factory tour",
+      "line": "Watch Heath's tile being made in the Mission (tours need an RSVP), then the showroom and Tartine next door."
+    },
+    {
+      "id": "baymk-fibershed",
+      "tag": "Local fibre",
+      "line": "Fibershed's learning centre in Point Reyes: fibre grown, dyed and woven within a day's drive, taught in small workshops."
+    },
+    {
+      "id": "baymk-moad",
+      "tag": "Worth a visit",
+      "line": "The Museum of the African Diaspora, by Yerba Buena. Its emerging-artist programme and residencies are worth knowing about."
+    },
+    {
+      "id": "baymk-golden-gate-weavers",
+      "tag": "Weaving guild",
+      "line": "Berkeley's weaving guild meets on the third Monday of the month. The realistic way into loom time, and into the weaving community, in the East Bay."
+    },
+    {
+      "id": "fund-unesco-ifcd",
+      "tag": "For Rwanda",
+      "line": "Up to US$100,000 for cultural projects, applied for through a Rwandan NGO or cooperative: the route for scaling up her Rwanda project. Usually opens in March."
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import { getHighlights, todaysHighlights } from "@/lib/highlights";
+import { HighlightCard } from "@/components/highlights/HighlightCard";
 import { getInspirations, getOpportunities } from "@/lib/data";
 import { inBayArea } from "@/lib/opportunity-map";
 import { CloudBackground } from "@/components/CloudBackground";
@@ -15,7 +17,7 @@ export const metadata = {
 };
 
 // Re-render daily so the inspiration picks change.
-export const revalidate = 86400;
+export const revalidate = 3600;   // the day's highlights and inspiration turn over
 
 interface Doorway {
   n: string;
@@ -63,7 +65,8 @@ const DOORWAYS: Doorway[] = [
 ];
 
 export default async function Home() {
-  const [insp, opps] = await Promise.all([getInspirations(), getOpportunities()]);
+  const [insp, opps, finds] = await Promise.all([getInspirations(), getOpportunities(), getHighlights()]);
+  const todays = todaysHighlights(finds, 3);
 
   // Three inspiration entries, a different trio each day.
   const items = allItems(insp);
@@ -137,6 +140,30 @@ export default async function Home() {
           ))}
         </p>
       </section>
+
+      {/* Highlights: a few hand-picked finds, a different set each day ------ */}
+      {todays.length > 0 && (
+        <section className="wrap mt-24 md:mt-36" aria-labelledby="worth">
+          <div className="flex items-end justify-between gap-6 border-b border-line pb-4">
+            <div>
+              <p className="eyebrow">Hand-picked for you</p>
+              <h2 id="worth" className="font-serif text-display-sm mt-1">
+                Worth your time
+              </h2>
+            </div>
+            <Link href="/highlights" className="link-quiet">
+              All {finds.length} <span aria-hidden="true">→</span>
+            </Link>
+          </div>
+          <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12">
+            {todays.map((h, i) => (
+              <div key={h.id} className={i === 2 ? "hidden lg:block" : ""}>
+                <HighlightCard h={h} />
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Inspiration, quietly --------------------------------------------- */}
       <section className="wrap mt-24 md:mt-36" aria-labelledby="today">

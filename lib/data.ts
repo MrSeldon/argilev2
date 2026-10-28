@@ -45,7 +45,7 @@ export async function getOpportunities(): Promise<Opportunity[]> {
   const data = await loadData<OpportunitiesData>("opportunities/index.json");
   const extra: Opportunity[] = [];
   // Additional regional datasets (flat arrays) loaded alongside index.json
-  for (const file of ["opportunities/sf-bay.json", "opportunities/sf-studios.json", "opportunities/bay-ceramics.json", "opportunities/colombia.json", "opportunities/bay-making.json"]) {
+  for (const file of ["opportunities/sf-bay.json", "opportunities/sf-studios.json", "opportunities/bay-ceramics.json", "opportunities/colombia.json", "opportunities/bay-making.json", "opportunities/funding.json"]) {
     if (await dataExists(file)) {
       extra.push(...(await loadData<Opportunity[]>(file)));
     }

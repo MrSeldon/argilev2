@@ -84,6 +84,7 @@ export interface Facts {
   apply?: Fact;
   level?: Fact;
   eligibility?: Fact;
+  visa?: Fact;
   website?: string;
   sourceUrl?: string;
   sourceLabel?: string;
@@ -140,9 +141,25 @@ export function factsOf(o: Opportunity): Facts {
     const fo = fund as Loose;
     const s = clean(fo.stipend);
     const n = clean(fo.notes);
-    if (fo.available === true || s) f.funding = { label: "Funding", value: s || "Available", note: n };
+    const amount = clean(fo.amount);
+    const pays = clean(fo.pays);
+    if (amount) f.funding = { label: "Funding", value: amount, note: pays ? `Pays: ${pays}` : n };
+    else if (fo.available === true || s) f.funding = { label: "Funding", value: s || "Available", note: n };
   } else if (stipend) {
     f.funding = { label: "Funding", value: stipend };
+  }
+
+  // How it fits Winnie's visa (funding entries carry this; not legal advice)
+  const v = r.visa as Loose | undefined;
+  if (v && typeof v === "object") {
+    const fit = clean(v.fit);
+    const label: Record<string, string> = {
+      "fine-from-abroad": "Fine from abroad",
+      "sponsors-visa": "Comes with its own visa",
+      "needs-work-authorization": "Needs US work authorization",
+      "check-with-attorney": "Check with an immigration attorney",
+    };
+    if (fit) f.visa = { label: "Her visa", value: label[fit] || fit, note: clean(v.note) };
   }
 
   // Housing
