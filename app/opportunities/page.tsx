@@ -4,12 +4,13 @@ import type { Opportunity } from "@/lib/types";
 import { PageHeader } from "@/components/site/PageHeader";
 import { PHOTOS } from "@/components/site/photos";
 import { ChipScroller } from "@/components/site/ChipScroller";
-import { ExploreNav, ListMapSwitch } from "@/components/opportunities/ExploreNav";
+import { ExploreNav } from "@/components/opportunities/ExploreNav";
+import { ViewSwitch } from "@/components/opportunities/ViewSwitch";
 import { OpportunityCard } from "@/components/opportunities/OpportunityCard";
 import { CountrySelect } from "@/components/opportunities/CountrySelect";
 import { countryOf, isPast, typeLabel } from "@/components/opportunities/facts";
 import { typeColor } from "@/components/design/palette";
-import { isCeramics } from "@/lib/opportunity-map";
+import { inScope, isCeramics, type MapScope } from "@/lib/opportunity-map";
 
 export const metadata = {
   title: "Opportunities | Le Four Argile",
@@ -21,6 +22,7 @@ interface SearchParams {
   country?: string;
   past?: string;
   making?: string;   // "all" shows weaving, print, wood, museums...; default is ceramics
+  scope?: string;    // bay (default) | colombia | east-africa | world, as on the map
 }
 
 function href(params: SearchParams, patch: Partial<SearchParams>) {
@@ -39,10 +41,17 @@ export default async function OpportunitiesPage({ searchParams }: { searchParams
   const pastCount = all.filter(isPast).length;
   const allMaking = params.making === "all";
   const crafted = allMaking ? all : all.filter((o) => isCeramics(o as { discipline?: string }));
-  const visible = showPast ? crafted : crafted.filter((o) => !isPast(o));
+  const scope: MapScope = (["bay", "colombia", "east-africa", "world"] as MapScope[]).find((r) => r === params.scope) || "bay";
+  const regional = crafted.filter((o) => {
+    if (scope === "world") return true;
+    const c = typeof o.location === "object" ? o.location.coordinates : undefined;
+    return !!c && inScope(scope, c.lat, c.lng);
+  });
+  const visible = showPast ? regional : regional.filter((o) => !isPast(o));
 
   // Type counts follow the country filter; country counts follow the type filter.
-  const inCountry = params.country ? visible.filter((o) => countryOf(o) === params.country) : visible;
+  const country = scope === "world" ? params.country : undefined;   // the country menu only shows under World
+  const inCountry = country ? visible.filter((o) => countryOf(o) === country) : visible;
   const ofType = params.type ? visible.filter((o) => o.type === params.type) : visible;
   const filtered = params.type ? inCountry.filter((o) => o.type === params.type) : inCountry;
 
@@ -63,27 +72,24 @@ export default async function OpportunitiesPage({ searchParams }: { searchParams
 
       <section className="wrap mt-6 md:mt-8" aria-label="Filters">
         <div className="flex flex-wrap items-center gap-3">
-          <ListMapSwitch active="list" />
-          <CountrySelect countries={countryCounts} value={params.country} />
-          <div className="inline-flex rounded-full border border-line-strong p-1" role="group" aria-label="Craft">
-            {[
-              { v: undefined, label: "Ceramics" },
-              { v: "all", label: "All making" },
-            ].map((o) => {
-              const on = (params.making === "all") === (o.v === "all");
-              return (
-                <Link
-                  key={o.label}
-                  href={href(params, { making: o.v, type: undefined })}
-                  aria-current={on ? "page" : undefined}
-                  scroll={false}
-                  className={`inline-flex items-center min-h-10 px-4 rounded-full text-body-sm transition-colors duration-400 ${on ? "bg-ink text-paper" : "text-ink-2 hover:text-ink"}`}
-                >
-                  {o.label}
-                </Link>
-              );
-            })}
-          </div>
+          <ViewSwitch active="list" />
+          <Seg
+            label="Area"
+            items={[
+              { v: undefined, label: "Bay Area", on: scope === "bay" },
+              { v: "colombia", label: "Colombia", on: scope === "colombia" },
+              { v: "east-africa", label: "East Africa", on: scope === "east-africa" },
+              { v: "world", label: "World", on: scope === "world" },
+            ].map((o) => ({ ...o, href: href(params, { scope: o.v, type: undefined, country: undefined }) }))}
+          />
+          <Seg
+            label="Craft"
+            items={[
+              { v: undefined, label: "Ceramics", on: params.making !== "all" },
+              { v: "all", label: "All making", on: params.making === "all" },
+            ].map((o) => ({ ...o, href: href(params, { making: o.v, type: undefined }) }))}
+          />
+          {scope === "world" && <CountrySelect countries={countryCounts} value={params.country} />}
         </div>
 
         <ChipScroller label="Filter by type" className="mt-4">
@@ -116,11 +122,11 @@ export default async function OpportunitiesPage({ searchParams }: { searchParams
           <p className="text-body-sm text-ink-2" aria-live="polite">
             {filtered.length} {filtered.length === 1 ? "place" : "places"}
             {params.type && <> · {typeLabel(params.type).toLowerCase()}</>}
-            {params.country && <> in {params.country}</>}
+            {country ? <> in {country}</> : <> {REGION_PHRASE[scope]}</>}
           </p>
           <div className="flex gap-5">
-            {(params.type || params.country) && (
-              <Link href={href({ past: params.past }, {})} className="link-quiet" scroll={false}>
+            {(params.type || country) && (
+              <Link href={href({ past: params.past, scope: params.scope, making: params.making }, {})} className="link-quiet" scroll={false}>
                 Clear filters
               </Link>
             )}
@@ -160,4 +166,27 @@ function count(list: Opportunity[], key: (o: Opportunity) => string | undefined)
     if (k) m.set(k, (m.get(k) || 0) + 1);
   }
   return [...m.entries()].sort((a, b) => b[1] - a[1]);
+}
+
+const REGION_PHRASE: Record<MapScope, string> = { bay: "in the Bay Area", colombia: "in Colombia", "east-africa": "in East Africa", world: "worldwide" };
+
+/** The map's segmented control, as links (so the list stays server-rendered and shareable). */
+function Seg({ label, items }: { label: string; items: { label: string; href: string; on: boolean }[] }) {
+  return (
+    <div role="group" aria-label={label} className="inline-flex p-1 rounded-full bg-oat/80 border border-line max-w-full overflow-x-auto">
+      {items.map((o) => (
+        <Link
+          key={o.label}
+          href={o.href}
+          scroll={false}
+          aria-current={o.on ? "page" : undefined}
+          className={`inline-flex items-center min-h-11 px-2.5 sm:px-5 rounded-full text-[13px] sm:text-body-sm whitespace-nowrap transition-colors duration-400 ${
+            o.on ? "bg-paper-soft text-ink shadow-subtle" : "text-ink-3 hover:text-ink"
+          }`}
+        >
+          {o.label}
+        </Link>
+      ))}
+    </div>
+  );
 }

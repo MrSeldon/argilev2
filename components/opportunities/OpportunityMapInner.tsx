@@ -28,12 +28,13 @@ interface Props {
   opportunities: Opportunity[];
   initialScope?: MapScope;
   initialSelected?: string;
+  initialCraft?: Craft;
 }
 
-export default function OpportunityMapInner({ opportunities, initialScope = "bay", initialSelected }: Props) {
+export default function OpportunityMapInner({ opportunities, initialScope = "bay", initialSelected, initialCraft = "ceramics" }: Props) {
   const all = opportunities as MapOpportunity[];
   const [scope, setScope] = useState<MapScope>(initialScope);
-  const [craft, setCraft] = useState<Craft>("ceramics");
+  const [craft, setCraft] = useState<Craft>(initialCraft);
   const [types, setTypes] = useState<string[]>([]);
   const [cats, setCats] = useState<string[]>([]);
   const [selectedId, setSelectedId] = useState<string | null>(initialSelected || null);
@@ -117,6 +118,14 @@ export default function OpportunityMapInner({ opportunities, initialScope = "bay
           onChange={(v) => {
             setCraft(v as Craft);
             resetFilters();
+            try {
+              const url = new URL(window.location.href);
+              if (v === "all") url.searchParams.set("making", "all");
+              else url.searchParams.delete("making");
+              window.history.replaceState(window.history.state, "", url.toString());
+            } catch {
+              /* non-critical */
+            }
           }}
           options={[
             { value: "ceramics", label: "Ceramics" },
@@ -433,7 +442,7 @@ function Segmented({
             type="button"
             aria-pressed={active}
             onClick={() => onChange(o.value)}
-            className={`min-h-11 px-5 rounded-full text-body-sm whitespace-nowrap transition-colors duration-400 ${
+            className={`min-h-11 px-2.5 sm:px-5 rounded-full text-[13px] sm:text-body-sm whitespace-nowrap transition-colors duration-400 ${
               active ? "bg-paper-soft text-ink shadow-subtle" : "text-ink-3 hover:text-ink"
             }`}
           >

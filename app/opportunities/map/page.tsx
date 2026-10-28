@@ -1,6 +1,6 @@
 import { getOpportunities } from "@/lib/data";
 import { OpportunityMap } from "@/components/opportunities/OpportunityMap";
-import { ListMapSwitch } from "@/components/opportunities/ExploreNav";
+import { ViewSwitch } from "@/components/opportunities/ViewSwitch";
 import { regionOf, type MapScope } from "@/lib/opportunity-map";
 import { isPast } from "@/components/opportunities/facts";
 
@@ -12,9 +12,9 @@ export const metadata = {
 export default async function OpportunitiesMapPage({
   searchParams,
 }: {
-  searchParams: Promise<{ scope?: string; focus?: string }>;
+  searchParams: Promise<{ scope?: string; focus?: string; making?: string }>;
 }) {
-  const { scope, focus } = await searchParams;
+  const { scope, focus, making } = await searchParams;
   const opportunities = await getOpportunities();
 
   const mappable = opportunities.filter(
@@ -35,9 +35,9 @@ export default async function OpportunitiesMapPage({
     <div className="h-view flex flex-col">
       <div className="wrap shrink-0 flex items-center justify-between gap-4 py-2.5 md:py-4">
         <h1 className="font-serif text-[1.6rem] md:text-display-sm leading-none">Opportunities</h1>
-        <ListMapSwitch active="map" />
+        <ViewSwitch active="map" />
       </div>
-      <OpportunityMap opportunities={mappable} initialScope={initialScope} initialSelected={focused?.id} />
+      <OpportunityMap opportunities={mappable} initialScope={initialScope} initialSelected={focused?.id} initialCraft={making === "all" ? "all" : "ceramics"} />
     </div>
   );
 }
