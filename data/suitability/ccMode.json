@@ -34,20 +34,70 @@
       "country": "USA",
       "region": "California",
       "probabilityOfWeed": {
-        "score": 95,
-        "status": "Recreational legal",
-        "notes": "Legal dispensaries throughout California. Premium quality available."
+        "score": 93,
+        "status": "Recreational legal (21+)",
+        "notes": "Berkeley has a handful of licensed dispensaries and was an early medical-cannabis city. Adult use has been legal in California since 2016 (Prop 64) for anyone 21+ with ID; buy only from shops or delivery services licensed by the state Department of Cannabis Control, and don't smoke in public places. Federal law still bans cannabis: for a non-citizen, using, buying or working with it, even legally under state law, can count against a visa, green card or citizenship application, and it must never cross a state or national border. Safest for Winnie: skip it."
       },
       "fashionEcosystem": {
-        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
-        "fabricSourcing": "American denim. Varied supply chain.",
-        "vintageThrift": "Massive thrift culture. Every city has options.",
-        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+        "clothingMfg": "Mostly independent makers and home sewists; Stonemountain's classes are the community hub.",
+        "fabricSourcing": "Stonemountain & Daughter for linen and cottons, the Lacis Museum shop for lace and embroidery supplies, ImagiKnit for yarn; A Verb for Keeping Warm is ten minutes away in Oakland.",
+        "vintageThrift": "Crossroads Trading on Shattuck, Telegraph Avenue's student-vintage shops, and the Alameda antiques faire nearby.",
+        "danceTheatre": "Cal Performances' world dance seasons, Ashkenaz's dance nights (Afro-Caribbean, Balkan, Brazilian and more), Berkeley Rep and Shotgun Players for theatre.",
+        "places": [
+          {
+            "name": "Stonemountain & Daughter Fabrics",
+            "kind": "fabric",
+            "url": "https://stonemountainfabric.com/",
+            "notes": "Big Berkeley fabric store with linen, Japanese and Indian-import cloth and sewing classes."
+          },
+          {
+            "name": "Lacis Museum of Lace and Textiles",
+            "kind": "textile museum and shop",
+            "url": "https://lacismuseum.org/",
+            "notes": "Free lace museum in Berkeley with a textile-arts emporium and classes."
+          },
+          {
+            "name": "ImagiKnit",
+            "kind": "yarn",
+            "url": "https://imagiknit.com/",
+            "notes": "Yarn shops in San Francisco and Berkeley with classes."
+          },
+          {
+            "name": "Crossroads Trading",
+            "kind": "buy-sell-trade clothing",
+            "url": "https://crossroadstrading.com/",
+            "notes": "Resale shops in San Francisco (Fillmore, Irving, Market), Berkeley (Shattuck) and Oakland (College Ave)."
+          },
+          {
+            "name": "Ashkenaz",
+            "kind": "world music and dance hall",
+            "url": "https://www.ashkenaz.com/",
+            "notes": "Community dance hall with classes and dance nights."
+          },
+          {
+            "name": "Cal Performances",
+            "kind": "dance and music presenter",
+            "url": "https://calperformances.org/",
+            "notes": "UC Berkeley's season of global dance, music and theatre."
+          },
+          {
+            "name": "Berkeley Repertory Theatre",
+            "kind": "theatre",
+            "url": "https://www.berkeleyrep.org/",
+            "notes": "Major regional theatre downtown."
+          },
+          {
+            "name": "Shotgun Players",
+            "kind": "theatre",
+            "url": "https://shotgunplayers.org/",
+            "notes": "Adventurous theatre company at the Ashby Stage."
+          }
+        ]
       },
       "trimWorkOpportunities": {
-        "available": true,
-        "season": "Sep-Nov (Emerald Triangle)",
-        "notes": "Humboldt, Mendocino, Trinity counties. $25-50/hr. Cash work."
+        "available": false,
+        "season": "Sep-Nov (outdoor harvest on the North Coast)",
+        "notes": "Not a route for Winnie. Licensed farms in Humboldt, Mendocino and Trinity counties hire harvest and trim crews in autumn, but only workers with US work authorization, and because cannabis is still illegal under federal law, cannabis work can harm a visa or immigration case even on a state-licensed farm. Unlicensed cash trimming is illegal and often unsafe. Any paid work in the US, in any industry, needs work authorization."
       }
     },
     "Chico, California, USA": {
@@ -371,19 +421,87 @@
       "region": "California",
       "probabilityOfWeed": {
         "score": 95,
-        "status": "Recreational legal",
-        "notes": "Legal dispensaries throughout California. Premium quality available."
+        "status": "Recreational legal (21+)",
+        "notes": "Many licensed dispensaries across the city. Adult use has been legal in California since 2016 (Prop 64) for anyone 21+ with ID; buy only from shops or delivery services licensed by the state Department of Cannabis Control, and don't smoke in public places. Federal law still bans cannabis: for a non-citizen, using, buying or working with it, even legally under state law, can count against a visa, green card or citizenship application, and it must never cross a state or national border. Safest for Winnie: skip it."
       },
       "fashionEcosystem": {
-        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
-        "fabricSourcing": "American denim. Varied supply chain.",
-        "vintageThrift": "Massive thrift culture. Every city has options.",
-        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+        "clothingMfg": "Small-batch: independent designers and a few remaining garment workshops, supported by SFMade; the Fort Mason craft fairs (West Coast Craft, Renegade) are where many sell.",
+        "fabricSourcing": "Britex Fabrics near Union Square for fine cloth and trims; ImagiKnit and Atelier Yarns for fibre and weaving tools; SCRAP for cheap reused fabric.",
+        "vintageThrift": "The Haight and the Mission are the vintage streets: Wasteland, Crossroads Trading and Out of the Closet among many small shops.",
+        "danceTheatre": "San Francisco Ballet, Alonzo King LINES Ballet, contemporary dance at YBCA, and A.C.T. for theatre; Carnaval's dance troupes rehearse all year.",
+        "places": [
+          {
+            "name": "Britex Fabrics",
+            "kind": "fabric",
+            "url": "https://britexfabrics.com/",
+            "notes": "San Francisco's grand fabric house near Union Square: silks, wools, laces, buttons."
+          },
+          {
+            "name": "ImagiKnit",
+            "kind": "yarn",
+            "url": "https://imagiknit.com/",
+            "notes": "Yarn shops in San Francisco and Berkeley with classes."
+          },
+          {
+            "name": "Atelier Yarns",
+            "kind": "yarn and weaving",
+            "url": "https://atelieryarns.com/",
+            "notes": "Yarn, weaving tools and classes in San Francisco (Divisadero) and San Rafael."
+          },
+          {
+            "name": "SCRAP",
+            "kind": "creative reuse",
+            "url": "https://www.scrap-sf.org/",
+            "notes": "Cheap donated fabric and materials in San Francisco's Bayview."
+          },
+          {
+            "name": "Wasteland",
+            "kind": "vintage clothing",
+            "url": "https://www.shopwasteland.com/",
+            "notes": "Big vintage and designer resale shop on Haight Street."
+          },
+          {
+            "name": "Crossroads Trading",
+            "kind": "buy-sell-trade clothing",
+            "url": "https://crossroadstrading.com/",
+            "notes": "Resale shops in San Francisco (Fillmore, Irving, Market), Berkeley (Shattuck) and Oakland (College Ave)."
+          },
+          {
+            "name": "SFMade",
+            "kind": "local manufacturing network",
+            "url": "https://www.sfmade.org/",
+            "notes": "Non-profit supporting San Francisco makers and small manufacturers, apparel and textiles included."
+          },
+          {
+            "name": "San Francisco Ballet",
+            "kind": "ballet",
+            "url": "https://www.sfballet.org/",
+            "notes": "America's oldest professional ballet company, at the War Memorial Opera House."
+          },
+          {
+            "name": "Alonzo King LINES Ballet",
+            "kind": "contemporary ballet and school",
+            "url": "https://linesballet.org/",
+            "notes": "Contemporary ballet company with a dance centre and classes."
+          },
+          {
+            "name": "YBCA (Yerba Buena Center for the Arts)",
+            "kind": "contemporary art and dance",
+            "url": "https://ybca.org/",
+            "notes": "Contemporary art, dance and performance downtown."
+          },
+          {
+            "name": "American Conservatory Theater (A.C.T.)",
+            "kind": "theatre",
+            "url": "https://www.act-sf.org/",
+            "notes": "The city's main repertory theatre."
+          }
+        ]
       },
       "trimWorkOpportunities": {
-        "available": true,
-        "season": "Sep-Nov (Emerald Triangle)",
-        "notes": "Humboldt, Mendocino, Trinity counties. $25-50/hr. Cash work."
+        "available": false,
+        "season": "Sep-Nov (outdoor harvest on the North Coast)",
+        "notes": "Not a route for Winnie. Licensed farms in Humboldt, Mendocino and Trinity counties hire harvest and trim crews in autumn, but only workers with US work authorization, and because cannabis is still illegal under federal law, cannabis work can harm a visa or immigration case even on a state-licensed farm. Unlicensed cash trimming is illegal and often unsafe. Any paid work in the US, in any industry, needs work authorization."
       }
     },
     "San Jose, California, USA": {
@@ -391,20 +509,46 @@
       "country": "USA",
       "region": "California",
       "probabilityOfWeed": {
-        "score": 95,
-        "status": "Recreational legal",
-        "notes": "Legal dispensaries throughout California. Premium quality available."
+        "score": 92,
+        "status": "Recreational legal (21+)",
+        "notes": "San Jose has many licensed dispensaries. Adult use has been legal in California since 2016 (Prop 64) for anyone 21+ with ID; buy only from shops or delivery services licensed by the state Department of Cannabis Control, and don't smoke in public places. Federal law still bans cannabis: for a non-citizen, using, buying or working with it, even legally under state law, can count against a visa, green card or citizenship application, and it must never cross a state or national border. Safest for Winnie: skip it."
       },
       "fashionEcosystem": {
-        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
-        "fabricSourcing": "American denim. Varied supply chain.",
-        "vintageThrift": "Massive thrift culture. Every city has options.",
-        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+        "clothingMfg": "Small: independent designers, alteration and tailoring shops in the Vietnamese and Mexican shopping districts.",
+        "fabricSourcing": "The San Jose Museum of Quilts & Textiles and the Glenna Harris Weavers Guild are the textile hubs; for fabric shopping most people go to Berkeley or San Francisco.",
+        "vintageThrift": "Plenty of charity thrift stores across the city; for curated vintage, San Francisco and Oakland are an hour north.",
+        "danceTheatre": "New Ballet (San Jose's ballet company), Opera San Jos\u00e9, and folkl\u00f3rico and Vietnamese dance groups at community festivals.",
+        "places": [
+          {
+            "name": "San Jose Museum of Quilts & Textiles",
+            "kind": "textile museum",
+            "url": "https://sj-mqt.org/",
+            "notes": "Rotating textile shows, a collection and workshops."
+          },
+          {
+            "name": "Glenna Harris Weavers Guild",
+            "kind": "weaving and spinning guild",
+            "url": "https://www.glennaharris.org/",
+            "notes": "San Jose guild with an education programme; visitors welcome at meetings."
+          },
+          {
+            "name": "New Ballet",
+            "kind": "ballet",
+            "url": "https://newballet.com/",
+            "notes": "San Jose ballet company and school."
+          },
+          {
+            "name": "Opera San Jos\u00e9",
+            "kind": "opera",
+            "url": "https://www.operasj.org/",
+            "notes": "Opera at the restored California Theatre."
+          }
+        ]
       },
       "trimWorkOpportunities": {
-        "available": true,
-        "season": "Sep-Nov (Emerald Triangle)",
-        "notes": "Humboldt, Mendocino, Trinity counties. $25-50/hr. Cash work."
+        "available": false,
+        "season": "Sep-Nov (outdoor harvest on the North Coast)",
+        "notes": "Not a route for Winnie. Licensed farms in Humboldt, Mendocino and Trinity counties hire harvest and trim crews in autumn, but only workers with US work authorization, and because cannabis is still illegal under federal law, cannabis work can harm a visa or immigration case even on a state-licensed farm. Unlicensed cash trimming is illegal and often unsafe. Any paid work in the US, in any industry, needs work authorization."
       }
     },
     "Santa Monica, California, USA": {
@@ -454,20 +598,52 @@
       "country": "USA",
       "region": "California",
       "probabilityOfWeed": {
-        "score": 95,
-        "status": "Recreational legal",
-        "notes": "Legal dispensaries throughout California. Premium quality available."
+        "score": 72,
+        "status": "Recreational legal (21+); no storefronts in Sausalito",
+        "notes": "Sausalito bans cannabis storefronts; licensed delivery from outside the city is allowed. Adult use has been legal in California since 2016 (Prop 64) for anyone 21+ with ID; buy only from shops or delivery services licensed by the state Department of Cannabis Control, and don't smoke in public places. Federal law still bans cannabis: for a non-citizen, using, buying or working with it, even legally under state law, can count against a visa, green card or citizenship application, and it must never cross a state or national border. Safest for Winnie: skip it."
       },
       "fashionEcosystem": {
-        "clothingMfg": "Indie designers. LA denim, NYC fashion.",
-        "fabricSourcing": "American denim. Varied supply chain.",
-        "vintageThrift": "Massive thrift culture. Every city has options.",
-        "danceTheatre": "NYC Broadway. Strong contemporary scene."
+        "clothingMfg": "Boutiques rather than makers; Fibershed's local-clothing network in West Marin is the interesting thread.",
+        "fabricSourcing": "Dharma Trading (natural dyes and undyed cloth) and Atelier Yarns in San Rafael, 20 minutes north; Britex across the bridge.",
+        "vintageThrift": "A few consignment and charity shops in Mill Valley and Sausalito; San Francisco's Haight is 30 minutes away.",
+        "danceTheatre": "Marin Theatre in Mill Valley and the Mountain Play on Mt Tamalpais each spring.",
+        "places": [
+          {
+            "name": "Dharma Trading Co.",
+            "kind": "dye supplier",
+            "url": "https://www.dharmatrading.com/",
+            "notes": "San Rafael dye house: natural dyes and mordants, undyed silk, cotton and wool."
+          },
+          {
+            "name": "Atelier Yarns",
+            "kind": "yarn and weaving",
+            "url": "https://atelieryarns.com/",
+            "notes": "Yarn, weaving tools and classes in San Francisco (Divisadero) and San Rafael."
+          },
+          {
+            "name": "Fibershed",
+            "kind": "local fibre network",
+            "url": "https://fibershed.org/",
+            "notes": "Point Reyes non-profit for locally grown, dyed and sewn clothing, with workshops and markets."
+          },
+          {
+            "name": "Marin Theatre",
+            "kind": "theatre",
+            "url": "https://www.marintheatre.org/",
+            "notes": "Professional theatre in Mill Valley."
+          },
+          {
+            "name": "Mountain Play",
+            "kind": "outdoor musical theatre",
+            "url": "https://mountainplay.org/",
+            "notes": "Musicals in the Cushing Amphitheatre on Mt Tamalpais, May and June."
+          }
+        ]
       },
       "trimWorkOpportunities": {
-        "available": true,
-        "season": "Sep-Nov (Emerald Triangle)",
-        "notes": "Humboldt, Mendocino, Trinity counties. $25-50/hr. Cash work."
+        "available": false,
+        "season": "Sep-Nov (outdoor harvest on the North Coast)",
+        "notes": "Not a route for Winnie. Licensed farms in Humboldt, Mendocino and Trinity counties hire harvest and trim crews in autumn, but only workers with US work authorization, and because cannabis is still illegal under federal law, cannabis work can harm a visa or immigration case even on a state-licensed farm. Unlicensed cash trimming is illegal and often unsafe. Any paid work in the US, in any industry, needs work authorization."
       }
     },
     "Seattle, Washington, USA": {
@@ -3261,6 +3437,224 @@
         "available": true,
         "season": "Year-round (licensed)",
         "notes": "Legal LP (licensed producer) jobs. Work permit required."
+      }
+    },
+    "Oakland, California, USA": {
+      "location": "Oakland, California, USA",
+      "country": "USA",
+      "region": "California",
+      "probabilityOfWeed": {
+        "score": 95,
+        "status": "Recreational legal (21+)",
+        "notes": "Oakland was an early centre of the legal industry and has many licensed dispensaries. Adult use has been legal in California since 2016 (Prop 64) for anyone 21+ with ID; buy only from shops or delivery services licensed by the state Department of Cannabis Control, and don't smoke in public places. Federal law still bans cannabis: for a non-citizen, using, buying or working with it, even legally under state law, can count against a visa, green card or citizenship application, and it must never cross a state or national border. Safest for Winnie: skip it."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Independent designers and small sewing studios in West Oakland and downtown warehouses; no large garment district.",
+        "fabricSourcing": "A Verb for Keeping Warm for natural dye, yarn and fabric; East Bay Depot for Creative Reuse for cheap materials; Bay Quilts in Richmond for cottons; Stonemountain in Berkeley.",
+        "vintageThrift": "Crossroads Trading on College Avenue, Out of the Closet, and the Alameda Point Antiques Faire (first Sunday monthly) for vintage cloth.",
+        "danceTheatre": "Oakland Ballet, Destiny Arts Center (youth dance and arts), Diamano Coura West African Dance Company and AXIS Dance Company (physically integrated dance).",
+        "places": [
+          {
+            "name": "A Verb for Keeping Warm",
+            "kind": "natural dye, yarn and fabric",
+            "url": "https://www.averbforkeepingwarm.com/",
+            "notes": "Oakland shop built around natural dye: mordants, dyes, dyeable cloth and classes."
+          },
+          {
+            "name": "East Bay Depot for Creative Reuse",
+            "kind": "creative reuse",
+            "url": "https://www.creativereuse.org/",
+            "notes": "Oakland reuse store for cheap fabric, yarn and oddments."
+          },
+          {
+            "name": "Alameda Point Antiques Faire",
+            "kind": "vintage market",
+            "url": "https://alamedapointantiquesfaire.com/",
+            "notes": "800+ dealers on the first Sunday of each month: vintage textiles and clothing."
+          },
+          {
+            "name": "Crossroads Trading",
+            "kind": "buy-sell-trade clothing",
+            "url": "https://crossroadstrading.com/",
+            "notes": "Resale shops in San Francisco (Fillmore, Irving, Market), Berkeley (Shattuck) and Oakland (College Ave)."
+          },
+          {
+            "name": "Out of the Closet",
+            "kind": "thrift",
+            "url": "https://outofthecloset.org/",
+            "notes": "Thrift stores that fund HIV/AIDS care, with Bay Area branches."
+          },
+          {
+            "name": "Bay Quilts",
+            "kind": "fabric",
+            "url": "https://www.sfbayquilts.com/",
+            "notes": "Richmond fabric store and quilt gallery."
+          },
+          {
+            "name": "Oakland Ballet",
+            "kind": "ballet",
+            "url": "https://oaklandballet.org/",
+            "notes": "Oakland's ballet company."
+          },
+          {
+            "name": "Destiny Arts Center",
+            "kind": "youth dance and arts",
+            "url": "https://destinyarts.org/",
+            "notes": "Dance, martial arts and performance for young people."
+          },
+          {
+            "name": "Diamano Coura West African Dance Company",
+            "kind": "West African dance and drum",
+            "url": "https://www.diamanocoura.org/",
+            "notes": "Oakland company teaching and performing West African dance and music."
+          },
+          {
+            "name": "AXIS Dance Company",
+            "kind": "physically integrated dance",
+            "url": "https://axisdance.org/",
+            "notes": "Dance company of disabled and non-disabled artists."
+          }
+        ]
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "Sep-Nov (outdoor harvest on the North Coast)",
+        "notes": "Not a route for Winnie. Licensed farms in Humboldt, Mendocino and Trinity counties hire harvest and trim crews in autumn, but only workers with US work authorization, and because cannabis is still illegal under federal law, cannabis work can harm a visa or immigration case even on a state-licensed farm. Unlicensed cash trimming is illegal and often unsafe. Any paid work in the US, in any industry, needs work authorization."
+      }
+    },
+    "San Rafael, California, USA": {
+      "location": "San Rafael, California, USA",
+      "country": "USA",
+      "region": "California",
+      "probabilityOfWeed": {
+        "score": 78,
+        "status": "Recreational legal (21+); few local storefronts",
+        "notes": "Marin has very few cannabis storefronts; licensed delivery is the usual route. Check San Rafael's current rules. Adult use has been legal in California since 2016 (Prop 64) for anyone 21+ with ID; buy only from shops or delivery services licensed by the state Department of Cannabis Control, and don't smoke in public places. Federal law still bans cannabis: for a non-citizen, using, buying or working with it, even legally under state law, can count against a visa, green card or citizenship application, and it must never cross a state or national border. Safest for Winnie: skip it."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Small independent makers; Fibershed (Point Reyes Station, 40 min) connects local farmers, dyers and sewists.",
+        "fabricSourcing": "Dharma Trading is a national dye supplier right here (natural dyes, mordants, undyed silk and cotton); Atelier Yarns downtown for yarn and weaving tools.",
+        "vintageThrift": "Charity and consignment shops downtown; bigger vintage in San Francisco and Oakland.",
+        "danceTheatre": "Marin Theatre (Mill Valley), the Mountain Play, and dance and music at the Marin Center.",
+        "places": [
+          {
+            "name": "Dharma Trading Co.",
+            "kind": "dye supplier",
+            "url": "https://www.dharmatrading.com/",
+            "notes": "San Rafael dye house: natural dyes and mordants, undyed silk, cotton and wool."
+          },
+          {
+            "name": "Atelier Yarns",
+            "kind": "yarn and weaving",
+            "url": "https://atelieryarns.com/",
+            "notes": "Yarn, weaving tools and classes in San Francisco (Divisadero) and San Rafael."
+          },
+          {
+            "name": "Fibershed",
+            "kind": "local fibre network",
+            "url": "https://fibershed.org/",
+            "notes": "Point Reyes non-profit for locally grown, dyed and sewn clothing, with workshops and markets."
+          },
+          {
+            "name": "Marin Theatre",
+            "kind": "theatre",
+            "url": "https://www.marintheatre.org/",
+            "notes": "Professional theatre in Mill Valley, 15 minutes south."
+          }
+        ]
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "Sep-Nov (outdoor harvest on the North Coast)",
+        "notes": "Not a route for Winnie. Licensed farms in Humboldt, Mendocino and Trinity counties hire harvest and trim crews in autumn, but only workers with US work authorization, and because cannabis is still illegal under federal law, cannabis work can harm a visa or immigration case even on a state-licensed farm. Unlicensed cash trimming is illegal and often unsafe. Any paid work in the US, in any industry, needs work authorization."
+      }
+    },
+    "Palo Alto, California, USA": {
+      "location": "Palo Alto, California, USA",
+      "country": "USA",
+      "region": "California",
+      "probabilityOfWeed": {
+        "score": 72,
+        "status": "Recreational legal (21+); no storefronts in Palo Alto",
+        "notes": "Palo Alto bans cannabis businesses in town other than deliveries from licensed services elsewhere. Adult use has been legal in California since 2016 (Prop 64) for anyone 21+ with ID; buy only from shops or delivery services licensed by the state Department of Cannabis Control, and don't smoke in public places. Federal law still bans cannabis: for a non-citizen, using, buying or working with it, even legally under state law, can count against a visa, green card or citizenship application, and it must never cross a state or national border. Safest for Winnie: skip it."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Very little; this is tech country. Makerspaces (Maker Nexus in Sunnyvale) have sewing machines and laser cutters.",
+        "fabricSourcing": "No major fabric store verified nearby; Britex (San Francisco) and Stonemountain (Berkeley) are about an hour. The Black Sheep Handweavers Guild meets in Redwood City.",
+        "vintageThrift": "Charity thrift shops in Palo Alto, Menlo Park and Mountain View.",
+        "danceTheatre": "TheatreWorks Silicon Valley for theatre; Stanford Live presents international dance at Bing Concert Hall.",
+        "places": [
+          {
+            "name": "TheatreWorks Silicon Valley",
+            "kind": "theatre",
+            "url": "https://theatreworks.org/",
+            "notes": "Regional theatre performing in Palo Alto and Mountain View."
+          },
+          {
+            "name": "Stanford Live",
+            "kind": "dance and music presenter",
+            "url": "https://live.stanford.edu/",
+            "notes": "Season of dance and music at Bing Concert Hall and Frost Amphitheater."
+          },
+          {
+            "name": "Black Sheep Handweavers Guild",
+            "kind": "weaving guild",
+            "url": "https://www.blacksheepguild.org/",
+            "notes": "Peninsula weaving guild with evening meetings and speakers."
+          }
+        ]
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "Sep-Nov (outdoor harvest on the North Coast)",
+        "notes": "Not a route for Winnie. Licensed farms in Humboldt, Mendocino and Trinity counties hire harvest and trim crews in autumn, but only workers with US work authorization, and because cannabis is still illegal under federal law, cannabis work can harm a visa or immigration case even on a state-licensed farm. Unlicensed cash trimming is illegal and often unsafe. Any paid work in the US, in any industry, needs work authorization."
+      }
+    },
+    "Petaluma, California, USA": {
+      "location": "Petaluma, California, USA",
+      "country": "USA",
+      "region": "California",
+      "probabilityOfWeed": {
+        "score": 84,
+        "status": "Recreational legal (21+)",
+        "notes": "Petaluma long allowed delivery only; its first in-person storefront opened in late 2025. Adult use has been legal in California since 2016 (Prop 64) for anyone 21+ with ID; buy only from shops or delivery services licensed by the state Department of Cannabis Control, and don't smoke in public places. Federal law still bans cannabis: for a non-citizen, using, buying or working with it, even legally under state law, can count against a visa, green card or citizenship application, and it must never cross a state or national border. Safest for Winnie: skip it."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "Small makers; Fibershed's network of local wool growers, dyers and sewists is close by in West Marin and Sonoma.",
+        "fabricSourcing": "Dharma Trading in San Rafael (25 min) for dyes and undyed cloth; Baker Creek's Seed Bank downtown for dye-garden seeds.",
+        "vintageThrift": "Petaluma is an antiques town: antique and vintage shops line the historic downtown.",
+        "danceTheatre": "Cinnabar Theater (opera and musical theatre) and the youth-run Phoenix Theater.",
+        "places": [
+          {
+            "name": "Fibershed",
+            "kind": "local fibre network",
+            "url": "https://fibershed.org/",
+            "notes": "Point Reyes non-profit for locally grown, dyed and sewn clothing, with workshops and markets."
+          },
+          {
+            "name": "Dharma Trading Co.",
+            "kind": "dye supplier",
+            "url": "https://www.dharmatrading.com/",
+            "notes": "San Rafael dye house: natural dyes and mordants, undyed silk, cotton and wool."
+          },
+          {
+            "name": "Cinnabar Theater",
+            "kind": "opera and theatre",
+            "url": "https://cinnabartheater.org/",
+            "notes": "Opera, musicals and plays in a former schoolhouse."
+          },
+          {
+            "name": "The Phoenix Theater",
+            "kind": "all-ages youth-run venue",
+            "url": "https://www.thephoenixtheater.com/",
+            "notes": "Concerts and youth arts programmes downtown."
+          }
+        ]
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "Sep-Nov (outdoor harvest on the North Coast)",
+        "notes": "Not a route for Winnie. Licensed farms in Humboldt, Mendocino and Trinity counties hire harvest and trim crews in autumn, but only workers with US work authorization, and because cannabis is still illegal under federal law, cannabis work can harm a visa or immigration case even on a state-licensed farm. Unlicensed cash trimming is illegal and often unsafe. Any paid work in the US, in any industry, needs work authorization."
       }
     }
   }

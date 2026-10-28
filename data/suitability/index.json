@@ -335,116 +335,116 @@
       "climate": [
         {
           "month": "January",
-          "tempHigh": 14,
-          "tempLow": 6,
-          "rainfall": 127,
+          "tempHigh": 14.9,
+          "tempLow": 6.3,
+          "rainfall": 123,
           "daylightHours": 9.8,
           "humidity": 78
         },
         {
           "month": "February",
-          "tempHigh": 16,
-          "tempLow": 7,
-          "rainfall": 107,
-          "daylightHours": 10.9,
+          "tempHigh": 16.4,
+          "tempLow": 6.9,
+          "rainfall": 130,
+          "daylightHours": 10.7,
           "humidity": 75
         },
         {
           "month": "March",
-          "tempHigh": 18,
-          "tempLow": 8,
-          "rainfall": 86,
-          "daylightHours": 12.1,
-          "humidity": 72
+          "tempHigh": 18.1,
+          "tempLow": 7.7,
+          "rainfall": 98,
+          "daylightHours": 11.8,
+          "humidity": 74
         },
         {
           "month": "April",
-          "tempHigh": 19,
-          "tempLow": 9,
-          "rainfall": 38,
-          "daylightHours": 13.4,
-          "humidity": 68
+          "tempHigh": 19.6,
+          "tempLow": 8.2,
+          "rainfall": 46,
+          "daylightHours": 13.1,
+          "humidity": 71
         },
         {
           "month": "May",
-          "tempHigh": 21,
-          "tempLow": 11,
-          "rainfall": 15,
-          "daylightHours": 14.5,
-          "humidity": 66
+          "tempHigh": 21.1,
+          "tempLow": 9.7,
+          "rainfall": 20,
+          "daylightHours": 14.2,
+          "humidity": 72
         },
         {
           "month": "June",
-          "tempHigh": 23,
-          "tempLow": 12,
-          "rainfall": 3,
-          "daylightHours": 15.0,
-          "humidity": 65
+          "tempHigh": 23.4,
+          "tempLow": 10.9,
+          "rainfall": 7,
+          "daylightHours": 14.8,
+          "humidity": 73
         },
         {
           "month": "July",
-          "tempHigh": 24,
-          "tempLow": 13,
+          "tempHigh": 23.4,
+          "tempLow": 11.8,
           "rainfall": 0,
-          "daylightHours": 14.7,
-          "humidity": 68
+          "daylightHours": 14.5,
+          "humidity": 76
         },
         {
           "month": "August",
-          "tempHigh": 24,
-          "tempLow": 13,
+          "tempHigh": 23.7,
+          "tempLow": 12.3,
           "rainfall": 1,
-          "daylightHours": 13.8,
-          "humidity": 69
+          "daylightHours": 13.6,
+          "humidity": 77
         },
         {
           "month": "September",
-          "tempHigh": 25,
-          "tempLow": 13,
-          "rainfall": 5,
-          "daylightHours": 12.5,
-          "humidity": 67
+          "tempHigh": 24.6,
+          "tempLow": 12.0,
+          "rainfall": 3,
+          "daylightHours": 12.4,
+          "humidity": 74
         },
         {
           "month": "October",
-          "tempHigh": 22,
-          "tempLow": 11,
+          "tempHigh": 23.0,
+          "tempLow": 10.9,
           "rainfall": 30,
           "daylightHours": 11.1,
           "humidity": 69
         },
         {
           "month": "November",
-          "tempHigh": 17,
-          "tempLow": 8,
-          "rainfall": 74,
-          "daylightHours": 10.0,
-          "humidity": 74
+          "tempHigh": 18.4,
+          "tempLow": 8.3,
+          "rainfall": 70,
+          "daylightHours": 10.1,
+          "humidity": 72
         },
         {
           "month": "December",
-          "tempHigh": 14,
-          "tempLow": 6,
-          "rainfall": 114,
-          "daylightHours": 9.5,
-          "humidity": 78
+          "tempHigh": 14.8,
+          "tempLow": 6.2,
+          "rainfall": 135,
+          "daylightHours": 9.6,
+          "humidity": 74
         }
       ],
       "seasons": {
         "winter": {
-          "summary": "Mild and rainy. Hills turn green. Great indoor studio time.",
+          "summary": "Mild and wet: highs about 15 \u00b0C, lows 6 \u00b0C, and 120-135 mm of rain a month from December to February. Frost is rare in the flats.",
           "comfort": "cool"
         },
         "spring": {
-          "summary": "Beautiful. Warming, wildflowers in hills.",
+          "summary": "Highs 18-21 \u00b0C, green hills with poppies and lupine in Tilden and Wildcat Canyon; rain ends by May.",
           "comfort": "comfortable"
         },
         "summer": {
-          "summary": "Warmer than SF, less fog. Pleasant 22-25\u00b0C days.",
+          "summary": "Morning fog drifting in through the Golden Gate, then sunny afternoons around 23 \u00b0C. Dry from June to September.",
           "comfort": "comfortable"
         },
         "autumn": {
-          "summary": "Warm and clear through October. Fire season concern.",
+          "summary": "September is the warmest month (about 25 \u00b0C). Dry hills and red-flag fire days until the rains return in late October or November.",
           "comfort": "comfortable"
         }
       },
@@ -452,192 +452,355 @@
         "blooms": [
           {
             "month": "March",
-            "name": "California poppies",
-            "notes": "Tilden Park hillsides"
+            "name": "Wildflowers in Tilden",
+            "notes": "Poppies, lupine and Douglas iris in Tilden and Wildcat Canyon regional parks."
+          },
+          {
+            "month": "May",
+            "name": "Berkeley Rose Garden",
+            "notes": "Terraced 1930s rose garden in north Berkeley, at its peak in May."
           },
           {
             "month": "April",
-            "name": "Rose garden",
-            "notes": "Berkeley Rose Garden in full bloom"
+            "name": "UC Botanical Garden",
+            "notes": "A hillside garden of plants from around the world; a living library for dye and fibre plants."
           }
         ],
         "festivals": [
           {
-            "month": "September",
-            "name": "Solano Stroll",
-            "notes": "Massive street festival"
+            "month": "June",
+            "name": "Berkeley Juneteenth Festival",
+            "notes": "Music, food and community on Adeline Street at Alcatraz (June 21, 2026)."
           },
           {
-            "month": "December",
-            "name": "How Berkeley Can You Be?",
-            "notes": "Quirky parade celebrating Berkeley weirdness"
+            "month": "September",
+            "name": "Solano Stroll",
+            "notes": "Huge street festival along Solano Avenue in Berkeley and Albany."
+          },
+          {
+            "month": "September",
+            "name": "Cal Performances season opens",
+            "notes": "The university's season of world music, dance and theatre runs from autumn to spring."
           }
         ],
         "naturalPhenomena": [
           {
-            "season": "spring",
+            "season": "winter",
             "name": "Newt migration",
-            "notes": "Newts cross roads in Tilden after rains"
+            "notes": "California newts cross South Park Drive in Tilden after winter rains; the road closes to cars from November to March to protect them."
           },
           {
-            "season": "fall",
-            "name": "Raptor migration",
-            "notes": "Hawks visible from hills"
+            "season": "winter",
+            "name": "Burrowing owls",
+            "notes": "Wintering burrowing owls at C\u00e9sar Ch\u00e1vez Park on the Berkeley Marina."
+          },
+          {
+            "season": "summer",
+            "name": "Fog through the Gate",
+            "notes": "From the hills you can watch the fog pour through the Golden Gate on summer evenings."
           }
         ]
       },
       "ceramicsEcosystem": {
         "studios": [
           {
+            "name": "The Potters' Studio",
+            "url": "https://www.thepottersstudio.org",
+            "notes": "Long-running non-profit studio in West Berkeley with memberships, classes and visiting-artist workshops; its teaching roster is a who's who of Bay Area potters."
+          },
+          {
+            "name": "Moon Jelly Ceramics",
+            "url": "https://www.moonjellyceramics.com/",
+            "notes": "Small queer, BIPOC and woman-owned studio (opened September 2025) built around slow making, with 6-week classes, clay nights and sliding-scale spots."
+          },
+          {
+            "name": "Berkeley Art Studio (UC Berkeley)",
+            "url": "https://artstudio.berkeley.edu/ceramics",
+            "notes": "UC Berkeley's public art studio, with weekly ceramics classes (6-9 weeks) open to the community."
+          },
+          {
+            "name": "UC Berkeley Art Practice: Ceramics",
+            "url": "https://art.berkeley.edu",
+            "notes": "University ceramics area with a glaze lab, plaster mold room, car kiln and decal printer, overseen by artist Cathy Lu with ceramic artist Ehren Tool running the studio."
+          },
+          {
+            "name": "Kids 'N' Clay",
+            "url": "https://kidsnclay.com/",
+            "notes": "A long-running children's clay studio with nationally recognised wet-clay programmes, weekly classes, Monday day camps, summer camps and one-time visits."
+          },
+          {
+            "name": "Cass Ceramics",
+            "url": "https://cassceramics.com",
+            "notes": "Albany community ceramics studio with wheel and handbuilding classes and members with 24x7 access."
+          },
+          {
+            "name": "Mudworks Studio",
+            "url": "https://www.mudworks-pottery.com/",
+            "notes": "Inclusive El Cerrito studio with wheel, hand-building and slip-casting classes, 24/7 memberships and a work-exchange track."
+          },
+          {
+            "name": "Jered's Pottery",
+            "url": "https://jeredspottery.com/",
+            "notes": "Emeryville production dinnerware studio of Jered Nelson, with small monthly throwing clinics."
+          },
+          {
             "name": "Kala Art Institute",
-            "url": "https://www.kala.org/",
-            "notes": "Printmaking and ceramics programs"
-          },
-          {
-            "name": "The Crucible",
-            "url": "https://www.thecrucible.org/",
-            "notes": "Industrial arts center with ceramics classes"
-          },
-          {
-            "name": "UC Berkeley Extension",
-            "url": null,
-            "notes": null
-          },
-          {
-            "name": "East Bay Clay (Emeryville)",
-            "url": null,
-            "notes": null
-          },
-          {
-            "name": "NIAD Art Center",
-            "url": null,
-            "notes": null
-          },
-          {
-            "name": "Berkeley Potter's Studio",
-            "url": "https://www.berkeleypottersstudio.com/",
-            "notes": "Community studio and classes"
-          },
-          {
-            "name": "UC Berkeley Art Practice",
-            "url": "https://art.berkeley.edu/",
-            "notes": "University ceramics program"
+            "url": "https://www.kala.org",
+            "notes": "West Berkeley print and media centre with residencies and a rentable print room (ceramics is not its focus)."
           }
         ],
         "suppliers": [
           {
-            "name": "Leslie Ceramics Supply",
-            "url": "https://www.leslieceramics.com/",
-            "notes": "Berkeley-based ceramic supply, comprehensive inventory"
+            "name": "Douglas & Sturgess (Richmond)",
+            "url": "https://douglasandsturgess.com",
+            "notes": "The nearest clay counter now that Leslie Ceramic Supply has closed: Laguna B-Mix, plasters and tools, about 15 minutes north in Richmond."
           },
           {
-            "name": "Axner (ships)",
-            "url": null,
-            "notes": null
+            "name": "Stonemountain & Daughter Fabrics",
+            "url": "https://stonemountainfabric.com",
+            "notes": "Textiles: big fabric store with deep linen, Japanese and Indian-import shelves and its own sewing classes."
           },
           {
-            "name": "Laguna Clay (ships)",
-            "url": null,
-            "notes": null
+            "name": "ImagiKnit (Berkeley)",
+            "url": "https://imagiknit.com",
+            "notes": "Textiles: yarn shop in the Elmwood with its own classes."
           },
           {
-            "name": "Clay Planet",
-            "url": "https://www.clay-planet.com/",
-            "notes": "San Jose based, serves Bay Area"
+            "name": "Hida Tool & Hardware",
+            "url": "https://hidatool.com",
+            "notes": "Japanese hand tools for carving, woodworking and the kitchen; trimming and carving tools for clay too."
           }
         ],
         "galleries": [
           {
-            "name": "BAMPFA",
-            "url": "https://bampfa.org/",
-            "notes": "UC Berkeley Art Museum with ceramics in collection"
+            "name": "Berkeley Potters Guild",
+            "url": "https://berkeleypotters.com/",
+            "notes": "Guild of working potters with a members-run gallery (Saturdays 11am-5pm) and seasonal sales."
           },
           {
-            "name": "Kala Gallery",
-            "url": null,
-            "notes": null
+            "name": "Lacis Museum of Lace and Textiles",
+            "url": "https://lacismuseum.org",
+            "notes": "Free lace and textile museum joined to a textile-arts shop and class programme."
           },
           {
-            "name": "The Compound Gallery",
-            "url": null,
-            "notes": null
+            "name": "BAMPFA (Berkeley Art Museum and Pacific Film Archive)",
+            "url": "https://bampfa.org",
+            "notes": "UC Berkeley's art museum and cinema, with talks, conversations and hands-on workshops alongside its exhibitions."
           },
           {
-            "name": "Oakland Museum of California",
-            "url": null,
-            "notes": null
-          },
-          {
-            "name": "Creativity Explored",
-            "url": null,
-            "notes": null
-          },
-          {
-            "name": "Trax Gallery",
-            "url": "https://www.traxgallery.com/",
-            "notes": "Contemporary craft and ceramics in downtown Berkeley"
+            "name": "Berkeley Art Center",
+            "url": "https://www.berkeleyartcenter.org",
+            "notes": "Berkeley community art centre with exhibitions of Bay Area artists and a member directory."
           }
         ],
-        "community": "Strong university and arts community. Home to Leslie Ceramics Supply, major regional supplier. Active potter community with multiple studios."
+        "community": "Berkeley is the old heart of East Bay ceramics: The Potters' Studio, the Berkeley Potters Guild, UC Berkeley's Art Practice ceramics (Cathy Lu, with Ehren Tool running the studio) and the public Berkeley Art Studio. Leslie Ceramic Supply, long the local supplier, has closed, so clay now comes from Douglas & Sturgess in Richmond or Clay Planet. Fibre is very strong: Stonemountain & Daughter, the Lacis Museum, ImagiKnit, and the Golden Gate Weavers and Spindles & Flyers guilds."
       },
       "probabilityOfChili": {
         "score": 50,
         "rating": "Moderate",
-        "nearest": "Picante (Albany), various taquerias",
-        "notes": "Strong taqueria scene, less dedicated chili. Bongo Burger has a spicy option."
+        "nearest": "Tacubaya (Fourth Street); Ethiopian kitchens on Telegraph Avenue",
+        "notes": "No dedicated chili spot. Tacubaya's Mexico City-style antojitos and the Ethiopian kitchens on Telegraph bring the heat, and Berkeley Bowl's chile shelves let you cook your own."
       },
       "creepyCrawlies": {
         "mosquitoes": "low",
         "spiders": "moderate",
-        "snakes": "moderate in hills",
-        "other": "Deer and wild turkeys common in hills"
+        "snakes": "moderate in the hills (rattlesnakes in Tilden and Wildcat Canyon)",
+        "other": "Ticks and poison oak in the hill parks; deer and wild turkeys in north Berkeley gardens."
       },
-      "practicalNotes": "Major ceramics hub. UC Berkeley ceramics program. KALA Art Institute. Strong creative community.",
+      "practicalNotes": "A small city built around the university: studios, fibre shops and some of the Bay's best food markets, with BART to San Francisco in about 25 minutes. Housing is tight (much of it rented to students) and priced between Oakland and San Francisco.",
+      "indigenousTraditions": {
+        "peoples": [
+          "Lisjan (Chochenyo) Ohlone",
+          "Muwekma Ohlone"
+        ],
+        "ceramicsHeritage": "Berkeley is Huchiun, part of the land of Chochenyo-speaking Ohlone people. Ohlone craft is basketry, not pottery. The West Berkeley Shellmound and Village Site at 1900 Fourth Street, thousands of years old and long buried under a parking lot, was bought and returned to the Sogorea Te' Land Trust in April 2024 with City of Berkeley support.",
+        "respectfulEngagement": "Support Sogorea Te' Land Trust (Shuumi Land Tax), and eat at Caf\u00e9 Ohlone by mak-'amham, where Vincent Medina (Chochenyo Ohlone) and Louis Trevino (Rumsen Ohlone) serve Ohlone foods on the UC Berkeley campus on a seasonal schedule (check makamham.com). The Phoebe A. Hearst Museum of Anthropology holds Native collections with a difficult history; its galleries were closed at last check."
+      },
       "probabilityOfCoffee": {
         "score": 92,
         "rating": "Excellent",
         "roasters": [
-          "Peet's (born here!)",
-          "Equator",
-          "Highwire",
-          "Blue Bottle nearby"
+          "Peet's Coffee (first shop at Vine and Walnut, 1966)",
+          "Highwire Coffee Roasters",
+          "Equator Coffees"
         ],
-        "notes": "Peet's Coffee started here in 1966. Alfred Peet trained Starbucks founders. Coffee birthplace."
+        "notes": "Alfred Peet opened his first shop in north Berkeley in 1966 and taught the founders of Starbucks to roast. Good caf\u00e9s on every shopping street."
       },
       "localDessert": {
-        "signature": "Chez Panisse desserts, farmers market fruit",
+        "signature": "Cheese Board scones and morning breads; a perfect peach from the Saturday market",
         "bakeries": [
-          "Tartine nearby",
-          "Semifreddi's",
-          "La Farine"
+          "The Cheese Board Collective",
+          "Acme Bread",
+          "Arizmendi Bakery (Emeryville)",
+          "Boichik Bagels"
         ],
-        "notes": "Farm-to-table desserts. Alice Waters influence."
+        "notes": "Farm-to-table sweets: in summer, the farmers' market fruit is the dessert."
       },
       "beachAccess": {
-        "distance": "30 min",
-        "type": "Pacific Ocean / SF Bay",
+        "distance": "10-45 min",
+        "type": "San Francisco Bay / Pacific",
         "beaches": [
-          "Alameda Beach",
-          "Ocean Beach SF (30 min)"
+          "Berkeley Marina and C\u00e9sar Ch\u00e1vez Park (bay shore)",
+          "Crown Memorial State Beach, Alameda (20 min)",
+          "Ocean Beach, San Francisco (45 min)"
         ],
-        "swimmable": "Cold",
-        "notes": "Bay Area beaches. SF beaches across the bridge."
-      },
-      "indigenousTraditions": {
-        "peoples": [
-          "Ohlone (Chochenyo)",
-          "Muwekma Ohlone"
-        ],
-        "ceramicsHeritage": "Ohlone focused on basketry, not pottery. Shellmounds were sacred (many destroyed including at Emeryville). UC Berkeley built on Ohlone land.",
-        "respectfulEngagement": "Phoebe A. Hearst Museum has complex history with Native collections. Ohlone resurgence ongoing. Support Sogorea Te' Land Trust."
+        "swimmable": "Cold bay water; Crown Beach in Alameda is the nearest calm swim, with a wetsuit. Lake Anza in Tilden has a summer swim beach when water quality allows.",
+        "notes": "The Bay Trail along the marina is the everyday shoreline; the open Pacific is across the bay in San Francisco or Marin."
       },
       "practicalInfo": {
-        "language": "English",
-        "visaInfo": "90 days visa-free (ESTA) for most countries",
-        "healthcareAccess": "Private system, travel insurance essential",
+        "language": "English (Spanish widely spoken)",
+        "visaInfo": "Rwandan citizens need a US visa: a B-1/B-2 visitor visa for visits, applied for at the US Embassy in Kigali. ESTA and 90-day visa-free entry are only for citizens of Visa Waiver Program countries, and Rwanda is not one. Working or teaching for pay needs a separate status with work authorization (for example an O-1 artist visa or an employer-sponsored visa). US visa rules changed often in 2025-26, so check travel.state.gov and the embassy before applying.",
+        "healthcareAccess": "Private, insurance-based system: an uninsured visit to a doctor or emergency room is very expensive. Visitors need travel medical insurance; residents usually get cover through an employer or Covered California. Community health clinics offer sliding-scale care.",
         "internetQuality": "Excellent",
-        "notes": "Major ceramics hub. UC Berkeley ceramics program. KALA Art Institute. Strong creative community."
-      }
+        "notes": "A small city built around the university: studios, fibre shops and some of the Bay's best food markets, with BART to San Francisco in about 25 minutes. Housing is tight (much of it rented to students) and priced between Oakland and San Francisco."
+      },
+      "foodScene": {
+        "score": 92,
+        "rating": "Exceptional",
+        "notes": "Berkeley is where California cooking learned to start at the market. Three Ecology Center farmers' markets a week, Berkeley Bowl's produce hall and the Cheese Board co-op make home cooking a joy, and Telegraph Avenue has Ethiopian kitchens for nights you want someone else to make the injera.",
+        "favorites": [
+          {
+            "name": "Downtown Berkeley Farmers' Market",
+            "what": "Ecology Center market, Saturdays 10am-2:30pm (also Tuesdays in South Berkeley and Thursdays in North Berkeley)",
+            "neighborhood": "Downtown (Center St)",
+            "url": "https://ecologycenter.org/food-farming/berkeley-farmers-markets/"
+          },
+          {
+            "name": "Berkeley Bowl",
+            "what": "Vast produce hall with greens, chiles and fruit you won't find elsewhere",
+            "neighborhood": "South Berkeley (also West Berkeley)",
+            "url": "https://www.berkeleybowl.com/"
+          },
+          {
+            "name": "Monterey Market",
+            "what": "Family-run produce market with cheap, beautiful fruit",
+            "neighborhood": "North Berkeley (Hopkins St)",
+            "url": "https://www.montereymarket.com/"
+          },
+          {
+            "name": "The Cheese Board Collective",
+            "what": "Worker co-op bakery, cheese counter and one-pizza-a-day pizzeria",
+            "neighborhood": "North Berkeley (Shattuck Ave)",
+            "url": "https://cheeseboardcollective.coop/"
+          },
+          {
+            "name": "Meskie's Kitchen",
+            "what": "Ethiopian home cooking on Telegraph (formerly Ethiopia Restaurant)",
+            "neighborhood": "Telegraph Ave (2955 Telegraph)",
+            "url": "https://www.instagram.com/meskisberkeley/"
+          },
+          {
+            "name": "Tacubaya",
+            "what": "Mexico City-style breakfasts, tamales and churros",
+            "neighborhood": "Fourth Street",
+            "url": "https://www.tacubaya.net/"
+          },
+          {
+            "name": "Acme Bread",
+            "what": "Legendary bakery; buy a loaf still warm",
+            "neighborhood": "West Berkeley (San Pablo Ave)",
+            "url": "https://www.acmebread.com/"
+          },
+          {
+            "name": "Chez Panisse",
+            "what": "Alice Waters' 1971 restaurant; the upstairs caf\u00e9 is the gentler splurge",
+            "neighborhood": "North Berkeley (Shattuck Ave)",
+            "url": "https://www.chezpanisse.com/"
+          }
+        ]
+      },
+      "liveMusic": {
+        "score": 88,
+        "rating": "Excellent",
+        "notes": "Folk and roots at the Freight, world music and dance at Ashkenaz, big outdoor nights at the Greek Theatre and Cal Performances' global season: Berkeley punches far above its size.",
+        "venues": [
+          {
+            "name": "Freight & Salvage",
+            "kind": "folk and roots hall",
+            "neighborhood": "Downtown (Addison St)",
+            "url": "https://www.thefreight.org/"
+          },
+          {
+            "name": "Ashkenaz",
+            "kind": "world music and dance hall",
+            "neighborhood": "West Berkeley (San Pablo Ave)",
+            "url": "https://www.ashkenaz.com/"
+          },
+          {
+            "name": "The UC Theatre",
+            "kind": "mid-size music hall",
+            "neighborhood": "Downtown",
+            "url": "https://www.theuctheatre.org/"
+          },
+          {
+            "name": "Greek Theatre",
+            "kind": "outdoor amphitheatre",
+            "neighborhood": "UC Berkeley campus",
+            "url": "https://thegreekberkeley.com/"
+          },
+          {
+            "name": "Cal Performances",
+            "kind": "concert halls (world music, dance, classical)",
+            "neighborhood": "UC Berkeley campus",
+            "url": "https://calperformances.org/"
+          },
+          {
+            "name": "Berkeley Symphony",
+            "kind": "symphony",
+            "neighborhood": "Zellerbach Hall",
+            "url": "https://www.berkeleysymphony.org/"
+          },
+          {
+            "name": "Cornerstone",
+            "kind": "bar and club",
+            "neighborhood": "Telegraph Ave",
+            "url": "https://www.cornerstoneberkeley.com/"
+          }
+        ]
+      },
+      "everydayLife": {
+        "markets": [
+          "Downtown Berkeley Farmers' Market (Sat 10am-2:30pm)",
+          "South Berkeley Farmers' Market, Adeline and 63rd (Tue 2-6:30pm)",
+          "North Berkeley Farmers' Market, Shattuck and Vine (Thu 3-7pm)",
+          "Berkeley Bowl and Monterey Market"
+        ],
+        "walks": [
+          {
+            "name": "Tilden Regional Park and Inspiration Point",
+            "notes": "Oak and grassland ridges with bay views; the paved Nimitz Way is easy walking."
+          },
+          {
+            "name": "Berkeley Rose Garden and Codornices Park",
+            "notes": "Terraced roses and a creekside park across the street."
+          },
+          {
+            "name": "Berkeley Marina and C\u00e9sar Ch\u00e1vez Park",
+            "notes": "Flat bayside loop with kites, owls and Golden Gate views."
+          },
+          {
+            "name": "The Berkeley hill paths",
+            "notes": "Dozens of public stairways and footpaths thread through the hills between the streets."
+          }
+        ],
+        "gettingAround": "BART (Downtown Berkeley, Ashby, North Berkeley) reaches San Francisco in about 25 minutes, and AC Transit buses cover the rest. Berkeley is one of the best bike towns in the Bay, flat in the west with signed bicycle boulevards; the hills are steep.",
+        "neighborhoods": [
+          {
+            "name": "West Berkeley",
+            "why": "The Potters' Studio, Kala, Kids 'N' Clay, Hida Tool and Acme Bread, with Moon Jelly in the southwest; warehouses, light industry, Fourth Street shops and the Bay Trail."
+          },
+          {
+            "name": "South Berkeley / Ashby",
+            "why": "Ashby BART, the Lacis Museum, the Tuesday market and Juneteenth on Adeline: more affordable by Berkeley standards and changing fast."
+          },
+          {
+            "name": "North Berkeley / Albany",
+            "why": "Cheese Board, Monterey Market, Cass Ceramics in Albany and Mudworks in El Cerrito: quiet, leafy and pricey, with BART at North Berkeley and El Cerrito Plaza."
+          }
+        ],
+        "notes": "Rents sit between Oakland's and San Francisco's, and August (when students arrive) is the hardest month to find a place."
+      },
+      "forWinnie": "Berkeley is a town built around making, reading and eating well: The Potters' Studio and the Berkeley Potters Guild are classic East Bay pottery institutions, Stonemountain & Daughter and the Lacis Museum will feed your weaving, and Berkeley Bowl's produce aisles would make any cook happy. The weather is gentler than San Francisco's, with sunny afternoons, but winters are wet and cool (about 15 \u00b0C). It's expensive and student-heavy, yet smaller and calmer than the cities around it, and there's Ethiopian food on Telegraph Avenue."
     },
     "Chico, California, USA": {
       "location": "Chico, California, USA",
@@ -5064,116 +5227,116 @@
       "climate": [
         {
           "month": "January",
-          "tempHigh": 14,
-          "tempLow": 8,
+          "tempHigh": 14.3,
+          "tempLow": 8.1,
           "rainfall": 112,
           "daylightHours": 9.8,
-          "humidity": 80
-        },
-        {
-          "month": "February",
-          "tempHigh": 15,
-          "tempLow": 9,
-          "rainfall": 97,
-          "daylightHours": 10.9,
           "humidity": 78
         },
         {
+          "month": "February",
+          "tempHigh": 15.8,
+          "tempLow": 8.8,
+          "rainfall": 111,
+          "daylightHours": 10.7,
+          "humidity": 76
+        },
+        {
           "month": "March",
-          "tempHigh": 16,
-          "tempLow": 9,
-          "rainfall": 79,
-          "daylightHours": 12.1,
-          "humidity": 75
+          "tempHigh": 16.7,
+          "tempLow": 9.4,
+          "rainfall": 80,
+          "daylightHours": 11.8,
+          "humidity": 74
         },
         {
           "month": "April",
-          "tempHigh": 17,
-          "tempLow": 10,
-          "rainfall": 36,
-          "daylightHours": 13.4,
-          "humidity": 72
+          "tempHigh": 17.2,
+          "tempLow": 9.8,
+          "rainfall": 41,
+          "daylightHours": 13.1,
+          "humidity": 70
         },
         {
           "month": "May",
-          "tempHigh": 18,
-          "tempLow": 11,
-          "rainfall": 15,
-          "daylightHours": 14.5,
+          "tempHigh": 17.8,
+          "tempLow": 10.8,
+          "rainfall": 18,
+          "daylightHours": 14.2,
           "humidity": 71
         },
         {
           "month": "June",
-          "tempHigh": 19,
-          "tempLow": 12,
-          "rainfall": 3,
-          "daylightHours": 15.0,
-          "humidity": 72
+          "tempHigh": 19.2,
+          "tempLow": 11.7,
+          "rainfall": 5,
+          "daylightHours": 14.8,
+          "humidity": 70
         },
         {
           "month": "July",
-          "tempHigh": 19,
-          "tempLow": 13,
+          "tempHigh": 19.1,
+          "tempLow": 12.4,
           "rainfall": 0,
-          "daylightHours": 14.7,
-          "humidity": 75
+          "daylightHours": 14.5,
+          "humidity": 74
         },
         {
           "month": "August",
-          "tempHigh": 20,
-          "tempLow": 13,
-          "rainfall": 1,
-          "daylightHours": 13.8,
-          "humidity": 75
+          "tempHigh": 19.9,
+          "tempLow": 13.1,
+          "rainfall": 2,
+          "daylightHours": 13.6,
+          "humidity": 74
         },
         {
           "month": "September",
-          "tempHigh": 21,
-          "tempLow": 13,
-          "rainfall": 5,
-          "daylightHours": 12.5,
-          "humidity": 73
+          "tempHigh": 21.2,
+          "tempLow": 13.1,
+          "rainfall": 2,
+          "daylightHours": 12.4,
+          "humidity": 72
         },
         {
           "month": "October",
-          "tempHigh": 20,
-          "tempLow": 12,
-          "rainfall": 28,
+          "tempHigh": 21.0,
+          "tempLow": 12.4,
+          "rainfall": 24,
           "daylightHours": 11.1,
-          "humidity": 73
+          "humidity": 68
         },
         {
           "month": "November",
-          "tempHigh": 17,
-          "tempLow": 10,
-          "rainfall": 64,
-          "daylightHours": 10.0,
-          "humidity": 77
+          "tempHigh": 17.6,
+          "tempLow": 10.4,
+          "rainfall": 66,
+          "daylightHours": 10.1,
+          "humidity": 73
         },
         {
           "month": "December",
-          "tempHigh": 14,
-          "tempLow": 8,
-          "rainfall": 99,
-          "daylightHours": 9.5,
-          "humidity": 80
+          "tempHigh": 14.4,
+          "tempLow": 8.3,
+          "rainfall": 121,
+          "daylightHours": 9.6,
+          "humidity": 75
         }
       ],
       "seasons": {
         "winter": {
-          "summary": "Mild and rainy. Green hills. Never freezing.",
+          "summary": "Mild and wet: highs 14-16 \u00b0C, lows near 8 \u00b0C, and most of the year's rain (about 110-120 mm a month from December to February). Frost is very rare. Steady studio weather, but damp, so greenware dries slowly.",
           "comfort": "cool"
         },
         "spring": {
-          "summary": "Warming but still cool. Fog decreasing.",
+          "summary": "Highs 16-18 \u00b0C, rain fading by April. Windy afternoons, and the fog season builds through May.",
           "comfort": "cool"
         },
         "summer": {
-          "summary": "Famous fog. Cool, often 15-18\u00b0C when inland hits 38\u00b0C. Bring layers.",
+          "summary": "Fog season: downtown highs only 19-20 \u00b0C, cooler and greyer on the west side (Sunset, Richmond) while inland towns pass 30 \u00b0C. Almost no rain from June to September. Carry a warm layer every day.",
           "comfort": "cool"
         },
         "autumn": {
-          "summary": "Best weather! 'Indian summer' in Sept-Oct. Warm and clear.",
+          "summary": "The real summer: September and October are the warmest, clearest months (highs about 21 \u00b0C). The first rains usually return in late October or November; smoke from wildfires elsewhere in California drifts in some years.",
           "comfort": "comfortable"
         }
       },
@@ -5181,200 +5344,482 @@
         "blooms": [
           {
             "month": "February",
+            "name": "Magnolias",
+            "notes": "The magnolia collection in the Gardens of Golden Gate Park (San Francisco Botanical Garden) peaks from January to March."
+          },
+          {
+            "month": "February",
             "name": "Acacia",
-            "notes": "Golden mimosa trees throughout city"
+            "notes": "Yellow acacia trees light up streets and parks in late winter."
           },
           {
-            "month": "March",
+            "month": "April",
             "name": "Cherry blossoms",
-            "notes": "Japantown Peace Plaza, Golden Gate Park"
+            "notes": "Japanese Tea Garden in Golden Gate Park and Japantown, in time for the Cherry Blossom Festival."
           },
           {
-            "month": "June",
-            "name": "Hydrangeas",
-            "notes": "Blue and purple in foggy neighborhoods"
+            "month": "August",
+            "name": "Dahlias",
+            "notes": "The Dahlia Garden beside the Conservatory of Flowers, best in late summer; the dahlia is San Francisco's official flower."
           }
         ],
         "festivals": [
           {
+            "month": "February",
+            "name": "Chinese New Year Festival & Parade",
+            "notes": "One of the biggest Lunar New Year night parades outside Asia, through Union Square and Chinatown (January or February)."
+          },
+          {
+            "month": "April",
+            "name": "Northern California Cherry Blossom Festival",
+            "notes": "Two April weekends in Japantown; the 60th edition is April 10-11 and 17-18, 2027."
+          },
+          {
             "month": "May",
-            "name": "Bay Area Maker Faire",
-            "notes": "Massive DIY/craft festival"
+            "name": "Carnaval San Francisco",
+            "notes": "Latin American and Caribbean music and dance parade in the Mission over Memorial Day weekend (May 29-30, 2027)."
+          },
+          {
+            "month": "June",
+            "name": "Stern Grove Festival",
+            "notes": "Free Sunday afternoon concerts in a eucalyptus grove, June to August."
           },
           {
             "month": "September",
-            "name": "Sausalito Art Festival",
-            "notes": "Just across the bridge, 260+ artists"
+            "name": "ArtSpan SF Open Studios",
+            "notes": "Hundreds of artists open their studios over neighbourhood weekends from mid-September to late October."
           },
           {
             "month": "October",
-            "name": "Open Studios",
-            "notes": "SF Artists Organization open studios weekends"
+            "name": "Hardly Strictly Bluegrass",
+            "notes": "Free three-day music festival in Golden Gate Park on the first weekend of October."
+          },
+          {
+            "month": "November",
+            "name": "Holiday craft fairs at Fort Mason",
+            "notes": "Renegade Craft (Nov 14-15, 2026) and West Coast Craft, where many Bay Area potters sell."
           }
         ],
         "naturalPhenomena": [
           {
             "season": "summer",
-            "name": "Karl the Fog",
-            "notes": "Famous fog rolls through Golden Gate daily"
+            "name": "The fog",
+            "notes": "Fog pours through the Golden Gate most summer afternoons; locals call it Karl."
           },
           {
             "season": "fall",
-            "name": "Indian summer",
-            "notes": "September-October warmest months"
+            "name": "Warm season",
+            "notes": "September and October are the warmest, sunniest months."
           },
           {
             "season": "winter",
             "name": "King tides",
-            "notes": "Dramatic high tides, waterfront flooding"
+            "notes": "The year's highest tides wash over low parts of the shoreline in December and January."
+          },
+          {
+            "season": "winter",
+            "name": "Gray whales",
+            "notes": "Gray whales migrate along the coast from December to April; Point Reyes, an hour north, is the best place to see them."
           }
         ]
       },
       "ceramicsEcosystem": {
         "studios": [
           {
-            "name": "The Crucible",
-            "url": null,
-            "notes": null
+            "name": "The Pottery Studio (San Francisco)",
+            "url": "https://thepotterystudio.com/pages/san-francisco",
+            "notes": "High-ceilinged Mission District studio at Folsom and 20th: monthly classes, workshops and memberships with 24-hour access, firing to cone 10."
           },
           {
-            "name": "Sharon Art Studio (Golden Gate Park)",
-            "url": null,
-            "notes": null
+            "name": "Clayroom SoMa",
+            "url": "https://www.clayroomsoma.com",
+            "notes": "Community ceramics studio on 9th Street between Bryant and Harrison, with memberships for independent potters and six-week wheel and hand-building classes."
           },
           {
-            "name": "SCRAP (materials reuse)",
-            "url": null,
-            "notes": null
+            "name": "Clayroom Potrero",
+            "url": "https://www.clayroomsf.com",
+            "notes": "Clayroom's Potrero Hill pottery studio: classes, memberships and kids' programmes."
           },
           {
-            "name": "San Francisco Center for the Book",
-            "url": "https://sfcb.org/",
-            "notes": "Book arts and printmaking"
+            "name": "RedBrick Ceramic Studio",
+            "url": "https://redbrickceramic.com",
+            "notes": "Artist-run nonprofit studio on Mission Street: 24/7 member access, cone 6 electric kilns, your own clay and glazes."
           },
           {
-            "name": "Clayhouse at SFAI",
-            "url": "https://sfai.edu/",
-            "notes": "San Francisco Art Institute (note: closed 2022)"
+            "name": "Artillery Ceramics",
+            "url": "https://www.artillery-ag.com",
+            "notes": "Latinx-owned Mission studio with classes, memberships, seasonal pit firing and summer clay foraging."
           },
           {
-            "name": "Harvey Milk Recreation Center",
-            "url": "https://sfrecpark.org/",
-            "notes": "City pottery classes"
+            "name": "Speckle Studio (formerly Pinckney Clay)",
+            "url": "https://www.specklestudio.com",
+            "notes": "A women-owned community pottery and 2D art studio on Cortland Avenue (the former Pinckney Clay, once at 30th and Mission) with 18 wheels, a backyard, a shop of local artists' work, and youth after-school clay."
+          },
+          {
+            "name": "sfclayworks",
+            "url": "https://www.sfclayworks.com",
+            "notes": "Not-for-profit cooperative pottery studio in the Bayview, running since 2011: private studio spaces and community memberships for independent work."
+          },
+          {
+            "name": "Uncle Paul's Ceramics (Haight Street)",
+            "url": "https://www.unclepaulsceramics.com",
+            "notes": "Cosy family-run studio in the Upper Haight with memberships, six-week courses and one-night workshops (a second studio is in North Beach)."
+          },
+          {
+            "name": "Bisk Clay Studio",
+            "url": "https://biskclaystudio.com",
+            "notes": "Small neighbourhood studio on Noe Street (opened late 2025) with four-week classes and an all-inclusive membership."
+          },
+          {
+            "name": "Studio Ceramica (Mel Rice Ceramica)",
+            "url": "https://www.melriceceramica.com/",
+            "notes": "Community pottery studio in the Outer Richmond (between 25th and 26th Aves) with wheel and handbuilding classes and one-month memberships."
+          },
+          {
+            "name": "Brick and Mortar Studios",
+            "url": "https://www.brickandmortarstudios.com",
+            "notes": "Pottery studio in the Richmond on Geary, with classes and open studio: one of the few on the west side of the city."
+          },
+          {
+            "name": "Wheelhouse Clay Studio",
+            "url": "https://www.wheelhouseclaysf.com/",
+            "notes": "San Francisco ceramics school with 6-week wheel and handbuilding courses and an open-studio membership for graduates."
+          },
+          {
+            "name": "Mission Arts Center (SF Rec & Park)",
+            "url": "https://sfrecpark.org/697/Mission-Arts-Center",
+            "notes": "SF Rec & Park arts centre with a newly updated ceramics studio and low-cost city classes."
+          },
+          {
+            "name": "San Francisco State University School of Art (Ceramics)",
+            "url": "https://art.sfsu.edu/",
+            "notes": "SF State's ceramics area in its BA and MFA programmes, with gas and electric kilns."
           }
         ],
         "suppliers": [
           {
-            "name": "Aardvark Clay (South SF)",
-            "url": null,
-            "notes": null
-          },
-          {
-            "name": "Leslie Ceramics",
-            "url": "https://www.leslieceramics.com/",
-            "notes": "Berkeley-based, serves SF"
-          },
-          {
-            "name": "The Potters Studio supplies",
-            "url": null,
-            "notes": null
+            "name": "Douglas & Sturgess (San Francisco)",
+            "url": "https://douglasandsturgess.com",
+            "notes": "The San Francisco counter of Douglas & Sturgess, handy for picking up plaster, mold rubbers, B-Mix clay and tools without crossing the bay."
           },
           {
             "name": "Clay Planet",
-            "url": "https://www.clay-planet.com/",
-            "notes": "San Jose based"
+            "url": "https://shop.clay-planet.com",
+            "notes": "The biggest ceramic supply counter in the Bay (Santa Clara, about 1 hour south) with an online shop that delivers."
+          },
+          {
+            "name": "SCRAP (creative reuse depot)",
+            "url": "https://www.scrap-sf.org",
+            "notes": "Ruth Asawa's gift to the city: a creative-reuse depot where donated fabric, paper and odd materials are sold cheaply to artists and teachers."
+          },
+          {
+            "name": "Building REsources",
+            "url": "https://buildingresources.org",
+            "notes": "Non-profit salvage yard of reusable building materials, tile and found objects: good hunting for kiln shelves, bricks and odd glaze ingredients."
+          },
+          {
+            "name": "Britex Fabrics",
+            "url": "https://britexfabrics.com",
+            "notes": "Textiles: the city's grand old fabric house near Union Square, with walls of buttons, laces and hand-dyed silk ribbons."
+          },
+          {
+            "name": "ImagiKnit (San Francisco)",
+            "url": "https://imagiknit.com",
+            "notes": "Textiles: deep, colourful yarn shop on 18th Street with its own classes."
+          },
+          {
+            "name": "Atelier Yarns (Divisadero)",
+            "url": "https://atelieryarns.com",
+            "notes": "Textiles: yarn shop with weaving tools and weaving classes on Divisadero."
+          },
+          {
+            "name": "Mendel's (Haight Street)",
+            "url": "https://www.mendels.com",
+            "notes": "Long-running independent art and craft supply store in the Haight."
           }
         ],
         "galleries": [
           {
-            "name": "SFMOMA craft collection",
-            "url": null,
-            "notes": null
-          },
-          {
-            "name": "de Young Museum",
-            "url": "https://www.famsf.org/",
-            "notes": "Fine arts museum"
-          },
-          {
-            "name": "Xanadu Gallery",
-            "url": null,
-            "notes": null
-          },
-          {
-            "name": "Japonesque",
-            "url": null,
-            "notes": null
+            "name": "Heath Ceramics (San Francisco factory)",
+            "url": "https://www.heathceramics.com/pages/locations/san-francisco",
+            "notes": "Heath's Mission District tile factory, showroom and Clay Studio, with factory tours (RSVP)."
           },
           {
             "name": "Asian Art Museum",
-            "url": "https://asianart.org/",
-            "notes": "Major Asian ceramics collection"
+            "url": "https://asianart.org",
+            "notes": "Major Asian art museum with a strong ceramics collection and recent contemporary clay programming, including 'New Japanese Clay', 32 works by 29 Japanese ceramic artists."
+          },
+          {
+            "name": "de Young Museum (textile collection)",
+            "url": "https://www.famsf.org",
+            "notes": "Fine Arts Museums' Golden Gate Park building and its textile collection; Rose B. Simpson's LEXICON is on through Feb 7, 2027."
+          },
+          {
+            "name": "SFMOMA",
+            "url": "https://www.sfmoma.org",
+            "notes": "Modern and contemporary art; 'Go Your Own Way: Northern California Craft, 1945-80', with ceramics, opens Feb 13, 2027."
+          },
+          {
+            "name": "Museum of Craft and Design",
+            "url": "https://sfmcd.org/",
+            "notes": "Craft and design museum in Dogpatch; OBJECTS: USA runs through Jan 17, 2027."
+          },
+          {
+            "name": "Rebecca Camacho Presents",
+            "url": "https://rebeccacamacho.com",
+            "notes": "Contemporary gallery that regularly shows clay, including Oakland ceramist Sahar Khoury and, in 2026, a capsule show of Paige Valentine's coil-built, soda-fired lamps, jars and vessels."
+          },
+          {
+            "name": "Ruby's Clay Studio & Gallery",
+            "url": "https://www.rubysclaystudio.org/gallery",
+            "notes": "Castro community clay studio and gallery with twelve month-long shows a year and work by 50+ artists for sale."
+          },
+          {
+            "name": "Museum of the African Diaspora (MoAD)",
+            "url": "https://www.moadsf.org",
+            "notes": "San Francisco's museum of Black art and culture across the African diaspora, with an Emerging Artist Program and residencies: an important home for a Rwandan maker."
+          },
+          {
+            "name": "Creativity Explored",
+            "url": "https://creativityexplored.org",
+            "notes": "Mission District studio and gallery for artists with developmental disabilities, with an active ceramics practice."
           }
         ],
-        "community": "Major arts city but limited studio access. Asian Art Museum has world-class ceramics collection."
+        "community": "San Francisco has more community studios than ever, from The Pottery Studio, RedBrick and Artillery in the Mission to small neighbourhood studios like Bisk and Speckle, but firing is almost always members-only and wait-lists are common. Clay mostly comes from Douglas & Sturgess (SoMa and Richmond) or Clay Planet in Santa Clara: Leslie Ceramic Supply has closed. Ways in: the San Francisco Ceramic Artists Guild (founded 2025), ArtSpan and Shipyard open studios, the Loom and Shuttle Guild and Textile Arts Council for weaving, and the Fort Mason craft fairs. Clay by the Bay closed in July 2026, and California College of the Arts will close after the 2026-27 academic year."
       },
       "probabilityOfChili": {
-        "score": 55,
+        "score": 50,
         "rating": "Moderate",
-        "nearest": "Halfway Club (Excelsior), Tommy's Joynt",
-        "notes": "Not a chili town, but options exist. Halfway Club has exceptional Cincinnati-style chili cheese fries. Tommy's Joynt does classic diner chili."
+        "nearest": "Mission District taquerias; La Palma Mexicatessen for fresh masa",
+        "notes": "Not a chili town. The Mission's taquerias and La Palma's handmade tortillas and pupusas cover warm, spicy and beany; Rainbow Grocery's bulk bins have the dried chiles and beans to cook your own pot."
       },
       "creepyCrawlies": {
         "mosquitoes": "low",
         "spiders": "low",
         "snakes": "rare",
-        "other": "Urban rats in some neighborhoods"
+        "other": "Rats and raccoons in some neighbourhoods; poison oak and ticks on wilder trails (Lands End, the Presidio)."
       },
-      "practicalNotes": "World-class ceramics community. Heath Ceramics nearby. Expensive but culturally rich. BART connects to Oakland studios.",
+      "practicalNotes": "The most studios, shops and stages in the Bay, and the hardest place to afford: a one-bedroom averaged about $4,000 a month in mid-2026 (Zumper). Excellent transit, so you can live without a car; BART and the ferries reach Oakland and Berkeley studios in 20-30 minutes.",
       "indigenousTraditions": {
         "peoples": [
-          "Ohlone (Ramaytush)",
+          "Ramaytush Ohlone",
           "Muwekma Ohlone"
         ],
-        "ceramicsHeritage": "Ohlone traditions focused on basketry rather than pottery. Shellmounds were significant cultural sites (most destroyed). Contemporary Ohlone artists work in various media.",
-        "respectfulEngagement": "Land acknowledgment important. Ohlone history largely erased but cultural resurgence underway. Support Sogorea Te' Land Trust."
+        "ceramicsHeritage": "The Ramaytush Ohlone are the original people of the San Francisco Peninsula. Ohlone peoples did not make pottery: their great craft traditions are basketry (coiled and twined, decorated with feathers and shell beads), shell-bead and stone work, and the shellmounds built along the bay over thousands of years, almost all of them destroyed by development.",
+        "respectfulEngagement": "The Association of Ramaytush Ohlone (ramaytush.org) speaks for Ramaytush descendants, and the city's official land acknowledgment names them; the Muwekma Ohlone Tribe also has ancestral ties around the Bay. If you want to dig local clay, ask first: collecting earth is banned in most parks (GGNRA, state and regional parks), and some sites are culturally sensitive."
       },
       "probabilityOfCoffee": {
         "score": 95,
         "rating": "God Level",
         "roasters": [
-          "Blue Bottle (born here)",
           "Sightglass",
-          "Ritual",
+          "Ritual Coffee Roasters",
           "Four Barrel",
-          "Equator"
+          "Equator Coffees",
+          "Blue Bottle"
         ],
-        "notes": "Third-wave coffee capital. Pour-over culture originated here. Every neighborhood has quality options."
+        "notes": "One of the world's great coffee cities, and Ethiopian beans are on almost every menu. Ritual, Sightglass and Four Barrel are San Francisco originals; Blue Bottle actually began across the bay in Oakland in 2002."
       },
       "localDessert": {
-        "signature": "Tartine morning bun, Mission burritos (savory but iconic)",
+        "signature": "Tartine's morning bun, and a slice of sourdough country loaf",
         "bakeries": [
-          "Tartine",
-          "B. Patisserie",
-          "Arsicault",
-          "Mr. Holmes Bakehouse"
+          "Tartine Bakery",
+          "Arsicault Bakery",
+          "b. patisserie",
+          "Humphry Slocombe (ice cream)",
+          "Recchiuti Confections (chocolate)"
         ],
-        "notes": "Sourdough bread is the religion. IT'S-IT ice cream sandwiches."
+        "notes": "Sourdough is the city's religion. Arsicault's croissants and b. patisserie's kouign-amann are worth the queue; IT'S-IT ice cream sandwiches are the old local treat."
       },
       "beachAccess": {
-        "distance": "15 min",
-        "type": "Pacific Ocean",
+        "distance": "15-30 min by Muni",
+        "type": "Pacific Ocean / San Francisco Bay",
         "beaches": [
           "Ocean Beach",
           "Baker Beach",
-          "China Beach"
+          "China Beach",
+          "Crissy Field (bay shore)"
         ],
-        "swimmable": "Wetsuit required - water is COLD (50-60\u00b0F)",
-        "notes": "Beautiful but frigid. More for walking than swimming."
+        "swimmable": "Not really: the Pacific is about 12-15 \u00b0C here, and Ocean Beach has strong rip currents. Wetsuit for any swim.",
+        "notes": "Beautiful for long walks and sunsets, not for swimming. China Beach is the small, sheltered one."
       },
       "practicalInfo": {
-        "language": "English",
-        "visaInfo": "90 days visa-free (ESTA) for most countries",
-        "healthcareAccess": "Private system, travel insurance essential",
+        "language": "English (Spanish, Cantonese, Mandarin and Tagalog widely spoken)",
+        "visaInfo": "Rwandan citizens need a US visa: a B-1/B-2 visitor visa for visits, applied for at the US Embassy in Kigali. ESTA and 90-day visa-free entry are only for citizens of Visa Waiver Program countries, and Rwanda is not one. Working or teaching for pay needs a separate status with work authorization (for example an O-1 artist visa or an employer-sponsored visa). US visa rules changed often in 2025-26, so check travel.state.gov and the embassy before applying.",
+        "healthcareAccess": "Private, insurance-based system: an uninsured visit to a doctor or emergency room is very expensive. Visitors need travel medical insurance; residents usually get cover through an employer or Covered California. Community health clinics offer sliding-scale care.",
         "internetQuality": "Excellent",
-        "notes": "World-class ceramics community. Heath Ceramics nearby. Expensive but culturally rich. BART connects to Oakland studios."
-      }
+        "notes": "The most studios, shops and stages in the Bay, and the hardest place to afford: a one-bedroom averaged about $4,000 a month in mid-2026 (Zumper). Excellent transit, so you can live without a car; BART and the ferries reach Oakland and Berkeley studios in 20-30 minutes."
+      },
+      "foodScene": {
+        "score": 92,
+        "rating": "Exceptional",
+        "notes": "You can eat your way from the Ferry Plaza farm stalls to a Mission taqueria in one Saturday. When you miss home, New Eritrea in the Inner Sunset and Sheba Piano Lounge in the Fillmore will bring out injera, shiro and berbere, and Rainbow Grocery's bulk aisles are a cook's playground. There's plenty of fine dining, but many of the best meals here are cheap ones.",
+        "favorites": [
+          {
+            "name": "Ferry Plaza Farmers Market",
+            "what": "The city's showpiece farmers market, run by Foodwise: Saturdays 8am-2pm, also Tuesdays and Thursdays 10am-2pm",
+            "neighborhood": "Embarcadero",
+            "url": "https://foodwise.org/markets/ferry-plaza-farmers-market"
+          },
+          {
+            "name": "Alemany Farmers' Market",
+            "what": "The city-run market, every Saturday 7am-2pm: cheaper and more everyday than Ferry Plaza",
+            "neighborhood": "Bernal Heights",
+            "url": "https://www.sf.gov/location--alemany-farmers-market"
+          },
+          {
+            "name": "Rainbow Grocery",
+            "what": "Worker-owned co-op with huge bulk bins of grains, beans, spices and teas",
+            "neighborhood": "Mission",
+            "url": "https://rainbow.coop/"
+          },
+          {
+            "name": "La Palma Mexicatessen",
+            "what": "Fresh masa, handmade tortillas, tamales and pupusas to take home",
+            "neighborhood": "Mission (24th Street)",
+            "url": "https://lapalmasf.com/"
+          },
+          {
+            "name": "New Eritrea Restaurant",
+            "what": "Eritrean and Ethiopian dishes, with a long vegetarian and vegan menu; a Sunset fixture since the 1990s",
+            "neighborhood": "Inner Sunset (907 Irving St)",
+            "url": "https://www.theinfatuation.com/san-francisco/guides/best-ethiopian-restaurants-sf"
+          },
+          {
+            "name": "Sheba Piano Lounge",
+            "what": "Ethiopian food with live jazz most nights",
+            "neighborhood": "Fillmore",
+            "url": "https://www.shebapianolounge.com/"
+          },
+          {
+            "name": "Burma Superstar",
+            "what": "Tea leaf salad and Burmese curries",
+            "neighborhood": "Inner Richmond (Clement St)",
+            "url": "https://www.burmasuperstar.com/"
+          },
+          {
+            "name": "Tartine Bakery",
+            "what": "Morning buns, country loaves and tarts",
+            "neighborhood": "Mission",
+            "url": "https://tartinebakery.com/"
+          },
+          {
+            "name": "Zuni Caf\u00e9",
+            "what": "The splurge: roast chicken and bread salad from the wood oven, since 1979",
+            "neighborhood": "Hayes Valley / Market St",
+            "url": "https://zunicafe.com/"
+          }
+        ]
+      },
+      "liveMusic": {
+        "score": 92,
+        "rating": "Exceptional",
+        "notes": "From free Sunday concerts in Stern Grove to world-class jazz at SFJAZZ, there's music most nights at every price. Summer and early autumn bring the big free outdoor series; winter is the season for the Symphony and the small clubs.",
+        "venues": [
+          {
+            "name": "Stern Grove Festival",
+            "kind": "free outdoor series",
+            "neighborhood": "Sunset (Stern Grove)",
+            "url": "https://www.sterngrove.org/"
+          },
+          {
+            "name": "SFJAZZ Center",
+            "kind": "jazz hall",
+            "neighborhood": "Hayes Valley",
+            "url": "https://www.sfjazz.org/"
+          },
+          {
+            "name": "San Francisco Symphony (Davies Symphony Hall)",
+            "kind": "symphony",
+            "neighborhood": "Civic Center",
+            "url": "https://www.sfsymphony.org/"
+          },
+          {
+            "name": "Great American Music Hall",
+            "kind": "historic small hall",
+            "neighborhood": "Tenderloin",
+            "url": "https://gamh.com/"
+          },
+          {
+            "name": "The Fillmore",
+            "kind": "rock and pop hall",
+            "neighborhood": "Fillmore",
+            "url": "https://www.thefillmore.com/"
+          },
+          {
+            "name": "Black Cat",
+            "kind": "jazz supper club",
+            "neighborhood": "Tenderloin",
+            "url": "https://blackcatsf.com/"
+          },
+          {
+            "name": "Bird & Beckett Books & Records",
+            "kind": "jazz in a bookshop",
+            "neighborhood": "Glen Park",
+            "url": "https://birdbeckett.com/"
+          },
+          {
+            "name": "Yerba Buena Gardens Festival",
+            "kind": "free outdoor series",
+            "neighborhood": "SoMa (Yerba Buena Gardens)",
+            "url": "https://ybgfestival.org/"
+          },
+          {
+            "name": "Hardly Strictly Bluegrass",
+            "kind": "free outdoor festival",
+            "neighborhood": "Golden Gate Park",
+            "url": "https://hardlystrictlybluegrass.com/"
+          }
+        ]
+      },
+      "everydayLife": {
+        "markets": [
+          "Ferry Plaza Farmers Market (Sat 8am-2pm; Tue and Thu 10am-2pm)",
+          "Alemany Farmers' Market, Bernal Heights (Sat 7am-2pm)",
+          "Heart of the City Farmers Market, UN Plaza (Wed and Sun 7am-4pm)",
+          "Clement Street Farmers Market, Inner Richmond (Sun 9am-2pm)",
+          "Rainbow Grocery for bulk staples"
+        ],
+        "walks": [
+          {
+            "name": "Lands End Trail",
+            "notes": "Cypress-lined cliffs, shipwreck coves and the Sutro Baths ruins on the city's northwest corner."
+          },
+          {
+            "name": "Golden Gate Park to Ocean Beach",
+            "notes": "About 5 km of gardens, lakes and the bison paddock, ending at the sea."
+          },
+          {
+            "name": "Bernal Heights Park",
+            "notes": "A short climb from the Mission studios to a grassy hilltop with views all round."
+          },
+          {
+            "name": "Crissy Field and the Golden Gate Bridge",
+            "notes": "Flat bayside path to the bridge; on a clear day, walk across to Marin."
+          }
+        ],
+        "gettingAround": "Muni buses and light rail cover the whole city; BART runs under Mission Street to Oakland, Berkeley, the airport and the Peninsula, and Caltrain goes south to Palo Alto and San Jose. One Clipper card (or a phone wallet) pays for all of them. Biking is easy on the flat east side (the Wiggle, the Embarcadero) and hard on the hills; Bay Wheels e-bikes help. Many people live without a car.",
+        "neighborhoods": [
+          {
+            "name": "Mission / Bernal Heights",
+            "why": "The heart of the clay scene: The Pottery Studio, RedBrick, Artillery, SMAart, Heath's factory and Speckle are all here, with taquerias and Rainbow Grocery nearby. Sunniest part of the city, lively, and among the pricier rents."
+          },
+          {
+            "name": "Outer Sunset / Outer Richmond",
+            "why": "Foggy, calm and somewhat cheaper, near Ocean Beach and Golden Gate Park; Studio Ceramica and Brick and Mortar Studios are here, and Irving and Clement streets are full of good cheap food."
+          },
+          {
+            "name": "Bayview / Dogpatch",
+            "why": "Industrial and changing: sfclayworks, SCRAP, the Hunters Point Shipyard studios and the Museum of Craft and Design. More space for the money, fewer shops, and a light-rail line rather than BART."
+          },
+          {
+            "name": "Excelsior / Glen Park",
+            "why": "Family neighbourhoods on the southern edge, with some of the city's lower rents and BART at Balboa Park and Glen Park (home of Bird & Beckett's jazz nights)."
+          }
+        ],
+        "notes": "Expect roughly $4,000 a month for a one-bedroom (Zumper, mid-2026); many artists share flats. Studio memberships run about $190-300 a month, and most have wait-lists."
+      },
+      "forWinnie": "San Francisco gives you the most clay in the smallest space: a bus ride reaches a dozen studios, and you could buy injera in the Sunset and hear jazz in the Fillmore on the same night. Coming from Kigali's steady warmth, the summer fog will surprise you: a July afternoon here feels like a cool Kigali evening, so you'll want a wool layer all year. The hard part is cost, among the highest rents in the country, which is why many potters live in the East Bay and cross for classes and markets. If you want to teach and be seen, though, this is where many of the doors are."
     },
     "San Jose, California, USA": {
       "location": "San Jose, California, USA",
@@ -5396,154 +5841,174 @@
       "climate": [
         {
           "month": "January",
-          "tempHigh": 15,
-          "tempLow": 5,
+          "tempHigh": 15.4,
+          "tempLow": 5.4,
           "rainfall": 71,
-          "daylightHours": 9.8,
-          "humidity": 75
+          "daylightHours": 9.9,
+          "humidity": 78
         },
         {
           "month": "February",
-          "tempHigh": 17,
-          "tempLow": 7,
-          "rainfall": 74,
-          "daylightHours": 10.9,
-          "humidity": 72
+          "tempHigh": 16.9,
+          "tempLow": 6.6,
+          "rainfall": 68,
+          "daylightHours": 10.8,
+          "humidity": 76
         },
         {
           "month": "March",
-          "tempHigh": 19,
-          "tempLow": 8,
-          "rainfall": 61,
-          "daylightHours": 12.1,
-          "humidity": 68
+          "tempHigh": 18.8,
+          "tempLow": 7.9,
+          "rainfall": 53,
+          "daylightHours": 11.9,
+          "humidity": 74
         },
         {
           "month": "April",
-          "tempHigh": 21,
-          "tempLow": 9,
-          "rainfall": 25,
-          "daylightHours": 13.4,
-          "humidity": 62
-        },
-        {
-          "month": "May",
-          "tempHigh": 24,
-          "tempLow": 11,
-          "rainfall": 10,
-          "daylightHours": 14.5,
-          "humidity": 58
-        },
-        {
-          "month": "June",
-          "tempHigh": 27,
-          "tempLow": 13,
-          "rainfall": 3,
-          "daylightHours": 15.0,
-          "humidity": 55
-        },
-        {
-          "month": "July",
-          "tempHigh": 29,
-          "tempLow": 14,
-          "rainfall": 0,
-          "daylightHours": 14.7,
-          "humidity": 55
-        },
-        {
-          "month": "August",
-          "tempHigh": 29,
-          "tempLow": 14,
-          "rainfall": 1,
-          "daylightHours": 13.8,
-          "humidity": 57
-        },
-        {
-          "month": "September",
-          "tempHigh": 28,
-          "tempLow": 13,
-          "rainfall": 5,
-          "daylightHours": 12.5,
-          "humidity": 57
-        },
-        {
-          "month": "October",
-          "tempHigh": 24,
-          "tempLow": 11,
-          "rainfall": 20,
-          "daylightHours": 11.1,
-          "humidity": 62
-        },
-        {
-          "month": "November",
-          "tempHigh": 18,
-          "tempLow": 7,
-          "rainfall": 38,
-          "daylightHours": 10.0,
+          "tempHigh": 20.7,
+          "tempLow": 9.1,
+          "rainfall": 27,
+          "daylightHours": 13.1,
           "humidity": 70
         },
         {
+          "month": "May",
+          "tempHigh": 23.2,
+          "tempLow": 11.2,
+          "rainfall": 10,
+          "daylightHours": 14.2,
+          "humidity": 71
+        },
+        {
+          "month": "June",
+          "tempHigh": 26.2,
+          "tempLow": 13.1,
+          "rainfall": 5,
+          "daylightHours": 14.7,
+          "humidity": 70
+        },
+        {
+          "month": "July",
+          "tempHigh": 27.1,
+          "tempLow": 14.5,
+          "rainfall": 0,
+          "daylightHours": 14.5,
+          "humidity": 74
+        },
+        {
+          "month": "August",
+          "tempHigh": 27.4,
+          "tempLow": 14.8,
+          "rainfall": 1,
+          "daylightHours": 13.6,
+          "humidity": 74
+        },
+        {
+          "month": "September",
+          "tempHigh": 27.1,
+          "tempLow": 14.0,
+          "rainfall": 2,
+          "daylightHours": 12.4,
+          "humidity": 72
+        },
+        {
+          "month": "October",
+          "tempHigh": 24.3,
+          "tempLow": 11.5,
+          "rainfall": 14,
+          "daylightHours": 11.2,
+          "humidity": 68
+        },
+        {
+          "month": "November",
+          "tempHigh": 18.9,
+          "tempLow": 7.6,
+          "rainfall": 34,
+          "daylightHours": 10.1,
+          "humidity": 73
+        },
+        {
           "month": "December",
-          "tempHigh": 15,
-          "tempLow": 5,
-          "rainfall": 61,
-          "daylightHours": 9.5,
+          "tempHigh": 15.3,
+          "tempLow": 5.4,
+          "rainfall": 58,
+          "daylightHours": 9.6,
           "humidity": 75
         }
       ],
       "seasons": {
         "winter": {
-          "summary": "Mild, some rain. Rarely cold. Good working weather.",
+          "summary": "Mild and the driest in the Bay: highs 15-17 \u00b0C, lows about 5 \u00b0C, and only 60-70 mm of rain a month at most (about 340 mm a year).",
           "comfort": "cool"
         },
         "spring": {
-          "summary": "Warming nicely. Comfortable for outdoor markets.",
+          "summary": "Warms quickly: highs 19-23 \u00b0C by April and May.",
           "comfort": "comfortable"
         },
         "summer": {
-          "summary": "Hot and dry. 27-30\u00b0C. Air quality can suffer.",
-          "comfort": "hot"
+          "summary": "Hot, dry and sunny: average highs 26-27 \u00b0C, with heat waves above 35 \u00b0C; nights stay comfortable (about 14 \u00b0C). Wildfire smoke drifts in some summers.",
+          "comfort": "warm"
         },
         "autumn": {
-          "summary": "Pleasant cooling. Clear skies through October.",
+          "summary": "September is still warm (about 27 \u00b0C); clear and cooler by November.",
           "comfort": "comfortable"
         }
       },
       "localColor": {
         "blooms": [
           {
-            "month": "February",
-            "name": "Almond blossoms",
-            "notes": "Orchards bloom in south county"
+            "month": "April",
+            "name": "Municipal Rose Garden",
+            "notes": "A free city rose garden with thousands of roses, best from late April into May."
           },
           {
-            "month": "April",
-            "name": "Rose garden",
-            "notes": "San Jose Municipal Rose Garden peak"
+            "month": "March",
+            "name": "Foothill wildflowers",
+            "notes": "Poppies and goldfields on the hills of Henry W. Coe State Park and Coyote Ridge."
           }
         ],
         "festivals": [
           {
+            "month": "February",
+            "name": "T\u1ebft (Lunar New Year)",
+            "notes": "San Jose has the largest Vietnamese community of any US city, and T\u1ebft festivals fill January or February."
+          },
+          {
             "month": "May",
-            "name": "Cinco de Mayo",
-            "notes": "Large celebration downtown"
+            "name": "Silicon Valley Open Studios",
+            "notes": "Three May weekends of open studios across the South Bay and Peninsula."
           },
           {
             "month": "August",
-            "name": "San Jose Jazz Festival",
-            "notes": "Major downtown music event"
+            "name": "San Jose Jazz Summer Fest",
+            "notes": "Three days of jazz, soul and Latin music on downtown stages (Aug 13-15, 2027)."
+          },
+          {
+            "month": "November",
+            "name": "Viva CalleSJ",
+            "notes": "Free open-streets days when roads close to cars for walking, biking and music (next: Nov 8, 2026)."
+          },
+          {
+            "month": "December",
+            "name": "Christmas in the Park",
+            "notes": "Lights and decorated trees in Plaza de C\u00e9sar Ch\u00e1vez, late November to January 1."
           }
         ],
         "naturalPhenomena": [
           {
-            "season": "spring",
-            "name": "Raptor migration",
-            "notes": "Hawks at Coyote Valley"
+            "season": "fall",
+            "name": "Tarantula season",
+            "notes": "In September and October male tarantulas wander the foothills (Mount Hamilton, Henry Coe) looking for mates. Harmless."
           },
           {
-            "season": "fall",
+            "season": "winter",
+            "name": "Snow on Mount Hamilton",
+            "notes": "After cold storms the peak above the city, home of Lick Observatory, sometimes turns white."
+          },
+          {
+            "season": "winter",
             "name": "Monarch butterflies",
-            "notes": "Cluster at Natural Bridges nearby"
+            "notes": "Overwintering monarchs cluster at Natural Bridges State Beach in Santa Cruz, about an hour away (October to February)."
           }
         ]
       },
@@ -5552,125 +6017,270 @@
           {
             "name": "San Jose State University Ceramics",
             "url": "https://www.sjsu.edu/art/",
-            "notes": "BFA/MFA ceramics program"
+            "notes": "BFA and MFA ceramics within SJSU's Department of Art and Art History."
           },
           {
-            "name": "San Jose Museum of Art studios",
-            "url": null,
-            "notes": null
+            "name": "Colibri Pottery Studio",
+            "url": "https://www.colibripotterystudio.com",
+            "notes": "Minority woman-owned studio with two San Jose locations and 23 wheels, running beginner classes, 6-week courses and memberships."
           },
           {
-            "name": "Community School of Music and Arts (CSMA)",
-            "url": null,
-            "notes": null
+            "name": "Higher Fire Clayspace & Gallery",
+            "url": "https://www.higherfirestudios.com/",
+            "notes": "Large teaching and membership studio with a gallery (2026 schedule not confirmed)."
           },
           {
-            "name": "Triton Museum classes",
-            "url": null,
-            "notes": null
+            "name": "Blossom Hill Ceramics",
+            "url": "https://www.blossomhillcrafts.com",
+            "notes": "Long-running South Bay school in Los Gatos with 40+ wheels, a porcelain studio, mid and high fire, and open studio 7am-11pm every day."
           },
           {
-            "name": "Clay Planet Studio",
-            "url": "https://www.clay-planet.com/",
-            "notes": "Supply store with class space"
+            "name": "Southside Community Center Ceramics (San Jose PRNS)",
+            "url": "https://www.active.com/san-jose-ca/pottery-and-ceramics/classes/ceramics-2026-110004427",
+            "notes": "City-run ceramics sessions for older adults at Southside Community Center."
+          },
+          {
+            "name": "Common Clay Space",
+            "url": "https://www.commonclayspace.com",
+            "notes": "Cupertino studio with memberships for experienced potters and pit-firing workshops."
+          },
+          {
+            "name": "Art Beat Studio",
+            "url": "https://www.artbeatstudio.co",
+            "notes": "A downtown Campbell art and pottery studio for kids, teens and adults, running a weekly beginner wheel 'Try it' night, camps and workshops."
+          },
+          {
+            "name": "De Anza College Ceramics",
+            "url": "https://www.deanza.edu/creativearts/",
+            "notes": "Big community college ceramics programme in Cupertino, from beginning wheel to raku."
+          },
+          {
+            "name": "Mission College Ceramics",
+            "url": "https://missioncollege.edu/academics/art/",
+            "notes": "Mission College's art programme has ceramics studios and repeatable Ceramics-Handbuilding (ART 065A-D) and Ceramics-Potter's Wheel (ART 067A-D) courses."
           }
         ],
         "suppliers": [
           {
-            "name": "Leslie Ceramics",
-            "url": "https://www.leslieceramics.com/",
-            "notes": "Berkeley-based, serves South Bay"
-          },
-          {
-            "name": "South Bay ceramics suppliers",
-            "url": null,
-            "notes": null
-          },
-          {
-            "name": "Ships easily from Bay Area",
-            "url": null,
-            "notes": null
-          },
-          {
             "name": "Clay Planet",
-            "url": "https://www.clay-planet.com/",
-            "notes": "Major Bay Area supplier, retail store in Santa Clara"
+            "url": "https://shop.clay-planet.com",
+            "notes": "South Bay ceramic supply store and online shop (clay, glazes, tools, kilns, casting plaster)."
           }
         ],
         "galleries": [
           {
             "name": "San Jose Museum of Art",
             "url": "https://sjmusart.org/",
-            "notes": "Contemporary art museum"
+            "notes": "Contemporary art museum downtown."
+          },
+          {
+            "name": "San Jose Museum of Quilts & Textiles",
+            "url": "https://sj-mqt.org",
+            "notes": "Museum devoted to quilts and textiles, with rotating shows, a collection and workshops."
+          },
+          {
+            "name": "MACLA (Movimiento de Arte y Cultura Latino Americana)",
+            "url": "https://maclaarte.org/",
+            "notes": "Latinx contemporary arts space in the SoFA district."
           },
           {
             "name": "Triton Museum of Art",
-            "url": null,
-            "notes": null
-          },
-          {
-            "name": "SJSU galleries",
-            "url": null,
-            "notes": null
-          },
-          {
-            "name": "MACLA",
-            "url": null,
-            "notes": null
+            "url": "https://www.tritonmuseum.org/",
+            "notes": "Free art museum in Santa Clara."
           }
         ],
-        "community": "Home to Clay Planet, major Bay Area supplier. University program and tech-influenced maker culture."
+        "community": "San Jose is practical rather than glamorous for clay: Clay Planet is the Bay's biggest supply counter, SJSU and four community colleges teach ceramics (De Anza, Mission, West Valley and Foothill), and there's a ring of community studios from Colibri to Blossom Hill. Silicon Valley Open Studios (May) is the big showcase. For fibre, the Glenna Harris Weavers Guild and the Museum of Quilts & Textiles are the doors in; for glass and tools, the Bay Area Glass Institute and Maker Nexus in Sunnyvale."
       },
       "probabilityOfChili": {
-        "score": 60,
+        "score": 62,
         "rating": "Moderate",
-        "nearest": "The Counter, various taquerias",
-        "notes": "Strong Mexican food scene. Not classic Texas chili, but green chili and chile verde abundant."
+        "nearest": "La Victoria Taqueria (famous orange sauce)",
+        "notes": "San Jose's deep Mexican-American roots mean excellent chile verde, birria and salsas; La Victoria's orange sauce is a local obsession."
       },
       "creepyCrawlies": {
-        "mosquitoes": "moderate",
+        "mosquitoes": "moderate near creeks and the bay",
         "spiders": "moderate",
-        "snakes": "moderate in hills",
-        "other": "Tarantulas in fall in hills"
+        "snakes": "moderate in the hills (rattlesnakes)",
+        "other": "Tarantulas in the autumn foothills (harmless); ticks and poison oak; summer heat waves and occasional wildfire smoke."
       },
-      "practicalNotes": "Tech hub sprawl but affordable compared to SF. San Jose State has ceramics. Good supply access.",
+      "practicalNotes": "The Bay's biggest city and its warmest, sunniest one, with rents well below San Francisco's (about $2,800 for a one-bedroom in mid-2026, Zumper). Spread out and car-oriented, but with light rail, Caltrain and BART at Berryessa, and Clay Planet, the Bay's biggest ceramic supplier, next door in Santa Clara.",
+      "indigenousTraditions": {
+        "peoples": [
+          "Tamien Nation (Tamyen Ohlone)",
+          "Muwekma Ohlone"
+        ],
+        "ceramicsHeritage": "San Jose is the homeland of Tamyen-speaking Ohlone people. Their craft tradition is basketry and shell-bead work, not pottery. Mission Santa Clara de As\u00eds (1777) drew Ohlone people into mission life and labour, with devastating losses.",
+        "respectfulEngagement": "The Tamien Nation (tamien.org) and the Muwekma Ohlone Tribe both represent Ohlone descendants here and have separate histories and claims; name each correctly. History San Jos\u00e9 has local Ohlone history; the Amah Mutsun Tribal Band works further south."
+      },
       "probabilityOfCoffee": {
-        "score": 80,
-        "rating": "Good",
-        "nearest": "Academic, Chromatic, Roy's Station in area",
-        "notes": "Tech hub has good coffee. Serious scene."
+        "score": 82,
+        "rating": "Very Good",
+        "roasters": [
+          "Chromatic Coffee",
+          "Academic Coffee",
+          "Voyager Craft Coffee (Santa Clara)"
+        ],
+        "notes": "A serious roasting scene, and Vietnamese iced coffee (c\u00e0 ph\u00ea s\u1eefa \u0111\u00e1) is everywhere."
       },
       "localDessert": {
-        "signature": "Multicultural desserts, Vietnamese bakeries",
-        "nearest": "Icing on the Cake, Lee's Sandwiches, SF (1 hr) for more",
-        "notes": "Vietnamese bakeries excellent. Tech money = good food."
+        "signature": "Vietnamese sweets (ch\u00e8) and pastries, and Japantown's mochi and manju",
+        "bakeries": [
+          "Lee's Sandwiches (b\u00e1nh m\u00ec and Vietnamese coffee, founded in San Jose)"
+        ],
+        "notes": "The Vietnamese shopping centres along Story Road and Tully Road are full of bakeries and dessert shops."
       },
       "beachAccess": {
-        "distance": "30-40 min",
+        "distance": "45-60 min",
         "type": "Pacific Ocean",
         "beaches": [
-          "Santa Cruz",
+          "Santa Cruz (Cowell, Natural Bridges)",
           "Capitola",
           "Half Moon Bay"
         ],
-        "swimmable": "Wetsuit water (cold)",
-        "notes": "Over the hill to Santa Cruz. Beautiful but cold water."
-      },
-      "indigenousTraditions": {
-        "peoples": [
-          "Ohlone (Tamien)",
-          "Muwekma Ohlone"
-        ],
-        "ceramicsHeritage": "Tamien Ohlone homeland. Basketry traditions, not pottery. Mission Santa Clara history is complex.",
-        "respectfulEngagement": "History San Jose. Mission Santa Clara de As\u00eds. Ohlone cultural resurgence."
+        "swimmable": "Cold (about 13-16 \u00b0C); Santa Cruz's Cowell Beach and Capitola are the gentlest, with a wetsuit.",
+        "notes": "Over the hills on Highway 17; Santa Cruz has a boardwalk, surfing and monarchs in winter."
       },
       "practicalInfo": {
-        "language": "English",
-        "visaInfo": "90 days visa-free (ESTA) for most countries",
-        "healthcareAccess": "Private system, travel insurance essential",
+        "language": "English (Spanish and Vietnamese widely spoken)",
+        "visaInfo": "Rwandan citizens need a US visa: a B-1/B-2 visitor visa for visits, applied for at the US Embassy in Kigali. ESTA and 90-day visa-free entry are only for citizens of Visa Waiver Program countries, and Rwanda is not one. Working or teaching for pay needs a separate status with work authorization (for example an O-1 artist visa or an employer-sponsored visa). US visa rules changed often in 2025-26, so check travel.state.gov and the embassy before applying.",
+        "healthcareAccess": "Private, insurance-based system: an uninsured visit to a doctor or emergency room is very expensive. Visitors need travel medical insurance; residents usually get cover through an employer or Covered California. Community health clinics offer sliding-scale care.",
         "internetQuality": "Excellent",
-        "notes": "Tech hub sprawl but affordable compared to SF. San Jose State has ceramics. Good supply access."
-      }
+        "notes": "The Bay's biggest city and its warmest, sunniest one, with rents well below San Francisco's (about $2,800 for a one-bedroom in mid-2026, Zumper). Spread out and car-oriented, but with light rail, Caltrain and BART at Berryessa, and Clay Planet, the Bay's biggest ceramic supplier, next door in Santa Clara."
+      },
+      "foodScene": {
+        "score": 82,
+        "rating": "Very Good",
+        "notes": "San Jose eats like the world: the largest Vietnamese community of any US city, deep Mexican roots, a historic Japantown and two very good Ethiopian restaurants. Prices are gentler than in San Francisco, and the farmers' market fruit comes from just down the valley.",
+        "favorites": [
+          {
+            "name": "Japantown Farmers Market",
+            "what": "Sunday market 8am-noon, May to October",
+            "neighborhood": "Japantown",
+            "url": "https://www.japantownsanjose.org/sunday-farmers-market"
+          },
+          {
+            "name": "San Pedro Square Market",
+            "what": "Indoor-outdoor food hall with dozens of stalls",
+            "neighborhood": "Downtown",
+            "url": "https://sanpedrosquaremarket.com/"
+          },
+          {
+            "name": "LeYou",
+            "what": "Contemporary Ethiopian, Michelin-listed",
+            "neighborhood": "Downtown (N First St)",
+            "url": "https://www.leyouethiopian.com/"
+          },
+          {
+            "name": "Zeni Ethiopian Restaurant",
+            "what": "The South Bay's best-loved Ethiopian restaurant, a pillar of the local community",
+            "neighborhood": "West San Jose (Saratoga Ave)",
+            "url": "https://www.sanjose.org/listings/zeni-ethiopian-restaurant"
+          },
+          {
+            "name": "La Victoria Taqueria",
+            "what": "Burritos with the famous orange sauce, open late",
+            "neighborhood": "Downtown (near SJSU)",
+            "url": "https://www.lavicsj.com/"
+          },
+          {
+            "name": "Original Joe's",
+            "what": "Old-school Italian-American since 1956",
+            "neighborhood": "Downtown",
+            "url": "https://www.originaljoes.com/"
+          },
+          {
+            "name": "Lee's Sandwiches",
+            "what": "B\u00e1nh m\u00ec and Vietnamese coffee; the chain began in San Jose",
+            "neighborhood": "Citywide",
+            "url": "https://leesandwiches.com/"
+          }
+        ]
+      },
+      "liveMusic": {
+        "score": 75,
+        "rating": "Good",
+        "notes": "San Jose Jazz runs both a big August festival and its own intimate club, and the restored California Theatre is home to the opera and symphony. Summer evenings at Montalvo and the Mountain Winery are a treat.",
+        "venues": [
+          {
+            "name": "San Jose Jazz Summer Fest",
+            "kind": "outdoor festival",
+            "neighborhood": "Downtown",
+            "url": "https://sanjosejazz.org/"
+          },
+          {
+            "name": "SJZ Break Room",
+            "kind": "jazz club",
+            "neighborhood": "Downtown",
+            "url": "https://sanjosejazz.org/"
+          },
+          {
+            "name": "Symphony San Jos\u00e9 (California Theatre)",
+            "kind": "symphony",
+            "neighborhood": "Downtown",
+            "url": "https://www.symphonysanjose.org/"
+          },
+          {
+            "name": "Opera San Jos\u00e9 (California Theatre)",
+            "kind": "opera",
+            "neighborhood": "Downtown",
+            "url": "https://www.operasj.org/"
+          },
+          {
+            "name": "Montalvo Arts Center",
+            "kind": "outdoor summer series",
+            "neighborhood": "Saratoga",
+            "url": "https://montalvoarts.org/"
+          },
+          {
+            "name": "The Mountain Winery",
+            "kind": "outdoor amphitheatre",
+            "neighborhood": "Saratoga hills",
+            "url": "https://www.mountainwinery.com/"
+          }
+        ]
+      },
+      "everydayLife": {
+        "markets": [
+          "Japantown Farmers Market (Sun 8am-noon, May-October)",
+          "San Pedro Square Market",
+          "Vietnamese supermarkets and bakeries along Story Road and Tully Road"
+        ],
+        "walks": [
+          {
+            "name": "Guadalupe River Trail",
+            "notes": "A long creekside path through downtown and north toward the bay."
+          },
+          {
+            "name": "Alum Rock Park",
+            "notes": "California's oldest city park (1872), a canyon of mineral springs and oak woods in the eastern foothills."
+          },
+          {
+            "name": "Rose Garden neighbourhood",
+            "notes": "Quiet streets around the Municipal Rose Garden and the Rosicrucian Egyptian Museum."
+          }
+        ],
+        "gettingAround": "VTA light rail and buses cover the city; Caltrain, ACE and Capitol Corridor trains leave from Diridon Station, and BART reaches Berryessa in the north-east. San Jose is spread out and most people drive; downtown and Willow Glen are bikeable.",
+        "neighborhoods": [
+          {
+            "name": "Downtown / SoFA",
+            "why": "Near SJSU, the Quilt & Textile Museum, MACLA and San Pedro Square; apartments, some grit, light rail."
+          },
+          {
+            "name": "Japantown / Northside",
+            "why": "Walkable and historic, with the Sunday market; close to Colibri's North San Jose studio."
+          },
+          {
+            "name": "Willow Glen",
+            "why": "Leafy, with a walkable main street; pricier."
+          },
+          {
+            "name": "East San Jos\u00e9 / Alum Rock",
+            "why": "More affordable, with strong Mexican and Vietnamese communities, near Alum Rock Park."
+          }
+        ],
+        "notes": "One-bedrooms averaged about $2,800 a month in mid-2026 (Zumper), well below San Francisco or Palo Alto."
+      },
+      "forWinnie": "San Jose is the warm, sunny, practical choice: summer days around 27 \u00b0C feel the closest to Kigali of any place here, winters are mild and dry, and rents are well below San Francisco's. Clay Planet, SJSU's ceramics programme and a ring of community studios give you materials and teaching leads, and LeYou and Zeni will cook you a proper Ethiopian meal. It's sprawling and car-oriented, with less art buzz than Oakland, but life here is calmer and more affordable."
     },
     "Santa Monica, California, USA": {
       "location": "Santa Monica, California, USA",
@@ -6251,116 +6861,116 @@
       "climate": [
         {
           "month": "January",
-          "tempHigh": 14,
-          "tempLow": 7,
-          "rainfall": 137,
+          "tempHigh": 14.3,
+          "tempLow": 8.1,
+          "rainfall": 112,
           "daylightHours": 9.8,
-          "humidity": 82
+          "humidity": 78
         },
         {
           "month": "February",
-          "tempHigh": 15,
-          "tempLow": 8,
-          "rainfall": 117,
-          "daylightHours": 10.9,
-          "humidity": 80
+          "tempHigh": 15.8,
+          "tempLow": 8.8,
+          "rainfall": 111,
+          "daylightHours": 10.7,
+          "humidity": 76
         },
         {
           "month": "March",
-          "tempHigh": 16,
-          "tempLow": 8,
-          "rainfall": 97,
-          "daylightHours": 12.1,
-          "humidity": 77
+          "tempHigh": 16.7,
+          "tempLow": 9.4,
+          "rainfall": 80,
+          "daylightHours": 11.8,
+          "humidity": 74
         },
         {
           "month": "April",
-          "tempHigh": 17,
-          "tempLow": 9,
+          "tempHigh": 17.2,
+          "tempLow": 9.8,
           "rainfall": 41,
-          "daylightHours": 13.4,
-          "humidity": 74
+          "daylightHours": 13.1,
+          "humidity": 70
         },
         {
           "month": "May",
-          "tempHigh": 18,
-          "tempLow": 10,
+          "tempHigh": 17.8,
+          "tempLow": 10.8,
           "rainfall": 18,
-          "daylightHours": 14.5,
-          "humidity": 73
+          "daylightHours": 14.2,
+          "humidity": 71
         },
         {
           "month": "June",
-          "tempHigh": 19,
-          "tempLow": 12,
+          "tempHigh": 19.2,
+          "tempLow": 11.7,
           "rainfall": 5,
-          "daylightHours": 15.0,
-          "humidity": 74
+          "daylightHours": 14.8,
+          "humidity": 70
         },
         {
           "month": "July",
-          "tempHigh": 20,
-          "tempLow": 12,
-          "rainfall": 1,
-          "daylightHours": 14.7,
-          "humidity": 77
+          "tempHigh": 19.1,
+          "tempLow": 12.4,
+          "rainfall": 0,
+          "daylightHours": 14.5,
+          "humidity": 74
         },
         {
           "month": "August",
-          "tempHigh": 20,
-          "tempLow": 13,
+          "tempHigh": 19.9,
+          "tempLow": 13.1,
           "rainfall": 2,
-          "daylightHours": 13.8,
-          "humidity": 77
+          "daylightHours": 13.6,
+          "humidity": 74
         },
         {
           "month": "September",
-          "tempHigh": 21,
-          "tempLow": 12,
-          "rainfall": 8,
-          "daylightHours": 12.5,
-          "humidity": 75
+          "tempHigh": 21.2,
+          "tempLow": 13.1,
+          "rainfall": 2,
+          "daylightHours": 12.4,
+          "humidity": 72
         },
         {
           "month": "October",
-          "tempHigh": 20,
-          "tempLow": 11,
-          "rainfall": 36,
+          "tempHigh": 21.0,
+          "tempLow": 12.4,
+          "rainfall": 24,
           "daylightHours": 11.1,
-          "humidity": 75
+          "humidity": 68
         },
         {
           "month": "November",
-          "tempHigh": 17,
-          "tempLow": 9,
-          "rainfall": 81,
-          "daylightHours": 10.0,
-          "humidity": 79
+          "tempHigh": 17.6,
+          "tempLow": 10.4,
+          "rainfall": 66,
+          "daylightHours": 10.1,
+          "humidity": 73
         },
         {
           "month": "December",
-          "tempHigh": 14,
-          "tempLow": 7,
-          "rainfall": 122,
-          "daylightHours": 9.5,
-          "humidity": 82
+          "tempHigh": 14.4,
+          "tempLow": 8.3,
+          "rainfall": 121,
+          "daylightHours": 9.6,
+          "humidity": 75
         }
       ],
       "seasons": {
         "winter": {
-          "summary": "Mild and wet. Houseboats bob in rain. Cozy cafes.",
+          "summary": "Mild and wet on the waterfront (highs about 14 \u00b0C). A few kilometres inland it is wetter and colder: Kentfield, at the foot of Mt Tamalpais, averages over 220 mm of rain in each of December, January and February.",
           "comfort": "cool"
         },
         "spring": {
-          "summary": "Lovely. Marin hills green. Wildflowers.",
+          "summary": "Green hills and wildflowers in the Marin Headlands; highs 16-18 \u00b0C on the water, warmer inland.",
           "comfort": "comfortable"
         },
         "summer": {
-          "summary": "Cool and often foggy. Tourist season. 18-20\u00b0C.",
+          "summary": "Fog and highs near 19-20 \u00b0C on the waterfront, like San Francisco; ten minutes inland in Mill Valley or Corte Madera, summer days reach about 26-28 \u00b0C.",
           "comfort": "cool"
         },
         "autumn": {
-          "summary": "Warmest, clearest weather. Perfect waterfront days.",
+          "summary": "Warmest and clearest on the water (about 21 \u00b0C in September and October). Fire season in the hills until the rains.",
           "comfort": "comfortable"
         }
       },
@@ -6368,148 +6978,309 @@
         "blooms": [
           {
             "month": "April",
-            "name": "Lupine",
-            "notes": "Purple lupine on Marin hillsides"
+            "name": "Headlands wildflowers",
+            "notes": "Lupine, poppies and paintbrush on the Marin Headlands' coastal trails."
           },
           {
-            "month": "May",
-            "name": "Wild radish",
-            "notes": "Colorful fields along paths"
+            "month": "March",
+            "name": "Mt Tamalpais in bloom",
+            "notes": "Ceanothus and manzanita flower on the mountain's slopes in late winter and spring."
           }
         ],
         "festivals": [
           {
+            "month": "May",
+            "name": "Mountain Play",
+            "notes": "Musicals in the stone Cushing Memorial Amphitheatre on Mt Tamalpais, a tradition since 1913 (May-June)."
+          },
+          {
+            "month": "May",
+            "name": "Marin Open Studios",
+            "notes": "Two May weekends when Marin artists, potters included, open their studios."
+          },
+          {
+            "month": "June",
+            "name": "Jazz & Blues by the Bay",
+            "notes": "Free Friday evening concerts at Gabrielson Park on the Sausalito waterfront, June to September."
+          },
+          {
             "month": "September",
-            "name": "Sausalito Art Festival",
-            "notes": "Major waterfront art fair (Labor Day weekend)"
+            "name": "Mill Valley Fall Arts Festival",
+            "notes": "Juried art and craft under the redwoods (one-off work only), Sept 19-20, 2026."
           }
         ],
         "naturalPhenomena": [
           {
+            "season": "fall",
+            "name": "Hawk Hill raptor migration",
+            "notes": "From September to November the Golden Gate Raptor Observatory counts thousands of hawks crossing the Marin Headlands."
+          },
+          {
             "season": "year-round",
             "name": "Harbor seals",
-            "notes": "Seals frequent the waterfront"
+            "notes": "Seals haul out and feed around Richardson Bay."
           },
           {
             "season": "summer",
-            "name": "Fog cascading over hills",
-            "notes": "Dramatic fog spills over Marin Headlands"
+            "name": "Fog over the Headlands",
+            "notes": "Fog spills over the ridges and the Golden Gate Bridge towers."
+          },
+          {
+            "season": "winter",
+            "name": "Elephant seals and gray whales",
+            "notes": "At Point Reyes, about an hour north, from December to March."
           }
         ]
       },
       "ceramicsEcosystem": {
         "studios": [
           {
-            "name": "ICB (Industrial Center Building) artist studios",
-            "url": null,
-            "notes": null
-          },
-          {
-            "name": "Sausalito Art Festival artists",
-            "url": null,
-            "notes": null
-          },
-          {
-            "name": "Floating homes studios",
-            "url": null,
-            "notes": null
-          },
-          {
-            "name": "ICB Artists' Studios",
-            "url": "https://icb-artists.com/",
-            "notes": "Industrial Center Building"
-          },
-          {
             "name": "Sausalito Center for the Arts",
             "url": "https://www.sausalitocenterforthearts.org/",
-            "notes": "Community classes"
+            "notes": "Community arts centre with classes and exhibitions in Sausalito."
+          },
+          {
+            "name": "Mill Valley Potter's Studio",
+            "url": "https://www.millvalleypotterystudio.com/",
+            "notes": "Mill Valley studio with weekday wheel and hand-building classes, workshops and memberships (2026 dates shown without a year; confirm before signing up)."
+          },
+          {
+            "name": "Ceramic Art Center of Marin (CACM)",
+            "url": "https://www.cacm.studio",
+            "notes": "San Anselmo studio and gallery (20 min) for intermediate-to-professional potters, with a cone 10 gas kiln, mentor-led Ateliers and Clay Talks."
+          },
+          {
+            "name": "Amphora Ceramic Studio",
+            "url": "https://www.amphoraceramicstudio.org",
+            "notes": "San Rafael teaching studio (20 min) with courses, memberships and a firing service (it does not fire wild clay or homemade glazes)."
+          },
+          {
+            "name": "Silverwork Studios (Sausalito)",
+            "url": "https://silverworkstudios.com",
+            "notes": "Beginner-friendly silver jewellery sessions, walkable from the San Francisco ferry."
+          },
+          {
+            "name": "Spaulding Marine Center",
+            "url": "https://www.spauldingcenter.org",
+            "notes": "Waterfront boatworks with wooden-boat building classes."
+          },
+          {
+            "name": "Mt Vision Ceramics Studio (Jess Taylor)",
+            "url": "https://www.mtvision.studio",
+            "notes": "Inverness potter (about 1 hour) who makes glazes and clay bodies from local Mount Vision granite and clay and publishes the tests: the closest peer to your wild-clay work."
           }
         ],
         "suppliers": [
           {
-            "name": "Leslie Ceramics",
-            "url": "https://www.leslieceramics.com/",
-            "notes": "Berkeley-based"
+            "name": "Douglas & Sturgess (San Francisco)",
+            "url": "https://douglasandsturgess.com",
+            "notes": "Clay, plasters and tools across the bridge in SoMa."
           },
           {
-            "name": "Bay Area suppliers",
-            "url": null,
-            "notes": null
+            "name": "Dharma Trading Co.",
+            "url": "https://www.dharmatrading.com",
+            "notes": "Textiles: natural dyes, extracts and mordants and undyed cotton, silk and wool, in San Rafael (20 min)."
+          },
+          {
+            "name": "Atelier Yarns (San Rafael)",
+            "url": "https://atelieryarns.com",
+            "notes": "Textiles: yarn, weaving tools and classes in downtown San Rafael."
           }
         ],
         "galleries": [
           {
-            "name": "Sausalito Art Festival",
-            "url": null,
-            "notes": null
+            "name": "Heath Ceramics Sausalito Factory & Showroom",
+            "url": "https://www.heathceramics.com/pages/locations/sausalito",
+            "notes": "Heath's original 1959 dinnerware factory, where about 40 craftspeople still make the clay and form, glaze and fire every dinnerware piece."
           },
           {
-            "name": "Heath Ceramics (significant!)",
-            "url": null,
-            "notes": null
+            "name": "ICB/ART (Industrial Center Building)",
+            "url": "https://www.icbart.com/",
+            "notes": "Gallery in the ICB, the Marinship building whose floors are full of artists' studios; open-studio weekends are the way in."
           },
           {
-            "name": "Floating homes open studios",
-            "url": null,
-            "notes": null
+            "name": "Bolinas Museum",
+            "url": "https://bolinasmuseum.org",
+            "notes": "Small free museum of coastal Marin art and history; 'Paul Harris: The Boy Sews Like An Angel' runs Oct 31, 2026-Jan 3, 2027."
           },
           {
-            "name": "ICB Winter Open Studios",
-            "url": "https://icb-artists.com/",
-            "notes": "Artist studios"
+            "name": "MarinMOCA",
+            "url": "https://www.marinmoca.org",
+            "notes": "Marin's contemporary art museum, in San Rafael."
           }
         ],
-        "community": "Waterfront artist community across from SF. ICB has numerous studios. Houseboat culture."
+        "community": "Southern Marin is quiet for clay: Heath Ceramics' 1959 factory in Sausalito (about 40 people still make every piece of dinnerware there) is the landmark, and CACM in San Anselmo is the serious cone 10 studio. The Sausalito Art Festival has been on hiatus since 2021, so Marin Open Studios (May), the Mill Valley Fall Arts Festival and the ICB open studios are the main showcases. Headlands Center for the Arts runs residencies in old army buildings (not ceramics-specific)."
       },
       "probabilityOfChili": {
-        "score": 30,
+        "score": 25,
         "rating": "Low",
-        "nearest": "Fred's Coffee Shop (classic diner)",
-        "notes": "Tiny tourist town. Not a chili destination. Better to hop ferry to SF."
+        "nearest": "San Francisco (20 minutes by ferry or car)",
+        "notes": "Southern Marin is not chili country. Cook your own pot with beans and chiles from Driver's Market or Mill Valley Market, or take the ferry to the Mission."
       },
       "creepyCrawlies": {
         "mosquitoes": "low",
         "spiders": "low",
-        "snakes": "rare",
-        "other": "Raccoons raid houseboats"
+        "snakes": "moderate on hill trails (rattlesnakes)",
+        "other": "Ticks (Lyme disease is present in Marin) and poison oak on trails; raccoons around the houseboats."
       },
-      "practicalNotes": "Iconic houseboat community. Very expensive. Beautiful but limited space. Heath Ceramics HQ is here!",
+      "practicalNotes": "Stands in for southern Marin (Sausalito, Mill Valley, Corte Madera, Larkspur). Beautiful and quiet, with Heath Ceramics' original factory and the Golden Gate Ferry to San Francisco (about 30 minutes), but one of the most expensive housing markets in California, with few rentals and few open-access studios.",
+      "indigenousTraditions": {
+        "peoples": [
+          "Coast Miwok",
+          "Federated Indians of Graton Rancheria (Coast Miwok and Southern Pomo)"
+        ],
+        "ceramicsHeritage": "Marin is Coast Miwok land. Coast Miwok craft centred on finely woven baskets, clamshell-bead money and tule boats; there was no pottery tradition. Shellmounds once lined the shores of Richardson Bay.",
+        "respectfulEngagement": "The Federated Indians of Graton Rancheria (gratonrancheria.com) is the federally recognised tribe of Coast Miwok and Southern Pomo people. The Museum of the American Indian in Novato's Miwok Park and Kule Loklo, the reconstructed Coast Miwok village at Point Reyes, are good places to learn."
+      },
       "probabilityOfCoffee": {
         "score": 75,
         "rating": "Good",
-        "nearest": "Sausalito has cute cafes. SF (15 min ferry) for everything",
-        "notes": "Tourist town but decent. SF is right there."
+        "roasters": [
+          "Equator Coffees (Marin-born roaster)"
+        ],
+        "notes": "Good caf\u00e9s on Bridgeway and in Mill Valley; Equator, founded in Marin, is the local pride. The ferry puts the Ferry Building's caf\u00e9s 30 minutes away."
       },
       "localDessert": {
-        "signature": "Tourist treats, local bakeries",
-        "nearest": "Lappert's ice cream, SF (15 min) for Tartine etc.",
-        "notes": "Waterfront tourist town. SF has everything."
+        "signature": "An ice cream cone on the Sausalito waterfront",
+        "nearest": "Lappert's Ice Cream (Sausalito); San Francisco's bakeries across the bridge",
+        "notes": "Marin dairies (Straus, Marin French Cheese) make for excellent butter, cheese and ice cream."
       },
       "beachAccess": {
-        "distance": "20 min",
+        "distance": "15-40 min",
         "type": "Pacific Ocean",
         "beaches": [
+          "Rodeo Beach",
           "Muir Beach",
-          "Stinson Beach",
-          "Rodeo Beach"
+          "Stinson Beach"
         ],
-        "swimmable": "Cold! Stinson is warmest",
-        "notes": "Marin beaches are beautiful but cold. Stinson is swimmable in summer."
-      },
-      "indigenousTraditions": {
-        "peoples": [
-          "Coast Miwok"
-        ],
-        "ceramicsHeritage": "Marin County is Coast Miwok territory. Basketry traditions. Point Reyes has cultural sites.",
-        "respectfulEngagement": "Federated Indians of Graton Rancheria. Point Reyes has Coast Miwok cultural resources."
+        "swimmable": "Cold (about 12-14 \u00b0C) with strong surf at Rodeo and Muir; Stinson is the gentlest, in a wetsuit, when lifeguards are on duty in summer.",
+        "notes": "Rodeo Beach in the Headlands is 15 minutes away; Stinson is a winding 40-minute drive over Mt Tamalpais."
       },
       "practicalInfo": {
-        "language": "English",
-        "visaInfo": "90 days visa-free (ESTA) for most countries",
-        "healthcareAccess": "Private system, travel insurance essential",
+        "language": "English (Spanish widely spoken)",
+        "visaInfo": "Rwandan citizens need a US visa: a B-1/B-2 visitor visa for visits, applied for at the US Embassy in Kigali. ESTA and 90-day visa-free entry are only for citizens of Visa Waiver Program countries, and Rwanda is not one. Working or teaching for pay needs a separate status with work authorization (for example an O-1 artist visa or an employer-sponsored visa). US visa rules changed often in 2025-26, so check travel.state.gov and the embassy before applying.",
+        "healthcareAccess": "Private, insurance-based system: an uninsured visit to a doctor or emergency room is very expensive. Visitors need travel medical insurance; residents usually get cover through an employer or Covered California. Community health clinics offer sliding-scale care.",
         "internetQuality": "Excellent",
-        "notes": "Iconic houseboat community. Very expensive. Beautiful but limited space. Heath Ceramics HQ is here!"
-      }
+        "notes": "Stands in for southern Marin (Sausalito, Mill Valley, Corte Madera, Larkspur). Beautiful and quiet, with Heath Ceramics' original factory and the Golden Gate Ferry to San Francisco (about 30 minutes), but one of the most expensive housing markets in California, with few rentals and few open-access studios."
+      },
+      "foodScene": {
+        "score": 68,
+        "rating": "Good",
+        "notes": "Small-town and seafood-forward: sushi and oysters by the water, good organic grocers, and Marin's big Sunday farmers market 20 minutes north. There is no East African restaurant here; for injera, take the ferry to San Francisco.",
+        "favorites": [
+          {
+            "name": "Sunday Marin Farmers Market",
+            "what": "One of the Bay's biggest markets (150+ vendors), Sundays 8am-1pm",
+            "neighborhood": "Marin Civic Center, San Rafael (20 min)",
+            "url": "https://www.agriculturalinstitute.org/sunday-marin"
+          },
+          {
+            "name": "Driver's Market",
+            "what": "Organic grocery and deli",
+            "neighborhood": "Sausalito",
+            "url": "https://driversmarket.com/"
+          },
+          {
+            "name": "Mill Valley Market",
+            "what": "Family-run grocery with a good deli and pantry",
+            "neighborhood": "Mill Valley",
+            "url": "https://millvalleymarket.com/"
+          },
+          {
+            "name": "Woodlands Market",
+            "what": "Specialty grocer with a strong bakery and prepared food",
+            "neighborhood": "Kentfield",
+            "url": "https://www.woodlandsmarket.com/"
+          },
+          {
+            "name": "Sushi Ran",
+            "what": "Celebrated sushi restaurant; the splurge",
+            "neighborhood": "Sausalito (Caledonia St)",
+            "url": "https://sushiran.com/"
+          },
+          {
+            "name": "Lappert's Ice Cream",
+            "what": "Waterfront ice cream",
+            "neighborhood": "Sausalito",
+            "url": "https://lappertsicecream.com/"
+          }
+        ]
+      },
+      "liveMusic": {
+        "score": 70,
+        "rating": "Good",
+        "notes": "Small and good: Sweetwater and 142 Throckmorton in Mill Valley book excellent touring musicians, and summer brings free Friday jazz by the bay and musicals on the mountain.",
+        "venues": [
+          {
+            "name": "Sweetwater Music Hall",
+            "kind": "small hall",
+            "neighborhood": "Mill Valley",
+            "url": "https://sweetwatermusichall.org/"
+          },
+          {
+            "name": "142 Throckmorton Theatre",
+            "kind": "small theatre",
+            "neighborhood": "Mill Valley",
+            "url": "https://www.throckmortontheatre.org/"
+          },
+          {
+            "name": "Jazz & Blues by the Bay",
+            "kind": "free outdoor series",
+            "neighborhood": "Sausalito (Gabrielson Park)",
+            "url": "https://www.sausalito.gov/"
+          },
+          {
+            "name": "Mountain Play",
+            "kind": "outdoor musicals",
+            "neighborhood": "Mt Tamalpais (Cushing Amphitheatre)",
+            "url": "https://mountainplay.org/"
+          },
+          {
+            "name": "Marin Symphony",
+            "kind": "symphony",
+            "neighborhood": "San Rafael (Marin Center)",
+            "url": "https://marinsymphony.org/"
+          }
+        ]
+      },
+      "everydayLife": {
+        "markets": [
+          "Sunday and Thursday Marin Farmers Markets at the Marin Civic Center, San Rafael (8am-1pm)",
+          "Driver's Market, Sausalito",
+          "Mill Valley Market"
+        ],
+        "walks": [
+          {
+            "name": "Mill Valley-Sausalito Path",
+            "notes": "Flat multi-use path along Richardson Bay, past marshes and houseboats."
+          },
+          {
+            "name": "Marin Headlands Coastal Trail",
+            "notes": "Old army batteries, wildflowers and the best views of the Golden Gate Bridge, down to Rodeo Beach."
+          },
+          {
+            "name": "Mt Tamalpais and Muir Woods",
+            "notes": "Redwood canyons and the mountain's ridge trails above Mill Valley."
+          }
+        ],
+        "gettingAround": "The Golden Gate Ferry runs between Sausalito and San Francisco in about 30 minutes (and from Larkspur too); Golden Gate Transit buses run up Highway 101 to San Rafael and into the city. The flat bay path and the bridge are lovely by bike (windy); elsewhere it's steep. Most people in Marin drive, and Sausalito parking is tight.",
+        "neighborhoods": [
+          {
+            "name": "Sausalito waterfront / Marinship",
+            "why": "Heath's factory, the ICB studios and the houseboat docks: magical, foggy and very expensive, with few rentals."
+          },
+          {
+            "name": "Mill Valley",
+            "why": "Sweetwater, Throckmorton and Mill Valley Potter's Studio, sunnier and leafy, among the costliest towns in California."
+          },
+          {
+            "name": "Corte Madera / Larkspur",
+            "why": "Flatter, near Highway 101 and the Larkspur ferry, 15 minutes from CACM in San Anselmo; still expensive."
+          }
+        ],
+        "notes": "Southern Marin rentals are scarce and expensive; many Marin artists live and work further north, in San Rafael or Novato."
+      },
+      "forWinnie": "Southern Marin is breathtaking: Heath Ceramics' original factory is right in Sausalito, Mount Tamalpais is your back garden, and the ferry puts San Francisco half an hour away across the water. But it's quiet and very expensive, with few open-access studios, little East African community, and summer fog on the waterfront (it's sunnier ten minutes inland). It suits a residency or a visit better than a first home; if Marin calls you, San Rafael is the more practical base."
     },
     "Seattle, Washington, USA": {
       "location": "Seattle, Washington, USA",
@@ -46581,6 +47352,1808 @@
         "internetQuality": "Excellent",
         "notes": "University of Manitoba. Cultural scene. VERY cold winters."
       }
+    },
+    "Oakland, California, USA": {
+      "location": "Oakland, California, USA",
+      "city": "Oakland",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.8044,
+        "lng": -122.2712
+      },
+      "timezone": "America/Los_Angeles",
+      "utcOffset": -8,
+      "opportunities": [
+        "Clayroom West Oakland",
+        "Clayroom Oakland (Temescal)",
+        "The Crucible: Ceramics",
+        "Merritt Ceramics",
+        "Creative Growth Art Center"
+      ],
+      "opportunityTypes": [
+        "studio",
+        "workshop",
+        "community"
+      ],
+      "climate": [
+        {
+          "month": "January",
+          "tempHigh": 15.4,
+          "tempLow": 7.3,
+          "rainfall": 110,
+          "daylightHours": 9.8,
+          "humidity": 78
+        },
+        {
+          "month": "February",
+          "tempHigh": 16.9,
+          "tempLow": 8.4,
+          "rainfall": 110,
+          "daylightHours": 10.7,
+          "humidity": 75
+        },
+        {
+          "month": "March",
+          "tempHigh": 18.2,
+          "tempLow": 9.3,
+          "rainfall": 82,
+          "daylightHours": 11.8,
+          "humidity": 74
+        },
+        {
+          "month": "April",
+          "tempHigh": 19.3,
+          "tempLow": 10.2,
+          "rainfall": 35,
+          "daylightHours": 13.1,
+          "humidity": 71
+        },
+        {
+          "month": "May",
+          "tempHigh": 20.3,
+          "tempLow": 11.6,
+          "rainfall": 19,
+          "daylightHours": 14.2,
+          "humidity": 72
+        },
+        {
+          "month": "June",
+          "tempHigh": 22.1,
+          "tempLow": 12.8,
+          "rainfall": 5,
+          "daylightHours": 14.8,
+          "humidity": 73
+        },
+        {
+          "month": "July",
+          "tempHigh": 22.0,
+          "tempLow": 13.7,
+          "rainfall": 0,
+          "daylightHours": 14.5,
+          "humidity": 76
+        },
+        {
+          "month": "August",
+          "tempHigh": 22.7,
+          "tempLow": 14.2,
+          "rainfall": 1,
+          "daylightHours": 13.6,
+          "humidity": 77
+        },
+        {
+          "month": "September",
+          "tempHigh": 23.7,
+          "tempLow": 14.0,
+          "rainfall": 2,
+          "daylightHours": 12.4,
+          "humidity": 74
+        },
+        {
+          "month": "October",
+          "tempHigh": 22.6,
+          "tempLow": 12.6,
+          "rainfall": 29,
+          "daylightHours": 11.1,
+          "humidity": 69
+        },
+        {
+          "month": "November",
+          "tempHigh": 18.8,
+          "tempLow": 9.7,
+          "rainfall": 62,
+          "daylightHours": 10.1,
+          "humidity": 72
+        },
+        {
+          "month": "December",
+          "tempHigh": 15.4,
+          "tempLow": 7.3,
+          "rainfall": 118,
+          "daylightHours": 9.6,
+          "humidity": 74
+        }
+      ],
+      "seasons": {
+        "winter": {
+          "summary": "Mild and rainy: highs 15-17 \u00b0C, lows 7-8 \u00b0C, about 110-120 mm of rain a month from December to February. The hills turn green.",
+          "comfort": "cool"
+        },
+        "spring": {
+          "summary": "Highs 18-20 \u00b0C, rain fading by April, wildflowers in the hill parks.",
+          "comfort": "comfortable"
+        },
+        "summer": {
+          "summary": "Sunnier and warmer than San Francisco: highs about 22 \u00b0C downtown (more in the hills and inland), with morning fog that usually burns off. Dry from June to September.",
+          "comfort": "comfortable"
+        },
+        "autumn": {
+          "summary": "September is the warmest month (about 24 \u00b0C). Dry offshore winds bring fire danger to the Oakland Hills until the rains return in late October or November.",
+          "comfort": "comfortable"
+        }
+      },
+      "localColor": {
+        "blooms": [
+          {
+            "month": "March",
+            "name": "Hillside wildflowers",
+            "notes": "California poppies and lupine in the East Bay hill parks (Joaquin Miller, Redwood Regional)."
+          },
+          {
+            "month": "May",
+            "name": "Morcom Rose Garden",
+            "notes": "A historic terraced rose garden near Piedmont Avenue, at its best in May."
+          }
+        ],
+        "festivals": [
+          {
+            "month": "February",
+            "name": "Black Joy Parade",
+            "notes": "Downtown celebration of Black joy, culture and community; the 10th edition is in February 2027."
+          },
+          {
+            "month": "Monthly",
+            "name": "Oakland First Fridays",
+            "notes": "Free evening street festival on Telegraph Avenue on the first Friday of most months, with music, food and art."
+          },
+          {
+            "month": "August",
+            "name": "Oakland Pride",
+            "notes": "Parade and festival downtown (August 16, 2026)."
+          },
+          {
+            "month": "October",
+            "name": "D\u00eda de los Muertos Festival",
+            "notes": "Unity Council's festival in Fruitvale, one of the biggest Day of the Dead celebrations in the Bay (late October or early November)."
+          },
+          {
+            "month": "November",
+            "name": "GIFTY at The Crucible",
+            "notes": "Two floors of handmade goods from 60+ Bay Area artists, with live demos."
+          },
+          {
+            "month": "December",
+            "name": "East Bay Open Studios (winter edition)",
+            "notes": "Open studios across the East Bay, run by Oakland Art Murmur (Dec 5-6 and 12-13, 2026)."
+          }
+        ],
+        "naturalPhenomena": [
+          {
+            "season": "winter",
+            "name": "Lake Merritt waterfowl",
+            "notes": "Declared North America's first official wildlife refuge in 1870, the lake fills with migrating ducks, grebes and egrets in winter."
+          },
+          {
+            "season": "summer",
+            "name": "Fog line",
+            "notes": "Morning fog sits on the hills and usually lifts by midday, leaving sunny afternoons downtown."
+          },
+          {
+            "season": "fall",
+            "name": "Fire weather",
+            "notes": "Dry autumn winds raise wildfire danger in the hills; watch for red-flag warnings."
+          }
+        ]
+      },
+      "ceramicsEcosystem": {
+        "studios": [
+          {
+            "name": "Clayroom West Oakland",
+            "url": "https://www.clayroomsf.com/westoakland",
+            "notes": "A member-centred Clayroom studio in a two-storey, 5,700 sq ft space in Prescott Market, offering both cone 5 electric and cone 10 gas reduction firing under one roof."
+          },
+          {
+            "name": "Clayroom Oakland (Temescal)",
+            "url": "https://www.clayroomsf.com/oakland",
+            "notes": "Clayroom's East Bay studio (opened 2024) with classes, memberships and a big outdoor yard used for monthly raku firings and craft sales."
+          },
+          {
+            "name": "The Crucible: Ceramics",
+            "url": "https://www.thecrucible.org/departments/ceramics/",
+            "notes": "West Oakland non-profit fine and industrial arts school whose ceramics department teaches wheel, hand-building, slip casting and mid-fire glazing."
+          },
+          {
+            "name": "Merritt Ceramics",
+            "url": "https://www.merrittceramics.com/",
+            "notes": "A neighbourhood studio with classes, courses, memberships and private events, plus an outside firing service for home potters and a one-year artist residency that prioritises Black and Indigenous Oakland artists."
+          },
+          {
+            "name": "Kollektiv Clay Studio",
+            "url": "https://www.kollektivclaystudio.com/",
+            "notes": "Piedmont Avenue community pottery studio with one-time classes, six-week courses, workshops, youth classes, glaze pass and memberships."
+          },
+          {
+            "name": "YoLin Art Studio",
+            "url": "https://yolinartstudio.com/",
+            "notes": "Artist-run studio of Yingling Lin and Yoyo Hu, teaching functional pottery and expressive sculpture."
+          },
+          {
+            "name": "Waveform Ceramics",
+            "url": "https://www.waveformceramics.com/",
+            "notes": "Small North Oakland classroom studio for beginners, with trauma-aware, body-awareness teaching."
+          },
+          {
+            "name": "Studio One Art Center (City of Oakland)",
+            "url": "https://www.oaklandca.gov/topics/studio-one-arts-center",
+            "notes": "The City of Oakland's only city-run studio arts centre, offering classes by working artists in ceramics alongside painting, drawing, music and dance for youth and adults."
+          },
+          {
+            "name": "Laney College Ceramics",
+            "url": "https://laney.edu/art",
+            "notes": "Community college ceramics with an A.A. and a 12-week wood-firing course on a train kiln."
+          },
+          {
+            "name": "Creative Growth Art Center",
+            "url": "https://creativegrowth.org",
+            "notes": "The oldest and largest art centre for artists with disabilities; ceramics is one of its core studios."
+          },
+          {
+            "name": "Ace Makerspace",
+            "url": "https://www.acemakerspace.org",
+            "notes": "Member-run 24/7 makerspace with a textiles area alongside wood, metal and laser tools."
+          }
+        ],
+        "suppliers": [
+          {
+            "name": "Douglas & Sturgess (Richmond)",
+            "url": "https://douglasandsturgess.com",
+            "notes": "Clay (Laguna B-Mix, cone 5 and 10), plasters, pigments and tools in Richmond, about 20 minutes north."
+          },
+          {
+            "name": "NorCal Kiln Repair",
+            "url": "https://norcalkilnrepair.com",
+            "notes": "Evaluation and repair of gas and electric ceramic and glass kilns, pottery wheels, pug mills and slab rollers; ventilation installation, studio setup and equipment appraisals."
+          },
+          {
+            "name": "A Verb for Keeping Warm",
+            "url": "https://www.averbforkeepingwarm.com",
+            "notes": "Textiles: yarn and fabric shop built around natural dye, selling mordants, dyes and dyeables and teaching classes."
+          },
+          {
+            "name": "East Bay Depot for Creative Reuse",
+            "url": "https://www.creativereuse.org",
+            "notes": "Oakland's sustainable art and craft supply store, stocked with donated materials at low prices: good hunting for yarn, fabric and odd things to weave with."
+          },
+          {
+            "name": "Bay Quilts",
+            "url": "https://www.sfbayquilts.com",
+            "notes": "Textiles: Richmond fabric store and quilt gallery with deep stocks of solids and quilting cottons."
+          }
+        ],
+        "galleries": [
+          {
+            "name": "Oakland Museum of California (OMCA)",
+            "url": "https://museumca.org",
+            "notes": "California's art, history and natural sciences by Lake Merritt, with Friday Nights at OMCA."
+          },
+          {
+            "name": "Creative Growth gallery",
+            "url": "https://creativegrowth.org",
+            "notes": "Exhibitions and shop of work from the Creative Growth studios, including ceramics and fibre."
+          },
+          {
+            "name": "Oakland Asian Cultural Center",
+            "url": "https://oacc.cc",
+            "notes": "Chinatown cultural centre with weekly art, music and dance classes and exhibitions, a warm entry point into Oakland's Asian American arts community."
+          }
+        ],
+        "community": "Oakland has momentum: two Clayroom studios (with cone 10 gas reduction in West Oakland), The Crucible, Merritt Ceramics' outside firing service and its residency for Black and Indigenous Oakland artists, Laney College's wood firing, and disability-led studios like Creative Growth. MerrittFest, GIFTY, the Fellowship of Craft and East Bay Open Studios are the selling and meeting points. For fibre, A Verb for Keeping Warm teaches natural dyeing and the Bay Area Basket Makers meet here."
+      },
+      "probabilityOfChili": {
+        "score": 60,
+        "rating": "Moderate",
+        "nearest": "Burdell (soul food), Cholita Linda, Fruitvale taquerias",
+        "notes": "No chili parlours, but Fruitvale's taquerias and Burdell's soul food (with berbere-spiced greens) cover warm and spicy, and Caf\u00e9 Colucci's lentil wot is a fine bowl of comfort."
+      },
+      "creepyCrawlies": {
+        "mosquitoes": "low",
+        "spiders": "moderate",
+        "snakes": "low (rattlesnakes in the hill parks)",
+        "other": "Ticks and poison oak on hill trails; raccoons and skunks in gardens."
+      },
+      "practicalNotes": "Oakland is the Bay's most energetic clay town right now, and rents are about half of San Francisco's (one-bedrooms averaged about $2,100 in mid-2026, Zumper). BART reaches downtown San Francisco in about 15 minutes. Safety varies block by block, so ask locals before choosing a street.",
+      "indigenousTraditions": {
+        "peoples": [
+          "Lisjan (Chochenyo) Ohlone",
+          "Muwekma Ohlone"
+        ],
+        "ceramicsHeritage": "Oakland is in the territory of Chochenyo-speaking Ohlone people. Like other Ohlone communities they were basket makers rather than potters, and they built large shellmounds along the bay shore, including the West Berkeley shellmound a few kilometres north.",
+        "respectfulEngagement": "Sogorea Te' Land Trust, an urban Indigenous women-led land trust co-founded by Lisjan Ohlone leader Corrina Gould, returns land to Indigenous stewardship; many residents pay its voluntary Shuumi Land Tax. The Muwekma Ohlone Tribe also represents Ohlone descendants of the East Bay. The two have different histories, so name each one correctly."
+      },
+      "probabilityOfCoffee": {
+        "score": 92,
+        "rating": "Excellent",
+        "roasters": [
+          "Blue Bottle (founded here in 2002)",
+          "Red Bay Coffee",
+          "Highwire Coffee Roasters",
+          "Timeless Coffee & Bakery"
+        ],
+        "notes": "Blue Bottle started as an Oakland farmers-market stall, and Red Bay is a much-loved Black-owned Oakland roaster. Ethiopian-style coffee ceremonies are part of life in the Telegraph Avenue restaurants."
+      },
+      "localDessert": {
+        "signature": "A sundae at Fentons Creamery, scooping on Piedmont Avenue since 1894",
+        "bakeries": [
+          "Fentons Creamery",
+          "Timeless Coffee & Bakery (vegan)",
+          "Market Hall Bakery (Rockridge)",
+          "Arizmendi Bakery (worker co-op)"
+        ],
+        "notes": "Old-fashioned ice cream, vegan pastry and worker-co-op bread: very Oakland."
+      },
+      "beachAccess": {
+        "distance": "15-45 min",
+        "type": "San Francisco Bay / Pacific",
+        "beaches": [
+          "Crown Memorial State Beach, Alameda (15 min)",
+          "Ocean Beach, San Francisco (about 45 min by BART and Muni)"
+        ],
+        "swimmable": "Crown Beach is shallow and calm, but the bay is cold (about 15-18 \u00b0C at best in late summer) and sometimes posted after rain. Wetsuit recommended.",
+        "notes": "Lake Merritt is the everyday waterfront: a 5 km path around a tidal lagoon in the middle of the city."
+      },
+      "practicalInfo": {
+        "language": "English (with large Spanish- and Cantonese-speaking communities, and an Ethiopian and Eritrean community along Telegraph Avenue)",
+        "visaInfo": "Rwandan citizens need a US visa: a B-1/B-2 visitor visa for visits, applied for at the US Embassy in Kigali. ESTA and 90-day visa-free entry are only for citizens of Visa Waiver Program countries, and Rwanda is not one. Working or teaching for pay needs a separate status with work authorization (for example an O-1 artist visa or an employer-sponsored visa). US visa rules changed often in 2025-26, so check travel.state.gov and the embassy before applying.",
+        "healthcareAccess": "Private, insurance-based system: an uninsured visit to a doctor or emergency room is very expensive. Visitors need travel medical insurance; residents usually get cover through an employer or Covered California. Community health clinics offer sliding-scale care.",
+        "internetQuality": "Excellent",
+        "notes": "Oakland is the Bay's most energetic clay town right now, and rents are about half of San Francisco's (one-bedrooms averaged about $2,100 in mid-2026, Zumper). BART reaches downtown San Francisco in about 15 minutes. Safety varies block by block, so ask locals before choosing a street."
+      },
+      "foodScene": {
+        "score": 90,
+        "rating": "Excellent",
+        "notes": "Oakland cooks with heart: Saturday mornings at the Grand Lake market, Ethiopian coffee and injera at Caf\u00e9 Colucci, soul food at Burdell and taco trucks along International Boulevard. It's more relaxed and cheaper than San Francisco, and the produce is just as good.",
+        "favorites": [
+          {
+            "name": "Grand Lake Farmers Market",
+            "what": "Big Saturday market under the trees, 9am-2pm, rain or shine",
+            "neighborhood": "Grand Lake (Splash Pad Park)",
+            "url": "https://www.agriculturalinstitute.org/grand-lake"
+          },
+          {
+            "name": "Temescal Farmers Market",
+            "what": "Year-round Sunday market by Frog Park, 9am-1pm",
+            "neighborhood": "Temescal (Claremont Ave)",
+            "url": "https://www.visitoakland.com/blog/post/the-best-farmers-markets-in-oakland/"
+          },
+          {
+            "name": "Caf\u00e9 Colucci",
+            "what": "Ethiopian restaurant with Brundo spice shop inside: injera, kitfo, big vegetarian platters",
+            "neighborhood": "North Oakland (San Pablo Ave)",
+            "url": "https://www.cafecolucci.com/"
+          },
+          {
+            "name": "Burdell",
+            "what": "Soul food with Californian produce, including berbere-spiced greens",
+            "neighborhood": "Temescal (Telegraph Ave)",
+            "url": "https://www.burdelloakland.com/"
+          },
+          {
+            "name": "Cholita Linda",
+            "what": "Latin American street food: fish tacos, Cuban sandwiches, aguas frescas",
+            "neighborhood": "Temescal",
+            "url": "https://www.cholitalinda.com/"
+          },
+          {
+            "name": "Rockridge Market Hall",
+            "what": "European-style food hall: bakery, cheese, fish, produce and Highwire coffee",
+            "neighborhood": "Rockridge",
+            "url": "https://rockridgemarkethall.com/"
+          },
+          {
+            "name": "Fentons Creamery",
+            "what": "Ice cream parlour since 1894",
+            "neighborhood": "Piedmont Avenue",
+            "url": "https://www.fentonscreamery.com/"
+          },
+          {
+            "name": "Commis",
+            "what": "The big splurge: a two-Michelin-star tasting menu",
+            "neighborhood": "Piedmont Avenue",
+            "url": "https://commisrestaurant.com/"
+          }
+        ]
+      },
+      "liveMusic": {
+        "score": 86,
+        "rating": "Excellent",
+        "notes": "Jazz at Yoshi's, touring bands in the restored Fox and the art deco Paramount, and free music on the street every First Friday. Oakland's own scene (hip-hop, funk, gospel, Afrobeat) is everywhere once you look.",
+        "venues": [
+          {
+            "name": "Yoshi's",
+            "kind": "jazz club and restaurant",
+            "neighborhood": "Jack London Square",
+            "url": "https://yoshis.com/"
+          },
+          {
+            "name": "Fox Theater",
+            "kind": "restored 1928 movie palace, touring acts",
+            "neighborhood": "Uptown",
+            "url": "https://thefoxoakland.com/"
+          },
+          {
+            "name": "Oakland Symphony (Paramount Theatre)",
+            "kind": "symphony",
+            "neighborhood": "Uptown",
+            "url": "https://www.oaklandsymphony.org/"
+          },
+          {
+            "name": "The New Parish",
+            "kind": "small club",
+            "neighborhood": "Uptown",
+            "url": "https://thenewparish.com/"
+          },
+          {
+            "name": "Oakland First Fridays",
+            "kind": "free outdoor street festival",
+            "neighborhood": "Telegraph Ave (KONO)",
+            "url": "https://www.oaklandfirstfridays.org/"
+          }
+        ]
+      },
+      "everydayLife": {
+        "markets": [
+          "Grand Lake Farmers Market (Sat 9am-2pm)",
+          "Temescal Farmers Market (Sun 9am-1pm)",
+          "Rockridge Market Hall",
+          "Chinatown produce shops and bakeries around 8th and Webster",
+          "Alameda Point Antiques Faire (first Sunday of each month, 15 min) for vintage textiles, tools and pottery"
+        ],
+        "walks": [
+          {
+            "name": "Lake Merritt loop",
+            "notes": "A 5 km path around the lake, busy with walkers, drummers and Sunday picnics."
+          },
+          {
+            "name": "Redwood Regional Park",
+            "notes": "Tall coast redwoods 20 minutes from downtown, with creekside and ridge trails."
+          },
+          {
+            "name": "Mountain View Cemetery",
+            "notes": "Olmsted-designed hillside cemetery with wide paths and views over the bay."
+          }
+        ],
+        "gettingAround": "BART links downtown Oakland to San Francisco in about 15 minutes and runs north to Berkeley; AC Transit buses cover the rest, including the Tempo rapid bus on International Boulevard. The ferry from Jack London Square to San Francisco is a lovely commute. The flatlands are easy by bike, the hills are not, and a car helps for hauling clay.",
+        "neighborhoods": [
+          {
+            "name": "Temescal / Rockridge",
+            "why": "Clayroom Temescal, Kollektiv (Piedmont Ave) and Waveform are close, with good food on Telegraph and BART at MacArthur and Rockridge. Walkable and pleasant, at the top of Oakland's price range."
+          },
+          {
+            "name": "West Oakland",
+            "why": "Industrial lofts near The Crucible and Clayroom West Oakland, one BART stop from San Francisco. More space and more grit; services are uneven."
+          },
+          {
+            "name": "Lakeshore / Grand Lake",
+            "why": "Merritt Ceramics, YoLin and the Saturday market around the lake; lively, walkable, mid-range rents."
+          },
+          {
+            "name": "Fruitvale / Dimond",
+            "why": "Lower rents, great taquerias and the D\u00eda de los Muertos festival, with BART at Fruitvale."
+          }
+        ],
+        "notes": "One-bedrooms averaged about $2,100 a month in mid-2026 (Zumper). Crime is higher than in the suburbs and varies a lot by block."
+      },
+      "forWinnie": "Oakland might be the most natural fit: a working clay scene with cone 10 gas firing, a residency that centres Black and Indigenous artists, natural-dye classes at A Verb for Keeping Warm, and an Ethiopian and Eritrean community whose coffee ceremonies and injera will feel familiar. It's sunnier and a few degrees warmer than San Francisco, though still cooler than Kigali for most of the year. Rent is about half of San Francisco's and BART crosses the bay in fifteen minutes. It's also a city with real inequality and some rough blocks, so choose your street with local advice."
+    },
+    "San Rafael, California, USA": {
+      "location": "San Rafael, California, USA",
+      "city": "San Rafael",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.9735,
+        "lng": -122.5311
+      },
+      "timezone": "America/Los_Angeles",
+      "utcOffset": -8,
+      "opportunities": [
+        "Amphora Ceramic Studio",
+        "Ceramic Art Center of Marin (CACM)",
+        "CACM Artist-in-Residence 2027",
+        "Marin Open Studios"
+      ],
+      "opportunityTypes": [
+        "studio",
+        "residency",
+        "community"
+      ],
+      "climate": [
+        {
+          "month": "January",
+          "tempHigh": 13.8,
+          "tempLow": 5.9,
+          "rainfall": 181,
+          "daylightHours": 9.8,
+          "humidity": 78
+        },
+        {
+          "month": "February",
+          "tempHigh": 16.2,
+          "tempLow": 6.7,
+          "rainfall": 176,
+          "daylightHours": 10.7,
+          "humidity": 75
+        },
+        {
+          "month": "March",
+          "tempHigh": 18.2,
+          "tempLow": 7.5,
+          "rainfall": 112,
+          "daylightHours": 11.8,
+          "humidity": 74
+        },
+        {
+          "month": "April",
+          "tempHigh": 19.9,
+          "tempLow": 8.6,
+          "rainfall": 50,
+          "daylightHours": 13.1,
+          "humidity": 71
+        },
+        {
+          "month": "May",
+          "tempHigh": 22.2,
+          "tempLow": 10.3,
+          "rainfall": 24,
+          "daylightHours": 14.2,
+          "humidity": 72
+        },
+        {
+          "month": "June",
+          "tempHigh": 25.5,
+          "tempLow": 11.9,
+          "rainfall": 4,
+          "daylightHours": 14.8,
+          "humidity": 73
+        },
+        {
+          "month": "July",
+          "tempHigh": 27.2,
+          "tempLow": 12.7,
+          "rainfall": 0,
+          "daylightHours": 14.5,
+          "humidity": 76
+        },
+        {
+          "month": "August",
+          "tempHigh": 27.4,
+          "tempLow": 13.1,
+          "rainfall": 1,
+          "daylightHours": 13.6,
+          "humidity": 77
+        },
+        {
+          "month": "September",
+          "tempHigh": 27.1,
+          "tempLow": 12.4,
+          "rainfall": 2,
+          "daylightHours": 12.4,
+          "humidity": 74
+        },
+        {
+          "month": "October",
+          "tempHigh": 23.8,
+          "tempLow": 10.8,
+          "rainfall": 37,
+          "daylightHours": 11.1,
+          "humidity": 69
+        },
+        {
+          "month": "November",
+          "tempHigh": 18.1,
+          "tempLow": 7.8,
+          "rainfall": 89,
+          "daylightHours": 10.1,
+          "humidity": 72
+        },
+        {
+          "month": "December",
+          "tempHigh": 13.9,
+          "tempLow": 5.6,
+          "rainfall": 198,
+          "daylightHours": 9.5,
+          "humidity": 74
+        }
+      ],
+      "seasons": {
+        "winter": {
+          "summary": "Cool and wet: highs about 14 \u00b0C, lows near 6 \u00b0C, and a lot of rain (about 180-200 mm a month from December to February, 875 mm a year). Occasional light frost.",
+          "comfort": "cool"
+        },
+        "spring": {
+          "summary": "Green hills and highs of 18-22 \u00b0C, with rain ending in April or May.",
+          "comfort": "comfortable"
+        },
+        "summer": {
+          "summary": "Warm, dry and mostly fog-free: highs 25-27 \u00b0C, cool nights around 12 \u00b0C. Lovely weather for working outdoors.",
+          "comfort": "warm"
+        },
+        "autumn": {
+          "summary": "September is still about 27 \u00b0C; October cools. High fire danger in the hills until the first rains.",
+          "comfort": "comfortable"
+        }
+      },
+      "localColor": {
+        "blooms": [
+          {
+            "month": "March",
+            "name": "Hillside wildflowers",
+            "notes": "Poppies and lupine in China Camp State Park and on Mount Burdell above Novato."
+          },
+          {
+            "month": "May",
+            "name": "Ring Mountain",
+            "notes": "Rare native wildflowers on the serpentine grasslands of Ring Mountain, a short drive south."
+          }
+        ],
+        "festivals": [
+          {
+            "month": "May",
+            "name": "Marin Open Studios",
+            "notes": "Two May weekends when Marin artists, potters included, open their studios and sell directly."
+          },
+          {
+            "month": "July",
+            "name": "Marin County Fair",
+            "notes": "Five days of concerts, fireworks and fine-arts shows at the Marin Center fairgrounds (July 1-5, 2026)."
+          },
+          {
+            "month": "June",
+            "name": "Dancing Under the Lights",
+            "notes": "Free summer evenings of live music and dancing on Fourth Street downtown."
+          },
+          {
+            "month": "Monthly",
+            "name": "2nd Friday Art Walk",
+            "notes": "Galleries and studios at Art Works Downtown open on the second Friday of each month."
+          }
+        ],
+        "naturalPhenomena": [
+          {
+            "season": "summer",
+            "name": "Sun on this side of the fog",
+            "notes": "San Rafael is usually clear and warm when Sausalito and San Francisco sit in fog."
+          },
+          {
+            "season": "winter",
+            "name": "Bay shore birds",
+            "notes": "Ducks, egrets and shorebirds along the China Camp and Las Gallinas marshes."
+          },
+          {
+            "season": "winter",
+            "name": "Elephant seals at Point Reyes",
+            "notes": "About 45 minutes west, December to March."
+          }
+        ]
+      },
+      "ceramicsEcosystem": {
+        "studios": [
+          {
+            "name": "Amphora Ceramic Studio",
+            "url": "https://www.amphoraceramicstudio.org",
+            "notes": "San Rafael teaching studio with 5-6 week courses, tiered memberships and a firing service (it refuses wild clay and homemade glazes)."
+          },
+          {
+            "name": "Ceramic Art Center of Marin (CACM)",
+            "url": "https://www.cacm.studio",
+            "notes": "A studio and gallery for intermediate-to-professional ceramic artists, founded by Nadia Tarzi-Saccardi (former director of Terra Linda Ceramics)."
+          },
+          {
+            "name": "CACM Artist-in-Residence 2027",
+            "url": "https://www.cacm.studio/residency",
+            "notes": "Two-month ceramics residency at CACM for a specific project, ending in a gallery show; apply by January 30, 2027."
+          },
+          {
+            "name": "Marin Pottery",
+            "url": "https://www.marinpottery.org/",
+            "notes": "Community pottery studio in Novato (15 min) with memberships, classes and drop-in sessions."
+          },
+          {
+            "name": "Terra Linda Ceramic Artists",
+            "url": "https://www.terralindaceramicartists.com",
+            "notes": "Community studio in north San Rafael with classes and specialty firings (2026 schedule not confirmed)."
+          },
+          {
+            "name": "Art Works Downtown",
+            "url": "https://www.artworksdowntown.org",
+            "notes": "Downtown building of artist studios and galleries with a studio residency and the monthly art walk."
+          }
+        ],
+        "suppliers": [
+          {
+            "name": "Dharma Trading Co.",
+            "url": "https://www.dharmatrading.com",
+            "notes": "Textiles: natural dyes, extracts and mordants, silk-painting supplies and undyed cotton, silk and wool."
+          },
+          {
+            "name": "Atelier Yarns (San Rafael)",
+            "url": "https://atelieryarns.com",
+            "notes": "Textiles: yarn, weaving tools and classes downtown."
+          },
+          {
+            "name": "Creative Ceramics and Glass / GlazeQueen (Santa Rosa)",
+            "url": "https://www.creativeceramicsandglass.com",
+            "notes": "North Bay ceramics supply showroom (clay, glazes, chemicals, kilns, wheels) in Santa Rosa, about 45 minutes north."
+          },
+          {
+            "name": "Douglas & Sturgess (Richmond)",
+            "url": "https://douglasandsturgess.com",
+            "notes": "Clay and plaster across the Richmond-San Rafael Bridge, about 25 minutes."
+          }
+        ],
+        "galleries": [
+          {
+            "name": "MarinMOCA",
+            "url": "https://www.marinmoca.org",
+            "notes": "Marin's contemporary art museum, with exhibitions, learning programmes and free family art days."
+          },
+          {
+            "name": "Museum of the American Indian (Miwok Park)",
+            "url": "https://www.marinindian.com",
+            "notes": "Living cultural centre on Coast Miwok land in Novato's Miwok Park."
+          },
+          {
+            "name": "Heath Ceramics Sausalito Factory & Showroom",
+            "url": "https://www.heathceramics.com/pages/locations/sausalito",
+            "notes": "Heath's original 1959 dinnerware factory and showroom, 20 minutes south in Sausalito."
+          }
+        ],
+        "community": "Marin's most practical clay base: Amphora, CACM's cone 10 studio with Ateliers, Clay Talks and a free 2027 residency, and Marin Pottery in Novato. Kiln Gods Pottery has paused classes while it looks for a new space. Note that Amphora's firing service won't take wild clay or homemade glazes. For fibre and dye, Dharma Trading is a national natural-dye supplier right here, and Fibershed (Point Reyes Station, 40 min) runs workshops on local fibre."
+      },
+      "probabilityOfChili": {
+        "score": 35,
+        "rating": "Low",
+        "nearest": "Sol Food (Puerto Rican), Canal District taquerias",
+        "notes": "Not a chili town, but Sol Food's Puerto Rican plates of pernil, rice and beans are a local institution, and the Canal neighbourhood has Central American and Mexican kitchens."
+      },
+      "creepyCrawlies": {
+        "mosquitoes": "moderate near the marshes",
+        "spiders": "moderate",
+        "snakes": "moderate (rattlesnakes in open space)",
+        "other": "Ticks (Lyme disease is present) and poison oak on trails."
+      },
+      "practicalNotes": "Stands in for northern Marin (San Rafael, San Anselmo, Novato). The practical side of Marin: more apartments than the southern towns, the county's best markets, SMART trains north to Petaluma and the Larkspur ferry to San Francisco. Still expensive, and a car helps.",
+      "indigenousTraditions": {
+        "peoples": [
+          "Coast Miwok",
+          "Federated Indians of Graton Rancheria (Coast Miwok and Southern Pomo)"
+        ],
+        "ceramicsHeritage": "San Rafael grew around Mission San Rafael Arc\u00e1ngel (1817), where many Coast Miwok people were forced into mission life and labour. Coast Miwok craft centred on baskets, clamshell-bead money and tule boats; there was no pottery tradition.",
+        "respectfulEngagement": "The Federated Indians of Graton Rancheria (gratonrancheria.com) is the federally recognised tribe of Coast Miwok and Southern Pomo people. Visit the Museum of the American Indian in Novato's Miwok Park and Kule Loklo, the reconstructed Coast Miwok village at Point Reyes."
+      },
+      "probabilityOfCoffee": {
+        "score": 75,
+        "rating": "Good",
+        "roasters": [
+          "Equator Coffees (Marin-born roaster)"
+        ],
+        "notes": "Equator, founded in Marin, roasts nearby and supplies caf\u00e9s across the Bay; downtown Fourth Street has good independent caf\u00e9s."
+      },
+      "localDessert": {
+        "signature": "Farmers-market fruit and Marin dairy: Straus ice cream, Marin French Cheese",
+        "nearest": "Woodlands Market bakery (Kentfield), Lappert's (Sausalito)",
+        "notes": "Marin's dairies mean excellent butter, cheese and ice cream; summer stone fruit at the Sunday market is the real dessert."
+      },
+      "beachAccess": {
+        "distance": "15-60 min",
+        "type": "SF Bay / Pacific Ocean",
+        "beaches": [
+          "China Camp State Park (bay shore)",
+          "Stinson Beach",
+          "Point Reyes beaches (Drakes, Limantour)"
+        ],
+        "swimmable": "The Pacific is cold (about 12-14 \u00b0C); China Camp's small bay beach is calm for wading and paddling.",
+        "notes": "Bay shore close by; the big Pacific beaches are 45-60 minutes west over the hills."
+      },
+      "practicalInfo": {
+        "language": "English (Spanish widely spoken)",
+        "visaInfo": "Rwandan citizens need a US visa: a B-1/B-2 visitor visa for visits, applied for at the US Embassy in Kigali. ESTA and 90-day visa-free entry are only for citizens of Visa Waiver Program countries, and Rwanda is not one. Working or teaching for pay needs a separate status with work authorization (for example an O-1 artist visa or an employer-sponsored visa). US visa rules changed often in 2025-26, so check travel.state.gov and the embassy before applying.",
+        "healthcareAccess": "Private, insurance-based system: an uninsured visit to a doctor or emergency room is very expensive. Visitors need travel medical insurance; residents usually get cover through an employer or Covered California. Community health clinics offer sliding-scale care.",
+        "internetQuality": "Excellent",
+        "notes": "Stands in for northern Marin (San Rafael, San Anselmo, Novato). The practical side of Marin: more apartments than the southern towns, the county's best markets, SMART trains north to Petaluma and the Larkspur ferry to San Francisco. Still expensive, and a car helps."
+      },
+      "foodScene": {
+        "score": 70,
+        "rating": "Good",
+        "notes": "The Sunday market at the Civic Center is one of the best in the Bay, under Frank Lloyd Wright's blue-roofed building, and downtown has cheerful, unfussy restaurants. There's no East African restaurant in Marin that we could verify; for injera, San Francisco and Oakland are 30-45 minutes away.",
+        "favorites": [
+          {
+            "name": "Sunday Marin Farmers Market",
+            "what": "150+ vendors year-round, Sundays 8am-1pm, rain or shine",
+            "neighborhood": "Marin Civic Center",
+            "url": "https://www.agriculturalinstitute.org/sunday-marin"
+          },
+          {
+            "name": "Thursday Marin Farmers Market",
+            "what": "The weekday market at the same site, Thursdays 8am-1pm",
+            "neighborhood": "Marin Civic Center",
+            "url": "https://www.agriculturalinstitute.org/thursday-marin"
+          },
+          {
+            "name": "San Rafael Summer Market",
+            "what": "Evening farmers market downtown, from May through the summer",
+            "neighborhood": "Downtown",
+            "url": "https://downtownsanrafael.org/summer-market-2026/"
+          },
+          {
+            "name": "Sol Food",
+            "what": "Puerto Rican plates: pernil, plantains, rice and beans",
+            "neighborhood": "Downtown",
+            "url": "https://www.solfoodrestaurant.com/"
+          },
+          {
+            "name": "Lotus Cuisine of India",
+            "what": "North and South Indian cooking on Fourth Street",
+            "neighborhood": "Downtown",
+            "url": "https://www.lotusrestaurant.com/"
+          },
+          {
+            "name": "Il Davide",
+            "what": "Northern Italian, for a nicer night out",
+            "neighborhood": "Downtown",
+            "url": "https://ildavide.net/"
+          },
+          {
+            "name": "Woodlands Market",
+            "what": "Specialty grocer with a strong bakery",
+            "neighborhood": "Kentfield (10 min)",
+            "url": "https://www.woodlandsmarket.com/"
+          }
+        ]
+      },
+      "liveMusic": {
+        "score": 60,
+        "rating": "Moderate",
+        "notes": "Quieter evenings: the Marin Symphony, free summer dancing downtown and the County Fair's concerts, with Mill Valley's excellent small halls 15 minutes south.",
+        "venues": [
+          {
+            "name": "Marin Symphony",
+            "kind": "symphony",
+            "neighborhood": "Marin Center (Veterans' Memorial Auditorium)",
+            "url": "https://marinsymphony.org/"
+          },
+          {
+            "name": "Dancing Under the Lights",
+            "kind": "free outdoor series",
+            "neighborhood": "Downtown (Fourth St)",
+            "url": "https://downtownsanrafael.org/"
+          },
+          {
+            "name": "Marin County Fair",
+            "kind": "outdoor concerts (July)",
+            "neighborhood": "Marin Center fairgrounds",
+            "url": "https://marinfair.org/"
+          },
+          {
+            "name": "Sweetwater Music Hall",
+            "kind": "small hall",
+            "neighborhood": "Mill Valley (15 min)",
+            "url": "https://sweetwatermusichall.org/"
+          },
+          {
+            "name": "142 Throckmorton Theatre",
+            "kind": "small theatre",
+            "neighborhood": "Mill Valley (15 min)",
+            "url": "https://www.throckmortontheatre.org/"
+          }
+        ]
+      },
+      "everydayLife": {
+        "markets": [
+          "Sunday Marin Farmers Market (Sun 8am-1pm, Civic Center)",
+          "Thursday Marin Farmers Market (Thu 8am-1pm, Civic Center)",
+          "San Rafael Summer Market downtown (summer evenings)"
+        ],
+        "walks": [
+          {
+            "name": "China Camp State Park",
+            "notes": "Bay-shore trails through oak woods and salt marsh, with the old Chinese shrimp-fishing village."
+          },
+          {
+            "name": "Marin Civic Center lagoon",
+            "notes": "Easy loop round the lagoon below Frank Lloyd Wright's Civic Center."
+          },
+          {
+            "name": "Mount Tamalpais",
+            "notes": "Ridge and redwood trails 20 minutes south."
+          }
+        ],
+        "gettingAround": "SMART trains run from downtown San Rafael north to Petaluma and Santa Rosa and south to the Larkspur ferry, which crosses to San Francisco in about 30 minutes. Golden Gate Transit buses run along Highway 101. Downtown is walkable and bikeable, but most of Marin assumes a car.",
+        "neighborhoods": [
+          {
+            "name": "Downtown San Rafael",
+            "why": "Art Works Downtown, the art walk, Atelier Yarns and the SMART station; most of Marin's apartments are here."
+          },
+          {
+            "name": "Terra Linda / Marinwood",
+            "why": "North, near the Civic Center markets and Terra Linda Ceramic Artists; quiet, sunny and suburban."
+          },
+          {
+            "name": "Canal District",
+            "why": "The most affordable part of Marin, with a large Latino community; low-lying and flood-prone near the bay."
+          },
+          {
+            "name": "San Anselmo / Fairfax",
+            "why": "Charming small towns next to CACM; pricey."
+          }
+        ],
+        "notes": "Marin is among California's most expensive counties; San Rafael is its most practical place to rent. Studio space is easier to find in San Rafael and Novato than in the southern towns."
+      },
+      "forWinnie": "San Rafael is the practical side of Marin: Amphora, the Ceramic Art Center of Marin and Marin Pottery are all within 20 minutes, Dharma Trading sells natural dyes and mordants by the kilo, and the Sunday farmers market is one of the best in the Bay. Summer afternoons (about 27 \u00b0C) feel close to Kigali's, but winters are wetter and colder than you're used to. Rents are high and the arts community skews older, but SMART trains and the Larkspur ferry keep you linked to Petaluma and San Francisco."
+    },
+    "Palo Alto, California, USA": {
+      "location": "Palo Alto, California, USA",
+      "city": "Palo Alto",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.4419,
+        "lng": -122.143
+      },
+      "timezone": "America/Los_Angeles",
+      "utcOffset": -8,
+      "opportunities": [
+        "Palo Alto Art Center",
+        "Stanford Ceramics Studio",
+        "ACGA Clay & Glass Festival (Association of Clay and Glass Artists of California)",
+        "Pacific Art League"
+      ],
+      "opportunityTypes": [
+        "workshop",
+        "school",
+        "community"
+      ],
+      "climate": [
+        {
+          "month": "January",
+          "tempHigh": 14.3,
+          "tempLow": 3.9,
+          "rainfall": 75,
+          "daylightHours": 9.8,
+          "humidity": 78
+        },
+        {
+          "month": "February",
+          "tempHigh": 15.9,
+          "tempLow": 5.2,
+          "rainfall": 81,
+          "daylightHours": 10.8,
+          "humidity": 76
+        },
+        {
+          "month": "March",
+          "tempHigh": 18.6,
+          "tempLow": 6.4,
+          "rainfall": 56,
+          "daylightHours": 11.9,
+          "humidity": 74
+        },
+        {
+          "month": "April",
+          "tempHigh": 20.9,
+          "tempLow": 7.4,
+          "rainfall": 25,
+          "daylightHours": 13.1,
+          "humidity": 70
+        },
+        {
+          "month": "May",
+          "tempHigh": 22.9,
+          "tempLow": 9.7,
+          "rainfall": 11,
+          "daylightHours": 14.2,
+          "humidity": 71
+        },
+        {
+          "month": "June",
+          "tempHigh": 25.8,
+          "tempLow": 11.5,
+          "rainfall": 2,
+          "daylightHours": 14.7,
+          "humidity": 70
+        },
+        {
+          "month": "July",
+          "tempHigh": 26.3,
+          "tempLow": 13.2,
+          "rainfall": 0,
+          "daylightHours": 14.5,
+          "humidity": 74
+        },
+        {
+          "month": "August",
+          "tempHigh": 25.9,
+          "tempLow": 12.9,
+          "rainfall": 1,
+          "daylightHours": 13.6,
+          "humidity": 74
+        },
+        {
+          "month": "September",
+          "tempHigh": 26.4,
+          "tempLow": 11.7,
+          "rainfall": 2,
+          "daylightHours": 12.4,
+          "humidity": 72
+        },
+        {
+          "month": "October",
+          "tempHigh": 23.3,
+          "tempLow": 9.1,
+          "rainfall": 16,
+          "daylightHours": 11.2,
+          "humidity": 68
+        },
+        {
+          "month": "November",
+          "tempHigh": 17.6,
+          "tempLow": 5.8,
+          "rainfall": 41,
+          "daylightHours": 10.1,
+          "humidity": 73
+        },
+        {
+          "month": "December",
+          "tempHigh": 14.2,
+          "tempLow": 3.7,
+          "rainfall": 75,
+          "daylightHours": 9.6,
+          "humidity": 75
+        }
+      ],
+      "seasons": {
+        "winter": {
+          "summary": "Cool and fairly dry: highs about 14 \u00b0C, chilly nights near 4 \u00b0C (occasional frost), and 75-80 mm of rain a month at most; only about 385 mm a year.",
+          "comfort": "cool"
+        },
+        "spring": {
+          "summary": "Highs 19-23 \u00b0C, blossom everywhere, rain ending in April.",
+          "comfort": "comfortable"
+        },
+        "summer": {
+          "summary": "Warm, dry and reliably sunny: highs about 26 \u00b0C, nights around 13 \u00b0C, with a bay breeze in the afternoon.",
+          "comfort": "warm"
+        },
+        "autumn": {
+          "summary": "September (about 26 \u00b0C) is still summer; nights cool quickly by November.",
+          "comfort": "comfortable"
+        }
+      },
+      "localColor": {
+        "blooms": [
+          {
+            "month": "March",
+            "name": "Filoli in spring",
+            "notes": "Daffodils, tulips and flowering trees in Filoli's formal gardens in Woodside, 15 minutes away."
+          },
+          {
+            "month": "April",
+            "name": "Wildflowers on Russian Ridge",
+            "notes": "Poppies and lupine in the Midpeninsula open-space preserves above the town."
+          }
+        ],
+        "festivals": [
+          {
+            "month": "May",
+            "name": "Stanford Powwow",
+            "notes": "One of the biggest student-run powwows in the US, in Stanford's Eucalyptus Grove (the 55th was May 8-10, 2026)."
+          },
+          {
+            "month": "May",
+            "name": "Silicon Valley Open Studios",
+            "notes": "Three May weekends of open studios from the Peninsula to the South Bay; 2026 was its 40th year."
+          },
+          {
+            "month": "June",
+            "name": "Twilight Concert Series",
+            "notes": "Free Saturday evening concerts in Palo Alto's parks, June to August."
+          },
+          {
+            "month": "July",
+            "name": "ACGA Clay & Glass Festival",
+            "notes": "Free festival of 140+ juried California clay and glass artists, usually in July (2027 date not yet announced)."
+          },
+          {
+            "month": "July",
+            "name": "Music@Menlo",
+            "notes": "Summer chamber music festival in Menlo Park, July and August."
+          }
+        ],
+        "naturalPhenomena": [
+          {
+            "season": "winter",
+            "name": "Baylands shorebirds",
+            "notes": "Thousands of migrating shorebirds and ducks in the Palo Alto Baylands marshes."
+          },
+          {
+            "season": "summer",
+            "name": "Golden hills",
+            "notes": "The foothills dry to gold by June and stay that way until the rains."
+          }
+        ]
+      },
+      "ceramicsEcosystem": {
+        "studios": [
+          {
+            "name": "Palo Alto Art Center",
+            "url": "https://www.paloalto.gov/Departments/Community-Services/Arts-Sciences/Palo-Alto-Art-Center/Make-Art/Adults",
+            "notes": "City art centre with adult ceramics classes, registering four times a year (Palo Alto residents get priority)."
+          },
+          {
+            "name": "Stanford Ceramics Studio",
+            "url": "https://ceramics.stanford.edu",
+            "notes": "Heavily subsidised campus studio with 10-week classes taught by volunteers; open to the Stanford community, so check eligibility."
+          },
+          {
+            "name": "South Bay Ceramics",
+            "url": "https://www.southbayceramics.com",
+            "notes": "Community studio with two locations on Old Middlefield Way in Mountain View: 6-week classes, member open studio and guest workshops."
+          },
+          {
+            "name": "Spiffy Pottery Studio",
+            "url": "https://thespiffystudio.info",
+            "notes": "A community pottery studio in Menlo Park's Willows neighbourhood (opened 2025) offering 4-week classes, kids and teens programmes, workshops and memberships with long open hours."
+          },
+          {
+            "name": "Halo Pottery",
+            "url": "https://halopottery.net/",
+            "notes": "Small Los Altos studio offering adult, teen, and kids classes, one-time classes, and private workshops."
+          },
+          {
+            "name": "Foothill College Ceramics",
+            "url": "https://foothill.edu/art/ceramics.html",
+            "notes": "Community college ceramics with a strong kiln setup and the Claybodies student club, in Los Altos Hills."
+          },
+          {
+            "name": "The Clay Lounge",
+            "url": "https://www.theclaylounge.com",
+            "notes": "Small boutique studio in San Carlos with Try It classes, six-week sessions and memberships."
+          },
+          {
+            "name": "Pacific Art League",
+            "url": "https://www.pacificartleague.org",
+            "notes": "Downtown Palo Alto art school and gallery with a full seasonal class catalogue and member exhibitions."
+          }
+        ],
+        "suppliers": [
+          {
+            "name": "Clay Planet",
+            "url": "https://shop.clay-planet.com",
+            "notes": "The Bay's biggest ceramic supply store, about 20 minutes south in Santa Clara (clay, glazes, tools, kilns, plaster)."
+          }
+        ],
+        "galleries": [
+          {
+            "name": "Cantor Arts Center (Stanford)",
+            "url": "https://museum.stanford.edu",
+            "notes": "Stanford's free art museum, with collections from around the world, including African art."
+          },
+          {
+            "name": "Joy Imai, Special Handling Pottery",
+            "url": "http://www.joyimai.com",
+            "notes": "Porcelain potter Joy Imai's studio and shop at the historic Allied Arts Guild in Menlo Park since 1986, with Japanese pottery too."
+          },
+          {
+            "name": "ACGA Clay & Glass Festival",
+            "url": "https://www.acga.net",
+            "notes": "Statewide clay and glass artists' association and its free annual Palo Alto festival."
+          }
+        ],
+        "community": "The Peninsula's clay life is mostly classes and community studios (Palo Alto Art Center, South Bay Ceramics, Spiffy, Halo, Foothill College), many of them family- and kid-oriented, and the ACGA festival brings 140+ California clay and glass artists to town. Clay Planet in Santa Clara is close for materials. For weaving, the Black Sheep Handweavers Guild meets in Redwood City, where the 2027 Conference of Northern California Handweavers will be held."
+      },
+      "probabilityOfChili": {
+        "score": 45,
+        "rating": "Moderate",
+        "nearest": "Zareen's (Pakistani and Indian), Mountain View taquerias",
+        "notes": "No chili parlours here. Zareen's karahi and chapli kebabs bring the spice, and Mountain View and East Palo Alto have solid taquerias."
+      },
+      "creepyCrawlies": {
+        "mosquitoes": "low (moderate near the Baylands)",
+        "spiders": "moderate",
+        "snakes": "moderate in the foothills (rattlesnakes)",
+        "other": "Ticks and poison oak on foothill trails; mountain lions live in the open-space preserves but are rarely seen."
+      },
+      "practicalNotes": "Stands in for the Peninsula (Palo Alto, Menlo Park, Mountain View). Sunny, safe, bike-friendly and on Caltrain, with Stanford next door, but one of the most expensive housing markets in the country; artists here often rent in Mountain View, Redwood City or San Jose.",
+      "indigenousTraditions": {
+        "peoples": [
+          "Muwekma Ohlone",
+          "Ohlone (Ramaytush- and Tamyen-speaking peoples)"
+        ],
+        "ceramicsHeritage": "Palo Alto lies where the lands of Ramaytush- and Tamyen-speaking Ohlone peoples met. As elsewhere in Ohlone country, the craft tradition is basketry and shell-bead work, not pottery; shellmounds once stood along the bay marshes.",
+        "respectfulEngagement": "Stanford's land acknowledgment names the Muwekma Ohlone Tribe (muwekma.org), and the student-run Stanford Powwow each May is open to all and a respectful way to meet Native California communities."
+      },
+      "probabilityOfCoffee": {
+        "score": 82,
+        "rating": "Very Good",
+        "roasters": [
+          "Coupa Caf\u00e9 (founded in Palo Alto, 2004)",
+          "Philz Coffee",
+          "Chromatic Coffee (San Jose)"
+        ],
+        "notes": "A tech-town coffee scene: Coupa started downtown in 2004 and runs caf\u00e9s at Stanford, Philz is a local favourite, and serious roasters in Santa Clara and San Jose are 20 minutes away."
+      },
+      "localDessert": {
+        "signature": "A Manresa Bread pastry and coffee on a sunny morning",
+        "bakeries": [
+          "Manresa Bread",
+          "Mademoiselle Colette (French p\u00e2tisserie)"
+        ],
+        "notes": "Polished bakeries more than old institutions; Mountain View's Sunday market has excellent fruit."
+      },
+      "beachAccess": {
+        "distance": "45 min",
+        "type": "Pacific Ocean",
+        "beaches": [
+          "San Gregorio State Beach",
+          "Pescadero State Beach",
+          "Half Moon Bay State Beach"
+        ],
+        "swimmable": "Cold, rough Pacific water; for walking and tide pools, not swimming.",
+        "notes": "Over the Santa Cruz Mountains on Highway 84 or 92; Pescadero's tide pools and the farm stands on the way are the treat."
+      },
+      "practicalInfo": {
+        "language": "English (Spanish widely spoken)",
+        "visaInfo": "Rwandan citizens need a US visa: a B-1/B-2 visitor visa for visits, applied for at the US Embassy in Kigali. ESTA and 90-day visa-free entry are only for citizens of Visa Waiver Program countries, and Rwanda is not one. Working or teaching for pay needs a separate status with work authorization (for example an O-1 artist visa or an employer-sponsored visa). US visa rules changed often in 2025-26, so check travel.state.gov and the embassy before applying.",
+        "healthcareAccess": "Private, insurance-based system: an uninsured visit to a doctor or emergency room is very expensive. Visitors need travel medical insurance; residents usually get cover through an employer or Covered California. Community health clinics offer sliding-scale care.",
+        "internetQuality": "Excellent",
+        "notes": "Stands in for the Peninsula (Palo Alto, Menlo Park, Mountain View). Sunny, safe, bike-friendly and on Caltrain, with Stanford next door, but one of the most expensive housing markets in the country; artists here often rent in Mountain View, Redwood City or San Jose."
+      },
+      "foodScene": {
+        "score": 75,
+        "rating": "Very Good",
+        "notes": "Polished, healthy and a little pricey, with two great farmers' markets and good South Asian and Georgian cooking. For Ethiopian food you'll drive 25-30 minutes to San Jose, where LeYou and Zeni are excellent.",
+        "favorites": [
+          {
+            "name": "Downtown Palo Alto Farmers' Market",
+            "what": "Volunteer-run market, Saturdays 8am-noon, rain or shine",
+            "neighborhood": "Downtown",
+            "url": "https://www.pafarmersmarket.org/"
+          },
+          {
+            "name": "Mountain View Farmers' Market",
+            "what": "One of California's largest markets, 100+ farmers, every Sunday",
+            "neighborhood": "Mountain View (Caltrain station)",
+            "url": "https://www.cafarmersmkts.com/mountain-view-farmers-market"
+          },
+          {
+            "name": "Zareen's",
+            "what": "Pakistani and Indian halal cooking",
+            "neighborhood": "Palo Alto and Mountain View",
+            "url": "https://www.zareensrestaurant.com/"
+          },
+          {
+            "name": "Bevri",
+            "what": "Georgian khachapuri and khinkali dumplings",
+            "neighborhood": "Downtown",
+            "url": "https://www.bevri.com/"
+          },
+          {
+            "name": "Coupa Caf\u00e9",
+            "what": "Venezuelan-family caf\u00e9 with arepas and good coffee, since 2004",
+            "neighborhood": "Downtown (Ramona St)",
+            "url": "https://www.coupacafe.com/"
+          },
+          {
+            "name": "Manresa Bread",
+            "what": "Naturally leavened bread and pastry",
+            "neighborhood": "Palo Alto",
+            "url": "https://www.manresabread.com/"
+          },
+          {
+            "name": "Draeger's Market",
+            "what": "Gourmet grocery and cooking school",
+            "neighborhood": "Menlo Park / Los Altos",
+            "url": "https://www.draegers.com/"
+          },
+          {
+            "name": "LeYou",
+            "what": "Contemporary Ethiopian, Michelin-listed",
+            "neighborhood": "Downtown San Jose (25-30 min)",
+            "url": "https://www.leyouethiopian.com/"
+          }
+        ]
+      },
+      "liveMusic": {
+        "score": 72,
+        "rating": "Good",
+        "notes": "Stanford Live brings world-class artists to Bing Concert Hall and the outdoor Frost Amphitheater, and summer is full of free and festival music. Weeknights are quiet.",
+        "venues": [
+          {
+            "name": "Stanford Live (Bing Concert Hall and Frost Amphitheater)",
+            "kind": "concert hall and outdoor amphitheatre",
+            "neighborhood": "Stanford campus",
+            "url": "https://live.stanford.edu/"
+          },
+          {
+            "name": "Twilight Concert Series",
+            "kind": "free outdoor series",
+            "neighborhood": "Palo Alto parks (Rinconada, Mitchell)",
+            "url": "https://www.paloalto.gov/Departments/Community-Services/Arts-Sciences/Palo-Alto-Childrens-Theatre/Twilight-Concert-Series"
+          },
+          {
+            "name": "Music@Menlo",
+            "kind": "summer chamber music festival",
+            "neighborhood": "Menlo Park",
+            "url": "https://musicatmenlo.org/"
+          },
+          {
+            "name": "Stanford Jazz Festival (Stanford Jazz Workshop)",
+            "kind": "summer jazz festival",
+            "neighborhood": "Stanford campus",
+            "url": "https://stanfordjazz.org/"
+          },
+          {
+            "name": "Shoreline Amphitheatre",
+            "kind": "big outdoor amphitheatre",
+            "neighborhood": "Mountain View",
+            "url": "https://www.shorelineamphitheatre.com/"
+          }
+        ]
+      },
+      "everydayLife": {
+        "markets": [
+          "Downtown Palo Alto Farmers' Market (Sat 8am-noon)",
+          "Mountain View Farmers' Market (Sundays)",
+          "Draeger's Market"
+        ],
+        "walks": [
+          {
+            "name": "Palo Alto Baylands Nature Preserve",
+            "notes": "Boardwalks and levee paths over the marsh, full of birds."
+          },
+          {
+            "name": "The Stanford Dish",
+            "notes": "A hilly loop of about 5.5 km past the big radio telescope, with views over the bay."
+          },
+          {
+            "name": "Foothills and Windy Hill",
+            "notes": "Oak woodland and grassland trails in the open-space preserves above town."
+          }
+        ],
+        "gettingAround": "Caltrain stops at Palo Alto and California Avenue, reaching San Francisco in under an hour and San Jose in about 30 minutes; VTA buses fill gaps, and Stanford's free Marguerite shuttle is open to everyone. Palo Alto is flat and excellent for cycling, with bike boulevards and paths everywhere.",
+        "neighborhoods": [
+          {
+            "name": "Downtown / University South",
+            "why": "Pacific Art League, Coupa, the Saturday market and Caltrain: walkable and very expensive."
+          },
+          {
+            "name": "Midtown / South Palo Alto",
+            "why": "Quieter and leafy, a bike ride from the Art Center and the Baylands."
+          },
+          {
+            "name": "Mountain View",
+            "why": "South Bay Ceramics, the Sunday market, Castro Street restaurants and Caltrain; still costly but more rentals."
+          },
+          {
+            "name": "East Palo Alto / Belle Haven",
+            "why": "More affordable and diverse, near Spiffy Pottery in the Willows; fewer shops."
+          }
+        ],
+        "notes": "Among the most expensive places to rent in the US. Many studios are family-oriented, with long waits for adult wheel classes."
+      },
+      "forWinnie": "The Peninsula has Kigali-like sunshine: dry summers around 26 \u00b0C and one of the driest, mildest winters on this list, though January nights drop to about 4 \u00b0C. Clay here is mostly classes and community studios (Palo Alto Art Center, South Bay Ceramics, Foothill College), with Stanford's free Cantor Arts Center and the May Powwow close by. It's extremely expensive and tech-oriented, and quiet in the evenings, so it may suit you better as a place to teach or show than to live; Mountain View or San Jose would stretch your budget further."
+    },
+    "Petaluma, California, USA": {
+      "location": "Petaluma, California, USA",
+      "city": "Petaluma",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 38.2324,
+        "lng": -122.6367
+      },
+      "timezone": "America/Los_Angeles",
+      "utcOffset": -8,
+      "opportunities": [
+        "Petaluma Pottery",
+        "FLM Ceramics & Tile (Forrest Lesch-Middelton)"
+      ],
+      "opportunityTypes": [
+        "studio",
+        "artist"
+      ],
+      "climate": [
+        {
+          "month": "January",
+          "tempHigh": 14.2,
+          "tempLow": 3.9,
+          "rainfall": 121,
+          "daylightHours": 9.8,
+          "humidity": 78
+        },
+        {
+          "month": "February",
+          "tempHigh": 16.3,
+          "tempLow": 4.7,
+          "rainfall": 133,
+          "daylightHours": 10.7,
+          "humidity": 75
+        },
+        {
+          "month": "March",
+          "tempHigh": 18.1,
+          "tempLow": 5.5,
+          "rainfall": 84,
+          "daylightHours": 11.8,
+          "humidity": 74
+        },
+        {
+          "month": "April",
+          "tempHigh": 19.9,
+          "tempLow": 6.6,
+          "rainfall": 43,
+          "daylightHours": 13.1,
+          "humidity": 71
+        },
+        {
+          "month": "May",
+          "tempHigh": 22.2,
+          "tempLow": 8.6,
+          "rainfall": 24,
+          "daylightHours": 14.2,
+          "humidity": 72
+        },
+        {
+          "month": "June",
+          "tempHigh": 25.6,
+          "tempLow": 10.2,
+          "rainfall": 7,
+          "daylightHours": 14.8,
+          "humidity": 73
+        },
+        {
+          "month": "July",
+          "tempHigh": 27.1,
+          "tempLow": 11.3,
+          "rainfall": 0,
+          "daylightHours": 14.6,
+          "humidity": 76
+        },
+        {
+          "month": "August",
+          "tempHigh": 27.3,
+          "tempLow": 11.6,
+          "rainfall": 1,
+          "daylightHours": 13.6,
+          "humidity": 77
+        },
+        {
+          "month": "September",
+          "tempHigh": 27.6,
+          "tempLow": 10.8,
+          "rainfall": 2,
+          "daylightHours": 12.4,
+          "humidity": 74
+        },
+        {
+          "month": "October",
+          "tempHigh": 24.7,
+          "tempLow": 8.7,
+          "rainfall": 32,
+          "daylightHours": 11.1,
+          "humidity": 69
+        },
+        {
+          "month": "November",
+          "tempHigh": 18.6,
+          "tempLow": 5.7,
+          "rainfall": 70,
+          "daylightHours": 10.0,
+          "humidity": 72
+        },
+        {
+          "month": "December",
+          "tempHigh": 14.4,
+          "tempLow": 3.6,
+          "rainfall": 132,
+          "daylightHours": 9.5,
+          "humidity": 74
+        }
+      ],
+      "seasons": {
+        "winter": {
+          "summary": "Cool and wet: highs about 14 \u00b0C, frosty nights near 4 \u00b0C, and 120-130 mm of rain a month from December to February. Thick valley fog on still mornings.",
+          "comfort": "cool"
+        },
+        "spring": {
+          "summary": "Green hills and yellow mustard between the vines; highs 18-22 \u00b0C.",
+          "comfort": "comfortable"
+        },
+        "summer": {
+          "summary": "Warm and dry, highs 25-27 \u00b0C, while the wind and fog through the Petaluma Gap keep nights cool (about 11 \u00b0C).",
+          "comfort": "warm"
+        },
+        "autumn": {
+          "summary": "September is the warmest month (about 28 \u00b0C) and grape-harvest time; fire weather in Sonoma County until the rains.",
+          "comfort": "comfortable"
+        }
+      },
+      "localColor": {
+        "blooms": [
+          {
+            "month": "February",
+            "name": "Mustard season",
+            "notes": "Wild mustard turns vineyards and orchards yellow from January to March."
+          },
+          {
+            "month": "April",
+            "name": "Wildflowers in Helen Putnam Park",
+            "notes": "Spring wildflowers on the oak hills just west of town."
+          }
+        ],
+        "festivals": [
+          {
+            "month": "April",
+            "name": "Butter & Egg Days",
+            "notes": "Petaluma's playful parade and festival honouring its past as the 'Egg Basket of the World' (April 18, 2026)."
+          },
+          {
+            "month": "May",
+            "name": "Saturday market in Walnut Park",
+            "notes": "Farmers' market with music from the gazebo, mid-May to mid-November."
+          },
+          {
+            "month": "August",
+            "name": "Petaluma Music Festival",
+            "notes": "Summer music festival that raises money for school music programmes."
+          }
+        ],
+        "naturalPhenomena": [
+          {
+            "season": "winter",
+            "name": "Tule fog",
+            "notes": "Dense valley fog on cold, still winter mornings."
+          },
+          {
+            "season": "summer",
+            "name": "Petaluma Gap wind",
+            "notes": "Cool marine air funnels through the gap from the coast most summer afternoons."
+          },
+          {
+            "season": "winter",
+            "name": "Marsh birds",
+            "notes": "Shorebirds and ducks on the Petaluma River marshes at Shollenberger Park."
+          }
+        ]
+      },
+      "ceramicsEcosystem": {
+        "studios": [
+          {
+            "name": "Petaluma Pottery",
+            "url": "https://www.petalumapottery.com",
+            "notes": "Warehouse District pottery school with 8-week wheel and handbuilding classes, one-day workshops and studio memberships."
+          },
+          {
+            "name": "FLM Ceramics & Tile (Forrest Lesch-Middelton)",
+            "url": "https://www.flmceramics.com",
+            "notes": "Handmade tile and pottery studio of Forrest Lesch-Middelton, author of Handmade Tile and co-founder of Petaluma Pottery."
+          },
+          {
+            "name": "Sebastopol Center for the Arts (SebArts) Ceramics",
+            "url": "https://www.sebarts.org",
+            "notes": "Arts centre in Sebastopol (30 min) with an on-site ceramics studio and wheel series."
+          },
+          {
+            "name": "Sonoma Community Center Ceramics",
+            "url": "https://sonomacommunitycenter.org/ceramics/",
+            "notes": "Ceramics studio, workshops and a six-month paid residency with housing in Sonoma (30 min); applications for 2027 closed in June 2026."
+          },
+          {
+            "name": "Marin Pottery",
+            "url": "https://www.marinpottery.org/",
+            "notes": "Community pottery studio in Novato (15 min south) with memberships and drop-in sessions."
+          }
+        ],
+        "suppliers": [
+          {
+            "name": "Creative Ceramics and Glass / GlazeQueen (Santa Rosa)",
+            "url": "https://www.creativeceramicsandglass.com",
+            "notes": "Ceramics and glass supply showroom in Santa Rosa (25 min): clay, glazes, stains, chemicals, kilns and wheels."
+          },
+          {
+            "name": "Dharma Trading Co.",
+            "url": "https://www.dharmatrading.com",
+            "notes": "Textiles: natural dyes and mordants and undyed fibre, in San Rafael (25 min)."
+          },
+          {
+            "name": "The Seed Bank (Baker Creek Heirloom Seeds)",
+            "url": "https://www.rareseeds.com/pages/petaluma-seed-bank",
+            "notes": "Heirloom seed shop in a former bank downtown: seeds for a dye garden."
+          }
+        ],
+        "galleries": [
+          {
+            "name": "Petaluma Arts Center",
+            "url": "https://www.petalumaartscenter.org/",
+            "notes": "Community arts centre with exhibitions and events by the old railroad depot."
+          }
+        ],
+        "community": "Small but serious: Petaluma Pottery is the town's community studio, and Forrest Lesch-Middelton's FLM tile studio is a respected name in American tile. The region around it has a deep clay culture (SebArts, the Sonoma Community Center residency, and wood-fire residencies at Cobb Mountain in Lake County), and Fibershed's local fibre-and-dye movement grew up in West Marin next door."
+      },
+      "probabilityOfChili": {
+        "score": 40,
+        "rating": "Low",
+        "nearest": "East Petaluma taquerias",
+        "notes": "No chili parlour, but Sonoma ranch beef and the farmers' market's dried beans make a fine pot at home, and the east side has solid taquerias."
+      },
+      "creepyCrawlies": {
+        "mosquitoes": "moderate near the river marshes",
+        "spiders": "moderate",
+        "snakes": "moderate (rattlesnakes in the hills)",
+        "other": "Ticks and poison oak on trails; yellowjackets at summer picnics."
+      },
+      "practicalNotes": "A small river town on the Sonoma side, about an hour from San Francisco and Oakland. Cheaper than Marin and San Francisco but still expensive; SMART trains help, though daily life needs a car.",
+      "indigenousTraditions": {
+        "peoples": [
+          "Coast Miwok",
+          "Southern Pomo",
+          "Federated Indians of Graton Rancheria"
+        ],
+        "ceramicsHeritage": "Petaluma takes its name from a Coast Miwok village, and Southern Pomo lands lie just to the north. Both peoples are famed basket makers (Pomo feathered and coiled baskets are among the finest in the world); there was no pottery tradition.",
+        "respectfulEngagement": "The Federated Indians of Graton Rancheria (gratonrancheria.com) is the federally recognised tribe of Coast Miwok and Southern Pomo people. Petaluma Adobe State Historic Park preserves a ranch built largely with forced Native labour; visit with that history in mind."
+      },
+      "probabilityOfCoffee": {
+        "score": 68,
+        "rating": "Good",
+        "nearest": "Independent caf\u00e9s downtown; Equator Coffees in Marin (25 min)",
+        "notes": "Pleasant small-town caf\u00e9s rather than a roasting scene."
+      },
+      "localDessert": {
+        "signature": "Della Fattoria bread and pastries; Marin French Cheese and Sonoma butter",
+        "bakeries": [
+          "Della Fattoria"
+        ],
+        "notes": "Once the 'Egg Basket of the World', Petaluma still has wonderful eggs and dairy: custards and cakes taste better here."
+      },
+      "beachAccess": {
+        "distance": "40-50 min",
+        "type": "Pacific Ocean",
+        "beaches": [
+          "Dillon Beach",
+          "Doran Beach (Bodega Bay)",
+          "Point Reyes beaches"
+        ],
+        "swimmable": "Cold and rough; Doran Beach in Bodega Harbor is the calmer one, with a wetsuit.",
+        "notes": "A lovely drive through dairy country to Tomales Bay and the coast."
+      },
+      "practicalInfo": {
+        "language": "English (Spanish widely spoken)",
+        "visaInfo": "Rwandan citizens need a US visa: a B-1/B-2 visitor visa for visits, applied for at the US Embassy in Kigali. ESTA and 90-day visa-free entry are only for citizens of Visa Waiver Program countries, and Rwanda is not one. Working or teaching for pay needs a separate status with work authorization (for example an O-1 artist visa or an employer-sponsored visa). US visa rules changed often in 2025-26, so check travel.state.gov and the embassy before applying.",
+        "healthcareAccess": "Private, insurance-based system: an uninsured visit to a doctor or emergency room is very expensive. Visitors need travel medical insurance; residents usually get cover through an employer or Covered California. Community health clinics offer sliding-scale care.",
+        "internetQuality": "Very good",
+        "notes": "A small river town on the Sonoma side, about an hour from San Francisco and Oakland. Cheaper than Marin and San Francisco but still expensive; SMART trains help, though daily life needs a car."
+      },
+      "foodScene": {
+        "score": 66,
+        "rating": "Good",
+        "notes": "Farm country on your doorstep: two weekly farmers' markets, wood-fired bread, and cheese from America's oldest cheesemaker in the hills. There's no East African restaurant in town; the nearest injera is in Oakland or Berkeley, about an hour away.",
+        "favorites": [
+          {
+            "name": "Petaluma Saturday Farmers Market",
+            "what": "Walnut Park, Saturdays 2-5pm, mid-May to mid-November, with music in the gazebo",
+            "neighborhood": "Downtown",
+            "url": "https://www.visitpetaluma.com/blog/taste-the-bounty-at-petalumas-3-farmers-markets/"
+          },
+          {
+            "name": "Petaluma Tuesday Farmers Market",
+            "what": "Year-round at Lucchesi Park, 9:30am-1:30pm",
+            "neighborhood": "East Petaluma",
+            "url": "https://www.visitpetaluma.com/blog/taste-the-bounty-at-petalumas-3-farmers-markets/"
+          },
+          {
+            "name": "Della Fattoria",
+            "what": "Wood-fired bread and a caf\u00e9",
+            "neighborhood": "Downtown",
+            "url": "https://www.dellafattoria.com/"
+          },
+          {
+            "name": "Marin French Cheese Co.",
+            "what": "The country's oldest cheese company, with picnic grounds by a pond",
+            "neighborhood": "Hicks Valley (15 min west)",
+            "url": "https://marinfrenchcheese.com/"
+          },
+          {
+            "name": "Stockhome",
+            "what": "Swedish street food and comfort cooking",
+            "neighborhood": "Downtown",
+            "url": "https://www.stockhomepetaluma.com/"
+          }
+        ]
+      },
+      "liveMusic": {
+        "score": 60,
+        "rating": "Moderate",
+        "notes": "A good small-town music life: touring bands at the Mystic, an all-ages youth-run venue, opera at Cinnabar and free music at the summer market.",
+        "venues": [
+          {
+            "name": "Mystic Theatre",
+            "kind": "historic small hall",
+            "neighborhood": "Downtown",
+            "url": "https://www.mystictheatre.com/"
+          },
+          {
+            "name": "The Phoenix Theater",
+            "kind": "all-ages youth-run venue",
+            "neighborhood": "Downtown",
+            "url": "https://www.thephoenixtheater.com/"
+          },
+          {
+            "name": "Cinnabar Theater",
+            "kind": "opera and musical theatre",
+            "neighborhood": "West Petaluma",
+            "url": "https://cinnabartheater.org/"
+          },
+          {
+            "name": "Petaluma Music Festival",
+            "kind": "outdoor festival",
+            "neighborhood": "Petaluma",
+            "url": "https://petalumamusicfestival.org/"
+          },
+          {
+            "name": "Walnut Park Saturday market",
+            "kind": "free outdoor music (summer)",
+            "neighborhood": "Downtown",
+            "url": "https://www.visitpetaluma.com/blog/taste-the-bounty-at-petalumas-3-farmers-markets/"
+          }
+        ]
+      },
+      "everydayLife": {
+        "markets": [
+          "Saturday Farmers Market, Walnut Park (2-5pm, mid-May to mid-November)",
+          "Tuesday Farmers Market, Lucchesi Park (9:30am-1:30pm, year-round)"
+        ],
+        "walks": [
+          {
+            "name": "Petaluma River and downtown",
+            "notes": "Historic iron-front buildings and the riverfront, an easy stroll."
+          },
+          {
+            "name": "Helen Putnam Regional Park",
+            "notes": "Oak-dotted hills and a pond, ten minutes from downtown."
+          },
+          {
+            "name": "Shollenberger Park",
+            "notes": "A flat loop around marsh ponds, good for birds."
+          }
+        ],
+        "gettingAround": "SMART trains stop in Petaluma and run south to San Rafael and the Larkspur ferry (to San Francisco) and north to Santa Rosa; Golden Gate Transit buses run on Highway 101. Downtown is walkable and the town is flat for biking, but most daily life here needs a car.",
+        "neighborhoods": [
+          {
+            "name": "Downtown / Warehouse District",
+            "why": "Petaluma Pottery, the river, the theatres and the Saturday market; Victorian flats and older apartments."
+          },
+          {
+            "name": "West Petaluma",
+            "why": "Leafy hills near Helen Putnam Park and Cinnabar Theater; houses rather than flats."
+          },
+          {
+            "name": "East Petaluma",
+            "why": "Newer, often cheaper housing near Lucchesi Park and the Tuesday market; more car-dependent."
+          }
+        ],
+        "notes": "Cheaper than Marin and San Francisco but still expensive by US standards. Studio space in the old warehouses is easier to find than in the cities."
+      },
+      "forWinnie": "Petaluma is a small river town with a real potter's thread running through it: Petaluma Pottery's classes, Forrest Lesch-Middelton's tile studio, Sonoma County's residencies and wood firing, and Fibershed's local fibre and dye movement nearby. Summers are warm (about 27 \u00b0C) and dry, but winter mornings are cold (about 4 \u00b0C) and foggy, colder than anything in Kigali. It's calmer and cheaper than the cities, though you'd be an hour from Oakland's community and Ethiopian food, and you'll want a car."
     }
   }
 }
