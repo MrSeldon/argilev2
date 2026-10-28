@@ -49,7 +49,14 @@
       "note": "A prize for work made and entered from anywhere, with no US work involved; she can enter from San Francisco or Kigali."
     },
     "source": "https://www.icfmino.com/icfmino/wp-content/uploads/2026/01/2027youkou_EN20260119.pdf",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-27",
+    "image": {
+      "src": "/images/opportunities/fund-mino-international-ceramics-competition.webp",
+      "alt": "Ceramic works on display in an exhibition hall, from the competition's website",
+      "credit": "Image: International Ceramics Competition Mino",
+      "creditUrl": "https://www.icfmino.com/en/iccm-en",
+      "license": "publisher image"
+    }
   },
   {
     "id": "fund-loewe-foundation-craft-prize",
@@ -101,7 +108,14 @@
       "note": "An international prize entered online; travel to the Milan exhibition would be a normal visitor trip."
     },
     "source": "https://craftprize.loewe.com/en/craftprize2027",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-27",
+    "image": {
+      "src": "/images/opportunities/fund-loewe-foundation-craft-prize.webp",
+      "alt": "Craft objects in wood, metal and clay arranged on a pale green set, from the LOEWE FOUNDATION Craft Prize website",
+      "credit": "Image: LOEWE FOUNDATION Craft Prize",
+      "creditUrl": "https://craftprize.loewe.com/en/craftprize2027",
+      "license": "publisher image"
+    }
   },
   {
     "id": "fund-premio-faenza",
@@ -152,7 +166,14 @@
       "note": "A prize and museum acquisition for work entered from abroad; no US work involved."
     },
     "source": "https://www.premiofaenza.it",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-27",
+    "image": {
+      "src": "/images/opportunities/fund-premio-faenza.webp",
+      "alt": "Small white ceramic forms arranged on a grey surface, shown on the Premio Faenza website",
+      "credit": "Image: Premio Faenza / MIC Faenza",
+      "creditUrl": "https://www.premiofaenza.it",
+      "license": "publisher image"
+    }
   },
   {
     "id": "fund-officine-saffi-award",
@@ -356,7 +377,14 @@
       "note": "Money goes to a Rwandan organisation for work in Rwanda, so her US status is not the issue; any personal pay from it should be for work done in Rwanda."
     },
     "source": "https://www.unesco.org/creativity/en/articles/2026-call-funding-requests-international-fund-cultural-diversity-now-open",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-27",
+    "image": {
+      "src": "/images/opportunities/fund-unesco-ifcd.webp",
+      "alt": "The UNESCO headquarters buildings in Paris",
+      "credit": "Mbzt / Wikimedia Commons",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:P1120654_Paris_VII_place_de_Fontenoy_rwk.JPG",
+      "license": "GFDL"
+    }
   },
   {
     "id": "fund-us-embassy-kigali-pd-grants",
@@ -509,7 +537,14 @@
       "note": "A paid residency in the US, so ask JMKAC what status past international residents used and have an attorney confirm it works with her visa."
     },
     "source": "https://www.jmkac.org/engage/programs/arts-industry/applications/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-27",
+    "image": {
+      "src": "/images/opportunities/fund-kohler-arts-industry.webp",
+      "alt": "A resident artist modelling small clay forms in the Arts/Industry studio at Kohler",
+      "credit": "Image: John Michael Kohler Arts Center",
+      "creditUrl": "https://www.jmkac.org/engage/programs/arts-industry/applications/",
+      "license": "publisher image"
+    }
   },
   {
     "id": "fund-winterthur-maker-creator",
@@ -559,7 +594,14 @@
       "note": "A US stipend for research done in the US; ask Winterthur which visa its international fellows hold before relying on it."
     },
     "source": "https://www.winterthur.org/fellowships-available/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-27",
+    "image": {
+      "src": "/images/opportunities/fund-winterthur-maker-creator.webp",
+      "alt": "The reflecting pool and flowering azaleas in the gardens at Winterthur",
+      "credit": "Daderot / Wikimedia Commons",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Pool_-_Winterthur_Museum_-_DSC01661.JPG",
+      "license": "CC0"
+    }
   },
   {
     "id": "fund-fca-emergency-grants",
@@ -709,7 +751,14 @@
       "note": "The money is a fee to the mentor for teaching in California, which is paid work, so she would need work authorization to be the mentor."
     },
     "source": "https://actaonline.org/program/apprenticeships/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-27",
+    "image": {
+      "src": "/images/opportunities/fund-acta-apprenticeship.webp",
+      "alt": "Two traditional artists with a drum and a folding fan beside a creek, from the ACTA website",
+      "credit": "Image: Alliance for California Traditional Arts",
+      "creditUrl": "https://actaonline.org/program/apprenticeships/",
+      "license": "publisher image"
+    }
   },
   {
     "id": "fund-creative-capital-award",
@@ -757,7 +806,14 @@
       "note": "Only open to O-1 holders and permanent residents among non-citizens, so it becomes an option only after an O-1B or green card."
     },
     "source": "https://creative-capital.org/applicationhandbook",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-27",
+    "image": {
+      "src": "/images/opportunities/fund-creative-capital-award.webp",
+      "alt": "An artist sculpting clay in a studio, from the Creative Capital website",
+      "credit": "Image: Creative Capital",
+      "creditUrl": "https://creative-capital.org/creative-capital-award/award-application/",
+      "license": "publisher image"
+    }
   },
   {
     "id": "fund-rijksakademie-residency",
@@ -807,7 +863,14 @@
       "note": "The Rijksakademie supports the Dutch visa process for international residents; it is outside the US, so her US status only matters for re-entry."
     },
     "source": "https://rijksakademie.nl/en/residency-apply/apply",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-27",
+    "image": {
+      "src": "/images/opportunities/fund-rijksakademie-residency.webp",
+      "alt": "A sculpture in a bright exhibition space, from the Rijksakademie website",
+      "credit": "Image: Rijksakademie",
+      "creditUrl": "https://rijksakademie.nl/en/residency-apply/apply",
+      "license": "publisher image"
+    }
   },
   {
     "id": "fund-bellagio-center-residency",
@@ -855,6 +918,13 @@
       "note": "A residency in Italy with no US work; she would only need to check travel and re-entry on her US visa."
     },
     "source": "https://www.rockefellerfoundation.org/fellowships-convenings/bellagio-center/residency-program/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-27",
+    "image": {
+      "src": "/images/opportunities/fund-bellagio-center-residency.webp",
+      "alt": "The Villa Serbelloni gardens and house above Lake Como, home of the Bellagio Center",
+      "credit": "Image: The Rockefeller Foundation Bellagio Center",
+      "creditUrl": "https://www.rockefellerfoundation.org/fellowships-convenings/bellagio-center/residency-program/",
+      "license": "publisher image"
+    }
   }
 ]

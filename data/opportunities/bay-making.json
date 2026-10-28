@@ -40,7 +40,14 @@
     ],
     "discipline": "textiles",
     "source": "https://imagiknit.com",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-imagiknit-sf.webp",
+      "alt": "A hand-dyed skein held up in front of shelves of yarn at ImagiKnit",
+      "credit": "Image: ImagiKnit",
+      "creditUrl": "https://imagiknit.com",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-atelier-yarns-sf",
@@ -83,7 +90,14 @@
     ],
     "discipline": "textiles",
     "source": "https://atelieryarns.com",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-atelier-yarns-sf.webp",
+      "alt": "A pink hand-knitted shawl made with Atelier Yarns",
+      "credit": "Image: Atelier Yarns",
+      "creditUrl": "https://atelieryarns.com",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-britex-fabrics",
@@ -126,7 +140,14 @@
     ],
     "discipline": "textiles",
     "source": "https://britexfabrics.com",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-britex-fabrics.webp",
+      "alt": "Embossed brocade fabric in folds, from Britex Fabrics",
+      "credit": "Image: Britex Fabrics",
+      "creditUrl": "https://britexfabrics.com",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-mendels",
@@ -209,7 +230,14 @@
     ],
     "discipline": "multi",
     "source": "https://www.scrap-sf.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-scrap-sf.webp",
+      "alt": "Cubbies of colourful fabric scraps under the SCRAP sign at SCRAP in San Francisco",
+      "credit": "Image: SCRAP",
+      "creditUrl": "https://www.scrap-sf.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-sf-quilters-guild",
@@ -254,7 +282,14 @@
     ],
     "discipline": "textiles",
     "source": "https://www.sfquiltersguild.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-sf-quilters-guild.webp",
+      "alt": "Two guild members sitting with finished quilts across their laps",
+      "credit": "Image: San Francisco Quilters Guild",
+      "creditUrl": "https://www.sfquiltersguild.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-loom-and-shuttle-guild",
@@ -296,7 +331,14 @@
     ],
     "discipline": "textiles",
     "source": "https://www.loomandshuttleguild.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-loom-and-shuttle-guild.webp",
+      "alt": "A hand-woven blue scarf with fringe",
+      "credit": "Image: Loom and Shuttle Guild",
+      "creditUrl": "https://www.loomandshuttleguild.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-textile-arts-council",
@@ -339,7 +381,14 @@
     ],
     "discipline": "lectures",
     "source": "https://www.textileartscouncil.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-textile-arts-council.webp",
+      "alt": "A purple tie-dyed shawl with beaded tassels",
+      "credit": "Image: Textile Arts Council",
+      "creditUrl": "https://www.textileartscouncil.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-tac-textile-bazaar",
@@ -381,7 +430,14 @@
     ],
     "discipline": "market",
     "source": "https://www.textileartscouncil.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-tac-textile-bazaar.webp",
+      "alt": "Hands holding a strand of beadwork, black and white photograph",
+      "credit": "Image: Textile Arts Council",
+      "creditUrl": "https://www.textileartscouncil.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-sfpl-craft-workshops",
@@ -423,7 +479,14 @@
     ],
     "discipline": "lectures",
     "source": "https://sfpl.org/events/2026/05/27/workshop-sashiko-embroidery",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-sfpl-craft-workshops.webp",
+      "alt": "The San Francisco Main Library seen from Civic Center",
+      "credit": "J. Ash Bowie / Wikimedia Commons",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:SFPL_Main_Library_Full_Exterior.jpg",
+      "license": "CC BY-SA 3.0"
+    }
   },
   {
     "id": "baymk-lacis-museum",
@@ -469,7 +532,14 @@
     ],
     "discipline": "textiles",
     "source": "https://lacismuseum.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-lacis-museum.webp",
+      "alt": "A panel of antique lace with embroidered flowers from the Lacis Museum collection",
+      "credit": "Image: Lacis Museum of Lace and Textiles",
+      "creditUrl": "https://lacismuseum.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-imagiknit-berkeley",
@@ -510,7 +580,14 @@
     ],
     "discipline": "textiles",
     "source": "https://imagiknit.com",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-imagiknit-berkeley.webp",
+      "alt": "Hands knitting a ribbed orange piece beside a ball of chunky yarn",
+      "credit": "Image: ImagiKnit",
+      "creditUrl": "https://imagiknit.com",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-verb-for-keeping-warm",
@@ -555,7 +632,14 @@
     ],
     "discipline": "textiles",
     "source": "https://www.averbforkeepingwarm.com/collections/classes",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-verb-for-keeping-warm.webp",
+      "alt": "Wall-to-wall shelves of yarn inside Verb for Keeping Warm",
+      "credit": "Image: Verb for Keeping Warm",
+      "creditUrl": "https://www.averbforkeepingwarm.com",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-stonemountain-daughter",
@@ -599,7 +683,14 @@
     ],
     "discipline": "textiles",
     "source": "https://stonemountainfabric.com",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-stonemountain-daughter.webp",
+      "alt": "The pink storefront of Stonemountain and Daughter Fabrics in Berkeley",
+      "credit": "Image: Stonemountain and Daughter Fabrics",
+      "creditUrl": "https://stonemountainfabric.com",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-creative-reuse-east-bay",
@@ -722,7 +813,14 @@
     ],
     "discipline": "textiles",
     "source": "https://www.goldengateweavers.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-golden-gate-weavers.webp",
+      "alt": "A striped textile in progress on a loom",
+      "credit": "Image: Golden Gate Weavers",
+      "creditUrl": "https://www.goldengateweavers.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-spindles-and-flyers",
@@ -765,7 +863,14 @@
     ],
     "discipline": "textiles",
     "source": "https://www.spindlesandflyers.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-spindles-and-flyers.webp",
+      "alt": "A member holding a notebook of handspun fibre and knitted samples",
+      "credit": "Image: Spindles and Flyers",
+      "creditUrl": "https://www.spindlesandflyers.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-bay-area-basket-makers",
@@ -809,7 +914,14 @@
     ],
     "discipline": "textiles",
     "source": "https://bayareabasketmakers.wordpress.com",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-bay-area-basket-makers.webp",
+      "alt": "A blue coiled basket with cut-out waves",
+      "credit": "Image: Bay Area Basket Makers",
+      "creditUrl": "https://bayareabasketmakers.wordpress.com",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-east-bay-heritage-quilters",
@@ -852,7 +964,14 @@
     ],
     "discipline": "textiles",
     "source": "https://www.ebhq.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-east-bay-heritage-quilters.webp",
+      "alt": "A quilt with an orange moon over a patchwork city skyline",
+      "credit": "Image: East Bay Heritage Quilters",
+      "creditUrl": "https://www.ebhq.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-treadles-to-threads",
@@ -892,7 +1011,14 @@
     ],
     "discipline": "textiles",
     "source": "https://treadlestothreads.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-treadles-to-threads.webp",
+      "alt": "A striped handwoven textile on a loom",
+      "credit": "Image: Treadles to Threads",
+      "creditUrl": "https://treadlestothreads.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-cnch",
@@ -935,7 +1061,14 @@
     ],
     "discipline": "lectures",
     "source": "https://www.cnch.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-cnch.webp",
+      "alt": "Skeins of hand-dyed yarn hanging in a row",
+      "credit": "Image: CNCH",
+      "creditUrl": "https://www.cnch.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-atelier-yarns-san-rafael",
@@ -977,7 +1110,14 @@
     ],
     "discipline": "textiles",
     "source": "https://atelieryarns.com",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-atelier-yarns-san-rafael.webp",
+      "alt": "A knitted cap and cowl in cream wool made with Atelier Yarns",
+      "credit": "Image: Atelier Yarns",
+      "creditUrl": "https://atelieryarns.com",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-dharma-trading",
@@ -1019,7 +1159,14 @@
     ],
     "discipline": "textiles",
     "source": "https://www.dharmatrading.com",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-dharma-trading.webp",
+      "alt": "A tie-dyed fabric with a kaleidoscope pattern",
+      "credit": "Image: Dharma Trading Company",
+      "creditUrl": "https://www.dharmatrading.com",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-fibershed",
@@ -1065,7 +1212,14 @@
     ],
     "discipline": "textiles",
     "source": "https://fibershed.org/contact/",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-fibershed.webp",
+      "alt": "A woman arranging yellow-green plant material on a table at an outdoor Fibershed event",
+      "credit": "Image: Fibershed",
+      "creditUrl": "https://fibershed.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-bolinas-museum",
@@ -1104,7 +1258,14 @@
     ],
     "discipline": "museum",
     "source": "https://bolinasmuseum.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-bolinas-museum.webp",
+      "alt": "The white clapboard buildings of the Bolinas Museum",
+      "credit": "Image: Bolinas Museum",
+      "creditUrl": "https://bolinasmuseum.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-black-sheep-handweavers",
@@ -1144,7 +1305,14 @@
     ],
     "discipline": "textiles",
     "source": "https://www.blacksheepguild.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-black-sheep-handweavers.webp",
+      "alt": "A small handwoven piece on a table loom",
+      "credit": "Image: Black Sheep Handweavers",
+      "creditUrl": "https://www.blacksheepguild.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-glenna-harris-weavers",
@@ -1186,7 +1354,14 @@
     ],
     "discipline": "textiles",
     "source": "https://www.glennaharris.org/contact/",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-glenna-harris-weavers.webp",
+      "alt": "A pink handwoven piece on a loom with a shuttle",
+      "credit": "Image: Glenna Harris Weavers",
+      "creditUrl": "https://www.glennaharris.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-sj-museum-quilts-textiles",
@@ -1229,7 +1404,14 @@
     ],
     "discipline": "museum",
     "source": "https://sj-mqt.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-sj-museum-quilts-textiles.webp",
+      "alt": "A gallery of quilts at the San Jose Museum of Quilts and Textiles",
+      "credit": "Image: San Jose Museum of Quilts and Textiles",
+      "creditUrl": "https://sj-mqt.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-humanmade",
@@ -1272,7 +1454,14 @@
     ],
     "discipline": "multi",
     "source": "https://www.humanmade.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-humanmade.webp",
+      "alt": "An instructor guiding a student at a milling machine at Humanmade",
+      "credit": "Image: Humanmade",
+      "creditUrl": "https://www.humanmade.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-workshop-sf",
@@ -1316,7 +1505,14 @@
     ],
     "discipline": "multi",
     "source": "https://workshopsf.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-workshop-sf.webp",
+      "alt": "The long workbench inside Workshop SF",
+      "credit": "Image: Workshop SF",
+      "creditUrl": "https://workshopsf.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-mission-community-woodshop",
@@ -1359,7 +1555,14 @@
     ],
     "discipline": "wood",
     "source": "https://www.missioncommunitywoodshop.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-mission-community-woodshop.webp",
+      "alt": "Machines and benches in the Mission Community Woodshop",
+      "credit": "Image: Mission Community Woodshop",
+      "creditUrl": "https://www.missioncommunitywoodshop.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-wood-thumb",
@@ -1400,7 +1603,14 @@
     ],
     "discipline": "wood",
     "source": "https://woodthumb.com",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-wood-thumb.webp",
+      "alt": "A hand-held drill cutting wood at Wood Thumb",
+      "credit": "Image: Wood Thumb",
+      "creditUrl": "https://woodthumb.com",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-metalworks-sf",
@@ -1442,7 +1652,14 @@
     ],
     "discipline": "jewelry",
     "source": "https://www.metalworkssf.com",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-metalworks-sf.webp",
+      "alt": "Two metalsmiths working with a torch at Metalworks SF",
+      "credit": "Image: Metalworks SF",
+      "creditUrl": "https://www.metalworkssf.com",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-metal-arts-guild-sf",
@@ -1484,7 +1701,14 @@
     ],
     "discipline": "jewelry",
     "source": "https://metalartsguildsf.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-metal-arts-guild-sf.webp",
+      "alt": "Students and an instructor with a torch at a metalworking bench",
+      "credit": "Image: Metal Arts Guild of San Francisco",
+      "creditUrl": "https://metalartsguildsf.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-public-glass",
@@ -1526,7 +1750,14 @@
     ],
     "discipline": "glass",
     "source": "https://www.publicglass.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-public-glass.webp",
+      "alt": "Two glassblowers shaping a glowing gather of glass at a bench at Public Glass",
+      "credit": "Image: Public Glass",
+      "creditUrl": "https://www.publicglass.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-exploratorium-tinkering",
@@ -1567,7 +1798,14 @@
     ],
     "discipline": "museum",
     "source": "https://www.exploratorium.edu/tinkering",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-exploratorium-tinkering.webp",
+      "alt": "Visitors at a smoke-vortex exhibit in the Exploratorium",
+      "credit": "D'Arcy Norman from Calgary, Canada / Wikimedia Commons",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Blowing_Smoke.jpg",
+      "license": "CC BY 2.0"
+    }
   },
   {
     "id": "baymk-building-resources",
@@ -1610,7 +1848,14 @@
     ],
     "discipline": "multi",
     "source": "https://buildingresources.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-building-resources.webp",
+      "alt": "Racks of salvaged doors in the yard at Building Resources",
+      "credit": "Image: Building Resources",
+      "creditUrl": "https://buildingresources.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-crucible",
@@ -1656,7 +1901,14 @@
     ],
     "discipline": "multi",
     "source": "https://www.thecrucible.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-crucible.webp",
+      "alt": "A student working with a torch at a Crucible bench",
+      "credit": "Image: The Crucible",
+      "creditUrl": "https://www.thecrucible.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-crucible-gifty",
@@ -1696,7 +1948,14 @@
     ],
     "discipline": "market",
     "source": "https://www.thecrucible.org/gifty/",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-crucible-gifty.webp",
+      "alt": "An instructor working a glowing gather of glass in the hot shop at The Crucible",
+      "credit": "Image: The Crucible",
+      "creditUrl": "https://www.thecrucible.org/gifty/",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-ace-makerspace",
@@ -1740,7 +1999,14 @@
     ],
     "discipline": "multi",
     "source": "https://www.acemakerspace.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-ace-makerspace.webp",
+      "alt": "Members gathered around a work table at ACE Makerspace",
+      "credit": "Image: ACE Makerspace",
+      "creditUrl": "https://www.acemakerspace.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-hida-tool",
@@ -1783,7 +2049,14 @@
     ],
     "discipline": "wood",
     "source": "https://hidatool.com",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-hida-tool.webp",
+      "alt": "A Japanese plane, chisel and hammer laid out on a wooden surface",
+      "credit": "Image: Hida Tool",
+      "creditUrl": "https://hidatool.com",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-stained-glass-garden",
@@ -1869,7 +2142,14 @@
     ],
     "discipline": "multi",
     "source": "https://www.makernexus.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-maker-nexus.webp",
+      "alt": "A student cutting wood on a table saw at Maker Nexus",
+      "credit": "Image: Maker Nexus",
+      "creditUrl": "https://www.makernexus.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-bay-area-glass-institute",
@@ -1909,7 +2189,14 @@
     ],
     "discipline": "glass",
     "source": "https://bagi.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-bay-area-glass-institute.webp",
+      "alt": "A glassblower shaping a piece at the bench in front of an audience at Bay Area Glass Institute",
+      "credit": "Image: Bay Area Glass Institute",
+      "creditUrl": "https://bagi.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-spaulding-marine-center",
@@ -1951,7 +2238,14 @@
     ],
     "discipline": "wood",
     "source": "https://www.spauldingcenter.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-spaulding-marine-center.webp",
+      "alt": "Three kids holding wooden toolboxes they built in the Spaulding Marine Center boat shop",
+      "credit": "Image: Spaulding Marine Center",
+      "creditUrl": "https://www.spauldingcenter.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-sf-center-for-the-book",
@@ -1995,7 +2289,14 @@
     ],
     "discipline": "print",
     "source": "https://www.sfcb.org/workshops",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-sf-center-for-the-book.webp",
+      "alt": "Drawers of wood and metal type at San Francisco Center for the Book",
+      "credit": "Image: San Francisco Center for the Book",
+      "creditUrl": "https://www.sfcb.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-crown-point-press",
@@ -2038,7 +2339,14 @@
     ],
     "discipline": "print",
     "source": "https://crownpoint.com",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-crown-point-press.webp",
+      "alt": "The brick building that houses Crown Point Press in San Francisco",
+      "credit": "Image: Crown Point Press",
+      "creditUrl": "https://crownpoint.com",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-arion-press",
@@ -2082,7 +2390,14 @@
     ],
     "discipline": "print",
     "source": "https://arionpress.com",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-arion-press.webp",
+      "alt": "A fine-press edition of Neruda's Sonetos de Amor, bound in pink cloth and tan leather",
+      "credit": "Image: Arion Press",
+      "creditUrl": "https://arionpress.com",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-graphic-arts-workshop",
@@ -2123,7 +2438,14 @@
     ],
     "discipline": "print",
     "source": "https://graphicartsworkshop.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-graphic-arts-workshop.webp",
+      "alt": "The printmaking studio at Graphic Arts Workshop, with a large etching press",
+      "credit": "Image: Graphic Arts Workshop",
+      "creditUrl": "https://graphicartsworkshop.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-kala-art-institute",
@@ -2168,7 +2490,14 @@
     ],
     "discipline": "print",
     "source": "https://www.kala.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-kala-art-institute.webp",
+      "alt": "A student drawing at a worktable in a Kala Art Institute studio",
+      "credit": "Image: Kala Art Institute",
+      "creditUrl": "https://www.kala.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-codex-foundation",
@@ -2213,7 +2542,14 @@
     ],
     "discipline": "print",
     "source": "https://www.codexfoundation.org/visit-us/",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-codex-foundation.webp",
+      "alt": "Hand-bound artists' books standing open on a table, from the Codex Foundation website",
+      "credit": "Image: Codex Foundation",
+      "creditUrl": "https://www.codexfoundation.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-asian-art-museum",
@@ -2254,7 +2590,14 @@
     ],
     "discipline": "museum",
     "source": "https://asianart.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-asian-art-museum.webp",
+      "alt": "The Asian Art Museum in San Francisco's Civic Center",
+      "credit": "LPS.1 / Wikimedia Commons",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Terracotta_Warriors_Exhibition_San_Francisco_2013.jpg",
+      "license": "CC0"
+    }
   },
   {
     "id": "baymk-moad",
@@ -2297,7 +2640,14 @@
     ],
     "discipline": "museum",
     "source": "https://www.moadsf.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-moad.webp",
+      "alt": "Paintings hung in a gallery at the Museum of the African Diaspora",
+      "credit": "Image: Museum of the African Diaspora",
+      "creditUrl": "https://www.moadsf.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-de-young",
@@ -2336,7 +2686,14 @@
     ],
     "discipline": "museum",
     "source": "https://www.textileartscouncil.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-de-young.webp",
+      "alt": "The de Young Museum in Golden Gate Park",
+      "credit": "Mark Miller / Wikimedia Commons",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:M._H._de_Young_Memorial_Museum.jpg",
+      "license": "Public domain"
+    }
   },
   {
     "id": "baymk-sfmoma",
@@ -2373,7 +2730,14 @@
     ],
     "discipline": "museum",
     "source": "https://www.sfmoma.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-sfmoma.webp",
+      "alt": "The SFMOMA building in San Francisco",
+      "credit": "Beyond My Ken / Wikimedia Commons",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:2017_SFMOMA_from_Yerba_Buena_Gardens.jpg",
+      "license": "GFDL"
+    }
   },
   {
     "id": "baymk-cal-academy",
@@ -2413,7 +2777,14 @@
     ],
     "discipline": "museum",
     "source": "https://www.calacademy.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-cal-academy.webp",
+      "alt": "Sea nettle jellyfish drifting in a tank at the California Academy of Sciences",
+      "credit": "Image: California Academy of Sciences",
+      "creditUrl": "https://www.calacademy.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-oakland-museum",
@@ -2453,7 +2824,14 @@
     ],
     "discipline": "museum",
     "source": "https://museumca.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-oakland-museum.webp",
+      "alt": "The Oakland Museum of California building",
+      "credit": "Californiathegreat / Wikimedia Commons",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Sign_outside_the_Oakland_Museum_of_California.jpg",
+      "license": "CC BY-SA 4.0"
+    }
   },
   {
     "id": "baymk-bampfa",
@@ -2494,7 +2872,14 @@
     ],
     "discipline": "museum",
     "source": "https://bampfa.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-bampfa.webp",
+      "alt": "Interior of the Berkeley Art Museum and Pacific Film Archive",
+      "credit": "Daderot / Wikimedia Commons",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Interior_view_-_Berkeley_Art_Museum_and_Pacific_Film_Archive_-_DSC04185.JPG",
+      "license": "CC0"
+    }
   },
   {
     "id": "baymk-uc-botanical-garden",
@@ -2536,7 +2921,14 @@
     ],
     "discipline": "museum",
     "source": "https://botanicalgarden.berkeley.edu",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-uc-botanical-garden.webp",
+      "alt": "Succulents and aloes in the UC Botanical Garden in Berkeley",
+      "credit": "Daderot / Wikimedia Commons",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:University_of_California_Botanical_Garden_-_DSC08881.JPG",
+      "license": "Public domain"
+    }
   },
   {
     "id": "baymk-cantor-arts-center",
@@ -2574,7 +2966,14 @@
     ],
     "discipline": "museum",
     "source": "https://museum.stanford.edu",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-cantor-arts-center.webp",
+      "alt": "The Cantor Arts Center at Stanford University",
+      "credit": "David Monniaux / Wikimedia Commons",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Iris_%26_B._Gerald_Cantor_Center_for_Visual_Arts%2C_Stanford%2C_California_-_20060728.jpg",
+      "license": "GFDL"
+    }
   },
   {
     "id": "baymk-museum-american-indian",
@@ -2614,7 +3013,14 @@
     ],
     "discipline": "museum",
     "source": "https://www.marinindian.com/about",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-museum-american-indian.webp",
+      "alt": "Redwood trunks in woodland, from the Marin Museum of the American Indian website",
+      "credit": "Image: Marin Museum of the American Indian",
+      "creditUrl": "https://www.marinindian.com",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-somarts",
@@ -2658,7 +3064,14 @@
     ],
     "discipline": "multi",
     "source": "https://somarts.org/visit-us/",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-somarts.webp",
+      "alt": "A gallery with hanging garments and framed works at SOMArts Cultural Center",
+      "credit": "Image: SOMArts Cultural Center",
+      "creditUrl": "https://somarts.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-root-division",
@@ -2703,7 +3116,14 @@
     ],
     "discipline": "collective",
     "source": "https://rootdivision.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-root-division.webp",
+      "alt": "Framed works and sculptures on display in the Root Division gallery",
+      "credit": "Image: Root Division",
+      "creditUrl": "https://rootdivision.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-art-explosion-studios",
@@ -2785,7 +3205,14 @@
     ],
     "discipline": "collective",
     "source": "https://sf.funcheap.com/shipyard-open-studios-fall-2026-130-artists-free-admission-parking/",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-hunters-point-shipyard-artists.webp",
+      "alt": "Aerial view of the Hunters Point Naval Shipyard on San Francisco Bay",
+      "credit": "Cmichel67 / Wikimedia Commons",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Hunters_Point_Naval_Shipyard_by_Chris_Michel_02.jpg",
+      "license": "CC BY-SA 4.0"
+    }
   },
   {
     "id": "baymk-artspan-sf-open-studios",
@@ -2865,7 +3292,14 @@
     ],
     "discipline": "collective",
     "source": "https://minnesotastreetproject.com",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-minnesota-street-project.webp",
+      "alt": "Paintings hung in a white-walled gallery at Minnesota Street Project",
+      "credit": "Image: Minnesota Street Project",
+      "creditUrl": "https://minnesotastreetproject.com",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-creativity-explored",
@@ -2908,7 +3342,14 @@
     ],
     "discipline": "collective",
     "source": "https://www.creativityexplored.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-creativity-explored.webp",
+      "alt": "An artist painting at an easel in the Creativity Explored studio",
+      "credit": "Image: Creativity Explored",
+      "creditUrl": "https://www.creativityexplored.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-gray-area",
@@ -2951,7 +3392,14 @@
     ],
     "discipline": "lectures",
     "source": "https://grayarea.org/courses/",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-gray-area.webp",
+      "alt": "A crowd queuing under the Gray Area marquee at the Grand Theater in San Francisco's Mission District",
+      "credit": "Image: Gray Area",
+      "creditUrl": "https://grayarea.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-fort-mason-center",
@@ -2994,7 +3442,14 @@
     ],
     "discipline": "multi",
     "source": "https://fortmason.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-fort-mason-center.webp",
+      "alt": "Aerial view of Fort Mason Center on the San Francisco waterfront",
+      "credit": "Cmichel67 / Wikimedia Commons",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Fort_Mason_in_2025_18.jpg",
+      "license": "CC BY-SA 4.0"
+    }
   },
   {
     "id": "baymk-long-now-talks",
@@ -3032,7 +3487,14 @@
     ],
     "discipline": "lectures",
     "source": "https://longnow.org/talks/",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-long-now-talks.webp",
+      "alt": "The Interval, the bar and library at Fort Mason run by the Long Now Foundation",
+      "credit": "The wub / Wikimedia Commons",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:The_Interval_bar%2C_San_Francisco.jpg",
+      "license": "CC BY-SA 4.0"
+    }
   },
   {
     "id": "baymk-creative-growth",
@@ -3076,7 +3538,14 @@
     ],
     "discipline": "collective",
     "source": "https://creativegrowth.org/about",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-creative-growth.webp",
+      "alt": "Ceramic houses and sculptures made at Creative Growth Art Center in Oakland",
+      "credit": "Steven Damron from New York / Wikimedia Commons",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Creative_growth_art_center_ceramics_1_%287720889476%29.jpg",
+      "license": "CC BY 2.0"
+    }
   },
   {
     "id": "baymk-niad-art-center",
@@ -3117,7 +3586,14 @@
     ],
     "discipline": "collective",
     "source": "https://niadart.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-niad-art-center.webp",
+      "alt": "An artist painting at a table in the NIAD Art Center studio",
+      "credit": "Image: NIAD Art Center",
+      "creditUrl": "https://niadart.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-berkeley-art-center",
@@ -3158,7 +3634,14 @@
     ],
     "discipline": "collective",
     "source": "https://www.berkeleyartcenter.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-berkeley-art-center.webp",
+      "alt": "The wooden entrance of the Berkeley Art Center in Live Oak Park",
+      "credit": "Image: Berkeley Art Center",
+      "creditUrl": "https://www.berkeleyartcenter.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-rhythmix",
@@ -3200,7 +3683,14 @@
     ],
     "discipline": "multi",
     "source": "https://www.rhythmix.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-rhythmix.webp",
+      "alt": "A band playing to a full house at Rhythmix Cultural Works",
+      "credit": "Image: Rhythmix Cultural Works",
+      "creditUrl": "https://www.rhythmix.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-oakland-asian-cultural-center",
@@ -3241,7 +3731,14 @@
     ],
     "discipline": "multi",
     "source": "https://oacc.cc/classes/",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-oakland-asian-cultural-center.webp",
+      "alt": "A hand drawing on paper beside a watercolour palette",
+      "credit": "Image: Oakland Asian Cultural Center",
+      "creditUrl": "https://oacc.cc",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-east-bay-open-studios",
@@ -3281,7 +3778,14 @@
     ],
     "discipline": "collective",
     "source": "https://oaklandartmurmur.org/east-bay-open-studios/",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-east-bay-open-studios.webp",
+      "alt": "Visitors looking at a wall of small artworks in an open studio",
+      "credit": "Image: Oakland Art Murmur",
+      "creditUrl": "https://oaklandartmurmur.org/east-bay-open-studios/",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-art-works-downtown",
@@ -3324,7 +3828,14 @@
     ],
     "discipline": "collective",
     "source": "https://www.artworksdowntown.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-art-works-downtown.webp",
+      "alt": "The gallery at Art Works Downtown with sculptures on plinths and paintings on the walls",
+      "credit": "Image: Art Works Downtown",
+      "creditUrl": "https://www.artworksdowntown.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-marinmoca",
@@ -3365,7 +3876,14 @@
     ],
     "discipline": "collective",
     "source": "https://www.marinmoca.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-marinmoca.webp",
+      "alt": "An artist at work in front of a large plaid painting at Marin MOCA",
+      "credit": "Image: Marin MOCA",
+      "creditUrl": "https://www.marinmoca.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-marin-open-studios",
@@ -3404,7 +3922,14 @@
     ],
     "discipline": "collective",
     "source": "https://marinopenstudios.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-marin-open-studios.webp",
+      "alt": "An artist standing in her studio among landscape paintings, Marin Open Studios",
+      "credit": "Image: Marin Open Studios",
+      "creditUrl": "https://marinopenstudios.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-pacific-art-league",
@@ -3445,7 +3970,14 @@
     ],
     "discipline": "multi",
     "source": "https://www.pacificartleague.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-pacific-art-league.webp",
+      "alt": "Artists painting and drawing at easels in a Pacific Art League class",
+      "credit": "Image: Pacific Art League",
+      "creditUrl": "https://www.pacificartleague.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-silicon-valley-open-studios",
@@ -3525,7 +4057,14 @@
     ],
     "discipline": "jewelry",
     "source": "https://www.scintillantstudio.com/classes",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-scintillant-studio.webp",
+      "alt": "Hands setting a stone at a jeweller's bench at Scintillant Studio",
+      "credit": "Image: Scintillant Studio",
+      "creditUrl": "https://www.scintillantstudio.com",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-silverwork-studios-sausalito",
@@ -3564,7 +4103,14 @@
     ],
     "discipline": "jewelry",
     "source": "https://silverworkstudios.com/pages/contact",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-silverwork-studios-sausalito.webp",
+      "alt": "A hand holding a torch and tweezers over a soldering block at Silverwork Studios",
+      "credit": "Image: Silverwork Studios",
+      "creditUrl": "https://silverworkstudios.com",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-renegade-sf-winter-2026",
@@ -3604,7 +4150,14 @@
     ],
     "discipline": "market",
     "source": "https://www.renegadecraft.com/events/",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-renegade-sf-winter-2026.webp",
+      "alt": "Banners hung over the crowd at a Renegade Craft Fair in a large hall",
+      "credit": "Image: Renegade Craft",
+      "creditUrl": "https://www.renegadecraft.com",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-alameda-point-antiques-faire",
@@ -3645,7 +4198,14 @@
     ],
     "discipline": "market",
     "source": "https://alamedapointantiquesfaire.com",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-alameda-point-antiques-faire.webp",
+      "alt": "A folding table of vintage kitchenware at the Alameda Point Antiques Faire",
+      "credit": "Image: Alameda Point Antiques Faire",
+      "creditUrl": "https://alamedapointantiquesfaire.com",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-root-division-artist-fair",
@@ -3683,7 +4243,14 @@
     ],
     "discipline": "market",
     "source": "https://rootdivision.org",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-root-division-artist-fair.webp",
+      "alt": "A visitor looking at framed prints at a Root Division event",
+      "credit": "Image: Root Division",
+      "creditUrl": "https://rootdivision.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "baymk-maker-faire-bay-area",
@@ -3724,6 +4291,13 @@
     ],
     "discipline": "market",
     "source": "https://makerfaire.com/bay-area/",
-    "lastVerified": "2026-10-28"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/baymk-maker-faire-bay-area.webp",
+      "alt": "The shark-faced Sharkmobile art car at Maker Faire Bay Area",
+      "credit": "Dawn Endico from Menlo Park, California / Wikimedia Commons",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Sharkmobile_at_Maker_Faire_2009.jpg",
+      "license": "CC BY-SA 2.0"
+    }
   }
 ]

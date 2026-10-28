@@ -39,7 +39,14 @@
   "discipline": "ceramics",
   "source": "https://biskclaystudio.com/membership",
   "lastVerified": "2026-10-28",
-  "address": "262 Noe St, San Francisco, CA"
+  "address": "262 Noe St, San Francisco, CA",
+  "image": {
+   "src": "/images/opportunities/baycer-bisk-clay-studio.webp",
+   "alt": "Pottery wheels and open shelves inside Bisk Clay Studio",
+   "credit": "Image: Bisk Clay Studio",
+   "creditUrl": "https://biskclaystudio.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-uncle-pauls-ceramics-haight-street",
@@ -84,7 +91,14 @@
   "discipline": "ceramics",
   "source": "https://unclepaulshaight.com/classes",
   "lastVerified": "2026-10-28",
-  "address": "1644 Haight Street, San Francisco, CA 94117"
+  "address": "1644 Haight Street, San Francisco, CA 94117",
+  "image": {
+   "src": "/images/opportunities/baycer-uncle-pauls-ceramics-haight-street.webp",
+   "alt": "A spinning wheel and clay tools seen from above at Uncle Paul's Ceramics",
+   "credit": "Image: Uncle Paul's Ceramics",
+   "creditUrl": "https://unclepaulshaight.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-uncle-pauls-ceramics-north-beach",
@@ -131,7 +145,14 @@
   "discipline": "ceramics",
   "source": "https://unclepaulsnorthbeach.com/featured-artist-series-susan-gold-two-day-teapot-workshop",
   "lastVerified": "2026-10-28",
-  "address": "493 Broadway, San Francisco, CA 94133"
+  "address": "493 Broadway, San Francisco, CA 94133",
+  "image": {
+   "src": "/images/opportunities/baycer-uncle-pauls-ceramics-north-beach.webp",
+   "alt": "A blue and tan glazed mug made at Uncle Paul's Ceramics",
+   "credit": "Image: Uncle Paul's Ceramics",
+   "creditUrl": "https://unclepaulsnorthbeach.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-speckle-studio-formerly-pinckney-clay",
@@ -179,7 +200,14 @@
   "discipline": "ceramics",
   "source": "https://www.specklestudio.com/memberships",
   "lastVerified": "2026-10-28",
-  "address": "416 Cortland Avenue, San Francisco, CA 94110"
+  "address": "416 Cortland Avenue, San Francisco, CA 94110",
+  "image": {
+   "src": "/images/opportunities/baycer-speckle-studio-formerly-pinckney-clay.webp",
+   "alt": "Students working at long tables in the pottery studio at Speckle Studio",
+   "credit": "Image: Speckle Studio",
+   "creditUrl": "https://www.specklestudio.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-san-francisco-state-university-school-of-art-ceramics",
@@ -224,7 +252,14 @@
   "discipline": "ceramics",
   "source": "https://art.sfsu.edu/jobs",
   "lastVerified": "2026-10-28",
-  "address": "1600 Holloway Avenue, Fine Arts Building, San Francisco, CA 94132"
+  "address": "1600 Holloway Avenue, Fine Arts Building, San Francisco, CA 94132",
+  "image": {
+   "src": "/images/opportunities/baycer-san-francisco-state-university-school-of-art-ceramics.webp",
+   "alt": "A student working at a glazing table in the SF State School of Art studio",
+   "credit": "Image: San Francisco State University School of Art",
+   "creditUrl": "https://art.sfsu.edu/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-randall-museum-ceramics-studio-sf-rec-and-park",
@@ -266,7 +301,14 @@
   ],
   "discipline": "ceramics",
   "source": "https://randallmuseum.org/labs-studios-learning-spaces/",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/baycer-randall-museum-ceramics-studio-sf-rec-and-park.webp",
+   "alt": "The main hall inside the Randall Museum in San Francisco",
+   "credit": "Image: Randall Museum",
+   "creditUrl": "https://randallmuseum.org/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-shipyard-open-studios-hunters-point-shipyard",
@@ -309,7 +351,14 @@
   "discipline": "ceramics",
   "source": "https://sf.funcheap.com/shipyard-open-studios-fall-2026-130-artists-free-admission-parking/",
   "lastVerified": "2026-10-28",
-  "address": "451 Galvez Ave, San Francisco (Hunters Point Shipyard); satellite studios at Islais Creek"
+  "address": "451 Galvez Ave, San Francisco (Hunters Point Shipyard); satellite studios at Islais Creek",
+  "image": {
+   "src": "/images/opportunities/baycer-shipyard-open-studios-hunters-point-shipyard.webp",
+   "alt": "Aerial view of the Hunters Point Naval Shipyard on San Francisco Bay",
+   "credit": "Cmichel67 / Wikimedia Commons",
+   "creditUrl": "https://commons.wikimedia.org/wiki/File:Hunters_Point_Naval_Shipyard_by_Chris_Michel_02.jpg",
+   "license": "CC BY-SA 4.0"
+  }
  },
  {
   "id": "baycer-artspan-sf-open-studios",
@@ -398,7 +447,14 @@
   "discipline": "ceramics",
   "source": "https://www.clayroomsf.com/oakland",
   "lastVerified": "2026-10-28",
-  "address": "4268 Broadway, Oakland, CA 94611"
+  "address": "4268 Broadway, Oakland, CA 94611",
+  "image": {
+   "src": "/images/opportunities/baycer-clayroom-oakland-temescal.webp",
+   "alt": "Light-filled brick studio with work tables at Clayroom Oakland",
+   "credit": "Image: Clayroom",
+   "creditUrl": "https://www.clayroomsf.com/oakland",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-clayroom-west-oakland",
@@ -446,7 +502,14 @@
   "discipline": "ceramics",
   "source": "https://www.clayroomsf.com/westoakland",
   "lastVerified": "2026-10-28",
-  "address": "1723 Peralta Street, Oakland, CA 94607"
+  "address": "1723 Peralta Street, Oakland, CA 94607",
+  "image": {
+   "src": "/images/opportunities/baycer-clayroom-west-oakland.webp",
+   "alt": "Hand-painting a small glazed pot in a Clayroom studio",
+   "credit": "Image: Clayroom",
+   "creditUrl": "https://www.clayroomsf.com/westoakland",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-the-crucible-ceramics",
@@ -494,7 +557,14 @@
   "discipline": "ceramics",
   "source": "https://www.thecrucible.org/job-opportunities/",
   "lastVerified": "2026-10-28",
-  "address": "1260 7th St., Oakland, CA 94607"
+  "address": "1260 7th St., Oakland, CA 94607",
+  "image": {
+   "src": "/images/opportunities/baycer-the-crucible-ceramics.webp",
+   "alt": "Pots firing in a glowing raku kiln at The Crucible",
+   "credit": "Image: The Crucible",
+   "creditUrl": "https://www.thecrucible.org/departments/ceramics/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-studio-one-art-center-city-of-oakland",
@@ -592,7 +662,14 @@
   "discipline": "ceramics",
   "source": "https://www.merrittceramics.com/pages/opportunities",
   "lastVerified": "2026-10-28",
-  "address": "1823 Park Blvd, Oakland, CA 94606"
+  "address": "1823 Park Blvd, Oakland, CA 94606",
+  "image": {
+   "src": "/images/opportunities/baycer-merritt-ceramics.webp",
+   "alt": "Two potters throwing on wheels at Merritt Ceramics",
+   "credit": "Image: Merritt Ceramics",
+   "creditUrl": "https://www.merrittceramics.com/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-yolin-art-studio",
@@ -637,7 +714,14 @@
   "discipline": "ceramics",
   "source": "https://yolinartstudio.com/",
   "lastVerified": "2026-10-28",
-  "address": "539 Athol Avenue, Oakland, CA 94606"
+  "address": "539 Athol Avenue, Oakland, CA 94606",
+  "image": {
+   "src": "/images/opportunities/baycer-yolin-art-studio.webp",
+   "alt": "Two people throwing pots on wheels at YoLin Art Studio",
+   "credit": "Image: YoLin Art Studio",
+   "creditUrl": "https://yolinartstudio.com/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-moon-jelly-ceramics",
@@ -682,7 +766,14 @@
   ],
   "discipline": "ceramics",
   "source": "https://www.moonjellyceramics.com/6-week-classes-info",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/baycer-moon-jelly-ceramics.webp",
+   "alt": "The brick entrance of Moon Jelly Ceramics",
+   "credit": "Image: Moon Jelly Ceramics",
+   "creditUrl": "https://www.moonjellyceramics.com/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-mudworks-studio",
@@ -728,7 +819,14 @@
   "discipline": "ceramics",
   "source": "https://www.mudworks-pottery.com/services/p/ornaments2week",
   "lastVerified": "2026-10-28",
-  "address": "7523 Fairmount Ave, El Cerrito, CA 94530"
+  "address": "7523 Fairmount Ave, El Cerrito, CA 94530",
+  "image": {
+   "src": "/images/opportunities/baycer-mudworks-studio.webp",
+   "alt": "Long worktable and shelving inside Mudworks Studio",
+   "credit": "Image: Mudworks Studio",
+   "creditUrl": "https://www.mudworks-pottery.com/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-waveform-ceramics",
@@ -772,7 +870,14 @@
   ],
   "discipline": "ceramics",
   "source": "https://www.waveformceramics.com/blog",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/baycer-waveform-ceramics.webp",
+   "alt": "A row of potters throwing at wheels in the studio at Waveform Ceramics",
+   "credit": "Image: Waveform Ceramics",
+   "creditUrl": "https://www.waveformceramics.com/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-kids-n-clay",
@@ -815,7 +920,14 @@
   "discipline": "ceramics",
   "source": "https://kidsnclay.com/",
   "lastVerified": "2026-10-28",
-  "address": "1822 San Pablo Avenue, Berkeley, CA 94702"
+  "address": "1822 San Pablo Avenue, Berkeley, CA 94702",
+  "image": {
+   "src": "/images/opportunities/baycer-kids-n-clay.webp",
+   "alt": "Children painting and building with clay at a long table at Kids N Clay",
+   "credit": "Image: Kids N Clay",
+   "creditUrl": "https://kidsnclay.com/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-jereds-pottery",
@@ -857,7 +969,14 @@
   ],
   "discipline": "ceramics",
   "source": "https://jeredspottery.com/collections/pottery-classes-1",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/baycer-jereds-pottery.webp",
+   "alt": "The potter at work among rows of bowls in the studio, black-and-white photograph",
+   "credit": "Image: Jered's Pottery",
+   "creditUrl": "https://jeredspottery.com/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-happy-life-pottery",
@@ -905,7 +1024,14 @@
   "discipline": "ceramics",
   "source": "https://happylifepottery.com/wheel-throwing",
   "lastVerified": "2026-10-28",
-  "address": "632 First Street, Benicia, CA 94510"
+  "address": "632 First Street, Benicia, CA 94510",
+  "image": {
+   "src": "/images/opportunities/baycer-happy-life-pottery.webp",
+   "alt": "Two people in the pottery studio at Happy Life Pottery, with wheels and shelves behind them",
+   "credit": "Image: Happy Life Pottery",
+   "creditUrl": "https://happylifepottery.com/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-niad-art-center",
@@ -948,7 +1074,14 @@
   ],
   "discipline": "ceramics",
   "source": "https://niadart.org/pages/work-at-niad",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/baycer-niad-art-center.webp",
+   "alt": "An artist painting at a table in the NIAD Art Center studio",
+   "credit": "Image: NIAD Art Center",
+   "creditUrl": "https://niadart.org/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-northeastern-university-oakland-ceramics-studio-former-mills",
@@ -988,7 +1121,14 @@
   "discipline": "ceramics",
   "source": "https://makerspaces.northeastern.edu/spaces/oakland-ceramics/",
   "lastVerified": "2026-10-28",
-  "address": "Aron Art Center Building C, Northeastern University Oakland campus"
+  "address": "Aron Art Center Building C, Northeastern University Oakland campus",
+  "image": {
+   "src": "/images/opportunities/baycer-northeastern-university-oakland-ceramics-studio-former-mills.webp",
+   "alt": "The lawn and historic buildings of the former Mills College campus in Oakland",
+   "credit": "Jennifer1121 / Wikimedia Commons",
+   "creditUrl": "https://commons.wikimedia.org/wiki/File:Mills-College-Holmgren-Meadow.jpg",
+   "license": "CC BY-SA 4.0"
+  }
  },
  {
   "id": "baycer-clayroom-san-mateo",
@@ -1035,7 +1175,14 @@
   "discipline": "ceramics",
   "source": "https://www.clayroomsf.com/san-mateo-memberships",
   "lastVerified": "2026-10-28",
-  "address": "3050 South Delaware Street, Suite 100, San Mateo, CA 94403"
+  "address": "3050 South Delaware Street, Suite 100, San Mateo, CA 94403",
+  "image": {
+   "src": "/images/opportunities/baycer-clayroom-san-mateo.webp",
+   "alt": "A potter sitting in the studio among shelves of finished pots",
+   "credit": "Image: Clayroom",
+   "creditUrl": "https://www.clayroomsf.com/san-mateo",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-south-bay-ceramics",
@@ -1124,7 +1271,14 @@
   "discipline": "ceramics",
   "source": "https://www.capybaraclay.com/camps26",
   "lastVerified": "2026-10-28",
-  "address": "10268 Bandley Dr #103, Cupertino, CA 95014"
+  "address": "10268 Bandley Dr #103, Cupertino, CA 95014",
+  "image": {
+   "src": "/images/opportunities/baycer-capybara-clay-and-art-studio.webp",
+   "alt": "Pottery wheels set up in the studio at Capybara Clay and Art Studio",
+   "credit": "Image: Capybara Clay and Art Studio",
+   "creditUrl": "https://www.capybaraclay.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-amphora-ceramic-studio",
@@ -1169,7 +1323,14 @@
   "discipline": "ceramics",
   "source": "https://www.amphoraceramicstudio.org/courses-1",
   "lastVerified": "2026-10-28",
-  "address": "452 Du Bois St, San Rafael, CA 94901"
+  "address": "452 Du Bois St, San Rafael, CA 94901",
+  "image": {
+   "src": "/images/opportunities/baycer-amphora-ceramic-studio.webp",
+   "alt": "A potter smiling as he centres clay on a wheel at Amphora Ceramic Studio",
+   "credit": "Image: Amphora Ceramic Studio",
+   "creditUrl": "https://www.amphoraceramicstudio.org",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-ceramic-art-center-of-marin-cacm",
@@ -1303,7 +1464,14 @@
   "discipline": "ceramics",
   "source": "https://www.theclaylounge.com/classes",
   "lastVerified": "2026-10-28",
-  "address": "620 El Camino Real, San Carlos, CA 94070"
+  "address": "620 El Camino Real, San Carlos, CA 94070",
+  "image": {
+   "src": "/images/opportunities/baycer-the-clay-lounge.webp",
+   "alt": "Pottery wheels with blue stools along a long studio at The Clay Lounge",
+   "credit": "Image: The Clay Lounge",
+   "creditUrl": "https://www.theclaylounge.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-spiffy-pottery-studio",
@@ -1349,7 +1517,14 @@
   "discipline": "ceramics",
   "source": "https://thespiffystudio.info/pages/careers",
   "lastVerified": "2026-10-28",
-  "address": "1919 Menalto Ave, Menlo Park, CA 94025"
+  "address": "1919 Menalto Ave, Menlo Park, CA 94025",
+  "image": {
+   "src": "/images/opportunities/baycer-spiffy-pottery-studio.webp",
+   "alt": "Hands shaping a pot on the wheel at Spiffy Pottery Studio",
+   "credit": "Image: Spiffy Pottery Studio",
+   "creditUrl": "https://thespiffystudio.info",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-colibri-pottery-studio",
@@ -1392,7 +1567,14 @@
   "discipline": "ceramics",
   "source": "https://www.colibripotterystudio.com/jobs",
   "lastVerified": "2026-10-28",
-  "address": "North San Jose: 1620 Oakland Rd, Suite D102, San Jose, CA 95131; 'Campbell' studio: 1033 S Bascom Ave, San Jose, CA 95128"
+  "address": "North San Jose: 1620 Oakland Rd, Suite D102, San Jose, CA 95131; 'Campbell' studio: 1033 S Bascom Ave, San Jose, CA 95128",
+  "image": {
+   "src": "/images/opportunities/baycer-colibri-pottery-studio.webp",
+   "alt": "Two students throwing at wheels in the studio at Colibri Pottery Studio",
+   "credit": "Image: Colibri Pottery Studio",
+   "creditUrl": "https://www.colibripotterystudio.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-blossom-hill-ceramics",
@@ -1438,7 +1620,14 @@
   "discipline": "ceramics",
   "source": "https://www.blossomhillcrafts.com/workshops.html",
   "lastVerified": "2026-10-28",
-  "address": "15900 Blossom Hill Rd, Los Gatos, CA (store: 354 East Campbell Avenue, Campbell)"
+  "address": "15900 Blossom Hill Rd, Los Gatos, CA (store: 354 East Campbell Avenue, Campbell)",
+  "image": {
+   "src": "/images/opportunities/baycer-blossom-hill-ceramics.webp",
+   "alt": "Stacked glazed bowls and cups made at Blossom Hill Ceramics",
+   "credit": "Image: Blossom Hill Ceramics",
+   "creditUrl": "https://www.blossomhillcrafts.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-creative-crew-studio",
@@ -1480,7 +1669,14 @@
   "discipline": "ceramics",
   "source": "https://www.ccspotteryart.com/",
   "lastVerified": "2026-10-28",
-  "address": "12175 Saratoga Sunnyvale Road, Suite C, Saratoga, CA 95070"
+  "address": "12175 Saratoga Sunnyvale Road, Suite C, Saratoga, CA 95070",
+  "image": {
+   "src": "/images/opportunities/baycer-creative-crew-studio.webp",
+   "alt": "A row of students at pottery wheels in the Creative Crew Studio classroom",
+   "credit": "Image: Creative Crew Studio",
+   "creditUrl": "https://www.ccspotteryart.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-art-space-on-the-coast",
@@ -1732,7 +1928,14 @@
   "discipline": "ceramics",
   "source": "https://www.heathceramics.com/pages/locations/sausalito",
   "lastVerified": "2026-10-28",
-  "address": "400 Gate Five Road, Sausalito, CA 94965"
+  "address": "400 Gate Five Road, Sausalito, CA 94965",
+  "image": {
+   "src": "/images/opportunities/baycer-heath-ceramics-sausalito-factory-and-showroom.webp",
+   "alt": "A table set with Heath Ceramics stoneware plates and bowls",
+   "credit": "Image: Heath Ceramics",
+   "creditUrl": "https://www.heathceramics.com/pages/locations/sausalito",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-mt-vision-ceramics-studio-jess-taylor",
@@ -1775,7 +1978,14 @@
   ],
   "discipline": "ceramics",
   "source": "https://www.mtvision.studio/",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/baycer-mt-vision-ceramics-studio-jess-taylor.webp",
+   "alt": "Two glazed cups with an amber glaze made at Mt. Vision Ceramics Studio",
+   "credit": "Image: Mt. Vision Ceramics Studio",
+   "creditUrl": "https://www.mtvision.studio",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-joy-imai-special-handling-pottery",
@@ -1856,7 +2066,14 @@
   ],
   "discipline": "ceramics",
   "source": "https://pointreyesart.com/",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/baycer-point-reyes-open-studios.webp",
+   "alt": "The main street of Point Reyes Station",
+   "credit": "Jiang / Wikimedia Commons",
+   "creditUrl": "https://commons.wikimedia.org/wiki/File:Point_Reyes_Station_%286474%29.JPG",
+   "license": "Public domain"
+  }
  },
  {
   "id": "baycer-foothill-college-ceramics",
@@ -1899,7 +2116,14 @@
   "discipline": "ceramics",
   "source": "https://foothill.edu/art/ceramics.html",
   "lastVerified": "2026-10-28",
-  "address": "12345 El Monte Road, Los Altos Hills, CA 94022"
+  "address": "12345 El Monte Road, Los Altos Hills, CA 94022",
+  "image": {
+   "src": "/images/opportunities/baycer-foothill-college-ceramics.webp",
+   "alt": "An instructor and a student with a vase on the wheel in a Foothill College ceramics class",
+   "credit": "Image: Foothill College",
+   "creditUrl": "https://foothill.edu/art/ceramics.html",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-college-of-san-mateo-ceramics",
@@ -1938,7 +2162,14 @@
   "discipline": "ceramics",
   "source": "https://collegeofsanmateo.edu/art/",
   "lastVerified": "2026-10-28",
-  "address": "1700 W. Hillsdale Boulevard, San Mateo, CA 94402"
+  "address": "1700 W. Hillsdale Boulevard, San Mateo, CA 94402",
+  "image": {
+   "src": "/images/opportunities/baycer-college-of-san-mateo-ceramics.webp",
+   "alt": "The plaza on the College of San Mateo campus",
+   "credit": "Marc Smith / Wikimedia Commons",
+   "creditUrl": "https://commons.wikimedia.org/wiki/File:College_of_San_Mateo_%287352632808%29.jpg",
+   "license": "CC BY 2.0"
+  }
  },
  {
   "id": "baycer-mission-college-ceramics",
@@ -1980,7 +2211,14 @@
   "discipline": "ceramics",
   "source": "https://missioncollege.edu/academics/art/",
   "lastVerified": "2026-10-28",
-  "address": "3000 Mission College Blvd, Santa Clara, CA 95054"
+  "address": "3000 Mission College Blvd, Santa Clara, CA 95054",
+  "image": {
+   "src": "/images/opportunities/baycer-mission-college-ceramics.webp",
+   "alt": "The ceramics studio at Mission College with students at wheels",
+   "credit": "Image: Mission College",
+   "creditUrl": "https://missioncollege.edu/academics/art/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-creative-growth-art-center",
@@ -2022,7 +2260,14 @@
   "discipline": "ceramics",
   "source": "https://creativegrowth.org/open-positions",
   "lastVerified": "2026-10-28",
-  "address": "355 24th Street, Oakland, CA 94612"
+  "address": "355 24th Street, Oakland, CA 94612",
+  "image": {
+   "src": "/images/opportunities/baycer-creative-growth-art-center.webp",
+   "alt": "Ceramic houses and sculptures made at Creative Growth Art Center in Oakland",
+   "credit": "Steven Damron from New York / Wikimedia Commons",
+   "creditUrl": "https://commons.wikimedia.org/wiki/File:Creative_growth_art_center_ceramics_1_%287720889476%29.jpg",
+   "license": "CC BY 2.0"
+  }
  },
  {
   "id": "baycer-creativity-explored",
@@ -2065,7 +2310,14 @@
   "discipline": "ceramics",
   "source": "https://creativityexplored.org/careers",
   "lastVerified": "2026-10-28",
-  "address": "3245 16th Street, San Francisco, CA 94103 (second studio CE2 at 1 Arkansas Street)"
+  "address": "3245 16th Street, San Francisco, CA 94103 (second studio CE2 at 1 Arkansas Street)",
+  "image": {
+   "src": "/images/opportunities/baycer-creativity-explored.webp",
+   "alt": "An artist painting at an easel in the Creativity Explored studio",
+   "credit": "Image: Creativity Explored",
+   "creditUrl": "https://creativityexplored.org",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-sfartsed-san-francisco-arts-education-project",
@@ -2107,7 +2359,14 @@
   "discipline": "ceramics",
   "source": "https://www.sfartsed.org/opportunities/",
   "lastVerified": "2026-10-28",
-  "address": "SFArtsED @ Minnesota Street Project, 1275 Minnesota Street, San Francisco, CA 94107"
+  "address": "SFArtsED @ Minnesota Street Project, 1275 Minnesota Street, San Francisco, CA 94107",
+  "image": {
+   "src": "/images/opportunities/baycer-sfartsed-san-francisco-arts-education-project.webp",
+   "alt": "Students drawing at tables in an SFArtsED art room",
+   "credit": "Image: SFArtsED",
+   "creditUrl": "https://www.sfartsed.org",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-root-division",
@@ -2150,7 +2409,14 @@
   "discipline": "ceramics",
   "source": "https://rootdivision.org/?p=22519",
   "lastVerified": "2026-10-28",
-  "address": "1131 Mission Street, San Francisco, CA 94103"
+  "address": "1131 Mission Street, San Francisco, CA 94103",
+  "image": {
+   "src": "/images/opportunities/baycer-root-division.webp",
+   "alt": "Framed works and sculptures on display in the Root Division gallery",
+   "credit": "Image: Root Division",
+   "creditUrl": "https://rootdivision.org",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-de-anza-college-ceramics",
@@ -2191,7 +2457,14 @@
   ],
   "discipline": "ceramics",
   "source": "https://cis.deanza.edu/creativearts/course-rotation/ceramics.html",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/baycer-de-anza-college-ceramics.webp",
+   "alt": "The A. Robert DeHart Learning Center at De Anza College",
+   "credit": "Coolcaesar at en.wikipedia / Wikimedia Commons",
+   "creditUrl": "https://commons.wikimedia.org/wiki/File:Dehartlearningcenter.jpg",
+   "license": "CC BY-SA 3.0"
+  }
  },
  {
   "id": "baycer-west-valley-college-ceramics",
@@ -2313,7 +2586,14 @@
   "discipline": "ceramics",
   "source": "https://careers.csueastbay.edu/en-us/job/557363/lecture-pool-for-department-of-art-and-design-ay-2627",
   "lastVerified": "2026-10-28",
-  "address": "Art & Education Building, 25800 Carlos Bee Blvd, Hayward, CA 94542"
+  "address": "Art & Education Building, 25800 Carlos Bee Blvd, Hayward, CA 94542",
+  "image": {
+   "src": "/images/opportunities/baycer-cal-state-east-bay-art-and-design-ceramics.webp",
+   "alt": "The Cal State East Bay campus above Hayward, with the bay beyond",
+   "credit": "Jennifer Williams / Wikimedia Commons",
+   "creditUrl": "https://commons.wikimedia.org/wiki/File:Csueb_view.jpg",
+   "license": "CC BY-SA 2.0"
+  }
  },
  {
   "id": "baycer-chabot-college-ceramics",
@@ -2353,7 +2633,14 @@
   "discipline": "ceramics",
   "source": "https://chabotcollege.edu/academics/arts-media-communications/art/index.php",
   "lastVerified": "2026-10-28",
-  "address": "25555 Hesperian Blvd, Hayward, CA 94545"
+  "address": "25555 Hesperian Blvd, Hayward, CA 94545",
+  "image": {
+   "src": "/images/opportunities/baycer-chabot-college-ceramics.webp",
+   "alt": "Aerial view of the Chabot College campus in Hayward",
+   "credit": "Wsiegmund / Wikimedia Commons",
+   "creditUrl": "https://commons.wikimedia.org/wiki/File:Chabot_College_07819.JPG",
+   "license": "GFDL"
+  }
  },
  {
   "id": "baycer-skyline-college-ceramics",
@@ -2392,7 +2679,14 @@
   ],
   "discipline": "ceramics",
   "source": "https://skylineshines.skylinecollege.edu/uncategorized/ceramics-students-faculty-and-staff-showcase-artwork-at-the-2025-california-clay-conference/",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/baycer-skyline-college-ceramics.webp",
+   "alt": "A building and courtyard on the Skyline College campus",
+   "credit": "Image: Skyline College",
+   "creditUrl": "https://skylinecollege.edu",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-los-medanos-college-ceramics",
@@ -2470,7 +2764,14 @@
   "discipline": "ceramics",
   "source": "https://art.berkeley.edu/practices/ceramics",
   "lastVerified": "2026-10-28",
-  "address": "182 Bauer Wurster Hall, UC Berkeley, Berkeley, CA"
+  "address": "182 Bauer Wurster Hall, UC Berkeley, Berkeley, CA",
+  "image": {
+   "src": "/images/opportunities/baycer-uc-berkeley-art-practice-ceramics.webp",
+   "alt": "A bearded potter at work among thrown cups in his studio",
+   "credit": "Image: UC Berkeley Department of Art Practice",
+   "creditUrl": "https://art.berkeley.edu",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-stanford-ceramics-studio",
@@ -2512,7 +2813,14 @@
   "discipline": "ceramics",
   "source": "https://ceramics.stanford.edu/classes",
   "lastVerified": "2026-10-28",
-  "address": "Elliot Programming Center, 589 Governor's Ave, Stanford, CA 94305"
+  "address": "Elliot Programming Center, 589 Governor's Ave, Stanford, CA 94305",
+  "image": {
+   "src": "/images/opportunities/baycer-stanford-ceramics-studio.webp",
+   "alt": "Carved terracotta cups on a shelf, from the Stanford ceramics studio",
+   "credit": "Image: Stanford Arts",
+   "creditUrl": "https://ceramics.stanford.edu",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-flm-ceramics-and-tile-forrest-lesch-middelton",
@@ -2553,7 +2861,14 @@
   "discipline": "ceramics",
   "source": "https://www.flmceramics.com/contact",
   "lastVerified": "2026-10-28",
-  "address": "301 2nd St., Petaluma, CA 94952"
+  "address": "301 2nd St., Petaluma, CA 94952",
+  "image": {
+   "src": "/images/opportunities/baycer-flm-ceramics-and-tile-forrest-lesch-middelton.webp",
+   "alt": "Forrest Lesch-Middelton shaping clay at the potter's wheel",
+   "credit": "Image: FLM Ceramics",
+   "creditUrl": "https://www.flmceramics.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-douglas-and-sturgess-richmond",
@@ -2598,7 +2913,14 @@
   "discipline": "ceramics",
   "source": "https://douglasandsturgess.com/pages/contact-us",
   "lastVerified": "2026-10-28",
-  "address": "1023 Factory Street, Richmond, CA 94801"
+  "address": "1023 Factory Street, Richmond, CA 94801",
+  "image": {
+   "src": "/images/opportunities/baycer-douglas-and-sturgess-richmond.webp",
+   "alt": "An aisle of ceramic supplies in the Douglas and Sturgess warehouse, black and white",
+   "credit": "Image: Douglas and Sturgess",
+   "creditUrl": "https://douglasandsturgess.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-douglas-and-sturgess-san-francisco",
@@ -2640,7 +2962,14 @@
   "discipline": "ceramics",
   "source": "https://douglasandsturgess.com/pages/contact-us",
   "lastVerified": "2026-10-28",
-  "address": "730 Bryant Street, San Francisco, CA 94107"
+  "address": "730 Bryant Street, San Francisco, CA 94107",
+  "image": {
+   "src": "/images/opportunities/baycer-douglas-and-sturgess-san-francisco.webp",
+   "alt": "An aisle of ceramic supplies in the Douglas and Sturgess warehouse, black and white",
+   "credit": "Image: Douglas and Sturgess",
+   "creditUrl": "https://douglasandsturgess.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-sfmoma-go-your-own-way-northern-california-craft-1945-80",
@@ -2680,7 +3009,14 @@
   "discipline": "ceramics",
   "source": "https://www.sfmoma.org/press-release/sfmomas-2026-27-exhibitions-highlight-fashion-korean-modern-art-and-northern-california-craft/",
   "lastVerified": "2026-10-28",
-  "address": "151 Third Street, San Francisco, CA"
+  "address": "151 Third Street, San Francisco, CA",
+  "image": {
+   "src": "/images/opportunities/baycer-sfmoma-go-your-own-way-northern-california-craft-1945-80.webp",
+   "alt": "The SFMOMA building in San Francisco",
+   "credit": "Beyond My Ken / Wikimedia Commons",
+   "creditUrl": "https://commons.wikimedia.org/wiki/File:2017_SFMOMA_from_Yerba_Buena_Gardens.jpg",
+   "license": "GFDL"
+  }
  },
  {
   "id": "baycer-de-young-museum-rose-b-simpson-lexicon",
@@ -2719,7 +3055,14 @@
   "discipline": "ceramics",
   "source": "https://www.famsf.org/exhibitions/rose-b-simpson",
   "lastVerified": "2026-10-28",
-  "address": "50 Hagiwara Tea Garden Drive, San Francisco, CA"
+  "address": "50 Hagiwara Tea Garden Drive, San Francisco, CA",
+  "image": {
+   "src": "/images/opportunities/baycer-de-young-museum-rose-b-simpson-lexicon.webp",
+   "alt": "The de Young Museum in Golden Gate Park",
+   "credit": "Mark Miller / Wikimedia Commons",
+   "creditUrl": "https://commons.wikimedia.org/wiki/File:M._H._de_Young_Memorial_Museum.jpg",
+   "license": "Public domain"
+  }
  },
  {
   "id": "baycer-asian-art-museum-of-san-francisco",
@@ -2758,7 +3101,14 @@
   "discipline": "ceramics",
   "source": "https://about.asianart.org/press/asian-art-museum-presents-japanese-ceramics-29-modern-and-contemporary-artists-defy-gravity-challenge-tradition-with-playful-innovative-clay-creations/",
   "lastVerified": "2026-10-28",
-  "address": "200 Larkin Street, San Francisco, CA 94102"
+  "address": "200 Larkin Street, San Francisco, CA 94102",
+  "image": {
+   "src": "/images/opportunities/baycer-asian-art-museum-of-san-francisco.webp",
+   "alt": "The Asian Art Museum in San Francisco's Civic Center",
+   "credit": "LPS.1 / Wikimedia Commons",
+   "creditUrl": "https://commons.wikimedia.org/wiki/File:Terracotta_Warriors_Exhibition_San_Francisco_2013.jpg",
+   "license": "CC0"
+  }
  },
  {
   "id": "baycer-rebecca-camacho-presents",
@@ -2920,7 +3270,14 @@
   "discipline": "ceramics",
   "source": "https://www.renegadecraft.com/events/",
   "lastVerified": "2026-10-28",
-  "address": "Fort Mason Center Festival Pavilion, San Francisco"
+  "address": "Fort Mason Center Festival Pavilion, San Francisco",
+  "image": {
+   "src": "/images/opportunities/baycer-renegade-craft-fair-san-francisco.webp",
+   "alt": "Crowds browsing the craft stalls at a Renegade Craft Fair in a large hall",
+   "credit": "Image: Renegade Craft",
+   "creditUrl": "https://www.renegadecraft.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-mill-valley-fall-arts-festival",
@@ -2959,7 +3316,14 @@
   "discipline": "ceramics",
   "source": "https://app.entrythingy.com/calls/external/mill-valley-fall-arts-festival-2026/",
   "lastVerified": "2026-10-28",
-  "address": "Old Mill Park, Throckmorton Ave. & Cascade Drive, Mill Valley"
+  "address": "Old Mill Park, Throckmorton Ave. & Cascade Drive, Mill Valley",
+  "image": {
+   "src": "/images/opportunities/baycer-mill-valley-fall-arts-festival.webp",
+   "alt": "Festival-goers on the street under the Mill Valley Fall Arts Festival sign",
+   "credit": "Image: Mill Valley Fall Arts Festival",
+   "creditUrl": "https://www.mvfaf.org/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-marin-open-studios",
@@ -2997,7 +3361,14 @@
   ],
   "discipline": "ceramics",
   "source": "https://marinopenstudios.org/",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/baycer-marin-open-studios.webp",
+   "alt": "An artist standing in her studio among landscape paintings, Marin Open Studios",
+   "credit": "Image: Marin Open Studios",
+   "creditUrl": "https://marinopenstudios.org/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-east-bay-open-studios",
@@ -3035,7 +3406,14 @@
   ],
   "discipline": "ceramics",
   "source": "https://www.eastbayopenstudios.com/",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/baycer-east-bay-open-studios.webp",
+   "alt": "An artist painting at an easel in her studio, East Bay Open Studios",
+   "credit": "Image: East Bay Open Studios",
+   "creditUrl": "https://www.eastbayopenstudios.com/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "baycer-silicon-valley-open-studios",
@@ -3115,6 +3493,13 @@
   "discipline": "ceramics",
   "source": "https://natsoulas.com/about-ccaca",
   "lastVerified": "2026-10-28",
-  "address": "John Natsoulas Gallery, 521 1st Street, Davis, CA"
+  "address": "John Natsoulas Gallery, 521 1st Street, Davis, CA",
+  "image": {
+   "src": "/images/opportunities/baycer-ccaca-california-conference-for-the-advancement-of-ceramic-a.webp",
+   "alt": "A building at night with colourful ceramic sculptures out front",
+   "credit": "Image: California Conference for the Advancement of Ceramic Art",
+   "creditUrl": "https://natsoulas.com/",
+   "license": "publisher image"
+  }
  }
 ]
