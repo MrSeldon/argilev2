@@ -9,10 +9,13 @@
     "lint": "next lint",
     "glazes:glossary": "node scripts/glazes/glossary-source.mjs",
     "glazes:index": "node scripts/glazes/build-index.mjs",
-    "glazes:reindex": "node scripts/glazes/build-index.mjs --force"
+    "glazes:reindex": "node scripts/glazes/build-index.mjs --force",
+    "test:shelf": "node --test scripts/shelf/match.test.mts scripts/shelf/ops.test.mts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.71.2",
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.118.0",
     "@types/d3": "^7.4.3",
     "ai": "^6.0.45",
     "d3": "^7.9.0",

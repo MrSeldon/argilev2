@@ -1,6 +1,7 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useState, useSyncExternalStore } from "react";
+import { shelfStore } from "./shelfSync";
 
 export interface SlimMaterial {
   id: string;
@@ -13,8 +14,8 @@ export interface SlimMaterial {
   note?: string;
 }
 
-const KEY = "argile-shelf-v1";
 const LEGACY_KEY = "argil-materials";
+const LEGACY_DONE = "argile-legacy-migrated";
 
 // ---------------------------------------------------------------- storage (never throws)
 function readStore<T>(key: string): T | null {
@@ -98,56 +99,39 @@ export function searchGlossary(list: SlimMaterial[], q: string, limit = 8) {
 }
 
 // ---------------------------------------------------------------- shelf hook
+// Storage lives in ./shelfSync (this browser when signed out, the person's account when signed in).
+const names = new Map<string, string>();
+function rememberNames() {
+  fetchGlossary()
+    .then((l) => l.forEach((m) => names.set(m.id, m.name)))
+    .catch(() => {});
+}
+
 export function useShelf() {
-  const [shelf, setShelf] = useState<string[]>([]);
-  const [loaded, setLoaded] = useState(false);
+  const s = useSyncExternalStore(shelfStore.subscribe, shelfStore.get, shelfStore.getServer);
 
   useEffect(() => {
-    const saved = readStore<string[]>(KEY);
-    if (saved && Array.isArray(saved)) {
-      setShelf(saved);
-      setLoaded(true);
-      return;
-    }
-    // One-time migration from the old "My Materials" checklist (names).
+    rememberNames();
+    // One-time migration from the old "My Materials" checklist (names), signed-out shelf only.
+    if (!s.loaded || s.mode !== "local" || s.ids.length) return;
     const legacy = readStore<{ name: string; inStock: boolean }[]>(LEGACY_KEY);
-    if (legacy && Array.isArray(legacy) && legacy.some((m) => m.inStock)) {
-      fetchGlossary()
-        .then((list) => {
-          const ids = new Set<string>();
-          for (const m of legacy.filter((x) => x.inStock)) {
-            const hit = searchGlossary(list, m.name, 1)[0];
-            if (hit && hit.s >= 89) ids.add(hit.m.id);
-          }
-          setShelf([...ids]);
-          writeStore(KEY, [...ids]);
-        })
-        .catch(() => {})
-        .finally(() => setLoaded(true));
-      return;
-    }
-    setLoaded(true);
-  }, []);
+    if (!legacy || !Array.isArray(legacy) || !legacy.some((m) => m.inStock)) return;
+    // Only once, and never if the v1 shelf already did it.
+    if (readStore("argile-shelf-v1") !== null || readStore(LEGACY_DONE) !== null) return;
+    writeStore(LEGACY_DONE, true);
+    fetchGlossary()
+      .then((list) => {
+        for (const m of legacy.filter((x) => x.inStock)) {
+          const hit = searchGlossary(list, m.name, 1)[0];
+          if (hit && hit.s >= 89) shelfStore.add(hit.m.id, hit.m.name);
+        }
+      })
+      .catch(() => {});
+  }, [s.loaded, s.mode, s.ids.length]);
 
-  // keep several hook instances on one page in sync
-  useEffect(() => {
-    const on = (e: Event) => setShelf((e as CustomEvent<string[]>).detail);
-    window.addEventListener("argile-shelf", on);
-    return () => window.removeEventListener("argile-shelf", on);
-  }, []);
+  const add = useCallback((id: string) => shelfStore.add(id, names.get(id)), []);
+  const remove = useCallback((id: string) => shelfStore.remove(id), []);
+  const clear = useCallback(() => shelfStore.clear(), []);
 
-  const update = useCallback((fn: (prev: string[]) => string[]) => {
-    setShelf((prev) => {
-      const next = fn(prev);
-      writeStore(KEY, next);
-      setTimeout(() => window.dispatchEvent(new CustomEvent("argile-shelf", { detail: next })), 0);
-      return next;
-    });
-  }, []);
-
-  const add = useCallback((id: string) => update((p) => (p.includes(id) ? p : [...p, id])), [update]);
-  const remove = useCallback((id: string) => update((p) => p.filter((x) => x !== id)), [update]);
-  const clear = useCallback(() => update(() => []), [update]);
-
-  return { shelf, loaded, add, remove, clear };
+  return { shelf: s.ids, entries: s.entries, loaded: s.loaded, mode: s.mode, status: s.status, email: s.email, add, remove, clear, addEntries: shelfStore.addEntries };
 }
