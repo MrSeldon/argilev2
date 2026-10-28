@@ -153,35 +153,33 @@ export function ShelfIntake() {
   if (!supabaseConfigured) return null;
 
   return (
-    <div className="mt-4">
+    <section
+      aria-labelledby="from-photo"
+      className="p-4 md:p-5 border border-dashed border-line-strong bg-paper-soft/60"
+    >
+      <div className="flex items-center gap-4">
+        <span className="shrink-0 w-11 h-11 rounded-full bg-oat flex items-center justify-center text-ink-3" aria-hidden="true">
+          <CameraIcon />
+        </span>
+        <div className="min-w-0">
+          <p id="from-photo" className="text-body-md text-ink">Add from a photo or receipt</p>
+          <p className="text-caption text-ink-3">Bags, labels or receipts, in Italian, French, English or Kinyarwanda. You check everything before it’s added.</p>
+        </div>
+      </div>
       {ready && !user ? (
-        <Link
-          href="/login?next=%2Fglazes%2Fmy-materials"
-          className="flex items-center justify-center gap-2 w-full min-h-[52px] px-4 border border-warm-200 bg-white text-body-md"
-        >
-          <CameraIcon /> Sign in to add from a photo or receipt
+        <Link href="/login?next=%2Fglazes%2Fmy-materials" className="btn-secondary mt-4 w-full justify-center">
+          Sign in to add from a photo
         </Link>
       ) : (
-        <div className="grid grid-cols-2 gap-2">
-          <button
-            type="button"
-            disabled={!user}
-            onClick={() => cameraRef.current?.click()}
-            className="flex items-center justify-center gap-2 min-h-[52px] px-3 bg-charcoal text-cream text-body-md disabled:opacity-50"
-          >
-            <CameraIcon /> Take a photo
+        <div className="mt-4 grid grid-cols-2 gap-2">
+          <button type="button" disabled={!user} onClick={() => cameraRef.current?.click()} className="btn-primary justify-center !px-3 disabled:opacity-50">
+            Take a photo
           </button>
-          <button
-            type="button"
-            disabled={!user}
-            onClick={() => pickRef.current?.click()}
-            className="flex items-center justify-center gap-2 min-h-[52px] px-3 border border-warm-200 bg-white text-body-md disabled:opacity-50"
-          >
+          <button type="button" disabled={!user} onClick={() => pickRef.current?.click()} className="btn-secondary justify-center !px-3 disabled:opacity-50">
             Choose photos
           </button>
         </div>
       )}
-      <p className="mt-2 text-caption text-warm-500">Bags, labels or receipts, in Italian, French, English or Kinyarwanda. You check everything before it’s added.</p>
       <input
         ref={cameraRef}
         type="file"
@@ -205,7 +203,7 @@ export function ShelfIntake() {
         }}
       />
       {toast && (
-        <p role="status" className="mt-3 p-3 text-body-sm bg-glaze-50 border border-glaze-200 text-glaze-800">
+        <p role="status" className="mt-3 p-3 text-body-sm bg-paper border border-celadon text-celadon-deep">
           {toast}
         </p>
       )}
@@ -218,7 +216,7 @@ export function ShelfIntake() {
           onConfirm={confirm}
         />
       )}
-    </div>
+    </section>
   );
 }
 

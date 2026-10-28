@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { AccountControl } from "@/components/auth/AccountControl";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
@@ -97,7 +98,11 @@ export function SiteHeader() {
                 Clouds
               </a>
             </li>
+            <li>
+              <AccountControl tone={light ? "light" : "dark"} compact />
+            </li>
           </ul>
+          <AccountControl tone={light ? "light" : "dark"} compact className="md:hidden" />
         </nav>
       </header>
 

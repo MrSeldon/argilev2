@@ -6,7 +6,6 @@ import type { ConeBand } from "@/lib/glazes/types";
 import { CONE_BANDS, coneText } from "@/lib/glazes/types";
 import { searchGlossary, useGlossary, useShelf, type SlimMaterial } from "./useShelf";
 import { Swatch } from "./Swatch";
-import { ShelfIntake } from "./ShelfIntake";
 import { ShelfSyncNote } from "./ShelfSyncNote";
 
 interface ShelfResult {
@@ -127,7 +126,6 @@ export function Shelf() {
             })}
           </ul>
         )}
-        <ShelfIntake />
         {loaded && shelf.length === 0 && (
           <button type="button" onClick={() => STARTER.forEach(add)} className="mt-3 text-left text-body-sm underline underline-offset-4 decoration-line-strong hover:decoration-terracotta text-ink-2 py-2">
             Start with a basic studio set (silica, kaolin, feldspar, whiting, wood ash, lime, wild clay…)
