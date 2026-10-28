@@ -517,7 +517,7 @@
         "clothingMfg": "Small: independent designers, alteration and tailoring shops in the Vietnamese and Mexican shopping districts.",
         "fabricSourcing": "The San Jose Museum of Quilts & Textiles and the Glenna Harris Weavers Guild are the textile hubs; for fabric shopping most people go to Berkeley or San Francisco.",
         "vintageThrift": "Plenty of charity thrift stores across the city; for curated vintage, San Francisco and Oakland are an hour north.",
-        "danceTheatre": "New Ballet (San Jose's ballet company), Opera San Jos\u00e9, and folkl\u00f3rico and Vietnamese dance groups at community festivals.",
+        "danceTheatre": "New Ballet (San Jose's ballet company), Opera San José, and folklórico and Vietnamese dance groups at community festivals.",
         "places": [
           {
             "name": "San Jose Museum of Quilts & Textiles",
@@ -538,7 +538,7 @@
             "notes": "San Jose ballet company and school."
           },
           {
-            "name": "Opera San Jos\u00e9",
+            "name": "Opera San José",
             "kind": "opera",
             "url": "https://www.operasj.org/",
             "notes": "Opera at the restored California Theatre."
@@ -2179,10 +2179,10 @@
         "notes": "Not a legal cannabis production region."
       }
     },
-    "Gothenburg, V\u00e4stra G\u00f6taland, Sweden": {
-      "location": "Gothenburg, V\u00e4stra G\u00f6taland, Sweden",
+    "Gothenburg, Västra Götaland, Sweden": {
+      "location": "Gothenburg, Västra Götaland, Sweden",
       "country": "Sweden",
-      "region": "V\u00e4stra G\u00f6taland",
+      "region": "Västra Götaland",
       "probabilityOfWeed": {
         "score": 15,
         "status": "Illegal",
@@ -2221,8 +2221,8 @@
         "notes": "Not a legal cannabis production region."
       }
     },
-    "H\u00f6hr-Grenzhausen, Rhineland-Palatinate, Germany": {
-      "location": "H\u00f6hr-Grenzhausen, Rhineland-Palatinate, Germany",
+    "Höhr-Grenzhausen, Rhineland-Palatinate, Germany": {
+      "location": "Höhr-Grenzhausen, Rhineland-Palatinate, Germany",
       "country": "Germany",
       "region": "Rhineland-Palatinate",
       "probabilityOfWeed": {
@@ -2263,8 +2263,8 @@
         "notes": "Not a legal cannabis production region."
       }
     },
-    "La Bisbal d'Empord\u00e0, Catalonia, Spain": {
-      "location": "La Bisbal d'Empord\u00e0, Catalonia, Spain",
+    "La Bisbal d'Empordà, Catalonia, Spain": {
+      "location": "La Bisbal d'Empordà, Catalonia, Spain",
       "country": "Spain",
       "region": "Catalonia",
       "probabilityOfWeed": {
@@ -2410,8 +2410,8 @@
         "notes": "Not a legal cannabis production region."
       }
     },
-    "Lous\u00e3, Coimbra, Portugal": {
-      "location": "Lous\u00e3, Coimbra, Portugal",
+    "Lousã, Coimbra, Portugal": {
+      "location": "Lousã, Coimbra, Portugal",
       "country": "Portugal",
       "region": "Coimbra",
       "probabilityOfWeed": {
@@ -2473,8 +2473,8 @@
         "notes": "Not a legal cannabis production region."
       }
     },
-    "Nex\u00f8, Bornholm, Denmark": {
-      "location": "Nex\u00f8, Bornholm, Denmark",
+    "Nexø, Bornholm, Denmark": {
+      "location": "Nexø, Bornholm, Denmark",
       "country": "Denmark",
       "region": "Bornholm",
       "probabilityOfWeed": {
@@ -2641,10 +2641,10 @@
         "notes": "Not a legal cannabis production region."
       }
     },
-    "Vickleby, \u00d6land, Sweden": {
-      "location": "Vickleby, \u00d6land, Sweden",
+    "Vickleby, Öland, Sweden": {
+      "location": "Vickleby, Öland, Sweden",
       "country": "Sweden",
-      "region": "\u00d6land",
+      "region": "Öland",
       "probabilityOfWeed": {
         "score": 15,
         "status": "Illegal",
@@ -2683,8 +2683,8 @@
         "notes": "Not a legal cannabis production region."
       }
     },
-    "Wroc\u0142aw, Lower Silesia, Poland": {
-      "location": "Wroc\u0142aw, Lower Silesia, Poland",
+    "Wrocław, Lower Silesia, Poland": {
+      "location": "Wrocław, Lower Silesia, Poland",
       "country": "Poland",
       "region": "Lower Silesia",
       "probabilityOfWeed": {
@@ -3560,6 +3560,59 @@
             "kind": "theatre",
             "url": "https://www.marintheatre.org/",
             "notes": "Professional theatre in Mill Valley, 15 minutes south."
+          }
+        ]
+      },
+      "trimWorkOpportunities": {
+        "available": false,
+        "season": "Sep-Nov (outdoor harvest on the North Coast)",
+        "notes": "Not a route for Winnie. Licensed farms in Humboldt, Mendocino and Trinity counties hire harvest and trim crews in autumn, but only workers with US work authorization, and because cannabis is still illegal under federal law, cannabis work can harm a visa or immigration case even on a state-licensed farm. Unlicensed cash trimming is illegal and often unsafe. Any paid work in the US, in any industry, needs work authorization."
+      }
+    },
+    "Fairfax, California, USA": {
+      "location": "Fairfax, California, USA",
+      "country": "USA",
+      "region": "California",
+      "probabilityOfWeed": {
+        "score": 82,
+        "status": "Recreational legal (21+); the town licenses local storefronts",
+        "notes": "Fairfax is the exception in Marin, which has very few cannabis storefronts: the town issues its own commercial cannabis permits for storefront retail, and La Flor at 1601 Sir Francis Drake Blvd holds an active state licence for adult-use and medical sales (2026; check that it has opened). The Marin Alliance for Medical Marijuana's old School Street licence has expired. Check the state's licence search before buying. Adult use has been legal in California since 2016 (Prop 64) for anyone 21+ with ID; buy only from shops or delivery services licensed by the state Department of Cannabis Control, and don't smoke in public places. Federal law still bans cannabis: for a non-citizen, using, buying or working with it, even legally under state law, can count against a visa, green card or citizenship application, and it must never cross a state or national border. Safest for Winnie: skip it."
+      },
+      "fashionEcosystem": {
+        "clothingMfg": "No garment industry; small independent makers, with Fibershed (Point Reyes Station, 35 min) connecting local farmers, dyers and sewists.",
+        "fabricSourcing": "Dharma Trading in San Rafael (10 min) sells natural dyes, mordants and undyed silk, cotton and wool; Atelier Yarns in downtown San Rafael for yarn and weaving tools.",
+        "vintageThrift": "A few consignment and gift shops downtown; for real vintage, San Rafael, Mill Valley and San Francisco are better.",
+        "danceTheatre": "Ross Valley Players at the Barn Theatre in Ross (5 min), the Mountain Play on Mount Tamalpais, and ballet classes for adults at Marin Ballet in San Rafael.",
+        "places": [
+          {
+            "name": "Dharma Trading Co.",
+            "kind": "dye supplier",
+            "url": "https://www.dharmatrading.com/",
+            "notes": "San Rafael dye house: natural dyes and mordants, undyed silk, cotton and wool."
+          },
+          {
+            "name": "Atelier Yarns (San Rafael)",
+            "kind": "yarn and weaving",
+            "url": "https://atelieryarns.com/",
+            "notes": "Yarn, weaving tools and classes in downtown San Rafael."
+          },
+          {
+            "name": "Fibershed",
+            "kind": "local fibre network",
+            "url": "https://fibershed.org/",
+            "notes": "Point Reyes Station non-profit for locally grown, dyed and sewn clothing, with workshops and markets."
+          },
+          {
+            "name": "Ross Valley Players",
+            "kind": "theatre",
+            "url": "https://www.rossvalleyplayers.com/",
+            "notes": "Community theatre at the Barn on the Marin Art & Garden Center grounds in Ross, in its 97th season in 2026-27."
+          },
+          {
+            "name": "Marin Ballet",
+            "kind": "dance school",
+            "url": "https://marinballet.org/",
+            "notes": "San Rafael ballet school with classes for adults as well as children, enrolling year round."
           }
         ]
       },

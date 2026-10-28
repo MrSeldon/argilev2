@@ -5339,7 +5339,7 @@
           {
             "month": "February",
             "name": "Magnolias",
-            "notes": "The magnolia collection in the Gardens of Golden Gate Park (San Francisco Botanical Garden) peaks from January to March."
+            "notes": "One of the most important magnolia collections in the US blooms in the San Francisco Botanical Garden (Gardens of Golden Gate Park) from January to March."
           },
           {
             "month": "February",
@@ -5347,26 +5347,36 @@
             "notes": "Yellow acacia trees light up streets and parks in late winter."
           },
           {
-            "month": "April",
+            "month": "March",
             "name": "Cherry blossoms",
-            "notes": "Japanese Tea Garden in Golden Gate Park and Japantown, in time for the Cherry Blossom Festival."
+            "notes": "The cherry trees in Golden Gate Park's Japanese Tea Garden bloom from mid-March to early April; Japantown's festival follows in April."
           },
           {
             "month": "August",
             "name": "Dahlias",
-            "notes": "The Dahlia Garden beside the Conservatory of Flowers, best in late summer; the dahlia is San Francisco's official flower."
+            "notes": "The Dahlia Dell beside the Conservatory of Flowers grows 700+ varieties, blooming from June and peaking from late August into September. 2026 was the centenary of the dahlia as the city's official flower."
           }
         ],
         "festivals": [
           {
             "month": "February",
             "name": "Chinese New Year Festival & Parade",
-            "notes": "One of the biggest Lunar New Year night parades outside Asia, through Union Square and Chinatown (January or February)."
+            "notes": "One of the biggest Lunar New Year night parades outside Asia, through Union Square and Chinatown; the next is February 20, 2027."
+          },
+          {
+            "month": "February",
+            "name": "Noise Pop Festival",
+            "notes": "Eleven days of indie music across 25+ small venues in late February (from February 18, 2027)."
           },
           {
             "month": "April",
             "name": "Northern California Cherry Blossom Festival",
-            "notes": "Two April weekends in Japantown; the 60th edition is April 10-11 and 17-18, 2027."
+            "notes": "Two April weekends in Japantown; the 60th edition is April 10-11 and 17-18, 2027, with the Grand Parade on April 18."
+          },
+          {
+            "month": "May",
+            "name": "Bay to Breakers",
+            "notes": "The famously costumed 12 km run from the bay to Ocean Beach (May 16, 2027)."
           },
           {
             "month": "May",
@@ -5375,13 +5385,33 @@
           },
           {
             "month": "June",
+            "name": "San Francisco Pride",
+            "notes": "One of the world's biggest Pride parades and celebrations, at the end of June (June 26-27, 2027)."
+          },
+          {
+            "month": "June",
             "name": "Stern Grove Festival",
             "notes": "Free Sunday afternoon concerts in a eucalyptus grove, June to August."
           },
           {
+            "month": "June",
+            "name": "Sunday Streets",
+            "notes": "Car-free Sundays when a neighbourhood's streets fill with music, bikes and stalls; 2026 ran in the Tenderloin, Mission, Bayview and Excelsior (June to October)."
+          },
+          {
+            "month": "August",
+            "name": "Outside Lands",
+            "notes": "Three-day ticketed music festival in Golden Gate Park (August 6-8, 2027)."
+          },
+          {
+            "month": "September",
+            "name": "Flower Piano",
+            "notes": "Pianos placed round the San Francisco Botanical Garden for anyone to play, with scheduled performers, for eleven days in September (September 10-20, 2026)."
+          },
+          {
             "month": "September",
             "name": "ArtSpan SF Open Studios",
-            "notes": "Hundreds of artists open their studios over neighbourhood weekends from mid-September to late October."
+            "notes": "Hundreds of artists open their studios over neighbourhood weekends (September 18 to October 25 in 2026); the Hunters Point Shipyard studios are the biggest single cluster."
           },
           {
             "month": "October",
@@ -5389,9 +5419,24 @@
             "notes": "Free three-day music festival in Golden Gate Park on the first weekend of October."
           },
           {
+            "month": "October",
+            "name": "Fleet Week",
+            "notes": "Air shows over the bay and a parade of ships in early October (October 4-12, 2026)."
+          },
+          {
+            "month": "November",
+            "name": "Día de los Muertos procession",
+            "notes": "Evening procession through the Mission every November 2, gathering at 22nd and Bryant, with community altars."
+          },
+          {
             "month": "November",
             "name": "Holiday craft fairs at Fort Mason",
-            "notes": "Renegade Craft (Nov 14-15, 2026) and West Coast Craft, where many Bay Area potters sell."
+            "notes": "Renegade Craft (November 14-15, 2026) and West Coast Craft's winter show, where many Bay Area potters sell."
+          },
+          {
+            "month": "December",
+            "name": "Lightscape",
+            "notes": "A one-mile trail of lights through the San Francisco Botanical Garden on winter evenings (November 20 to January 3)."
           }
         ],
         "naturalPhenomena": [
@@ -5571,7 +5616,7 @@
           {
             "name": "Museum of the African Diaspora (MoAD)",
             "url": "https://www.moadsf.org",
-            "notes": "Museum of Black art and culture across the diaspora, with an Emerging Artist Program and residencies."
+            "notes": "San Francisco's museum of contemporary art of the African diaspora, with changing exhibitions, an Emerging Artist Program and residencies."
           },
           {
             "name": "Creativity Explored",
@@ -5612,7 +5657,7 @@
           "Equator Coffees",
           "Blue Bottle"
         ],
-        "notes": "Ritual, Sightglass and Four Barrel are San Francisco originals; Blue Bottle actually began across the bay in Oakland in 2002."
+        "notes": "One of the world's great coffee cities, with single-origin beans on almost every menu. Ritual, Sightglass and Four Barrel are San Francisco originals; Blue Bottle actually began across the bay in Oakland in 2002."
       },
       "localDessert": {
         "signature": "Tartine's morning bun, and a slice of sourdough country loaf",
@@ -5668,10 +5713,28 @@
             "url": "https://rainbow.coop/"
           },
           {
+            "name": "Bi-Rite Market",
+            "what": "Neighbourhood grocer with excellent produce, cheese and a deli; Bi-Rite Creamery's ice cream is across the street",
+            "neighborhood": "Mission (18th St)",
+            "url": "https://biritemarket.com/"
+          },
+          {
             "name": "La Palma Mexicatessen",
             "what": "Fresh masa, handmade tortillas, tamales and pupusas to take home",
             "neighborhood": "Mission (24th Street)",
             "url": "https://lapalmasf.com/"
+          },
+          {
+            "name": "La Taqueria",
+            "what": "Cheap, classic Mission burritos and tacos (riceless burritos); expect a queue and short hours",
+            "neighborhood": "Mission (2889 Mission St)",
+            "url": "https://www.theinfatuation.com/san-francisco/reviews/la-taqueria"
+          },
+          {
+            "name": "Good Mong Kok Bakery",
+            "what": "Cheap takeaway dim sum by the box: siu mai, har gow and baked char siu bao",
+            "neighborhood": "Chinatown (1039 Stockton St)",
+            "url": "https://www.theinfatuation.com/san-francisco/reviews/good-mong-kok-bakery"
           },
           {
             "name": "Burma Superstar",
@@ -5686,6 +5749,18 @@
             "url": "https://tartinebakery.com/"
           },
           {
+            "name": "Arsicault Bakery",
+            "what": "Some of the city's best croissants; go early",
+            "neighborhood": "Inner Richmond (Arguello Blvd)",
+            "url": "https://arsicault-bakery.com/"
+          },
+          {
+            "name": "Outerlands",
+            "what": "Warm, wood-panelled neighbourhood restaurant by Ocean Beach, good for brunch after a foggy walk",
+            "neighborhood": "Outer Sunset (4001 Judah St)",
+            "url": "https://www.outerlandssf.com/"
+          },
+          {
             "name": "Zuni Café",
             "what": "The splurge: roast chicken and bread salad from the wood oven, since 1979",
             "neighborhood": "Hayes Valley / Market St",
@@ -5696,7 +5771,7 @@
       "liveMusic": {
         "score": 92,
         "rating": "Exceptional",
-        "notes": "From free Sunday concerts in Stern Grove to world-class jazz at SFJAZZ, there's music most nights at every price. Summer and early autumn bring the big free outdoor series; winter is the season for the Symphony and the small clubs.",
+        "notes": "From free Sunday concerts in Stern Grove and Golden Gate Park to world-class jazz at SFJAZZ, there's music most nights at every price. Summer and early autumn bring the big free outdoor series; winter is the season for the Symphony, chamber music and the small clubs.",
         "venues": [
           {
             "name": "Stern Grove Festival",
@@ -5751,15 +5826,36 @@
             "kind": "free outdoor festival",
             "neighborhood": "Golden Gate Park",
             "url": "https://hardlystrictlybluegrass.com/"
+          },
+          {
+            "name": "Golden Gate Park Band",
+            "kind": "free outdoor concerts (Sundays, April-September)",
+            "neighborhood": "Golden Gate Park (Spreckels Temple of Music)",
+            "url": "https://goldengateparkband.org/"
+          },
+          {
+            "name": "The Chapel",
+            "kind": "mid-size club for indie, folk and rock",
+            "neighborhood": "Mission (Valencia St)",
+            "url": "https://thechapelsf.com/"
+          },
+          {
+            "name": "Old First Concerts",
+            "kind": "affordable chamber music and recitals",
+            "neighborhood": "Polk Gulch / Nob Hill (Old First Church)",
+            "url": "https://www.oldfirstconcerts.org/"
           }
         ]
       },
       "everydayLife": {
         "markets": [
-          "Ferry Plaza Farmers Market (Sat 8am-2pm; Tue and Thu 10am-2pm)",
-          "Alemany Farmers' Market, Bernal Heights (Sat 7am-2pm)",
-          "Heart of the City Farmers Market, UN Plaza (Wed and Sun 7am-4pm)",
-          "Clement Street Farmers Market, Inner Richmond (Sun 9am-2pm)",
+          "Ferry Plaza Farmers Market, Embarcadero (Sat 8am-2pm; Tue and Thu 10am-2pm; year round)",
+          "Alemany Farmers' Market, Bernal Heights (Sat 7am-2pm, year round; the cheaper, city-run market)",
+          "Mission Community Market, Bartlett St at 22nd (Thu 3-7pm, March to November)",
+          "Heart of the City Farmers Market, Fulton Plaza by Civic Center (Wed and Sun, from 7am; moved from UN Plaza in 2023)",
+          "Clement Street Farmers Market, Inner Richmond (Sun 9am-2pm, year round)",
+          "Fort Mason Center Farmers' Market, Marina (Sun 9:30am-1:30pm)",
+          "Outer Sunset Farmers Market, 37th Ave between Ortega and Quintara (Sun 9am-2pm, with live music)",
           "Rainbow Grocery for bulk staples"
         ],
         "walks": [
@@ -5769,37 +5865,65 @@
           },
           {
             "name": "Golden Gate Park to Ocean Beach",
-            "notes": "About 5 km of gardens, lakes and the bison paddock, ending at the sea."
+            "notes": "About 5 km of gardens, lakes and the bison paddock, ending at the sea; JFK Promenade through the park is car-free."
+          },
+          {
+            "name": "Sunset Dunes",
+            "notes": "Two miles of the old Upper Great Highway along Ocean Beach, car-free since April 2025 (a November 2026 ballot measure, Prop G, would reopen it to cars on weekdays)."
+          },
+          {
+            "name": "16th Avenue Tiled Steps to Grandview Park",
+            "notes": "A 163-step stairway covered in a neighbourhood-made sea-to-stars mosaic, climbing to a sandy hilltop with views of the whole west side."
           },
           {
             "name": "Bernal Heights Park",
             "notes": "A short climb from the Mission studios to a grassy hilltop with views all round."
           },
           {
+            "name": "Glen Canyon Park",
+            "notes": "A wild, rocky creek canyon in the middle of the city, five minutes from Glen Park BART."
+          },
+          {
             "name": "Crissy Field and the Golden Gate Bridge",
             "notes": "Flat bayside path to the bridge; on a clear day, walk across to Marin."
           }
         ],
-        "gettingAround": "Muni buses and light rail cover the whole city; BART runs under Mission Street to Oakland, Berkeley, the airport and the Peninsula, and Caltrain goes south to Palo Alto and San Jose. One Clipper card (or a phone wallet) pays for all of them. Biking is easy on the flat east side (the Wiggle, the Embarcadero) and hard on the hills; Bay Wheels e-bikes help. Many people live without a car.",
+        "gettingAround": "Muni covers the whole city with buses, Muni Metro light rail (the N Judah runs out to Ocean Beach, the T Third to Dogpatch and the Bayview), historic F-line streetcars and cable cars. An adult ride is $2.85 with Clipper or a tapped bank card ($3 cash) and lasts 120 minutes; a Muni monthly pass is $86, or $104 with BART trips inside the city. BART runs under Market and Mission Streets to Oakland, Berkeley, the airport and the Peninsula; Caltrain leaves 4th and King for Palo Alto and San Jose; ferries from the Ferry Building cross to Oakland, Alameda, Sausalito and Larkspur. One Clipper card, plastic or in your phone wallet, pays on all of them. The hills are real: biking is easy on the flat east side and along the Wiggle, the Embarcadero and car-free JFK Promenade, and hard almost everywhere else, though Bay Wheels e-bikes help. Many people live without a car; parking is scarce and expensive.",
         "neighborhoods": [
           {
             "name": "Mission / Bernal Heights",
-            "why": "The heart of the clay scene: The Pottery Studio, RedBrick, Artillery, SMAart, Heath's factory and Speckle are all here, with taquerias and Rainbow Grocery nearby. Sunniest part of the city, lively, and among the pricier rents."
+            "why": "The heart of the clay scene: The Pottery Studio, RedBrick, Artillery, SMAart, Heath's factory and Speckle (on Cortland in Bernal) are all here, with taquerias, Rainbow Grocery and two BART stations. The sunny, warm side of the city; lively and loud, with rents at or above the city average."
           },
           {
-            "name": "Outer Sunset / Outer Richmond",
-            "why": "Foggy, calm and somewhat cheaper, near Ocean Beach and Golden Gate Park; Studio Ceramica and Brick and Mortar Studios are here, and Irving and Clement streets are full of good cheap food."
+            "name": "Potrero Hill / SoMa",
+            "why": "Clayroom's two studios, the Douglas & Sturgess clay counter on Bryant Street, SOMArts and the SF Center for the Book. Sunny and windy; Potrero is quiet and hilly with views, SoMa is newer apartment blocks near Caltrain. Pricey."
           },
           {
-            "name": "Bayview / Dogpatch",
-            "why": "Industrial and changing: sfclayworks, SCRAP, the Hunters Point Shipyard studios and the Museum of Craft and Design. More space for the money, fewer shops, and a light-rail line rather than BART."
+            "name": "Dogpatch / Bayview",
+            "why": "Industrial and changing: sfclayworks, SCRAP, Building REsources, Public Glass, the Hunters Point Shipyard studios and the Museum of Craft and Design. Sunny, more space for the money and some of the lower rents in the city, but fewer shops and the T Third light rail rather than BART."
           },
           {
-            "name": "Excelsior / Glen Park",
-            "why": "Family neighbourhoods on the southern edge, with some of the city's lower rents and BART at Balboa Park and Glen Park (home of Bird & Beckett's jazz nights)."
+            "name": "Castro / Duboce Triangle / Haight",
+            "why": "Bisk on Noe Street, Ruby's Clay Studio, Stone Gold Pottery on Waller, Uncle Paul's on Haight and the Randall Museum's ceramics studio, plus Mendel's art supplies. Central, on several Muni Metro lines, Victorian flats; partly in the fog's path and pricey."
+          },
+          {
+            "name": "Inner / Outer Richmond",
+            "why": "Foggy, calm and family-run: Studio Ceramica and Brick and Mortar Studios, the Clement Street market, Arsicault and Burma Superstar, with Golden Gate Park and Lands End on either side. Buses only (the 38R Geary); rents usually a little below the city average."
+          },
+          {
+            "name": "Inner / Outer Sunset",
+            "why": "The fog belt: grey summer days, quiet streets of stucco houses, Ocean Beach, Sunset Dunes and the Sunday Outer Sunset market. The N Judah runs downtown; often slightly cheaper and more space, but you'll want a warm layer all year."
+          },
+          {
+            "name": "Excelsior / Glen Park / Outer Mission",
+            "why": "Family neighbourhoods on the southern edge, sunnier than the west side, with some of the city's lower rents, BART at Glen Park and Balboa Park, City College's main campus, Glen Canyon and Bird & Beckett's jazz nights."
+          },
+          {
+            "name": "North Beach / Chinatown",
+            "why": "Dense, old and walkable: Uncle Paul's second studio, Good Mong Kok, cafés and Bimbo's, with older flats over shops. Mostly sunny, busy with visitors, and buses rather than rail."
           }
         ],
-        "notes": "Expect roughly $4,000 a month for a one-bedroom (Zumper, mid-2026); many artists share flats. Studio memberships run about $190-300 a month, and most have wait-lists."
+        "notes": "Expect roughly $4,000 a month for a one-bedroom (Zumper, mid-2026); the west side and the southern neighbourhoods are sometimes a little cheaper, but not dramatically, and many artists share flats. Studio memberships run about $190-300 a month, and most have wait-lists."
       },
       "forWinnie": "San Francisco is home base, and it has the most clay in the smallest space: the Mission alone holds The Pottery Studio, RedBrick, Artillery, SMAart and Heath's factory, Clayroom is on 9th Street in SoMa, and Douglas & Sturgess sells clay and glaze materials a short ride away. Most of what you'll need, classes, open studios, teaching, materials and shows, is reachable by Muni or bike. The summer fog is real (July afternoons around 18 °C on the west side, warmer in the Mission), so a wool layer is a year-round habit. The hard part is cost; choosing a neighbourhood close to the studio you join makes the city much easier to live in."
     },
@@ -48264,6 +48388,487 @@
         "notes": "Marin is among California's most expensive counties; San Rafael is its most practical place to rent. Studio space is easier to find in San Rafael and Novato than in the southern towns."
       },
       "forWinnie": "San Rafael is the practical centre of Marin: Amphora, the Ceramic Art Center of Marin in neighbouring San Anselmo and Marin Pottery are all within twenty minutes, Dharma Trading sells natural dyes and mordants by the kilo, and the Sunday farmers market is one of the best in the Bay. Summer afternoons reach about 27 °C, but winters are wetter and colder than the city's. Rents are high and you'll want a car, though SMART trains and the Larkspur ferry link you to San Francisco."
+    },
+    "Fairfax, California, USA": {
+      "location": "Fairfax, California, USA",
+      "city": "Fairfax",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.9873,
+        "lng": -122.588
+      },
+      "timezone": "America/Los_Angeles",
+      "utcOffset": -8,
+      "opportunities": [
+        "Ceramic Art Center of Marin (CACM)",
+        "CACM Artist-in-Residence 2027",
+        "Amphora Ceramic Studio",
+        "Marin Open Studios"
+      ],
+      "opportunityTypes": [
+        "studio",
+        "residency",
+        "community"
+      ],
+      "climate": [
+        {
+          "month": "January",
+          "tempHigh": 13.7,
+          "tempLow": 5.5,
+          "rainfall": 222.8,
+          "daylightHours": 9.8,
+          "humidity": 78
+        },
+        {
+          "month": "February",
+          "tempHigh": 16.2,
+          "tempLow": 6.2,
+          "rainfall": 221.5,
+          "daylightHours": 10.8,
+          "humidity": 75
+        },
+        {
+          "month": "March",
+          "tempHigh": 18.4,
+          "tempLow": 6.9,
+          "rainfall": 152.4,
+          "daylightHours": 11.9,
+          "humidity": 74
+        },
+        {
+          "month": "April",
+          "tempHigh": 20.4,
+          "tempLow": 7.9,
+          "rainfall": 66.3,
+          "daylightHours": 13.1,
+          "humidity": 71
+        },
+        {
+          "month": "May",
+          "tempHigh": 23.1,
+          "tempLow": 9.7,
+          "rainfall": 35.6,
+          "daylightHours": 14.2,
+          "humidity": 72
+        },
+        {
+          "month": "June",
+          "tempHigh": 26.4,
+          "tempLow": 11.1,
+          "rainfall": 9.1,
+          "daylightHours": 14.8,
+          "humidity": 73
+        },
+        {
+          "month": "July",
+          "tempHigh": 28.1,
+          "tempLow": 11.8,
+          "rainfall": 0.0,
+          "daylightHours": 14.6,
+          "humidity": 76
+        },
+        {
+          "month": "August",
+          "tempHigh": 28.3,
+          "tempLow": 12.0,
+          "rainfall": 1.3,
+          "daylightHours": 13.7,
+          "humidity": 77
+        },
+        {
+          "month": "September",
+          "tempHigh": 27.8,
+          "tempLow": 11.5,
+          "rainfall": 2.3,
+          "daylightHours": 12.5,
+          "humidity": 74
+        },
+        {
+          "month": "October",
+          "tempHigh": 24.3,
+          "tempLow": 10.0,
+          "rainfall": 50.3,
+          "daylightHours": 11.3,
+          "humidity": 69
+        },
+        {
+          "month": "November",
+          "tempHigh": 17.6,
+          "tempLow": 7.4,
+          "rainfall": 117.6,
+          "daylightHours": 10.2,
+          "humidity": 72
+        },
+        {
+          "month": "December",
+          "tempHigh": 13.6,
+          "tempLow": 5.4,
+          "rainfall": 248.4,
+          "daylightHours": 9.6,
+          "humidity": 74
+        }
+      ],
+      "seasons": {
+        "winter": {
+          "summary": "Cool and very wet: highs about 14 °C, lows near 5.5 °C, and 220-250 mm of rain a month from December to February (about 1,130 mm a year at Kentfield, nearly double San Francisco). Light frost on clear nights; creeks run high after big storms.",
+          "comfort": "cool"
+        },
+        "spring": {
+          "summary": "Green hills, waterfalls in the canyons and highs of 18-23 °C; the rain tapers off in April and May.",
+          "comfort": "comfortable"
+        },
+        "summer": {
+          "summary": "Hot, dry and usually fog-free: highs 26-28 °C with nights around 12 °C. Good drying weather for greenware and outdoor work.",
+          "comfort": "warm"
+        },
+        "autumn": {
+          "summary": "September is still about 28 °C and October 24 °C. The hills are dry and fire danger is high until the first real rains, usually in late October or November.",
+          "comfort": "comfortable"
+        }
+      },
+      "localColor": {
+        "blooms": [
+          {
+            "month": "March",
+            "name": "Watershed wildflowers",
+            "notes": "From February to mid-April, milkmaids, hound's tongue, buttercups and paintbrush line the Lake Lagunitas and Yolanda trails on the north side of Mount Tamalpais, 10 minutes from town."
+          },
+          {
+            "month": "April",
+            "name": "Lupine on Mount Tamalpais",
+            "notes": "Purple bush lupine, poppies and Douglas iris cover the open hillsides of Mount Tamalpais State Park; state park interpreters lead wildflower walks in spring."
+          }
+        ],
+        "festivals": [
+          {
+            "month": "May",
+            "name": "Marin Open Studios",
+            "notes": "Two May weekends (May 2-3 and 9-10 in 2026) when Marin artists, potters included, open their studios and sell directly."
+          },
+          {
+            "month": "May",
+            "name": "Mountain Play",
+            "notes": "A Broadway musical staged each spring in the stone Cushing Memorial Amphitheatre near the top of Mount Tamalpais (The Wizard of Oz in 2026)."
+          },
+          {
+            "month": "June",
+            "name": "Fairfax Festival & Ecofest",
+            "notes": "The town's big free weekend: a parade down Bolinas Road, two days of music, crafts and an eco-living pavilion downtown (the 47th edition was June 12-14, 2026)."
+          },
+          {
+            "month": "May-October",
+            "name": "Fairfax Farmers Market",
+            "notes": "Wednesday evenings 4-8pm in Bolinas Park, from May to late October, with live music."
+          },
+          {
+            "month": "October",
+            "name": "Halloween Parade and Haunted Grove",
+            "notes": "Costume parade and a decorated grove by the Fairfax movie theatre on October 31, run by the Chamber of Commerce; a community Día de los Muertos ofrenda is held at the Pavilion the evening before."
+          }
+        ],
+        "naturalPhenomena": [
+          {
+            "season": "winter",
+            "name": "Coho salmon run",
+            "notes": "Endangered coho spawn in Lagunitas Creek from November to February, peaking in December and January; the Leo T. Cronin viewing area is about 13 km west on Sir Francis Drake Blvd."
+          },
+          {
+            "season": "winter",
+            "name": "Cascade Falls",
+            "notes": "After a run of storms, the waterfall in Cascade Canyon, at the western edge of town, is an easy walk from Cascade Drive."
+          },
+          {
+            "season": "summer",
+            "name": "Sun on this side of the fog",
+            "notes": "Fairfax is usually clear and hot when San Francisco and the coast sit in fog."
+          }
+        ]
+      },
+      "ceramicsEcosystem": {
+        "studios": [
+          {
+            "name": "Ceramic Art Center of Marin (CACM)",
+            "url": "https://www.cacm.studio",
+            "notes": "San Anselmo studio and gallery (3 km) for intermediate-to-professional ceramic artists, built around mentor-led Ateliers, a cone 10 gas kiln and a Clay Talks series."
+          },
+          {
+            "name": "CACM Artist-in-Residence 2027",
+            "url": "https://www.cacm.studio/residency",
+            "notes": "Two-month ceramics residency at CACM for a specific project, ending in a gallery show; apply by January 30, 2027."
+          },
+          {
+            "name": "Amphora Ceramic Studio",
+            "url": "https://www.amphoraceramicstudio.org",
+            "notes": "San Rafael teaching studio (15 min) with 5-6 week courses, memberships and a firing service; it won't fire wild clay or homemade glazes."
+          },
+          {
+            "name": "Terra Linda Ceramic Artists",
+            "url": "https://www.terralindaceramicartists.com",
+            "notes": "Community studio in north San Rafael with classes and specialty firings (2026 schedule not confirmed)."
+          },
+          {
+            "name": "Art Works Downtown",
+            "url": "https://www.artworksdowntown.org",
+            "notes": "Building of artist studios and galleries in downtown San Rafael, with a studio residency and a monthly art walk."
+          },
+          {
+            "name": "Marin Pottery",
+            "url": "https://www.marinpottery.org/",
+            "notes": "Community pottery studio in Novato (25 min) with memberships, classes and drop-in sessions."
+          },
+          {
+            "name": "Mill Valley Potter's Studio",
+            "url": "https://www.millvalleypotterystudio.com/",
+            "notes": "Mill Valley studio with weekday wheel and hand-building classes and memberships (2026 schedule not confirmed)."
+          }
+        ],
+        "suppliers": [
+          {
+            "name": "Dharma Trading Co.",
+            "url": "https://www.dharmatrading.com",
+            "notes": "Textiles: San Rafael dye supplier for natural dyes, extracts and mordants, and undyed cotton, silk and wool."
+          },
+          {
+            "name": "Atelier Yarns (San Rafael)",
+            "url": "https://atelieryarns.com",
+            "notes": "Textiles: yarn, weaving tools and classes in downtown San Rafael."
+          }
+        ],
+        "galleries": [
+          {
+            "name": "MarinMOCA",
+            "url": "https://www.marinmoca.org",
+            "notes": "Marin's contemporary art museum, with exhibitions, classes and free family art days."
+          },
+          {
+            "name": "Bolinas Museum",
+            "url": "https://bolinasmuseum.org",
+            "notes": "Small free museum of coastal Marin art and history, over the ridge via the Bolinas-Fairfax Road."
+          },
+          {
+            "name": "Museum of the American Indian (Miwok Park)",
+            "url": "https://www.marinindian.com",
+            "notes": "Living cultural centre on Coast Miwok land in Novato's Miwok Park, with skills classes and talks."
+          },
+          {
+            "name": "Heath Ceramics Sausalito Factory & Showroom",
+            "url": "https://www.heathceramics.com/pages/locations/sausalito",
+            "notes": "Heath's original 1959 dinnerware factory, showroom and seconds, about 25 minutes south."
+          }
+        ],
+        "community": "CACM in San Anselmo is the natural home base from Fairfax: a cone 10 gas kiln, mentor-led Ateliers, Clay Talks and a 2027 residency, a few minutes' drive or bike ride away. Amphora and Art Works Downtown are 15 minutes away in San Rafael; Marin Open Studios in May and the Mill Valley Fall Arts Festival in September are the main places to show and sell. There's no clay supplier within 15 km: the nearest counters are Douglas & Sturgess in Richmond (about 30 minutes) and Creative Ceramics and Glass in Santa Rosa (about 50 minutes). For fibre, Dharma Trading and Atelier Yarns are in San Rafael."
+      },
+      "probabilityOfChili": {
+        "score": 30,
+        "rating": "Low",
+        "nearest": "Mas Masa (blue-corn tortillas, recado rojo tacos)",
+        "notes": "Not a chili town. Mas Masa nixtamalizes its own organic blue corn for tortillas and tacos, and its recado rojo tacos are the warm, spicy option in town."
+      },
+      "creepyCrawlies": {
+        "mosquitoes": "low to moderate",
+        "spiders": "moderate",
+        "snakes": "moderate (rattlesnakes on dry, open trails)",
+        "other": "Ticks (Lyme disease is present) and poison oak on almost every trail; check yourself after walks."
+      },
+      "practicalNotes": "Fairfax is the last town in the Ross Valley before West Marin: a small, independent-minded downtown, trails from the edge of town and the Ceramic Art Center of Marin 3 km away in San Anselmo. Rentals are few and expensive (mid-2026 estimates for a one-bedroom ran from about $2,100 to $2,800 a month), winters are the wettest in this part of the Bay, and you'll want a car: Marin Transit buses run to San Rafael and Larkspur, but there's no train.",
+      "indigenousTraditions": {
+        "peoples": [
+          "Coast Miwok",
+          "Federated Indians of Graton Rancheria (Coast Miwok and Southern Pomo)"
+        ],
+        "ceramicsHeritage": "San Rafael grew around Mission San Rafael Arcángel (1817), where many Coast Miwok people were forced into mission life and labour. Coast Miwok craft centred on baskets, clamshell-bead money and tule boats; there was no pottery tradition.",
+        "respectfulEngagement": "The Federated Indians of Graton Rancheria (gratonrancheria.com) is the federally recognised tribe of Coast Miwok and Southern Pomo people. Visit the Museum of the American Indian in Novato's Miwok Park and Kule Loklo, the reconstructed Coast Miwok village at Point Reyes."
+      },
+      "probabilityOfCoffee": {
+        "score": 70,
+        "rating": "Good",
+        "roasters": [
+          "The Coffee Roastery (Fairfax)",
+          "Equator Coffees (Marin-born roaster)"
+        ],
+        "notes": "The Coffee Roastery on Bolinas Road serves freshly roasted beans and is the town's good-for-working café; Equator, founded in Marin, supplies cafés across the county."
+      },
+      "localDessert": {
+        "signature": "Organic, seasonal ice cream in a handmade waffle cone",
+        "nearest": "Fairfax Scoop (63 Broadway)",
+        "notes": "Fairfax Scoop's honey lavender vanilla and Mexican chocolate are the local favourites; summer stone fruit from the Wednesday market is the other dessert."
+      },
+      "beachAccess": {
+        "distance": "35-50 min",
+        "type": "Pacific Ocean",
+        "beaches": [
+          "Stinson Beach",
+          "Point Reyes beaches (Drakes, Limantour)",
+          "Muir Beach"
+        ],
+        "swimmable": "The Pacific is cold (about 12-14 °C); swimming isn't allowed in the Mount Tamalpais reservoirs.",
+        "notes": "The Bolinas-Fairfax Road climbs over the ridge to Stinson and Bolinas; Point Reyes is about 40 minutes west on Sir Francis Drake."
+      },
+      "practicalInfo": {
+        "language": "English (Spanish widely spoken)",
+        "visaInfo": "Rwandan citizens need a US visa: a B-1/B-2 visitor visa for visits, applied for at the US Embassy in Kigali. ESTA and 90-day visa-free entry are only for citizens of Visa Waiver Program countries, and Rwanda is not one. Working or teaching for pay needs a separate status with work authorization (for example an O-1 artist visa or an employer-sponsored visa). US visa rules changed often in 2025-26, so check travel.state.gov and the embassy before applying.",
+        "healthcareAccess": "Private, insurance-based system: an uninsured visit to a doctor or emergency room is very expensive. Visitors need travel medical insurance; residents usually get cover through an employer or Covered California. Community health clinics offer sliding-scale care.",
+        "internetQuality": "Excellent",
+        "notes": "Fairfax is the last town in the Ross Valley before West Marin: a small, independent-minded downtown, trails from the edge of town and the Ceramic Art Center of Marin 3 km away in San Anselmo. Rentals are few and expensive (mid-2026 estimates for a one-bedroom ran from about $2,100 to $2,800 a month), winters are the wettest in this part of the Bay, and you'll want a car: Marin Transit buses run to San Rafael and Larkspur, but there's no train."
+      },
+      "foodScene": {
+        "score": 65,
+        "rating": "Good",
+        "notes": "A small town with a lot of independent cooking packed into a few blocks of Bolinas Road and Broadway: a Michelin-listed izakaya, blue-corn tacos, organic everything, and the Wednesday evening market in summer. For a bigger weekly shop, the Sunday market at the Marin Civic Center is 15 minutes away.",
+        "favorites": [
+          {
+            "name": "Fairfax Farmers Market",
+            "what": "Wednesday evenings 4-8pm, May to late October, with live music",
+            "neighborhood": "Bolinas Park",
+            "url": "https://townoffairfaxca.gov/events"
+          },
+          {
+            "name": "Sunday Marin Farmers Market",
+            "what": "One of the Bay's biggest year-round markets, Sundays 8am-1pm",
+            "neighborhood": "Marin Civic Center, San Rafael (15 min)",
+            "url": "https://www.agriculturalinstitute.org/sunday-marin"
+          },
+          {
+            "name": "Good Earth Natural Foods",
+            "what": "Organic and natural foods grocer with local produce and weekly specials",
+            "neighborhood": "Sir Francis Drake Blvd",
+            "url": "https://www.genatural.com/"
+          },
+          {
+            "name": "Barefoot Cafe",
+            "what": "All-day café with local, organic cooking: pear almond pancakes, cioppino at dinner",
+            "neighborhood": "Downtown (Sir Francis Drake Blvd)",
+            "url": "https://www.barefootcafe.com/"
+          },
+          {
+            "name": "Mas Masa",
+            "what": "Tacos and quesadillas on house-made blue-corn tortillas, with a shaded patio",
+            "neighborhood": "Bolinas Road",
+            "url": "https://marinmagazine.com/food-drink/where-to-eat/where-to-eat-fairfax/"
+          },
+          {
+            "name": "Cafe Lotus",
+            "what": "Home-style North Indian cooking with organic ingredients; easy takeaway",
+            "neighborhood": "Sir Francis Drake Blvd",
+            "url": "https://marinmagazine.com/food-drink/where-to-eat/where-to-eat-fairfax/"
+          },
+          {
+            "name": "Fradelizio's",
+            "what": "The town's Northern Italian standby for more than 25 years",
+            "neighborhood": "Broadway",
+            "url": "https://www.fradelizios.com/"
+          },
+          {
+            "name": "Village Sake",
+            "what": "Michelin-listed izakaya: skewers, sushi and sake; the waitlist opens at 5pm",
+            "neighborhood": "Bolinas Road",
+            "url": "https://www.villagesake.com/"
+          },
+          {
+            "name": "Fairfax Scoop",
+            "what": "Organic, seasonal ice cream and handmade waffle cones",
+            "neighborhood": "Broadway",
+            "url": "https://marinmagazine.com/food-drink/where-to-eat/where-to-eat-fairfax/"
+          }
+        ]
+      },
+      "liveMusic": {
+        "score": 65,
+        "rating": "Good",
+        "notes": "A town with a long bar-band tradition: live music most nights at Peri's and Mac's, free music at the summer festival and farmers market, and Mill Valley's excellent small halls 20 minutes away.",
+        "venues": [
+          {
+            "name": "Peri's Tavern",
+            "kind": "bar with live bands",
+            "neighborhood": "Downtown (Broadway)",
+            "url": "https://peristavern.com/"
+          },
+          {
+            "name": "Mac's at 19 Broadway",
+            "kind": "jazz, blues and cocktail lounge",
+            "neighborhood": "Downtown (Broadway)",
+            "url": "https://macsat19broadway.com/"
+          },
+          {
+            "name": "Fairfax Festival & Ecofest",
+            "kind": "free outdoor festival (June)",
+            "neighborhood": "Downtown",
+            "url": "https://townoffairfaxca.gov/fairfax-festival"
+          },
+          {
+            "name": "Fairfax Farmers Market",
+            "kind": "free music at the Wednesday market (May-October)",
+            "neighborhood": "Bolinas Park",
+            "url": "https://townoffairfaxca.gov/events"
+          },
+          {
+            "name": "Sweetwater Music Hall",
+            "kind": "small hall",
+            "neighborhood": "Mill Valley (20 min)",
+            "url": "https://sweetwatermusichall.org/"
+          },
+          {
+            "name": "142 Throckmorton Theatre",
+            "kind": "small theatre, with noon concerts",
+            "neighborhood": "Mill Valley (20 min)",
+            "url": "https://www.throckmortontheatre.org/"
+          },
+          {
+            "name": "Marin Symphony",
+            "kind": "symphony",
+            "neighborhood": "Marin Center, San Rafael (15 min)",
+            "url": "https://marinsymphony.org/"
+          }
+        ]
+      },
+      "everydayLife": {
+        "markets": [
+          "Fairfax Farmers Market, Bolinas Park (Wed 4-8pm, May to late October)",
+          "Sunday Marin Farmers Market, Civic Center (Sun 8am-1pm, year round; 15 min)",
+          "Thursday Marin Farmers Market, Civic Center (Thu 8am-1pm; 15 min)",
+          "Good Earth Natural Foods for organic groceries and bulk staples"
+        ],
+        "walks": [
+          {
+            "name": "Cascade Canyon and Cascade Falls",
+            "notes": "Oak-and-bay canyon on the west edge of town with a waterfall that runs after winter rain."
+          },
+          {
+            "name": "Deer Park to Bald Hill",
+            "notes": "A steady climb from the Deer Park trailhead to grassy Bald Hill and its views over the Ross Valley."
+          },
+          {
+            "name": "Lake Lagunitas and Bon Tempe Lake",
+            "notes": "Flat loops round the Mount Tamalpais reservoirs from the Sky Oaks entrance, through redwoods and spring wildflowers."
+          },
+          {
+            "name": "Marin Museum of Bicycling",
+            "notes": "Fairfax calls itself the birthplace of mountain biking; the Marin Museum of Bicycling and Mountain Bike Hall of Fame is downtown, and trails start at the edge of town."
+          }
+        ],
+        "gettingAround": "Marin Transit buses run from Fairfax Manor through San Anselmo to San Rafael (Route 23) and to Larkspur Landing and College of Marin (Route 228), and the West Marin Stagecoach (Route 68) heads out to Point Reyes. From San Rafael, SMART trains run north to Petaluma and Santa Rosa, and the Larkspur ferry crosses to San Francisco in about 30 minutes. Clipper works on the buses and ferry. Downtown is walkable and the valley is good for bikes, but most errands, studio runs with clay and evenings out assume a car.",
+        "neighborhoods": [
+          {
+            "name": "Downtown Fairfax",
+            "why": "The walkable centre round Bolinas Road and Broadway: Good Earth, cafés, Peri's and Mac's, and the Wednesday market in Bolinas Park. A few small apartments above shops; lively at night for a small town."
+          },
+          {
+            "name": "The valley floor along Sir Francis Drake",
+            "why": "Flatter streets of small houses and a few apartment buildings along the main road, where the Route 23 and 228 buses end at Fairfax Manor; the easiest part of town for carrying clay and getting to CACM in San Anselmo."
+          },
+          {
+            "name": "Cascade Canyon and the hills",
+            "why": "Wooded canyons and steep lanes with houses tucked into the trees and trailheads on the doorstep; beautiful, but higher fire risk, few rentals and narrow roads out."
+          },
+          {
+            "name": "San Anselmo (next door)",
+            "why": "A slightly larger, quieter downtown 3 km east, with CACM, the Marin Art & Garden Center close by in Ross and more bus connections; similar prices."
+          }
+        ],
+        "notes": "Fairfax is small (about 7,600 people at the 2020 census) and rentals come up rarely; most are cottages, in-law units and small apartment buildings. Expect Marin prices without Marin's bigger supply. Studio space is easier to find in San Rafael and Novato."
+      },
+      "forWinnie": "Fairfax could be a lovely place to live or work if you want CACM close by: the studio is a few minutes away in San Anselmo, with its cone 10 gas kiln, Ateliers and 2027 residency, and Amphora and Art Works Downtown are 15 minutes away in San Rafael. Summers are hot and dry, good for drying pots and walking the Mount Tamalpais trails, but winters bring more rain than almost anywhere else in the Bay, about 1,130 mm a year. Rentals are scarce and expensive, and while the buses reach San Rafael and the ferry, carrying clay and getting to markets and suppliers really calls for a car. It's worth a few visits before you choose, perhaps on a Wednesday market evening in summer and again on a wet January day."
     },
     "Palo Alto, California, USA": {
       "location": "Palo Alto, California, USA",

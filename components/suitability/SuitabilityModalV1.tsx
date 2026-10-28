@@ -17,6 +17,7 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
   const [ccMode, setCcMode] = useState(false);
   const life = locationData as unknown as PlaceLifeData;
   const fashion = (locationData as { cc?: { fashionEcosystem?: { clothingMfg?: string; fabricSourcing?: string; vintageThrift?: string; danceTheatre?: string; places?: { name: string; kind?: string; what?: string; neighborhood?: string; notes?: string; url?: string }[] } } } | undefined)?.cc?.fashionEcosystem;
+  const trim = (locationData as { cc?: { trimWorkOpportunities?: { available?: boolean; season?: string; notes?: string } } } | undefined)?.cc?.trimWorkOpportunities;
   const weed = (locationData as { cc?: { probabilityOfWeed?: { score?: number; status?: string; notes?: string } } } | undefined)?.cc?.probabilityOfWeed;
   const [hoveredChili, setHoveredChili] = useState(false);
   const [hoveredMonth, setHoveredMonth] = useState<number | null>(null);
@@ -1084,55 +1085,45 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
                   </div>
                 </div>
 
-                {/* CC Mode */}
+                {/* CC Mode: everything here comes from data/suitability/ccMode.json for this place */}
                 {ccMode && (
                   <div style={{ marginBottom: '2rem', padding: '1.5rem', backgroundColor: '#e0f2f1', border: '1px solid #80cbc4' }}>
                     <h3 style={{ fontSize: '0.6875rem', color: '#00695c', letterSpacing: '0.1em', margin: '0 0 1rem' }}>CC MODE &mdash; FOR CECE&apos;S VISIT</h3>
 
-                    {/* Row 1: Cannabis Friendliness & Fabric */}
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', marginBottom: '1.25rem' }}>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem', marginBottom: '1.25rem' }}>
                       <div>
                         <p style={{ fontSize: '0.5625rem', color: '#00695c', margin: '0 0 0.375rem', letterSpacing: '0.05em' }}>CANNABIS FRIENDLINESS</p>
                         <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.5rem' }}>
-                          <span style={{ fontFamily: 'Georgia, serif', fontSize: '1.5rem', color: '#292524' }}>D</span>
-                          <span style={{ fontSize: '0.75rem', color: '#78716c' }}>Strict laws</span>
+                          <span style={{ fontFamily: 'Georgia, serif', fontSize: '1.5rem', color: '#292524' }}>{weedGrade(weed?.score)}</span>
+                          <span style={{ fontSize: '0.75rem', color: '#78716c' }}>{weed?.status || 'Not researched yet'}</span>
                         </div>
                       </div>
-                      <div>
-                        <p style={{ fontSize: '0.5625rem', color: '#00695c', margin: '0 0 0.375rem', letterSpacing: '0.05em' }}>FABRIC & FASHION</p>
-                        <p style={{ fontSize: '0.8125rem', color: '#44403c', margin: 0 }}>Traditional indigo dyeing</p>
-                        <p style={{ fontSize: '0.6875rem', color: '#78716c', margin: '0.25rem 0 0' }}>Vintage kimono district &rarr;</p>
-                      </div>
+                      {(fashion?.fabricSourcing || fashion?.vintageThrift) && (
+                        <div>
+                          <p style={{ fontSize: '0.5625rem', color: '#00695c', margin: '0 0 0.375rem', letterSpacing: '0.05em' }}>FABRIC & FASHION</p>
+                          {fashion?.fabricSourcing && <p style={{ fontSize: '0.8125rem', color: '#44403c', margin: 0, lineHeight: 1.5 }}>{fashion.fabricSourcing}</p>}
+                          {fashion?.vintageThrift && <p style={{ fontSize: '0.75rem', color: '#78716c', margin: '0.375rem 0 0', lineHeight: 1.5 }}>{fashion.vintageThrift}</p>}
+                        </div>
+                      )}
                     </div>
 
-                    {/* Row 2: Market Intel */}
-                    <div style={{ borderTop: '1px solid #80cbc4', paddingTop: '1rem', marginBottom: '1rem' }}>
-                      <p style={{ fontSize: '0.5625rem', color: '#00695c', margin: '0 0 0.5rem', letterSpacing: '0.05em' }}>MARKET INTEL</p>
-                      <div style={{ padding: '0.75rem', backgroundColor: 'rgba(255,255,255,0.5)', fontSize: '0.75rem', color: '#78716c' }}>
-                        <p style={{ margin: '0 0 0.5rem' }}>Local vibes via <a href="https://reddit.com/r/japanlife" target="_blank" rel="noopener noreferrer" style={{ color: '#00695c', textDecoration: 'underline' }}>r/japanlife</a> &bull; <a href="https://reddit.com/r/trees" target="_blank" rel="noopener noreferrer" style={{ color: '#00695c', textDecoration: 'underline' }}>r/trees</a></p>
-                        <p style={{ margin: 0, fontStyle: 'italic' }}>&quot;Very strict &mdash; not worth the risk here. Save it for Amsterdam layover.&quot;</p>
+                    {weed?.notes && (
+                      <div style={{ borderTop: '1px solid #80cbc4', paddingTop: '1rem', marginBottom: '1rem' }}>
+                        <p style={{ fontSize: '0.5625rem', color: '#00695c', margin: '0 0 0.5rem', letterSpacing: '0.05em' }}>THE LOCAL RULES</p>
+                        <p style={{ margin: 0, padding: '0.75rem', backgroundColor: 'rgba(255,255,255,0.5)', fontSize: '0.75rem', color: '#57534e', lineHeight: 1.6 }}>{weed.notes}</p>
                       </div>
-                    </div>
+                    )}
 
-                    {/* Row 3: Seasonal Opportunities */}
                     <div style={{ borderTop: '1px solid #80cbc4', paddingTop: '1rem' }}>
-                      <p style={{ fontSize: '0.5625rem', color: '#00695c', margin: '0 0 0.5rem', letterSpacing: '0.05em' }}>SEASONAL OPPORTUNITIES</p>
-                      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.75rem' }}>
-                        <div style={{ padding: '0.75rem', backgroundColor: 'rgba(255,255,255,0.5)' }}>
-                          <p style={{ fontSize: '0.6875rem', color: '#44403c', margin: '0 0 0.25rem', fontWeight: 500 }}>Harvest Season</p>
-                          <p style={{ fontSize: '0.625rem', color: '#78716c', margin: 0 }}>Sep - Nov (outdoor)</p>
-                          <p style={{ fontSize: '0.625rem', color: '#78716c', margin: '0.125rem 0 0' }}>Year-round (indoor ops)</p>
-                        </div>
-                        <div style={{ padding: '0.75rem', backgroundColor: 'rgba(255,255,255,0.5)' }}>
-                          <p style={{ fontSize: '0.6875rem', color: '#44403c', margin: '0 0 0.25rem', fontWeight: 500 }}>Trim Work</p>
-                          <p style={{ fontSize: '0.625rem', color: '#78716c', margin: 0 }}>N/A for this region</p>
-                          <p style={{ fontSize: '0.5625rem', color: '#00695c', margin: '0.25rem 0 0', fontStyle: 'italic' }}>Try: NorCal, Oregon, Colorado</p>
-                        </div>
-                      </div>
-                      <div style={{ marginTop: '0.75rem', padding: '0.5rem 0.75rem', backgroundColor: '#f0fdf4', border: '1px solid #bbf7d0', fontSize: '0.625rem' }}>
-                        <span style={{ color: '#166534', fontWeight: 500 }}>Peak trim season tip:</span>
-                        <span style={{ color: '#78716c' }}> $40-60/hr in legal states, Oct-Nov. Emerald Triangle hires thousands.</span>
-                      </div>
+                      <p style={{ fontSize: '0.5625rem', color: '#00695c', margin: '0 0 0.5rem', letterSpacing: '0.05em' }}>TRIM WORK</p>
+                      <p style={{ margin: 0, padding: '0.75rem', backgroundColor: 'rgba(255,255,255,0.5)', fontSize: '0.75rem', color: '#57534e', lineHeight: 1.6 }}>
+                        {trim?.notes || (trim?.available === false ? 'Not available here.' : 'Not researched for this place.')}
+                        {locationData?.country === 'USA' && (
+                          <span style={{ display: 'block', marginTop: '0.375rem', color: '#78716c', fontStyle: 'italic' }}>
+                            Paid work, including seasonal trimming, needs US work authorization, so it isn&apos;t an option on a visitor visa.
+                          </span>
+                        )}
+                      </p>
                     </div>
                   </div>
                 )}
