@@ -94,7 +94,7 @@ export default async function InspirationDetailPage({
               <nav className="mb-4">
                 <Link
                   href={`/inspirations?category=${category}`}
-                  className="text-body-sm text-white/80 hover:text-white"
+                  className="inline-block py-3 -my-3 text-body-sm text-white/80 hover:text-white"
                 >
                   &larr; Back to {categoryLabels[category] || category}s
                 </Link>
@@ -179,7 +179,7 @@ export default async function InspirationDetailPage({
                     href={item.sourceUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-body-sm text-glaze-600 hover:text-glaze-700"
+                    className="inline-block py-3 -my-3 text-body-sm text-glaze-600 hover:text-glaze-700"
                   >
                     Learn more at source &rarr;
                   </a>
@@ -202,7 +202,7 @@ export default async function InspirationDetailPage({
                   </div>
                   <Link
                     href="/inspirations/connections"
-                    className="inline-block mt-4 text-body-sm text-glaze-600 hover:text-glaze-700"
+                    className="inline-block py-3 -mb-3 mt-1 text-body-sm text-glaze-600 hover:text-glaze-700"
                   >
                     View connections graph &rarr;
                   </Link>

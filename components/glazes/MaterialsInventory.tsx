@@ -113,7 +113,7 @@ export function MaterialsInventory() {
     <div className="space-y-8">
       {/* Summary */}
       <div className="card p-6 bg-glaze-50 border border-glaze-200">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between gap-4">
           <div>
             <p className="text-body-sm text-glaze-600 mb-1">Materials in stock</p>
             <p className="text-display-sm text-glaze-700">
@@ -136,9 +136,9 @@ export function MaterialsInventory() {
             onChange={(e) => setNewMaterial(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && addMaterial()}
             placeholder="Material name..."
-            className="input flex-1"
+            className="input flex-1 min-w-0 text-base"
           />
-          <button onClick={addMaterial} className="btn-primary">
+          <button onClick={addMaterial} className="btn-primary shrink-0">
             Add
           </button>
         </div>
@@ -151,11 +151,11 @@ export function MaterialsInventory() {
           {materials.map((material) => (
             <div
               key={material.name}
-              className={`card p-4 flex items-center justify-between transition-colors ${
+              className={`card pl-4 pr-2 py-1 flex items-center justify-between transition-colors ${
                 material.inStock ? "bg-glaze-50 border-glaze-200" : ""
               }`}
             >
-              <label className="flex items-center gap-3 cursor-pointer flex-1">
+              <label className="flex items-center gap-3 cursor-pointer flex-1 min-h-12">
                 <input
                   type="checkbox"
                   checked={material.inStock}
@@ -172,8 +172,9 @@ export function MaterialsInventory() {
               </label>
               <button
                 onClick={() => removeMaterial(material.name)}
-                className="text-clay-400 hover:text-clay-600 p-1"
+                className="text-clay-400 hover:text-clay-600 w-11 h-11 shrink-0 flex items-center justify-center"
                 title="Remove material"
+                aria-label={`Remove ${material.name}`}
               >
                 <svg
                   className="w-4 h-4"

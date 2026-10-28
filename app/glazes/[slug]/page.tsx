@@ -230,7 +230,7 @@ export default async function GlazePage({
                     href={glaze.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block text-sm uppercase tracking-widest border-b border-charcoal pb-1 hover:opacity-60 transition-opacity"
+                    className="hit-area inline-block text-sm uppercase tracking-widest border-b border-charcoal pb-1 hover:opacity-60 transition-opacity"
                   >
                     View Source →
                   </a>
@@ -246,7 +246,7 @@ export default async function GlazePage({
         <div className="max-w-5xl mx-auto px-8">
           <Link
             href="/glazes"
-            className="text-sm text-warm-500 hover:text-charcoal transition-colors"
+            className="inline-block py-3 -my-3 text-sm text-warm-500 hover:text-charcoal transition-colors"
           >
             ← Back to Glazes
           </Link>

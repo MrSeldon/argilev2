@@ -250,3 +250,30 @@
     aspect-ratio: 16 / 9;
   }
 }
+
+/* Leaflet: bigger, touch-friendly controls and pins */
+.leaflet-container .leaflet-bar a,
+.leaflet-touch .leaflet-bar a,
+.leaflet-bar a {
+  width: 40px !important;
+  height: 40px !important;
+  line-height: 40px !important;
+}
+.leaflet-container {
+  font-family: inherit;
+  background: #f5f3ef;
+}
+.argile-pin {
+  background: transparent;
+  border: 0;
+}
+
+/* Extend a small link tap area (~48px tall) without changing its layout */
+.hit-area {
+  position: relative;
+}
+.hit-area::after {
+  content: "";
+  position: absolute;
+  inset: -0.75rem -0.5rem;
+}

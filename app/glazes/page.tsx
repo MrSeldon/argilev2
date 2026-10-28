@@ -95,7 +95,7 @@ export default async function GlazesPage({
             </p>
             <Link
               href="/glazes/my-materials"
-              className="text-sm uppercase tracking-widest text-warm-500 hover:text-charcoal transition-colors"
+              className="py-3 -my-3 shrink-0 whitespace-nowrap text-sm uppercase tracking-widest text-warm-500 hover:text-charcoal transition-colors"
             >
               My Materials →
             </Link>

@@ -67,10 +67,12 @@ export default async function OpportunitiesPage({
 
       {/* Filter Tabs */}
       <section className="py-12 border-b border-warm-100">
-        <div className="flex justify-center items-center gap-4 text-xs uppercase tracking-widest">
+        {/* One row; scrolls sideways on phones instead of overflowing the page */}
+        <div className="overflow-x-auto scrollbar-hide">
+        <div className="flex w-max mx-auto px-5 md:px-0 justify-center items-center gap-4 text-xs uppercase tracking-widest whitespace-nowrap">
           <Link
             href="/opportunities"
-            className={`transition-opacity hover:opacity-100 ${
+            className={`py-3 -my-3 px-2 md:px-0 transition-opacity hover:opacity-100 ${
               !params.type ? "opacity-100" : "opacity-40"
             }`}
           >
@@ -81,7 +83,7 @@ export default async function OpportunitiesPage({
               <span className="text-warm-200">|</span>
               <Link
                 href={`/opportunities?type=${type}`}
-                className={`transition-opacity hover:opacity-100 ${
+                className={`py-3 -my-3 px-2 md:px-0 transition-opacity hover:opacity-100 ${
                   params.type === type ? "opacity-100" : "opacity-40"
                 }`}
               >
@@ -92,10 +94,11 @@ export default async function OpportunitiesPage({
           <span className="text-warm-200">|</span>
           <Link
             href="/opportunities/map"
-            className="opacity-40 hover:opacity-100 transition-opacity"
+            className="py-3 -my-3 px-2 md:px-0 opacity-40 hover:opacity-100 transition-opacity"
           >
             Map
           </Link>
+        </div>
         </div>
       </section>
 

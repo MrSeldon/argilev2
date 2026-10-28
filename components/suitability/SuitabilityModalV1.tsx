@@ -400,6 +400,7 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
                                 fill="transparent"
                                 style={{ cursor: 'pointer' }}
                                 onMouseEnter={() => setHoveredMonth(i)}
+                                onClick={() => setHoveredMonth(i)}
                                 onMouseLeave={() => setHoveredMonth(null)}
                               />
 
@@ -721,6 +722,7 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
                     <div
                       style={{ padding: '1.25rem', backgroundColor: '#faf8f5', borderLeft: '3px solid #60a5fa', position: 'relative' }}
                       onMouseEnter={() => setHoveredBeach(true)}
+                      onClick={() => setHoveredBeach(true)}
                       onMouseLeave={() => setHoveredBeach(false)}
                     >
                       <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.75rem', marginBottom: '0.5rem' }}>
@@ -776,6 +778,7 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
                     <div
                       style={{ padding: '1.25rem', backgroundColor: ccMode ? '#e0f2f1' : '#faf8f5', borderLeft: `3px solid ${ccMode ? '#22c55e' : '#C4A77D'}`, position: 'relative' }}
                       onMouseEnter={() => setHoveredChili(true)}
+                      onClick={() => setHoveredChili(true)}
                       onMouseLeave={() => setHoveredChili(false)}
                     >
                       {ccMode ? (

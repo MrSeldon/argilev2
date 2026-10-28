@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function MyMaterialsPage() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen pt-14 md:pt-[76px]">
       {/* Header */}
       <section className="py-16 border-b border-warm-100">
         <div className="max-w-4xl mx-auto px-8 text-center">

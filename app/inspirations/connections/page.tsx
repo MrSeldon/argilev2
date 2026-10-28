@@ -80,15 +80,15 @@ export default async function ConnectionsPage() {
   }
 
   return (
-    <div className="h-screen flex flex-col overflow-hidden">
+    <div className="h-[100dvh] flex flex-col overflow-hidden pt-14 md:pt-[76px]">
       {/* Header */}
-      <section className="py-8 border-b border-warm-100">
+      <section className="py-4 md:py-8 border-b border-warm-100">
         <div className="max-w-6xl mx-auto px-8">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
             <div>
               <Link
                 href="/inspirations"
-                className="text-sm text-warm-500 hover:text-charcoal transition-colors mb-2 inline-block"
+                className="text-sm text-warm-500 hover:text-charcoal transition-colors -mb-1 py-3 -mt-3 inline-block"
               >
                 ← Back to Inspirations
               </Link>

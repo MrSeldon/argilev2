@@ -207,7 +207,7 @@ export function ConnectionsGraph({ nodes, links }: ConnectionsGraphProps) {
 
       {/* Instructions */}
       <div className="absolute bottom-4 left-4 text-caption text-clay-500">
-        Drag nodes · Scroll to zoom · Click for details
+        Drag nodes · Pinch or scroll to zoom · Tap for details
       </div>
     </div>
   );

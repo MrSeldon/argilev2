@@ -75,10 +75,10 @@ export default async function InspirationsPage({
 
       {/* Category Filter */}
       <section className="py-12 border-b border-warm-100">
-        <div className="flex justify-center items-center gap-4 text-xs uppercase tracking-widest flex-wrap px-8">
+        <div className="flex justify-center items-center gap-4 text-xs uppercase tracking-widest flex-wrap px-5 md:px-8">
           <Link
             href="/inspirations"
-            className={`transition-opacity hover:opacity-100 ${
+            className={`py-3 -my-3 px-2 md:px-0 transition-opacity hover:opacity-100 ${
               !params.category || params.category === "all"
                 ? "opacity-100"
                 : "opacity-40"
@@ -91,7 +91,7 @@ export default async function InspirationsPage({
               <span className="text-warm-200">|</span>
               <Link
                 href={`/inspirations?category=${cat.key}`}
-                className={`transition-opacity hover:opacity-100 ${
+                className={`py-3 -my-3 px-2 md:px-0 transition-opacity hover:opacity-100 ${
                   params.category === cat.key ? "opacity-100" : "opacity-40"
                 }`}
               >
@@ -102,7 +102,7 @@ export default async function InspirationsPage({
           <span className="text-warm-200">|</span>
           <Link
             href="/inspirations/connections"
-            className="opacity-40 hover:opacity-100 transition-opacity"
+            className="py-3 -my-3 px-2 md:px-0 opacity-40 hover:opacity-100 transition-opacity"
           >
             Connections
           </Link>

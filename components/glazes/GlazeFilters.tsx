@@ -60,7 +60,7 @@ export function GlazeFilters({
       <div className="flex items-center gap-4 text-xs uppercase tracking-widest">
         <button
           onClick={() => handleFilterChange("source", "")}
-          className={`transition-opacity hover:opacity-100 ${
+          className={`py-3 -my-3 px-1 transition-opacity hover:opacity-100 ${
             !currentParams.source || currentParams.source === "digitalfire"
               ? "opacity-100"
               : "opacity-40"
@@ -71,7 +71,7 @@ export function GlazeFilters({
         <span className="text-warm-200">|</span>
         <button
           onClick={() => handleFilterChange("source", "glazy")}
-          className={`transition-opacity hover:opacity-100 ${
+          className={`py-3 -my-3 px-1 transition-opacity hover:opacity-100 ${
             currentParams.source === "glazy" ? "opacity-100" : "opacity-40"
           }`}
         >
@@ -91,14 +91,14 @@ export function GlazeFilters({
               handleFilterChange("q", e.currentTarget.value);
             }
           }}
-          className="px-4 py-2 text-sm bg-transparent border-b border-warm-200 focus:border-charcoal outline-none transition-colors w-48"
+          className="px-4 py-3 md:py-2 text-base md:text-sm bg-transparent border-b border-warm-200 focus:border-charcoal outline-none transition-colors w-full sm:w-48"
         />
 
         {/* Cone */}
         <select
           value={currentParams.cone || ""}
           onChange={(e) => handleFilterChange("cone", e.target.value)}
-          className="px-4 py-2 text-sm bg-transparent border-b border-warm-200 focus:border-charcoal outline-none cursor-pointer appearance-none"
+          className="px-4 py-3 md:py-2 text-base md:text-sm bg-transparent border-b border-warm-200 focus:border-charcoal outline-none cursor-pointer appearance-none"
         >
           <option value="">All cones</option>
           {cones.map((cone) => (
@@ -112,7 +112,7 @@ export function GlazeFilters({
         <select
           value={currentParams.surface || ""}
           onChange={(e) => handleFilterChange("surface", e.target.value)}
-          className="px-4 py-2 text-sm bg-transparent border-b border-warm-200 focus:border-charcoal outline-none cursor-pointer appearance-none"
+          className="px-4 py-3 md:py-2 text-base md:text-sm bg-transparent border-b border-warm-200 focus:border-charcoal outline-none cursor-pointer appearance-none"
         >
           <option value="">All surfaces</option>
           {surfaces.map((surface) => (
@@ -126,7 +126,7 @@ export function GlazeFilters({
         <select
           value={currentParams.atmosphere || ""}
           onChange={(e) => handleFilterChange("atmosphere", e.target.value)}
-          className="px-4 py-2 text-sm bg-transparent border-b border-warm-200 focus:border-charcoal outline-none cursor-pointer appearance-none"
+          className="px-4 py-3 md:py-2 text-base md:text-sm bg-transparent border-b border-warm-200 focus:border-charcoal outline-none cursor-pointer appearance-none"
         >
           <option value="">All atmospheres</option>
           {atmospheres.map((atm) => (
@@ -140,7 +140,7 @@ export function GlazeFilters({
         {hasActiveFilters && (
           <button
             onClick={clearFilters}
-            className="text-sm text-warm-400 hover:text-charcoal transition-colors"
+            className="min-h-11 px-3 text-sm text-warm-400 hover:text-charcoal transition-colors"
           >
             Clear
           </button>

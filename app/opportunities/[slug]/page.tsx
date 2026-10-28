@@ -276,7 +276,7 @@ export default async function OpportunityPage({
                     href={opportunity.website}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block text-sm uppercase tracking-widest border-b border-charcoal pb-1 hover:opacity-60 transition-opacity"
+                    className="hit-area inline-block text-sm uppercase tracking-widest border-b border-charcoal pb-1 hover:opacity-60 transition-opacity"
                   >
                     Visit Website →
                   </a>
@@ -333,7 +333,7 @@ export default async function OpportunityPage({
         <div className="max-w-6xl mx-auto px-8">
           <Link
             href="/opportunities"
-            className="text-sm text-warm-500 hover:text-charcoal transition-colors"
+            className="inline-block py-3 -my-3 text-sm text-warm-500 hover:text-charcoal transition-colors"
           >
             ← Back to Opportunities
           </Link>

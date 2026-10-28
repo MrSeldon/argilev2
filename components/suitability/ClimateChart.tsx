@@ -243,6 +243,7 @@ export function ClimateChart({
             height={height}
             fill="transparent"
             onMouseEnter={() => setHoveredMonth(i)}
+                                onClick={() => setHoveredMonth(i)}
             onMouseLeave={() => setHoveredMonth(null)}
             style={{ cursor: "pointer" }}
           />

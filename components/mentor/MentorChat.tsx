@@ -85,7 +85,7 @@ export function MentorChat() {
                 <button
                   key={question}
                   onClick={() => sendMessage(question)}
-                  className="p-4 text-left text-sm text-warm-600 border border-warm-100 hover:border-warm-300 transition-colors"
+                  className="p-4 min-h-12 text-left text-sm text-warm-600 border border-warm-100 hover:border-warm-300 transition-colors"
                 >
                   {question}
                 </button>
@@ -145,20 +145,20 @@ export function MentorChat() {
       </div>
 
       {/* Input */}
-      <div className="border-t border-warm-100 p-6">
-        <form onSubmit={handleSubmit} className="flex gap-4">
+      <div className="border-t border-warm-100 p-4 md:p-6">
+        <form onSubmit={handleSubmit} className="flex gap-3 md:gap-4">
           <input
             type="text"
             value={input}
             onChange={(e) => setInput(e.target.value)}
             placeholder="Ask about ceramics..."
             disabled={isLoading}
-            className="flex-1 px-4 py-3 text-sm bg-transparent border-b border-warm-200 focus:border-charcoal outline-none transition-colors"
+            className="flex-1 min-w-0 px-4 py-3 text-base md:text-sm bg-transparent border-b border-warm-200 focus:border-charcoal outline-none transition-colors"
           />
           <button
             type="submit"
             disabled={isLoading || !input.trim()}
-            className="px-6 py-3 text-xs uppercase tracking-widest bg-charcoal text-white hover:bg-charcoal-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            className="px-6 py-3 min-h-11 text-xs uppercase tracking-widest bg-charcoal text-white hover:bg-charcoal-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
             Send
           </button>

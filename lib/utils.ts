@@ -13,7 +13,9 @@ export function slugify(text: string): string {
     .trim();
 }
 
-export function formatLocation(location: Location): string {
+export function formatLocation(location: Location | string): string {
+  // Some entries store location as a plain "City, Region, Country" string
+  if (typeof location === "string") return location;
   const parts = [location.city, location.region, location.country].filter(
     Boolean
   );
