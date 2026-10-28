@@ -46,7 +46,9 @@
       "alt": "A hand-dyed skein held up in front of shelves of yarn at ImagiKnit",
       "credit": "Image: ImagiKnit",
       "creditUrl": "https://imagiknit.com",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1080,
+      "height": 1350
     }
   },
   {
@@ -96,7 +98,10 @@
       "alt": "A pink hand-knitted shawl made with Atelier Yarns",
       "credit": "Image: Atelier Yarns",
       "creditUrl": "https://atelieryarns.com",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 700,
+      "height": 920,
+      "position": "75% 10%"
     }
   },
   {
@@ -146,7 +151,9 @@
       "alt": "Embossed brocade fabric in folds, from Britex Fabrics",
       "credit": "Image: Britex Fabrics",
       "creditUrl": "https://britexfabrics.com",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 800,
+      "height": 800
     }
   },
   {
@@ -236,7 +243,9 @@
       "alt": "Cubbies of colourful fabric scraps under the SCRAP sign at SCRAP in San Francisco",
       "credit": "Image: SCRAP",
       "creditUrl": "https://www.scrap-sf.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1080,
+      "height": 1096
     }
   },
   {
@@ -288,7 +297,10 @@
       "alt": "Two guild members sitting with finished quilts across their laps",
       "credit": "Image: San Francisco Quilters Guild",
       "creditUrl": "https://www.sfquiltersguild.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 877,
+      "height": 778,
+      "position": "55% 14%"
     }
   },
   {
@@ -337,7 +349,9 @@
       "alt": "A hand-woven blue scarf with fringe",
       "credit": "Image: Loom and Shuttle Guild",
       "creditUrl": "https://www.loomandshuttleguild.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1080,
+      "height": 810
     }
   },
   {
@@ -387,7 +401,9 @@
       "alt": "A purple tie-dyed shawl with beaded tassels",
       "credit": "Image: Textile Arts Council",
       "creditUrl": "https://www.textileartscouncil.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1200,
+      "height": 1143
     }
   },
   {
@@ -436,7 +452,9 @@
       "alt": "Hands holding a strand of beadwork, black and white photograph",
       "credit": "Image: Textile Arts Council",
       "creditUrl": "https://www.textileartscouncil.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1059,
+      "height": 710
     }
   },
   {
@@ -485,7 +503,9 @@
       "alt": "The San Francisco Main Library seen from Civic Center",
       "credit": "J. Ash Bowie / Wikimedia Commons",
       "creditUrl": "https://commons.wikimedia.org/wiki/File:SFPL_Main_Library_Full_Exterior.jpg",
-      "license": "CC BY-SA 3.0"
+      "license": "CC BY-SA 3.0",
+      "width": 1400,
+      "height": 933
     }
   },
   {
@@ -538,7 +558,9 @@
       "alt": "A panel of antique lace with embroidered flowers from the Lacis Museum collection",
       "credit": "Image: Lacis Museum of Lace and Textiles",
       "creditUrl": "https://lacismuseum.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 675,
+      "height": 900
     }
   },
   {
@@ -586,7 +608,9 @@
       "alt": "Hands knitting a ribbed orange piece beside a ball of chunky yarn",
       "credit": "Image: ImagiKnit",
       "creditUrl": "https://imagiknit.com",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1080,
+      "height": 1350
     }
   },
   {
@@ -638,7 +662,9 @@
       "alt": "Wall-to-wall shelves of yarn inside Verb for Keeping Warm",
       "credit": "Image: Verb for Keeping Warm",
       "creditUrl": "https://www.averbforkeepingwarm.com",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 922,
+      "height": 786
     }
   },
   {
@@ -689,7 +715,9 @@
       "alt": "The pink storefront of Stonemountain and Daughter Fabrics in Berkeley",
       "credit": "Image: Stonemountain and Daughter Fabrics",
       "creditUrl": "https://stonemountainfabric.com",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1050,
+      "height": 394
     }
   },
   {
@@ -819,7 +847,9 @@
       "alt": "A striped textile in progress on a loom",
       "credit": "Image: Golden Gate Weavers",
       "creditUrl": "https://www.goldengateweavers.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1200,
+      "height": 888
     }
   },
   {
@@ -869,7 +899,9 @@
       "alt": "A member holding a notebook of handspun fibre and knitted samples",
       "credit": "Image: Spindles and Flyers",
       "creditUrl": "https://www.spindlesandflyers.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1259,
+      "height": 1400
     }
   },
   {
@@ -920,7 +952,9 @@
       "alt": "A blue coiled basket with cut-out waves",
       "credit": "Image: Bay Area Basket Makers",
       "creditUrl": "https://bayareabasketmakers.wordpress.com",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 640,
+      "height": 480
     }
   },
   {
@@ -970,7 +1004,9 @@
       "alt": "A quilt with an orange moon over a patchwork city skyline",
       "credit": "Image: East Bay Heritage Quilters",
       "creditUrl": "https://www.ebhq.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1265,
+      "height": 1400
     }
   },
   {
@@ -1017,7 +1053,9 @@
       "alt": "A striped handwoven textile on a loom",
       "credit": "Image: Treadles to Threads",
       "creditUrl": "https://treadlestothreads.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 900,
+      "height": 1200
     }
   },
   {
@@ -1067,7 +1105,9 @@
       "alt": "Skeins of hand-dyed yarn hanging in a row",
       "credit": "Image: CNCH",
       "creditUrl": "https://www.cnch.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1200,
+      "height": 801
     }
   },
   {
@@ -1116,7 +1156,10 @@
       "alt": "A knitted cap and cowl in cream wool made with Atelier Yarns",
       "credit": "Image: Atelier Yarns",
       "creditUrl": "https://atelieryarns.com",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 700,
+      "height": 920,
+      "position": "53% 46%"
     }
   },
   {
@@ -1165,7 +1208,9 @@
       "alt": "A tie-dyed fabric with a kaleidoscope pattern",
       "credit": "Image: Dharma Trading Company",
       "creditUrl": "https://www.dharmatrading.com",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 700,
+      "height": 480
     }
   },
   {
@@ -1218,7 +1263,9 @@
       "alt": "A woman arranging yellow-green plant material on a table at an outdoor Fibershed event",
       "credit": "Image: Fibershed",
       "creditUrl": "https://fibershed.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1280,
+      "height": 854
     }
   },
   {
@@ -1264,7 +1311,9 @@
       "alt": "The white clapboard buildings of the Bolinas Museum",
       "credit": "Image: Bolinas Museum",
       "creditUrl": "https://bolinasmuseum.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 633
     }
   },
   {
@@ -1311,7 +1360,9 @@
       "alt": "A small handwoven piece on a table loom",
       "credit": "Image: Black Sheep Handweavers",
       "creditUrl": "https://www.blacksheepguild.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 964
     }
   },
   {
@@ -1360,7 +1411,9 @@
       "alt": "A pink handwoven piece on a loom with a shuttle",
       "credit": "Image: Glenna Harris Weavers",
       "creditUrl": "https://www.glennaharris.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 1050
     }
   },
   {
@@ -1410,7 +1463,9 @@
       "alt": "A gallery of quilts at the San Jose Museum of Quilts and Textiles",
       "credit": "Image: San Jose Museum of Quilts and Textiles",
       "creditUrl": "https://sj-mqt.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1000,
+      "height": 673
     }
   },
   {
@@ -1460,7 +1515,10 @@
       "alt": "An instructor guiding a student at a milling machine at Humanmade",
       "credit": "Image: Humanmade",
       "creditUrl": "https://www.humanmade.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1186,
+      "height": 1186,
+      "position": "70% 28%"
     }
   },
   {
@@ -1511,7 +1569,9 @@
       "alt": "The long workbench inside Workshop SF",
       "credit": "Image: Workshop SF",
       "creditUrl": "https://workshopsf.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 1120
     }
   },
   {
@@ -1561,7 +1621,9 @@
       "alt": "Machines and benches in the Mission Community Woodshop",
       "credit": "Image: Mission Community Woodshop",
       "creditUrl": "https://www.missioncommunitywoodshop.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 1050
     }
   },
   {
@@ -1609,7 +1671,9 @@
       "alt": "A hand-held drill cutting wood at Wood Thumb",
       "credit": "Image: Wood Thumb",
       "creditUrl": "https://woodthumb.com",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 933
     }
   },
   {
@@ -1658,7 +1722,9 @@
       "alt": "Two metalsmiths working with a torch at Metalworks SF",
       "credit": "Image: Metalworks SF",
       "creditUrl": "https://www.metalworkssf.com",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 1385
     }
   },
   {
@@ -1707,7 +1773,10 @@
       "alt": "Students and an instructor with a torch at a metalworking bench",
       "credit": "Image: Metal Arts Guild of San Francisco",
       "creditUrl": "https://metalartsguildsf.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 934,
+      "position": "37% 16%"
     }
   },
   {
@@ -1756,7 +1825,10 @@
       "alt": "Two glassblowers shaping a glowing gather of glass at a bench at Public Glass",
       "credit": "Image: Public Glass",
       "creditUrl": "https://www.publicglass.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 799,
+      "position": "53% 14%"
     }
   },
   {
@@ -1804,7 +1876,10 @@
       "alt": "Visitors at a smoke-vortex exhibit in the Exploratorium",
       "credit": "D'Arcy Norman from Calgary, Canada / Wikimedia Commons",
       "creditUrl": "https://commons.wikimedia.org/wiki/File:Blowing_Smoke.jpg",
-      "license": "CC BY 2.0"
+      "license": "CC BY 2.0",
+      "width": 1400,
+      "height": 1050,
+      "position": "42% 32%"
     }
   },
   {
@@ -1854,7 +1929,9 @@
       "alt": "Racks of salvaged doors in the yard at Building Resources",
       "credit": "Image: Building Resources",
       "creditUrl": "https://buildingresources.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 931
     }
   },
   {
@@ -1907,7 +1984,10 @@
       "alt": "A student working with a torch at a Crucible bench",
       "credit": "Image: The Crucible",
       "creditUrl": "https://www.thecrucible.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 934,
+      "position": "64% 23%"
     }
   },
   {
@@ -1954,7 +2034,10 @@
       "alt": "An instructor working a glowing gather of glass in the hot shop at The Crucible",
       "credit": "Image: The Crucible",
       "creditUrl": "https://www.thecrucible.org/gifty/",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1200,
+      "height": 1200,
+      "position": "35% 20%"
     }
   },
   {
@@ -2005,7 +2088,10 @@
       "alt": "Members gathered around a work table at ACE Makerspace",
       "credit": "Image: ACE Makerspace",
       "creditUrl": "https://www.acemakerspace.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 789,
+      "position": "49% 17%"
     }
   },
   {
@@ -2055,7 +2141,9 @@
       "alt": "A Japanese plane, chisel and hammer laid out on a wooden surface",
       "credit": "Image: Hida Tool",
       "creditUrl": "https://hidatool.com",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 1400
     }
   },
   {
@@ -2148,7 +2236,10 @@
       "alt": "A student cutting wood on a table saw at Maker Nexus",
       "credit": "Image: Maker Nexus",
       "creditUrl": "https://www.makernexus.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 1400,
+      "position": "56% 15%"
     }
   },
   {
@@ -2195,7 +2286,9 @@
       "alt": "A glassblower shaping a piece at the bench in front of an audience at Bay Area Glass Institute",
       "credit": "Image: Bay Area Glass Institute",
       "creditUrl": "https://bagi.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 946
     }
   },
   {
@@ -2244,7 +2337,10 @@
       "alt": "Three kids holding wooden toolboxes they built in the Spaulding Marine Center boat shop",
       "credit": "Image: Spaulding Marine Center",
       "creditUrl": "https://www.spauldingcenter.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 1050,
+      "position": "49% 39%"
     }
   },
   {
@@ -2295,7 +2391,9 @@
       "alt": "Drawers of wood and metal type at San Francisco Center for the Book",
       "credit": "Image: San Francisco Center for the Book",
       "creditUrl": "https://www.sfcb.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 933
     }
   },
   {
@@ -2345,7 +2443,9 @@
       "alt": "The brick building that houses Crown Point Press in San Francisco",
       "credit": "Image: Crown Point Press",
       "creditUrl": "https://crownpoint.com",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 934
     }
   },
   {
@@ -2396,7 +2496,9 @@
       "alt": "A fine-press edition of Neruda's Sonetos de Amor, bound in pink cloth and tan leather",
       "credit": "Image: Arion Press",
       "creditUrl": "https://arionpress.com",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 1120
     }
   },
   {
@@ -2444,7 +2546,9 @@
       "alt": "The printmaking studio at Graphic Arts Workshop, with a large etching press",
       "credit": "Image: Graphic Arts Workshop",
       "creditUrl": "https://graphicartsworkshop.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 966,
+      "height": 464
     }
   },
   {
@@ -2496,7 +2600,9 @@
       "alt": "A student drawing at a worktable in a Kala Art Institute studio",
       "credit": "Image: Kala Art Institute",
       "creditUrl": "https://www.kala.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 636
     }
   },
   {
@@ -2548,7 +2654,9 @@
       "alt": "Hand-bound artists' books standing open on a table, from the Codex Foundation website",
       "credit": "Image: Codex Foundation",
       "creditUrl": "https://www.codexfoundation.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 928
     }
   },
   {
@@ -2596,7 +2704,9 @@
       "alt": "The Asian Art Museum in San Francisco's Civic Center",
       "credit": "LPS.1 / Wikimedia Commons",
       "creditUrl": "https://commons.wikimedia.org/wiki/File:Terracotta_Warriors_Exhibition_San_Francisco_2013.jpg",
-      "license": "CC0"
+      "license": "CC0",
+      "width": 1400,
+      "height": 933
     }
   },
   {
@@ -2646,7 +2756,9 @@
       "alt": "Paintings hung in a gallery at the Museum of the African Diaspora",
       "credit": "Image: Museum of the African Diaspora",
       "creditUrl": "https://www.moadsf.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1000,
+      "height": 562
     }
   },
   {
@@ -2692,7 +2804,9 @@
       "alt": "The de Young Museum in Golden Gate Park",
       "credit": "Mark Miller / Wikimedia Commons",
       "creditUrl": "https://commons.wikimedia.org/wiki/File:M._H._de_Young_Memorial_Museum.jpg",
-      "license": "Public domain"
+      "license": "Public domain",
+      "width": 1400,
+      "height": 1050
     }
   },
   {
@@ -2736,7 +2850,9 @@
       "alt": "The SFMOMA building in San Francisco",
       "credit": "Beyond My Ken / Wikimedia Commons",
       "creditUrl": "https://commons.wikimedia.org/wiki/File:2017_SFMOMA_from_Yerba_Buena_Gardens.jpg",
-      "license": "GFDL"
+      "license": "GFDL",
+      "width": 1400,
+      "height": 1035
     }
   },
   {
@@ -2783,7 +2899,9 @@
       "alt": "Sea nettle jellyfish drifting in a tank at the California Academy of Sciences",
       "credit": "Image: California Academy of Sciences",
       "creditUrl": "https://www.calacademy.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 707
     }
   },
   {
@@ -2830,7 +2948,9 @@
       "alt": "The Oakland Museum of California building",
       "credit": "Californiathegreat / Wikimedia Commons",
       "creditUrl": "https://commons.wikimedia.org/wiki/File:Sign_outside_the_Oakland_Museum_of_California.jpg",
-      "license": "CC BY-SA 4.0"
+      "license": "CC BY-SA 4.0",
+      "width": 1400,
+      "height": 933
     }
   },
   {
@@ -2878,7 +2998,9 @@
       "alt": "Interior of the Berkeley Art Museum and Pacific Film Archive",
       "credit": "Daderot / Wikimedia Commons",
       "creditUrl": "https://commons.wikimedia.org/wiki/File:Interior_view_-_Berkeley_Art_Museum_and_Pacific_Film_Archive_-_DSC04185.JPG",
-      "license": "CC0"
+      "license": "CC0",
+      "width": 1400,
+      "height": 933
     }
   },
   {
@@ -2927,7 +3049,9 @@
       "alt": "Succulents and aloes in the UC Botanical Garden in Berkeley",
       "credit": "Daderot / Wikimedia Commons",
       "creditUrl": "https://commons.wikimedia.org/wiki/File:University_of_California_Botanical_Garden_-_DSC08881.JPG",
-      "license": "Public domain"
+      "license": "Public domain",
+      "width": 900,
+      "height": 675
     }
   },
   {
@@ -2972,7 +3096,9 @@
       "alt": "The Cantor Arts Center at Stanford University",
       "credit": "David Monniaux / Wikimedia Commons",
       "creditUrl": "https://commons.wikimedia.org/wiki/File:Iris_%26_B._Gerald_Cantor_Center_for_Visual_Arts%2C_Stanford%2C_California_-_20060728.jpg",
-      "license": "GFDL"
+      "license": "GFDL",
+      "width": 1400,
+      "height": 919
     }
   },
   {
@@ -3019,7 +3145,9 @@
       "alt": "Redwood trunks in woodland, from the Marin Museum of the American Indian website",
       "credit": "Image: Marin Museum of the American Indian",
       "creditUrl": "https://www.marinindian.com",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 652
     }
   },
   {
@@ -3070,7 +3198,9 @@
       "alt": "A gallery with hanging garments and framed works at SOMArts Cultural Center",
       "credit": "Image: SOMArts Cultural Center",
       "creditUrl": "https://somarts.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 934
     }
   },
   {
@@ -3122,7 +3252,9 @@
       "alt": "Framed works and sculptures on display in the Root Division gallery",
       "credit": "Image: Root Division",
       "creditUrl": "https://rootdivision.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1396,
+      "height": 1400
     }
   },
   {
@@ -3211,7 +3343,9 @@
       "alt": "Aerial view of the Hunters Point Naval Shipyard on San Francisco Bay",
       "credit": "Cmichel67 / Wikimedia Commons",
       "creditUrl": "https://commons.wikimedia.org/wiki/File:Hunters_Point_Naval_Shipyard_by_Chris_Michel_02.jpg",
-      "license": "CC BY-SA 4.0"
+      "license": "CC BY-SA 4.0",
+      "width": 1400,
+      "height": 933
     }
   },
   {
@@ -3298,7 +3432,9 @@
       "alt": "Paintings hung in a white-walled gallery at Minnesota Street Project",
       "credit": "Image: Minnesota Street Project",
       "creditUrl": "https://minnesotastreetproject.com",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 600,
+      "height": 360
     }
   },
   {
@@ -3348,7 +3484,10 @@
       "alt": "An artist painting at an easel in the Creativity Explored studio",
       "credit": "Image: Creativity Explored",
       "creditUrl": "https://www.creativityexplored.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 934,
+      "position": "55% 39%"
     }
   },
   {
@@ -3398,7 +3537,9 @@
       "alt": "A crowd queuing under the Gray Area marquee at the Grand Theater in San Francisco's Mission District",
       "credit": "Image: Gray Area",
       "creditUrl": "https://grayarea.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 960,
+      "height": 540
     }
   },
   {
@@ -3448,7 +3589,9 @@
       "alt": "Aerial view of Fort Mason Center on the San Francisco waterfront",
       "credit": "Cmichel67 / Wikimedia Commons",
       "creditUrl": "https://commons.wikimedia.org/wiki/File:Fort_Mason_in_2025_18.jpg",
-      "license": "CC BY-SA 4.0"
+      "license": "CC BY-SA 4.0",
+      "width": 1300,
+      "height": 908
     }
   },
   {
@@ -3493,7 +3636,9 @@
       "alt": "The Interval, the bar and library at Fort Mason run by the Long Now Foundation",
       "credit": "The wub / Wikimedia Commons",
       "creditUrl": "https://commons.wikimedia.org/wiki/File:The_Interval_bar%2C_San_Francisco.jpg",
-      "license": "CC BY-SA 4.0"
+      "license": "CC BY-SA 4.0",
+      "width": 975,
+      "height": 1300
     }
   },
   {
@@ -3544,7 +3689,9 @@
       "alt": "Ceramic houses and sculptures made at Creative Growth Art Center in Oakland",
       "credit": "Steven Damron from New York / Wikimedia Commons",
       "creditUrl": "https://commons.wikimedia.org/wiki/File:Creative_growth_art_center_ceramics_1_%287720889476%29.jpg",
-      "license": "CC BY 2.0"
+      "license": "CC BY 2.0",
+      "width": 800,
+      "height": 600
     }
   },
   {
@@ -3592,7 +3739,9 @@
       "alt": "An artist painting at a table in the NIAD Art Center studio",
       "credit": "Image: NIAD Art Center",
       "creditUrl": "https://niadart.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 788
     }
   },
   {
@@ -3640,7 +3789,9 @@
       "alt": "The wooden entrance of the Berkeley Art Center in Live Oak Park",
       "credit": "Image: Berkeley Art Center",
       "creditUrl": "https://www.berkeleyartcenter.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 933
     }
   },
   {
@@ -3689,7 +3840,9 @@
       "alt": "A band playing to a full house at Rhythmix Cultural Works",
       "credit": "Image: Rhythmix Cultural Works",
       "creditUrl": "https://www.rhythmix.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 696
     }
   },
   {
@@ -3737,7 +3890,9 @@
       "alt": "A hand drawing on paper beside a watercolour palette",
       "credit": "Image: Oakland Asian Cultural Center",
       "creditUrl": "https://oacc.cc",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 739
     }
   },
   {
@@ -3784,7 +3939,9 @@
       "alt": "Visitors looking at a wall of small artworks in an open studio",
       "credit": "Image: Oakland Art Murmur",
       "creditUrl": "https://oaklandartmurmur.org/east-bay-open-studios/",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1373,
+      "height": 1400
     }
   },
   {
@@ -3834,7 +3991,9 @@
       "alt": "The gallery at Art Works Downtown with sculptures on plinths and paintings on the walls",
       "credit": "Image: Art Works Downtown",
       "creditUrl": "https://www.artworksdowntown.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 996
     }
   },
   {
@@ -3882,7 +4041,9 @@
       "alt": "An artist at work in front of a large plaid painting at Marin MOCA",
       "credit": "Image: Marin MOCA",
       "creditUrl": "https://www.marinmoca.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 788
     }
   },
   {
@@ -3928,7 +4089,10 @@
       "alt": "An artist standing in her studio among landscape paintings, Marin Open Studios",
       "credit": "Image: Marin Open Studios",
       "creditUrl": "https://marinopenstudios.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1123,
+      "height": 1400,
+      "position": "66% 26%"
     }
   },
   {
@@ -3976,7 +4140,10 @@
       "alt": "Artists painting and drawing at easels in a Pacific Art League class",
       "credit": "Image: Pacific Art League",
       "creditUrl": "https://www.pacificartleague.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 1050,
+      "position": "44% 26%"
     }
   },
   {
@@ -4063,7 +4230,9 @@
       "alt": "Hands setting a stone at a jeweller's bench at Scintillant Studio",
       "credit": "Image: Scintillant Studio",
       "creditUrl": "https://www.scintillantstudio.com",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1044,
+      "height": 821
     }
   },
   {
@@ -4109,7 +4278,9 @@
       "alt": "A hand holding a torch and tweezers over a soldering block at Silverwork Studios",
       "credit": "Image: Silverwork Studios",
       "creditUrl": "https://silverworkstudios.com",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1050,
+      "height": 1400
     }
   },
   {
@@ -4156,7 +4327,10 @@
       "alt": "Banners hung over the crowd at a Renegade Craft Fair in a large hall",
       "credit": "Image: Renegade Craft",
       "creditUrl": "https://www.renegadecraft.com",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 933,
+      "position": "16% 74%"
     }
   },
   {
@@ -4204,7 +4378,9 @@
       "alt": "A folding table of vintage kitchenware at the Alameda Point Antiques Faire",
       "credit": "Image: Alameda Point Antiques Faire",
       "creditUrl": "https://alamedapointantiquesfaire.com",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1000,
+      "height": 1000
     }
   },
   {
@@ -4249,7 +4425,10 @@
       "alt": "A visitor looking at framed prints at a Root Division event",
       "credit": "Image: Root Division",
       "creditUrl": "https://rootdivision.org",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 788,
+      "position": "36% 36%"
     }
   },
   {
@@ -4297,7 +4476,9 @@
       "alt": "The shark-faced Sharkmobile art car at Maker Faire Bay Area",
       "credit": "Dawn Endico from Menlo Park, California / Wikimedia Commons",
       "creditUrl": "https://commons.wikimedia.org/wiki/File:Sharkmobile_at_Maker_Faire_2009.jpg",
-      "license": "CC BY-SA 2.0"
+      "license": "CC BY-SA 2.0",
+      "width": 1400,
+      "height": 1050
     }
   }
 ]

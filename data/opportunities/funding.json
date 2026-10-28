@@ -55,7 +55,9 @@
       "alt": "Ceramic works on display in an exhibition hall, from the competition's website",
       "credit": "Image: International Ceramics Competition Mino",
       "creditUrl": "https://www.icfmino.com/en/iccm-en",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 800,
+      "height": 408
     }
   },
   {
@@ -114,7 +116,9 @@
       "alt": "Craft objects in wood, metal and clay arranged on a pale green set, from the LOEWE FOUNDATION Craft Prize website",
       "credit": "Image: LOEWE FOUNDATION Craft Prize",
       "creditUrl": "https://craftprize.loewe.com/en/craftprize2027",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 788
     }
   },
   {
@@ -172,7 +176,9 @@
       "alt": "Small white ceramic forms arranged on a grey surface, shown on the Premio Faenza website",
       "credit": "Image: Premio Faenza / MIC Faenza",
       "creditUrl": "https://www.premiofaenza.it",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 933
     }
   },
   {
@@ -383,7 +389,9 @@
       "alt": "The UNESCO headquarters buildings in Paris",
       "credit": "Mbzt / Wikimedia Commons",
       "creditUrl": "https://commons.wikimedia.org/wiki/File:P1120654_Paris_VII_place_de_Fontenoy_rwk.JPG",
-      "license": "GFDL"
+      "license": "GFDL",
+      "width": 1400,
+      "height": 785
     }
   },
   {
@@ -543,7 +551,10 @@
       "alt": "A resident artist modelling small clay forms in the Arts/Industry studio at Kohler",
       "credit": "Image: John Michael Kohler Arts Center",
       "creditUrl": "https://www.jmkac.org/engage/programs/arts-industry/applications/",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 648,
+      "height": 443,
+      "position": "63% 30%"
     }
   },
   {
@@ -600,7 +611,9 @@
       "alt": "The reflecting pool and flowering azaleas in the gardens at Winterthur",
       "credit": "Daderot / Wikimedia Commons",
       "creditUrl": "https://commons.wikimedia.org/wiki/File:Pool_-_Winterthur_Museum_-_DSC01661.JPG",
-      "license": "CC0"
+      "license": "CC0",
+      "width": 733,
+      "height": 1100
     }
   },
   {
@@ -757,7 +770,10 @@
       "alt": "Two traditional artists with a drum and a folding fan beside a creek, from the ACTA website",
       "credit": "Image: Alliance for California Traditional Arts",
       "creditUrl": "https://actaonline.org/program/apprenticeships/",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 934,
+      "position": "50% 19%"
     }
   },
   {
@@ -812,7 +828,10 @@
       "alt": "An artist sculpting clay in a studio, from the Creative Capital website",
       "credit": "Image: Creative Capital",
       "creditUrl": "https://creative-capital.org/creative-capital-award/award-application/",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1123,
+      "height": 1400,
+      "position": "37% 24%"
     }
   },
   {
@@ -869,7 +888,9 @@
       "alt": "A sculpture in a bright exhibition space, from the Rijksakademie website",
       "credit": "Image: Rijksakademie",
       "creditUrl": "https://rijksakademie.nl/en/residency-apply/apply",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 1050
     }
   },
   {
@@ -924,7 +945,9 @@
       "alt": "The Villa Serbelloni gardens and house above Lake Como, home of the Bellagio Center",
       "credit": "Image: The Rockefeller Foundation Bellagio Center",
       "creditUrl": "https://www.rockefellerfoundation.org/fellowships-convenings/bellagio-center/residency-program/",
-      "license": "publisher image"
+      "license": "publisher image",
+      "width": 1400,
+      "height": 915
     }
   }
 ]

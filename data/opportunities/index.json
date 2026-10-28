@@ -94,7 +94,9 @@
         "alt": "Ceramics studio at SAIC",
         "credit": "Image: School of the Art Institute of Chicago",
         "creditUrl": "https://www.saic.edu/academics/departments/ceramics",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 768,
+        "height": 432
       }
     },
     {
@@ -175,7 +177,9 @@
         "alt": "Ceramics studio at Ohio University",
         "credit": "Image: Ohio University School of Art + Design",
         "creditUrl": "https://www.ohio.edu/fine-arts/art/ceramics",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1300,
+        "height": 603
       }
     },
     {
@@ -255,7 +259,9 @@
         "alt": "Ceramics studio at CU Boulder",
         "credit": "Image: University of Colorado Boulder",
         "creditUrl": "https://www.colorado.edu/artandarthistory/areas-study/ceramics",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 525
       }
     },
     {
@@ -336,7 +342,9 @@
         "alt": "Student throwing on a wheel in the VCUarts clay studio",
         "credit": "Image: VCUarts",
         "creditUrl": "https://arts.vcu.edu/craft-material-studies/areas-of-study/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 933
       }
     },
     {
@@ -421,7 +429,9 @@
         "alt": "Kilns in the ceramics studio at Anderson Ranch",
         "credit": "Image: Anderson Ranch Arts Center",
         "creditUrl": "https://www.andersonranch.org/programs/artists-in-residence-program/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1024,
+        "height": 683
       }
     },
     {
@@ -503,7 +513,9 @@
         "alt": "Hands shaping a vase on the wheel at Faenza Art Ceramic Center",
         "credit": "Image: Faenza Art Ceramic Center",
         "creditUrl": "https://www.facc-art.it",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 800,
+        "height": 800
       }
     },
     {
@@ -582,7 +594,9 @@
         "alt": "Student at the wheel, Scuola di Ceramica Montelupo",
         "credit": "Image: Scuola di Ceramica Montelupo Fiorentino",
         "creditUrl": "https://www.scuolaceramica.com",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 819,
+        "height": 1024
       }
     },
     {
@@ -661,7 +675,9 @@
         "alt": "Ceramic vases from the Royal Danish Academy",
         "credit": "Image: Royal Danish Academy",
         "creditUrl": "https://royaldanishacademy.com",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 892,
+        "height": 1124
       }
     },
     {
@@ -740,7 +756,9 @@
         "alt": "Work from the Ceramics department at Gerrit Rietveld Academie",
         "credit": "Image: Gerrit Rietveld Academie",
         "creditUrl": "https://rietveldacademie.nl/en/page/385/ceramics",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 600,
+        "height": 400
       }
     },
     {
@@ -819,7 +837,9 @@
         "alt": "Marble-like stone discs and objects from Design Academy Eindhoven",
         "credit": "Image: Design Academy Eindhoven",
         "creditUrl": "https://www.designacademy.nl",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 933,
+        "height": 1400
       }
     },
     {
@@ -898,7 +918,9 @@
         "alt": "Sculptural white ceramic forms by Staffordshire University MA students",
         "credit": "Image: Staffordshire University",
         "creditUrl": "https://www.staffs.ac.uk/course/ceramics-ma",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 700
       }
     },
     {
@@ -977,7 +999,9 @@
         "alt": "Ceramic work by an RCA MA Ceramics & Glass student",
         "credit": "Image: Royal College of Art",
         "creditUrl": "https://www.rca.ac.uk/study/programme-finder/ceramics-glass-ma/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1200,
+        "height": 1200
       }
     },
     {
@@ -1056,7 +1080,9 @@
         "alt": "The Granary Building at King's Cross, home of Central Saint Martins",
         "credit": "Kh csm / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Central_Saint_Martins_College_of_Arts_and_Design_King%27s_Cross.jpg",
-        "license": "CC BY-SA 3.0"
+        "license": "CC BY-SA 3.0",
+        "width": 709,
+        "height": 1000
       }
     },
     {
@@ -1136,7 +1162,9 @@
         "alt": "Porcelain forms from Tajimi City Pottery Design Center",
         "credit": "Image: Tajimi City Pottery Design Center (ISHOKEN)",
         "creditUrl": "https://www2.city.tajimi.lg.jp/ishoken/index.html",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 700
       }
     },
     {
@@ -1215,7 +1243,9 @@
         "alt": "Students outside a building on the Kyoto Seika University campus",
         "credit": "Image: Kyoto Seika University",
         "creditUrl": "https://www.kyoto-seika.ac.jp",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1200,
+        "height": 587
       }
     },
     {
@@ -1294,7 +1324,9 @@
         "alt": "Residents working in the ceramics studio at PWS Jingdezhen",
         "credit": "Image: Pottery Workshop Jingdezhen (PWS Ceramic Hub)",
         "creditUrl": "https://pws-hub.com/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 614
       }
     },
     {
@@ -1373,7 +1405,9 @@
         "alt": "Emily Carr University of Art and Design on Granville Island, Vancouver",
         "credit": "BriefEdits / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Emily_Carr_University_of_Art_and_Design%2C_exterior%2C_Vancouver%2C_BC_%28May_2025%29.jpg",
-        "license": "CC BY-SA 3.0"
+        "license": "CC BY-SA 3.0",
+        "width": 1400,
+        "height": 1054
       }
     },
     {
@@ -1453,7 +1487,10 @@
         "alt": "Students in the UNL ceramics program",
         "credit": "Image: University of Nebraska-Lincoln",
         "creditUrl": "https://arts.unl.edu/art/major/mfa/ceramics/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 960,
+        "height": 540,
+        "position": "48% 14%"
       }
     },
     {
@@ -1533,7 +1570,9 @@
         "alt": "Ceramics student at Sheridan College",
         "credit": "Image: Sheridan College",
         "creditUrl": "https://www.sheridancollege.ca/programs/bachelor-of-craft-and-design-ceramics",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 1008
       }
     },
     {
@@ -1617,7 +1656,10 @@
         "alt": "Instructor and students sculpting in clay at Arrowmont",
         "credit": "Image: Arrowmont School of Arts and Crafts",
         "creditUrl": "https://arrowmont.org/artists-in-residence/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 932,
+        "position": "68% 22%"
       }
     },
     {
@@ -1696,7 +1738,9 @@
         "alt": "Visitor among wood and clay sculptures in a KHiO exhibition, Oslo",
         "credit": "Image: Oslo National Academy of the Arts",
         "creditUrl": "https://khio.no/en/departments/art-and-craft",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 788
       }
     },
     {
@@ -1775,7 +1819,10 @@
         "alt": "Students carving clay heads at the National Art School, Sydney",
         "credit": "Image: National Art School",
         "creditUrl": "https://nas.edu.au",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1000,
+        "height": 1000,
+        "position": "33% 66%"
       }
     },
     {
@@ -1856,7 +1903,9 @@
         "alt": "Studio Arts MFA thesis show at Syracuse University",
         "credit": "Image: Syracuse University School of Art",
         "creditUrl": "https://vpa.syracuse.edu/academics/art/programs/studio-arts-mfa/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1300,
+        "height": 866
       }
     },
     {
@@ -1934,7 +1983,9 @@
         "alt": "MFA Crafts, Ceramic Art at HDK-Valand",
         "credit": "Image: HDK-Valand, University of Gothenburg",
         "creditUrl": "https://www.gu.se/en/study-gothenburg/mfa-programme-in-crafts-ceramic-art-k2til-kera",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 420
       }
     },
     {
@@ -2013,7 +2064,9 @@
         "alt": "Student work from Ceramics and Glass Design at Burg Giebichenstein",
         "credit": "Image: Burg Giebichenstein University of Art and Design Halle",
         "creditUrl": "https://www.burg-halle.de/en/design/product-design-ceramics-and-glass",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 921,
+        "height": 1400
       }
     },
     {
@@ -2093,7 +2146,9 @@
         "alt": "Ceramic Arts studio at CSULB",
         "credit": "Image: California State University Long Beach",
         "creditUrl": "https://www.csulb.edu/school-of-art/ceramic-arts",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 386
       }
     },
     {
@@ -2172,7 +2227,10 @@
         "alt": "Ceramics studio at NSCAD University",
         "credit": "Image: NSCAD University",
         "creditUrl": "https://nscad.ca/undergraduate-programs/study-ceramics/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 560,
+        "position": "59% 16%"
       }
     },
     {
@@ -2252,7 +2310,9 @@
         "alt": "Ceramic installation by an ASU MFA 2025 graduate",
         "credit": "Image: Arizona State University School of Art",
         "creditUrl": "https://art.asu.edu/degree-programs/ceramics",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 499
       }
     },
     {
@@ -2335,7 +2395,9 @@
         "alt": "The Peters Valley School of Craft gallery building and sign",
         "credit": "Zeete / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Peters_Valley_School_of_Craft%2C_NJ.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 933
       }
     },
     {
@@ -2416,7 +2478,9 @@
         "alt": "3D4M MFA studios at the University of Washington",
         "credit": "Image: University of Washington School of Art + Art History + Design",
         "creditUrl": "https://art.washington.edu/art/mfa-3d4m-ceramics-glass-sculpture",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1024,
+        "height": 768
       }
     },
     {
@@ -2495,7 +2559,9 @@
         "alt": "Ceramics workshop at Aalto University",
         "credit": "Image: Aalto University",
         "creditUrl": "https://www.aalto.fi/en/arts-infra-workshops/ceramics-workshop",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1200,
+        "height": 630
       }
     },
     {
@@ -2646,7 +2712,9 @@
         "alt": "Ceramic tile at CENCAL training centre",
         "credit": "Image: CENCAL",
         "creditUrl": "https://www.cencal.pt",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 540
       }
     },
     {
@@ -2728,7 +2796,9 @@
         "alt": "Cerdeira Home for Creativity village house",
         "credit": "Image: Cerdeira Home for Creativity",
         "creditUrl": "https://www.cerdeirahomeforcreativity.com",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1024,
+        "height": 683
       }
     },
     {
@@ -2807,7 +2877,9 @@
         "alt": "Terracotta vase with an embroidered motif, from the Escola de Ceràmica de Manises",
         "credit": "Image: Escola de Ceràmica de Manises",
         "creditUrl": "https://www.esceramica.com",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 819,
+        "height": 1024
       }
     },
     {
@@ -2886,7 +2958,9 @@
         "alt": "Escola de Ceramica de la Bisbal campus",
         "credit": "Image: Escola de Ceramica de la Bisbal",
         "creditUrl": "https://esceramicbisbal.com/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 475
       }
     },
     {
@@ -2966,7 +3040,9 @@
         "alt": "Kutani ware dish with green and gold decoration",
         "credit": "Daderot / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Kutani-Ware_Plate%2C_late_17th_century%2C_Japan%2C_porcelain_with_enamel_-_Art_Institute_of_Chicago_-_DSC00224.JPG",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1400,
+        "height": 1050
       }
     },
     {
@@ -3045,7 +3121,9 @@
         "alt": "Large tree on the lawn at Aichi University of the Arts",
         "credit": "Image: Aichi University of the Arts",
         "creditUrl": "https://www.aichi-fam-u.ac.jp",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1100,
+        "height": 619
       }
     },
     {
@@ -3125,7 +3203,9 @@
         "alt": "Craftspeople at work at Kanazawa Utatsuyama Kogei Kobo",
         "credit": "Image: Kanazawa Utatsuyama Kogei Kobo",
         "creditUrl": "https://www.utatsu-kogei.gr.jp/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 960,
+        "height": 360
       }
     },
     {
@@ -3204,7 +3284,9 @@
         "alt": "Students gathered around plaster sculptures at Tokyo University of the Arts",
         "credit": "Image: Tokyo University of the Arts",
         "creditUrl": "https://www.geidai.ac.jp/department/fine_arts/crafts",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 1050
       }
     },
     {
@@ -3285,7 +3367,9 @@
         "alt": "A City College of San Francisco campus building",
         "credit": "Mariwlqs / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:CCSF_SSC.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1200,
+        "height": 903
       }
     },
     {
@@ -3368,7 +3452,9 @@
         "alt": "Wood kilns at Mendocino Art Center at night",
         "credit": "Image: Mendocino Art Center",
         "creditUrl": "https://www.mendocinoartcenter.org/ceramic-residency",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1050,
+        "height": 1400
       }
     },
     {
@@ -3520,7 +3606,9 @@
         "alt": "A San Jose State University building lit at night",
         "credit": "Image: San Jose State University",
         "creditUrl": "https://www.sjsu.edu/art/facilities/ceramics-glass.php",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 933
       }
     },
     {
@@ -3672,7 +3760,9 @@
         "alt": "Sunlit atrium inside the PNCA building in Portland",
         "credit": "Image: Pacific Northwest College of Art",
         "creditUrl": "https://pnca.willamette.edu",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1136,
+        "height": 852
       }
     },
     {
@@ -3752,7 +3842,9 @@
         "alt": "MFA in Art studio at University of Oregon",
         "credit": "Image: University of Oregon School of Art + Design",
         "creditUrl": "https://artdesign.uoregon.edu/art/grad/mfa",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1200,
+        "height": 563
       }
     },
     {
@@ -3832,7 +3924,9 @@
         "alt": "Mrak Hall and the Eggheads sculptures at UC Davis",
         "credit": "Daderot / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Lawn_-_University_of_California%2C_Davis_-_DSC03312.JPG",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1400,
+        "height": 933
       }
     },
     {
@@ -3914,7 +4008,9 @@
         "alt": "Ceramic work from Idyllwild Arts H.O.T. Clay program",
         "credit": "Image: Idyllwild Arts",
         "creditUrl": "https://idyllwildarts.org/program/types/h-o-t-clay-ceramics/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 473
       }
     },
     {
@@ -3994,7 +4090,10 @@
         "alt": "Ceramics demo at Chico State",
         "credit": "Image: CSU Chico Department of Art and Art History",
         "creditUrl": "https://www.csuchico.edu/academics/college/humanities-fine-arts/departments/art-history/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1024,
+        "height": 681,
+        "position": "50% 16%"
       }
     },
     {
@@ -4073,7 +4172,10 @@
         "alt": "Potter throwing a large pot in the Seward Park Clay Studio",
         "credit": "Image: Seward Park Clay Studio",
         "creditUrl": "https://sewardparkart.org",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 665,
+        "height": 457,
+        "position": "15% 13%"
       }
     },
     {
@@ -4152,7 +4254,9 @@
         "alt": "Ceramics studio at Radius Art Studio",
         "credit": "Image: Radius Art Studio",
         "creditUrl": "https://www.radiusstudio.org",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 934
       }
     },
     {
@@ -4231,7 +4335,9 @@
         "alt": "A walkway on the Saga University campus",
         "credit": "Pekachu / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Saga_University_Honj%C5%8D_Campus_front_gate.JPG",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 1050
       }
     },
     {
@@ -4309,7 +4415,9 @@
         "alt": "Ceramics studio work at Kyoto City University of Arts",
         "credit": "Image: Kyoto City University of Arts (KCUA)",
         "creditUrl": "https://www.kcua.ac.jp/?page_id=48360",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 800,
+        "height": 690
       }
     },
     {
@@ -4388,7 +4496,9 @@
         "alt": "Tama Art University Library, designed by Toyo Ito",
         "credit": "Wiiii / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Tama_Art_University_Library.JPG",
-        "license": "GFDL"
+        "license": "GFDL",
+        "width": 1400,
+        "height": 931
       }
     },
     {
@@ -4467,7 +4577,10 @@
         "alt": "Art student pouring from a teapot in a Cal Poly Humboldt studio",
         "credit": "Image: Cal Poly Humboldt",
         "creditUrl": "https://art.humboldt.edu",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 992,
+        "height": 992,
+        "position": "50% 16%"
       }
     },
     {
@@ -4546,7 +4659,10 @@
         "alt": "Ceramics studio at Otis College",
         "credit": "Image: Otis College of Art and Design",
         "creditUrl": "https://www.otis.edu/life-otis/labs-shops/ceramics-studio.html",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 900,
+        "height": 495,
+        "position": "48% 23%"
       }
     },
     {
@@ -4627,7 +4743,10 @@
         "alt": "Ceramics studio at Tyler School of Art",
         "credit": "Image: Tyler School of Art and Architecture (Temple)",
         "creditUrl": "https://tyler.temple.edu/academics/art/ceramics",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 1400,
+        "position": "46% 60%"
       }
     },
     {
@@ -4707,7 +4826,9 @@
         "alt": "Wood-fired stoneware vessels by an LSU School of Art student",
         "credit": "Image: LSU School of Art",
         "creditUrl": "https://design.lsu.edu/art",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1000,
+        "height": 812
       }
     },
     {
@@ -4787,7 +4908,9 @@
         "alt": "Historic Buckman Hall on the University of Florida campus",
         "credit": "University of Florida Digital Collections / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Historic_Buckman_Hall.jpg",
-        "license": "CC BY-SA 2.0"
+        "license": "CC BY-SA 2.0",
+        "width": 1400,
+        "height": 1107
       }
     },
     {
@@ -4867,7 +4990,9 @@
         "alt": "Old Main at the University of Arkansas",
         "credit": "EEJCC / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Old_Main%2C_University_of_Arkansas.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 825,
+        "height": 1100
       }
     },
     {
@@ -4946,7 +5071,9 @@
         "alt": "The School of Art building at the Australian National University, Canberra",
         "credit": "Bidgee / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:ANU_School_of_Art.jpg",
-        "license": "CC BY-SA 2.5 au"
+        "license": "CC BY-SA 2.5 au",
+        "width": 1400,
+        "height": 935
       }
     },
     {
@@ -5025,7 +5152,9 @@
         "alt": "Swanston Street at RMIT University in central Melbourne",
         "credit": "Tinghao Wang / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Night_Melbourne.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 933
       }
     },
     {
@@ -5104,7 +5233,9 @@
         "alt": "White porcelain sculpture of an ear and a sphere by an ENSA Limoges student",
         "credit": "Image: ENSA Limoges",
         "creditUrl": "https://www.ensad-limoges.fr/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1200,
+        "height": 800
       }
     },
     {
@@ -5182,7 +5313,9 @@
         "alt": "Studio space with a work cabin at HEAR Strasbourg",
         "credit": "Image: HEAR Strasbourg",
         "creditUrl": "https://www.hear.fr",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 1022
       }
     },
     {
@@ -5261,7 +5394,9 @@
         "alt": "White ceramic bowls and cups from the Höhr-Grenzhausen ceramics school",
         "credit": "Image: Fachschule für Keramik Höhr-Grenzhausen",
         "creditUrl": "https://www.fs-keramik.de",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 677,
+        "height": 454
       }
     },
     {
@@ -5340,7 +5475,9 @@
         "alt": "Hands working a clay slab at Alberta University of the Arts",
         "credit": "Image: Alberta University of the Arts",
         "creditUrl": "https://www.auarts.ca",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 600,
+        "height": 600
       }
     },
     {
@@ -5419,7 +5556,10 @@
         "alt": "Students at work in a Fine Arts studio at Concordia University",
         "credit": "Image: Concordia University",
         "creditUrl": "https://www.concordia.ca/finearts",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 833,
+        "position": "47% 25%"
       }
     },
     {
@@ -5499,7 +5639,9 @@
         "alt": "Ceramics area at Eskenazi School, Indiana University",
         "credit": "Image: Indiana University (Bloomington)",
         "creditUrl": "https://soaad.indiana.edu/about/areas-programs/ceramics/index.html",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 467
       }
     },
     {
@@ -5579,7 +5721,10 @@
         "alt": "Art student seated with a ceramic sculpture in a University of Iowa studio",
         "credit": "Image: University of Iowa School of Art & Art History",
         "creditUrl": "https://art.uiowa.edu",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1312,
+        "height": 738,
+        "position": "66% 26%"
       }
     },
     {
@@ -5659,7 +5804,9 @@
         "alt": "Building a brick kiln arch at Montana State University",
         "credit": "Image: Montana State University School of Art",
         "creditUrl": "https://art.montana.edu",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1060,
+        "height": 480
       }
     },
     {
@@ -5739,7 +5886,9 @@
         "alt": "Ceramics at University of Montana School of Art",
         "credit": "Image: University of Montana",
         "creditUrl": "https://www.umt.edu/art",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 600,
+        "height": 450
       }
     },
     {
@@ -5819,7 +5968,10 @@
         "alt": "A student assembling a sculpture at a work table, from the West Virginia University art program",
         "credit": "Image: West Virginia University",
         "creditUrl": "https://wvu.edu/academics/programs/art-and-design-bfa",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 933,
+        "position": "42% 18%"
       }
     },
     {
@@ -5898,7 +6050,9 @@
         "alt": "Gallery interior at the Seoul National University College of Fine Arts",
         "credit": "Image: Seoul National University",
         "creditUrl": "https://art.snu.ac.kr",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 800,
+        "height": 534
       }
     },
     {
@@ -5976,7 +6130,9 @@
         "alt": "Brick campus building of Jingdezhen Ceramic University",
         "credit": "Image: Jingdezhen Ceramic University",
         "creditUrl": "https://www.jci.edu.cn",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 672
       }
     },
     {
@@ -6055,7 +6211,9 @@
         "alt": "Courtyard at the University for the Creative Arts, Farnham",
         "credit": "Image: University for the Creative Arts",
         "creditUrl": "https://www.uca.ac.uk",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 700,
+        "height": 467
       }
     },
     {
@@ -6134,7 +6292,9 @@
         "alt": "Cardiff Metropolitan University building with its name on the facade",
         "credit": "Image: Cardiff Metropolitan University",
         "creditUrl": "https://www.cardiffmet.ac.uk",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 788
       }
     },
     {
@@ -6213,7 +6373,10 @@
         "alt": "Ceramics work, Bath Spa University MA Ceramics",
         "credit": "Image: Bath Spa University",
         "creditUrl": "https://www.bathspa.ac.uk/courses/pg-fine-art-ceramics/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 933,
+        "position": "35% 27%"
       }
     },
     {
@@ -6293,7 +6456,9 @@
         "alt": "Person firing a large decorated ceramic piece with a torch, Penn State",
         "credit": "Image: Penn State College of Arts and Architecture",
         "creditUrl": "https://arts.psu.edu",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 788
       }
     },
     {
@@ -6371,7 +6536,9 @@
         "alt": "Landshut old town with the St. Martin's church spire",
         "credit": "H.Helmlechner / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Landshut_02.jpg",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1200,
+        "height": 800
       }
     },
     {
@@ -6449,7 +6616,9 @@
         "alt": "University of Wolverhampton campus buildings",
         "credit": "Gordon Griffiths / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:University_of_Wolverhampton_Library_-_geograph.org.uk_-_977874.jpg",
-        "license": "CC BY-SA 2.0"
+        "license": "CC BY-SA 2.0",
+        "width": 640,
+        "height": 480
       }
     },
     {
@@ -6528,7 +6697,10 @@
         "alt": "Researcher 3D-scanning a decorated ceramic vessel at the University of Brighton",
         "credit": "Image: University of Brighton",
         "creditUrl": "https://www.brighton.ac.uk",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 632,
+        "height": 420,
+        "position": "38% 28%"
       }
     },
     {
@@ -6607,7 +6779,9 @@
         "alt": "University of Sunderland riverside campus at dusk",
         "credit": "Image: University of Sunderland",
         "creditUrl": "https://www.sunderland.ac.uk",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 900,
+        "height": 600
       }
     },
     {
@@ -6686,7 +6860,9 @@
         "alt": "Hongik University campus buildings in Seoul",
         "credit": "Minseong Kim / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Hongik_University_Seoul.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 909
       }
     },
     {
@@ -6765,7 +6941,9 @@
         "alt": "The museum building on the National Taiwan University of Arts campus",
         "credit": "Foxy Who / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:%E5%8F%B0%E7%81%A3%E8%97%9D%E8%A1%93%E5%A4%A7%E5%AD%B8_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0"
+        "license": "CC BY-SA 3.0",
+        "width": 1400,
+        "height": 1050
       }
     },
     {
@@ -6846,7 +7024,9 @@
         "alt": "Ceramics student work at Kansas City Art Institute",
         "credit": "Image: Kansas City Art Institute (KCAI)",
         "creditUrl": "https://kcai.edu/academics/majors_minors/majors/Ceramics/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 786
       }
     },
     {
@@ -6927,7 +7107,9 @@
         "alt": "Gallery with small objects on plinths at Utah State University Art + Design",
         "credit": "Image: Utah State University",
         "creditUrl": "https://art.usu.edu",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 788
       }
     },
     {
@@ -7007,7 +7189,9 @@
         "alt": "Ceramics studio at University of Minnesota Art",
         "credit": "Image: University of Minnesota (Twin Cities)",
         "creditUrl": "https://cla.umn.edu/art",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 486
       }
     },
     {
@@ -7087,7 +7271,9 @@
         "alt": "Bascom Hall at the University of Wisconsin-Madison",
         "credit": "ALindgren74 / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Bascom_Hall_at_Dusk.jpg",
-        "license": "CC BY 4.0"
+        "license": "CC BY 4.0",
+        "width": 1080,
+        "height": 1080
       }
     },
     {
@@ -7167,7 +7353,10 @@
         "alt": "Artist in studio, Lamar Dodd School of Art, UGA",
         "credit": "Image: University of Georgia (UGA)",
         "creditUrl": "https://art.uga.edu",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1024,
+        "height": 683,
+        "position": "60% 25%"
       }
     },
     {
@@ -7247,7 +7436,9 @@
         "alt": "Walkway across the Rochester Institute of Technology campus",
         "credit": "Stuuf / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Rit_quarter_mile.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 700,
+        "height": 757
       }
     },
     {
@@ -7327,7 +7518,9 @@
         "alt": "Student assembling a sculpture at a MassArt workbench",
         "credit": "Image: Massachusetts College of Art and Design",
         "creditUrl": "https://massart.edu",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1024,
+        "height": 683
       }
     },
     {
@@ -7407,7 +7600,10 @@
         "alt": "Ceramics at University of Tennessee School of Art",
         "credit": "Image: University of Tennessee, Knoxville (UTK)",
         "creditUrl": "https://art.utk.edu/about/areas-of-study/ceramics/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 900,
+        "height": 994,
+        "position": "31% 22%"
       }
     },
     {
@@ -7487,7 +7683,9 @@
         "alt": "The Konstfack building in Stockholm",
         "credit": "Holger.Ellgaard / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Ericsson_V%C3%A4stberga_2010b.jpg",
-        "license": "CC BY-SA 3.0"
+        "license": "CC BY-SA 3.0",
+        "width": 1400,
+        "height": 996
       }
     },
     {
@@ -7567,7 +7765,9 @@
         "alt": "The historic Medalta Potteries building in Medicine Hat",
         "credit": "Codazzle / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Medalta_Potteries_National_Historic_Site_of_Canada_ID_12132_-_3.JPG",
-        "license": "CC BY-SA 3.0"
+        "license": "CC BY-SA 3.0",
+        "width": 1400,
+        "height": 928
       }
     },
     {
@@ -7649,7 +7849,9 @@
         "alt": "Banff Centre campus below Mount Norquay",
         "credit": "Image: Banff Centre for Arts and Creativity",
         "creditUrl": "https://www.banffcentre.ca",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 934
       }
     },
     {
@@ -7800,7 +8002,9 @@
         "alt": "The Auditorium and lawn at Tsinghua University",
         "credit": "Jon / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:12_Tsinghua.jpg",
-        "license": "CC BY 2.0"
+        "license": "CC BY 2.0",
+        "width": 1200,
+        "height": 633
       }
     },
     {
@@ -7879,7 +8083,9 @@
         "alt": "Historic yellow-brick building of the Eugeniusz Geppert Academy of Art and Design in Wroclaw",
         "credit": "soltys.biz / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Akademia_Sztuk_Pi%C4%99knych_im._Eugeniusza_Gepperta_we_Wroc%C5%82awiu_-_budynek_przy_pl._Polskim.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 1050
       }
     },
     {
@@ -7958,7 +8164,9 @@
         "alt": "The Moholy-Nagy University of Art and Design building in Budapest",
         "credit": "Pseudobombast / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Moholy-Nagy1.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 1126,
+        "height": 802
       }
     },
     {
@@ -8037,7 +8245,9 @@
         "alt": "UMPRUM academy building in Prague",
         "credit": "Image: UMPRUM Academy of Arts, Architecture and Design",
         "creditUrl": "https://www.umprum.cz",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 682,
+        "height": 512
       }
     },
     {
@@ -8116,7 +8326,10 @@
         "alt": "Visitors in front of a wall of ceramic plates at Appalachian State University",
         "credit": "Image: Appalachian State University",
         "creditUrl": "https://art.appstate.edu",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 1238,
+        "position": "49% 33%"
       }
     },
     {
@@ -8196,7 +8409,10 @@
         "alt": "Visitors looking at pottery in an East Carolina University gallery",
         "credit": "Image: East Carolina University School of Art and Design",
         "creditUrl": "https://art.ecu.edu",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 750,
+        "height": 750,
+        "position": "55% 10%"
       }
     },
     {
@@ -8276,7 +8492,9 @@
         "alt": "Gallery installation at California State University, Northridge",
         "credit": "Image: California State University, Northridge",
         "creditUrl": "https://www.csun.edu/mike-curb-arts-media-communication/art",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1024,
+        "height": 822
       }
     },
     {
@@ -8355,7 +8573,9 @@
         "alt": "University of Hartford campus building and lawn",
         "credit": "Image: University of Hartford",
         "creditUrl": "https://www.hartford.edu/art",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 900,
+        "height": 600
       }
     },
     {
@@ -8435,7 +8655,9 @@
         "alt": "Student in protective gear working beside a kiln at SIUE",
         "credit": "Image: Southern Illinois University Edwardsville",
         "creditUrl": "https://www.siue.edu/artsandsciences/art",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1250,
+        "height": 625
       }
     },
     {
@@ -8515,7 +8737,9 @@
         "alt": "Aerial view of the Bowling Green State University campus",
         "credit": "Image: Bowling Green State University",
         "creditUrl": "https://www.bgsu.edu/art",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 691
       }
     },
     {
@@ -8595,7 +8819,9 @@
         "alt": "Cook Hall at Illinois State University",
         "credit": "William Wesen Appraiser / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Cookhall.JPG",
-        "license": "CC BY-SA 3.0"
+        "license": "CC BY-SA 3.0",
+        "width": 1400,
+        "height": 1057
       }
     },
     {
@@ -8675,7 +8901,9 @@
         "alt": "Gallery interior at the University of North Texas College of Visual Arts and Design",
         "credit": "Image: University of North Texas",
         "creditUrl": "https://art.unt.edu",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1200,
+        "height": 600
       }
     },
     {
@@ -8755,7 +8983,9 @@
         "alt": "Student throwing on the wheel at Texas Tech School of Art",
         "credit": "Image: Texas Tech University School of Art",
         "creditUrl": "https://www.depts.ttu.edu/art",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1000,
+        "height": 666
       }
     },
     {
@@ -8835,7 +9065,9 @@
         "alt": "Ceramics program header at PennWest Edinboro",
         "credit": "Image: PennWest Edinboro",
         "creditUrl": "https://www.pennwest.edu/academics/programs/studio-arts/ceramics.php",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 599
       }
     },
     {
@@ -8913,7 +9145,10 @@
         "alt": "Ceramics studio at Harbourfront Centre",
         "credit": "Image: Harbourfront Centre",
         "creditUrl": "https://harbourfrontcentre.com/program/residency-program-information/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1024,
+        "height": 684,
+        "position": "48% 23%"
       }
     },
     {
@@ -8992,7 +9227,9 @@
         "alt": "Ceramic work shown at JamFactory",
         "credit": "Image: JamFactory",
         "creditUrl": "https://www.jamfactory.com.au/associate-program",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 967
       }
     },
     {
@@ -9071,7 +9308,9 @@
         "alt": "Musashino Art University building",
         "credit": "Hykw-a4 / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Musashino_Art_University.jpg",
-        "license": "GFDL"
+        "license": "GFDL",
+        "width": 1400,
+        "height": 1050
       }
     },
     {
@@ -9150,7 +9389,9 @@
         "alt": "Hands throwing a bowl on the wheel at Capellagården",
         "credit": "Image: Capellagården",
         "creditUrl": "https://www.capellagarden.se",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 934
       }
     },
     {
@@ -9229,7 +9470,9 @@
         "alt": "Château building of La Cambre art school, Brussels",
         "credit": "Image: La Cambre",
         "creditUrl": "https://www.lacambre.be",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 1392
       }
     },
     {
@@ -9308,7 +9551,9 @@
         "alt": "The HEAD – Genève building",
         "credit": "Manuel Schmalstieg / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:B%C3%A2timent_Hippomene_%28ancienne_usine_Tavaro%29_en_ao%C3%BBt_2018.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 1051
       }
     },
     {
@@ -9387,7 +9632,9 @@
         "alt": "A Kookmin University campus building in Seoul",
         "credit": "Ihnseong Baek / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Kookmin1.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 700,
+        "height": 465
       }
     },
     {
@@ -9466,7 +9713,9 @@
         "alt": "Ewha Campus Complex at Ewha Womans University, Seoul",
         "credit": "Image: Ewha Womans University",
         "creditUrl": "https://www.ewha.ac.kr",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 740,
+        "height": 530
       }
     },
     {
@@ -9545,7 +9794,9 @@
         "alt": "The Weissensee Academy of Art building in Berlin",
         "credit": "Angela M. Arnold (=44penguins) / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:B%C3%BChringstr_Wei%C3%9Fensee_110523_AMA_fec_%2870%29.JPG",
-        "license": "GFDL"
+        "license": "GFDL",
+        "width": 1400,
+        "height": 1076
       }
     },
     {
@@ -9624,7 +9875,9 @@
         "alt": "Gathering outside the Estonian Academy of Arts building in Tallinn",
         "credit": "Image: Estonian Academy of Arts",
         "creditUrl": "https://www.artun.ee",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 515
       }
     },
     {
@@ -9703,7 +9956,9 @@
         "alt": "Ulster University's Belfast campus building",
         "credit": "Mustafa Ahmad Al-Baraka / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:City_University_Qatar_campus.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 903
       }
     },
     {
@@ -9782,7 +10037,9 @@
         "alt": "The Thomas Street building of the National College of Art and Design, Dublin",
         "credit": "DubhEire / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:National_College_of_Art_and_Design.JPG",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1400,
+        "height": 1050
       }
     },
     {
@@ -9861,7 +10118,9 @@
         "alt": "Ceramics at Bornholms Hojskole",
         "credit": "Image: Bornholms Højskole",
         "creditUrl": "https://bornholmshojskole.dk",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1040,
+        "height": 693
       }
     },
     {
@@ -9940,7 +10199,9 @@
         "alt": "Wheel-throwing summer course at Leksands folkhogskola",
         "credit": "Image: Leksands Folkhögskola",
         "creditUrl": "https://www.leksand.fhsk.se",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 800,
+        "height": 530
       }
     },
     {
@@ -10019,7 +10280,9 @@
         "alt": "The historic cottage at Sturt in Mittagong, New South Wales",
         "credit": "Image: Sturt Gallery and Studios",
         "creditUrl": "https://www.sturt.nsw.edu.au",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 944,
+        "height": 531
       }
     },
     {
@@ -10099,7 +10362,9 @@
         "alt": "Memorial fountain and magnolias at the University of Delaware",
         "credit": "Cargoudel / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:UDel_Memorial_and_Magnolia_Circle.JPG",
-        "license": "GFDL"
+        "license": "GFDL",
+        "width": 1400,
+        "height": 1048
       }
     },
     {
@@ -10179,7 +10444,9 @@
         "alt": "Brutalist campus buildings at UMass Dartmouth",
         "credit": "UMassD Marketing / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:UMass_Dartmouth_Claire_T._Carney_Library_-_West_Side.jpg",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1400,
+        "height": 788
       }
     },
     {
@@ -10259,7 +10526,9 @@
         "alt": "Open studio with sculpture and city views at Georgia State University",
         "credit": "Image: Georgia State University School of Art and Design",
         "creditUrl": "https://artdesign.gsu.edu",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 933
       }
     },
     {
@@ -10339,7 +10608,9 @@
         "alt": "Exterior of the DAAP building at the University of Cincinnati",
         "credit": "Image: University of Cincinnati DAAP",
         "creditUrl": "https://daap.uc.edu",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 934
       }
     },
     {
@@ -10419,7 +10690,9 @@
         "alt": "The historic Main Building at the University of Kentucky",
         "credit": "Seicer / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Main_Bldg_%28UK%29.jpg",
-        "license": "GFDL"
+        "license": "GFDL",
+        "width": 600,
+        "height": 405
       }
     },
     {
@@ -10499,7 +10772,9 @@
         "alt": "White porcelain figurative sculpture by a University of Hawai'i at Manoa student",
         "credit": "Image: University of Hawai'i at Manoa Department of Art and Art History",
         "creditUrl": "https://hawaii.edu/art",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1051,
+        "height": 1400
       }
     },
     {
@@ -10579,7 +10854,9 @@
         "alt": "Student ceramic bowls at UAF Art Department",
         "credit": "Image: University of Alaska Fairbanks",
         "creditUrl": "https://www.uaf.edu/art/areas/ceramics.php",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1200,
+        "height": 960
       }
     },
     {
@@ -10659,7 +10936,9 @@
         "alt": "Pueblo Revival architecture at the University of New Mexico",
         "credit": "PerryPlanet / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Unm_carlislegym.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 1400,
+        "height": 777
       }
     },
     {
@@ -10739,7 +11018,9 @@
         "alt": "Westcott Building fountain and tower at Florida State University",
         "credit": "Tim Ross (original by TrbleClef) / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:FSUWestcottBuilding-2.jpg",
-        "license": "GFDL"
+        "license": "GFDL",
+        "width": 793,
+        "height": 535
       }
     },
     {
@@ -10818,7 +11099,9 @@
         "alt": "Gallery installation at the University of Manitoba School of Art",
         "credit": "Image: University of Manitoba School of Art",
         "creditUrl": "https://umanitoba.ca/art",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 900,
+        "height": 600
       }
     },
     {
@@ -10897,7 +11180,9 @@
         "alt": "Bezalel Academy of Arts and Design campus in Jerusalem",
         "credit": "Анна Стребкова / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:%D0%97%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D0%B8_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2_%D0%91%D0%B5%D1%86%D0%B0%D0%BB%D0%B5%D0%BB%D1%8C.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 741,
+        "height": 593
       }
     },
     {
@@ -10976,7 +11261,9 @@
         "alt": "Ceramic relief tile panels at Silpakorn University",
         "credit": "Image: Silpakorn University",
         "creditUrl": "https://www.su.ac.th",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 615
       }
     },
     {
@@ -11055,7 +11342,9 @@
         "alt": "Historic Aula Barat building at Institut Teknologi Bandung",
         "credit": "User:Anton Leddin / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:ITB_1.jpg",
-        "license": "GFDL"
+        "license": "GFDL",
+        "width": 1000,
+        "height": 633
       }
     },
     {
@@ -11134,7 +11423,9 @@
         "alt": "Osaka University of Arts campus lawn and building",
         "credit": "663highland / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Osaka_University_of_Arts_Junior_College_Itami_campus01bs.jpg",
-        "license": "GFDL"
+        "license": "GFDL",
+        "width": 1400,
+        "height": 933
       }
     },
     {
@@ -11213,7 +11504,9 @@
         "alt": "Students gathered on the steps of Muthesius Kunsthochschule in Kiel",
         "credit": "Image: Muthesius Kunsthochschule",
         "creditUrl": "https://muthesius-kunsthochschule.de",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 800,
+        "height": 533
       }
     },
     {
@@ -11334,7 +11627,9 @@
         "alt": "Contemporary textile art on show in an African Arts Trust gallery",
         "credit": "Image: The African Arts Trust",
         "creditUrl": "https://www.theafricanartstrust.org",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 940,
+        "height": 560
       }
     },
     {
@@ -11397,7 +11692,9 @@
         "alt": "Woven forms loaded in a kiln, shown on the LIAEP site",
         "credit": "Image: LIAEP",
         "creditUrl": "http://www.liaep.org",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1050,
+        "height": 1400
       }
     },
     {
@@ -11696,7 +11993,9 @@
         "alt": "Aerial view of a main road through Kigali, Rwanda",
         "credit": "Emmanuelkwizera / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:High_Angle_View_Of_Kigali_City_Street_on_November_29%2C_2018._Emmanuel_Kwizera.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 964
       }
     },
     {
@@ -11762,7 +12061,9 @@
         "alt": "Courtyard of the Foreign, Commonwealth and Development Office in London",
         "credit": "Christine Matthews / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Courtyard%2C_Foreign_and_Commonwealth_Office%2C_King_Charles_Street%2C_London_SW1_-_geograph.org.uk_-_4185311.jpg",
-        "license": "CC BY-SA 2.0"
+        "license": "CC BY-SA 2.0",
+        "width": 1289,
+        "height": 859
       }
     },
     {
@@ -11829,7 +12130,9 @@
         "alt": "The DAAD headquarters in Bonn with its flags",
         "credit": "Raimond Spekking / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:DAAD_Bonn_-_Fahnen_%280478-80%29.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1107,
+        "height": 1200
       }
     },
     {
@@ -11895,7 +12198,10 @@
         "alt": "Graduates in caps and gowns celebrating, from the VLIR-UOS site",
         "credit": "Image: VLIR-UOS",
         "creditUrl": "https://www.vliruos.be",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1200,
+        "height": 630,
+        "position": "41% 31%"
       }
     },
     {
@@ -11959,7 +12265,9 @@
         "alt": "Sharjah Art Foundation building, Al Mureijah",
         "credit": "Image: Sharjah Art Foundation",
         "creditUrl": "http://sharjahart.org",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1000,
+        "height": 625
       }
     },
     {
@@ -12026,7 +12334,10 @@
         "alt": "Institut francais cultural exchange visit",
         "credit": "Image: Institut francais",
         "creditUrl": "https://www.institutfrancais.com/fr/offre/visas-pour-la-creation",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1200,
+        "height": 628,
+        "position": "51% 24%"
       }
     },
     {
@@ -12090,7 +12401,10 @@
         "alt": "Artists firing a kiln at a Color Network residency",
         "credit": "Image: The Color Network",
         "creditUrl": "https://thecolornetwork.org/mentorship",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1080,
+        "height": 720,
+        "position": "23% 1%"
       }
     },
     {
@@ -12156,7 +12470,9 @@
         "alt": "Budapest skyline with the Chain Bridge and Parliament at dusk",
         "credit": "Image: Stipendium Hungaricum",
         "creditUrl": "https://stipendiumhungaricum.hu",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 933
       }
     },
     {
@@ -12230,7 +12546,10 @@
         "alt": "Two people talking beside suspended textile works, from the Akademie Schloss Solitude site",
         "credit": "Image: Akademie Schloss Solitude",
         "creditUrl": "https://www.akademie-solitude.de",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 934,
+        "position": "38% 31%"
       }
     },
     {
@@ -12303,7 +12622,9 @@
         "alt": "Framed works hung salon-style along a gallery corridor, from the IASPIS site",
         "credit": "Image: IASPIS",
         "creditUrl": "https://www.konstnarsnamnden.se",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 1037
       }
     },
     {
@@ -12367,7 +12688,10 @@
         "alt": "Adolph Gottlieb beside one of his paintings",
         "credit": "Image: Adolph and Esther Gottlieb Foundation",
         "creditUrl": "https://www.gottliebfoundation.org",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 1104,
+        "position": "26% 22%"
       }
     },
     {
@@ -12431,7 +12755,10 @@
         "alt": "Jackson Pollock and Lee Krasner in front of a painting",
         "credit": "Image: Pollock-Krasner Foundation",
         "creditUrl": "https://pkf.org",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 1154,
+        "position": "32% 10%"
       }
     },
     {
@@ -12552,7 +12879,9 @@
         "alt": "Kigali at dusk, seen from the hills",
         "credit": "Adrien K / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Kigali2018.jpg",
-        "license": "CC BY 2.0"
+        "license": "CC BY 2.0",
+        "width": 1400,
+        "height": 933
       }
     },
     {
@@ -12675,7 +13004,10 @@
         "alt": "Sculptor working on a clay piece, from the Virginia A. Groot Foundation site",
         "credit": "Image: Virginia A. Groot Foundation",
         "creditUrl": "https://www.virginiaagrootfoundation.org/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 885,
+        "position": "58% 5%"
       }
     },
     {
@@ -12750,7 +13082,9 @@
         "alt": "Historic buildings of Fort Barry in the Marin Headlands",
         "credit": "Image: Headlands Center for the Arts",
         "creditUrl": "https://www.headlands.org/programs/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1200,
+        "height": 886
       }
     },
     {
@@ -12824,7 +13158,10 @@
         "alt": "Artist working in the Lucas Artists Residency at Montalvo",
         "credit": "Image: Montalvo Arts Center",
         "creditUrl": "https://montalvoarts.org/experience/lucas-artists-residency-program/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 683,
+        "height": 625,
+        "position": "84% 35%"
       }
     },
     {
@@ -12898,7 +13235,9 @@
         "alt": "Djerassi land in the Santa Cruz Mountains",
         "credit": "Image: Djerassi Resident Artists Program",
         "creditUrl": "https://djerassi.org",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1024,
+        "height": 689
       }
     },
     {
@@ -12976,7 +13315,9 @@
         "alt": "Film installation in a gallery at 18th Street Arts Center",
         "credit": "Image: 18th Street Arts Center",
         "creditUrl": "https://18thstreet.org/?p=120556",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1200,
+        "height": 800
       }
     },
     {
@@ -13053,7 +13394,9 @@
         "alt": "Artist sketching with plants at Sitka Center",
         "credit": "Image: Sitka Center for Art and Ecology",
         "creditUrl": "https://www.sitkacenter.org",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 567
       }
     },
     {
@@ -13197,7 +13540,9 @@
         "alt": "Historic officers' quarters at Fort Worden, home of Centrum in Port Townsend",
         "credit": "Frank Schulenburg / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Building_on_Eisenhower_Ave_at_Fort_Worden_State_Park.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 875
       }
     },
     {
@@ -13272,7 +13617,10 @@
         "alt": "Ceramics workshop at STARworks",
         "credit": "Image: STARworks",
         "creditUrl": "https://www.starworksnc.org",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 934,
+        "position": "70% 33%"
       }
     },
     {
@@ -13347,7 +13695,9 @@
         "alt": "The converted church that houses the McColl Center in Charlotte",
         "credit": "Image: McColl Center",
         "creditUrl": "https://mccollcenter.org",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 800,
+        "height": 450
       }
     },
     {
@@ -13426,7 +13776,10 @@
         "alt": "Fellows working at a table at the Hambidge Center",
         "credit": "Image: The Hambidge Center",
         "creditUrl": "https://www.hambidge.org",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 933,
+        "position": "47% 32%"
       }
     },
     {
@@ -13500,7 +13853,9 @@
         "alt": "February 2026 residents at Stove Works",
         "credit": "Image: Stove Works",
         "creditUrl": "https://www.stoveworks.org/residency",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 934
       }
     },
     {
@@ -13574,7 +13929,9 @@
         "alt": "Hermitage Artist Retreat house on the Florida Gulf coast",
         "credit": "Image: Hermitage Artist Retreat",
         "creditUrl": "https://hermitageartistretreat.org",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 933
       }
     },
     {
@@ -13648,7 +14005,10 @@
         "alt": "Pots and sculpture at 3rd Street Studio, Whidbey Island",
         "credit": "Image: 3rd Street Studio / Cook on Clay",
         "creditUrl": "https://3rdstreetstudio.com/pages/the-apprentice",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 467,
+        "position": "57% 69%"
       }
     },
     {
@@ -13797,7 +14157,9 @@
         "alt": "Kintsugi-repaired tea bowl with gold seams",
         "credit": "Image: POJ Studio",
         "creditUrl": "https://pojstudio.com",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 898,
+        "height": 1400
       }
     },
     {
@@ -13876,7 +14238,9 @@
         "alt": "Inside the wood kiln at East Creek Anagama",
         "credit": "Image: East Creek Art",
         "creditUrl": "https://www.eastcreekart.org/work",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 610
       }
     },
     {
@@ -13948,7 +14312,10 @@
         "alt": "A tea ceremony in a tatami room, from the Japan Foundation site",
         "credit": "Image: The Japan Foundation",
         "creditUrl": "https://www.jpf.go.jp",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 960,
+        "height": 440,
+        "position": "51% 19%"
       }
     },
     {
@@ -14080,7 +14447,9 @@
         "alt": "Glass entrance of the Pola Museum of Art in Hakone",
         "credit": "663highland / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:191103_Pola_Museum_of_Art_Hakone_Japan02s3.jpg",
-        "license": "GFDL"
+        "license": "GFDL",
+        "width": 1200,
+        "height": 800
       }
     },
     {
@@ -14145,7 +14514,9 @@
         "alt": "Nomura corporate building in Tokyo",
         "credit": "Image: Nomura Foundation",
         "creditUrl": "https://www.nomurafoundation.or.jp",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1366,
+        "height": 666
       }
     },
     {
@@ -14210,7 +14581,9 @@
         "alt": "Gallery interior at Cannon Beach Arts Association",
         "credit": "Image: Cannon Beach Arts Association",
         "creditUrl": "https://cannonbeacharts.org",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 1050
       }
     },
     {
@@ -14284,7 +14657,9 @@
         "alt": "Sou'wester Lodge grounds in Seaview, Washington",
         "credit": "Image: Sou'wester Arts",
         "creditUrl": "https://www.souwesterarts.org",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1200,
+        "height": 798
       }
     },
     {
@@ -14363,7 +14738,10 @@
         "alt": "Visitors at Studio Kura in Itoshima",
         "credit": "Image: Studio Kura",
         "creditUrl": "https://studiokura.info",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 934,
+        "position": "68% 39%"
       }
     },
     {
@@ -14442,7 +14820,9 @@
         "alt": "Aerial view of Shiro Oni Studio, Onishi",
         "credit": "Image: Shiro Oni Studio",
         "creditUrl": "https://shirooni.com/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1024,
+        "height": 682
       }
     },
     {
@@ -14588,7 +14968,9 @@
         "alt": "Kiln at Odyssey ClayWorks",
         "credit": "Image: Odyssey ClayWorks",
         "creditUrl": "https://www.odysseyclayworks.com",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1050,
+        "height": 1400
       }
     },
     {
@@ -14629,7 +15011,9 @@
         "alt": "Potter hand-building at a studio bench at the Archie Bray Foundation",
         "credit": "Image: Archie Bray Foundation for the Ceramic Arts",
         "creditUrl": "https://archiebray.org",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 1400
       }
     },
     {
@@ -14671,7 +15055,9 @@
         "alt": "Residents at Watershed Center for the Ceramic Arts",
         "credit": "Image: Watershed Center for the Ceramic Arts",
         "creditUrl": "https://www.watershedceramics.org/residencies/apply",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1200,
+        "height": 800
       }
     },
     {
@@ -14711,7 +15097,9 @@
         "alt": "Penland School of Craft studio",
         "credit": "Image: Penland School of Craft",
         "creditUrl": "https://penland.org",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1000,
+        "height": 667
       }
     },
     {
@@ -14752,7 +15140,9 @@
         "alt": "The ceramics studio at Anderson Ranch",
         "credit": "Image: Anderson Ranch Arts Center",
         "creditUrl": "https://www.andersonranch.org/programs/artists-in-residence-program/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1024,
+        "height": 683
       }
     },
     {
@@ -14791,7 +15181,9 @@
         "alt": "The Clay Studio, Philadelphia",
         "credit": "Image: The Clay Studio",
         "creditUrl": "https://www.theclaystudio.org/apply/artist-program/resident-artist-program",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1140,
+        "height": 596
       }
     },
     {
@@ -14828,7 +15220,9 @@
         "alt": "Greenwich House Pottery studio, New York",
         "credit": "Image: Greenwich House Pottery",
         "creditUrl": "https://greenwichhouse.org/pottery/about/residents-and-fellowship-artists/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 640,
+        "height": 427
       }
     },
     {
@@ -14866,7 +15260,10 @@
         "alt": "Artist working in the studio at Northern Clay Center",
         "credit": "Image: Northern Clay Center",
         "creditUrl": "https://northernclaycenter.org/artist-services/grants-for-artists/mcknight-residencies/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1000,
+        "height": 1000,
+        "position": "71% 18%"
       }
     },
     {
@@ -14906,7 +15303,9 @@
         "alt": "Ceramic work at AMOCA, Pomona",
         "credit": "Image: American Museum of Ceramic Art (AMOCA)",
         "creditUrl": "https://www.amoca.org/studio1/artist-in-residence/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1024,
+        "height": 767
       }
     },
     {
@@ -14947,7 +15346,9 @@
         "alt": "Harvard Yard in summer",
         "credit": "Mancala / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:HarvardYard.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 790,
+        "height": 623
       }
     },
     {
@@ -14985,7 +15386,9 @@
         "alt": "Haystack Mountain School of Crafts studio",
         "credit": "Image: Haystack Mountain School of Crafts",
         "creditUrl": "https://www.haystack-mtn.org/open-studio-residency",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 934
       }
     },
     {
@@ -15028,7 +15431,9 @@
         "alt": "Kilns firing at night at Red Lodge Clay Center",
         "credit": "Image: Red Lodge Clay Center",
         "creditUrl": "https://www.redlodgeclaycenter.com/residency-info/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 800,
+        "height": 596
       }
     },
     {
@@ -15067,7 +15472,9 @@
         "alt": "Clayroom studio, San Francisco Bay Area",
         "credit": "Image: Clayroom",
         "creditUrl": "https://www.clayroomsf.com/warp",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 744,
+        "height": 495
       }
     },
     {
@@ -15103,7 +15510,10 @@
         "alt": "Ceramics residency at Sebastopol Center for the Arts",
         "credit": "Image: Sebastopol Center for the Arts",
         "creditUrl": "https://www.sebarts.org/artist-residency",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 1254,
+        "position": "47% 29%"
       }
     },
     {
@@ -15141,7 +15551,10 @@
         "alt": "Artist shaping a large clay vessel at the Hambidge Center",
         "credit": "Image: Hambidge Center",
         "creditUrl": "https://www.hambidge.org",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 933,
+        "position": "66% 22%"
       }
     },
     {
@@ -15180,7 +15593,9 @@
         "alt": "The stone farmhouse that houses La Meridiana ceramics school in Tuscany",
         "credit": "Image: La Meridiana",
         "creditUrl": "https://lameridiana.fi.it",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 681
       }
     },
     {
@@ -15218,7 +15633,9 @@
         "alt": "A grey ceramic vessel from the Guldagergaard International Ceramic Research Center",
         "credit": "Image: Guldagergaard International Ceramic Research Center",
         "creditUrl": "https://ceramic.dk/residencies/artist-in-residence/apply-artist-in-residence/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 941
       }
     },
     {
@@ -15257,7 +15674,9 @@
         "alt": "Studio at the European Ceramic Work Centre",
         "credit": "Image: European Ceramic Work Centre (EKWC)",
         "creditUrl": "https://sundaymorning.ekwc.nl",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1313,
+        "height": 630
       }
     },
     {
@@ -15295,7 +15714,10 @@
         "alt": "Residents at a long table with white porcelain forms, International Ceramics Studio, Hungary",
         "credit": "Image: International Ceramics Studio, Hungary",
         "creditUrl": "http://icshu.org",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 676,
+        "height": 450,
+        "position": "34% 21%"
       }
     },
     {
@@ -15334,7 +15756,10 @@
         "alt": "A potter at work in the Leach Pottery workshop in St Ives",
         "credit": "Image: Leach Pottery",
         "creditUrl": "https://www.leachpottery.com/apprenticeship",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1050,
+        "height": 1400,
+        "position": "23% 29%"
       }
     },
     {
@@ -15373,7 +15798,9 @@
         "alt": "Rows of tanuki figures and pots outside a Shigaraki ware shop",
         "credit": "Iwashigumo~enwiki / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Shigaraki.jpg",
-        "license": "GFDL"
+        "license": "GFDL",
+        "width": 1000,
+        "height": 750
       }
     },
     {
@@ -15411,7 +15838,9 @@
         "alt": "Imari-style porcelain dish from Arita",
         "credit": "Pekachu / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Kyushu_Ceramic_Museum_S-VII-76_Iroe-Umerankanmadoemon-Sara.JPG",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 1320
       }
     },
     {
@@ -15449,7 +15878,9 @@
         "alt": "Kouraku Kiln porcelain residency, Japan",
         "credit": "Image: Kouraku Kiln",
         "creditUrl": "https://www.kourakukiln.com",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 933
       }
     },
     {
@@ -15488,7 +15919,10 @@
         "alt": "Mashiko Arts & Crafts Residence",
         "credit": "Image: Mashiko Museum of Ceramic Art",
         "creditUrl": "https://www.mashiko-museum.jp/en/residence/index.html",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 650,
+        "height": 432,
+        "position": "62% 31%"
       }
     },
     {
@@ -15524,7 +15958,9 @@
         "alt": "Shiro-Oni residency building and lawn seen from above",
         "credit": "Image: Shiro-Oni Studio",
         "creditUrl": "https://shirooni.com",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1200,
+        "height": 799
       }
     },
     {
@@ -15564,7 +16000,9 @@
         "alt": "Seto townscape and cultural hall in Aichi Prefecture",
         "credit": "Steve Nelson / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:SetoCityInternationalCenterBig.jpg",
-        "license": "GFDL"
+        "license": "GFDL",
+        "width": 1200,
+        "height": 800
       }
     },
     {
@@ -15604,7 +16042,9 @@
         "alt": "Rows of unfired terracotta jars drying in Jingdezhen",
         "credit": "Liuxingy / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_10.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 1050
       }
     },
     {
@@ -15640,7 +16080,10 @@
         "alt": "Gaya Ceramic resident artist program, Ubud, Bali",
         "credit": "Image: Gaya Ceramic Arts Center",
         "creditUrl": "https://www.gayaceramic.com/resident-artist-program.html",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1200,
+        "height": 900,
+        "position": "53% 40%"
       }
     },
     {
@@ -15678,7 +16121,9 @@
         "alt": "Light studio room with garden windows at Driftwood Studios",
         "credit": "Image: Driftwood Studios",
         "creditUrl": "https://driftwoodstudios.co.za",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 933
       }
     },
     {
@@ -15713,7 +16158,10 @@
         "alt": "Potter and a visitor shaping clay together in a village, from the Cross Cultural Collaborative site",
         "credit": "Image: Cross Cultural Collaborative",
         "creditUrl": "https://www.culturalcollaborative.org",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 722,
+        "height": 373,
+        "position": "28% 39%"
       }
     },
     {
@@ -15774,7 +16222,9 @@
         "alt": "Ceramic double vessel by Maxwell Henderson, NCECA Emerging Artist",
         "credit": "Image: NCECA",
         "creditUrl": "https://nceca.net/fellowships",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1120,
+        "height": 1400
       }
     },
     {
@@ -15808,7 +16258,9 @@
         "alt": "Hand-painted stoneware vase with a tree and tulip motif, from the NCECA fellowships page",
         "credit": "Image: NCECA",
         "creditUrl": "https://nceca.net/fellowships",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1224,
+        "height": 1400
       }
     },
     {
@@ -15842,7 +16294,9 @@
         "alt": "Stacked painted ceramic cups, from the NCECA fellowships page",
         "credit": "Image: NCECA",
         "creditUrl": "https://nceca.net/fellowships",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 884,
+        "height": 1168
       }
     },
     {
@@ -15876,7 +16330,9 @@
         "alt": "Hexagon tile arrangement of small ceramic forms, from the NCECA fellowships page",
         "credit": "Image: NCECA",
         "creditUrl": "https://nceca.net/fellowships",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 933
       }
     },
     {
@@ -15910,7 +16366,10 @@
         "alt": "Artist decorating a tall clay sculpture in a Northern Clay Center studio",
         "credit": "Image: Northern Clay Center",
         "creditUrl": "https://northernclaycenter.org",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 933,
+        "height": 1400,
+        "position": "68% 42%"
       }
     },
     {
@@ -15943,7 +16402,9 @@
         "alt": "Yellow and teal ceramic sculptures, from the Center for Craft site",
         "credit": "Image: Center for Craft",
         "creditUrl": "https://centerforcraft.org",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 1051
       }
     },
     {
@@ -15977,7 +16438,9 @@
         "alt": "Potter shaping a vessel by hand, from the Spector Craft Prize site",
         "credit": "Image: Spector Craft Prize",
         "creditUrl": "https://spectorcraftprize.org/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 960,
+        "height": 1177
       }
     },
     {
@@ -16065,7 +16528,9 @@
         "alt": "White sculptural figure with outspread wings, shown on the Jerome Foundation site",
         "credit": "Image: Jerome Foundation",
         "creditUrl": "https://jeromefdn.org",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 820
       }
     },
     {
@@ -16098,7 +16563,9 @@
         "alt": "Neighbours gathered outside a mural-covered building at a Brooklyn community event",
         "credit": "Image: Brooklyn Arts Council",
         "creditUrl": "https://www.brooklynartscouncil.org/what-we-do/grants/brooklyn-arts-fund",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 614,
+        "height": 461
       }
     },
     {
@@ -16158,7 +16625,9 @@
         "alt": "The Dallas Museum of Art building",
         "credit": "Michael Barera / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Dallas_Museum_of_Art_July_2015_01.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 933
       }
     },
     {
@@ -16192,7 +16661,10 @@
         "alt": "Two artists working at a bench in a Powerhouse Arts studio",
         "credit": "Image: Powerhouse Arts",
         "creditUrl": "https://powerhousearts.org/artist-subsidy-program/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 933,
+        "position": "50% 32%"
       }
     },
     {
@@ -16225,7 +16697,10 @@
         "alt": "Painter at work on a large canvas, from the Massachusetts Cultural Council site",
         "credit": "Image: Massachusetts Cultural Council",
         "creditUrl": "https://massculturalcouncil.org",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1080,
+        "height": 720,
+        "position": "29% 26%"
       }
     },
     {
@@ -16324,7 +16799,9 @@
         "alt": "Timber studio buildings in the landscape at Cove Park, Scotland",
         "credit": "AlasdairW / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:DSCN8735_Cove_Park%2C_Rosneath_Peninsula.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1200,
+        "height": 900
       }
     },
     {
@@ -16361,7 +16838,9 @@
         "alt": "Plywood wall and a hanging monitor in an exhibition space, from the Between Bridges site",
         "credit": "Image: Between Bridges Foundation",
         "creditUrl": "https://www.betweenbridges.net/residency",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1050,
+        "height": 1400
       }
     },
     {
@@ -16400,7 +16879,9 @@
         "alt": "ACRE residency grounds, Wisconsin",
         "credit": "Image: ACRE",
         "creditUrl": "https://acreresidency.org",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1300,
+        "height": 937
       }
     },
     {
@@ -16438,7 +16919,9 @@
         "alt": "The MacDowell main house in Peterborough, New Hampshire",
         "credit": "Magicpiano / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:PeterboroughNH_MacdowellColony_MainHouse.jpg",
-        "license": "GFDL"
+        "license": "GFDL",
+        "width": 1024,
+        "height": 680
       }
     },
     {
@@ -16477,7 +16960,9 @@
         "alt": "Guilford Art Center ceramics studio",
         "credit": "Image: Guilford Art Center",
         "creditUrl": "https://guilfordartcenter.org/gac-ceramics-studio-residency-program/",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1024,
+        "height": 682
       }
     },
     {
@@ -16513,7 +16998,10 @@
         "alt": "Ceramics instructor in the clay studio at Sonoma Community Center",
         "credit": "Image: Sonoma Community Center",
         "creditUrl": "https://sonomacommunitycenter.org/ceramics/ceramics-residency",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1200,
+        "height": 1200,
+        "position": "46% 33%"
       }
     },
     {
@@ -16553,7 +17041,9 @@
         "alt": "Hands modelling a clay head at Alchemy Art Center, San Juan Island",
         "credit": "Image: Alchemy Art Center",
         "creditUrl": "https://alchemyartcenter.com",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1400,
+        "height": 1050
       }
     },
     {
@@ -16593,7 +17083,9 @@
         "alt": "Sister Frandrup artist residency studio, Saint Johns University",
         "credit": "Image: College of Saint Benedict and Saint Johns University",
         "creditUrl": "https://www.csbsju.edu/art/artist-residency",
-        "license": "publisher image"
+        "license": "publisher image",
+        "width": 1098,
+        "height": 540
       }
     }
   ]

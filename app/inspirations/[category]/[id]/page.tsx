@@ -76,7 +76,7 @@ export default async function InspirationDetailPage({ params }: { params: Promis
 
       {img && (
         <div className="wrap mt-8 md:mt-12">
-          <Photo photo={img} ratio="3 / 2" sizes="(min-width: 1200px) 1120px, 100vw" priority frameClassName="max-h-[75vh]" />
+          <Photo photo={img} ratio="3 / 2" sizes="(min-width: 1200px) 1120px, 100vw" priority wholeIfTall frameClassName="max-h-[75vh]" />
         </div>
       )}
 

@@ -80,7 +80,9 @@
    "alt": "Sharon Art Studio building in Golden Gate Park",
    "credit": "Image: San Francisco Recreation and Park Department",
    "creditUrl": "https://sfrecpark.org/704/Sharon-Art-Studio",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 640,
+   "height": 640
   }
  },
  {
@@ -121,7 +123,9 @@
    "alt": "Mission Arts Center building in San Francisco",
    "credit": "Image: San Francisco Recreation and Park Department",
    "creditUrl": "https://sfrecpark.org/697/Mission-Arts-Center",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 640,
+   "height": 640
   }
  },
  {
@@ -172,7 +176,9 @@
    "alt": "Mel Rice Ceramica studio",
    "credit": "Image: Studio Ceramica (Mel Rice Ceramica)",
    "creditUrl": "https://www.melriceceramica.com/",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 599,
+   "height": 799
   }
  },
  {
@@ -252,7 +258,10 @@
    "alt": "The Potters' Studio in Berkeley",
    "credit": "Image: The Potters' Studio",
    "creditUrl": "https://www.thepottersstudio.org",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 933,
+   "position": "64% 40%"
   }
  },
  {
@@ -299,7 +308,9 @@
    "alt": "Petaluma Pottery class",
    "credit": "Image: Petaluma Pottery",
    "creditUrl": "https://www.petalumapottery.com",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1309,
+   "height": 1400
   }
  },
  {
@@ -343,7 +354,9 @@
    "alt": "Pottery vases at Alameda Pots",
    "credit": "Image: Alameda Pots",
    "creditUrl": "https://www.alamedapots.art/",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 1400
   }
  },
  {
@@ -389,7 +402,9 @@
    "alt": "Glazed bowls made at Higher Fire ClaySpace and Gallery",
    "credit": "Image: Higher Fire ClaySpace and Gallery",
    "creditUrl": "https://www.higherfirestudios.com/",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 603
   }
  },
  {
@@ -430,7 +445,9 @@
    "alt": "Halo Pottery work",
    "credit": "Image: Halo Pottery",
    "creditUrl": "https://halopottery.net/",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 960,
+   "height": 822
   }
  },
  {
@@ -474,7 +491,9 @@
    "alt": "Mill Valley Pottery Studio",
    "credit": "Image: Mill Valley Potter's Studio",
    "creditUrl": "https://www.millvalleypotterystudio.com/",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1115,
+   "height": 1400
   }
  },
  {
@@ -521,7 +540,9 @@
    "alt": "Cass Ceramics studio and gallery storefront",
    "credit": "Image: Cass Ceramics",
    "creditUrl": "https://cassceramics.com",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 1050
   }
  },
  {
@@ -601,7 +622,9 @@
    "alt": "Kollektiv Clay Studio in Oakland",
    "credit": "Image: Kollektiv Clay Studio",
    "creditUrl": "https://www.kollektivclaystudio.com/",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1199,
+   "height": 800
   }
  },
  {
@@ -646,7 +669,9 @@
    "alt": "Common Clay Space studio",
    "credit": "Image: Common Clay Space",
    "creditUrl": "https://www.commonclayspace.com",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1050,
+   "height": 1400
   }
  },
  {
@@ -697,7 +722,9 @@
    "alt": "Clay Creations studio in Pacifica",
    "credit": "Image: Clay Creations Pacifica",
    "creditUrl": "https://claycreationspacifica.com",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1000,
+   "height": 1000
   }
  },
  {
@@ -783,7 +810,9 @@
    "alt": "Firewood stacked beside a wood kiln at Cobb Mountain Art and Ecology Project",
    "credit": "Image: Cobb Mountain Art and Ecology Project",
    "creditUrl": "https://cobbartandecology.org/",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 933,
+   "height": 1400
   }
  },
  {
@@ -830,7 +859,9 @@
    "alt": "Painting of a river in soft evening light, shown on the Chalk Hill Artist Residency site",
    "credit": "Image: Chalk Hill Artist Residency",
    "creditUrl": "https://www.chalkhillresidency.com/",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 946
   }
  },
  {
@@ -874,7 +905,9 @@
    "alt": "Sculptural installation of curved wooden slats made during the Recology residency",
    "credit": "Image: Recology San Francisco",
    "creditUrl": "https://www.recology.com/",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 1050
   }
  },
  {
@@ -916,7 +949,9 @@
    "alt": "Dark wood-fired jars by Matt Fishman",
    "credit": "Image: The Potters' Studio",
    "creditUrl": "https://studiopotter.org/following-materials",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1300,
+   "height": 600
   }
  },
  {
@@ -963,7 +998,10 @@
    "alt": "Shoppers browsing vendor booths at a West Coast Craft fair",
    "credit": "Image: West Coast Craft",
    "creditUrl": "https://westcoastcraft.com",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 933,
+   "height": 1400,
+   "position": "38% 32%"
   }
  },
  {
@@ -1009,7 +1047,10 @@
    "alt": "Ceramics vendor at a Fellowship of Craft fair booth",
    "credit": "Image: The Fellowship of Craft",
    "creditUrl": "https://www.fellowshipofcraft.com",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1050,
+   "height": 1400,
+   "position": "32% 30%"
   }
  },
  {
@@ -1057,7 +1098,9 @@
    "alt": "Pouring glaze over a stoneware mug",
    "credit": "Image: San Francisco Ceramic Artists Guild",
    "creditUrl": "https://www.sfcag.org/",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 933,
+   "height": 1400
   }
  },
  {
@@ -1101,7 +1144,9 @@
    "alt": "Stacked dark stoneware mugs with printed text at Ruby's Clay Studio",
    "credit": "Image: Ruby's Clay Studio and Gallery",
    "creditUrl": "https://www.rubysclaystudio.org/gallery",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 1050
   }
  },
  {
@@ -1143,7 +1188,9 @@
    "alt": "Clay, sponges and tools on a shelf at ClayPeople",
    "credit": "Image: ClayPeople",
    "creditUrl": "https://claypeople.net",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 983
   }
  },
  {
@@ -1223,7 +1270,9 @@
    "alt": "Stacked terracotta roof tiles at Gladding, McBean",
    "credit": "Image: Gladding, McBean",
    "creditUrl": "https://www.gladdingmcbean.com",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1000,
+   "height": 835
   }
  },
  {
@@ -1266,7 +1315,9 @@
    "alt": "Supply aisles inside Creative Ceramics and Glass, Santa Rosa",
    "credit": "Image: Creative Ceramics and Glass",
    "creditUrl": "https://www.creativeceramicsandglass.com",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 500
   }
  },
  {
@@ -1308,7 +1359,9 @@
    "alt": "Inside an electric kiln with its elements and shelf posts",
    "credit": "Image: NorCal Kiln Repair",
    "creditUrl": "https://norcalkilnrepair.com",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 1050
   }
  },
  {
@@ -1350,7 +1403,9 @@
    "alt": "Foraging clay at the beach with Artillery Ceramics",
    "credit": "Image: Mission Local",
    "creditUrl": "https://missionlocal.org/2024/08/foraging-for-clay-with-artillery-ceramics/",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1100,
+   "height": 830
   }
  },
  {
@@ -1392,7 +1447,9 @@
    "alt": "Entrance sign for Tilden Regional Park, East Bay Regional Park District",
    "credit": "Ijon / Wikimedia Commons",
    "creditUrl": "https://commons.wikimedia.org/wiki/File:Tilden_Regional_Park_sign.JPG",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "width": 1400,
+   "height": 1050
   }
  },
  {
@@ -1434,7 +1491,9 @@
    "alt": "Rocky coastline at Point Lobos State Natural Reserve, California",
    "credit": "King of Hearts / Wikimedia Commons",
    "creditUrl": "https://commons.wikimedia.org/wiki/File:Point_Lobos_September_2012_003.jpg",
-   "license": "GFDL"
+   "license": "GFDL",
+   "width": 1100,
+   "height": 733
   }
  },
  {
@@ -1476,7 +1535,9 @@
    "alt": "Golden Gate Bridge above the Coast Guard station on the San Francisco shore",
    "credit": "Image: National Park Service",
    "creditUrl": "https://www.nps.gov/goga/learn/management/superintendents-compendium.htm",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 788
   }
  },
  {
@@ -1535,7 +1596,9 @@
    "alt": "Sonoma Community Center ceramics studio",
    "credit": "Image: Sonoma Community Center Ceramics (residency, open studio, workshops)",
    "creditUrl": "https://sonomacommunitycenter.org/ceramics/",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 934
   }
  },
  {
@@ -1585,7 +1648,9 @@
    "alt": "Hickory Clay studio in San Francisco",
    "credit": "Image: Hickory Clay",
    "creditUrl": "https://hickoryclay.com",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 1169
   }
  },
  {
@@ -1634,7 +1699,9 @@
    "alt": "Laney College tower in Oakland",
    "credit": "Mike Linksvayer / Wikimedia Commons",
    "creditUrl": "https://commons.wikimedia.org/wiki/File:LaneyCollegeTower.jpg",
-   "license": "CC0"
+   "license": "CC0",
+   "width": 1050,
+   "height": 1400
   }
  },
  {
@@ -1681,7 +1748,9 @@
    "alt": "Hands shaping a bowl on the wheel at the Berkeley Art Studio",
    "credit": "Image: Berkeley Art Studio, UC Berkeley",
    "creditUrl": "https://artstudio.berkeley.edu/ceramics",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 935
   }
  },
  {
@@ -1725,7 +1794,9 @@
    "alt": "Sculpture outside the Palo Alto Art Center",
    "credit": "Tombrinck / Wikimedia Commons",
    "creditUrl": "https://commons.wikimedia.org/wiki/File:Palo_Alto_Art_Center_-_February_2019.jpg",
-   "license": "CC BY-SA 4.0"
+   "license": "CC BY-SA 4.0",
+   "width": 1200,
+   "height": 900
   }
  },
  {
@@ -1771,7 +1842,10 @@
    "alt": "Visitors holding blown-glass pieces at a clay and glass festival booth",
    "credit": "Image: Association of Clay and Glass Artists",
    "creditUrl": "https://www.acga.net",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 600,
+   "height": 600,
+   "position": "48% 20%"
   }
  },
  {
@@ -1817,7 +1891,9 @@
    "alt": "Berkeley Potters Guild building on the street",
    "credit": "Image: Berkeley Potters Guild",
    "creditUrl": "https://berkeleypotters.com/",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1280,
+   "height": 720
   }
  },
  {
@@ -1867,7 +1943,9 @@
    "alt": "Wall shelf of small cups in the Wheelhouse Clay studio",
    "credit": "Image: Wheelhouse Clay",
    "creditUrl": "https://www.wheelhouseclaysf.com/",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 917
   }
  },
  {
@@ -1913,7 +1991,9 @@
    "alt": "Wheel throwing at Marin Pottery",
    "credit": "Image: Marin Pottery",
    "creditUrl": "https://www.marinpottery.org/",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 872,
+   "height": 584
   }
  },
  {
@@ -1957,7 +2037,9 @@
    "alt": "Clay Life Art Studios entrance",
    "credit": "Image: The Clay Life",
    "creditUrl": "https://theclaylife.com/",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1024,
+   "height": 1024
   }
  },
  {
@@ -2000,7 +2082,9 @@
    "alt": "Terracotta portrait busts from the Richmond Art Center ceramics studio",
    "credit": "Image: Richmond Art Center",
    "creditUrl": "https://richmondartcenter.org/",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 612
   }
  },
  {
@@ -2042,7 +2126,9 @@
    "alt": "Visitors in a gallery at the Museum of Craft and Design",
    "credit": "Image: Museum of Craft and Design",
    "creditUrl": "https://sfmcd.org/",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 934
   }
  },
  {
@@ -2086,7 +2172,9 @@
    "alt": "Silica / SiO2 Northern California ceramics exhibition",
    "credit": "Image: Santa Cruz Museum of Art and History",
    "creditUrl": "https://www.handwork2026.org/event/silica-sio2-northern-california-ceramics/",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 768,
+   "height": 994
   }
  }
 ]

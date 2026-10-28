@@ -45,7 +45,9 @@
    "alt": "Shelf of vases and bottles by Clayroom SoMa members",
    "credit": "Image: Clayroom SoMa",
    "creditUrl": "https://www.clayroomsoma.com",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 741
   }
  },
  {
@@ -93,7 +95,9 @@
    "alt": "Potter throwing at the wheel by the studio shelves at Clayroom Potrero",
    "credit": "Image: Clayroom Potrero",
    "creditUrl": "https://www.clayroomsf.com",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 788
   }
  },
  {
@@ -142,7 +146,9 @@
    "alt": "The Pottery Studio's brick and timber hall with long work tables, San Francisco",
    "credit": "Image: The Pottery Studio",
    "creditUrl": "https://thepotterystudio.com/pages/san-francisco",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 817
   }
  },
  {
@@ -197,7 +203,9 @@
    "alt": "Hands throwing a pot on the wheel, from the Artillery site",
    "credit": "Image: Artillery",
    "creditUrl": "https://www.artillery-ag.com",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 1015
   }
  },
  {
@@ -248,7 +256,10 @@
    "alt": "Two members glazing cups at RedBrick Ceramic Studio",
    "credit": "Image: RedBrick Ceramic Studio",
    "creditUrl": "https://redbrickceramic.com",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 900,
+   "height": 600,
+   "position": "46% 31%"
   }
  },
  {
@@ -296,7 +307,9 @@
    "alt": "A class gathered in the sfclayworks studio",
    "credit": "Image: sfclayworks",
    "creditUrl": "https://www.sfclayworks.com",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 934
   }
  },
  {
@@ -428,7 +441,9 @@
    "alt": "The Dusted and Blue studio with wheels and hanging plants",
    "credit": "Image: Dusted and Blue",
    "creditUrl": "https://www.dustedandblue.com",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1050,
+   "height": 1400
   }
  },
  {
@@ -475,7 +490,10 @@
    "alt": "Members working at the benches in Brick and Mortar Studios",
    "credit": "Image: Brick and Mortar Studios",
    "creditUrl": "https://www.brickandmortarstudios.com",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 1400,
+   "position": "18% 36%"
   }
  },
  {
@@ -522,7 +540,9 @@
    "alt": "Pottery wheels beneath a blue floral mural in a Stone Gold Pottery studio",
    "credit": "Image: Stone Gold Pottery",
    "creditUrl": "https://www.stonegoldpottery.com",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 1400
   }
  },
  {
@@ -569,7 +589,9 @@
    "alt": "Wheels and workbenches beneath a poppy mural in a Stone Gold Pottery studio",
    "credit": "Image: Stone Gold Pottery",
    "creditUrl": "https://www.stonegoldpottery.com",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 1050
   }
  },
  {
@@ -616,7 +638,10 @@
    "alt": "An instructor and students around a work table at Stone Gold Pottery",
    "credit": "Image: Stone Gold Pottery",
    "creditUrl": "https://www.stonegoldpottery.com",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 934,
+   "position": "55% 42%"
   }
  },
  {
@@ -664,7 +689,9 @@
    "alt": "Table setting with Heath Ceramics dinnerware",
    "credit": "Image: Heath Ceramics",
    "creditUrl": "https://www.heathceramics.com/pages/locations/san-francisco",
-   "license": "publisher image"
+   "license": "publisher image",
+   "width": 1400,
+   "height": 673
   }
  }
 ]

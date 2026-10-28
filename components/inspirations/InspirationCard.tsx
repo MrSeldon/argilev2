@@ -27,6 +27,7 @@ export function InspirationCard({ item, priority = false }: { item: Located; pri
             sizes="(min-width: 1024px) 30vw, 46vw"
             priority={priority}
             className="object-cover photo-zoom"
+            style={{ objectPosition: img.position || "50% 50%" }}
           />
         ) : (
           <div className="absolute inset-0 flex flex-col p-3.5 sm:p-5 md:p-6">

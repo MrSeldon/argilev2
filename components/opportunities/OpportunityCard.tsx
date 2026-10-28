@@ -37,6 +37,7 @@ export function OpportunityCard({ opportunity: o, priority = false }: { opportun
             sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 84px"
             priority={priority}
             className="object-cover photo-zoom"
+            style={{ objectPosition: img.position || "50% 50%" }}
           />
         ) : (
           <>

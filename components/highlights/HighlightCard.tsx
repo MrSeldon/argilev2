@@ -15,7 +15,8 @@ export function HighlightCard({ h }: { h: Highlight }) {
     <Link href={`/opportunities/${o.id}`} className="group block">
       <div className="relative overflow-hidden aspect-[4/3]" style={{ background: tint(typeColor(o.type), 0.12) }}>
         {img ? (
-          <Image src={img.src} alt={img.alt} fill sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 92vw" className="object-cover photo-zoom" />
+          <Image src={img.src} alt={img.alt} fill sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 92vw" className="object-cover photo-zoom"
+            style={{ objectPosition: img.position || "50% 50%" }} />
         ) : (
           <div className="absolute inset-0 flex items-end p-5">
             <span className="font-serif italic text-[1.9rem] leading-none text-ink/70">{place?.split(",")[0]}</span>

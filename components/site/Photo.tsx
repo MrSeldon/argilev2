@@ -7,6 +7,8 @@ export interface PhotoLike {
   creditUrl?: string;
   license?: string;
   position?: string;
+  width?: number;
+  height?: number;
 }
 
 /**
@@ -22,6 +24,7 @@ export function Photo({
   className = "",
   frameClassName = "",
   zoom = false,
+  wholeIfTall = false,
 }: {
   photo: PhotoLike;
   ratio?: string;
@@ -31,7 +34,23 @@ export function Photo({
   className?: string;
   frameClassName?: string;
   zoom?: boolean;
+  /** Detail pages: a portrait-shaped photo is shown whole at its own shape (capped in height) instead of cropped to `ratio`. */
+  wholeIfTall?: boolean;
 }) {
+  const tall = wholeIfTall && photo.width && photo.height && photo.height > photo.width * 1.05;
+  if (tall) {
+    return (
+      <figure className={className}>
+        <div
+          className="relative overflow-hidden bg-oat mx-auto max-w-full"
+          style={{ aspectRatio: `${photo.width} / ${photo.height}`, height: "min(78vh, 900px)" }}
+        >
+          <Image src={photo.src} alt={photo.alt} fill sizes="(min-width: 768px) 60vw, 100vw" priority={priority} className="object-cover" style={{ objectPosition: photo.position || "50% 50%" }} />
+        </div>
+        {credit && photo.credit && <Credit photo={photo} className="mt-2 text-center" />}
+      </figure>
+    );
+  }
   return (
     <figure className={className}>
       <div className={`relative overflow-hidden bg-oat ${frameClassName}`} style={{ aspectRatio: ratio }}>

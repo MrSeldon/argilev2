@@ -63,7 +63,9 @@
         "alt": "Jōmon (Jomon Flame Style Pottery, 3000 BC)",
         "credit": "Netherzone / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Jomon_Flame_Style_Pottery%2C_3000_BC.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1050,
+        "height": 1400
       },
       "links": [
         {
@@ -117,7 +119,9 @@
         "alt": "Buncheong (분청사기 상감운룡문 항아리)",
         "credit": "Unknown author Unknown author / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:%EB%B6%84%EC%B2%AD%EC%82%AC%EA%B8%B0_%EC%83%81%EA%B0%90%EC%9A%B4%EB%A3%A1%EB%AC%B8_%ED%95%AD%EC%95%84%EB%A6%AC.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 973,
+        "height": 1400
       },
       "links": [
         {
@@ -168,9 +172,11 @@
       "image": {
         "src": "/images/inspirations/raku.webp",
         "alt": "Raku (Hon'ami Koetsu Fujisan 1)",
-        "credit": ".mw-parser-output .commons-creator-table{background-color:#f0f0ff;box- / Wikimedia Commons",
+        "credit": "Unknown author / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Hon%27ami_Koetsu_Fujisan_1.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 1400,
+        "height": 1049
       },
       "links": [
         {
@@ -223,7 +229,9 @@
         "alt": "Barro Negro (Barro Negro y normal-San Bartolo Coyotepec-Oaxaca-Mexico)",
         "credit": "User:Gengiskanhg / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Barro_Negro_y_normal-San_Bartolo_Coyotepec-Oaxaca-Mexico.jpg",
-        "license": "GFDL"
+        "license": "GFDL",
+        "width": 1048,
+        "height": 1400
       },
       "links": [
         {
@@ -278,7 +286,9 @@
         "alt": "Celadon (Song Dynasty Celadon Vase)",
         "credit": "Iwanafish at English Wikipedia / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Song_Dynasty_Celadon_Vase.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 819,
+        "height": 1400
       },
       "links": [
         {
@@ -332,7 +342,9 @@
         "alt": "Majolica (Minton's Majolica peacock, Ashmolean)",
         "credit": "Andy Dingley / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Minton%27s_Majolica_peacock%2C_Ashmolean.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 919,
+        "height": 1400
       },
       "links": [
         {
@@ -385,12 +397,18 @@
         "alt": "Mingei (Thrown, Combed tea bowl by Shoji Hamada (YORYM-2004.1.1957) (cropped))",
         "credit": "Creator:Shoji Hamada / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Thrown%2C_Combed_tea_bowl_by_Shoji_Hamada_%28YORYM-2004.1.1957%29_%28cropped%29.JPG",
-        "license": "CC BY-SA 3.0"
+        "license": "CC BY-SA 3.0",
+        "width": 1400,
+        "height": 1178
       },
       "links": [
         {
           "label": "Mingei (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Mingei"
+        },
+        {
+          "label": "The Unknown Craftsman (Internet Archive, borrow free)",
+          "url": "https://archive.org/details/unknowncraftsman0000yana"
         }
       ]
     },
@@ -434,7 +452,9 @@
         "alt": "Shigaraki (Shigaraki Jar)",
         "credit": "ReijiYamashina / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Shigaraki_Jar.JPG",
-        "license": "CC BY-SA 3.0"
+        "license": "CC BY-SA 3.0",
+        "width": 843,
+        "height": 1000
       },
       "links": [
         {
@@ -485,7 +505,9 @@
         "alt": "Delftware (Vase, c. 1680, Delft, Netherlands, tin-glazed earthenware - Art Institute of Chicago - DSC)",
         "credit": "Daderot / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Vase%2C_c._1680%2C_Delft%2C_Netherlands%2C_tin-glazed_earthenware_-_Art_Institute_of_Chicago_-_DSC09979.JPG",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1050,
+        "height": 1400
       },
       "links": [
         {
@@ -539,7 +561,9 @@
         "alt": "African Coil Pottery (Traditional pottery in Nigeria (Ikpu ite) 19)",
         "credit": "Chukwukajustice / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Traditional_pottery_in_Nigeria_%28Ikpu_ite%29_19.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 933
       },
       "links": [
         {
@@ -592,7 +616,9 @@
         "alt": "Iznik (Turkey; Iznik - Two Tiles - Google Art Project)",
         "credit": "Turkey; Iznik / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Turkey%3B_Iznik_-_Two_Tiles_-_Google_Art_Project.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 1400,
+        "height": 902
       },
       "links": [
         {
@@ -645,7 +671,9 @@
         "alt": "Oribe (Oribeguro)",
         "credit": "Japan-Fan-2013 / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Oribeguro.jpg",
-        "license": "CC BY-SA 3.0"
+        "license": "CC BY-SA 3.0",
+        "width": 1400,
+        "height": 1159
       },
       "links": [
         {
@@ -697,7 +725,9 @@
         "alt": "Pueblo Pottery (Mimbres fish pot, MRM)",
         "credit": "Peter D. Tillman from USA / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Mimbres_fish_pot%2C_MRM.jpg",
-        "license": "CC BY-SA 2.0"
+        "license": "CC BY-SA 2.0",
+        "width": 1391,
+        "height": 1400
       },
       "links": [
         {
@@ -750,7 +780,9 @@
         "alt": "Song Dynasty Ceramics (Dish (Pan) with Garden Landscape LACMA M.73.48.106)",
         "credit": "unknown author / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Dish_%28Pan%29_with_Garden_Landscape_LACMA_M.73.48.106.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 1400,
+        "height": 1313
       },
       "links": [
         {
@@ -803,7 +835,9 @@
         "alt": "Joseon White Porcelain (Joseon white porcelain plate, Korea)",
         "credit": "Prix / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Joseon_white_porcelain_plate%2C_Korea.jpg",
-        "license": "CC BY-SA 3.0"
+        "license": "CC BY-SA 3.0",
+        "width": 320,
+        "height": 240
       },
       "links": [
         {
@@ -856,7 +890,9 @@
         "alt": "Bizen (Flower Vase called 'Tabimakura' (Portable pillow), Bizen ware, Edo period, 17th century - )",
         "credit": "Daderot / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Flower_Vase_called_%27Tabimakura%27_%28Portable_pillow%29%2C_Bizen_ware%2C_Edo_period%2C_17th_century_-_Tokyo_National_Museum_-_DSC05874.JPG",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 986,
+        "height": 1400
       },
       "links": [
         {
@@ -908,7 +944,9 @@
         "alt": "Yixing (Teapot (Yixing ware, about 1900))",
         "credit": "Gerbil / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Teapot_%28Yixing_ware%2C_about_1900%29.JPG",
-        "license": "CC BY-SA 3.0"
+        "license": "CC BY-SA 3.0",
+        "width": 1040,
+        "height": 1400
       },
       "links": [
         {
@@ -960,7 +998,9 @@
         "alt": "Hagi (Hagi Ido teskål - chawan. Tamamura Shogetsu)",
         "credit": "SK10DPB / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Hagi_Ido_tesk%C3%A5l_-_chawan._Tamamura_Shogetsu.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 1050
       },
       "links": [
         {
@@ -1009,7 +1049,9 @@
         "alt": "Karatsu (Iwao Karatsu-ware tea bowl)",
         "credit": "Daderot / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Iwao_Karatsu-ware_tea_bowl.jpg",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1400,
+        "height": 1364
       },
       "links": [
         {
@@ -1061,7 +1103,9 @@
         "alt": "Imari / Arita (Bowl 2, Imari ware, Edo period, 17th-18th century, stormy seascape design in overglaze ena)",
         "credit": "Daderot / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Bowl_2%2C_Imari_ware%2C_Edo_period%2C_17th-18th_century%2C_stormy_seascape_design_in_overglaze_enamel_-_Tokyo_National_Museum_-_DSC05316.JPG",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 1271,
+        "height": 1400
       },
       "links": [
         {
@@ -1108,9 +1152,11 @@
       "image": {
         "src": "/images/inspirations/meissen.webp",
         "alt": "Meissen (MeissenGroup-JohannKaendler-BMA)",
-        "credit": ".mw-parser-output .commons-creator-table{background-color:#f0f0ff;box- / Wikimedia Commons",
+        "credit": "Unknown author / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:MeissenGroup-JohannKaendler-BMA.jpg",
-        "license": "CC BY 3.0"
+        "license": "CC BY 3.0",
+        "width": 1119,
+        "height": 807
       },
       "links": [
         {
@@ -1161,7 +1207,9 @@
         "alt": "Staffordshire Pottery (DAR pot - IMG 8558)",
         "credit": "Daderot / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:DAR_pot_-_IMG_8558.JPG",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 1400,
+        "height": 1050
       },
       "links": [
         {
@@ -1213,7 +1261,9 @@
         "alt": "Talavera (TalaveraTrayMAPDF)",
         "credit": "AlejandroLinaresGarcia / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:TalaveraTrayMAPDF.JPG",
-        "license": "GFDL"
+        "license": "GFDL",
+        "width": 1342,
+        "height": 1400
       },
       "links": [
         {
@@ -1265,7 +1315,9 @@
         "alt": "Nok Terracotta (Nok sculpture Louvre 70-1998-11-1)",
         "credit": "Unknown artist Unknown artist / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Nok_sculpture_Louvre_70-1998-11-1.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 930,
+        "height": 1400
       },
       "links": [
         {
@@ -1317,7 +1369,9 @@
         "alt": "Zulu Pottery (Black pot Ukhamba Zulu people South Africa 17022019 4883)",
         "credit": "Vassil / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Black_pot_Ukhamba_Zulu_people_South_Africa_17022019_4883.jpg",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1400,
+        "height": 1271
       },
       "links": [
         {
@@ -1370,7 +1424,9 @@
         "alt": "Ancient Greek Pottery (Euphronios krater side A MET L.2006.10)",
         "credit": "Jaime Ardiles-Arce (photographer). Krater by Euphronios (painter) and  / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Euphronios_krater_side_A_MET_L.2006.10.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 1152,
+        "height": 768
       },
       "links": [
         {
@@ -1423,7 +1479,9 @@
         "alt": "Islamic Lusterware (Jug MET DP-1239-049 (cropped))",
         "credit": "unknown author / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Jug_MET_DP-1239-049_%28cropped%29.jpg",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1400,
+        "height": 1368
       },
       "links": [
         {
@@ -1476,7 +1534,9 @@
         "alt": "Tang Sancai (唐 三彩碗-Bowl MET DP342650)",
         "credit": "unknown author / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:%E5%94%90_%E4%B8%89%E5%BD%A9%E7%A2%97-Bowl_MET_DP342650.jpg",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1400,
+        "height": 1050
       },
       "links": [
         {
@@ -1530,7 +1590,10 @@
         "alt": "Shoji Hamada (Shōji Hamada)",
         "credit": "Unidentified (Ensian published by University of Michigan) / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Sh%C5%8Dji_Hamada.png",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 455,
+        "height": 641,
+        "position": "29% 16%"
       },
       "links": [
         {
@@ -1544,6 +1607,10 @@
         {
           "label": "Hamada, Potter, Bernard Leach (Open Library)",
           "url": "https://openlibrary.org/search?title=Hamada%2C+Potter&author=Bernard+Leach"
+        },
+        {
+          "label": "Hamada, Potter (Internet Archive, borrow free)",
+          "url": "https://archive.org/details/hamadapotter0000leac_y4c1"
         }
       ]
     },
@@ -1556,9 +1623,9 @@
       "fallbackColor": "#4A4A4A",
       "visualCaption": "East meets West. The bridge builder.",
       "story": {
-        "hook": "A British artist went to Japan to teach etching and discovered his life's purpose in a raku kiln.",
-        "body": "Bernard Leach was 22, teaching in Tokyo, when a friend invited him to a raku party. Reaching into the hot kiln to pull out his still-glowing bowl, Leach felt something shift. He spent eleven years studying Japanese and Korean ceramics. When he returned to England in 1920 with Shoji Hamada, they established the Leach Pottery in St Ives. His book 'A Potter's Book' (1940) became the bible for generations of studio potters.",
-        "reflection": "What traditions might you bridge?"
+        "hook": "A British etcher went to Japan, pulled a glowing bowl from a raku kiln, and spent the rest of his life building a bridge between two pottery traditions.",
+        "body": "Bernard Leach was born in Hong Kong in 1887 and spent his early childhood in Japan. He trained as an etcher in London and went back to Tokyo in 1909 to teach. In 1911 friends took him to a raku party, where guests decorated pots that were fired on the spot; watching his own bowl come out of the kiln, he decided to become a potter. He studied with Urano Shigekichi, the sixth Ogata Kenzan, and fell in with Yanagi Sōetsu and the young potters who would found the Mingei movement.\n\nIn 1920 he returned to England with Shoji Hamada and built a climbing kiln at St Ives in Cornwall, the first of its kind in the West. The Leach Pottery made individual pots and, later, a 'standard ware' of everyday tableware sold by catalogue. Its apprentices and students carried his ideas around the world: Michael Cardew to Ghana and Nigeria, Katharine Pleydell-Bouverie, Warren MacKenzie to Minnesota, and his son David Leach.\n\nA Potter's Book (1940) joined practical instruction with a philosophy of the honest, useful pot, judged against the Song dynasty, Korean and early English wares he loved. In 1952 he toured the United States with Hamada and Yanagi, including a famous workshop at Black Mountain College. His wife Janet Leach, an American potter, ran the pottery from the 1950s. He kept working and writing until his eyesight failed, and died in St Ives in 1979; the pottery still runs as a studio, museum and training workshop.",
+        "reflection": "What traditions might you bridge between Kigali and the Bay?"
       },
       "connections": [
         "hamada",
@@ -1585,9 +1652,12 @@
       "image": {
         "src": "/images/inspirations/leach.webp",
         "alt": "Bernard Leach (Bernard Leach 1953)",
-        "credit": ".mw-parser-output .commons-creator-table{background-color:#f0f0ff;box- / Wikimedia Commons",
+        "credit": "Unknown author / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Bernard_Leach_1953.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 918,
+        "height": 1400,
+        "position": "34% 7%"
       },
       "links": [
         {
@@ -1595,10 +1665,35 @@
           "url": "https://en.wikipedia.org/wiki/Bernard_Leach"
         },
         {
-          "label": "A Potter's Book, Bernard Leach (Open Library)",
-          "url": "https://openlibrary.org/search?title=A+Potter%27s+Book&author=Bernard+Leach"
+          "label": "A Potter's Book (1940) (Internet Archive, borrow free)",
+          "url": "https://archive.org/details/pottersbook0000bern"
+        },
+        {
+          "label": "A Potter in Japan, 1952-1954 (Internet Archive, borrow free)",
+          "url": "https://archive.org/details/potterinjapan1950000bern_t5n8"
+        },
+        {
+          "label": "Hamada, Potter (Internet Archive, borrow free)",
+          "url": "https://archive.org/details/hamadapotter0000leac_y4c1"
+        },
+        {
+          "label": "Drawings, Verse & Belief (Internet Archive, borrow free)",
+          "url": "https://archive.org/details/drawingsversebel0000bern"
+        },
+        {
+          "label": "The Leach Pottery, St Ives",
+          "url": "https://www.leachpottery.com/"
+        },
+        {
+          "label": "Crafts Study Centre (holds Leach's papers)",
+          "url": "https://www.csc.uca.ac.uk/"
+        },
+        {
+          "label": "V&A ceramics collection",
+          "url": "https://www.vam.ac.uk/collections/ceramics"
         }
-      ]
+      ],
+      "tryIt": "Read the 'Towards a Standard' chapter of A Potter's Book, then throw a small 'standard ware' set of your own: one mug, one bowl and one plate, repeated until they belong together."
     },
     {
       "id": "rie",
@@ -1639,7 +1734,9 @@
         "alt": "Lucie Rie (Bowl by Lucie Rie, National Museum Cardiff)",
         "credit": "14GTR / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Bowl_by_Lucie_Rie%2C_National_Museum_Cardiff.jpg",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1400,
+        "height": 856
       },
       "links": [
         {
@@ -1687,7 +1784,9 @@
         "alt": "Hans Coper (Thrown Bottle by Hans Coper (YORYM-2004.1.807))",
         "credit": "Creator:Hans Coper / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Thrown_Bottle_by_Hans_Coper_%28YORYM-2004.1.807%29.JPG",
-        "license": "CC BY-SA 3.0"
+        "license": "CC BY-SA 3.0",
+        "width": 933,
+        "height": 1400
       },
       "links": [
         {
@@ -1735,7 +1834,10 @@
         "alt": "Peter Voulkos (Voulkos 1996)",
         "credit": "TolneGGG / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Voulkos_1996.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 1018,
+        "position": "53% 27%"
       },
       "links": [
         {
@@ -1780,9 +1882,11 @@
       "image": {
         "src": "/images/inspirations/odundo.webp",
         "alt": "Magdalene Odundo (Thrown, Burnished, Reduction Fired pot by Magdalene Odundo (YORYM-2004.1.950))",
-        "credit": ".mw-parser-output .commons-creator-table{background-color:#f0f0ff;box- / Wikimedia Commons",
+        "credit": "Unknown author / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Thrown%2C_Burnished%2C_Reduction_Fired_pot_by_Magdalene_Odundo_%28YORYM-2004.1.950%29.JPG",
-        "license": "CC BY-SA 3.0"
+        "license": "CC BY-SA 3.0",
+        "width": 933,
+        "height": 1400
       },
       "links": [
         {
@@ -1873,7 +1977,10 @@
         "alt": "Edmund de Waal (Edmund de Waal with his installation, breathturn (2013), at Gagosian, New York (cropped))",
         "credit": "Rob McKeever / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Edmund_de_Waal_with_his_installation%2C_breathturn_%282013%29%2C_at_Gagosian%2C_New_York_%28cropped%29.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 306,
+        "height": 418,
+        "position": "51% 32%"
       },
       "links": [
         {
@@ -1933,7 +2040,10 @@
         "alt": "Yanagi Sōetsu (Soetsu)",
         "credit": "Unknown author Unknown author / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Soetsu.JPG",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 332,
+        "height": 443,
+        "position": "54% 19%"
       },
       "links": [
         {
@@ -1943,6 +2053,10 @@
         {
           "label": "The Unknown Craftsman, Soetsu Yanagi (Open Library)",
           "url": "https://openlibrary.org/search?title=The+Unknown+Craftsman&author=Soetsu+Yanagi"
+        },
+        {
+          "label": "The Unknown Craftsman (Internet Archive, borrow free)",
+          "url": "https://archive.org/details/unknowncraftsman0000yana"
         }
       ]
     },
@@ -1983,9 +2097,12 @@
       "image": {
         "src": "/images/inspirations/kawai.webp",
         "alt": "Kawai Kanjirō (Kawai Kanjirō photographed by Shigeru Tamura)",
-        "credit": ".mw-parser-output .commons-creator-table{background-color:#f0f0ff;box- / Wikimedia Commons",
+        "credit": "Unknown author / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Kawai_Kanjir%C5%8D_photographed_by_Shigeru_Tamura.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 1023,
+        "height": 1400,
+        "position": "30% 30%"
       },
       "links": [
         {
@@ -2035,7 +2152,10 @@
         "alt": "Maria Martinez (Maria Martinez, San Ildefonso pottery maker)",
         "credit": "Wesley Bradfield / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Maria_Martinez%2C_San_Ildefonso_pottery_maker.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 962,
+        "height": 1213,
+        "position": "50% 22%"
       },
       "links": [
         {
@@ -2087,7 +2207,10 @@
         "alt": "George Ohr (George E Ohr)",
         "credit": "Robert Brooks/Ohr-O'Keefe Museum of Art / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:George_E_Ohr.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 353,
+        "height": 480,
+        "position": "43% 31%"
       },
       "links": [
         {
@@ -2140,7 +2263,9 @@
         "alt": "Beatrice Wood (Beatrice Wood 1908-photo 2)",
         "credit": "Unknown artist Unknown artist / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Beatrice_Wood_1908-photo_2.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 1057,
+        "height": 1400
       },
       "links": [
         {
@@ -2195,7 +2320,10 @@
         "alt": "Michael Cardew (Michael Cardew in 1917)",
         "credit": "Unknown author Unknown author / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Michael_Cardew_in_1917.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 563,
+        "height": 800,
+        "position": "49% 21%"
       },
       "links": [
         {
@@ -2213,6 +2341,10 @@
         {
           "label": "A Pioneer Potter, Michael Cardew (Open Library)",
           "url": "https://openlibrary.org/search?title=A+Pioneer+Potter&author=Michael+Cardew"
+        },
+        {
+          "label": "Pioneer Pottery (Internet Archive, borrow free)",
+          "url": "https://archive.org/details/pioneerpottery00card"
         }
       ]
     },
@@ -2256,7 +2388,10 @@
         "alt": "Warren MacKenzie (Warren Mackenzie in studio, February 2017)",
         "credit": "Innotata / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Warren_Mackenzie_in_studio%2C_February_2017.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1050,
+        "height": 1400,
+        "position": "63% 30%"
       },
       "links": [
         {
@@ -2575,7 +2710,9 @@
         "alt": "Shozo Michikawa (Michikawa Shozo 2017)",
         "credit": "Enaliv / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Michikawa_Shozo_2017.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1120,
+        "height": 1400
       },
       "links": [
         {
@@ -2628,7 +2765,10 @@
         "alt": "Jennifer Lee (Jennifer Lee (potter))",
         "credit": "Jaketilson / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Jennifer_Lee_%28potter%29.jpg",
-        "license": "CC BY-SA 3.0"
+        "license": "CC BY-SA 3.0",
+        "width": 1043,
+        "height": 1400,
+        "position": "48% 39%"
       },
       "links": [
         {
@@ -2762,7 +2902,9 @@
         "alt": "Svend Bayer (Svend Bayer stoneware vase, Walker Art Gallery)",
         "credit": "Reptonix free Creative Commons licensed photos / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Svend_Bayer_stoneware_vase%2C_Walker_Art_Gallery.jpg",
-        "license": "CC BY 3.0"
+        "license": "CC BY 3.0",
+        "width": 600,
+        "height": 800
       },
       "links": [
         {
@@ -2857,7 +2999,10 @@
         "alt": "Rosanjin (Rosanjin Kitaōji 1954)",
         "credit": "Bungei Shunjū / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Rosanjin_Kita%C5%8Dji_1954.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 458,
+        "height": 657,
+        "position": "51% 21%"
       },
       "links": [
         {
@@ -2909,7 +3054,10 @@
         "alt": "Theaster Gates (Unleashing Entrepreneurial Innovation with Stanford University Theaster Gates)",
         "credit": "World Economic Forum / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Unleashing_Entrepreneurial_Innovation_with_Stanford_University_Theaster_Gates.jpg",
-        "license": "CC BY-SA 2.0"
+        "license": "CC BY-SA 2.0",
+        "width": 1041,
+        "height": 1400,
+        "position": "60% 17%"
       },
       "links": [
         {
@@ -2961,7 +3109,10 @@
         "alt": "Maija Grotell (Maija-Grotell-1920s)",
         "credit": "Anonymous Unknown author / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Maija-Grotell-1920s.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 828,
+        "height": 1255,
+        "position": "56% 29%"
       },
       "links": [
         {
@@ -3058,7 +3209,9 @@
         "alt": "Ewen Henderson (Pinched, Coiled pot by Ewen Henderson (YORYM-2004.1.1377))",
         "credit": "Creator:Ewen Henderson / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Pinched%2C_Coiled_pot_by_Ewen_Henderson_%28YORYM-2004.1.1377%29.JPG",
-        "license": "CC BY-SA 3.0"
+        "license": "CC BY-SA 3.0",
+        "width": 933,
+        "height": 1400
       },
       "links": [
         {
@@ -3112,7 +3265,9 @@
         "alt": "Earth Goddess sculpture by Sandy Brown, Aylmer Square, St Austell, Cornwall - November 2022",
         "credit": "Mutney / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Earth_Goddess_sculpture_by_Sandy_Brown,_Aylmer_Square,_St_Austell,_Cornwall_-_November_2022.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1050,
+        "height": 1400
       }
     },
     {
@@ -3172,7 +3327,9 @@
         "alt": "Mashiko (Taisho-Showa Period Ko-Mashiko Ware Mado-e Dobin Window Picture Teapot Brooklyn Museum)",
         "credit": "Unknown author Unknown author / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Taisho-Showa_Period_Ko-Mashiko_Ware_Mado-e_Dobin_Window_Picture_Teapot_Brooklyn_Museum.jpg",
-        "license": "No restrictions"
+        "license": "No restrictions",
+        "width": 1400,
+        "height": 1059
       },
       "story": {
         "hook": "A farming town north of Tokyo became a world capital of pottery because one man chose to live there.",
@@ -3204,7 +3361,9 @@
         "alt": "Jingdezhen (MET DP342705)",
         "credit": "unknown author / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:MET_DP342705.jpg",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1050,
+        "height": 1400
       },
       "story": {
         "hook": "For a thousand years, the world's porcelain came from one city in Jiangxi.",
@@ -3240,7 +3399,9 @@
         "alt": "Oaxaca / San Bartolo Coyotepec (CourtyardDRSBC1)",
         "credit": "AlejandroLinaresGarcia / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:CourtyardDRSBC1.JPG",
-        "license": "GFDL"
+        "license": "GFDL",
+        "width": 1400,
+        "height": 937
       },
       "story": {
         "hook": "In the valleys of Oaxaca, whole villages are known by the colour of their clay.",
@@ -3274,7 +3435,9 @@
         "alt": "Grottaglie (Capasoni (Grottaglie))",
         "credit": "Tfjt / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Capasoni_%28Grottaglie%29.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1050,
+        "height": 1400
       },
       "story": {
         "hook": "On the heel of Italy, a quarter of the town is still given over to potteries carved into the rock.",
@@ -3306,7 +3469,9 @@
         "alt": "St Ives / Leach Pottery (Stives1)",
         "credit": "waterborough / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Stives1.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 800,
+        "height": 600
       },
       "story": {
         "hook": "A fishing town in Cornwall became the place where studio pottery in the West began.",
@@ -3342,7 +3507,9 @@
         "alt": "Stoke-on-Trent (Gladstone pottery museum courtyard 2025)",
         "credit": "Geni / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Gladstone_pottery_museum_courtyard_2025.JPG",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 934
       },
       "story": {
         "hook": "The Potteries: six towns that industrialised ceramics and supplied the world's tables.",
@@ -3378,7 +3545,10 @@
         "alt": "Shigaraki Town (Shigaraki tanuki)",
         "credit": "Chris Gladis / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Shigaraki_tanuki.jpg",
-        "license": "CC BY 2.0"
+        "license": "CC BY 2.0",
+        "width": 1400,
+        "height": 1050,
+        "position": "83% 51%"
       },
       "story": {
         "hook": "One of Japan's six ancient kilns, where the clay itself carries the fire's colours.",
@@ -3413,7 +3583,9 @@
         "alt": "Arita (Arita porcelain bottle, Edo period (1615-1868), Japan)",
         "credit": "King muh / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Arita_porcelain_bottle%2C_Edo_period_%281615-1868%29%2C_Japan.JPG",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 932,
+        "height": 1400
       },
       "story": {
         "hook": "Where Japan's porcelain began, with a Korean potter and a mountain of stone.",
@@ -3445,7 +3617,10 @@
         "alt": "Vallauris (Vallauris atelier de potier)",
         "credit": "Unknown 1920s / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Vallauris_atelier_de_potier.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 620,
+        "height": 1000,
+        "position": "62% 58%"
       },
       "story": {
         "hook": "A small town on the Riviera where Picasso came to play with clay.",
@@ -3481,7 +3656,9 @@
         "alt": "Seto (Wide-Mouthed Storage Jar with Peony Vines)",
         "credit": "anonymous / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Wide-Mouthed_Storage_Jar_with_Peony_Vines.jpg",
-        "license": "CC BY 4.0"
+        "license": "CC BY 4.0",
+        "width": 1311,
+        "height": 1400
       },
       "story": {
         "hook": "A city so tied to pottery that its name became the Japanese word for ceramics.",
@@ -3517,7 +3694,9 @@
         "alt": "Metropolitan Museum of Art (Jar with Dragon - MET - Joy of Museums)",
         "credit": "Joyofmuseums / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Jar_with_Dragon_-_MET_-_Joy_of_Museums.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1262,
+        "height": 1400
       },
       "story": {
         "hook": "Five thousand years of clay in one building on Fifth Avenue.",
@@ -3569,7 +3748,9 @@
         "alt": "Display case, Ceramics Gallery, V&A London",
         "credit": "14GTR / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Display_case,_Ceramics_Gallery,_V%26A_London.jpg",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1400,
+        "height": 878
       }
     },
     {
@@ -3588,7 +3769,9 @@
         "alt": "Faenza (Faenza maiolica, piatto con leandro, 1525 ca.)",
         "credit": "sailko / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Faenza_maiolica%2C_piatto_con_leandro%2C_1525_ca..JPG",
-        "license": "GFDL"
+        "license": "GFDL",
+        "width": 1398,
+        "height": 1400
       },
       "story": {
         "hook": "The town that gave its name to faience.",
@@ -3624,7 +3807,9 @@
         "alt": "Fez (Bab Bou Jeloud Frame Minaret Fes Nov25 A7CR 09127-8 HDR3)",
         "credit": "This Photo was taken by Timothy A. Gonsalves . Feel free to use my pho / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Bab_Bou_Jeloud_Frame_Minaret_Fes_Nov25_A7CR_09127-8_HDR3.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 860
       },
       "story": {
         "hook": "Blue-and-white bowls and mosaic tiles cut by hand in an ancient medina.",
@@ -3660,7 +3845,9 @@
         "alt": "Seagrove (Seagrove, North Carolina)",
         "credit": "Indy beetle / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Seagrove%2C_North_Carolina.jpg",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1400,
+        "height": 894
       },
       "story": {
         "hook": "A crossroads in North Carolina with over a hundred potteries along its roads.",
@@ -3696,7 +3883,9 @@
         "alt": "Icheon (이천 도자기 축제 (4))",
         "credit": "Jocelyndurrey / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:%EC%9D%B4%EC%B2%9C_%EB%8F%84%EC%9E%90%EA%B8%B0_%EC%B6%95%EC%A0%9C_%284%29.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 788
       },
       "story": {
         "hook": "Korea's ceramic city, where the celadon and buncheong of the past are made again.",
@@ -3761,7 +3950,9 @@
         "alt": "Tokoname (Jar, Tokoname ware, Heian period, 12th century, excavated at Mizoguchi, Futami-cho, Ise-sh)",
         "credit": "Daderot / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Jar%2C_Tokoname_ware%2C_Heian_period%2C_12th_century%2C_excavated_at_Mizoguchi%2C_Futami-cho%2C_Ise-shi%2C_Mie%2C_natural_glaze_-_Tokyo_National_Museum_-_DSC05235.JPG",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1208,
+        "height": 1400
       },
       "story": {
         "hook": "Another of Japan's six ancient kilns, famous for its red teapots and its kiln chimneys.",
@@ -3796,7 +3987,9 @@
         "alt": "Deruta (Dish with a Peacock Feather Pattern)",
         "credit": "Unknown author Unknown author / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Dish_with_a_Peacock_Feather_Pattern.jpg",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1400,
+        "height": 1378
       },
       "story": {
         "hook": "A hill town in Umbria known for painted maiolica and gold lustre.",
@@ -3827,7 +4020,9 @@
         "alt": "Kyoto (Kiyomizu-dera, Kyoto, November 2016 -02)",
         "credit": "Martin Falbisoner / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Kiyomizu-dera%2C_Kyoto%2C_November_2016_-02.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 925
       },
       "story": {
         "hook": "The old capital, where pottery was made for the tea ceremony and the court.",
@@ -3871,7 +4066,9 @@
         "alt": "Thrown, Volcanic vase by Barbara Cass (YORYM-2004.1.252)",
         "credit": "Creator:Barbara Cass / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Thrown,_Volcanic_vase_by_Barbara_Cass_(YORYM-2004.1.252).JPG",
-        "license": "CC BY-SA 3.0"
+        "license": "CC BY-SA 3.0",
+        "width": 933,
+        "height": 1400
       }
     },
     {
@@ -3890,7 +4087,9 @@
         "alt": "Liquid (Uranium glazed drip bowl)",
         "credit": "Joostik / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Uranium_glazed_drip_bowl.jpg",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1400,
+        "height": 1050
       },
       "story": {
         "hook": "Glaze that still looks wet, pooled in the bottom of a bowl like water.",
@@ -3924,7 +4123,9 @@
         "alt": "Stone (Teapot in the shape of a sheng, Yixing, China, unglazed brown stoneware - Victoria and Alb)",
         "credit": "Daderot / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Teapot_in_the_shape_of_a_sheng%2C_Yixing%2C_China%2C_unglazed_brown_stoneware_-_Victoria_and_Albert_Museum_-_London%2C_England_-_DSC04698.jpg",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1153,
+        "height": 1400
       },
       "story": {
         "hook": "Clay that, when it comes out of the kiln, looks and feels like rock.",
@@ -3955,7 +4156,9 @@
         "alt": "Skin (ML - Terra sigillata Becher)",
         "credit": "Wolfgang Sauber / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:ML_-_Terra_sigillata_Becher.jpg",
-        "license": "GFDL"
+        "license": "GFDL",
+        "width": 1129,
+        "height": 1400
       },
       "story": {
         "hook": "Surfaces that invite the hand: soft, warm and almost alive.",
@@ -3989,7 +4192,9 @@
         "alt": "Natural Ash (Yunomi ash)",
         "credit": "Phil Rogers / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Yunomi_ash.jpg",
-        "license": "CC BY-SA 3.0"
+        "license": "CC BY-SA 3.0",
+        "width": 1050,
+        "height": 1400
       },
       "story": {
         "hook": "Glaze made by fire itself, from the ash of the wood that fires the kiln.",
@@ -4023,7 +4228,9 @@
         "alt": "Crystalline (Vase with crystal glaze coating 02)",
         "credit": "Andrey Korzun / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Vase_with_crystal_glaze_coating_02.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1393,
+        "height": 1400
       },
       "story": {
         "hook": "Glazes that grow frost-like crystals while the kiln cools.",
@@ -4053,7 +4260,9 @@
         "alt": "Shino (Tea Bowl known as 'Furisode', Mino ware, Shino type, Azuchi-Momoyama to Edo period, 16th-1)",
         "credit": "Daderot / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Tea_Bowl_known_as_%27Furisode%27%2C_Mino_ware%2C_Shino_type%2C_Azuchi-Momoyama_to_Edo_period%2C_16th-17th_century_-_Tokyo_National_Museum_-_DSC05893.JPG",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1400,
+        "height": 896
       },
       "story": {
         "hook": "Thick, white to orange, pitted and carbon-flecked: the first white glaze of Japan.",
@@ -4083,7 +4292,9 @@
         "alt": "Tenmoku (Japanese - Tea Bowl - Walters 49440 - Profile)",
         "credit": "Anonymous ( Japan ) Unknown author / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Japanese_-_Tea_Bowl_-_Walters_49440_-_Profile.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 1400,
+        "height": 1374
       },
       "story": {
         "hook": "A deep iron glaze, black where thick and rust-brown where it breaks over an edge.",
@@ -4113,7 +4324,9 @@
         "alt": "Salt Glaze (The Art of German Stoneware Philadelphia 2012 010)",
         "credit": "Picture taken by Marcus Cyron / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:The_Art_of_German_Stoneware_Philadelphia_2012_010.JPG",
-        "license": "CC BY-SA 3.0"
+        "license": "CC BY-SA 3.0",
+        "width": 1010,
+        "height": 1400
       },
       "story": {
         "hook": "Glaze made by throwing salt into a red-hot kiln.",
@@ -4155,7 +4368,9 @@
         "alt": "Tea bowl (chawan), E-shino style, Japan, Gifu prefecture, Oyabu, c. 1600, stoneware, ash glaze - Montreal Museum of Fine Arts - Montreal, Canada - DSC09535",
         "credit": "Daderot / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Tea_bowl_(chawan),_E-shino_style,_Japan,_Gifu_prefecture,_Oyabu,_c._1600,_stoneware,_ash_glaze_-_Montreal_Museum_of_Fine_Arts_-_Montreal,_Canada_-_DSC09535.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 1400,
+        "height": 971
       }
     },
     {
@@ -4185,7 +4400,9 @@
         "alt": "Drinking bowl, Jian ware with oil spot glaze, China, Fujian Province, Jian kilns, Northern or Southern Song dynasty, probably 1100s AD, stoneware, iron-colored glaze - Freer Gallery of Art - DSC05049",
         "credit": "Daderot / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Drinking_bowl,_Jian_ware_with_oil_spot_glaze,_China,_Fujian_Province,_Jian_kilns,_Northern_or_Southern_Song_dynasty,_probably_1100s_AD,_stoneware,_iron-colored_glaze_-_Freer_Gallery_of_Art_-_DSC05049.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 1400,
+        "height": 1009
       }
     },
     {
@@ -4226,7 +4443,9 @@
         "alt": "Celadon (Foliate Dish with Bovine (Xiniu) Gazing at a Crescent Moon)",
         "credit": "anonymous / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Foliate_Dish_with_Bovine_%28Xiniu%29_Gazing_at_a_Crescent_Moon.jpg",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1400,
+        "height": 1400
       },
       "story": {
         "hook": "Jade-green glass, deepest where it pools.",
@@ -4256,7 +4475,9 @@
         "alt": "Copper Red (Bowl MET SLP1680-1 (cropped))",
         "credit": "Anonymous (Chinese artist) Unknown author / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Bowl_MET_SLP1680-1_%28cropped%29.jpg",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1400,
+        "height": 1050
       },
       "story": {
         "hook": "A red from copper and smoke: the hardest colour in the old kilns.",
@@ -4298,7 +4519,9 @@
         "alt": "Bowl, Jian ware, China, Southern Song dynasty, 1100s-1200s AD, ceramic, black glaze with hare's fur marks - Tokyo National Museum - Tokyo, Japan - DSC08422",
         "credit": "Daderot / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Bowl,_Jian_ware,_China,_Southern_Song_dynasty,_1100s-1200s_AD,_ceramic,_black_glaze_with_hare%27s_fur_marks_-_Tokyo_National_Museum_-_Tokyo,_Japan_-_DSC08422.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 1400,
+        "height": 1138
       }
     }
   ],
@@ -4336,7 +4559,9 @@
         "alt": "Grand Canyon Archaeology Day 2013 Making a Pot 3664 - Flickr - Grand Canyon NPS",
         "credit": "Grand Canyon National Park / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_Archaeology_Day_2013_Making_a_Pot_3664_-_Flickr_-_Grand_Canyon_NPS.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 1258,
+        "height": 1400
       }
     },
     {
@@ -4355,7 +4580,9 @@
         "alt": "Burnishing (Maria Martinez pot)",
         "credit": "Cullen328 / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Maria_Martinez_pot.jpg",
-        "license": "CC BY-SA 3.0"
+        "license": "CC BY-SA 3.0",
+        "width": 1268,
+        "height": 1036
       },
       "story": {
         "hook": "Polishing raw clay with a stone until it shines without any glaze.",
@@ -4386,7 +4613,9 @@
         "alt": "Wood Firing (Jiaotanxia dragon kiln Hangzhou 2009)",
         "credit": "G41rn8 / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Jiaotanxia_dragon_kiln_Hangzhou_2009.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 1050
       },
       "story": {
         "hook": "Days of stoking, where flame and ash paint the pots.",
@@ -4434,7 +4663,9 @@
         "alt": "Sgraffito ware Bowl - Mamluk period - 14th century - MET - inventory number 30.112.18",
         "credit": "Faqscl / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Sgraffito_ware_Bowl_-_Mamluk_period_-_14th_century_-_MET_-_inventory_number_30.112.18.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 1400,
+        "height": 788
       }
     },
     {
@@ -4453,7 +4684,9 @@
         "alt": "Pit Firing (Kababougou)",
         "credit": "Marco Bellucci from Scandicci, Italy / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Kababougou.jpg",
-        "license": "CC BY 2.0"
+        "license": "CC BY 2.0",
+        "width": 1400,
+        "height": 1050
       },
       "story": {
         "hook": "Firing in a hole in the ground, with sawdust, leaves and dung.",
@@ -4496,7 +4729,9 @@
         "alt": "Iniciando la Quema de Cerámica en UAM-X en la Ciudad de México",
         "credit": "Mex e can / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Iniciando_la_Quema_de_Cer%C3%A1mica_en_UAM-X_en_la_Ciudad_de_M%C3%A9xico.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 1046
       }
     },
     {
@@ -4516,7 +4751,9 @@
         "alt": "Kintsugi (Tea bowl, Korea, Joseon dynasty, 16th century AD, Mishima-hakeme type, buncheong ware, sto)",
         "credit": "Daderot / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Tea_bowl%2C_Korea%2C_Joseon_dynasty%2C_16th_century_AD%2C_Mishima-hakeme_type%2C_buncheong_ware%2C_stoneware_with_white_engobe_and_translucent%2C_greenish-gray_glaze%2C_gold_lacquer_-_Ethnological_Museum%2C_Berlin_-_DSC02061.JPG",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1400,
+        "height": 960
       },
       "story": {
         "hook": "Mending broken pots with lacquer and gold, so the break becomes part of the story.",
@@ -4551,7 +4788,9 @@
         "alt": "Slip Trailing (Thrown, Slip Trailed, Feathered Dish by Joan Hotchin (YORYM-2004.1.1391))",
         "credit": "Creator:Joan Hotchin / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Thrown%2C_Slip_Trailed%2C_Feathered_Dish_by_Joan_Hotchin_%28YORYM-2004.1.1391%29.JPG",
-        "license": "CC BY-SA 3.0"
+        "license": "CC BY-SA 3.0",
+        "width": 1400,
+        "height": 933
       },
       "story": {
         "hook": "Drawing with liquid clay from a bottle, like icing a cake.",
@@ -4581,7 +4820,9 @@
         "alt": "Nerikomi / Neriage (Mug (AM 1966.30-10))",
         "credit": "Staffordshire potteries district / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Mug_%28AM_1966.30-10%29.jpg",
-        "license": "CC BY 4.0"
+        "license": "CC BY 4.0",
+        "width": 1333,
+        "height": 1400
       },
       "story": {
         "hook": "Stacking and slicing coloured clays so the pattern runs right through the wall.",
@@ -4613,7 +4854,9 @@
         "alt": "Terra Sigillata (Roemerhalle Kreuznach Sigillata)",
         "credit": "Haselburg-müller / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Roemerhalle_Kreuznach_Sigillata.jpg",
-        "license": "GFDL"
+        "license": "GFDL",
+        "width": 1400,
+        "height": 933
       },
       "story": {
         "hook": "The finest part of clay, brushed on and polished to a soft shine.",
@@ -4648,7 +4891,9 @@
         "alt": "Mishima / Inlay (Korean - Tea Bowl - Walters 492097 - Profile)",
         "credit": "Anonymous ( Korea ) Unknown author / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Korean_-_Tea_Bowl_-_Walters_492097_-_Profile.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 1400,
+        "height": 1266
       },
       "story": {
         "hook": "Inlaid lines: carve into clay, fill with slip, scrape back.",
@@ -4695,7 +4940,9 @@
         "alt": "Storage jar, Shigaraki ware, Japan, Shiga prefecture, Muromachi period, 1400-1500, stoneware, natural ash glaze - Asian Art Museum - San Francisco, CA - DSC07912",
         "credit": "Daderot / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Storage_jar,_Shigaraki_ware,_Japan,_Shiga_prefecture,_Muromachi_period,_1400-1500,_stoneware,_natural_ash_glaze_-_Asian_Art_Museum_-_San_Francisco,_CA_-_DSC07912.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 1104,
+        "height": 1400
       }
     },
     {
@@ -4726,7 +4973,9 @@
         "alt": "Raku 15.06.2014 11-38-23",
         "credit": "Dirk Ingo Franke / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Raku_15.06.2014_11-38-23.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 930
       }
     },
     {
@@ -4769,7 +5018,9 @@
         "alt": "Anagama Firing (Scott Meyers at Anagama firing (2517048572))",
         "credit": "carmichaellibrary / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Scott_Meyers_at_Anagama_firing_%282517048572%29.jpg",
-        "license": "CC BY 2.0"
+        "license": "CC BY 2.0",
+        "width": 800,
+        "height": 600
       },
       "story": {
         "hook": "A single-chamber tunnel kiln dug into a hillside, fired with wood for days.",
@@ -4801,7 +5052,9 @@
         "alt": "Wheel Throwing (Potter at work)",
         "credit": "Whippetsgalore / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Potter_at_work.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1278,
+        "height": 961
       },
       "story": {
         "hook": "Centring clay on a spinning wheel and pulling it up into a form.",
@@ -4848,7 +5101,9 @@
         "alt": "Press Moulded Bottle with incised decoration.",
         "credit": "Hajeonglee / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Press_Moulded_Bottle_with_incised_decoration..jpg",
-        "license": "CC BY-SA 3.0"
+        "license": "CC BY-SA 3.0",
+        "width": 1050,
+        "height": 1400
       }
     },
     {
@@ -4867,7 +5122,9 @@
         "alt": "Slip Casting (Lovers, unidentified, porcelain - Musei Capitolini - Rome, Italy - DSC05956)",
         "credit": "Daderot / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Lovers%2C_unidentified%2C_porcelain_-_Musei_Capitolini_-_Rome%2C_Italy_-_DSC05956.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 1023,
+        "height": 1400
       },
       "story": {
         "hook": "Pouring liquid clay into a plaster mould to make identical pieces.",
@@ -4910,7 +5167,9 @@
         "alt": "Clay pot workshop - pit fired pottery 20220916120912",
         "credit": "Philtom12 / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Clay_pot_workshop_-_pit_fired_pottery_20220916120912.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 933
       }
     },
     {
@@ -4929,7 +5188,9 @@
         "alt": "Oxide Wash (Cobalt Blue)",
         "credit": "FK1954 / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Cobalt_Blue.JPG",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 685,
+        "height": 585
       },
       "story": {
         "hook": "Rubbing raw metal oxides into texture to bring it to life.",
@@ -4964,7 +5225,9 @@
         "alt": "Wabi-Sabi (250201 Ryoan-ji Kyoto Japan06s3)",
         "credit": "663highland / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:250201_Ryoan-ji_Kyoto_Japan06s3.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 933
       },
       "story": {
         "hook": "Beauty in what is imperfect, incomplete and passing.",
@@ -5004,7 +5267,9 @@
         "alt": "Working with Local Materials (Julian Martinez digging clay in the early 1920s)",
         "credit": "Unknown author Unknown author / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Julian_Martinez_digging_clay_in_the_early_1920s.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 1282,
+        "height": 1157
       },
       "story": {
         "hook": "Clay, ash and stone from where you are, so the pot belongs to its place.",
@@ -5058,6 +5323,10 @@
         {
           "label": "The Unknown Craftsman, Soetsu Yanagi (Open Library)",
           "url": "https://openlibrary.org/search?title=The+Unknown+Craftsman&author=Soetsu+Yanagi"
+        },
+        {
+          "label": "The Unknown Craftsman (Internet Archive, borrow free)",
+          "url": "https://archive.org/details/unknowncraftsman0000yana"
         }
       ]
     },
@@ -5089,7 +5358,9 @@
         "alt": "Jiaotanxia dragon kiln Hangzhou 2009",
         "credit": "G41rn8 / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Jiaotanxia_dragon_kiln_Hangzhou_2009.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 1050
       }
     },
     {
@@ -5120,7 +5391,9 @@
         "alt": "Buncheong ceramics korea, Goryeo dynasty to Joseon period",
         "credit": "Lightbearer03 / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Buncheong_ceramics_korea,_Goryeo_dynasty_to_Joseon_period.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 1050
       }
     },
     {
@@ -5140,7 +5413,9 @@
         "alt": "The Sacred Everyday (Ido chawan Kizaemon)",
         "credit": "Association of Cultural Properties / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Ido_chawan_Kizaemon.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 1400,
+        "height": 972
       },
       "story": {
         "hook": "The cup, the bowl, the plate: the most intimate art there is.",
@@ -5175,7 +5450,9 @@
         "alt": "Time Made Visible (51714-Terracota-Army)",
         "credit": "xiquinhosilva / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:51714-Terracota-Army.jpg",
-        "license": "CC BY 2.0"
+        "license": "CC BY 2.0",
+        "width": 1400,
+        "height": 927
       },
       "story": {
         "hook": "Clay records time: the hand, the drying, the fire and the years of use.",
@@ -5221,6 +5498,10 @@
         {
           "label": "The Unknown Craftsman, Soetsu Yanagi (Open Library)",
           "url": "https://openlibrary.org/search?title=The+Unknown+Craftsman&author=Soetsu+Yanagi"
+        },
+        {
+          "label": "The Unknown Craftsman (Internet Archive, borrow free)",
+          "url": "https://archive.org/details/unknowncraftsman0000yana"
         }
       ],
       "image": {
@@ -5228,7 +5509,9 @@
         "alt": "Moon jar. 18thC.Joseon Dynasty.British Museum",
         "credit": "Ismoon (talk) 15:44, 31 January 2018 (UTC) / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Moon_jar._18thC.Joseon_Dynasty.British_Museum.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1078,
+        "height": 1400
       }
     },
     {
@@ -5259,7 +5542,9 @@
         "alt": "Waistel Cooper clam-shell sgraffito stoneware vase",
         "credit": "Metadadaist / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Waistel_Cooper_clam-shell_sgraffito_stoneware_vase.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 1217
       }
     },
     {
@@ -5280,7 +5565,9 @@
         "alt": "Truth to Materials (Ian Sprague spheroidal stoneware vase St Kilda 1-12-2015)",
         "credit": "Eric Timewell / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Ian_Sprague_spheroidal_stoneware_vase_St_Kilda_1-12-2015.jpg",
-        "license": "CC BY-SA 4.0"
+        "license": "CC BY-SA 4.0",
+        "width": 1400,
+        "height": 1395
       },
       "story": {
         "hook": "Let clay be clay: show what the material is, not what it imitates.",
@@ -5319,7 +5606,9 @@
         "alt": "Slow Making (Töpferscheibe)",
         "credit": "Oliver Kurmis / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:T%C3%B6pferscheibe.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 1296,
+        "height": 972
       },
       "story": {
         "hook": "Making at the pace the material asks for.",
@@ -5366,7 +5655,9 @@
         "alt": "Spade-shaped vase by Hans Coper, V&A London 01",
         "credit": "14GTR / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Spade-shaped_vase_by_Hans_Coper,_V%26A_London_01.jpg",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 873,
+        "height": 1400
       }
     }
   ],
@@ -5390,7 +5681,9 @@
         "alt": "The Korean Invasions (1592-98) (Aichi Prefectural Ceramic Museum (38))",
         "credit": "Gryffindor / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Aichi_Prefectural_Ceramic_Museum_%2838%29.jpg",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1400,
+        "height": 1050
       },
       "story": {
         "hook": "A war that moved a whole ceramic tradition from one country to another.",
@@ -5442,7 +5735,9 @@
         "alt": "Omori Shell Mound Monument - Omori, Tokyo, Japan - DSC05591",
         "credit": "Daderot / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Omori_Shell_Mound_Monument_-_Omori,_Tokyo,_Japan_-_DSC05591.jpg",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1400,
+        "height": 933
       }
     },
     {
@@ -5462,7 +5757,9 @@
         "alt": "Leach Meets Hamada (1919) (The Leach Pottery, St. Ives, Cornwall - Museum Entrance)",
         "credit": "Jordanhill School D&T Dept / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:The_Leach_Pottery%2C_St._Ives%2C_Cornwall_-_Museum_Entrance.jpg",
-        "license": "CC BY 2.0"
+        "license": "CC BY 2.0",
+        "width": 937,
+        "height": 1400
       },
       "story": {
         "hook": "An English artist and a Japanese chemist-potter meet, and studio pottery is born.",
@@ -5474,6 +5771,14 @@
         {
           "label": "Leach Pottery (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Leach_Pottery"
+        },
+        {
+          "label": "Hamada, Potter (Internet Archive, borrow free)",
+          "url": "https://archive.org/details/hamadapotter0000leac_y4c1"
+        },
+        {
+          "label": "The Leach Pottery, St Ives",
+          "url": "https://www.leachpottery.com/"
         }
       ]
     },
@@ -5506,7 +5811,9 @@
         "alt": "Two works by Peter Voulkos, V&A London",
         "credit": "14GTR / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Two_works_by_Peter_Voulkos,_V%26A_London.jpg",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 935,
+        "height": 1400
       }
     },
     {
@@ -5527,7 +5834,10 @@
         "alt": "European Porcelain Discovered (1708) (Saxonia Museum für saechsische Vaterlandskunde I 33)",
         "credit": "Eduard Sommer / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Saxonia_Museum_f%C3%BCr_saechsische_Vaterlandskunde_I_33.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 864,
+        "height": 1219,
+        "position": "40% 26%"
       },
       "story": {
         "hook": "A captive alchemist discovers the secret of porcelain in Saxony.",
@@ -5580,7 +5890,9 @@
         "alt": "María and Julián Martinez pit firing blackware pottery (c.1920)",
         "credit": "Unknown photographer (early 20th C) / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Mar%C3%ADa_and_Juli%C3%A1n_Martinez_pit_firing_blackware_pottery_(c.1920).jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 1000,
+        "height": 803
       }
     },
     {
@@ -5601,7 +5913,9 @@
         "alt": "Chōjirō Creates First Raku (c. 1580) (Tea bowl, known as Suehiro, studio of Chojiro, Raku ware, Kuroraku type, Azuchi-Momoyama t)",
         "credit": "Daderot / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Tea_bowl%2C_known_as_Suehiro%2C_studio_of_Chojiro%2C_Raku_ware%2C_Kuroraku_type%2C_Azuchi-Momoyama_to_Edo_period%2C_1500s-1600s_AD%2C_ceramic_-_Tokyo_National_Museum_-_Ueno_Park%2C_Tokyo%2C_Japan_-_DSC08889.jpg",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1375,
+        "height": 1400
       },
       "story": {
         "hook": "A tile maker in Kyoto makes tea bowls for Sen no Rikyū.",
@@ -5649,7 +5963,9 @@
         "alt": "Bowl by Lucie Rie, National Museum Cardiff",
         "credit": "14GTR / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Bowl_by_Lucie_Rie,_National_Museum_Cardiff.jpg",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1400,
+        "height": 856
       }
     },
     {
@@ -5670,7 +5986,9 @@
         "alt": "The Five Great Kilns of Song (Chinese - Spittoon - Walters 491585 - Profile)",
         "credit": "Anonymous ( China ) Unknown author / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Chinese_-_Spittoon_-_Walters_491585_-_Profile.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 1353,
+        "height": 1400
       },
       "story": {
         "hook": "The five great kilns of the Song dynasty set the standard for refinement.",
@@ -5723,7 +6041,9 @@
         "alt": "York Art Gallery, 'Petit Buste de Femme' (Small Female Bust) by Pablo Picasso - geograph.org.uk - 7648912",
         "credit": "Michael Garlick / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:York_Art_Gallery,_%27Petit_Buste_de_Femme%27_(Small_Female_Bust)_by_Pablo_Picasso_-_geograph.org.uk_-_7648912.jpg",
-        "license": "CC BY-SA 2.0"
+        "license": "CC BY-SA 2.0",
+        "width": 1400,
+        "height": 1400
       }
     },
     {
@@ -5753,6 +6073,10 @@
         {
           "label": "The Unknown Craftsman, Soetsu Yanagi (Open Library)",
           "url": "https://openlibrary.org/search?title=The+Unknown+Craftsman&author=Soetsu+Yanagi"
+        },
+        {
+          "label": "The Unknown Craftsman (Internet Archive, borrow free)",
+          "url": "https://archive.org/details/unknowncraftsman0000yana"
         }
       ],
       "image": {
@@ -5760,7 +6084,9 @@
         "alt": "Japan Folk Crafts Museum 2026 Aug 30 various 04",
         "credit": "Nesnad / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Japan_Folk_Crafts_Museum_2026_Aug_30_various_04.jpg",
-        "license": "CC BY 4.0"
+        "license": "CC BY 4.0",
+        "width": 1400,
+        "height": 1191
       }
     },
     {
@@ -5797,7 +6123,9 @@
         "alt": "Barro negro de Oaxaca",
         "credit": "Slevinr / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Barro_negro_de_Oaxaca.JPG",
-        "license": "CC BY 3.0"
+        "license": "CC BY 3.0",
+        "width": 1400,
+        "height": 1050
       }
     },
     {
@@ -5818,7 +6146,9 @@
         "alt": "Chinese Export Collapse (1640s-80s) (Table Service MET DT11573 (cropped))",
         "credit": "unknown author / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Table_Service_MET_DT11573_%28cropped%29.jpg",
-        "license": "CC0"
+        "license": "CC0",
+        "width": 1262,
+        "height": 1400
       },
       "story": {
         "hook": "When China's porcelain stopped flowing, Japan and Delft stepped in.",
@@ -5862,6 +6192,14 @@
         {
           "label": "A Potter's Book, Bernard Leach (Open Library)",
           "url": "https://openlibrary.org/search?title=A+Potter%27s+Book&author=Bernard+Leach"
+        },
+        {
+          "label": "A Potter's Book (1940) (Internet Archive, borrow free)",
+          "url": "https://archive.org/details/pottersbook0000bern"
+        },
+        {
+          "label": "The Leach Pottery, St Ives",
+          "url": "https://www.leachpottery.com/"
         }
       ],
       "image": {
@@ -5869,7 +6207,9 @@
         "alt": "Studio Ceramics water pot by Bernard Leach (YORYM-2004.1.2022.2)",
         "credit": "Bernard Leach / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Studio_Ceramics_water_pot_by_Bernard_Leach_(YORYM-2004.1.2022.2).JPG",
-        "license": "CC BY-SA 3.0"
+        "license": "CC BY-SA 3.0",
+        "width": 933,
+        "height": 1400
       }
     },
     {
@@ -5905,7 +6245,9 @@
         "alt": "George E. Ohr pottery workshop",
         "credit": "Detroit Publishing Co. / Wikimedia Commons",
         "creditUrl": "https://commons.wikimedia.org/wiki/File:George_E._Ohr_pottery_workshop.jpg",
-        "license": "Public domain"
+        "license": "Public domain",
+        "width": 973,
+        "height": 800
       }
     }
   ]

@@ -94,7 +94,7 @@ export default async function OpportunityPage({ params }: { params: Promise<{ sl
       {/* Photograph, when there is one */}
       {img && (
         <div className="wrap mt-8 md:mt-12">
-          <Photo photo={img} ratio="16 / 9" sizes="(min-width: 1200px) 1120px, 100vw" priority frameClassName="max-h-[70vh]" />
+          <Photo photo={img} ratio="16 / 9" sizes="(min-width: 1200px) 1120px, 100vw" priority wholeIfTall frameClassName="max-h-[70vh]" />
         </div>
       )}
 

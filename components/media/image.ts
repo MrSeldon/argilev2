@@ -12,6 +12,7 @@ export interface EntryImage {
   license?: string;
   width?: number;
   height?: number;
+  position?: string;   // "x% y%": where the crop should centre (faces), from scripts/images/focus.py
 }
 
 export function imageOf(entry: unknown): EntryImage | null {
@@ -32,5 +33,6 @@ export function imageOf(entry: unknown): EntryImage | null {
     license: str(i.license),
     width: num(i.width),
     height: num(i.height),
+    position: str(i.position),
   };
 }
