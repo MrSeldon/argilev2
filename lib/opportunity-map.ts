@@ -6,7 +6,7 @@ import type { Opportunity } from "./types";
  * Opportunity plus the optional fields used by the San Francisco Bay dataset.
  * `type` stays the primary filter; `category` / `categories` are optional extras.
  */
-export type MapOpportunity = Opportunity & {
+export type MapOpportunity = Omit<Opportunity, "source"> & {
   category?: string;
   categories?: string[];
   source?: string | { url?: string; name?: string; label?: string };
