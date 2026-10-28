@@ -12,7 +12,7 @@
       "ideas",
       "moments"
     ],
-    "imagePolicy": "Images from Wikimedia Commons (CC0/CC-BY-SA) or museum Open Access (CC0). Entries without images use fallbackColor.",
+    "imagePolicy": "Images are local WebP files in public/images/inspirations/, downloaded once from Wikimedia Commons (each entry's `image` field carries credit, creditUrl and license). Entries without an image use fallbackColor.",
     "counts": {
       "traditions": 28,
       "artists": 34,
@@ -26,16 +26,15 @@
   "traditions": [
     {
       "id": "jomon",
-      "name": "J\u014dmon",
+      "name": "Jōmon",
       "origin": "Japan",
-      "period": "14,500 BCE \u2013 300 BCE",
+      "period": "14,500 BCE – 300 BCE",
       "hasImage": true,
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Jomon_Vessel%2C_Flame_Type.JPG",
       "fallbackColor": "#8B7355",
       "visualCaption": "Fire and cord. 16,000 years of making.",
       "story": {
-        "hook": "The oldest pottery on Earth wasn't made for beauty\u2014it was made for survival.",
-        "body": "Sixteen thousand years ago, someone in what is now Japan pressed twisted cord into wet clay. They couldn't have known they were inventing one of humanity's most enduring art forms. J\u014dmon means 'cord-marked,' and these vessels\u2014with their wild, flame-like rims and deeply textured surfaces\u2014remain some of the most expressive ceramics ever made. The famous 'flame vessels' of the Middle J\u014dmon period feature elaborate sculptural rims that seem to dance with fire itself. These weren't decorative objects; they were cooking pots, burial urns, ritual vessels. The J\u014dmon people were hunter-gatherers who stayed in one place long enough to need\u2014and make\u2014pottery. Every piece was coiled by hand, fired in open pits at relatively low temperatures. The surfaces hold fingerprints, cord impressions, the marks of shells and bamboo.",
+        "hook": "The oldest pottery on Earth wasn't made for beauty—it was made for survival.",
+        "body": "Sixteen thousand years ago, someone in what is now Japan pressed twisted cord into wet clay. They couldn't have known they were inventing one of humanity's most enduring art forms. Jōmon means 'cord-marked,' and these vessels—with their wild, flame-like rims and deeply textured surfaces—remain some of the most expressive ceramics ever made. The famous 'flame vessels' of the Middle Jōmon period feature elaborate sculptural rims that seem to dance with fire itself. These weren't decorative objects; they were cooking pots, burial urns, ritual vessels. The Jōmon people were hunter-gatherers who stayed in one place long enough to need—and make—pottery. Every piece was coiled by hand, fired in open pits at relatively low temperatures. The surfaces hold fingerprints, cord impressions, the marks of shells and bamboo.",
         "reflection": "What does it mean that the oldest pottery feels so contemporary?"
       },
       "connections": [
@@ -58,20 +57,26 @@
         "ritual",
         "handbuilding"
       ],
-      "sourceUrl": "https://www.metmuseum.org/toah/hd/jomo/hd_jomo.htm"
+      "sourceUrl": "https://www.metmuseum.org/toah/hd/jomo/hd_jomo.htm",
+      "image": {
+        "src": "/images/inspirations/jomon.webp",
+        "alt": "Jōmon (Jomon Flame Style Pottery, 3000 BC)",
+        "credit": "Netherzone / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Jomon_Flame_Style_Pottery%2C_3000_BC.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "buncheong",
       "name": "Buncheong",
       "origin": "Korea",
-      "period": "15th\u201316th century",
+      "period": "15th–16th century",
       "hasImage": true,
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Bottle_with_Fish%2C_Joseon_dynasty_%281392-1910%29%2C_15th-early_16th_century_%28cropped%29.jpg",
       "fallbackColor": "#C4B7A6",
       "visualCaption": "Freedom in slip. Korea's happy accident.",
       "story": {
         "hook": "For 200 years, Korean potters made what might be the most joyful ceramics in history.",
-        "body": "Buncheong emerged in 15th-century Korea as celadon traditions loosened their grip. Regional potters, freed from court standards, began to play. They brushed white slip loosely over dark clay, scratched fish and birds with abandon, stamped patterns with cheerful repetition. The results were whimsical, earthy, sophisticated, and utterly Korean. When Japan invaded Korea in the 1590s, hundreds of Korean potters were taken to Japan, where buncheong aesthetics transformed Japanese tea ceremony ware. In Korea, the tradition vanished, replaced by white porcelain. It wasn't until the 20th century that Korean artists rediscovered buncheong\u2014and found in its gestural freedom something that felt startlingly like abstract expressionism.",
+        "body": "Buncheong emerged in 15th-century Korea as celadon traditions loosened their grip. Regional potters, freed from court standards, began to play. They brushed white slip loosely over dark clay, scratched fish and birds with abandon, stamped patterns with cheerful repetition. The results were whimsical, earthy, sophisticated, and utterly Korean. When Japan invaded Korea in the 1590s, hundreds of Korean potters were taken to Japan, where buncheong aesthetics transformed Japanese tea ceremony ware. In Korea, the tradition vanished, replaced by white porcelain. It wasn't until the 20th century that Korean artists rediscovered buncheong—and found in its gestural freedom something that felt startlingly like abstract expressionism.",
         "reflection": "What happens when you let go of refinement and embrace the gestural?"
       },
       "connections": [
@@ -96,20 +101,26 @@
         "brush",
         "joseon"
       ],
-      "sourceUrl": "https://www.metmuseum.org/toah/hd/bunc/hd_bunc.htm"
+      "sourceUrl": "https://www.metmuseum.org/toah/hd/bunc/hd_bunc.htm",
+      "image": {
+        "src": "/images/inspirations/buncheong.webp",
+        "alt": "Buncheong (분청사기 상감운룡문 항아리)",
+        "credit": "Unknown author Unknown author / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:%EB%B6%84%EC%B2%AD%EC%82%AC%EA%B8%B0_%EC%83%81%EA%B0%90%EC%9A%B4%EB%A3%A1%EB%AC%B8_%ED%95%AD%EC%95%84%EB%A6%AC.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "raku",
       "name": "Raku",
       "origin": "Japan",
-      "period": "16th century \u2013 present",
+      "period": "16th century – present",
       "hasImage": true,
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Chojiro_-_Black_Raku_tea_bowl.jpg",
       "fallbackColor": "#1a1a1a",
       "visualCaption": "Pulled from fire. Made for tea.",
       "story": {
-        "hook": "A tile maker's son created bowls for the most powerful man in Japan\u2014and invented an aesthetic that would change ceramics forever.",
-        "body": "In 16th-century Kyoto, Sen no Riky\u016b was transforming the tea ceremony into something radical: stripped of ostentation, focused on humble materials and moments of profound attention. He needed bowls to match his vision. He found Ch\u014djir\u014d, son of a tile maker, who created vessels so simple they were revolutionary. These black and red bowls\u2014hand-formed, not wheel-thrown, pulled hot from the kiln\u2014became known as Raku, from a seal meaning 'enjoyment' or 'ease.' The Raku family has passed down this tradition for 15 generations. Western Raku, developed in the 20th century, takes the technique in different directions\u2014post-firing reduction, metallic lusters, crackled surfaces\u2014but the core remains: direct relationship with fire, the mark of the maker's hand, acceptance of the unexpected.",
+        "hook": "A tile maker's son created bowls for the most powerful man in Japan—and invented an aesthetic that would change ceramics forever.",
+        "body": "In 16th-century Kyoto, Sen no Rikyū was transforming the tea ceremony into something radical: stripped of ostentation, focused on humble materials and moments of profound attention. He needed bowls to match his vision. He found Chōjirō, son of a tile maker, who created vessels so simple they were revolutionary. These black and red bowls—hand-formed, not wheel-thrown, pulled hot from the kiln—became known as Raku, from a seal meaning 'enjoyment' or 'ease.' The Raku family has passed down this tradition for 15 generations. Western Raku, developed in the 20th century, takes the technique in different directions—post-firing reduction, metallic lusters, crackled surfaces—but the core remains: direct relationship with fire, the mark of the maker's hand, acceptance of the unexpected.",
         "reflection": "What would it mean to make something worthy of profound attention?"
       },
       "connections": [
@@ -133,20 +144,26 @@
         "spiritual",
         "fire"
       ],
-      "sourceUrl": "https://www.britannica.com/art/raku-ware"
+      "sourceUrl": "https://www.britannica.com/art/raku-ware",
+      "image": {
+        "src": "/images/inspirations/raku.webp",
+        "alt": "Raku (Hon'ami Koetsu Fujisan 1)",
+        "credit": ".mw-parser-output .commons-creator-table{background-color:#f0f0ff;box- / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Hon%27ami_Koetsu_Fujisan_1.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "barro-negro",
       "name": "Barro Negro",
       "origin": "Oaxaca, Mexico",
-      "period": "Pre-Columbian \u2013 present",
+      "period": "Pre-Columbian – present",
       "hasImage": true,
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Barro_negro_pottery_from_San_Bartolo_Coyotepec%2C_Oaxaca.jpg",
       "fallbackColor": "#0d0d0d",
       "visualCaption": "Polished darkness. 2,000 years of black clay.",
       "story": {
         "hook": "In a village in Oaxaca, they've been making midnight from mud for two millennia.",
-        "body": "San Bartolo Coyotepec is a village built on black clay. For over 2,000 years, Zapotec potters have transformed this local material into vessels of such deep, lustrous black that they seem to absorb light. The secret is reduction firing\u2014starving the kiln of oxygen so carbon penetrates the clay. Then burnishing: rubbing the surface with quartz stones until it gleams like obsidian. Do\u00f1a Rosa Real de Nieto revolutionized the tradition in the 1950s, developing new forms and achieving unprecedented shine. Today her descendants and neighbors continue the work, each family with its own style. The pottery is made entirely by hand\u2014no wheel, no glaze, just clay, fire, and patient polishing.",
+        "body": "San Bartolo Coyotepec is a village built on black clay. For over 2,000 years, Zapotec potters have transformed this local material into vessels of such deep, lustrous black that they seem to absorb light. The secret is reduction firing—starving the kiln of oxygen so carbon penetrates the clay. Then burnishing: rubbing the surface with quartz stones until it gleams like obsidian. Doña Rosa Real de Nieto revolutionized the tradition in the 1950s, developing new forms and achieving unprecedented shine. Today her descendants and neighbors continue the work, each family with its own style. The pottery is made entirely by hand—no wheel, no glaze, just clay, fire, and patient polishing.",
         "reflection": "What could you make from the clay beneath your own feet?"
       },
       "connections": [
@@ -170,20 +187,26 @@
         "indigenous",
         "no-glaze"
       ],
-      "sourceUrl": "https://ich.unesco.org/en/RL/artisanal-processes-and-plant-fibres-techniques-for-talabarteria-in-colombia-00855"
+      "sourceUrl": "https://ich.unesco.org/en/RL/artisanal-processes-and-plant-fibres-techniques-for-talabarteria-in-colombia-00855",
+      "image": {
+        "src": "/images/inspirations/barro-negro.webp",
+        "alt": "Barro Negro (Barro Negro y normal-San Bartolo Coyotepec-Oaxaca-Mexico)",
+        "credit": "User:Gengiskanhg / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Barro_Negro_y_normal-San_Bartolo_Coyotepec-Oaxaca-Mexico.jpg",
+        "license": "GFDL"
+      }
     },
     {
       "id": "celadon",
       "name": "Celadon",
       "origin": "China/Korea",
-      "period": "10th century \u2013 present",
+      "period": "10th century – present",
       "hasImage": true,
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Celadon_incense_burner%2C_Goryeo_Dynasty.jpg",
       "fallbackColor": "#7BA17B",
       "visualCaption": "Jade made from earth. The color of heaven.",
       "story": {
         "hook": "For a thousand years, potters chased a color that existed only in their imagination.",
-        "body": "The color of celadon has been called 'the color of the sky after rain,' 'the green of young bamboo,' 'the gray-green of weathered jade.' It's none of these and all of them\u2014a color that seems to shift with the light, to hold depth like water. Chinese potters developed celadon glazes by the 10th century, seeking to imitate precious jade. Korean potters of the Goryeo dynasty (918-1392) took the tradition to unprecedented heights, developing the sanggam technique\u2014carving designs into the clay and filling them with white and black slip before glazing. The result: images of cranes, clouds, and willow trees floating beneath the jade-green surface.",
+        "body": "The color of celadon has been called 'the color of the sky after rain,' 'the green of young bamboo,' 'the gray-green of weathered jade.' It's none of these and all of them—a color that seems to shift with the light, to hold depth like water. Chinese potters developed celadon glazes by the 10th century, seeking to imitate precious jade. Korean potters of the Goryeo dynasty (918-1392) took the tradition to unprecedented heights, developing the sanggam technique—carving designs into the clay and filling them with white and black slip before glazing. The result: images of cranes, clouds, and willow trees floating beneath the jade-green surface.",
         "reflection": "What color would you chase for a thousand years?"
       },
       "connections": [
@@ -209,20 +232,26 @@
         "historic",
         "inlay"
       ],
-      "sourceUrl": "https://www.metmuseum.org/toah/hd/cela/hd_cela.htm"
+      "sourceUrl": "https://www.metmuseum.org/toah/hd/cela/hd_cela.htm",
+      "image": {
+        "src": "/images/inspirations/celadon.webp",
+        "alt": "Celadon (Song Dynasty Celadon Vase)",
+        "credit": "Iwanafish at English Wikipedia / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Song_Dynasty_Celadon_Vase.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "majolica",
       "name": "Majolica",
       "origin": "Italy/Spain/Mexico",
-      "period": "15th century \u2013 present",
+      "period": "15th century – present",
       "hasImage": true,
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Italian_-_Dish_with_the_Story_of_Apollo_and_Daphne_-_Walters_481103.jpg",
       "fallbackColor": "#1E5F8A",
       "visualCaption": "Stories on tin. Mediterranean color.",
       "story": {
         "hook": "In Renaissance Italy, potters learned to paint myths on breakfast dishes.",
-        "body": "Majolica began as a technology: tin-opacified glaze that created a brilliant white surface perfect for painting. The technique traveled from the Islamic world through Spain to Italy, where Renaissance potters transformed it into high art. Urbino and Faenza became centers of istoriato ware\u2014elaborate narrative scenes covering entire plates, painted in brilliant cobalt blue, copper green, manganese purple, and antimony yellow. Every plate told a story: classical myths, biblical scenes, contemporary events. The tradition spread to Spain and then to Mexico, where indigenous potters merged it with pre-Columbian traditions to create Talavera.",
+        "body": "Majolica began as a technology: tin-opacified glaze that created a brilliant white surface perfect for painting. The technique traveled from the Islamic world through Spain to Italy, where Renaissance potters transformed it into high art. Urbino and Faenza became centers of istoriato ware—elaborate narrative scenes covering entire plates, painted in brilliant cobalt blue, copper green, manganese purple, and antimony yellow. Every plate told a story: classical myths, biblical scenes, contemporary events. The tradition spread to Spain and then to Mexico, where indigenous potters merged it with pre-Columbian traditions to create Talavera.",
         "reflection": "What story would you paint on a plate?"
       },
       "connections": [
@@ -247,7 +276,14 @@
         "colorful",
         "tin-glaze"
       ],
-      "sourceUrl": "https://www.britannica.com/art/majolica"
+      "sourceUrl": "https://www.britannica.com/art/majolica",
+      "image": {
+        "src": "/images/inspirations/majolica.webp",
+        "alt": "Majolica (Minton's Majolica peacock, Ashmolean)",
+        "credit": "Andy Dingley / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Minton%27s_Majolica_peacock%2C_Ashmolean.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "mingei",
@@ -255,12 +291,11 @@
       "origin": "Japan",
       "period": "20th century",
       "hasImage": true,
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Hamada_Shoji_1.jpg/800px-Hamada_Shoji_1.jpg",
       "fallbackColor": "#8B6914",
       "visualCaption": "Beauty of use. The hand of the unknown craftsman.",
       "story": {
         "hook": "A philosopher looked at humble rice bowls and saw a new way of understanding beauty.",
-        "body": "In the 1920s, Yanagi S\u014detsu was studying Korean Yi dynasty ceramics when he had a revelation. The beauty he found in these everyday vessels\u2014made quickly, without self-consciousness, for use\u2014was different from the beauty of fine art. He called it mingei, the 'art of the people.' Yanagi's idea was radical: true beauty emerged not from individual genius but from the unselfconscious repetition of traditional forms. He gathered a circle of potters\u2014Shoji Hamada, Kanjiro Kawai, Bernard Leach\u2014who would transform this philosophy into a movement.",
+        "body": "In the 1920s, Yanagi Sōetsu was studying Korean Yi dynasty ceramics when he had a revelation. The beauty he found in these everyday vessels—made quickly, without self-consciousness, for use—was different from the beauty of fine art. He called it mingei, the 'art of the people.' Yanagi's idea was radical: true beauty emerged not from individual genius but from the unselfconscious repetition of traditional forms. He gathered a circle of potters—Shoji Hamada, Kanjiro Kawai, Bernard Leach—who would transform this philosophy into a movement.",
         "reflection": "What could you make if you weren't trying to make art?"
       },
       "connections": [
@@ -285,20 +320,26 @@
         "traditional",
         "movement"
       ],
-      "sourceUrl": "https://www.mingeikan.or.jp/english/"
+      "sourceUrl": "https://www.mingeikan.or.jp/english/",
+      "image": {
+        "src": "/images/inspirations/mingei.webp",
+        "alt": "Mingei (Thrown, Combed tea bowl by Shoji Hamada (YORYM-2004.1.1957) (cropped))",
+        "credit": "Creator:Shoji Hamada / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Thrown%2C_Combed_tea_bowl_by_Shoji_Hamada_%28YORYM-2004.1.1957%29_%28cropped%29.JPG",
+        "license": "CC BY-SA 3.0"
+      }
     },
     {
       "id": "shigaraki",
       "name": "Shigaraki",
       "origin": "Japan",
-      "period": "13th century \u2013 present",
+      "period": "13th century – present",
       "hasImage": true,
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Large_Shigaraki_ware_jar%2C_Muromachi_period%2C_15th_century%2C_stoneware_with_natural_ash_glaze_-_Tokyo_National_Museum_-_DSC05232.JPG/800px-Large_Shigaraki_ware_jar%2C_Muromachi_period%2C_15th_century%2C_stoneware_with_natural_ash_glaze_-_Tokyo_National_Museum_-_DSC05232.JPG",
       "fallbackColor": "#B5651D",
       "visualCaption": "Fire and ash. One of Japan's Six Ancient Kilns.",
       "story": {
         "hook": "In the hills near Kyoto, potters have been dancing with fire for 800 years.",
-        "body": "Shigaraki is one of Japan's Six Ancient Kilns\u2014production centers with continuous ceramic traditions stretching back to the Kamakura period. The local clay, rich in feldspar, creates a distinctive warm orange body with a rough, sandy texture. But Shigaraki's signature is what the kiln does: natural ash from the wood fire settles on pieces during the long firing, creating drips and patterns that no human hand could plan. Tea masters prized these 'fire marks' and 'kiln effects.' Each piece records its unique journey through the kiln.",
+        "body": "Shigaraki is one of Japan's Six Ancient Kilns—production centers with continuous ceramic traditions stretching back to the Kamakura period. The local clay, rich in feldspar, creates a distinctive warm orange body with a rough, sandy texture. But Shigaraki's signature is what the kiln does: natural ash from the wood fire settles on pieces during the long firing, creating drips and patterns that no human hand could plan. Tea masters prized these 'fire marks' and 'kiln effects.' Each piece records its unique journey through the kiln.",
         "reflection": "What if you let the fire do some of the work?"
       },
       "connections": [
@@ -322,19 +363,25 @@
         "texture",
         "six-kilns"
       ],
-      "sourceUrl": "https://www.britannica.com/art/Shigaraki-ware"
+      "sourceUrl": "https://www.britannica.com/art/Shigaraki-ware",
+      "image": {
+        "src": "/images/inspirations/shigaraki.webp",
+        "alt": "Shigaraki (Shigaraki Jar)",
+        "credit": "ReijiYamashina / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Shigaraki_Jar.JPG",
+        "license": "CC BY-SA 3.0"
+      }
     },
     {
       "id": "delft",
       "name": "Delftware",
       "origin": "Netherlands",
-      "period": "17th century \u2013 present",
+      "period": "17th century – present",
       "hasImage": true,
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Delftware_plaque_faience_Delft_1700_1720.jpg/800px-Delftware_plaque_faience_Delft_1700_1720.jpg",
       "fallbackColor": "#1E4D8C",
       "visualCaption": "Dutch blue. Imitating China, becoming itself.",
       "story": {
-        "hook": "When Chinese porcelain stopped arriving, Dutch potters invented their own version\u2014and created something entirely new.",
+        "hook": "When Chinese porcelain stopped arriving, Dutch potters invented their own version—and created something entirely new.",
         "body": "In the early 17th century, the Dutch East India Company flooded European markets with Chinese blue-and-white porcelain. Then civil war disrupted Chinese production, and suddenly there was a gap in the market. Potters in Delft stepped in, creating tin-glazed earthenware painted to imitate the Chinese imports. Yet something happened in the translation. Chinese motifs mixed with Dutch sensibilities. Windmills appeared alongside pagodas. Tulips bloomed beside peonies. Eventually, distinctly Dutch imagery dominated.",
         "reflection": "What happens when you stop imitating and start creating?"
       },
@@ -357,15 +404,21 @@
         "traditional",
         "imitation"
       ],
-      "sourceUrl": "https://www.rijksmuseum.nl/en/rijksstudio/works-of-art/delftware"
+      "sourceUrl": "https://www.rijksmuseum.nl/en/rijksstudio/works-of-art/delftware",
+      "image": {
+        "src": "/images/inspirations/delft.webp",
+        "alt": "Delftware (Vase, c. 1680, Delft, Netherlands, tin-glazed earthenware - Art Institute of Chicago - DSC)",
+        "credit": "Daderot / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Vase%2C_c._1680%2C_Delft%2C_Netherlands%2C_tin-glazed_earthenware_-_Art_Institute_of_Chicago_-_DSC09979.JPG",
+        "license": "CC0"
+      }
     },
     {
       "id": "african-coil",
       "name": "African Coil Pottery",
       "origin": "Sub-Saharan Africa",
-      "period": "Ancient \u2013 present",
+      "period": "Ancient – present",
       "hasImage": true,
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Mangbetu_pottery.jpg/600px-Mangbetu_pottery.jpg",
       "fallbackColor": "#8B4513",
       "visualCaption": "Earth and fire. Hands across millennia.",
       "story": {
@@ -395,19 +448,26 @@
         "women",
         "indigenous"
       ],
-      "sourceUrl": "https://africa.si.edu/exhibits/ceramics/"
+      "sourceUrl": "https://africa.si.edu/exhibits/ceramics/",
+      "image": {
+        "src": "/images/inspirations/african-coil.webp",
+        "alt": "African Coil Pottery (Traditional pottery in Nigeria (Ikpu ite) 19)",
+        "credit": "Chukwukajustice / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Traditional_pottery_in_Nigeria_%28Ikpu_ite%29_19.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "iznik",
       "name": "Iznik",
       "origin": "Turkey",
-      "period": "15th\u201317th century",
+      "period": "15th–17th century",
       "hasImage": true,
       "fallbackColor": "#1E6B8C",
       "visualCaption": "Ottoman splendor. Cobalt, turquoise, and sealing-wax red.",
       "story": {
-        "hook": "In a small town near Istanbul, potters created some of the most stunning ceramics the world has ever seen\u2014then lost the secret forever.",
-        "body": "Iznik ware represents the peak of Ottoman ceramic art. Produced in the town of Iznik from the late 15th century, these tiles and vessels achieved colors that European potters couldn't match for centuries. The famous 'Armenian bole' red\u2014a thick, raised tomato-red that stands proud of the surface\u2014remains difficult to replicate even today. Iznik potters painted tulips, carnations, hyacinths, and geometric arabesques on a crisp white ground. By the 17th century, the tradition had declined, and the exact recipes were lost.",
+        "hook": "In a small town near Istanbul, potters created some of the most stunning ceramics the world has ever seen—then lost the secret forever.",
+        "body": "Iznik ware represents the peak of Ottoman ceramic art. Produced in the town of Iznik from the late 15th century, these tiles and vessels achieved colors that European potters couldn't match for centuries. The famous 'Armenian bole' red—a thick, raised tomato-red that stands proud of the surface—remains difficult to replicate even today. Iznik potters painted tulips, carnations, hyacinths, and geometric arabesques on a crisp white ground. By the 17th century, the tradition had declined, and the exact recipes were lost.",
         "reflection": "What might be worth pursuing even if you can't fully achieve it?"
       },
       "connections": [
@@ -431,20 +491,26 @@
         "historic",
         "lost-technique"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Iznik_pottery_dish%2C_circa_1560-1575%2C_from_Turkey_-_Sackler_Museum_-_DSC02558.JPG/800px-Iznik_pottery_dish%2C_circa_1560-1575%2C_from_Turkey_-_Sackler_Museum_-_DSC02558.JPG",
-      "sourceUrl": "https://www.metmuseum.org/toah/hd/izni/hd_izni.htm"
+      "sourceUrl": "https://www.metmuseum.org/toah/hd/izni/hd_izni.htm",
+      "image": {
+        "src": "/images/inspirations/iznik.webp",
+        "alt": "Iznik (Turkey; Iznik - Two Tiles - Google Art Project)",
+        "credit": "Turkey; Iznik / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Turkey%3B_Iznik_-_Two_Tiles_-_Google_Art_Project.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "oribe",
       "name": "Oribe",
       "origin": "Japan",
-      "period": "Late 16th century \u2013 present",
+      "period": "Late 16th century – present",
       "hasImage": true,
       "fallbackColor": "#2D5A27",
       "visualCaption": "Green and bold. The tea master's wild side.",
       "story": {
         "hook": "Named for a tea master executed for political intrigue, Oribe ware breaks every rule of Japanese restraint.",
-        "body": "Furuta Oribe was a samurai, tea master, and student of Sen no Riky\u016b. Where Riky\u016b preferred austere black Raku bowls, Oribe embraced the unexpected: warped shapes, bold patterns, striking copper-green glazes splashed asymmetrically across the surface. The shapes seem almost to mock perfection\u2014intentionally distorted, aggressively irregular. Oribe fell from political favor and was ordered to commit ritual suicide in 1615, but his aesthetic survived.",
+        "body": "Furuta Oribe was a samurai, tea master, and student of Sen no Rikyū. Where Rikyū preferred austere black Raku bowls, Oribe embraced the unexpected: warped shapes, bold patterns, striking copper-green glazes splashed asymmetrically across the surface. The shapes seem almost to mock perfection—intentionally distorted, aggressively irregular. Oribe fell from political favor and was ordered to commit ritual suicide in 1615, but his aesthetic survived.",
         "reflection": "What rules might be worth breaking?"
       },
       "connections": [
@@ -468,19 +534,25 @@
         "unconventional",
         "mino"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Mino_ware%2C_Oribe_type%2C_Momoyama_period%2C_16th-17th_century%2C_serving_dish_with_design_of_autumn_grass_-_Tokyo_National_Museum_-_DSC06223.JPG/800px-Mino_ware%2C_Oribe_type%2C_Momoyama_period%2C_16th-17th_century%2C_serving_dish_with_design_of_autumn_grass_-_Tokyo_National_Museum_-_DSC06223.JPG",
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/45714"
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/45714",
+      "image": {
+        "src": "/images/inspirations/oribe.webp",
+        "alt": "Oribe (Oribeguro)",
+        "credit": "Japan-Fan-2013 / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Oribeguro.jpg",
+        "license": "CC BY-SA 3.0"
+      }
     },
     {
       "id": "pueblo",
       "name": "Pueblo Pottery",
       "origin": "Southwestern USA",
-      "period": "Ancient \u2013 present",
+      "period": "Ancient – present",
       "hasImage": true,
       "fallbackColor": "#8B4513",
       "visualCaption": "Earth, rain, and ancestors. The living tradition.",
       "story": {
-        "hook": "In the American Southwest, pottery has been made continuously for over a thousand years\u2014and it's still evolving.",
+        "hook": "In the American Southwest, pottery has been made continuously for over a thousand years—and it's still evolving.",
         "body": "Pueblo pottery traditions stretch back to the Ancestral Puebloans who built cliff dwellings at Mesa Verde and Chaco Canyon. Each Pueblo developed distinctive styles: the black-on-black of San Ildefonso, the polychrome of Acoma and Zuni, the micaceous clay of Taos, the carved redware of Santa Clara. The pottery is made without wheels, built by coiling and scraping, often fired outdoors using traditional fuels. Maria Martinez of San Ildefonso revived and transformed the black-on-black technique. Today, Pueblo potters navigate between honoring ancestral techniques and pushing into contemporary expression.",
         "reflection": "How does tradition enable rather than constrain creativity?"
       },
@@ -504,20 +576,26 @@
         "burnished",
         "living-tradition"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Maria_Martinez_plate_-_Indianapolis_Museum_of_Art_-_DSC00652.JPG/800px-Maria_Martinez_plate_-_Indianapolis_Museum_of_Art_-_DSC00652.JPG",
-      "sourceUrl": "https://americanindian.si.edu/exhibitions/infinityofnations/southwest.html"
+      "sourceUrl": "https://americanindian.si.edu/exhibitions/infinityofnations/southwest.html",
+      "image": {
+        "src": "/images/inspirations/pueblo.webp",
+        "alt": "Pueblo Pottery (Mimbres fish pot, MRM)",
+        "credit": "Peter D. Tillman from USA / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Mimbres_fish_pot%2C_MRM.jpg",
+        "license": "CC BY-SA 2.0"
+      }
     },
     {
       "id": "song-dynasty",
       "name": "Song Dynasty Ceramics",
       "origin": "China",
-      "period": "960\u20131279 CE",
+      "period": "960–1279 CE",
       "hasImage": true,
       "fallbackColor": "#C4B896",
       "visualCaption": "The peak. Simplicity elevated to perfection.",
       "story": {
-        "hook": "Many consider Song dynasty ceramics the greatest ever made\u2014not for decoration, but for its absence.",
-        "body": "The Song dynasty produced ceramics of such refined simplicity that collectors and potters have been trying to match them for 800 years. The famous 'five great kilns'\u2014Ru, Guan, Ge, Jun, and Ding\u2014each developed distinctive glazes and forms. Ru ware survives in fewer than 100 pieces; a single bowl can sell for tens of millions of dollars. What makes Song ceramics extraordinary isn't complexity but restraint. Forms are pure, often simple bowls and dishes. Glazes are usually monochrome\u2014subtle celadons, creamy whites, lavender-streaked jun.",
+        "hook": "Many consider Song dynasty ceramics the greatest ever made—not for decoration, but for its absence.",
+        "body": "The Song dynasty produced ceramics of such refined simplicity that collectors and potters have been trying to match them for 800 years. The famous 'five great kilns'—Ru, Guan, Ge, Jun, and Ding—each developed distinctive glazes and forms. Ru ware survives in fewer than 100 pieces; a single bowl can sell for tens of millions of dollars. What makes Song ceramics extraordinary isn't complexity but restraint. Forms are pure, often simple bowls and dishes. Glazes are usually monochrome—subtle celadons, creamy whites, lavender-streaked jun.",
         "reflection": "What would it mean to pursue simplicity as the highest goal?"
       },
       "connections": [
@@ -541,20 +619,26 @@
         "influential",
         "imperial"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Vase%2C_Longquan_celadon%2C_Southern_Song_dynasty%2C_13th_century.JPG/800px-Vase%2C_Longquan_celadon%2C_Southern_Song_dynasty%2C_13th_century.JPG",
-      "sourceUrl": "https://www.metmuseum.org/toah/hd/nsong/hd_nsong.htm"
+      "sourceUrl": "https://www.metmuseum.org/toah/hd/nsong/hd_nsong.htm",
+      "image": {
+        "src": "/images/inspirations/song-dynasty.webp",
+        "alt": "Song Dynasty Ceramics (Dish (Pan) with Garden Landscape LACMA M.73.48.106)",
+        "credit": "unknown author / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Dish_%28Pan%29_with_Garden_Landscape_LACMA_M.73.48.106.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "joseon-white",
       "name": "Joseon White Porcelain",
       "origin": "Korea",
-      "period": "15th\u201319th century",
+      "period": "15th–19th century",
       "hasImage": true,
       "fallbackColor": "#F5F5F0",
       "visualCaption": "Pure white. Confucian virtue made visible.",
       "story": {
-        "hook": "While buncheong celebrated freedom, white porcelain embodied restraint\u2014and became Korea's defining ceramic tradition.",
-        "body": "Joseon white porcelain represents Neo-Confucian ideals made tangible: purity, simplicity, moral rectitude. After buncheong fell out of favor, white porcelain dominated Korean ceramics for four centuries. The finest pieces achieve an almost impossible purity\u2014the white of fresh snow, the white of rice, the white of virtue itself. Moon jars (dalhanari) with their full-bellied embrace became iconic forms. The restraint can seem austere, but prolonged attention reveals endless subtlety.",
+        "hook": "While buncheong celebrated freedom, white porcelain embodied restraint—and became Korea's defining ceramic tradition.",
+        "body": "Joseon white porcelain represents Neo-Confucian ideals made tangible: purity, simplicity, moral rectitude. After buncheong fell out of favor, white porcelain dominated Korean ceramics for four centuries. The finest pieces achieve an almost impossible purity—the white of fresh snow, the white of rice, the white of virtue itself. Moon jars (dalhanari) with their full-bellied embrace became iconic forms. The restraint can seem austere, but prolonged attention reveals endless subtlety.",
         "reflection": "What might restraint reveal that decoration would hide?"
       },
       "connections": [
@@ -578,19 +662,25 @@
         "confucian",
         "royal"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/White_Porcelain_Jar%2C_Joseon%2C_18c%2C_Leeum.jpg/800px-White_Porcelain_Jar%2C_Joseon%2C_18c%2C_Leeum.jpg",
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/49675"
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/49675",
+      "image": {
+        "src": "/images/inspirations/joseon-white.webp",
+        "alt": "Joseon White Porcelain (Joseon white porcelain plate, Korea)",
+        "credit": "Prix / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Joseon_white_porcelain_plate%2C_Korea.jpg",
+        "license": "CC BY-SA 3.0"
+      }
     },
     {
       "id": "bizen",
       "name": "Bizen",
       "origin": "Japan",
-      "period": "12th century \u2013 present",
+      "period": "12th century – present",
       "hasImage": true,
       "fallbackColor": "#8B5A2B",
       "visualCaption": "No glaze. Just earth and fire, arguing for weeks.",
       "story": {
-        "hook": "Bizen potters fire their kilns for two weeks straight\u2014then wait to see what the fire decided.",
+        "hook": "Bizen potters fire their kilns for two weeks straight—then wait to see what the fire decided.",
         "body": "Bizen is the purest expression of wood-firing: no glaze, no decoration, just clay and fire. One of Japan's Six Ancient Kilns, Bizen has produced unglazed stoneware since the Kamakura period. Bizen's magic is in the kiln effects: hidasuki (red lightning-bolt patterns from straw), goma (sesame-seed spots where ash landed), sangiri (gray effects from pieces buried in embers). Each firing takes two weeks of continuous stoking, burning 10-15 tons of pine.",
         "reflection": "How long would you fire a kiln if you trusted the process?"
       },
@@ -615,19 +705,25 @@
         "six-kilns",
         "natural"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Bizen_ware_water_jar%2C_Muromachi_period%2C_16th_century_-_Tokyo_National_Museum_-_DSC05250.JPG/800px-Bizen_ware_water_jar%2C_Muromachi_period%2C_16th_century_-_Tokyo_National_Museum_-_DSC05250.JPG",
-      "sourceUrl": "https://www.britannica.com/art/Bizen-ware"
+      "sourceUrl": "https://www.britannica.com/art/Bizen-ware",
+      "image": {
+        "src": "/images/inspirations/bizen.webp",
+        "alt": "Bizen (Flower Vase called 'Tabimakura' (Portable pillow), Bizen ware, Edo period, 17th century - )",
+        "credit": "Daderot / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Flower_Vase_called_%27Tabimakura%27_%28Portable_pillow%29%2C_Bizen_ware%2C_Edo_period%2C_17th_century_-_Tokyo_National_Museum_-_DSC05874.JPG",
+        "license": "CC0"
+      }
     },
     {
       "id": "yixing",
       "name": "Yixing",
       "origin": "China",
-      "period": "15th century \u2013 present",
+      "period": "15th century – present",
       "hasImage": true,
       "fallbackColor": "#8B4513",
       "visualCaption": "Purple clay teapots. Where tea becomes ritual.",
       "story": {
-        "hook": "The world's most famous teapots are never glazed\u2014because the clay itself is the point.",
+        "hook": "The world's most famous teapots are never glazed—because the clay itself is the point.",
         "body": "Yixing has been producing stoneware teapots from local zisha ('purple sand') clay since the Ming dynasty. The clay is remarkable: dense, fine-grained, and naturally porous in ways that enhance the tea-brewing experience. A Yixing pot seasons over time, absorbing tea oils until it can almost brew tea without leaves. Traditionally, each pot is dedicated to a single type of tea. Master potters' work commands enormous prices; the forms are copied but never quite matched.",
         "reflection": "What object in your life has been seasoned by years of use?"
       },
@@ -651,20 +747,26 @@
         "purple-clay",
         "teapot"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Yixing_teapot.jpg/800px-Yixing_teapot.jpg",
-      "sourceUrl": "https://www.metmuseum.org/art/collection/search/42379"
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/42379",
+      "image": {
+        "src": "/images/inspirations/yixing.webp",
+        "alt": "Yixing (Teapot (Yixing ware, about 1900))",
+        "credit": "Gerbil / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Teapot_%28Yixing_ware%2C_about_1900%29.JPG",
+        "license": "CC BY-SA 3.0"
+      }
     },
     {
       "id": "hagi",
       "name": "Hagi",
       "origin": "Japan",
-      "period": "16th century \u2013 present",
+      "period": "16th century – present",
       "hasImage": true,
       "fallbackColor": "#E8D4C4",
       "visualCaption": "Soft, warm, alive. The tea bowl that ages with you.",
       "story": {
-        "hook": "Tea masters say 'First Raku, second Hagi, third Karatsu'\u2014and Hagi's soft surfaces change with every use.",
-        "body": "Hagi ware began when Korean potters, brought to Japan after the invasions of the 1590s, settled in the domain of the M\u014dri clan. Hagi's distinctive character comes from its soft, porous body and its thick, crawling glazes in pale pink, cream, and white. The ware is famous for 'the seven changes of Hagi': the way pieces transform with use as tea stains penetrate the crackled glaze. A new Hagi bowl can seem bland, even chalky. A well-used one glows with decades of tea.",
+        "hook": "Tea masters say 'First Raku, second Hagi, third Karatsu'—and Hagi's soft surfaces change with every use.",
+        "body": "Hagi ware began when Korean potters, brought to Japan after the invasions of the 1590s, settled in the domain of the Mōri clan. Hagi's distinctive character comes from its soft, porous body and its thick, crawling glazes in pale pink, cream, and white. The ware is famous for 'the seven changes of Hagi': the way pieces transform with use as tea stains penetrate the crackled glaze. A new Hagi bowl can seem bland, even chalky. A well-used one glows with decades of tea.",
         "reflection": "What in your life becomes more beautiful with use and age?"
       },
       "connections": [
@@ -688,14 +790,20 @@
         "soft",
         "white"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Hagi_ware_tea_bowl%2C_Edo_period%2C_19th_century%2C_stoneware_with_ash_glaze_-_Tokyo_National_Museum_-_DSC05268.JPG/800px-Hagi_ware_tea_bowl%2C_Edo_period%2C_19th_century%2C_stoneware_with_ash_glaze_-_Tokyo_National_Museum_-_DSC05268.JPG",
-      "sourceUrl": "https://www.e-yakimono.net/html/hagi-yaki.html"
+      "sourceUrl": "https://www.e-yakimono.net/html/hagi-yaki.html",
+      "image": {
+        "src": "/images/inspirations/hagi.webp",
+        "alt": "Hagi (Hagi Ido teskål - chawan. Tamamura Shogetsu)",
+        "credit": "SK10DPB / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Hagi_Ido_tesk%C3%A5l_-_chawan._Tamamura_Shogetsu.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "karatsu",
       "name": "Karatsu",
       "origin": "Japan",
-      "period": "16th century \u2013 present",
+      "period": "16th century – present",
       "hasImage": true,
       "fallbackColor": "#6B5344",
       "visualCaption": "Korean roots, Japanese branches. Earthy, honest, warm.",
@@ -725,20 +833,26 @@
         "earthy",
         "kyushu"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Karatsu_ware_tea_bowl_Momoyama_period.jpg/800px-Karatsu_ware_tea_bowl_Momoyama_period.jpg",
-      "sourceUrl": "https://www.britannica.com/art/Karatsu-ware"
+      "sourceUrl": "https://www.britannica.com/art/Karatsu-ware",
+      "image": {
+        "src": "/images/inspirations/karatsu.webp",
+        "alt": "Karatsu (Iwao Karatsu-ware tea bowl)",
+        "credit": "Daderot / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Iwao_Karatsu-ware_tea_bowl.jpg",
+        "license": "CC0"
+      }
     },
     {
       "id": "imari",
       "name": "Imari / Arita",
       "origin": "Japan",
-      "period": "17th century \u2013 present",
+      "period": "17th century – present",
       "hasImage": true,
       "fallbackColor": "#1E4080",
       "visualCaption": "Export porcelain. Japan meets European desire.",
       "story": {
-        "hook": "When Dutch traders needed porcelain and China was in chaos, Japanese potters filled the gap\u2014and changed decorative arts forever.",
-        "body": "In the early 17th century, Korean potters brought to Japan discovered porcelain stone near Arita in Kyushu. When Chinese exports collapsed during the Ming-Qing transition, Dutch traders turned to Arita to fill European demand. The result was 'Imari': boldly decorated porcelain featuring underglaze blue, overglaze red enamel, and gilding. European aristocrats couldn't get enough. The 'Kakiemon' style\u2014delicate, asymmetrical, with ample white space\u2014became particularly prized.",
+        "hook": "When Dutch traders needed porcelain and China was in chaos, Japanese potters filled the gap—and changed decorative arts forever.",
+        "body": "In the early 17th century, Korean potters brought to Japan discovered porcelain stone near Arita in Kyushu. When Chinese exports collapsed during the Ming-Qing transition, Dutch traders turned to Arita to fill European demand. The result was 'Imari': boldly decorated porcelain featuring underglaze blue, overglaze red enamel, and gilding. European aristocrats couldn't get enough. The 'Kakiemon' style—delicate, asymmetrical, with ample white space—became particularly prized.",
         "reflection": "How does demand shape what makers create?"
       },
       "connections": [
@@ -762,20 +876,26 @@
         "european-influence",
         "kyushu"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Japanese_-_Large_Dish_with_Europeans_Playing_a_Game_of_Backgammon_-_Walters_491363.jpg/800px-Japanese_-_Large_Dish_with_Europeans_Playing_a_Game_of_Backgammon_-_Walters_491363.jpg",
-      "sourceUrl": "https://www.vam.ac.uk/articles/japanese-porcelain"
+      "sourceUrl": "https://www.vam.ac.uk/articles/japanese-porcelain",
+      "image": {
+        "src": "/images/inspirations/imari.webp",
+        "alt": "Imari / Arita (Bowl 2, Imari ware, Edo period, 17th-18th century, stormy seascape design in overglaze ena)",
+        "credit": "Daderot / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bowl_2%2C_Imari_ware%2C_Edo_period%2C_17th-18th_century%2C_stormy_seascape_design_in_overglaze_enamel_-_Tokyo_National_Museum_-_DSC05316.JPG",
+        "license": "Public domain"
+      }
     },
     {
       "id": "meissen",
       "name": "Meissen",
       "origin": "Germany",
-      "period": "18th century \u2013 present",
+      "period": "18th century – present",
       "hasImage": true,
       "fallbackColor": "#FFFFFF",
       "visualCaption": "Europe's porcelain secret. White gold unlocked.",
       "story": {
-        "hook": "An alchemist searching for gold accidentally discovered how to make porcelain\u2014and ended China's monopoly forever.",
-        "body": "For centuries, Europeans desperately wanted to make true hard-paste porcelain like the Chinese. Then in 1708, Johann Friedrich B\u00f6ttger, an alchemist imprisoned by Augustus the Strong of Saxony to produce gold, instead discovered how to make porcelain using local kaolin clay. The Meissen factory was established in 1710, Europe's first hard-paste porcelain manufacturer. Its crossed-swords mark became a guarantee of quality. The secret eventually leaked\u2014workers were bribed, techniques stolen\u2014and porcelain factories spread across Europe.",
+        "hook": "An alchemist searching for gold accidentally discovered how to make porcelain—and ended China's monopoly forever.",
+        "body": "For centuries, Europeans desperately wanted to make true hard-paste porcelain like the Chinese. Then in 1708, Johann Friedrich Böttger, an alchemist imprisoned by Augustus the Strong of Saxony to produce gold, instead discovered how to make porcelain using local kaolin clay. The Meissen factory was established in 1710, Europe's first hard-paste porcelain manufacturer. Its crossed-swords mark became a guarantee of quality. The secret eventually leaked—workers were bribed, techniques stolen—and porcelain factories spread across Europe.",
         "reflection": "What might you discover while searching for something else?"
       },
       "connections": [
@@ -799,14 +919,20 @@
         "factory",
         "technical"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Meissen-teacup_pbread_and_butter.jpg/800px-Meissen-teacup_pread_and_butter.jpg",
-      "sourceUrl": "https://www.britannica.com/topic/Meissen-porcelain"
+      "sourceUrl": "https://www.britannica.com/topic/Meissen-porcelain",
+      "image": {
+        "src": "/images/inspirations/meissen.webp",
+        "alt": "Meissen (MeissenGroup-JohannKaendler-BMA)",
+        "credit": ".mw-parser-output .commons-creator-table{background-color:#f0f0ff;box- / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:MeissenGroup-JohannKaendler-BMA.jpg",
+        "license": "CC BY 3.0"
+      }
     },
     {
       "id": "staffordshire",
       "name": "Staffordshire Pottery",
       "origin": "England",
-      "period": "17th century \u2013 present",
+      "period": "17th century – present",
       "hasImage": true,
       "fallbackColor": "#D4C4B0",
       "visualCaption": "Industry and art. Where the ceramic revolution began.",
@@ -834,19 +960,25 @@
         "factory",
         "transfer-ware"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Bottle_kilns_Gladstone_Pottery_Museum.jpg/800px-Bottle_kilns_Gladstone_Pottery_Museum.jpg",
-      "sourceUrl": "https://www.britannica.com/art/Staffordshire-pottery"
+      "sourceUrl": "https://www.britannica.com/art/Staffordshire-pottery",
+      "image": {
+        "src": "/images/inspirations/staffordshire.webp",
+        "alt": "Staffordshire Pottery (DAR pot - IMG 8558)",
+        "credit": "Daderot / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:DAR_pot_-_IMG_8558.JPG",
+        "license": "Public domain"
+      }
     },
     {
       "id": "talavera",
       "name": "Talavera",
       "origin": "Mexico",
-      "period": "16th century \u2013 present",
+      "period": "16th century – present",
       "hasImage": true,
       "fallbackColor": "#1E5F8A",
       "visualCaption": "Spanish roots, Mexican flowers. Blue on white, forever.",
       "story": {
-        "hook": "Spanish potters brought majolica techniques to Mexico\u2014and indigenous artists transformed them into something new.",
+        "hook": "Spanish potters brought majolica techniques to Mexico—and indigenous artists transformed them into something new.",
         "body": "When Spanish colonizers arrived in Puebla, Mexico, they brought the tin-glazed majolica tradition from Talavera de la Reina in Spain. Indigenous potters, with their own rich ceramic heritage, learned and adapted the techniques. The result was Talavera Poblana: Spanish forms and techniques infused with Mexican colors, motifs, and spirit. Traditional Talavera uses only six colors on a creamy white base, painted freehand in intricate patterns. Every piece is made by hand.",
         "reflection": "What emerges when two traditions truly merge?"
       },
@@ -870,20 +1002,26 @@
         "traditional",
         "heritage"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Talavera_poblana_04.jpg/800px-Talavera_poblana_04.jpg",
-      "sourceUrl": "https://ich.unesco.org/en/RL/talavera-artisanal-pottery-making-process-of-puebla-and-tlaxcala-mexico-and-ceramics-of-talavera-de-la-reina-and-el-puente-del-arzobispo-spain-01462"
+      "sourceUrl": "https://ich.unesco.org/en/RL/talavera-artisanal-pottery-making-process-of-puebla-and-tlaxcala-mexico-and-ceramics-of-talavera-de-la-reina-and-el-puente-del-arzobispo-spain-01462",
+      "image": {
+        "src": "/images/inspirations/talavera.webp",
+        "alt": "Talavera (TalaveraTrayMAPDF)",
+        "credit": "AlejandroLinaresGarcia / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:TalaveraTrayMAPDF.JPG",
+        "license": "GFDL"
+      }
     },
     {
       "id": "nok",
       "name": "Nok Terracotta",
       "origin": "Nigeria",
-      "period": "500 BCE \u2013 200 CE",
+      "period": "500 BCE – 200 CE",
       "hasImage": true,
       "fallbackColor": "#8B5A2B",
       "visualCaption": "Africa's oldest known sculpture. Haunting, powerful, mysterious.",
       "story": {
-        "hook": "In the 1940s, tin miners in Nigeria began finding ancient terracotta heads\u2014and uncovered a civilization lost for 2,000 years.",
-        "body": "The Nok culture produced Sub-Saharan Africa's oldest known figurative sculpture. These terracotta heads and figures, dating from 500 BCE to 200 CE, show remarkable sophistication: stylized features, elaborate hairstyles, detailed jewelry. The eyes are distinctive\u2014triangular or semicircular, pierced through. We know almost nothing about the people who made them. Nok terracottas remind us how much African artistic history remains unknown.",
+        "hook": "In the 1940s, tin miners in Nigeria began finding ancient terracotta heads—and uncovered a civilization lost for 2,000 years.",
+        "body": "The Nok culture produced Sub-Saharan Africa's oldest known figurative sculpture. These terracotta heads and figures, dating from 500 BCE to 200 CE, show remarkable sophistication: stylized features, elaborate hairstyles, detailed jewelry. The eyes are distinctive—triangular or semicircular, pierced through. We know almost nothing about the people who made them. Nok terracottas remind us how much African artistic history remains unknown.",
         "reflection": "What artistic traditions have been lost or remain undiscovered?"
       },
       "connections": [
@@ -906,20 +1044,26 @@
         "mysterious",
         "historic"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Nok_sculpture_Louvre_70-1998-11-1.jpg/600px-Nok_sculpture_Louvre_70-1998-11-1.jpg",
-      "sourceUrl": "https://www.metmuseum.org/toah/hd/nok/hd_nok.htm"
+      "sourceUrl": "https://www.metmuseum.org/toah/hd/nok/hd_nok.htm",
+      "image": {
+        "src": "/images/inspirations/nok.webp",
+        "alt": "Nok Terracotta (Nok sculpture Louvre 70-1998-11-1)",
+        "credit": "Unknown artist Unknown artist / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Nok_sculpture_Louvre_70-1998-11-1.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "zulu",
       "name": "Zulu Pottery",
       "origin": "South Africa",
-      "period": "Traditional \u2013 present",
+      "period": "Traditional – present",
       "hasImage": true,
       "fallbackColor": "#2C2C2C",
       "visualCaption": "Beer pots and beauty. Form follows ritual.",
       "story": {
-        "hook": "In Zulu tradition, the shape of a pot reflects its purpose\u2014and pottery-making belongs to women.",
-        "body": "Zulu pottery is inseparable from Zulu life. Ukhamba (beer pots) for brewing traditional sorghum beer. Izinkamba for storing water. Each form optimized for its function. The pots are made by women, using techniques passed from mothers to daughters. No wheel\u2014just coiling and smoothing by hand. The surfaces are burnished with smooth stones, then often blackened with smoke or graphite. Contemporary artists like Nesta Nala have brought Zulu pottery to international attention.",
+        "hook": "In Zulu tradition, the shape of a pot reflects its purpose—and pottery-making belongs to women.",
+        "body": "Zulu pottery is inseparable from Zulu life. Ukhamba (beer pots) for brewing traditional sorghum beer. Izinkamba for storing water. Each form optimized for its function. The pots are made by women, using techniques passed from mothers to daughters. No wheel—just coiling and smoothing by hand. The surfaces are burnished with smooth stones, then often blackened with smoke or graphite. Contemporary artists like Nesta Nala have brought Zulu pottery to international attention.",
         "reflection": "How does function shape form in your work?"
       },
       "connections": [
@@ -942,14 +1086,20 @@
         "women",
         "burnished"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/BLW_Clay_beer_pot_%28ukhamba%29.jpg/800px-BLW_Clay_beer_pot_%28ukhamba%29.jpg",
-      "sourceUrl": "https://www.britannica.com/art/African-pottery"
+      "sourceUrl": "https://www.britannica.com/art/African-pottery",
+      "image": {
+        "src": "/images/inspirations/zulu.webp",
+        "alt": "Zulu Pottery (Black pot Ukhamba Zulu people South Africa 17022019 4883)",
+        "credit": "Vassil / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Black_pot_Ukhamba_Zulu_people_South_Africa_17022019_4883.jpg",
+        "license": "CC0"
+      }
     },
     {
       "id": "greek-pottery",
       "name": "Ancient Greek Pottery",
       "origin": "Greece",
-      "period": "1000 BCE \u2013 300 BCE",
+      "period": "1000 BCE – 300 BCE",
       "hasImage": true,
       "fallbackColor": "#8B4513",
       "visualCaption": "Black and red. Stories painted in clay.",
@@ -979,19 +1129,25 @@
         "classical",
         "historic"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Euphronios_krater_side_A_MET_L.2006.10.jpg/800px-Euphronios_krater_side_A_MET_L.2006.10.jpg",
-      "sourceUrl": "https://www.metmuseum.org/toah/hd/grvs/hd_grvs.htm"
+      "sourceUrl": "https://www.metmuseum.org/toah/hd/grvs/hd_grvs.htm",
+      "image": {
+        "src": "/images/inspirations/greek-pottery.webp",
+        "alt": "Ancient Greek Pottery (Euphronios krater side A MET L.2006.10)",
+        "credit": "Jaime Ardiles-Arce (photographer). Krater by Euphronios (painter) and  / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Euphronios_krater_side_A_MET_L.2006.10.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "islamic-luster",
       "name": "Islamic Lusterware",
       "origin": "Middle East/Spain",
-      "period": "9th\u201317th century",
+      "period": "9th–17th century",
       "hasImage": true,
       "fallbackColor": "#B8860B",
       "visualCaption": "Gold without gold. Light captured in glaze.",
       "story": {
-        "hook": "Islamic potters invented a technique to make ceramics shimmer like metal\u2014without using precious metals.",
+        "hook": "Islamic potters invented a technique to make ceramics shimmer like metal—without using precious metals.",
         "body": "Lusterware is one of the great innovations in ceramic history. Developed in 9th-century Iraq, the technique deposits thin metallic films on the glaze surface, creating an iridescent sheen that shifts from gold to copper to ruby as the light changes. The process is demanding: painting metallic oxides onto an already-fired glazed surface, then re-firing in heavy reduction. The technique spread across the Islamic world and eventually to Italy.",
         "reflection": "What effect might be worth mastering despite its difficulty?"
       },
@@ -1016,20 +1172,26 @@
         "iridescent",
         "difficult"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lustre_dish%2C_Iraq%2C_9th_century.jpg/800px-Lustre_dish%2C_Iraq%2C_9th_century.jpg",
-      "sourceUrl": "https://www.metmuseum.org/toah/hd/islu/hd_islu.htm"
+      "sourceUrl": "https://www.metmuseum.org/toah/hd/islu/hd_islu.htm",
+      "image": {
+        "src": "/images/inspirations/islamic-luster.webp",
+        "alt": "Islamic Lusterware (Jug MET DP-1239-049 (cropped))",
+        "credit": "unknown author / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Jug_MET_DP-1239-049_%28cropped%29.jpg",
+        "license": "CC0"
+      }
     },
     {
       "id": "sancai",
       "name": "Tang Sancai",
       "origin": "China",
-      "period": "7th\u201310th century",
+      "period": "7th–10th century",
       "hasImage": true,
       "fallbackColor": "#8B6914",
       "visualCaption": "Three colors for the afterlife. Green, amber, white.",
       "story": {
-        "hook": "The Tang dynasty's most distinctive ceramics were made for the dead\u2014and never meant to be seen again.",
-        "body": "Sancai means 'three colors,' though Tang potters often used more: amber, green, cream, sometimes blue. These lead-glazed earthenware pieces\u2014horses, camels, guardian figures, vessels\u2014were made as mingqi, burial goods for the wealthy dead. They weren't meant to be used or displayed; they accompanied the deceased into the tomb. When tombs were excavated in the 20th century, sancai became highly collectible\u2014objects made for eternity, finally seen after a thousand years in darkness.",
+        "hook": "The Tang dynasty's most distinctive ceramics were made for the dead—and never meant to be seen again.",
+        "body": "Sancai means 'three colors,' though Tang potters often used more: amber, green, cream, sometimes blue. These lead-glazed earthenware pieces—horses, camels, guardian figures, vessels—were made as mingqi, burial goods for the wealthy dead. They weren't meant to be used or displayed; they accompanied the deceased into the tomb. When tombs were excavated in the 20th century, sancai became highly collectible—objects made for eternity, finally seen after a thousand years in darkness.",
         "reflection": "What would you make if no one would ever see it?"
       },
       "connections": [
@@ -1053,23 +1215,28 @@
         "figurative",
         "historic"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Tang_Dynasty_Sancai_pottery_horse_%28cropped%29.jpg/800px-Tang_Dynasty_Sancai_pottery_horse_%28cropped%29.jpg",
-      "sourceUrl": "https://www.britannica.com/art/Tang-dynasty-pottery"
+      "sourceUrl": "https://www.britannica.com/art/Tang-dynasty-pottery",
+      "image": {
+        "src": "/images/inspirations/sancai.webp",
+        "alt": "Tang Sancai (唐 三彩碗-Bowl MET DP342650)",
+        "credit": "unknown author / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:%E5%94%90_%E4%B8%89%E5%BD%A9%E7%A2%97-Bowl_MET_DP342650.jpg",
+        "license": "CC0"
+      }
     }
   ],
   "artists": [
     {
       "id": "hamada",
       "name": "Shoji Hamada",
-      "lifespan": "1894\u20131978",
+      "lifespan": "1894–1978",
       "origin": "Japan",
       "hasImage": true,
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Hamada_Shoji_1.jpg/600px-Hamada_Shoji_1.jpg",
       "fallbackColor": "#5C4033",
       "visualCaption": "The living national treasure who refused to sign his work.",
       "story": {
-        "hook": "He was one of the most famous potters in the world\u2014and he never signed a single pot.",
-        "body": "Shoji Hamada was designated a 'Living National Treasure' by Japan in 1955. But Hamada rejected the idea of the artist-as-genius. Influenced by Yanagi S\u014detsu's mingei philosophy, he believed true beauty emerged from anonymous craftsmanship. So he never signed his work. He settled in Mashiko, a humble pottery village, and spent his life making functional ware. His signature style\u2014bold brush decoration, earthy ash glazes, confident form\u2014emerged from thousands of repeated gestures.",
+        "hook": "He was one of the most famous potters in the world—and he never signed a single pot.",
+        "body": "Shoji Hamada was designated a 'Living National Treasure' by Japan in 1955. But Hamada rejected the idea of the artist-as-genius. Influenced by Yanagi Sōetsu's mingei philosophy, he believed true beauty emerged from anonymous craftsmanship. So he never signed his work. He settled in Mashiko, a humble pottery village, and spent his life making functional ware. His signature style—bold brush decoration, earthy ash glazes, confident form—emerged from thousands of repeated gestures.",
         "reflection": "What would your work look like if you stopped signing it?"
       },
       "connections": [
@@ -1092,15 +1259,21 @@
         "master",
         "20th-century"
       ],
-      "sourceUrl": "https://www.britannica.com/biography/Hamada-Shoji"
+      "sourceUrl": "https://www.britannica.com/biography/Hamada-Shoji",
+      "image": {
+        "src": "/images/inspirations/hamada.webp",
+        "alt": "Shoji Hamada (Shōji Hamada)",
+        "credit": "Unidentified (Ensian published by University of Michigan) / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Sh%C5%8Dji_Hamada.png",
+        "license": "Public domain"
+      }
     },
     {
       "id": "leach",
       "name": "Bernard Leach",
-      "lifespan": "1887\u20131979",
+      "lifespan": "1887–1979",
       "origin": "Britain/Japan",
       "hasImage": true,
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Bernard_Leach_vase%2C_c._1960%2C_stoneware_with_tenmoku_glaze_-_Gardiner_Museum_-_DSC00874.JPG/600px-Bernard_Leach_vase%2C_c._1960%2C_stoneware_with_tenmoku_glaze_-_Gardiner_Museum_-_DSC00874.JPG",
       "fallbackColor": "#4A4A4A",
       "visualCaption": "East meets West. The bridge builder.",
       "story": {
@@ -1130,19 +1303,25 @@
         "teacher",
         "influential"
       ],
-      "sourceUrl": "https://www.leachpottery.com/about/bernard-leach/"
+      "sourceUrl": "https://www.leachpottery.com/about/bernard-leach/",
+      "image": {
+        "src": "/images/inspirations/leach.webp",
+        "alt": "Bernard Leach (Bernard Leach 1953)",
+        "credit": ".mw-parser-output .commons-creator-table{background-color:#f0f0ff;box- / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bernard_Leach_1953.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "rie",
       "name": "Lucie Rie",
-      "lifespan": "1902\u20131995",
+      "lifespan": "1902–1995",
       "origin": "Austria/Britain",
       "hasImage": true,
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Lucie_Rie_-_Bowl%2C_c._1980_-_Victoria_%26_Albert_Museum_-_C.11-1982.jpg/800px-Lucie_Rie_-_Bowl%2C_c._1980_-_Victoria_%26_Albert_Museum_-_C.11-1982.jpg",
       "fallbackColor": "#E8D4B8",
       "visualCaption": "Thin walls holding light. Volcanic surfaces.",
       "story": {
-        "hook": "She fled the Nazis with nothing but her potter's wheel\u2014and reinvented modern ceramics.",
+        "hook": "She fled the Nazis with nothing but her potter's wheel—and reinvented modern ceramics.",
         "body": "Lucie Rie was already an established potter in Vienna when the Nazis annexed Austria in 1938. She escaped to London with her wheel and little else. For years she made ceramic buttons to survive. Then Hans Coper arrived at her studio, and everything changed. Rie's work is recognizable instantly: impossibly thin walls, delicate feet, sophisticated forms that seem to hold light. Her volcanic glazes emerged from decades of experimentation. She worked until she was nearly 90.",
         "reflection": "What could you refine over a lifetime of practice?"
       },
@@ -1167,19 +1346,26 @@
         "elegant",
         "women"
       ],
-      "sourceUrl": "https://www.vam.ac.uk/articles/lucie-rie"
+      "sourceUrl": "https://www.vam.ac.uk/articles/lucie-rie",
+      "image": {
+        "src": "/images/inspirations/rie.webp",
+        "alt": "Lucie Rie (Bowl by Lucie Rie, National Museum Cardiff)",
+        "credit": "14GTR / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bowl_by_Lucie_Rie%2C_National_Museum_Cardiff.jpg",
+        "license": "CC0"
+      }
     },
     {
       "id": "coper",
       "name": "Hans Coper",
-      "lifespan": "1920\u20131981",
+      "lifespan": "1920–1981",
       "origin": "Germany/Britain",
       "hasImage": true,
       "fallbackColor": "#3D3D3D",
       "visualCaption": "Cycladic echoes. Ancient forms made new.",
       "story": {
         "hook": "A refugee who never trained as a potter created forms that seem to come from an ancient civilization that never existed.",
-        "body": "Hans Coper fled Nazi Germany in 1939. In 1946, he answered an advertisement to assist Lucie Rie in her button-making business. He had no ceramic training, but within years, he was creating work unlike anything in ceramic history. His pieces evoke ancient Mediterranean pottery, Cycladic figures, African sculpture\u2014yet they belong to no tradition. His 'spade forms,' 'thistle forms,' and composite vessels seem archaeological, as if excavated from a culture that existed only in his imagination.",
+        "body": "Hans Coper fled Nazi Germany in 1939. In 1946, he answered an advertisement to assist Lucie Rie in her button-making business. He had no ceramic training, but within years, he was creating work unlike anything in ceramic history. His pieces evoke ancient Mediterranean pottery, Cycladic figures, African sculpture—yet they belong to no tradition. His 'spade forms,' 'thistle forms,' and composite vessels seem archaeological, as if excavated from a culture that existed only in his imagination.",
         "reflection": "What forms might you create that belong to no tradition?"
       },
       "connections": [
@@ -1203,20 +1389,26 @@
         "unique",
         "influential"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Hans_Coper_-_Pot%2C_c._1970_-_Victoria_%26_Albert_Museum_-_C.10-1994.jpg/600px-Hans_Coper_-_Pot%2C_c._1970_-_Victoria_%26_Albert_Museum_-_C.10-1994.jpg",
-      "sourceUrl": "https://www.vam.ac.uk/articles/hans-coper"
+      "sourceUrl": "https://www.vam.ac.uk/articles/hans-coper",
+      "image": {
+        "src": "/images/inspirations/coper.webp",
+        "alt": "Hans Coper (Thrown Bottle by Hans Coper (YORYM-2004.1.807))",
+        "credit": "Creator:Hans Coper / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Thrown_Bottle_by_Hans_Coper_%28YORYM-2004.1.807%29.JPG",
+        "license": "CC BY-SA 3.0"
+      }
     },
     {
       "id": "voulkos",
       "name": "Peter Voulkos",
-      "lifespan": "1924\u20132002",
+      "lifespan": "1924–2002",
       "origin": "USA",
       "hasImage": true,
       "fallbackColor": "#3D3D3D",
       "visualCaption": "Breaking the pot. Breaking the rules.",
       "story": {
-        "hook": "He was a master thrower who decided to tear, slash, and stack his pots\u2014and changed what ceramics could be.",
-        "body": "Peter Voulkos could throw a perfect pot. Then, in the mid-1950s, influenced by Abstract Expressionism, he started doing violence to his work. He slashed thrown forms, stacked them, tore them open. The ceramic establishment was horrified. At Otis Art Institute in Los Angeles, he created a revolutionary program. His mature work\u2014massive plates gouged with gestural marks, towering stacks of torn forms\u2014proved that clay could carry the same emotional weight as any medium.",
+        "hook": "He was a master thrower who decided to tear, slash, and stack his pots—and changed what ceramics could be.",
+        "body": "Peter Voulkos could throw a perfect pot. Then, in the mid-1950s, influenced by Abstract Expressionism, he started doing violence to his work. He slashed thrown forms, stacked them, tore them open. The ceramic establishment was horrified. At Otis Art Institute in Los Angeles, he created a revolutionary program. His mature work—massive plates gouged with gestural marks, towering stacks of torn forms—proved that clay could carry the same emotional weight as any medium.",
         "reflection": "What rules might be worth breaking?"
       },
       "connections": [
@@ -1240,21 +1432,26 @@
         "gestural",
         "influential"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Peter_Voulkos_Rocking_Pot_1956.jpg/600px-Peter_Voulkos_Rocking_Pot_1956.jpg",
-      "sourceUrl": "https://www.sfmoma.org/artist/peter-voulkos/"
+      "sourceUrl": "https://www.sfmoma.org/artist/peter-voulkos/",
+      "image": {
+        "src": "/images/inspirations/voulkos.webp",
+        "alt": "Peter Voulkos (Voulkos 1996)",
+        "credit": "TolneGGG / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Voulkos_1996.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "odundo",
       "name": "Magdalene Odundo",
-      "lifespan": "1950\u2013",
+      "lifespan": "1950–",
       "origin": "Kenya/Britain",
       "hasImage": true,
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Asymmetric_Vessel_%28c._1992%29_by_Magdalene_Odundo.jpg/500px-Asymmetric_Vessel_%28c._1992%29_by_Magdalene_Odundo.jpg",
       "fallbackColor": "#4A3728",
       "visualCaption": "Body as vessel. Burnished to perfection.",
       "story": {
-        "hook": "She studied pottery around the world\u2014then created forms that seemed to exist outside time.",
-        "body": "Magdalene Odundo was born in Kenya, trained in England, and studied traditional techniques in Nigeria, Kenya, and New Mexico. She absorbed it all\u2014then synthesized something entirely her own. Her vessels are human: they have shoulders, necks, bellies, hips. Built by coiling, burnished with smooth stones, fired in sawdust, they carry the memory of African traditions while belonging to no single culture. Each piece takes weeks to complete.",
+        "hook": "She studied pottery around the world—then created forms that seemed to exist outside time.",
+        "body": "Magdalene Odundo was born in Kenya, trained in England, and studied traditional techniques in Nigeria, Kenya, and New Mexico. She absorbed it all—then synthesized something entirely her own. Her vessels are human: they have shoulders, necks, bellies, hips. Built by coiling, burnished with smooth stones, fired in sawdust, they carry the memory of African traditions while belonging to no single culture. Each piece takes weeks to complete.",
         "reflection": "What traditions might you synthesize into something new?"
       },
       "connections": [
@@ -1277,20 +1474,26 @@
         "women",
         "coil"
       ],
-      "sourceUrl": "https://www.vam.ac.uk/articles/magdalene-odundo"
+      "sourceUrl": "https://www.vam.ac.uk/articles/magdalene-odundo",
+      "image": {
+        "src": "/images/inspirations/odundo.webp",
+        "alt": "Magdalene Odundo (Thrown, Burnished, Reduction Fired pot by Magdalene Odundo (YORYM-2004.1.950))",
+        "credit": ".mw-parser-output .commons-creator-table{background-color:#f0f0ff;box- / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Thrown%2C_Burnished%2C_Reduction_Fired_pot_by_Magdalene_Odundo_%28YORYM-2004.1.950%29.JPG",
+        "license": "CC BY-SA 3.0"
+      }
     },
     {
       "id": "dyalvane",
       "name": "Andile Dyalvane",
-      "lifespan": "1978\u2013",
+      "lifespan": "1978–",
       "origin": "South Africa",
-      "hasImage": true,
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Andile_Dyalvane_-_iThongo_%282017%29.jpg/600px-Andile_Dyalvane_-_iThongo_%282017%29.jpg",
+      "hasImage": false,
       "fallbackColor": "#2C2C2C",
       "visualCaption": "Xhosa traditions. Monumental scale.",
       "story": {
-        "hook": "He grew up making clay oxen by the river\u2014now his work fills museums on four continents.",
-        "body": "Andile Dyalvane learned to work clay as a child in rural Eastern Cape, South Africa. Today his monumental vessels\u2014scarified with marks that reference Xhosa body decoration and spiritual practices\u2014command spaces in the Metropolitan Museum, the Denver Art Museum, and galleries worldwide. He co-founded Imiso Ceramics in Cape Town. Each piece carries Xhosa words and concepts: uBuhle (beauty), iThongo (ancestors), iLobola (bride wealth).",
+        "hook": "He grew up making clay oxen by the river—now his work fills museums on four continents.",
+        "body": "Andile Dyalvane learned to work clay as a child in rural Eastern Cape, South Africa. Today his monumental vessels—scarified with marks that reference Xhosa body decoration and spiritual practices—command spaces in the Metropolitan Museum, the Denver Art Museum, and galleries worldwide. He co-founded Imiso Ceramics in Cape Town. Each piece carries Xhosa words and concepts: uBuhle (beauty), iThongo (ancestors), iLobola (bride wealth).",
         "reflection": "What knowledge from your childhood might transform your work?"
       },
       "connections": [
@@ -1317,14 +1520,13 @@
     {
       "id": "de-waal",
       "name": "Edmund de Waal",
-      "lifespan": "1964\u2013",
+      "lifespan": "1964–",
       "origin": "Britain",
       "hasImage": true,
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Hare_with_Amber_Eyes_-_Book_Cover.jpg/400px-Hare_with_Amber_Eyes_-_Book_Cover.jpg",
       "fallbackColor": "#F5F5F0",
       "visualCaption": "Porcelain and silence. Objects holding memory.",
       "story": {
-        "hook": "He makes thousands of small white pots\u2014and arranges them to hold the weight of history.",
+        "hook": "He makes thousands of small white pots—and arranges them to hold the weight of history.",
         "body": "Edmund de Waal throws small porcelain vessels and arranges them in installations that fill vitrines, line walls, occupy entire rooms. The pots themselves are quiet, almost self-effacing. But in accumulation, they become powerful. His memoir 'The Hare with Amber Eyes' traces his family's history through a collection of Japanese netsuke. His installations often respond to specific sites, placing contemporary vessels in dialogue with centuries of collected things.",
         "reflection": "How might your pots carry memory?"
       },
@@ -1348,19 +1550,26 @@
         "installation",
         "writer"
       ],
-      "sourceUrl": "https://www.edmunddewaal.com/"
+      "sourceUrl": "https://www.edmunddewaal.com/",
+      "image": {
+        "src": "/images/inspirations/de-waal.webp",
+        "alt": "Edmund de Waal (Edmund de Waal with his installation, breathturn (2013), at Gagosian, New York (cropped))",
+        "credit": "Rob McKeever / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Edmund_de_Waal_with_his_installation%2C_breathturn_%282013%29%2C_at_Gagosian%2C_New_York_%28cropped%29.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "yanagi",
-      "name": "Yanagi S\u014detsu",
-      "lifespan": "1889\u20131961",
+      "name": "Yanagi Sōetsu",
+      "lifespan": "1889–1961",
       "origin": "Japan",
       "hasImage": true,
       "fallbackColor": "#4A4A4A",
       "visualCaption": "The philosopher who saw beauty where others saw only utility.",
       "story": {
-        "hook": "He wasn't a potter\u2014but his ideas changed pottery forever.",
-        "body": "Yanagi S\u014detsu was a philosopher, art critic, and founder of the mingei (folk craft) movement. In the 1920s, while studying Korean Yi dynasty ceramics, he developed his theory: that true beauty emerged not from individual artistic genius but from the anonymous, unselfconscious work of traditional craftspeople. He gathered potters Shoji Hamada, Kanjiro Kawai, and Bernard Leach. Together they established the Japan Folk Crafts Museum and spread mingei philosophy worldwide.",
+        "hook": "He wasn't a potter—but his ideas changed pottery forever.",
+        "body": "Yanagi Sōetsu was a philosopher, art critic, and founder of the mingei (folk craft) movement. In the 1920s, while studying Korean Yi dynasty ceramics, he developed his theory: that true beauty emerged not from individual artistic genius but from the anonymous, unselfconscious work of traditional craftspeople. He gathered potters Shoji Hamada, Kanjiro Kawai, and Bernard Leach. Together they established the Japan Folk Crafts Museum and spread mingei philosophy worldwide.",
         "reflection": "What might you achieve by getting yourself out of the way?"
       },
       "connections": [
@@ -1384,20 +1593,26 @@
         "writer",
         "not-a-potter"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Soetsu_Yanagi.JPG/400px-Soetsu_Yanagi.JPG",
-      "sourceUrl": "https://www.mingeikan.or.jp/english/founder/"
+      "sourceUrl": "https://www.mingeikan.or.jp/english/founder/",
+      "image": {
+        "src": "/images/inspirations/yanagi.webp",
+        "alt": "Yanagi Sōetsu (Soetsu)",
+        "credit": "Unknown author Unknown author / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Soetsu.JPG",
+        "license": "Public domain"
+      }
     },
     {
       "id": "kawai",
-      "name": "Kawai Kanjir\u014d",
-      "lifespan": "1890\u20131966",
+      "name": "Kawai Kanjirō",
+      "lifespan": "1890–1966",
       "origin": "Japan",
       "hasImage": true,
       "fallbackColor": "#8B4513",
       "visualCaption": "The mingei master who kept evolving.",
       "story": {
         "hook": "He was a technical perfectionist who abandoned perfection to find something more important.",
-        "body": "Kawai Kanjir\u014d began as a technically brilliant potter, mastering Chinese glazes. Then he met Yanagi S\u014detsu and had a creative crisis. He destroyed much of his earlier work and committed to mingei philosophy. But unlike Hamada, Kawai kept evolving\u2014from functional pottery to sculptural work, from traditional forms to wild experimentation. His home in Kyoto, now a museum, reveals a restless creative intelligence.",
+        "body": "Kawai Kanjirō began as a technically brilliant potter, mastering Chinese glazes. Then he met Yanagi Sōetsu and had a creative crisis. He destroyed much of his earlier work and committed to mingei philosophy. But unlike Hamada, Kawai kept evolving—from functional pottery to sculptural work, from traditional forms to wild experimentation. His home in Kyoto, now a museum, reveals a restless creative intelligence.",
         "reflection": "How might your work continue to evolve?"
       },
       "connections": [
@@ -1421,20 +1636,26 @@
         "writer",
         "spiritual"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Kawai_Kanjiro%27s_House_Kyoto.jpg/800px-Kawai_Kanjiro%27s_House_Kyoto.jpg",
-      "sourceUrl": "http://www.kanjiro.jp/english/"
+      "sourceUrl": "http://www.kanjiro.jp/english/",
+      "image": {
+        "src": "/images/inspirations/kawai.webp",
+        "alt": "Kawai Kanjirō (Kawai Kanjirō photographed by Shigeru Tamura)",
+        "credit": ".mw-parser-output .commons-creator-table{background-color:#f0f0ff;box- / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Kawai_Kanjir%C5%8D_photographed_by_Shigeru_Tamura.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "maria-martinez",
       "name": "Maria Martinez",
-      "lifespan": "1887\u20131980",
+      "lifespan": "1887–1980",
       "origin": "USA (San Ildefonso Pueblo)",
       "hasImage": true,
       "fallbackColor": "#0d0d0d",
       "visualCaption": "Black-on-black. Tradition and innovation in one gesture.",
       "story": {
         "hook": "She revived an ancient technique, invented something new, and became the most famous Native American potter in history.",
-        "body": "Maria Martinez was making traditional polychrome ware when archaeologists found ancient black pottery sherds. Working with her husband Julian, she rediscovered the reduction firing method. Then Julian invented something new: using guaco (wild plant juice) to paint matte designs on the burnished surface. The result\u2014matte black on shiny black\u2014became Maria's signature and made her internationally famous. In her later years, she signed her work collectively to spread the benefits.",
+        "body": "Maria Martinez was making traditional polychrome ware when archaeologists found ancient black pottery sherds. Working with her husband Julian, she rediscovered the reduction firing method. Then Julian invented something new: using guaco (wild plant juice) to paint matte designs on the burnished surface. The result—matte black on shiny black—became Maria's signature and made her internationally famous. In her later years, she signed her work collectively to spread the benefits.",
         "reflection": "How might tradition and innovation work together?"
       },
       "connections": [
@@ -1459,19 +1680,25 @@
         "traditional",
         "famous"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Maria_Martinez_plate_-_Indianapolis_Museum_of_Art_-_DSC00652.JPG/800px-Maria_Martinez_plate_-_Indianapolis_Museum_of_Art_-_DSC00652.JPG",
-      "sourceUrl": "https://americanindian.si.edu/explore/collections/object/NMAI_239377"
+      "sourceUrl": "https://americanindian.si.edu/explore/collections/object/NMAI_239377",
+      "image": {
+        "src": "/images/inspirations/maria-martinez.webp",
+        "alt": "Maria Martinez (Maria Martinez, San Ildefonso pottery maker)",
+        "credit": "Wesley Bradfield / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Maria_Martinez%2C_San_Ildefonso_pottery_maker.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "george-ohr",
       "name": "George Ohr",
-      "lifespan": "1857\u20131918",
+      "lifespan": "1857–1918",
       "origin": "USA",
       "hasImage": true,
       "fallbackColor": "#8B4513",
       "visualCaption": "The Mad Potter of Biloxi. A century ahead of his time.",
       "story": {
-        "hook": "He called himself the greatest potter who ever lived\u2014and stored thousands of unsold pieces, waiting for the world to catch up.",
+        "hook": "He called himself the greatest potter who ever lived—and stored thousands of unsold pieces, waiting for the world to catch up.",
         "body": "George Ohr was weird. He had a two-foot-long mustache. He threw impossibly thin-walled pieces and then crumpled, folded, twisted them into bizarre forms. Critics were baffled. So Ohr stacked his unsold work in the attic and waited. 'When I am gone,' he said, 'my work will be praised, honored, and cherished.' He was right. Today his pieces command prices in the hundreds of thousands.",
         "reflection": "What would you make if you trusted that the future would understand?"
       },
@@ -1495,19 +1722,25 @@
         "prophetic",
         "historic"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/George_Ohr%2C_biloxi_art_pottery%2C_mississippi%2C_vaso%2C_1895-96_ca.jpg/600px-George_Ohr%2C_biloxi_art_pottery%2C_mississippi%2C_vaso%2C_1895-96_ca.jpg",
-      "sourceUrl": "https://www.georgeohr.org/"
+      "sourceUrl": "https://www.georgeohr.org/",
+      "image": {
+        "src": "/images/inspirations/george-ohr.webp",
+        "alt": "George Ohr (George E Ohr)",
+        "credit": "Robert Brooks/Ohr-O'Keefe Museum of Art / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:George_E_Ohr.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "beatrice-wood",
       "name": "Beatrice Wood",
-      "lifespan": "1893\u20131998",
+      "lifespan": "1893–1998",
       "origin": "USA",
       "hasImage": true,
       "fallbackColor": "#B8860B",
-      "visualCaption": "The mama of Dada lived to 105\u2014and never stopped glazing.",
+      "visualCaption": "The mama of Dada lived to 105—and never stopped glazing.",
       "story": {
-        "hook": "She was a Dadaist, a friend of Marcel Duchamp, and she didn't start making pottery until she was 40\u2014then continued for 60 more years.",
+        "hook": "She was a Dadaist, a friend of Marcel Duchamp, and she didn't start making pottery until she was 40—then continued for 60 more years.",
         "body": "Beatrice Wood led many lives. She scandalized her family by becoming an actress, befriended Marcel Duchamp, helped create the Society of Independent Artists exhibition. Then, in her late 30s, she took a ceramic class. She was hooked. Moving to Ojai, California, she spent six decades mastering luster glazes. She continued working into her 100s. When asked the secret of her longevity: 'Art books, chocolates, and young men.'",
         "reflection": "What might you start at 40 and do for 60 years?"
       },
@@ -1532,13 +1765,19 @@
         "long-career",
         "late-starter"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Beatrice_Wood%2C_Untitled_Vessel%2C_c._1983.jpg/600px-Beatrice_Wood%2C_Untitled_Vessel%2C_c._1983.jpg",
-      "sourceUrl": "https://www.beatricewood.com/"
+      "sourceUrl": "https://www.beatricewood.com/",
+      "image": {
+        "src": "/images/inspirations/beatrice-wood.webp",
+        "alt": "Beatrice Wood (Beatrice Wood 1908-photo 2)",
+        "credit": "Unknown artist Unknown artist / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Beatrice_Wood_1908-photo_2.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "cardew",
       "name": "Michael Cardew",
-      "lifespan": "1901\u20131983",
+      "lifespan": "1901–1983",
       "origin": "Britain/Ghana/Nigeria",
       "hasImage": true,
       "fallbackColor": "#8B6914",
@@ -1571,19 +1810,25 @@
         "influential",
         "slipware"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Michael_Cardew_Pot.jpg/600px-Michael_Cardew_Pot.jpg",
-      "sourceUrl": "https://www.britannica.com/biography/Michael-Cardew"
+      "sourceUrl": "https://www.britannica.com/biography/Michael-Cardew",
+      "image": {
+        "src": "/images/inspirations/cardew.webp",
+        "alt": "Michael Cardew (Michael Cardew in 1917)",
+        "credit": "Unknown author Unknown author / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Michael_Cardew_in_1917.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "warren-mackenzie",
       "name": "Warren MacKenzie",
-      "lifespan": "1924\u20132018",
+      "lifespan": "1924–2018",
       "origin": "USA",
       "hasImage": true,
       "fallbackColor": "#8B7355",
       "visualCaption": "The humble potter. Thousands of pots, ordinary prices.",
       "story": {
-        "hook": "He studied with Leach and Hamada, became one of America's most respected potters\u2014and kept his prices low so ordinary people could buy.",
+        "hook": "He studied with Leach and Hamada, became one of America's most respected potters—and kept his prices low so ordinary people could buy.",
         "body": "Warren MacKenzie studied with Bernard Leach, apprenticed with Hamada. He settled in Minnesota and spent six decades making functional stoneware. Even as his reputation grew, he kept prices accessible. A MacKenzie bowl might cost what you'd pay for a department store dish. 'I make pots for people to use,' he said. He made hundreds of thousands, scattered across the country in ordinary kitchens.",
         "reflection": "What would it mean to keep your work accessible?"
       },
@@ -1608,20 +1853,26 @@
         "influential",
         "teacher"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Warren_MacKenzie_Teapot.jpg/800px-Warren_MacKenzie_Teapot.jpg",
-      "sourceUrl": "https://northernclaycenter.org/warren-mackenzie/"
+      "sourceUrl": "https://northernclaycenter.org/warren-mackenzie/",
+      "image": {
+        "src": "/images/inspirations/warren-mackenzie.webp",
+        "alt": "Warren MacKenzie (Warren Mackenzie in studio, February 2017)",
+        "credit": "Innotata / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Warren_Mackenzie_in_studio%2C_February_2017.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "ken-price",
       "name": "Ken Price",
-      "lifespan": "1935\u20132012",
+      "lifespan": "1935–2012",
       "origin": "USA",
-      "hasImage": true,
+      "hasImage": false,
       "fallbackColor": "#FF6B6B",
       "visualCaption": "Color and form. Where pottery becomes sculpture.",
       "story": {
         "hook": "He started as a student of Voulkos, then went somewhere entirely his own.",
-        "body": "Ken Price was part of the revolutionary circle around Peter Voulkos. But while Voulkos went big and gestural, Price went small, intimate, and intensely colored. His mature work\u2014biomorphic forms covered in layers of acrylic paint, sanded and polished\u2014occupies a space between pottery, sculpture, and painting. The colors are extraordinary: hot pinks, acid greens. He spent years on each piece, building up dozens of paint layers.",
+        "body": "Ken Price was part of the revolutionary circle around Peter Voulkos. But while Voulkos went big and gestural, Price went small, intimate, and intensely colored. His mature work—biomorphic forms covered in layers of acrylic paint, sanded and polished—occupies a space between pottery, sculpture, and painting. The colors are extraordinary: hot pinks, acid greens. He spent years on each piece, building up dozens of paint layers.",
         "reflection": "What happens when you take ceramics somewhere entirely your own?"
       },
       "connections": [
@@ -1645,20 +1896,19 @@
         "influential",
         "la"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Ken_Price%2C_Specimen%2C_2012%2C_acrylic_and_lacquer_on_fired_clay.jpg/600px-Ken_Price%2C_Specimen%2C_2012%2C_acrylic_and_lacquer_on_fired_clay.jpg",
       "sourceUrl": "https://www.lacma.org/art/artist/ken-price"
     },
     {
       "id": "toshiko-takaezu",
       "name": "Toshiko Takaezu",
-      "lifespan": "1922\u20132011",
+      "lifespan": "1922–2011",
       "origin": "USA (Hawaii)",
-      "hasImage": true,
+      "hasImage": false,
       "fallbackColor": "#4A4A4A",
       "visualCaption": "Closed forms. What happens inside the vessel.",
       "story": {
-        "hook": "She closed her pots\u2014sealed them shut, with a small clay ball inside, so they would ring when moved.",
-        "body": "Toshiko Takaezu was born in Hawaii, studied with Maija Grotell, and developed one of the most distinctive voices in American ceramics. Her signature: closing the top of her vessels, leaving just a small hole or sealing them entirely. Inside each piece, she placed a small clay ball that rattled when moved\u2014the pot keeping a secret. 'When working with clay,' she wrote, 'I find myself in a state of meditation.'",
+        "hook": "She closed her pots—sealed them shut, with a small clay ball inside, so they would ring when moved.",
+        "body": "Toshiko Takaezu was born in Hawaii, studied with Maija Grotell, and developed one of the most distinctive voices in American ceramics. Her signature: closing the top of her vessels, leaving just a small hole or sealing them entirely. Inside each piece, she placed a small clay ball that rattled when moved—the pot keeping a secret. 'When working with clay,' she wrote, 'I find myself in a state of meditation.'",
         "reflection": "What might a pot contain that isn't visible?"
       },
       "connections": [
@@ -1681,20 +1931,19 @@
         "meditative",
         "closed"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Toshiko_Takaezu_-_Moon_%28ca._1990s%29.jpg/600px-Toshiko_Takaezu_-_Moon_%28ca._1990s%29.jpg",
       "sourceUrl": "https://americanart.si.edu/artist/toshiko-takaezu-4758"
     },
     {
       "id": "ruth-duckworth",
       "name": "Ruth Duckworth",
-      "lifespan": "1919\u20132009",
+      "lifespan": "1919–2009",
       "origin": "Germany/Britain/USA",
-      "hasImage": true,
+      "hasImage": false,
       "fallbackColor": "#8B8378",
       "visualCaption": "Scale as sculpture. Walls that breathe.",
       "story": {
         "hook": "A refugee from Nazi Germany became one of the great ceramic sculptors, working from intimate vessels to monumental murals.",
-        "body": "Ruth Duckworth fled Germany in 1936, trained as a sculptor, came to clay in her late 30s. In 1964, she moved to Chicago, and her work expanded dramatically. She created massive ceramic murals\u2014'Earth, Water, Sky' covers 2,000 square feet\u2014as well as intimate porcelain forms. 'Clay,' she said, 'is the stuff of life. We come from it and we return to it.'",
+        "body": "Ruth Duckworth fled Germany in 1936, trained as a sculptor, came to clay in her late 30s. In 1964, she moved to Chicago, and her work expanded dramatically. She created massive ceramic murals—'Earth, Water, Sky' covers 2,000 square feet—as well as intimate porcelain forms. 'Clay,' she said, 'is the stuff of life. We come from it and we return to it.'",
         "reflection": "What would happen if you dramatically changed scale?"
       },
       "connections": [
@@ -1719,15 +1968,14 @@
         "murals",
         "refugee"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ruth_Duckworth%2C_Untitled%2C_1984%2C_Cleveland_Museum_of_Art.jpg/600px-Ruth_Duckworth%2C_Untitled%2C_1984%2C_Cleveland_Museum_of_Art.jpg",
       "sourceUrl": "https://www.moma.org/artists/35440"
     },
     {
       "id": "phil-rogers",
       "name": "Phil Rogers",
-      "lifespan": "1951\u20132020",
+      "lifespan": "1951–2020",
       "origin": "Wales",
-      "hasImage": true,
+      "hasImage": false,
       "fallbackColor": "#8B6914",
       "visualCaption": "Welsh ash and fire. Local materials, global tradition.",
       "story": {
@@ -1756,19 +2004,18 @@
         "local",
         "writer"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Phil_Rogers_jug.jpg/500px-Phil_Rogers_jug.jpg",
       "sourceUrl": "https://www.goldmarkart.com/collections/phil-rogers"
     },
     {
       "id": "lisa-hammond",
       "name": "Lisa Hammond",
-      "lifespan": "1956\u2013",
+      "lifespan": "1956–",
       "origin": "Britain",
-      "hasImage": true,
+      "hasImage": false,
       "fallbackColor": "#D4A574",
       "visualCaption": "Soda and flame. Firing with conviction.",
       "story": {
-        "hook": "She's spent decades mastering soda firing\u2014and teaching others to do the same.",
+        "hook": "She's spent decades mastering soda firing—and teaching others to do the same.",
         "body": "Lisa Hammond is one of Britain's most respected functional potters, known for her soda-fired stoneware and commitment to the craft community. Working from her Greenwich pottery, she produces robust, generous forms with surfaces animated by the soda-firing process. She has taught extensively, demystifying soda firing through workshops and writing. She's also been a strong advocate for ceramics as a profession.",
         "reflection": "What technique might you spend decades mastering?"
       },
@@ -1792,15 +2039,14 @@
         "teacher",
         "contemporary"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Lisa_Hammond_MBE_Teapot.jpg/600px-Lisa_Hammond_MBE_Teapot.jpg",
       "sourceUrl": "https://www.mazehill.com/"
     },
     {
       "id": "clary-illian",
       "name": "Clary Illian",
-      "lifespan": "1940\u2013",
+      "lifespan": "1940–",
       "origin": "USA",
-      "hasImage": true,
+      "hasImage": false,
       "fallbackColor": "#8B7355",
       "visualCaption": "Pots for the everyday. Function as meditation.",
       "story": {
@@ -1829,20 +2075,19 @@
         "writer",
         "rural"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Clary_Illian_teabowl.jpg/600px-Clary_Illian_teabowl.jpg",
       "sourceUrl": "https://www.akar.com/artists/clary-illian"
     },
     {
       "id": "shozo-michikawa",
       "name": "Shozo Michikawa",
-      "lifespan": "1953\u2013",
+      "lifespan": "1953–",
       "origin": "Japan",
       "hasImage": true,
       "fallbackColor": "#3D3D3D",
       "visualCaption": "Natural ash, twisted and split. The kiln as collaborator.",
       "story": {
-        "hook": "He fires for days, then splits his pots with a chisel\u2014revealing the fire's work inside.",
-        "body": "Shozo Michikawa creates vessels that are as much kiln-made as hand-made. Working in Seto, he fires in a wood kiln for up to a week, allowing natural ash to build on surfaces. Then, after firing, he takes a dramatic step: splitting the vessels with a chisel, opening them to reveal interior surfaces where ash accumulated. The results are primal, geological\u2014forms that seem hewn from volcanic rock.",
+        "hook": "He fires for days, then splits his pots with a chisel—revealing the fire's work inside.",
+        "body": "Shozo Michikawa creates vessels that are as much kiln-made as hand-made. Working in Seto, he fires in a wood kiln for up to a week, allowing natural ash to build on surfaces. Then, after firing, he takes a dramatic step: splitting the vessels with a chisel, opening them to reveal interior surfaces where ash accumulated. The results are primal, geological—forms that seem hewn from volcanic rock.",
         "reflection": "What might you reveal by breaking something open?"
       },
       "connections": [
@@ -1866,20 +2111,26 @@
         "splitting",
         "contemporary"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Shozo_Michikawa_natural_ash_glazed_pot.jpg/600px-Shozo_Michikawa_natural_ash_glazed_pot.jpg",
-      "sourceUrl": "https://www.e-yakimono.net/html/michikawa-shozo.html"
+      "sourceUrl": "https://www.e-yakimono.net/html/michikawa-shozo.html",
+      "image": {
+        "src": "/images/inspirations/shozo-michikawa.webp",
+        "alt": "Shozo Michikawa (Michikawa Shozo 2017)",
+        "credit": "Enaliv / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Michikawa_Shozo_2017.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "jennifer-lee",
       "name": "Jennifer Lee",
-      "lifespan": "1956\u2013",
+      "lifespan": "1956–",
       "origin": "Scotland/Britain",
       "hasImage": true,
       "fallbackColor": "#E8D4C4",
       "visualCaption": "Quiet color. Vessels of contemplation.",
       "story": {
         "hook": "She hand-builds vessels so subtle they seem to hold silence.",
-        "body": "Jennifer Lee creates hand-built stoneware vessels of extraordinary quietness. Her forms are simple\u2014rounded, ovoid, gently asymmetrical\u2014built slowly from coils over many weeks. The surfaces: subtle colors achieved through natural oxides and long, slow firings. She returns again and again to similar forms, finding endless variation. Lee was the first woman to win the Loewe Craft Prize.",
+        "body": "Jennifer Lee creates hand-built stoneware vessels of extraordinary quietness. Her forms are simple—rounded, ovoid, gently asymmetrical—built slowly from coils over many weeks. The surfaces: subtle colors achieved through natural oxides and long, slow firings. She returns again and again to similar forms, finding endless variation. Lee was the first woman to win the Loewe Craft Prize.",
         "reflection": "What could you find in extreme restraint?"
       },
       "connections": [
@@ -1904,20 +2155,26 @@
         "minimalist",
         "contemporary"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Jennifer_Lee_ceramic_pot.jpg/600px-Jennifer_Lee_ceramic_pot.jpg",
-      "sourceUrl": "https://www.lfrancesgallery.com/artists/jennifer-lee"
+      "sourceUrl": "https://www.lfrancesgallery.com/artists/jennifer-lee",
+      "image": {
+        "src": "/images/inspirations/jennifer-lee.webp",
+        "alt": "Jennifer Lee (Jennifer Lee (potter))",
+        "credit": "Jaketilson / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Jennifer_Lee_%28potter%29.jpg",
+        "license": "CC BY-SA 3.0"
+      }
     },
     {
       "id": "gwyn-hanssen-pigott",
       "name": "Gwyn Hanssen Pigott",
-      "lifespan": "1935\u20132013",
+      "lifespan": "1935–2013",
       "origin": "Australia",
-      "hasImage": true,
+      "hasImage": false,
       "fallbackColor": "#F5F5F0",
       "visualCaption": "Still life in porcelain. Arrangements of light.",
       "story": {
-        "hook": "She grouped simple vessels together\u2014and turned pottery into poetry.",
-        "body": "Gwyn Hanssen Pigott studied with Bernard Leach, mastered wheel-thrown functional pottery. Then, in her 60s, she began arranging groups of pots together on rectangular boards. These 'still life' groupings\u2014assemblies of bottles, bowls, beakers\u2014transformed her work from craft into something closer to painting or poetry. The arrangements suggest Morandi's still life paintings, Chinese scholar's rocks, Japanese flower arrangement.",
+        "hook": "She grouped simple vessels together—and turned pottery into poetry.",
+        "body": "Gwyn Hanssen Pigott studied with Bernard Leach, mastered wheel-thrown functional pottery. Then, in her 60s, she began arranging groups of pots together on rectangular boards. These 'still life' groupings—assemblies of bottles, bowls, beakers—transformed her work from craft into something closer to painting or poetry. The arrangements suggest Morandi's still life paintings, Chinese scholar's rocks, Japanese flower arrangement.",
         "reflection": "What happens when objects are arranged together?"
       },
       "connections": [
@@ -1941,15 +2198,14 @@
         "poetic",
         "late-career"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Gwyn_Hanssen_Pigott_still_life_group.jpg/800px-Gwyn_Hanssen_Pigott_still_life_group.jpg",
       "sourceUrl": "https://www.ngv.vic.gov.au/explore/collection/artist/6051/"
     },
     {
       "id": "akira-satake",
       "name": "Akira Satake",
-      "lifespan": "1960\u2013",
+      "lifespan": "1960–",
       "origin": "Japan/USA",
-      "hasImage": true,
+      "hasImage": false,
       "fallbackColor": "#6B5344",
       "visualCaption": "Salt-fired surfaces. Function with soul.",
       "story": {
@@ -1977,19 +2233,18 @@
         "cross-cultural",
         "contemporary"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Wood-fired_yunomi_tea_bowl.jpg/600px-Wood-fired_yunomi_tea_bowl.jpg",
       "sourceUrl": "https://www.akirasatake.com/"
     },
     {
       "id": "svend-bayer",
       "name": "Svend Bayer",
-      "lifespan": "1946\u2013",
+      "lifespan": "1946–",
       "origin": "Britain",
       "hasImage": true,
       "fallbackColor": "#8B6914",
       "visualCaption": "Big pots, long firings. Wood fire at scale.",
       "story": {
-        "hook": "He throws the largest pots in Britain\u2014and fires them for days in a massive wood kiln.",
+        "hook": "He throws the largest pots in Britain—and fires them for days in a massive wood kiln.",
         "body": "Svend Bayer is known for large-scale thrown forms fired in wood kilns he built himself. His pots can stand four feet tall, generous forms with surfaces transformed by wood ash and flame. Bayer trained with Michael Cardew, absorbing the British studio pottery tradition, then developed his own path: bigger, bolder, more ambitious.",
         "reflection": "What would it mean to work at a scale that challenges you?"
       },
@@ -2013,20 +2268,26 @@
         "functional",
         "traditional"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Svend_Bayer_wood-fired_bottle.jpg/500px-Svend_Bayer_wood-fired_bottle.jpg",
-      "sourceUrl": "https://www.goldmarkart.com/ceramics/makers/svend-bayer"
+      "sourceUrl": "https://www.goldmarkart.com/ceramics/makers/svend-bayer",
+      "image": {
+        "src": "/images/inspirations/svend-bayer.webp",
+        "alt": "Svend Bayer (Svend Bayer stoneware vase, Walker Art Gallery)",
+        "credit": "Reptonix free Creative Commons licensed photos / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Svend_Bayer_stoneware_vase%2C_Walker_Art_Gallery.jpg",
+        "license": "CC BY 3.0"
+      }
     },
     {
       "id": "nesta-nala",
       "name": "Nesta Nala",
-      "lifespan": "1940\u20132005",
+      "lifespan": "1940–2005",
       "origin": "South Africa",
-      "hasImage": true,
+      "hasImage": false,
       "fallbackColor": "#2C2C2C",
       "visualCaption": "Zulu master. Traditional technique, contemporary vision.",
       "story": {
         "hook": "She took traditional Zulu pottery and gave it a contemporary voice.",
-        "body": "Nesta Nala was a Zulu master potter from KwaZulu-Natal. She learned traditional techniques from her mother and grandmother\u2014coiling, burnishing, pit-firing\u2014and then pushed them further than anyone had before. Her vessels grew larger, her surfaces more refined. The techniques were ancient; the vision was contemporary. She taught extensively, passing techniques to younger generations.",
+        "body": "Nesta Nala was a Zulu master potter from KwaZulu-Natal. She learned traditional techniques from her mother and grandmother—coiling, burnishing, pit-firing—and then pushed them further than anyone had before. Her vessels grew larger, her surfaces more refined. The techniques were ancient; the vision was contemporary. She taught extensively, passing techniques to younger generations.",
         "reflection": "How can traditional techniques serve contemporary vision?"
       },
       "connections": [
@@ -2050,20 +2311,19 @@
         "contemporary",
         "teacher"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/BLW_Clay_beer_pot_%28ukhamba%29.jpg/600px-BLW_Clay_beer_pot_%28ukhamba%29.jpg",
       "sourceUrl": "https://www.britannica.com/art/African-pottery"
     },
     {
       "id": "rosanjin",
       "name": "Rosanjin",
-      "lifespan": "1883\u20131959",
+      "lifespan": "1883–1959",
       "origin": "Japan",
       "hasImage": true,
       "fallbackColor": "#8B5A2B",
       "visualCaption": "Calligrapher, chef, potter. The aesthete who made dishes for his own food.",
       "story": {
         "hook": "He was a renowned calligrapher and restaurateur who made pottery so his food would look better.",
-        "body": "Kita\u014dji Rosanjin defies categories. He was born into poverty, became famous as a calligrapher, opened exclusive restaurants, and became one of Japan's most distinctive potters. Rosanjin believed food, vessels, and environment formed an inseparable whole. He made pottery for his restaurants\u2014plates designed to complement his cooking. His ceramic work draws on Bizen, Oribe, Shino, Seto, Kutani.",
+        "body": "Kitaōji Rosanjin defies categories. He was born into poverty, became famous as a calligrapher, opened exclusive restaurants, and became one of Japan's most distinctive potters. Rosanjin believed food, vessels, and environment formed an inseparable whole. He made pottery for his restaurants—plates designed to complement his cooking. His ceramic work draws on Bizen, Oribe, Shino, Seto, Kutani.",
         "reflection": "What if the vessel and its contents were designed together?"
       },
       "connections": [
@@ -2087,19 +2347,25 @@
         "calligrapher",
         "distinctive"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Rosanjin_Kitaoji_-_Dish_with_design_of_camellia_-_Google_Art_Project.jpg/800px-Rosanjin_Kitaoji_-_Dish_with_design_of_camellia_-_Google_Art_Project.jpg",
-      "sourceUrl": "https://www.britannica.com/biography/Rosanjin"
+      "sourceUrl": "https://www.britannica.com/biography/Rosanjin",
+      "image": {
+        "src": "/images/inspirations/rosanjin.webp",
+        "alt": "Rosanjin (Rosanjin Kitaōji 1954)",
+        "credit": "Bungei Shunjū / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Rosanjin_Kita%C5%8Dji_1954.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "theaster-gates",
       "name": "Theaster Gates",
-      "lifespan": "1973\u2013",
+      "lifespan": "1973–",
       "origin": "USA",
       "hasImage": true,
       "fallbackColor": "#1a1a1a",
       "visualCaption": "Clay and community. Urban transformation through craft.",
       "story": {
-        "hook": "He trained as a potter\u2014then used that training to reimagine entire neighborhoods.",
+        "hook": "He trained as a potter—then used that training to reimagine entire neighborhoods.",
         "body": "Theaster Gates is an artist, social practice pioneer, and urban planner. But he started as a potter, training with Michael Simon. He still makes pots, but his practice has expanded: buying abandoned buildings on Chicago's South Side, transforming them into cultural spaces. Clay runs through his work: pieces from salvaged bricks, community firing events. For Gates, making pots and remaking communities are related acts.",
         "reflection": "What might your craft practice hold beyond the objects themselves?"
       },
@@ -2123,19 +2389,25 @@
         "african-american",
         "transformative"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Theaster_Gates_in_2015.jpg/500px-Theaster_Gates_in_2015.jpg",
-      "sourceUrl": "https://www.theastergates.com/"
+      "sourceUrl": "https://www.theastergates.com/",
+      "image": {
+        "src": "/images/inspirations/theaster-gates.webp",
+        "alt": "Theaster Gates (Unleashing Entrepreneurial Innovation with Stanford University Theaster Gates)",
+        "credit": "World Economic Forum / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Unleashing_Entrepreneurial_Innovation_with_Stanford_University_Theaster_Gates.jpg",
+        "license": "CC BY-SA 2.0"
+      }
     },
     {
       "id": "maija-grotell",
       "name": "Maija Grotell",
-      "lifespan": "1899\u20131973",
+      "lifespan": "1899–1973",
       "origin": "Finland/USA",
       "hasImage": true,
       "fallbackColor": "#8B8378",
       "visualCaption": "The mother of American ceramics. Teacher of teachers.",
       "story": {
-        "hook": "She trained a generation of American ceramicists at Cranbrook\u2014and pioneered the large-scale vessel.",
+        "hook": "She trained a generation of American ceramicists at Cranbrook—and pioneered the large-scale vessel.",
         "body": "Maija Grotell left Finland for America in 1927 and eventually headed the ceramics department at Cranbrook Academy of Art, where she taught for 28 years. Her students read like a who's who of American ceramics: Toshiko Takaezu, Richard DeVore, Howard Kottler. She pioneered large thrown forms with experimental glazes, combining Scandinavian craft traditions with American scale.",
         "reflection": "What legacy might you leave through teaching?"
       },
@@ -2159,20 +2431,26 @@
         "influential",
         "pioneer"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Maija_Grotell_-_Vase%2C_1944.jpg/500px-Maija_Grotell_-_Vase%2C_1944.jpg",
-      "sourceUrl": "https://cranbrookartmuseum.org/collection/maija-grotell/"
+      "sourceUrl": "https://cranbrookartmuseum.org/collection/maija-grotell/",
+      "image": {
+        "src": "/images/inspirations/maija-grotell.webp",
+        "alt": "Maija Grotell (Maija-Grotell-1920s)",
+        "credit": "Anonymous Unknown author / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Maija-Grotell-1920s.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "peter-lane",
       "name": "Peter Lane",
-      "lifespan": "1932\u2013",
+      "lifespan": "1932–",
       "origin": "Britain",
-      "hasImage": true,
+      "hasImage": false,
       "fallbackColor": "#F0EBE6",
       "visualCaption": "Porcelain and precision. Geometric purity.",
       "story": {
-        "hook": "He brings mathematical precision to porcelain\u2014creating forms of extraordinary refinement.",
-        "body": "Peter Lane makes translucent porcelain vessels with geometric precision. His forms\u2014bowls, bottles, lidded containers\u2014feature carved, fluted, or faceted surfaces that catch and hold light. The technical demands are extreme: porcelain at its thinnest is unforgiving, and Lane's forms require perfect control. He's also written extensively about studio ceramics, documenting the field's history and techniques.",
+        "hook": "He brings mathematical precision to porcelain—creating forms of extraordinary refinement.",
+        "body": "Peter Lane makes translucent porcelain vessels with geometric precision. His forms—bowls, bottles, lidded containers—feature carved, fluted, or faceted surfaces that catch and hold light. The technical demands are extreme: porcelain at its thinnest is unforgiving, and Lane's forms require perfect control. He's also written extensively about studio ceramics, documenting the field's history and techniques.",
         "reflection": "What might extreme precision reveal?"
       },
       "connections": [
@@ -2194,20 +2472,19 @@
         "refined",
         "writer"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Peter_Lane_porcelain_bowl.jpg/600px-Peter_Lane_porcelain_bowl.jpg",
       "sourceUrl": "https://www.studiopottery.com/artists/peter-lane"
     },
     {
       "id": "ewen-henderson",
       "name": "Ewen Henderson",
-      "lifespan": "1934\u20132000",
+      "lifespan": "1934–2000",
       "origin": "Britain",
       "hasImage": true,
       "fallbackColor": "#6B5344",
       "visualCaption": "Mixed media, raw energy. Ceramics as painting.",
       "story": {
         "hook": "He combined different clays, bone ash, and metal oxides into raw, painterly vessels.",
-        "body": "Ewen Henderson worked with mixed ceramic media, combining different clays, bone ash, and metal oxides to create surfaces of extraordinary complexity. His vessels feel more like geological formations than pottery\u2014craggy, textured, alive with embedded color. Henderson trained as a painter, and his ceramic work carries that painterly sensibility: surfaces built up like impasto, colors layered and broken.",
+        "body": "Ewen Henderson worked with mixed ceramic media, combining different clays, bone ash, and metal oxides to create surfaces of extraordinary complexity. His vessels feel more like geological formations than pottery—craggy, textured, alive with embedded color. Henderson trained as a painter, and his ceramic work carries that painterly sensibility: surfaces built up like impasto, colors layered and broken.",
         "reflection": "What happens when you bring another discipline's sensibility to clay?"
       },
       "connections": [
@@ -2229,20 +2506,26 @@
         "painterly",
         "textural"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Ewen_Henderson_mixed_media_vessel.jpg/600px-Ewen_Henderson_mixed_media_vessel.jpg",
-      "sourceUrl": "https://www.vam.ac.uk/articles/ewen-henderson"
+      "sourceUrl": "https://www.vam.ac.uk/articles/ewen-henderson",
+      "image": {
+        "src": "/images/inspirations/ewen-henderson.webp",
+        "alt": "Ewen Henderson (Pinched, Coiled pot by Ewen Henderson (YORYM-2004.1.1377))",
+        "credit": "Creator:Ewen Henderson / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Pinched%2C_Coiled_pot_by_Ewen_Henderson_%28YORYM-2004.1.1377%29.JPG",
+        "license": "CC BY-SA 3.0"
+      }
     },
     {
       "id": "sandy-brown",
       "name": "Sandy Brown",
-      "lifespan": "1946\u2013",
+      "lifespan": "1946–",
       "origin": "Britain",
-      "hasImage": true,
+      "hasImage": false,
       "fallbackColor": "#D4A574",
       "visualCaption": "Wild clay, wild spirit. Joy in making.",
       "story": {
         "hook": "She's spent decades advocating for the joy and freedom in ceramic making.",
-        "body": "Sandy Brown trained with Takeichi Kawai in Japan and makes bold, energetic earthenware\u2014decorated with slips, oxides, and a distinctive gestural freedom. She's also a teacher, writer, and advocate for approaching ceramics with spontaneity and joy. Her book 'Freedom in Clay' captures her philosophy: that pottery can be liberating, expressive, and deeply personal.",
+        "body": "Sandy Brown trained with Takeichi Kawai in Japan and makes bold, energetic earthenware—decorated with slips, oxides, and a distinctive gestural freedom. She's also a teacher, writer, and advocate for approaching ceramics with spontaneity and joy. Her book 'Freedom in Clay' captures her philosophy: that pottery can be liberating, expressive, and deeply personal.",
         "reflection": "How might you bring more joy to your making?"
       },
       "connections": [
@@ -2265,20 +2548,19 @@
         "teacher",
         "joyful"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Sandy_Brown_ceramic_figure.jpg/500px-Sandy_Brown_ceramic_figure.jpg",
       "sourceUrl": "https://www.sandybrownarts.com/"
     },
     {
       "id": "ken-matsuzaki",
       "name": "Ken Matsuzaki",
-      "lifespan": "1950\u2013",
+      "lifespan": "1950–",
       "origin": "Japan",
-      "hasImage": true,
+      "hasImage": false,
       "fallbackColor": "#8B6914",
       "visualCaption": "Mashiko tradition, contemporary vision.",
       "story": {
         "hook": "He carries forward the Mashiko tradition while pushing it into contemporary territory.",
-        "body": "Ken Matsuzaki works in Mashiko, the pottery village that Shoji Hamada made famous. He's deeply rooted in Mashiko traditions\u2014wood firing, ash glazes, functional forms\u2014but his work is distinctly contemporary: bolder, larger, more experimental than traditional Mashiko ware. He fires multiple wood kilns, each producing different effects, and has become one of Japan's most respected contemporary potters.",
+        "body": "Ken Matsuzaki works in Mashiko, the pottery village that Shoji Hamada made famous. He's deeply rooted in Mashiko traditions—wood firing, ash glazes, functional forms—but his work is distinctly contemporary: bolder, larger, more experimental than traditional Mashiko ware. He fires multiple wood kilns, each producing different effects, and has become one of Japan's most respected contemporary potters.",
         "reflection": "How do you honor tradition while making it your own?"
       },
       "connections": [
@@ -2300,7 +2582,6 @@
         "functional",
         "contemporary"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Ken_Matsuzaki_Shino_chawan.jpg/600px-Ken_Matsuzaki_Shino_chawan.jpg",
       "sourceUrl": "https://www.e-yakimono.net/html/matsuzaki-ken.html"
     }
   ],
@@ -2316,8 +2597,14 @@
         "hamada",
         "mingei"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Mashiko_Pottery.jpg/800px-Mashiko_Pottery.jpg",
-      "sourceUrl": "https://mashiko-kankou.org/en/"
+      "sourceUrl": "https://mashiko-kankou.org/en/",
+      "image": {
+        "src": "/images/inspirations/mashiko.webp",
+        "alt": "Mashiko (Taisho-Showa Period Ko-Mashiko Ware Mado-e Dobin Window Picture Teapot Brooklyn Museum)",
+        "credit": "Unknown author Unknown author / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Taisho-Showa_Period_Ko-Mashiko_Ware_Mado-e_Dobin_Window_Picture_Teapot_Brooklyn_Museum.jpg",
+        "license": "No restrictions"
+      }
     },
     {
       "id": "jingdezhen",
@@ -2330,8 +2617,14 @@
         "porcelain",
         "blue-white"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Jingdezhen_Porcelain_Workshop.jpg/800px-Jingdezhen_Porcelain_Workshop.jpg",
-      "sourceUrl": "https://www.britannica.com/place/Jingdezhen"
+      "sourceUrl": "https://www.britannica.com/place/Jingdezhen",
+      "image": {
+        "src": "/images/inspirations/jingdezhen.webp",
+        "alt": "Jingdezhen (MET DP342705)",
+        "credit": "unknown author / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:MET_DP342705.jpg",
+        "license": "CC0"
+      }
     },
     {
       "id": "oaxaca",
@@ -2344,8 +2637,14 @@
         "barro-negro",
         "burnishing"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Barro_negro_pottery_from_San_Bartolo_Coyotepec%2C_Oaxaca.jpg",
-      "sourceUrl": "https://ich.unesco.org/en/RL/artisanal-processes-of-barro-negro-pottery-of-oaxaca-00732"
+      "sourceUrl": "https://ich.unesco.org/en/RL/artisanal-processes-of-barro-negro-pottery-of-oaxaca-00732",
+      "image": {
+        "src": "/images/inspirations/oaxaca.webp",
+        "alt": "Oaxaca / San Bartolo Coyotepec (CourtyardDRSBC1)",
+        "credit": "AlejandroLinaresGarcia / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:CourtyardDRSBC1.JPG",
+        "license": "GFDL"
+      }
     },
     {
       "id": "grottaglie",
@@ -2357,8 +2656,14 @@
       "connections": [
         "majolica"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Grottaglie_ceramic_quarter.jpg/800px-Grottaglie_ceramic_quarter.jpg",
-      "sourceUrl": "https://www.comune.grottaglie.ta.it/ceramiche/"
+      "sourceUrl": "https://www.comune.grottaglie.ta.it/ceramiche/",
+      "image": {
+        "src": "/images/inspirations/grottaglie.webp",
+        "alt": "Grottaglie (Capasoni (Grottaglie))",
+        "credit": "Tfjt / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Capasoni_%28Grottaglie%29.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "st-ives",
@@ -2371,8 +2676,14 @@
         "leach",
         "hamada"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Leach_Pottery_St_Ives_Cornwall.jpg/800px-Leach_Pottery_St_Ives_Cornwall.jpg",
-      "sourceUrl": "https://www.leachpottery.com/"
+      "sourceUrl": "https://www.leachpottery.com/",
+      "image": {
+        "src": "/images/inspirations/st-ives.webp",
+        "alt": "St Ives / Leach Pottery (Stives1)",
+        "credit": "waterborough / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Stives1.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "stoke-on-trent",
@@ -2385,8 +2696,14 @@
         "wedgwood",
         "transfer-printing"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Bottle_kilns_Gladstone_Pottery_Museum.jpg/800px-Bottle_kilns_Gladstone_Pottery_Museum.jpg",
-      "sourceUrl": "https://www.visitstoke.co.uk/potteries"
+      "sourceUrl": "https://www.visitstoke.co.uk/potteries",
+      "image": {
+        "src": "/images/inspirations/stoke-on-trent.webp",
+        "alt": "Stoke-on-Trent (Gladstone pottery museum courtyard 2025)",
+        "credit": "Geni / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Gladstone_pottery_museum_courtyard_2025.JPG",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "shigaraki-town",
@@ -2399,8 +2716,14 @@
         "shigaraki",
         "wood-firing"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Shigaraki_tanuki.jpg/600px-Shigaraki_tanuki.jpg",
-      "sourceUrl": "https://www.shigaraki.org/"
+      "sourceUrl": "https://www.shigaraki.org/",
+      "image": {
+        "src": "/images/inspirations/shigaraki-town.webp",
+        "alt": "Shigaraki Town (Shigaraki tanuki)",
+        "credit": "Chris Gladis / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Shigaraki_tanuki.jpg",
+        "license": "CC BY 2.0"
+      }
     },
     {
       "id": "arita",
@@ -2413,8 +2736,14 @@
         "imari",
         "porcelain"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Arita_Ceramics_Festival.jpg/800px-Arita_Ceramics_Festival.jpg",
-      "sourceUrl": "https://www.arita.jp/en/"
+      "sourceUrl": "https://www.arita.jp/en/",
+      "image": {
+        "src": "/images/inspirations/arita.webp",
+        "alt": "Arita (Arita porcelain bottle, Edo period (1615-1868), Japan)",
+        "credit": "King muh / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Arita_porcelain_bottle%2C_Edo_period_%281615-1868%29%2C_Japan.JPG",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "vallauris",
@@ -2427,8 +2756,14 @@
         "picasso",
         "artist-ceramics"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Vallauris_ceramic_shop.jpg/800px-Vallauris_ceramic_shop.jpg",
-      "sourceUrl": "https://www.vallauris-golfe-juan.fr/"
+      "sourceUrl": "https://www.vallauris-golfe-juan.fr/",
+      "image": {
+        "src": "/images/inspirations/vallauris.webp",
+        "alt": "Vallauris (Vallauris atelier de potier)",
+        "credit": "Unknown 1920s / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Vallauris_atelier_de_potier.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "seto",
@@ -2441,8 +2776,14 @@
         "six-ancient-kilns",
         "seto-guro"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Seto-yaki_pottery.jpg/800px-Seto-yaki_pottery.jpg",
-      "sourceUrl": "https://www.seto-marutto.info/en/"
+      "sourceUrl": "https://www.seto-marutto.info/en/",
+      "image": {
+        "src": "/images/inspirations/seto.webp",
+        "alt": "Seto (Wide-Mouthed Storage Jar with Peony Vines)",
+        "credit": "anonymous / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Wide-Mouthed_Storage_Jar_with_Peony_Vines.jpg",
+        "license": "CC BY 4.0"
+      }
     },
     {
       "id": "met-ceramics",
@@ -2455,21 +2796,26 @@
         "celadon",
         "majolica"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Metropolitan_Museum_of_Art_%28The_Met%29_-_Central_Park%2C_NYC.jpg/800px-Metropolitan_Museum_of_Art_%28The_Met%29_-_Central_Park%2C_NYC.jpg",
-      "sourceUrl": "https://www.metmuseum.org/about-the-met/collection-areas/asian-art"
+      "sourceUrl": "https://www.metmuseum.org/about-the-met/collection-areas/asian-art",
+      "image": {
+        "src": "/images/inspirations/met-ceramics.webp",
+        "alt": "Metropolitan Museum of Art (Jar with Dragon - MET - Joy of Museums)",
+        "credit": "Joyofmuseums / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Jar_with_Dragon_-_MET_-_Joy_of_Museums.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "victoria-albert",
       "name": "Victoria and Albert Museum",
       "country": "UK",
       "type": "museum",
-      "hasImage": true,
+      "hasImage": false,
       "visualCaption": "The world's greatest decorative arts collection.",
       "connections": [
         "rie",
         "coper"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Victoria_and_Albert_Museum_Entrance%2C_London%2C_UK_-_Diliff.jpg/800px-Victoria_and_Albert_Museum_Entrance%2C_London%2C_UK_-_Diliff.jpg",
       "sourceUrl": "https://www.vam.ac.uk/collections/ceramics"
     },
     {
@@ -2482,8 +2828,14 @@
       "connections": [
         "majolica"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/MIC_Faenza_-_Museo_Internazionale_delle_Ceramiche.jpg/800px-MIC_Faenza_-_Museo_Internazionale_delle_Ceramiche.jpg",
-      "sourceUrl": "https://www.micfaenza.org/en/"
+      "sourceUrl": "https://www.micfaenza.org/en/",
+      "image": {
+        "src": "/images/inspirations/faenza.webp",
+        "alt": "Faenza (Faenza maiolica, piatto con leandro, 1525 ca.)",
+        "credit": "sailko / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Faenza_maiolica%2C_piatto_con_leandro%2C_1525_ca..JPG",
+        "license": "GFDL"
+      }
     },
     {
       "id": "fez",
@@ -2496,8 +2848,14 @@
         "islamic-pattern",
         "tiles"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Fes_Pottery.jpg/800px-Fes_Pottery.jpg",
-      "sourceUrl": "https://whc.unesco.org/en/list/170"
+      "sourceUrl": "https://whc.unesco.org/en/list/170",
+      "image": {
+        "src": "/images/inspirations/fez.webp",
+        "alt": "Fez (Bab Bou Jeloud Frame Minaret Fes Nov25 A7CR 09127-8 HDR3)",
+        "credit": "This Photo was taken by Timothy A. Gonsalves . Feel free to use my pho / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bab_Bou_Jeloud_Frame_Minaret_Fes_Nov25_A7CR_09127-8_HDR3.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "seagrove",
@@ -2510,8 +2868,14 @@
         "salt-glazing",
         "folk"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Seagrove_Area_Pottery.jpg/800px-Seagrove_Area_Pottery.jpg",
-      "sourceUrl": "https://www.discoverseagrove.com/"
+      "sourceUrl": "https://www.discoverseagrove.com/",
+      "image": {
+        "src": "/images/inspirations/seagrove.webp",
+        "alt": "Seagrove (Seagrove, North Carolina)",
+        "credit": "Indy beetle / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Seagrove%2C_North_Carolina.jpg",
+        "license": "CC0"
+      }
     },
     {
       "id": "icheon",
@@ -2524,21 +2888,26 @@
         "celadon",
         "buncheong"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Icheon_Ceramics_Village.jpg/800px-Icheon_Ceramics_Village.jpg",
-      "sourceUrl": "https://www.gg.go.kr/icheon-ceramic"
+      "sourceUrl": "https://www.gg.go.kr/icheon-ceramic",
+      "image": {
+        "src": "/images/inspirations/icheon.webp",
+        "alt": "Icheon (이천 도자기 축제 (4))",
+        "credit": "Jocelyndurrey / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:%EC%9D%B4%EC%B2%9C_%EB%8F%84%EC%9E%90%EA%B8%B0_%EC%B6%95%EC%A0%9C_%284%29.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "la-borne",
       "name": "La Borne",
       "country": "France",
       "type": "pottery-town",
-      "hasImage": true,
+      "hasImage": false,
       "visualCaption": "French wood-fire heartland. Salt and ash.",
       "connections": [
         "wood-firing",
         "salt-glazing"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/La_Borne_pottery_village.jpg/800px-La_Borne_pottery_village.jpg",
       "sourceUrl": "https://www.laborne.org/"
     },
     {
@@ -2552,8 +2921,14 @@
         "six-ancient-kilns",
         "functional"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Tokoname_Pottery_Footpath.jpg/800px-Tokoname_Pottery_Footpath.jpg",
-      "sourceUrl": "https://www.tokoname-kankou.net/"
+      "sourceUrl": "https://www.tokoname-kankou.net/",
+      "image": {
+        "src": "/images/inspirations/tokoname.webp",
+        "alt": "Tokoname (Jar, Tokoname ware, Heian period, 12th century, excavated at Mizoguchi, Futami-cho, Ise-sh)",
+        "credit": "Daderot / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Jar%2C_Tokoname_ware%2C_Heian_period%2C_12th_century%2C_excavated_at_Mizoguchi%2C_Futami-cho%2C_Ise-shi%2C_Mie%2C_natural_glaze_-_Tokyo_National_Museum_-_DSC05235.JPG",
+        "license": "CC0"
+      }
     },
     {
       "id": "deruta",
@@ -2566,8 +2941,14 @@
         "majolica",
         "luster"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Deruta_ceramics_display.jpg/800px-Deruta_ceramics_display.jpg",
-      "sourceUrl": "https://www.museidellamaiolica.it/"
+      "sourceUrl": "https://www.museidellamaiolica.it/",
+      "image": {
+        "src": "/images/inspirations/deruta.webp",
+        "alt": "Deruta (Dish with a Peacock Feather Pattern)",
+        "credit": "Unknown author Unknown author / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Dish_with_a_Peacock_Feather_Pattern.jpg",
+        "license": "CC0"
+      }
     },
     {
       "id": "kyoto",
@@ -2580,8 +2961,14 @@
         "raku",
         "tea-ceremony"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Kiyomizu-yaki_pottery_street.jpg/800px-Kiyomizu-yaki_pottery_street.jpg",
-      "sourceUrl": "https://www.kyoto-kiyomizuyaki.or.jp/"
+      "sourceUrl": "https://www.kyoto-kiyomizuyaki.or.jp/",
+      "image": {
+        "src": "/images/inspirations/kyoto.webp",
+        "alt": "Kyoto (Kiyomizu-dera, Kyoto, November 2016 -02)",
+        "credit": "Martin Falbisoner / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Kiyomizu-dera%2C_Kyoto%2C_November_2016_-02.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     }
   ],
   "surfaces": [
@@ -2594,8 +2981,7 @@
         "High calcium glazes",
         "Thick application"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Volcanic_ash_glaze_ceramic.jpg/600px-Volcanic_ash_glaze_ceramic.jpg",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://ceramicartsnetwork.org/daily/ceramic-glaze-recipes/volcanic-ash-glazes/"
     },
     {
@@ -2607,9 +2993,15 @@
         "Thick glaze",
         "Vertical firing"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Celadon_vase_flowing_glaze.jpg/600px-Celadon_vase_flowing_glaze.jpg",
       "hasImage": true,
-      "sourceUrl": "https://ceramicartsnetwork.org/daily/ceramic-glaze-recipes/"
+      "sourceUrl": "https://ceramicartsnetwork.org/daily/ceramic-glaze-recipes/",
+      "image": {
+        "src": "/images/inspirations/liquid.webp",
+        "alt": "Liquid (Uranium glazed drip bowl)",
+        "credit": "Joostik / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Uranium_glazed_drip_bowl.jpg",
+        "license": "CC0"
+      }
     },
     {
       "id": "stone",
@@ -2620,9 +3012,15 @@
         "High alumina glazes",
         "Matte recipes"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Large_Shigaraki_ware_jar%2C_Muromachi_period%2C_15th_century%2C_stoneware_with_natural_ash_glaze_-_Tokyo_National_Museum_-_DSC05232.JPG/600px-Large_Shigaraki_ware_jar%2C_Muromachi_period%2C_15th_century%2C_stoneware_with_natural_ash_glaze_-_Tokyo_National_Museum_-_DSC05232.JPG",
       "hasImage": true,
-      "sourceUrl": "https://ceramicartsnetwork.org/daily/surface-decoration/"
+      "sourceUrl": "https://ceramicartsnetwork.org/daily/surface-decoration/",
+      "image": {
+        "src": "/images/inspirations/stone.webp",
+        "alt": "Stone (Teapot in the shape of a sheng, Yixing, China, unglazed brown stoneware - Victoria and Alb)",
+        "credit": "Daderot / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Teapot_in_the_shape_of_a_sheng%2C_Yixing%2C_China%2C_unglazed_brown_stoneware_-_Victoria_and_Albert_Museum_-_London%2C_England_-_DSC04698.jpg",
+        "license": "CC0"
+      }
     },
     {
       "id": "skin",
@@ -2633,9 +3031,15 @@
         "Burnishing",
         "Terra sigillata"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Asymmetric_Vessel_%28c._1992%29_by_Magdalene_Odundo.jpg/500px-Asymmetric_Vessel_%28c._1992%29_by_Magdalene_Odundo.jpg",
       "hasImage": true,
-      "sourceUrl": "https://ceramicartsnetwork.org/daily/handbuilding/"
+      "sourceUrl": "https://ceramicartsnetwork.org/daily/handbuilding/",
+      "image": {
+        "src": "/images/inspirations/skin.webp",
+        "alt": "Skin (ML - Terra sigillata Becher)",
+        "credit": "Wolfgang Sauber / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:ML_-_Terra_sigillata_Becher.jpg",
+        "license": "GFDL"
+      }
     },
     {
       "id": "ash",
@@ -2646,9 +3050,15 @@
         "Wood firing",
         "Kiln placement"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Bizen_ware_water_jar%2C_Muromachi_period%2C_16th_century_-_Tokyo_National_Museum_-_DSC05250.JPG/600px-Bizen_ware_water_jar%2C_Muromachi_period%2C_16th_century_-_Tokyo_National_Museum_-_DSC05250.JPG",
       "hasImage": true,
-      "sourceUrl": "https://ceramicartsnetwork.org/daily/firing-techniques/wood-kiln-firing/natural-ash-glazes/"
+      "sourceUrl": "https://ceramicartsnetwork.org/daily/firing-techniques/wood-kiln-firing/natural-ash-glazes/",
+      "image": {
+        "src": "/images/inspirations/ash.webp",
+        "alt": "Natural Ash (Yunomi ash)",
+        "credit": "Phil Rogers / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Yunomi_ash.jpg",
+        "license": "CC BY-SA 3.0"
+      }
     },
     {
       "id": "crystalline",
@@ -2659,9 +3069,15 @@
         "Zinc-silicate glazes",
         "Controlled cooling"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Crystalline_glazed_vase.jpg/600px-Crystalline_glazed_vase.jpg",
       "hasImage": true,
-      "sourceUrl": "https://ceramicartsnetwork.org/daily/ceramic-glaze-recipes/crystalline-glazes/"
+      "sourceUrl": "https://ceramicartsnetwork.org/daily/ceramic-glaze-recipes/crystalline-glazes/",
+      "image": {
+        "src": "/images/inspirations/crystalline.webp",
+        "alt": "Crystalline (Vase with crystal glaze coating 02)",
+        "credit": "Andrey Korzun / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Vase_with_crystal_glaze_coating_02.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "shino",
@@ -2672,9 +3088,15 @@
         "Thick feldspar glaze",
         "Reduction"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Shino_ware_tea_bowl%2C_Momoyama_period%2C_late_16th_century%2C_stoneware_with_white_glaze_-_Tokyo_National_Museum_-_DSC05276.JPG/600px-Shino_ware_tea_bowl%2C_Momoyama_period%2C_late_16th_century%2C_stoneware_with_white_glaze_-_Tokyo_National_Museum_-_DSC05276.JPG",
       "hasImage": true,
-      "sourceUrl": "https://ceramicartsnetwork.org/daily/ceramic-glaze-recipes/shino-glazes/"
+      "sourceUrl": "https://ceramicartsnetwork.org/daily/ceramic-glaze-recipes/shino-glazes/",
+      "image": {
+        "src": "/images/inspirations/shino.webp",
+        "alt": "Shino (Tea Bowl known as 'Furisode', Mino ware, Shino type, Azuchi-Momoyama to Edo period, 16th-1)",
+        "credit": "Daderot / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Tea_Bowl_known_as_%27Furisode%27%2C_Mino_ware%2C_Shino_type%2C_Azuchi-Momoyama_to_Edo_period%2C_16th-17th_century_-_Tokyo_National_Museum_-_DSC05893.JPG",
+        "license": "CC0"
+      }
     },
     {
       "id": "tenmoku",
@@ -2685,9 +3107,15 @@
         "High iron content",
         "Reduction"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Tenmoku_tea_bowl_Southern_Song.jpg/600px-Tenmoku_tea_bowl_Southern_Song.jpg",
       "hasImage": true,
-      "sourceUrl": "https://ceramicartsnetwork.org/daily/ceramic-glaze-recipes/tenmoku-glazes/"
+      "sourceUrl": "https://ceramicartsnetwork.org/daily/ceramic-glaze-recipes/tenmoku-glazes/",
+      "image": {
+        "src": "/images/inspirations/tenmoku.webp",
+        "alt": "Tenmoku (Japanese - Tea Bowl - Walters 49440 - Profile)",
+        "credit": "Anonymous ( Japan ) Unknown author / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Japanese_-_Tea_Bowl_-_Walters_49440_-_Profile.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "salt-glaze",
@@ -2698,9 +3126,15 @@
         "Salt introduction",
         "Vapor glazing"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Westerwald_stoneware_jug.jpg/500px-Westerwald_stoneware_jug.jpg",
       "hasImage": true,
-      "sourceUrl": "https://ceramicartsnetwork.org/daily/firing-techniques/salt-firing/"
+      "sourceUrl": "https://ceramicartsnetwork.org/daily/firing-techniques/salt-firing/",
+      "image": {
+        "src": "/images/inspirations/salt-glaze.webp",
+        "alt": "Salt Glaze (The Art of German Stoneware Philadelphia 2012 010)",
+        "credit": "Picture taken by Marcus Cyron / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:The_Art_of_German_Stoneware_Philadelphia_2012_010.JPG",
+        "license": "CC BY-SA 3.0"
+      }
     },
     {
       "id": "carbon-trap",
@@ -2711,8 +3145,7 @@
         "Shino-type glazes",
         "Heavy reduction"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Carbon_trap_shino_bowl.jpg/600px-Carbon_trap_shino_bowl.jpg",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://ceramicartsnetwork.org/daily/ceramic-glaze-recipes/carbon-trap-shino/"
     },
     {
@@ -2724,8 +3157,7 @@
         "Saturated iron glaze",
         "Precise temperature"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Oil_spot_tenmoku_bowl.jpg/600px-Oil_spot_tenmoku_bowl.jpg",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://ceramicartsnetwork.org/daily/ceramic-glaze-recipes/oil-spot-glazes/"
     },
     {
@@ -2737,8 +3169,7 @@
         "High surface tension",
         "Thick layer"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Crawling_glaze_ceramic.jpg/600px-Crawling_glaze_ceramic.jpg",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://ceramicartsnetwork.org/daily/ceramic-glaze-recipes/crawling-glazes/"
     },
     {
@@ -2750,9 +3181,15 @@
         "Iron-bearing glaze",
         "Reduction"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Celadon_incense_burner%2C_Goryeo_Dynasty.jpg/600px-Celadon_incense_burner%2C_Goryeo_Dynasty.jpg",
       "hasImage": true,
-      "sourceUrl": "https://ceramicartsnetwork.org/daily/ceramic-glaze-recipes/celadon-glazes/"
+      "sourceUrl": "https://ceramicartsnetwork.org/daily/ceramic-glaze-recipes/celadon-glazes/",
+      "image": {
+        "src": "/images/inspirations/celadon-surface.webp",
+        "alt": "Celadon (Foliate Dish with Bovine (Xiniu) Gazing at a Crescent Moon)",
+        "credit": "anonymous / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Foliate_Dish_with_Bovine_%28Xiniu%29_Gazing_at_a_Crescent_Moon.jpg",
+        "license": "CC0"
+      }
     },
     {
       "id": "copper-red",
@@ -2763,9 +3200,15 @@
         "Copper oxide",
         "Heavy reduction"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Copper_red_porcelain_vase.jpg/500px-Copper_red_porcelain_vase.jpg",
       "hasImage": true,
-      "sourceUrl": "https://ceramicartsnetwork.org/daily/ceramic-glaze-recipes/copper-red-glazes/"
+      "sourceUrl": "https://ceramicartsnetwork.org/daily/ceramic-glaze-recipes/copper-red-glazes/",
+      "image": {
+        "src": "/images/inspirations/copper-red.webp",
+        "alt": "Copper Red (Bowl MET SLP1680-1 (cropped))",
+        "credit": "Anonymous (Chinese artist) Unknown author / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bowl_MET_SLP1680-1_%28cropped%29.jpg",
+        "license": "CC0"
+      }
     },
     {
       "id": "hares-fur",
@@ -2776,8 +3219,7 @@
         "Iron-saturated glaze",
         "Specific cooling"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Tenmoku_tea_bowl_Southern_Song.jpg/600px-Tenmoku_tea_bowl_Southern_Song.jpg",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://ceramicartsnetwork.org/daily/ceramic-glaze-recipes/hares-fur-glazes/"
     }
   ],
@@ -2792,8 +3234,7 @@
         "Non-round shapes",
         "No wheel needed"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Coil_building_pottery.jpg/600px-Coil_building_pottery.jpg",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://www.britannica.com/art/coiling"
     },
     {
@@ -2806,9 +3247,15 @@
         "Tactile surfaces",
         "Low-tech"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Maria_Martinez_plate_-_Indianapolis_Museum_of_Art_-_DSC00652.JPG/600px-Maria_Martinez_plate_-_Indianapolis_Museum_of_Art_-_DSC00652.JPG",
       "hasImage": true,
-      "sourceUrl": "https://ceramicartsnetwork.org/daily/article/Burnishing-Pottery"
+      "sourceUrl": "https://ceramicartsnetwork.org/daily/article/Burnishing-Pottery",
+      "image": {
+        "src": "/images/inspirations/burnishing.webp",
+        "alt": "Burnishing (Maria Martinez pot)",
+        "credit": "Cullen328 / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Maria_Martinez_pot.jpg",
+        "license": "CC BY-SA 3.0"
+      }
     },
     {
       "id": "wood-firing",
@@ -2820,9 +3267,15 @@
         "Unique surfaces",
         "Collaboration with fire"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Anagama_kiln.jpg/800px-Anagama_kiln.jpg",
       "hasImage": true,
-      "sourceUrl": "https://ceramicartsnetwork.org/daily/firing-techniques/wood-kiln-firing/"
+      "sourceUrl": "https://ceramicartsnetwork.org/daily/firing-techniques/wood-kiln-firing/",
+      "image": {
+        "src": "/images/inspirations/wood-firing.webp",
+        "alt": "Wood Firing (Jiaotanxia dragon kiln Hangzhou 2009)",
+        "credit": "G41rn8 / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Jiaotanxia_dragon_kiln_Hangzhou_2009.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "sgraffito",
@@ -2834,8 +3287,7 @@
         "Drawing",
         "Simple tools"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Sgraffito_pottery_decoration.jpg/600px-Sgraffito_pottery_decoration.jpg",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://www.britannica.com/art/sgraffito"
     },
     {
@@ -2848,9 +3300,15 @@
         "Unpredictable marks",
         "Accessible"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Barro_negro_pottery_from_San_Bartolo_Coyotepec%2C_Oaxaca.jpg",
       "hasImage": true,
-      "sourceUrl": "https://ceramicartsnetwork.org/daily/firing-techniques/pit-firing/"
+      "sourceUrl": "https://ceramicartsnetwork.org/daily/firing-techniques/pit-firing/",
+      "image": {
+        "src": "/images/inspirations/pit-firing.webp",
+        "alt": "Pit Firing (Kababougou)",
+        "credit": "Marco Bellucci from Scandicci, Italy / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Kababougou.jpg",
+        "license": "CC BY 2.0"
+      }
     },
     {
       "id": "reduction-firing",
@@ -2862,8 +3320,7 @@
         "Celadons",
         "Tenmokus"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Celadon_incense_burner%2C_Goryeo_Dynasty.jpg/600px-Celadon_incense_burner%2C_Goryeo_Dynasty.jpg",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://ceramicartsnetwork.org/daily/firing-techniques/reduction-atmosphere-firing/"
     },
     {
@@ -2876,9 +3333,15 @@
         "Philosophy",
         "Wabi-sabi"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Kintsugi_bowl.jpg/600px-Kintsugi_bowl.jpg",
       "hasImage": true,
-      "sourceUrl": "https://www.britannica.com/art/kintsugi"
+      "sourceUrl": "https://www.britannica.com/art/kintsugi",
+      "image": {
+        "src": "/images/inspirations/kintsugi.webp",
+        "alt": "Kintsugi (Tea bowl, Korea, Joseon dynasty, 16th century AD, Mishima-hakeme type, buncheong ware, sto)",
+        "credit": "Daderot / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Tea_bowl%2C_Korea%2C_Joseon_dynasty%2C_16th_century_AD%2C_Mishima-hakeme_type%2C_buncheong_ware%2C_stoneware_with_white_engobe_and_translucent%2C_greenish-gray_glaze%2C_gold_lacquer_-_Ethnological_Museum%2C_Berlin_-_DSC02061.JPG",
+        "license": "CC0"
+      }
     },
     {
       "id": "slip-trailing",
@@ -2890,9 +3353,15 @@
         "Gestural marks",
         "Simple tools"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Slip_trailed_pottery.jpg/600px-Slip_trailed_pottery.jpg",
       "hasImage": true,
-      "sourceUrl": "https://ceramicartsnetwork.org/daily/surface-decoration/slip-trailing/"
+      "sourceUrl": "https://ceramicartsnetwork.org/daily/surface-decoration/slip-trailing/",
+      "image": {
+        "src": "/images/inspirations/slip-trailing.webp",
+        "alt": "Slip Trailing (Thrown, Slip Trailed, Feathered Dish by Joan Hotchin (YORYM-2004.1.1391))",
+        "credit": "Creator:Joan Hotchin / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Thrown%2C_Slip_Trailed%2C_Feathered_Dish_by_Joan_Hotchin_%28YORYM-2004.1.1391%29.JPG",
+        "license": "CC BY-SA 3.0"
+      }
     },
     {
       "id": "nerikomi",
@@ -2903,9 +3372,15 @@
         "Pattern through wall",
         "Unique effects"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nerikomi_colored_clay_bowl.jpg/600px-Nerikomi_colored_clay_bowl.jpg",
       "hasImage": true,
-      "sourceUrl": "https://ceramicartsnetwork.org/daily/article/Nerikomi-Techniques"
+      "sourceUrl": "https://ceramicartsnetwork.org/daily/article/Nerikomi-Techniques",
+      "image": {
+        "src": "/images/inspirations/nerikomi.webp",
+        "alt": "Nerikomi / Neriage (Mug (AM 1966.30-10))",
+        "credit": "Staffordshire potteries district / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Mug_%28AM_1966.30-10%29.jpg",
+        "license": "CC BY 4.0"
+      }
     },
     {
       "id": "terra-sigillata",
@@ -2917,9 +3392,15 @@
         "No glaze needed",
         "Pit firing"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Samian_ware_bowl.jpg/600px-Samian_ware_bowl.jpg",
       "hasImage": true,
-      "sourceUrl": "https://www.britannica.com/art/terra-sigillata"
+      "sourceUrl": "https://www.britannica.com/art/terra-sigillata",
+      "image": {
+        "src": "/images/inspirations/terra-sigillata.webp",
+        "alt": "Terra Sigillata (Roemerhalle Kreuznach Sigillata)",
+        "credit": "Haselburg-müller / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Roemerhalle_Kreuznach_Sigillata.jpg",
+        "license": "GFDL"
+      }
     },
     {
       "id": "mishima",
@@ -2931,9 +3412,15 @@
         "Precise patterns",
         "Korean tradition"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Bottle_with_Fish%2C_Joseon_dynasty_%281392-1910%29%2C_15th-early_16th_century_%28cropped%29.jpg/500px-Bottle_with_Fish%2C_Joseon_dynasty_%281392-1910%29%2C_15th-early_16th_century_%28cropped%29.jpg",
       "hasImage": true,
-      "sourceUrl": "https://ceramicartsnetwork.org/daily/surface-decoration/mishima-inlay/"
+      "sourceUrl": "https://ceramicartsnetwork.org/daily/surface-decoration/mishima-inlay/",
+      "image": {
+        "src": "/images/inspirations/mishima.webp",
+        "alt": "Mishima / Inlay (Korean - Tea Bowl - Walters 492097 - Profile)",
+        "credit": "Anonymous ( Korea ) Unknown author / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Korean_-_Tea_Bowl_-_Walters_492097_-_Profile.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "ash-glazing",
@@ -2945,8 +3432,7 @@
         "Local materials",
         "Connection to place"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Large_Shigaraki_ware_jar%2C_Muromachi_period%2C_15th_century%2C_stoneware_with_natural_ash_glaze_-_Tokyo_National_Museum_-_DSC05232.JPG/600px-Large_Shigaraki_ware_jar%2C_Muromachi_period%2C_15th_century%2C_stoneware_with_natural_ash_glaze_-_Tokyo_National_Museum_-_DSC05232.JPG",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://ceramicartsnetwork.org/daily/firing-techniques/wood-kiln-firing/natural-ash-glazes/"
     },
     {
@@ -2959,8 +3445,7 @@
         "Quick results",
         "Metallic lusters"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Chojiro_-_Black_Raku_tea_bowl.jpg/600px-Chojiro_-_Black_Raku_tea_bowl.jpg",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://ceramicartsnetwork.org/daily/firing-techniques/raku-firing/"
     },
     {
@@ -2973,8 +3458,7 @@
         "Orange-peel texture",
         "Variable results"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Lisa_Hammond_MBE_Teapot.jpg/500px-Lisa_Hammond_MBE_Teapot.jpg",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://ceramicartsnetwork.org/daily/firing-techniques/soda-firing/"
     },
     {
@@ -2987,9 +3471,15 @@
         "Community event",
         "Japanese tradition"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Anagama_kiln.jpg/800px-Anagama_kiln.jpg",
       "hasImage": true,
-      "sourceUrl": "https://ceramicartsnetwork.org/daily/firing-techniques/wood-kiln-firing/anagama-kilns/"
+      "sourceUrl": "https://ceramicartsnetwork.org/daily/firing-techniques/wood-kiln-firing/anagama-kilns/",
+      "image": {
+        "src": "/images/inspirations/anagama.webp",
+        "alt": "Anagama Firing (Scott Meyers at Anagama firing (2517048572))",
+        "credit": "carmichaellibrary / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Scott_Meyers_at_Anagama_firing_%282517048572%29.jpg",
+        "license": "CC BY 2.0"
+      }
     },
     {
       "id": "throwing",
@@ -3001,9 +3491,15 @@
         "Production",
         "Speed"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Potter_at_work.jpg/600px-Potter_at_work.jpg",
       "hasImage": true,
-      "sourceUrl": "https://www.britannica.com/art/throwing-pottery"
+      "sourceUrl": "https://www.britannica.com/art/throwing-pottery",
+      "image": {
+        "src": "/images/inspirations/throwing.webp",
+        "alt": "Wheel Throwing (Potter at work)",
+        "credit": "Whippetsgalore / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Potter_at_work.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "press-molding",
@@ -3015,8 +3511,7 @@
         "Consistent forms",
         "Tiles"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Press_molded_ceramic_tile.jpg/600px-Press_molded_ceramic_tile.jpg",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://ceramicartsnetwork.org/daily/handbuilding/press-molding/"
     },
     {
@@ -3029,9 +3524,15 @@
         "Complex forms",
         "Production"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Slip_casting_molds.jpg/600px-Slip_casting_molds.jpg",
       "hasImage": true,
-      "sourceUrl": "https://ceramicartsnetwork.org/daily/throwing/slip-casting/"
+      "sourceUrl": "https://ceramicartsnetwork.org/daily/throwing/slip-casting/",
+      "image": {
+        "src": "/images/inspirations/slip-casting.webp",
+        "alt": "Slip Casting (Lovers, unidentified, porcelain - Musei Capitolini - Rome, Italy - DSC05956)",
+        "credit": "Daderot / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Lovers%2C_unidentified%2C_porcelain_-_Musei_Capitolini_-_Rome%2C_Italy_-_DSC05956.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "smoke-firing",
@@ -3043,8 +3544,7 @@
         "Unpredictable",
         "Drama"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Saggar_fired_vessel.jpg/500px-Saggar_fired_vessel.jpg",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://ceramicartsnetwork.org/daily/firing-techniques/saggar-firing/"
     },
     {
@@ -3057,9 +3557,15 @@
         "Simple coloring",
         "Carving emphasis"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Mino_ware%2C_Oribe_type%2C_Momoyama_period%2C_16th-17th_century%2C_serving_dish_with_design_of_autumn_grass_-_Tokyo_National_Museum_-_DSC06223.JPG/600px-Mino_ware%2C_Oribe_type%2C_Momoyama_period%2C_16th-17th_century%2C_serving_dish_with_design_of_autumn_grass_-_Tokyo_National_Museum_-_DSC06223.JPG",
       "hasImage": true,
-      "sourceUrl": "https://ceramicartsnetwork.org/daily/surface-decoration/oxide-washes/"
+      "sourceUrl": "https://ceramicartsnetwork.org/daily/surface-decoration/oxide-washes/",
+      "image": {
+        "src": "/images/inspirations/oxide-wash.webp",
+        "alt": "Oxide Wash (Cobalt Blue)",
+        "credit": "FK1954 / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Cobalt_Blue.JPG",
+        "license": "Public domain"
+      }
     }
   ],
   "ideas": [
@@ -3074,9 +3580,15 @@
         "tea-ceremony",
         "kintsugi"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Chojiro_-_Black_Raku_tea_bowl.jpg/600px-Chojiro_-_Black_Raku_tea_bowl.jpg",
       "hasImage": true,
-      "sourceUrl": "https://www.britannica.com/topic/wabi-sabi"
+      "sourceUrl": "https://www.britannica.com/topic/wabi-sabi",
+      "image": {
+        "src": "/images/inspirations/wabi-sabi.webp",
+        "alt": "Wabi-Sabi (250201 Ryoan-ji Kyoto Japan06s3)",
+        "credit": "663highland / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:250201_Ryoan-ji_Kyoto_Japan06s3.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "local-materials",
@@ -3088,9 +3600,15 @@
         "ash-glazing",
         "phil-rogers"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Barro_negro_pottery_from_San_Bartolo_Coyotepec%2C_Oaxaca.jpg",
       "hasImage": true,
-      "sourceUrl": "https://ceramicartsnetwork.org/daily/article/Going-Local-How-to-Dig-and-Process-Your-Own-Clay"
+      "sourceUrl": "https://ceramicartsnetwork.org/daily/article/Going-Local-How-to-Dig-and-Process-Your-Own-Clay",
+      "image": {
+        "src": "/images/inspirations/local-materials.webp",
+        "alt": "Working with Local Materials (Julian Martinez digging clay in the early 1920s)",
+        "credit": "Unknown author Unknown author / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Julian_Martinez_digging_clay_in_the_early_1920s.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "beauty-of-use",
@@ -3103,8 +3621,7 @@
         "functional",
         "hagi"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Hamada_Shoji_1.jpg/500px-Hamada_Shoji_1.jpg",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://www.mingeikan.or.jp/english/about/"
     },
     {
@@ -3117,8 +3634,7 @@
         "natural-ash",
         "bizen"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Anagama_kiln.jpg/800px-Anagama_kiln.jpg",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://ceramicartsnetwork.org/daily/firing-techniques/wood-kiln-firing/"
     },
     {
@@ -3131,8 +3647,7 @@
         "african-coil",
         "pit-firing"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Jennifer_Lee_ceramic_pot.jpg/500px-Jennifer_Lee_ceramic_pot.jpg",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://ceramicartsnetwork.org/daily/article/Creative-Constraints"
     },
     {
@@ -3145,9 +3660,15 @@
         "functional",
         "mingei"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Warren_MacKenzie_Teapot.jpg/600px-Warren_MacKenzie_Teapot.jpg",
       "hasImage": true,
-      "sourceUrl": "https://www.britannica.com/topic/tea-ceremony"
+      "sourceUrl": "https://www.britannica.com/topic/tea-ceremony",
+      "image": {
+        "src": "/images/inspirations/daily-object.webp",
+        "alt": "The Sacred Everyday (Ido chawan Kizaemon)",
+        "credit": "Association of Cultural Properties / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Ido_chawan_Kizaemon.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "time-in-clay",
@@ -3159,9 +3680,15 @@
         "burnishing",
         "hagi"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Jomon_Vessel%2C_Flame_Type.JPG/600px-Jomon_Vessel%2C_Flame_Type.JPG",
       "hasImage": true,
-      "sourceUrl": "https://ceramicartsnetwork.org/daily/article/The-Beauty-of-Age"
+      "sourceUrl": "https://ceramicartsnetwork.org/daily/article/The-Beauty-of-Age",
+      "image": {
+        "src": "/images/inspirations/time-in-clay.webp",
+        "alt": "Time Made Visible (51714-Terracota-Army)",
+        "credit": "xiquinhosilva / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:51714-Terracota-Army.jpg",
+        "license": "CC BY 2.0"
+      }
     },
     {
       "id": "anonymous-craft",
@@ -3174,8 +3701,7 @@
         "yanagi",
         "mingei"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Mangbetu_pottery.jpg/500px-Mangbetu_pottery.jpg",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://www.mingeikan.or.jp/english/about/"
     },
     {
@@ -3188,8 +3714,7 @@
         "dyalvane",
         "contemporary"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Andile_Dyalvane_-_iThongo_%282017%29.jpg/600px-Andile_Dyalvane_-_iThongo_%282017%29.jpg",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://ceramicartsnetwork.org/daily/article/Tradition-and-Innovation"
     },
     {
@@ -3203,9 +3728,15 @@
         "mingei",
         "functional"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Bizen_ware_water_jar%2C_Muromachi_period%2C_16th_century_-_Tokyo_National_Museum_-_DSC05250.JPG/600px-Bizen_ware_water_jar%2C_Muromachi_period%2C_16th_century_-_Tokyo_National_Museum_-_DSC05250.JPG",
       "hasImage": true,
-      "sourceUrl": "https://www.britannica.com/topic/Arts-and-Crafts-movement"
+      "sourceUrl": "https://www.britannica.com/topic/Arts-and-Crafts-movement",
+      "image": {
+        "src": "/images/inspirations/material-honesty.webp",
+        "alt": "Truth to Materials (Ian Sprague spheroidal stoneware vase St Kilda 1-12-2015)",
+        "credit": "Eric Timewell / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Ian_Sprague_spheroidal_stoneware_vase_St_Kilda_1-12-2015.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "slow-making",
@@ -3217,9 +3748,15 @@
         "coiling",
         "jennifer-lee"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Asymmetric_Vessel_%28c._1992%29_by_Magdalene_Odundo.jpg/500px-Asymmetric_Vessel_%28c._1992%29_by_Magdalene_Odundo.jpg",
       "hasImage": true,
-      "sourceUrl": "https://ceramicartsnetwork.org/daily/article/Slow-Making"
+      "sourceUrl": "https://ceramicartsnetwork.org/daily/article/Slow-Making",
+      "image": {
+        "src": "/images/inspirations/slow-making.webp",
+        "alt": "Slow Making (Töpferscheibe)",
+        "credit": "Oliver Kurmis / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:T%C3%B6pferscheibe.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "functional-sculpture",
@@ -3231,8 +3768,7 @@
         "price",
         "contemporary"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Peter_Voulkos_Rocking_Pot_1956.jpg/600px-Peter_Voulkos_Rocking_Pot_1956.jpg",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://ceramicartsnetwork.org/daily/article/Between-Function-and-Sculpture"
     }
   ],
@@ -3241,7 +3777,7 @@
       "id": "korean-invasion",
       "name": "The Korean Invasions (1592-98)",
       "period": "Late 16th century",
-      "visualCaption": "Hundreds of Korean potters taken to Japan\u2014transforming both countries' ceramics forever.",
+      "visualCaption": "Hundreds of Korean potters taken to Japan—transforming both countries' ceramics forever.",
       "significance": "Created Hagi, Karatsu, Arita traditions; ended Korean buncheong",
       "connections": [
         "hagi",
@@ -3249,13 +3785,19 @@
         "imari",
         "buncheong"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Karatsu_ware_tea_bowl_Momoyama_period.jpg/600px-Karatsu_ware_tea_bowl_Momoyama_period.jpg",
       "hasImage": true,
-      "sourceUrl": "https://www.metmuseum.org/toah/hd/kcer/hd_kcer.htm"
+      "sourceUrl": "https://www.metmuseum.org/toah/hd/kcer/hd_kcer.htm",
+      "image": {
+        "src": "/images/inspirations/korean-invasion.webp",
+        "alt": "The Korean Invasions (1592-98) (Aichi Prefectural Ceramic Museum (38))",
+        "credit": "Gryffindor / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Aichi_Prefectural_Ceramic_Museum_%2838%29.jpg",
+        "license": "CC0"
+      }
     },
     {
       "id": "jomon-discovery",
-      "name": "J\u014dmon Flame Vessels Recognized",
+      "name": "Jōmon Flame Vessels Recognized",
       "period": "20th century",
       "visualCaption": "The oldest pottery on Earth finally seen as art.",
       "significance": "Challenged assumptions about 'primitive' ceramics; influenced contemporary makers",
@@ -3263,8 +3805,7 @@
         "jomon",
         "ancient"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Jomon_Vessel%2C_Flame_Type.JPG/600px-Jomon_Vessel%2C_Flame_Type.JPG",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://www.metmuseum.org/toah/hd/jomo/hd_jomo.htm"
     },
     {
@@ -3278,23 +3819,28 @@
         "hamada",
         "st-ives"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Leach_Pottery_St_Ives_Cornwall.jpg/800px-Leach_Pottery_St_Ives_Cornwall.jpg",
       "hasImage": true,
-      "sourceUrl": "https://www.leachpottery.com/about/our-history/"
+      "sourceUrl": "https://www.leachpottery.com/about/our-history/",
+      "image": {
+        "src": "/images/inspirations/leach-hamada-meeting.webp",
+        "alt": "Leach Meets Hamada (1919) (The Leach Pottery, St. Ives, Cornwall - Museum Entrance)",
+        "credit": "Jordanhill School D&T Dept / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:The_Leach_Pottery%2C_St._Ives%2C_Cornwall_-_Museum_Entrance.jpg",
+        "license": "CC BY 2.0"
+      }
     },
     {
       "id": "voulkos-otis",
       "name": "Voulkos at Otis (1954-59)",
       "period": "1950s",
-      "visualCaption": "A master thrower starts slashing his pots\u2014ceramics enters the art world.",
+      "visualCaption": "A master thrower starts slashing his pots—ceramics enters the art world.",
       "significance": "Broke ceramics into fine art; influenced generations",
       "connections": [
         "voulkos",
         "price",
         "sculptural"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Peter_Voulkos_Rocking_Pot_1956.jpg/600px-Peter_Voulkos_Rocking_Pot_1956.jpg",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://www.lacma.org/art/artist/peter-voulkos"
     },
     {
@@ -3308,9 +3854,15 @@
         "porcelain",
         "bottger"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Meissen-teacup_pread_and_butter.jpg/600px-Meissen-teacup_pread_and_butter.jpg",
       "hasImage": true,
-      "sourceUrl": "https://www.britannica.com/topic/Meissen-porcelain"
+      "sourceUrl": "https://www.britannica.com/topic/Meissen-porcelain",
+      "image": {
+        "src": "/images/inspirations/meissen-secret.webp",
+        "alt": "European Porcelain Discovered (1708) (Saxonia Museum für saechsische Vaterlandskunde I 33)",
+        "credit": "Eduard Sommer / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Saxonia_Museum_f%C3%BCr_saechsische_Vaterlandskunde_I_33.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "maria-black-on-black",
@@ -3323,13 +3875,12 @@
         "pueblo",
         "burnishing"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Maria_Martinez_plate_-_Indianapolis_Museum_of_Art_-_DSC00652.JPG/600px-Maria_Martinez_plate_-_Indianapolis_Museum_of_Art_-_DSC00652.JPG",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://americanindian.si.edu/explore/collections/object/NMAI_239377"
     },
     {
       "id": "chojiro-first-raku",
-      "name": "Ch\u014djir\u014d Creates First Raku (c. 1580)",
+      "name": "Chōjirō Creates First Raku (c. 1580)",
       "period": "c. 1580",
       "visualCaption": "A tile maker's son invents a tradition for tea.",
       "significance": "Created Raku tradition; established new aesthetic",
@@ -3338,23 +3889,28 @@
         "tea-ceremony",
         "chojiro"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Chojiro_-_Black_Raku_tea_bowl.jpg/600px-Chojiro_-_Black_Raku_tea_bowl.jpg",
       "hasImage": true,
-      "sourceUrl": "https://www.britannica.com/art/raku-ware"
+      "sourceUrl": "https://www.britannica.com/art/raku-ware",
+      "image": {
+        "src": "/images/inspirations/chojiro-first-raku.webp",
+        "alt": "Chōjirō Creates First Raku (c. 1580) (Tea bowl, known as Suehiro, studio of Chojiro, Raku ware, Kuroraku type, Azuchi-Momoyama t)",
+        "credit": "Daderot / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Tea_bowl%2C_known_as_Suehiro%2C_studio_of_Chojiro%2C_Raku_ware%2C_Kuroraku_type%2C_Azuchi-Momoyama_to_Edo_period%2C_1500s-1600s_AD%2C_ceramic_-_Tokyo_National_Museum_-_Ueno_Park%2C_Tokyo%2C_Japan_-_DSC08889.jpg",
+        "license": "CC0"
+      }
     },
     {
       "id": "rie-coper-studio",
       "name": "Coper Joins Rie's Studio (1946)",
       "period": "1946",
-      "visualCaption": "Two refugees, one studio\u2014modern ceramics transformed.",
+      "visualCaption": "Two refugees, one studio—modern ceramics transformed.",
       "significance": "Created British modernist ceramics movement",
       "connections": [
         "rie",
         "coper",
         "modernism"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Lucie_Rie_-_Bowl%2C_c._1980_-_Victoria_%26_Albert_Museum_-_C.11-1982.jpg/600px-Lucie_Rie_-_Bowl%2C_c._1980_-_Victoria_%26_Albert_Museum_-_C.11-1982.jpg",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://www.vam.ac.uk/articles/hans-coper"
     },
     {
@@ -3368,23 +3924,28 @@
         "celadon",
         "ru-ware"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Vase%2C_Longquan_celadon%2C_Southern_Song_dynasty%2C_13th_century.JPG/600px-Vase%2C_Longquan_celadon%2C_Southern_Song_dynasty%2C_13th_century.JPG",
       "hasImage": true,
-      "sourceUrl": "https://www.metmuseum.org/toah/hd/nsong/hd_nsong.htm"
+      "sourceUrl": "https://www.metmuseum.org/toah/hd/nsong/hd_nsong.htm",
+      "image": {
+        "src": "/images/inspirations/song-five-kilns.webp",
+        "alt": "The Five Great Kilns of Song (Chinese - Spittoon - Walters 491585 - Profile)",
+        "credit": "Anonymous ( China ) Unknown author / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Chinese_-_Spittoon_-_Walters_491585_-_Profile.jpg",
+        "license": "Public domain"
+      }
     },
     {
       "id": "picasso-vallauris",
       "name": "Picasso Arrives in Vallauris (1946)",
       "period": "1946",
-      "visualCaption": "A painter discovers clay\u2014transforms a village and medium.",
+      "visualCaption": "A painter discovers clay—transforms a village and medium.",
       "significance": "Brought fine art attention to ceramics",
       "connections": [
         "vallauris",
         "picasso",
         "artist-ceramics"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Vallauris_ceramic_shop.jpg/600px-Vallauris_ceramic_shop.jpg",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://www.britannica.com/biography/Pablo-Picasso/Ceramics"
     },
     {
@@ -3398,13 +3959,12 @@
         "mingei",
         "hamada"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Soetsu_Yanagi.JPG/400px-Soetsu_Yanagi.JPG",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://www.mingeikan.or.jp/english/about/"
     },
     {
       "id": "dona-rosa-discovery",
-      "name": "Do\u00f1a Rosa's Burnishing Innovation (1950s)",
+      "name": "Doña Rosa's Burnishing Innovation (1950s)",
       "period": "1950s",
       "visualCaption": "One woman transforms an ancient tradition.",
       "significance": "Revolutionized Oaxacan black pottery",
@@ -3413,8 +3973,7 @@
         "dona-rosa",
         "burnishing"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Barro_negro_pottery_from_San_Bartolo_Coyotepec%2C_Oaxaca.jpg",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://ich.unesco.org/en/RL/artisanal-processes-of-barro-negro-pottery-of-oaxaca-00732"
     },
     {
@@ -3428,9 +3987,15 @@
         "imari",
         "chinese-export"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Delftware_plaque_faience_Delft_1700_1720.jpg/600px-Delftware_plaque_faience_Delft_1700_1720.jpg",
       "hasImage": true,
-      "sourceUrl": "https://www.metmuseum.org/toah/hd/cexp/hd_cexp.htm"
+      "sourceUrl": "https://www.metmuseum.org/toah/hd/cexp/hd_cexp.htm",
+      "image": {
+        "src": "/images/inspirations/chinese-export-collapse.webp",
+        "alt": "Chinese Export Collapse (1640s-80s) (Table Service MET DT11573 (cropped))",
+        "credit": "unknown author / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Table_Service_MET_DT11573_%28cropped%29.jpg",
+        "license": "CC0"
+      }
     },
     {
       "id": "potters-book",
@@ -3442,8 +4007,7 @@
         "leach",
         "studio-pottery"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Bernard_Leach_vase%2C_c._1960%2C_stoneware_with_tenmoku_glaze_-_Gardiner_Museum_-_DSC00874.JPG/600px-Bernard_Leach_vase%2C_c._1960%2C_stoneware_with_tenmoku_glaze_-_Gardiner_Museum_-_DSC00874.JPG",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://www.leachpottery.com/about/our-history/"
     },
     {
@@ -3456,8 +4020,7 @@
         "george-ohr",
         "biloxi"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/George_Ohr%2C_biloxi_art_pottery%2C_mississippi%2C_vaso%2C_1895-96_ca.jpg/600px-George_Ohr%2C_biloxi_art_pottery%2C_mississippi%2C_vaso%2C_1895-96_ca.jpg",
-      "hasImage": true,
+      "hasImage": false,
       "sourceUrl": "https://www.georgeohr.org/"
     }
   ]

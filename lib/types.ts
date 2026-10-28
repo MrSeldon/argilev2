@@ -16,6 +16,19 @@ export interface Location {
 }
 
 // =============================================================================
+// SHARED IMAGE TYPE
+// =============================================================================
+
+/** Optional local image for an opportunity or inspiration entry (WebP in /public/images/<kind>/). */
+export interface EntryImage {
+  src: string;
+  alt: string;
+  credit: string;
+  creditUrl?: string;
+  license?: string;
+}
+
+// =============================================================================
 // OPPORTUNITY TYPES
 // =============================================================================
 
@@ -102,6 +115,7 @@ export interface Opportunity {
   /** Short English rendering of a non-English name, and original-language summary */
   nameEnglish?: string;
   descriptionOriginal?: string;
+  image?: EntryImage;
 }
 
 export interface OpportunitiesData {
@@ -166,6 +180,7 @@ export interface InspirationEntry {
   period?: string;
   region?: string;
   imageUrl?: string;
+  image?: EntryImage;
   tags?: string[];
   related?: string[];
 }

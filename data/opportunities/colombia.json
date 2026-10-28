@@ -40,7 +40,14 @@
       "workshop"
     ],
     "source": "https://artesaniasdecolombia.com.co/PortalAC/Contenido/ListaTag.jsf?tag=R%C3%A1quira",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-raquira-alfareria.webp",
+      "alt": "Clay figure from Raquira, Boyaca",
+      "credit": "Petruss / Wikimedia Commons",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:R%C3%A1quira_figura_barro.JPG",
+      "license": "CC BY-SA 3.0"
+    }
   },
   {
     "id": "co-raquira-concurso-torneros",
@@ -80,7 +87,7 @@
       "community"
     ],
     "source": "https://viajaporcolombia.com/noticias/fiestas-patronales-2026-en-raquira-boyaca_10881/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "co-raquira-taller-artesania",
@@ -117,7 +124,14 @@
       "workshop"
     ],
     "source": "https://www.minube.com/actividades/taller-de-artesania-en-raquira-villa-de-leyva-t92339",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-raquira-taller-artesania.webp",
+      "alt": "Taller de artesanía en Ráquira",
+      "credit": "Image: Minube",
+      "creditUrl": "https://www.minube.com/actividades/taller-de-artesania-en-raquira-villa-de-leyva-t92339",
+      "license": "publisher image"
+    }
   },
   {
     "id": "co-raquira-santiago-rodriguez-ruiz",
@@ -158,7 +172,14 @@
       "materials"
     ],
     "source": "https://boyaca7dias.com.co/2026/09/24/aba-propuesta-de-escultor-raquireno-brilla-en-la-feria-internacional-un_fair-2026/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-raquira-santiago-rodriguez-ruiz.webp",
+      "alt": "Santiago Rodríguez Ruiz (escultor raquireño)",
+      "credit": "Image: Boyacá 7 Días",
+      "creditUrl": "https://boyaca7dias.com.co/2026/09/24/aba-propuesta-de-escultor-raquireno-brilla-en-la-feria-internacional-un_fair-2026/",
+      "license": "publisher image"
+    }
   },
   {
     "id": "co-la-chamba-ceramica-negra",
@@ -200,7 +221,7 @@
       "materials"
     ],
     "source": "https://sedeelectronica.sic.gov.co/noticias/superindustria-declara-la-proteccion-de-la-denominacion-de-origen-ceramica-negra-de-la-chamba",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "co-la-chamba-arcilla-predio",
@@ -240,7 +261,7 @@
       "community"
     ],
     "source": "https://www.infobae.com/colombia/2023/02/02/buscan-rescatar-predio-en-tolima-donde-se-produce-la-arcilla-negra-para-la-elaboracion-de-ceramica/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "co-la-chamba-taller-escuela-manos-de-oro",
@@ -283,7 +304,14 @@
       "mentorship"
     ],
     "source": "https://canaltrece.com.co/editorial/barro-negro-palma-real-la-chamba/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-la-chamba-taller-escuela-manos-de-oro.webp",
+      "alt": "Taller Escuela Manos de Oro (La Chamba)",
+      "credit": "Image: Canal Trece",
+      "creditUrl": "https://canaltrece.com.co/editorial/barro-negro-palma-real-la-chamba/",
+      "license": "publisher image"
+    }
   },
   {
     "id": "co-carmen-de-viboral-ceramica",
@@ -325,7 +353,14 @@
       "workshop"
     ],
     "source": "https://telemedellin.tv/?p=198066",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-carmen-de-viboral-ceramica.webp",
+      "alt": "Cerámica de El Carmen de Viboral",
+      "credit": "Image: Telemedellín",
+      "creditUrl": "https://telemedellin.tv/?p=198066",
+      "license": "publisher image"
+    }
   },
   {
     "id": "co-carmen-de-viboral-fiesta-saberes-ceramicos",
@@ -364,7 +399,7 @@
       "community"
     ],
     "source": "https://telemedellin.tv/?p=198066",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "co-pitalito-ceramica-laboyana",
@@ -405,7 +440,7 @@
       "materials"
     ],
     "source": "https://ridum.umanizales.edu.co/bitstreams/07c946dc-002c-4fd6-be6a-55dbdbe9797b/download",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "co-pitalito-arcilla-yacimientos",
@@ -443,7 +478,7 @@
       "materials"
     ],
     "source": "https://ridum.umanizales.edu.co/bitstreams/07c946dc-002c-4fd6-be6a-55dbdbe9797b/download",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "co-pitalito-taller-chivas-arcilla",
@@ -483,7 +518,7 @@
       "community"
     ],
     "source": "https://www.civitatis.com/en/pitalito/clay-chiva-workshop/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "co-pitalito-coarpi",
@@ -520,7 +555,7 @@
       "community"
     ],
     "source": "https://www.civitatis.com/en/pitalito/clay-chiva-workshop/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "co-feria-nacional-artesanal-pitalito",
@@ -556,7 +591,7 @@
       "festival"
     ],
     "source": "https://radionacional.co/cultura/ferias-y-fiestas/feria-nacional-artesanal-en-pitalito-huila",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "co-barichara-taller-guane",
@@ -596,7 +631,7 @@
       "community"
     ],
     "source": "https://www.civitatis.com/es/barichara/taller-artesania-barichara/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "co-mompox-casa-taller-el-boga",
@@ -635,7 +670,7 @@
       "community"
     ],
     "source": "https://www.transartists.org/en/air/casa-taller-el-boga-mompox",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "co-mompox-rosario-summer-2026-ceramica",
@@ -676,7 +711,7 @@
       "school"
     ],
     "source": "https://urosario.edu.co/sites/default/files/2026-04/cronograma-mompox-summer-2026.pdf",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "co-artesumapaz",
@@ -712,7 +747,7 @@
       "residency"
     ],
     "source": "https://rivet.es/calls/view/copy-of-art-residency-may-2026-colombia",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "co-los-santos-ceramica-por-el-agua",
@@ -754,7 +789,14 @@
       "studio"
     ],
     "source": "https://radionacional.co/noticias-colombia/por-el-agua-y-la-vida-tres-santandereanas-le-apuestan-su-conservacion-traves-de",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-los-santos-ceramica-por-el-agua.webp",
+      "alt": "Cerámica por el agua (Fuego Refugio, Patialegre, La Cabuya)",
+      "credit": "Image: Radio Televisión Nacional de Colombia",
+      "creditUrl": "https://radionacional.co/noticias-colombia/por-el-agua-y-la-vida-tres-santandereanas-le-apuestan-su-conservacion-traves-de",
+      "license": "publisher image"
+    }
   },
   {
     "id": "co-narino-mundo-de-la-forma",
@@ -794,7 +836,14 @@
       "community"
     ],
     "source": "https://radionacional.co/noticias-colombia/historia-de-mujeres-narinenses-que-esculpen-la-historia-con-barro",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-narino-mundo-de-la-forma.webp",
+      "alt": "Mundo de la Forma y la Voz de la Materia",
+      "credit": "Image: Radio Televisión Nacional de Colombia",
+      "creditUrl": "https://radionacional.co/noticias-colombia/historia-de-mujeres-narinenses-que-esculpen-la-historia-con-barro",
+      "license": "publisher image"
+    }
   },
   {
     "id": "co-sibundoy-daniel-hurtado",
@@ -839,7 +888,14 @@
       "workshop"
     ],
     "source": "https://radionacional.co/cultura/tradiciones/artesanos-de-colombia-alfareros-del-barro-en-el-putumayo",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-sibundoy-daniel-hurtado.webp",
+      "alt": "Daniel Felipe Hurtado Sánchez (Sibundoy)",
+      "credit": "Image: Radio Televisión Nacional de Colombia",
+      "creditUrl": "https://radionacional.co/cultura/tradiciones/artesanos-de-colombia-alfareros-del-barro-en-el-putumayo",
+      "license": "publisher image"
+    }
   },
   {
     "id": "co-bogota-magma-ceramica",
@@ -881,7 +937,7 @@
       "mentorship"
     ],
     "source": "https://artesaniasdecolombia.com.co/PortalAC/Contenido/ListaTag.jsf?tag=+Magma+cer%C3%A1mica",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "co-bogota-primitivo-studio-pottery",
@@ -924,7 +980,7 @@
       "supplier"
     ],
     "source": "https://primitivopottery.com",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "co-bogota-ceramyst",
@@ -964,7 +1020,7 @@
       "workshop"
     ],
     "source": "https://ceramyst.co",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "co-bogota-sirena-azuleja",
@@ -1004,7 +1060,7 @@
       "workshop"
     ],
     "source": "https://sirenaazulejaceramica.mitiendanube.com",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "co-bogota-unal-educacion-continuada-ceramica",
@@ -1044,7 +1100,7 @@
       "workshop"
     ],
     "source": "https://www.aprendemas.com/co/curso/ceramica-mirando-hacia-adentro-legado-de-las-culturas-precolombinas-1003136/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "co-bogota-rosario-ceramica",
@@ -1084,7 +1140,7 @@
       "workshop"
     ],
     "source": "https://www.aprendemas.com/co/curso/ceramica-642325/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "co-bogota-uniandes-opcion-ceramica",
@@ -1123,7 +1179,7 @@
       "school"
     ],
     "source": "https://artehum.uniandes.edu.co/wp-content/uploads/2026/07/5_Arte_O_Ceramica.pdf",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "co-bogota-udistrital-asab-ceramica",
@@ -1161,7 +1217,7 @@
       "workshop"
     ],
     "source": "https://www.aprendemas.com/co/curso/curso-de-ceramica-para-jovenes-y-adultos-655773/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "co-bogota-musa-casa-marques-san-jorge",
@@ -1201,7 +1257,7 @@
       "workshop"
     ],
     "source": "https://bogota.gov.co/mi-ciudad/cultura-recreacion-y-deporte/planes-gratis-bogota-exposicion-arqueologia-de-la-infancia-junio-15",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "co-expoartesanias-2026",
@@ -1237,7 +1293,7 @@
       "festival"
     ],
     "source": "https://www.expoartesanias.com",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "co-medellin-expoartesano-2026",
@@ -1273,7 +1329,14 @@
       "festival"
     ],
     "source": "https://www.medellin.gov.co/es/sala-de-prensa/noticias/regresa-expoartesano-la-memoria-la-feria-donde-las-manos-colombianas-contaran-historias-desde-medellin/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/co-medellin-expoartesano-2026.webp",
+      "alt": "Expoartesano: La Memoria 2026",
+      "credit": "Image: Alcaldía de Medellín",
+      "creditUrl": "https://www.medellin.gov.co/es/sala-de-prensa/noticias/regresa-expoartesano-la-memoria-la-feria-donde-las-manos-colombianas-contaran-historias-desde-medellin/",
+      "license": "publisher image"
+    }
   },
   {
     "id": "co-envigado-dos-golondrinas",
@@ -1313,7 +1376,7 @@
       "workshop"
     ],
     "source": "https://www.dosgolondrinasestudio.com/contact",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "co-villa-de-leyva-casa-terracota",
@@ -1351,6 +1414,6 @@
       "community"
     ],
     "source": "https://www.casaterracota.com",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   }
 ]
