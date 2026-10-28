@@ -74,7 +74,14 @@
    "studio"
   ],
   "source": "https://sfrecpark.org/704/Sharon-Art-Studio",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-sharon-art-studio-sf-rec-park.webp",
+   "alt": "Sharon Art Studio building in Golden Gate Park",
+   "credit": "Image: San Francisco Recreation and Park Department",
+   "creditUrl": "https://sfrecpark.org/704/Sharon-Art-Studio",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfbay-mission-arts-center-sf-rec-park",
@@ -108,7 +115,14 @@
    "class"
   ],
   "source": "https://sfrecpark.org/697/Mission-Arts-Center",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-mission-arts-center-sf-rec-park.webp",
+   "alt": "Mission Arts Center building in San Francisco",
+   "credit": "Image: San Francisco Recreation and Park Department",
+   "creditUrl": "https://sfrecpark.org/697/Mission-Arts-Center",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfbay-studio-ceramica-mel-rice-ceramica",
@@ -369,7 +383,14 @@
    "class"
   ],
   "source": "https://www.higherfirestudios.com/",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-higher-fire-clayspace-gallery.webp",
+   "alt": "Glazed bowls made at Higher Fire ClaySpace and Gallery",
+   "credit": "Image: Higher Fire ClaySpace and Gallery",
+   "creditUrl": "https://www.higherfirestudios.com/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfbay-halo-pottery",
@@ -494,7 +515,14 @@
    "class"
   ],
   "source": "https://cassceramics.com",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-cass-ceramics.webp",
+   "alt": "Cass Ceramics studio and gallery storefront",
+   "credit": "Image: Cass Ceramics",
+   "creditUrl": "https://cassceramics.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfbay-sebastopol-center-for-the-arts-sebarts-ceramics",
@@ -749,7 +777,14 @@
    "mentorship"
   ],
   "source": "https://cobbartandecology.org/woodfire-residency",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-cobb-mountain-art-and-ecology-project-wood-fire-long-term-an.webp",
+   "alt": "Firewood stacked beside a wood kiln at Cobb Mountain Art and Ecology Project",
+   "credit": "Image: Cobb Mountain Art and Ecology Project",
+   "creditUrl": "https://cobbartandecology.org/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfbay-chalk-hill-artist-residency",
@@ -789,7 +824,14 @@
    "residency"
   ],
   "source": "https://artistcommunities.org/directory/open-calls/call-artists-2027",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-chalk-hill-artist-residency.webp",
+   "alt": "Painting of a river in soft evening light, shown on the Chalk Hill Artist Residency site",
+   "credit": "Image: Chalk Hill Artist Residency",
+   "creditUrl": "https://www.chalkhillresidency.com/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfbay-headlands-center-for-the-arts-artist-in-residence-program",
@@ -825,7 +867,14 @@
    "residency"
   ],
   "source": "https://www.headlands.org/programs/",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-headlands-center-for-the-arts-artist-in-residence-program.webp",
+   "alt": "Artists working on a large painting in a Headlands Center for the Arts studio",
+   "credit": "Image: Headlands Center for the Arts",
+   "creditUrl": "https://www.headlands.org/programs/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfbay-recology-san-francisco-artist-in-residence-program",
@@ -862,7 +911,14 @@
    "residency"
   ],
   "source": "https://www.recology.com/?p=9861",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-recology-san-francisco-artist-in-residence-program.webp",
+   "alt": "Sculptural installation of curved wooden slats made during the Recology residency",
+   "credit": "Image: Recology San Francisco",
+   "creditUrl": "https://www.recology.com/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfbay-matt-fishman-local-materials-potter-teaches-at-the-potters-s",
@@ -897,7 +953,14 @@
    "artist"
   ],
   "source": "https://studiopotter.org/following-materials",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-matt-fishman-local-materials-potter-teaches-at-the-potters-s.webp",
+   "alt": "Dark wood-fired jars by Matt Fishman",
+   "credit": "Image: The Potters' Studio",
+   "creditUrl": "https://studiopotter.org/following-materials",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfbay-west-coast-craft-winter-26-fort-mason",
@@ -937,7 +1000,14 @@
    "community"
   ],
   "source": "https://westcoastcraft.com/attendee-calendar",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-west-coast-craft-winter-26-fort-mason.webp",
+   "alt": "Shoppers browsing vendor booths at a West Coast Craft fair",
+   "credit": "Image: West Coast Craft",
+   "creditUrl": "https://westcoastcraft.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfbay-the-fellowship-of-craft-formerly-craneway-craft-fair",
@@ -976,7 +1046,14 @@
    "community"
   ],
   "source": "https://www.fellowshipofcraft.com",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-the-fellowship-of-craft-formerly-craneway-craft-fair.webp",
+   "alt": "Ceramics vendor at a Fellowship of Craft fair booth",
+   "credit": "Image: The Fellowship of Craft",
+   "creditUrl": "https://www.fellowshipofcraft.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfbay-san-francisco-ceramic-artists-guild-1st-annual-holiday-marke",
@@ -1017,7 +1094,14 @@
    "community"
   ],
   "source": "https://www.sfcag.org/",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-san-francisco-ceramic-artists-guild-1st-annual-holiday-marke.webp",
+   "alt": "Pouring glaze over a stoneware mug",
+   "credit": "Image: San Francisco Ceramic Artists Guild",
+   "creditUrl": "https://www.sfcag.org/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfbay-ruby-s-clay-studio-gallery",
@@ -1054,7 +1138,14 @@
    "community"
   ],
   "source": "https://www.rubysclaystudio.org/gallery",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-ruby-s-clay-studio-gallery.webp",
+   "alt": "Stacked dark stoneware mugs with printed text at Ruby's Clay Studio",
+   "credit": "Image: Ruby's Clay Studio and Gallery",
+   "creditUrl": "https://www.rubysclaystudio.org/gallery",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfbay-claypeople",
@@ -1089,7 +1180,14 @@
    "supplier"
   ],
   "source": "https://claypeople.net",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-claypeople.webp",
+   "alt": "Clay, sponges and tools on a shelf at ClayPeople",
+   "credit": "Image: ClayPeople",
+   "creditUrl": "https://claypeople.net",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfbay-clay-planet",
@@ -1162,7 +1260,14 @@
    "materials"
   ],
   "source": "https://www.gladdingmcbean.com",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-gladding-mcbean-lincoln-ca.webp",
+   "alt": "Stacked terracotta roof tiles at Gladding, McBean",
+   "credit": "Image: Gladding, McBean",
+   "creditUrl": "https://www.gladdingmcbean.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfbay-creative-ceramics-and-glass-glazequeen-santa-rosa",
@@ -1198,7 +1303,14 @@
    "supplier"
   ],
   "source": "https://www.creativeceramicsandglass.com",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-creative-ceramics-and-glass-glazequeen-santa-rosa.webp",
+   "alt": "Supply aisles inside Creative Ceramics and Glass, Santa Rosa",
+   "credit": "Image: Creative Ceramics and Glass",
+   "creditUrl": "https://www.creativeceramicsandglass.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfbay-norcal-kiln-repair",
@@ -1233,7 +1345,14 @@
    "supplier"
   ],
   "source": "https://norcalkilnrepair.com",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-norcal-kiln-repair.webp",
+   "alt": "Inside an electric kiln with its elements and shelf posts",
+   "credit": "Image: NorCal Kiln Repair",
+   "creditUrl": "https://norcalkilnrepair.com",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfbay-foraging-clay-at-thornton-state-beach-with-artillery-ceramic",
@@ -1310,7 +1429,14 @@
    "materials"
   ],
   "source": "https://www.ebparks.org/sites/default/files/Ord38-09052023FINAL.pdf",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-east-bay-regional-park-district-ordinance-38-section-805-geo.webp",
+   "alt": "Entrance sign for Tilden Regional Park, East Bay Regional Park District",
+   "credit": "Ijon / Wikimedia Commons",
+   "creditUrl": "https://commons.wikimedia.org/wiki/File:Tilden_Regional_Park_sign.JPG",
+   "license": "CC BY-SA 4.0"
+  }
  },
  {
   "id": "sfbay-california-state-parks-regulation-14-ccr-4307-geological-fea",
@@ -1345,7 +1471,14 @@
    "materials"
   ],
   "source": "https://www.law.cornell.edu/regulations/california/14-CCR-4307",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-california-state-parks-regulation-14-ccr-4307-geological-fea.webp",
+   "alt": "Rocky coastline at Point Lobos State Natural Reserve, California",
+   "credit": "King of Hearts / Wikimedia Commons",
+   "creditUrl": "https://commons.wikimedia.org/wiki/File:Point_Lobos_September_2012_003.jpg",
+   "license": "GFDL"
+  }
  },
  {
   "id": "sfbay-ggnra-2025-superintendent-s-compendium-collecting-rules",
@@ -1380,7 +1513,14 @@
    "materials"
   ],
   "source": "https://www.nps.gov/goga/learn/management/superintendents-compendium.htm",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-ggnra-2025-superintendent-s-compendium-collecting-rules.webp",
+   "alt": "Golden Gate Bridge above the Coast Guard station on the San Francisco shore",
+   "credit": "Image: National Park Service",
+   "creditUrl": "https://www.nps.gov/goga/learn/management/superintendents-compendium.htm",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfbay-sonoma-community-center-ceramics-residency-open-studio-works",
@@ -1531,7 +1671,14 @@
    "mentorship"
   ],
   "source": "https://www.eventbrite.com/e/wood-firing-workshop-tickets-1987875889297",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-laney-college-ceramics-wood-firing-workshop.webp",
+   "alt": "Laney College tower in Oakland",
+   "credit": "Mike Linksvayer / Wikimedia Commons",
+   "creditUrl": "https://commons.wikimedia.org/wiki/File:LaneyCollegeTower.jpg",
+   "license": "CC0"
+  }
  },
  {
   "id": "sfbay-berkeley-art-studio-uc-berkeley",
@@ -1571,7 +1718,14 @@
    "supplier"
   ],
   "source": "https://artstudio.berkeley.edu/ceramics",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-berkeley-art-studio-uc-berkeley.webp",
+   "alt": "Hands shaping a bowl on the wheel at the Berkeley Art Studio",
+   "credit": "Image: Berkeley Art Studio, UC Berkeley",
+   "creditUrl": "https://artstudio.berkeley.edu/ceramics",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfbay-palo-alto-art-center",
@@ -1608,7 +1762,14 @@
    "community"
   ],
   "source": "https://www.paloalto.gov/Departments/Community-Services/Arts-Sciences/Palo-Alto-Art-Center/Make-Art/Adults",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-palo-alto-art-center.webp",
+   "alt": "Sculpture outside the Palo Alto Art Center",
+   "credit": "Tombrinck / Wikimedia Commons",
+   "creditUrl": "https://commons.wikimedia.org/wiki/File:Palo_Alto_Art_Center_-_February_2019.jpg",
+   "license": "CC BY-SA 4.0"
+  }
  },
  {
   "id": "sfbay-acga-clay-glass-festival-association-of-clay-and-glass-artis",
@@ -1647,7 +1808,14 @@
    "community"
   ],
   "source": "https://www.paloalto.gov/Events-Directory/Community-Services/2026-Clay-and-Glass-Festival",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-acga-clay-glass-festival-association-of-clay-and-glass-artis.webp",
+   "alt": "Visitors holding blown-glass pieces at a clay and glass festival booth",
+   "credit": "Image: Association of Clay and Glass Artists",
+   "creditUrl": "https://www.acga.net",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfbay-clayroom-sf-oakland-san-mateo",
@@ -1734,7 +1902,14 @@
    "artist"
   ],
   "source": "https://berkeleypotters.com/current-upcoming-events",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-berkeley-potters-guild.webp",
+   "alt": "Berkeley Potters Guild building on the street",
+   "credit": "Image: Berkeley Potters Guild",
+   "creditUrl": "https://berkeleypotters.com/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfbay-wheelhouse-clay-studio",
@@ -1777,7 +1952,14 @@
    "class"
   ],
   "source": "https://www.wheelhouseclaysf.com/",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-wheelhouse-clay-studio.webp",
+   "alt": "Wall shelf of small cups in the Wheelhouse Clay studio",
+   "credit": "Image: Wheelhouse Clay",
+   "creditUrl": "https://www.wheelhouseclaysf.com/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfbay-marin-pottery",
@@ -1903,7 +2085,14 @@
    "gallery"
   ],
   "source": "https://richmondartcenter.org/",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-richmond-art-center.webp",
+   "alt": "Terracotta portrait busts from the Richmond Art Center ceramics studio",
+   "credit": "Image: Richmond Art Center",
+   "creditUrl": "https://richmondartcenter.org/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfbay-museum-of-craft-and-design",
@@ -1938,7 +2127,14 @@
    "gallery"
   ],
   "source": "https://sfmcd.org/",
-  "lastVerified": "2026-10-28"
+  "lastVerified": "2026-10-28",
+  "image": {
+   "src": "/images/opportunities/sfbay-museum-of-craft-and-design.webp",
+   "alt": "Visitors in a gallery at the Museum of Craft and Design",
+   "credit": "Image: Museum of Craft and Design",
+   "creditUrl": "https://sfmcd.org/",
+   "license": "publisher image"
+  }
  },
  {
   "id": "sfbay-silica-sio2-northern-california-ceramics-santa-cruz-museum-o",
