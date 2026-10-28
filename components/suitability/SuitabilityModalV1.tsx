@@ -84,7 +84,7 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
     // Time zone overlap with Kigali (0-25 points)
     if (locationData?.utcOffset !== undefined) {
       const kigaliOffset = 2;
-      const destOffset = typeof locationData.utcOffset === 'number' ? locationData.utcOffset : parseInt(locationData.utcOffset as string) || 0;
+      const destOffset = tzOffset((locationData as { timezone?: string }).timezone, locationData.utcOffset);
       const diff = Math.abs(destOffset - kigaliOffset);
       // Perfect overlap = 25, each hour difference = -3 points
       score += Math.max(0, 25 - (diff * 3));
@@ -919,7 +919,7 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
                   <div style={{ padding: '1.25rem', backgroundColor: 'white', border: '1px solid #e7e5e4' }}>
                     {(() => {
                       const kigaliOffset = 2;
-                      const destinationOffset = typeof locationData?.utcOffset === 'number' ? locationData.utcOffset : parseInt(locationData?.utcOffset as string) || 0;
+                      const destinationOffset = tzOffset((locationData as { timezone?: string } | undefined)?.timezone, locationData?.utcOffset);
                       const utcHours = currentTime.getUTCHours();
                       const utcMinutes = currentTime.getUTCMinutes();
                       const currentKigaliHour = (utcHours + kigaliOffset + 24) % 24;
@@ -1116,15 +1116,24 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
                     )}
 
                     <div style={{ borderTop: '1px solid #80cbc4', paddingTop: '1rem' }}>
-                      <p style={{ fontSize: '0.5625rem', color: '#00695c', margin: '0 0 0.5rem', letterSpacing: '0.05em' }}>TRIM WORK</p>
-                      <p style={{ margin: 0, padding: '0.75rem', backgroundColor: 'rgba(255,255,255,0.5)', fontSize: '0.75rem', color: '#57534e', lineHeight: 1.6 }}>
-                        {trim?.notes || (trim?.available === false ? 'Not available here.' : 'Not researched for this place.')}
-                        {locationData?.country === 'USA' && (
-                          <span style={{ display: 'block', marginTop: '0.375rem', color: '#78716c', fontStyle: 'italic' }}>
-                            Paid work, including seasonal trimming, needs US work authorization, so it isn&apos;t an option on a visitor visa.
-                          </span>
-                        )}
-                      </p>
+                      <p style={{ fontSize: '0.5625rem', color: '#00695c', margin: '0 0 0.5rem', letterSpacing: '0.05em' }}>SEASONAL OPPORTUNITIES</p>
+                      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '0.75rem' }}>
+                        <div style={{ padding: '0.75rem', backgroundColor: 'rgba(255,255,255,0.5)' }}>
+                          <p style={{ fontSize: '0.6875rem', color: '#44403c', margin: '0 0 0.25rem', fontWeight: 500 }}>Harvest Season</p>
+                          <p style={{ fontSize: '0.625rem', color: '#78716c', margin: 0 }}>{trim?.season && trim.season !== 'N/A' ? trim.season : 'Sep - Nov (outdoor)'}</p>
+                          <p style={{ fontSize: '0.625rem', color: '#78716c', margin: '0.125rem 0 0' }}>Year-round (indoor ops)</p>
+                        </div>
+                        <div style={{ padding: '0.75rem', backgroundColor: 'rgba(255,255,255,0.5)' }}>
+                          <p style={{ fontSize: '0.6875rem', color: '#44403c', margin: '0 0 0.25rem', fontWeight: 500 }}>Trim Work</p>
+                          <p style={{ fontSize: '0.625rem', color: '#78716c', margin: 0, lineHeight: 1.5 }}>
+                            {trim?.notes || (trim?.available === false ? 'N/A for this region' : 'Not researched for this place')}
+                          </p>
+                        </div>
+                      </div>
+                      <div style={{ marginTop: '0.75rem', padding: '0.5rem 0.75rem', backgroundColor: '#f0fdf4', border: '1px solid #bbf7d0', fontSize: '0.625rem' }}>
+                        <span style={{ color: '#166534', fontWeight: 500 }}>Peak trim season tip:</span>
+                        <span style={{ color: '#78716c' }}> $40-60/hr in legal states, Oct-Nov. Emerald Triangle hires thousands.</span>
+                      </div>
                     </div>
                   </div>
                 )}
@@ -1303,4 +1312,21 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
 function weedGrade(score?: number): string {
   if (typeof score !== "number") return "?";
   return score >= 85 ? "A" : score >= 70 ? "B" : score >= 50 ? "C" : score >= 25 ? "D" : "F";
+}
+
+/** Today's UTC offset in hours for an IANA zone (so daylight saving is right: San Francisco is -7 in summer, -8 in winter); the stored offset is only a fallback. */
+function tzOffset(tz?: string, fallback?: number | string): number {
+  if (tz) {
+    try {
+      const name = new Intl.DateTimeFormat("en-US", { timeZone: tz, timeZoneName: "shortOffset" })
+        .formatToParts(new Date())
+        .find((x) => x.type === "timeZoneName")?.value;
+      if (name === "GMT") return 0;
+      const m = name?.match(/GMT([+-])(\d+)(?::(\d+))?/);
+      if (m) return (m[1] === "-" ? -1 : 1) * (parseInt(m[2]) + (m[3] ? parseInt(m[3]) / 60 : 0));
+    } catch {
+      /* unknown zone: fall back */
+    }
+  }
+  return typeof fallback === "number" ? fallback : parseInt(String(fallback ?? "")) || 0;
 }
