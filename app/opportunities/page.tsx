@@ -9,6 +9,7 @@ import { OpportunityCard } from "@/components/opportunities/OpportunityCard";
 import { CountrySelect } from "@/components/opportunities/CountrySelect";
 import { countryOf, isPast, typeLabel } from "@/components/opportunities/facts";
 import { typeColor } from "@/components/design/palette";
+import { isCeramics } from "@/lib/opportunity-map";
 
 export const metadata = {
   title: "Opportunities | Le Four Argile",
@@ -19,6 +20,7 @@ interface SearchParams {
   type?: string;
   country?: string;
   past?: string;
+  making?: string;   // "all" shows weaving, print, wood, museums...; default is ceramics
 }
 
 function href(params: SearchParams, patch: Partial<SearchParams>) {
@@ -35,7 +37,9 @@ export default async function OpportunitiesPage({ searchParams }: { searchParams
 
   const showPast = params.past === "1";
   const pastCount = all.filter(isPast).length;
-  const visible = showPast ? all : all.filter((o) => !isPast(o));
+  const allMaking = params.making === "all";
+  const crafted = allMaking ? all : all.filter((o) => isCeramics(o as { discipline?: string }));
+  const visible = showPast ? crafted : crafted.filter((o) => !isPast(o));
 
   // Type counts follow the country filter; country counts follow the type filter.
   const inCountry = params.country ? visible.filter((o) => countryOf(o) === params.country) : visible;
@@ -61,6 +65,25 @@ export default async function OpportunitiesPage({ searchParams }: { searchParams
         <div className="flex flex-wrap items-center gap-3">
           <ListMapSwitch active="list" />
           <CountrySelect countries={countryCounts} value={params.country} />
+          <div className="inline-flex rounded-full border border-line-strong p-1" role="group" aria-label="Craft">
+            {[
+              { v: undefined, label: "Ceramics" },
+              { v: "all", label: "All making" },
+            ].map((o) => {
+              const on = (params.making === "all") === (o.v === "all");
+              return (
+                <Link
+                  key={o.label}
+                  href={href(params, { making: o.v, type: undefined })}
+                  aria-current={on ? "page" : undefined}
+                  scroll={false}
+                  className={`inline-flex items-center min-h-10 px-4 rounded-full text-body-sm transition-colors duration-400 ${on ? "bg-ink text-paper" : "text-ink-2 hover:text-ink"}`}
+                >
+                  {o.label}
+                </Link>
+              );
+            })}
+          </div>
         </div>
 
         <ChipScroller label="Filter by type" className="mt-4">

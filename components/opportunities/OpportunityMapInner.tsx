@@ -9,6 +9,8 @@ import { formatLocation } from "@/lib/utils";
 import {
   REGIONS,
   inScope,
+  isCeramics,
+  type Craft,
   WORLD_VIEW,
   addressOf,
   categoriesOf,
@@ -31,6 +33,7 @@ interface Props {
 export default function OpportunityMapInner({ opportunities, initialScope = "bay", initialSelected }: Props) {
   const all = opportunities as MapOpportunity[];
   const [scope, setScope] = useState<MapScope>(initialScope);
+  const [craft, setCraft] = useState<Craft>("ceramics");
   const [types, setTypes] = useState<string[]>([]);
   const [cats, setCats] = useState<string[]>([]);
   const [selectedId, setSelectedId] = useState<string | null>(initialSelected || null);
@@ -55,9 +58,10 @@ export default function OpportunityMapInner({ opportunities, initialScope = "bay
       all.filter((o) => {
         const c = o.location.coordinates;
         if (!c) return false;
+        if (craft === "ceramics" && !isCeramics(o as { discipline?: string })) return false;
         return inScope(scope, c.lat, c.lng);
       }),
-    [all, scope]
+    [all, scope, craft]
   );
 
   const typeOptions = useMemo(() => {
@@ -105,6 +109,18 @@ export default function OpportunityMapInner({ opportunities, initialScope = "bay
             { value: "colombia", label: "Colombia" },
             { value: "east-africa", label: "East Africa" },
             { value: "world", label: "World" },
+          ]}
+        />
+        <Segmented
+          label="Craft"
+          value={craft}
+          onChange={(v) => {
+            setCraft(v as Craft);
+            resetFilters();
+          }}
+          options={[
+            { value: "ceramics", label: "Ceramics" },
+            { value: "all", label: "All making" },
           ]}
         />
 

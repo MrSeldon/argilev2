@@ -41,6 +41,12 @@ export function regionOf(lat: number, lng: number): MapScope {
   return (Object.keys(REGIONS) as Exclude<MapScope, "world">[]).find((r) => inScope(r, lat, lng)) || "world";
 }
 
+/** Ceramics is the core; everything else (weaving, print, wood, museums, lectures...) shows under "All making". */
+export type Craft = "ceramics" | "all";
+export function isCeramics(o: { discipline?: string }): boolean {
+  return !o.discipline || o.discipline === "ceramics";
+}
+
 export const WORLD_VIEW = { center: [25, 10] as [number, number], zoom: 2 };
 
 export function inBayArea(lat: number, lng: number): boolean {
