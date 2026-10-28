@@ -1,13 +1,18 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getOpportunities, getOpportunityById, getRelatedOpportunities } from "@/lib/data";
-import { formatLocation } from "@/lib/utils";
 import {
   getSuitabilityForOpportunity,
   calculateSuitabilityScore,
   getSuitabilitySummary,
 } from "@/lib/suitability";
 import { OpportunityDetailClient } from "@/components/opportunities/OpportunityDetailClient";
+import { imageOf } from "@/components/media/image";
+import { Photo } from "@/components/site/Photo";
+import { LocationMark, coordText } from "@/components/design/LocationMark";
+import { typeColor, tint } from "@/components/design/palette";
+import { factsOf, hostOf, isPast, isUnconfirmed, prettyDate, typeLabel, type Fact } from "@/components/opportunities/facts";
+import { OpportunityCard } from "@/components/opportunities/OpportunityCard";
 
 export async function generateStaticParams() {
   const opportunities = await getOpportunities();
@@ -17,333 +22,226 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const opportunity = await getOpportunityById(slug);
-
-  if (!opportunity) {
-    return { title: "Opportunity Not Found" };
-  }
-
+  if (!opportunity) return { title: "Not found | Le Four Argile" };
   return {
     title: `${opportunity.name} | Le Four Argile`,
     description: opportunity.description,
   };
 }
 
-// Get gradient based on opportunity type
-function getTypeGradient(type: string): string {
-  const gradients: Record<string, string> = {
-    school: "from-blue-800 via-slate-800 to-slate-900",
-    residency: "from-emerald-800 via-stone-800 to-stone-900",
-    grant: "from-purple-800 via-stone-800 to-stone-900",
-    scholarship: "from-pink-800 via-stone-800 to-stone-900",
-    fellowship: "from-indigo-800 via-stone-800 to-stone-900",
-    apprenticeship: "from-amber-800 via-stone-800 to-stone-900",
-    mentorship: "from-rose-800 via-stone-800 to-stone-900",
-    workshop: "from-orange-800 via-stone-800 to-stone-900",
-  };
-  return gradients[type] || "from-stone-700 via-stone-800 to-stone-900";
-}
-
-export default async function OpportunityPage({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
+export default async function OpportunityPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const opportunity = await getOpportunityById(slug);
+  const o = await getOpportunityById(slug);
+  if (!o) notFound();
 
-  if (!opportunity) {
-    notFound();
-  }
+  const f = factsOf(o);
+  const img = imageOf(o);
+  const color = typeColor(o.type);
+  const hasCoords = typeof f.place.lat === "number";
 
-  // Try to find matching suitability data for this location
-  const suitability = await getSuitabilityForOpportunity(
-    opportunity.location.city,
-    opportunity.location.region,
-    opportunity.location.country
-  );
-
-  // Calculate score and summary if suitability data exists
+  const suitability =
+    f.place.city || f.place.country
+      ? await getSuitabilityForOpportunity(f.place.city || "", f.place.region || "", f.place.country || "")
+      : null;
   const suitabilityScore = suitability ? calculateSuitabilityScore(suitability) : null;
   const suitabilitySummary = suitability ? getSuitabilitySummary(suitability) : null;
 
-  const gradient = getTypeGradient(opportunity.type);
+  const related = await getRelatedOpportunities(o, 3);
+  const fundingFirst = ["school", "residency", "workshop", "apprenticeship"].includes(o.type);
 
-  // Get related opportunities (grants/scholarships that could fund this, or vice versa)
-  const relatedOpportunities = await getRelatedOpportunities(opportunity, 4);
+  // Short facts go in the band up top; long prose answers move to the side column.
+  const short = (x?: Fact) => !!x && x.value.length <= 48;
+  const keyFacts = [f.when, f.deadline, f.cost, f.apply].filter(short) as Fact[];
+  const moreFacts = [f.apply && !short(f.apply) ? f.apply : undefined, f.when && !short(f.when) ? f.when : undefined, f.cost && !short(f.cost) ? f.cost : undefined, f.deadline && !short(f.deadline) ? f.deadline : undefined, f.funding, f.housing, f.level, f.eligibility].filter(Boolean) as Fact[];
+  const facilities = (o.facilities || []).filter((x) => typeof x === "string" && x.trim());
+  const focus = (o.focusAreas || []).filter(Boolean);
 
   return (
-    <div className="min-h-screen">
-      {/* Hero Section */}
-      <section className={`relative h-[50vh] w-full bg-gradient-to-br ${gradient}`}>
-        <div className="absolute inset-0 flex items-end justify-center pb-16">
-          <span className="text-white/40 text-xs uppercase tracking-widest">
-            {opportunity.type}
-          </span>
-        </div>
-      </section>
-
-      {/* Title Section */}
-      <section className="py-16 border-b border-warm-100">
-        <div className="max-w-4xl mx-auto px-8 text-center">
-          <h1 className="font-serif text-4xl md:text-5xl tracking-tight mb-4">
-            {opportunity.name}
-          </h1>
-          {opportunity.nameEnglish && (
-            <p className="text-sm italic text-warm-500 mb-4">
-              {opportunity.nameEnglish}
+    <article>
+      {/* Header */}
+      <header className="wrap pt-4 md:pt-12">
+        <Link href="/opportunities" className="link-quiet text-ink-3">
+          <span aria-hidden="true">←</span> Opportunities
+        </Link>
+        <div className="mt-4 md:mt-6 md:grid md:grid-cols-12 md:gap-10">
+          <div className="md:col-span-8">
+            <p className="eyebrow inline-flex items-center gap-2 reveal">
+              <span className="block w-1.5 h-1.5 rounded-full" style={{ background: color }} aria-hidden="true" />
+              {typeLabel(o.type)}
+              {f.place.country && <span>· {f.place.country}</span>}
             </p>
-          )}
-          <p className="text-sm uppercase tracking-widest text-warm-500">
-            {formatLocation(opportunity.location)}
-          </p>
+            <h1 className="display text-[2.4rem] leading-[1.04] md:text-display-lg mt-3 reveal reveal-1 text-balance">{o.name}</h1>
+            {o.nameEnglish && <p className="font-serif italic text-heading-md text-ink-2 mt-2 reveal reveal-1">{o.nameEnglish}</p>}
+            <p className="text-body-md text-ink-2 mt-3 reveal reveal-2">{f.place.line}</p>
+
+            {(isUnconfirmed(o) || isPast(o)) && (
+              <p className="mt-5 inline-flex items-start gap-2.5 text-body-sm text-ink-2 bg-oat/70 px-4 py-3 max-w-prose">
+                <span className="mt-1.5 block w-1.5 h-1.5 rounded-full bg-terracotta shrink-0" aria-hidden="true" />
+                {isPast(o)
+                  ? "This was a 2026 event and has already happened. Kept here for reference."
+                  : "Not recently confirmed. Details come from older or secondhand sources, so check with them directly before planning around it."}
+              </p>
+            )}
+          </div>
         </div>
-      </section>
+      </header>
 
-      {/* Main Content - Two Column Layout */}
-      <section className="py-16 md:py-24">
-        <div className="max-w-6xl mx-auto px-8">
-          <div className="grid md:grid-cols-5 gap-16 md:gap-24">
-            {/* Left Column - Main Content (wider) */}
-            <div className="md:col-span-3 space-y-16">
-              {/* Description */}
-              {opportunity.description && (
-                <div>
-                  <p className="text-lg leading-relaxed text-warm-700">
-                    {opportunity.description}
-                  </p>
-                </div>
-              )}
+      {/* Photograph, when there is one */}
+      {img && (
+        <div className="wrap mt-8 md:mt-12">
+          <Photo photo={img} ratio="16 / 9" sizes="(min-width: 1200px) 1120px, 100vw" priority frameClassName="max-h-[70vh]" />
+        </div>
+      )}
 
-              {/* About the Program */}
-              {opportunity.details && (
-                <div>
-                  <h2 className="font-serif text-2xl mb-6">About the Program</h2>
-                  <p className="leading-relaxed text-warm-600">
-                    {opportunity.details}
-                  </p>
-                </div>
-              )}
-
-              {/* Good For */}
-              {opportunity.goodFor && (
-                <div>
-                  <h2 className="font-serif text-2xl mb-6">Best For</h2>
-                  <p className="leading-relaxed text-warm-600">
-                    {opportunity.goodFor}
-                  </p>
-                </div>
-              )}
-
-              {/* Facilities */}
-              {opportunity.facilities && opportunity.facilities.length > 0 && (
-                <div>
-                  <h2 className="font-serif text-2xl mb-6">Facilities</h2>
-                  <ul className="space-y-2">
-                    {opportunity.facilities.map((facility, i) => (
-                      <li key={i} className="text-warm-600">
-                        {facility}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-            </div>
-
-            {/* Right Column - Details (narrower) */}
-            <aside className="md:col-span-2 space-y-12">
-              {/* Key Details */}
-              <div>
-                <h3 className="text-xs uppercase tracking-widest text-warm-400 mb-6">
-                  Details
-                </h3>
-                <dl className="space-y-6">
-                  {opportunity.duration?.display && (
-                    <div>
-                      <dt className="text-xs uppercase tracking-widest text-warm-400 mb-1">
-                        Duration
-                      </dt>
-                      <dd className="text-charcoal">
-                        {opportunity.duration.display}
-                      </dd>
-                    </div>
-                  )}
-
-                  {opportunity.level && (
-                    <div>
-                      <dt className="text-xs uppercase tracking-widest text-warm-400 mb-1">
-                        Level
-                      </dt>
-                      <dd className="text-charcoal capitalize">
-                        {opportunity.level}
-                      </dd>
-                    </div>
-                  )}
-
-                  {opportunity.eligibility && (
-                    <div>
-                      <dt className="text-xs uppercase tracking-widest text-warm-400 mb-1">
-                        Eligibility
-                      </dt>
-                      <dd className="text-charcoal">
-                        {opportunity.eligibility}
-                      </dd>
-                    </div>
-                  )}
-
-                  {opportunity.deadline && (
-                    <div>
-                      <dt className="text-xs uppercase tracking-widest text-warm-400 mb-1">
-                        Application Deadline
-                      </dt>
-                      <dd className="text-charcoal">
-                        {opportunity.deadline}
-                      </dd>
-                    </div>
-                  )}
-                </dl>
-              </div>
-
-              {/* Cost */}
-              {opportunity.cost && (
-                <div>
-                  <h3 className="text-xs uppercase tracking-widest text-warm-400 mb-6">
-                    Cost
-                  </h3>
-                  {opportunity.cost.tuition && (
-                    <p className="text-charcoal mb-2">
-                      {opportunity.cost.tuition}
-                    </p>
-                  )}
-                  {opportunity.cost.estimate && (
-                    <p className="text-sm text-warm-500">
-                      Estimated: ${opportunity.cost.estimate.low.toLocaleString()} – $
-                      {opportunity.cost.estimate.high.toLocaleString()}{" "}
-                      {opportunity.cost.estimate.currency}
-                    </p>
-                  )}
-                </div>
-              )}
-
-              {/* Funding */}
-              {opportunity.funding?.available && (
-                <div>
-                  <h3 className="text-xs uppercase tracking-widest text-warm-400 mb-6">
-                    Funding Available
-                  </h3>
-                  {opportunity.funding.stipend && (
-                    <p className="text-charcoal mb-2">
-                      {opportunity.funding.stipend}
-                    </p>
-                  )}
-                  {opportunity.funding.notes && (
-                    <p className="text-sm text-warm-500">
-                      {opportunity.funding.notes}
-                    </p>
-                  )}
-                </div>
-              )}
-
-              {/* Housing */}
-              {opportunity.housing && (
-                <div>
-                  <h3 className="text-xs uppercase tracking-widest text-warm-400 mb-6">
-                    Housing
-                  </h3>
-                  <p className="text-charcoal mb-1">
-                    {opportunity.housing.included
-                      ? "Included"
-                      : opportunity.housing.type || "Not included"}
-                  </p>
-                  {opportunity.housing.notes && (
-                    <p className="text-sm text-warm-500">
-                      {opportunity.housing.notes}
-                    </p>
-                  )}
-                </div>
-              )}
-
-              {/* Focus Areas */}
-              {opportunity.focusAreas && opportunity.focusAreas.length > 0 && (
-                <div>
-                  <h3 className="text-xs uppercase tracking-widest text-warm-400 mb-6">
-                    Focus Areas
-                  </h3>
-                  <p className="text-charcoal">
-                    {opportunity.focusAreas.join(", ")}
-                  </p>
-                </div>
-              )}
-
-              {/* Call to Action */}
-              {opportunity.website && (
-                <div className="pt-8 border-t border-warm-100">
-                  <a
-                    href={opportunity.website}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hit-area inline-block text-sm uppercase tracking-widest border-b border-charcoal pb-1 hover:opacity-60 transition-opacity"
-                  >
-                    Visit Website →
-                  </a>
-                </div>
-              )}
-
-              {/* Suitability Preview */}
-              {suitability && suitabilityScore !== null && suitabilitySummary && (
-                <OpportunityDetailClient
-                  suitability={suitability}
-                  score={suitabilityScore}
-                  summary={suitabilitySummary}
-                />
-              )}
-            </aside>
+      {/* Key facts */}
+      <section aria-label="Key facts" className="wrap mt-8 md:mt-12">
+        <div className="border-y border-line md:grid md:grid-cols-12 md:gap-10">
+          <dl className="md:col-span-8 grid grid-cols-2 lg:grid-cols-4">
+            <FactCell fact={{ label: "Where", value: f.place.local || f.place.line || "", note: f.place.country }} />
+            {keyFacts.map((k) => (
+              <FactCell key={k.label} fact={k} />
+            ))}
+          </dl>
+          <div className="md:col-span-4 flex flex-col justify-center gap-2 py-5 md:py-6 md:border-l md:border-line md:pl-10 border-t md:border-t-0">
+            {f.website && (
+              <a href={f.website} target="_blank" rel="noopener noreferrer" className="btn-primary w-full">
+                Visit {hostOf(f.website)} <span aria-hidden="true">↗</span>
+              </a>
+            )}
+            {hasCoords && (
+              <Link href={`/opportunities/map?focus=${encodeURIComponent(o.id)}`} className="btn-ghost w-full">
+                See on the map
+              </Link>
+            )}
           </div>
         </div>
       </section>
 
-      {/* Related Opportunities */}
-      {relatedOpportunities.length > 0 && (
-        <section className="py-16 bg-warm-50">
-          <div className="max-w-6xl mx-auto px-8">
-            <h2 className="text-[10px] uppercase tracking-[0.2em] text-warm-400 mb-8">
-              {["school", "residency", "workshop", "apprenticeship"].includes(opportunity.type)
-                ? "Funding Opportunities"
-                : "Programs to Fund"}
-            </h2>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {relatedOpportunities.map((related) => (
-                <Link
-                  key={related.id}
-                  href={`/opportunities/${related.id}`}
-                  className="group block bg-white p-5 hover:shadow-md transition-shadow"
-                >
-                  <span className="inline-block text-[9px] uppercase tracking-wider text-warm-400 mb-2">
-                    {related.type}
-                  </span>
-                  <h3 className="text-sm font-medium text-charcoal group-hover:text-warm-700 transition-colors mb-2 line-clamp-2">
-                    {related.name}
-                  </h3>
-                  <p className="text-xs text-warm-500">
-                    {formatLocation(related.location)}
-                  </p>
-                </Link>
+      {/* Body */}
+      <div className="wrap mt-12 md:mt-16 md:grid md:grid-cols-12 md:gap-10">
+        <div className="md:col-span-7 space-y-12">
+          {(o.description || o.details) && (
+            <section>
+              <h2 className="eyebrow mb-4">About</h2>
+              {o.description && <p className="font-serif text-[1.45rem] md:text-[1.6rem] leading-snug text-ink text-pretty">{o.description}</p>}
+              {o.details && <p className="text-body-md text-ink-2 mt-5 max-w-prose leading-relaxed">{o.details}</p>}
+              {o.descriptionOriginal && (
+                <p className="text-body-sm italic text-ink-3 mt-4 max-w-prose" lang="es">
+                  “{o.descriptionOriginal}”
+                </p>
+              )}
+            </section>
+          )}
+
+          {o.goodFor && (
+            <section>
+              <h2 className="eyebrow mb-3">Good for</h2>
+              <p className="text-body-lg text-ink-2 max-w-prose">{o.goodFor}</p>
+            </section>
+          )}
+
+          {facilities.length > 0 && (
+            <section>
+              <h2 className="eyebrow mb-3">In the studio</h2>
+              <ul className="grid sm:grid-cols-2 gap-x-8">
+                {facilities.map((x, i) => (
+                  <li key={i} className="py-2.5 border-b border-line text-body-md text-ink-2">
+                    {x.charAt(0).toUpperCase() + x.slice(1)}
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          {focus.length > 0 && (
+            <section>
+              <h2 className="eyebrow mb-3">Focus</h2>
+              <ul className="flex flex-wrap gap-2">
+                {focus.map((x) => (
+                  <li key={x} className="tag">
+                    {x.charAt(0).toUpperCase() + x.slice(1)}
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+        </div>
+
+        <aside className="md:col-span-4 md:col-start-9 mt-12 md:mt-0 space-y-10">
+          {moreFacts.length > 0 && (
+            <dl className="space-y-6">
+              {moreFacts.map((m) => (
+                <div key={m.label}>
+                  <dt className="eyebrow mb-1.5">{m.label}</dt>
+                  <dd className="text-body-md text-ink">{m.value}</dd>
+                  {m.note && <dd className="text-body-sm text-ink-3 mt-1">{m.note}</dd>}
+                </div>
               ))}
-            </div>
+            </dl>
+          )}
+
+          {hasCoords && !img && (
+            <figure className="p-5" style={{ background: tint(color, 0.12) }}>
+              <LocationMark lat={f.place.lat} lng={f.place.lng} color={color} className="w-full text-ink-3" label={`Location: ${f.place.line}`} />
+              <figcaption className="flex justify-between mt-3 text-caption text-ink-3">
+                <span>{f.place.city || f.place.country}</span>
+                <span className="tabular-nums">
+                  {coordText(f.place.lat, f.place.lng)}
+                  {f.place.approximate ? " approx." : ""}
+                </span>
+              </figcaption>
+            </figure>
+          )}
+
+          {suitability && suitabilityScore !== null && suitabilitySummary && (
+            <OpportunityDetailClient suitability={suitability} score={suitabilityScore} summary={suitabilitySummary} />
+          )}
+        </aside>
+      </div>
+
+      {/* Related */}
+      {related.length > 0 && (
+        <section className="wrap mt-20 md:mt-28">
+          <h2 className="font-serif text-display-sm">{fundingFirst ? "Ways to fund it" : "Programmes it could fund"}</h2>
+          <p className="text-body-sm text-ink-3 mt-1">
+            {fundingFirst ? "Grants and scholarships in the same country or region." : "Schools and residencies nearby."}
+          </p>
+          <div className="mt-6 sm:mt-10 sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:gap-x-8 sm:gap-y-12">
+            {related.map((r) => (
+              <OpportunityCard key={r.id} opportunity={r} />
+            ))}
           </div>
         </section>
       )}
 
-      {/* Back Link */}
-      <section className="pb-24 pt-12">
-        <div className="max-w-6xl mx-auto px-8">
-          <Link
-            href="/opportunities"
-            className="inline-block py-3 -my-3 text-sm text-warm-500 hover:text-charcoal transition-colors"
-          >
-            ← Back to Opportunities
-          </Link>
-        </div>
-      </section>
+      {/* Provenance */}
+      {(f.sourceUrl || f.lastVerified) && (
+        <footer className="wrap mt-16 md:mt-20">
+          <p className="text-caption text-ink-3 border-t border-line pt-4">
+            {f.sourceUrl && (
+              <>
+                Source:{" "}
+                <a href={f.sourceUrl} target="_blank" rel="noopener noreferrer" className="link">
+                  {f.sourceLabel}
+                </a>
+              </>
+            )}
+            {f.sourceUrl && f.lastVerified && " · "}
+            {f.lastVerified && <>Last verified {prettyDate(f.lastVerified)}</>}
+          </p>
+        </footer>
+      )}
+    </article>
+  );
+}
+
+function FactCell({ fact }: { fact: Fact }) {
+  if (!fact.value) return null;
+  return (
+    <div className="py-5 pr-4">
+      <dt className="eyebrow mb-1.5">{fact.label}</dt>
+      <dd className="text-body-md text-ink leading-snug">{fact.value}</dd>
+      {fact.note && <dd className="text-caption text-ink-3 mt-1">{fact.note}</dd>}
     </div>
   );
 }

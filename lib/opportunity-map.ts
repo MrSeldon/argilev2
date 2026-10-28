@@ -34,26 +34,28 @@ export function inBayArea(lat: number, lng: number): boolean {
   );
 }
 
+// Earthy, distinguishable hues drawn from the studio palette (teal, celadon,
+// iron red, terracotta, ochre, ash).
 export const TYPE_HEX: Record<string, string> = {
-  school: "#3b82f6",
-  residency: "#22c55e",
-  grant: "#a855f7",
-  scholarship: "#ec4899",
-  fellowship: "#6366f1",
-  apprenticeship: "#f59e0b",
-  mentorship: "#f43f5e",
-  workshop: "#f97316",
-  internship: "#06b6d4",
-  studio: "#14b8a6",
-  artist: "#d946ef",
-  gallery: "#8b5cf6",
-  supplier: "#84cc16",
-  materials: "#ca8a04",
-  community: "#0ea5e9",
+  school: "#2E5552",
+  residency: "#6F8A5E",
+  grant: "#A4532A",
+  scholarship: "#C47A4E",
+  fellowship: "#7A3B2A",
+  apprenticeship: "#B08A3E",
+  mentorship: "#8E5A6B",
+  workshop: "#B4633F",
+  internship: "#4F7C86",
+  studio: "#3F4A3C",
+  artist: "#6B4E3D",
+  gallery: "#5A5F73",
+  supplier: "#8C8A5A",
+  materials: "#9C7B5B",
+  community: "#4E6E58",
 };
 
 export function typeHex(type: string): string {
-  return TYPE_HEX[type] || "#6b7280";
+  return TYPE_HEX[type] || "#6B655B";
 }
 
 /** All category labels an opportunity carries (single `category` and/or `categories[]`). */

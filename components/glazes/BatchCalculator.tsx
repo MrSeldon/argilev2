@@ -35,8 +35,9 @@ export function BatchCalculator({
               setSize(s);
               setCustom("");
             }}
-            className={`px-3 py-1.5 text-body-sm border transition-colors ${
-              !custom && size === s ? "bg-charcoal text-cream border-charcoal" : "border-warm-100 text-warm-700 hover:border-warm-300"
+            aria-pressed={!custom && size === s}
+            className={`min-h-11 min-w-11 px-3 text-body-sm border rounded-full transition-colors duration-400 ${
+              !custom && size === s ? "bg-ink text-paper border-ink" : "border-line text-ink-2 bg-paper-soft hover:border-line-strong"
             }`}
           >
             {s >= 1000 ? `${s / 1000} kg` : `${s} g`}
@@ -48,7 +49,7 @@ export function BatchCalculator({
             value={custom}
             onChange={(e) => setCustom(e.target.value.replace(/[^\d.]/g, ""))}
             placeholder="other"
-            className="w-20 px-2 py-1.5 border border-warm-100 bg-white text-charcoal focus:outline-none focus:border-warm-300"
+            className="w-20 min-h-11 px-3 rounded-full border border-line bg-paper-soft text-ink focus:outline-none focus:border-ink"
             aria-label="Custom batch size in grams"
           />
           g
@@ -64,11 +65,11 @@ export function BatchCalculator({
         </thead>
         <tbody>
           {rows.map((r, k) => (
-            <tr key={k} className="border-b border-warm-50 align-top">
+            <tr key={k} className="border-b border-line/60 align-top">
               <td className="py-1.5 pr-2">
-                <span className={shelf && shelf.length > 0 && !has(r) && r.kind !== "additive" ?"text-red-800" : ""}>{r.name}</span>
+                <span className={shelf && shelf.length > 0 && !has(r) && r.kind !== "additive" ?"text-rust" : ""}>{r.name}</span>
                 {r.add && <span className="ml-1 text-caption text-warm-500">+ addition</span>}
-                {r.variable && <span className="ml-1 text-caption text-amber-700">variable: test tile first</span>}
+                {r.variable && <span className="ml-1 text-caption text-terracotta-deep">variable: test tile first</span>}
                 {r.original && <span className="block text-caption text-warm-500">“{r.original}”</span>}
                 {!r.id && <span className="block text-caption text-warm-500">not in glossary</span>}
               </td>
@@ -89,7 +90,7 @@ export function BatchCalculator({
         </tfoot>
       </table>
       {shelf && shelf.length > 0 && rows.some((r) => !has(r) && r.kind !== "additive") && (
-        <p className="mt-2 text-caption text-red-800">Red = not on your shelf yet.</p>
+        <p className="mt-2 text-caption text-rust">Red = not on your shelf yet.</p>
       )}
     </div>
   );

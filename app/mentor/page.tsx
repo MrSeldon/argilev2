@@ -1,28 +1,26 @@
 import { MentorChat } from "@/components/mentor/MentorChat";
+import { PageHeader } from "@/components/site/PageHeader";
+import { PHOTOS } from "@/components/site/photos";
 
 export const metadata = {
-  title: "Mentor | Le Four Argile",
-  description: "Get personalized ceramics guidance from an AI mentor",
+  title: "Ask | Le Four Argile",
+  description: "Ask a ceramics mentor about technique, materials, glazes and firing.",
 };
 
 export default function MentorPage() {
   return (
-    <div className="min-h-screen flex flex-col">
-      {/* Hero Section - Shorter for chat context */}
-      <section className="relative h-[30vh] w-full bg-gradient-to-br from-rose-800 via-stone-800 to-stone-900">
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-8">
-          <h1 className="font-serif text-4xl md:text-5xl text-white tracking-tight mb-4">
-            Ceramics Mentor
-          </h1>
-          <p className="text-sm text-white/60 max-w-lg">
-            Ask questions about techniques, materials, glazes, firing, or anything else about your ceramics practice
-          </p>
+    <div className="min-h-[calc(100dvh-var(--chrome))] flex flex-col">
+      <PageHeader
+        eyebrow="Ask"
+        title="The mentor"
+        lede="Technique, materials, glazes, firing, or the studio itself. Ask the way you would ask someone at the next wheel."
+        photo={PHOTOS.hands}
+        photoOnPhone={false}
+      />
+      <section className="wrap flex-1 flex flex-col">
+        <div className="max-w-3xl w-full flex-1 flex flex-col">
+          <MentorChat />
         </div>
-      </section>
-
-      {/* Chat Section */}
-      <section className="flex-1 flex flex-col bg-cream">
-        <MentorChat />
       </section>
     </div>
   );

@@ -96,7 +96,7 @@ export function DescribeIt() {
         }}
         className="space-y-3"
       >
-        <label htmlFor="describe" className="block font-serif text-heading-lg md:text-display-sm leading-tight">
+        <label htmlFor="describe" className="block font-serif font-light text-[1.9rem] md:text-display-md leading-tight">
           Describe the glaze you want
         </label>
         <textarea
@@ -112,13 +112,13 @@ export function DescribeIt() {
           }}
           rows={3}
           placeholder="e.g. glossy green that breaks brown over texture"
-          className="w-full p-4 text-body-lg bg-white border border-warm-200 focus:outline-none focus:border-charcoal resize-none"
+          className="w-full p-4 text-body-lg bg-paper-soft border border-line-strong focus:outline-none focus:border-ink transition-colors duration-400 resize-none placeholder:text-ink-3/70"
         />
         <div className="flex flex-wrap gap-2 items-center">
           <button
             type="submit"
             disabled={busy || !q.trim()}
-            className="px-6 py-3 bg-charcoal text-cream text-body-sm uppercase tracking-wider disabled:opacity-40 hover:bg-charcoal-dark transition-colors"
+            className="btn-primary px-7"
           >
             {busy ? "Searching…" : "Find recipes"}
           </button>
@@ -127,7 +127,7 @@ export function DescribeIt() {
           )}
         </div>
 
-        <div className="flex flex-wrap gap-1.5 pt-1" role="group" aria-label="Cone">
+        <div className="flex flex-wrap gap-2 pt-1" role="group" aria-label="Cone">
           {(["any", "low", "mid", "high"] as ConeBand[]).map((b) => (
             <button
               key={b}
@@ -136,13 +136,14 @@ export function DescribeIt() {
                 setBand(b);
                 rerun({ band: b });
               }}
-              className={`px-3 py-1.5 text-body-sm border ${band === b ? "bg-charcoal text-cream border-charcoal" : "border-warm-100 text-warm-700 bg-white"}`}
+              aria-pressed={band === b}
+              className={`chip ${band === b ? "chip-on" : "chip-off"}`}
             >
               {b === "any" ? "Any cone" : CONE_BANDS[b].label}
             </button>
           ))}
         </div>
-        <label className="flex items-center gap-2 text-body-sm text-warm-700">
+        <label className="flex flex-wrap items-center gap-x-2 min-h-11 text-body-sm text-ink-2">
           <input
             type="checkbox"
             checked={onlyMine}
@@ -150,7 +151,7 @@ export function DescribeIt() {
               setOnlyMine(e.target.checked);
               rerun({ onlyMine: e.target.checked });
             }}
-            className="w-4 h-4"
+            className="w-4 h-4 accent-[#22211E]"
           />
           Only what I can make now
           <span className="text-warm-500">
@@ -164,7 +165,7 @@ export function DescribeIt() {
 
       {!hits && !busy && (
         <div className="mt-6">
-          <p className="text-caption uppercase tracking-wider text-warm-500 mb-2">Try</p>
+          <p className="eyebrow mb-3">Try</p>
           <div className="flex flex-wrap gap-2">
             {EXAMPLES.map((ex) => (
               <button
@@ -174,7 +175,7 @@ export function DescribeIt() {
                   setQ(ex);
                   run(ex);
                 }}
-                className="text-left text-body-sm px-3 py-2 bg-warm-50 hover:bg-warm-100 text-warm-700"
+                className="text-left text-body-sm min-h-11 px-4 py-2 rounded-full border border-line bg-paper-soft hover:border-line-strong text-ink-2 transition-colors duration-400"
               >
                 {ex}
               </button>
@@ -183,21 +184,21 @@ export function DescribeIt() {
         </div>
       )}
 
-      {err && <p className="mt-6 text-body-sm text-red-800">{err}</p>}
+      {err && <p className="mt-6 text-body-sm text-rust">{err}</p>}
 
       {hits && (
         <section ref={resultsRef} className="mt-8 scroll-mt-4" aria-live="polite">
-          <p className="text-caption uppercase tracking-wider text-warm-500 mb-3">
+          <p className="eyebrow mb-4">
             {hits.length ? `Closest matches for “${lastQ.current}”` : "No matches - try fewer filters"}
             {mode === "keyword" && hits.length > 0 && " · keyword search (the model didn’t load)"}
           </p>
-          <div className="space-y-3">
+          <div className="space-y-4">
             {hits.slice(0, limit).map((h, k) => (
               <RecipeCard key={h.recipe.code} hit={h} rank={k} goal={lastQ.current} shelf={shelf} groupOf={groupOf} />
             ))}
           </div>
           {hits.length > limit && (
-            <button type="button" onClick={() => setLimit((l) => l + 8)} className="mt-4 w-full py-3 border border-warm-100 text-body-sm text-warm-700 bg-white">
+            <button type="button" onClick={() => setLimit((l) => l + 8)} className="btn-secondary mt-6 w-full">
               Show more
             </button>
           )}

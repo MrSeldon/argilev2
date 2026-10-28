@@ -1,199 +1,77 @@
 import Link from "next/link";
-import Image from "next/image";
 import { getInspirations } from "@/lib/data";
+import { PageHeader } from "@/components/site/PageHeader";
+import { PHOTOS } from "@/components/site/photos";
+import { ChipScroller } from "@/components/site/ChipScroller";
+import { ExploreNav } from "@/components/opportunities/ExploreNav";
+import { InspirationCard } from "@/components/inspirations/InspirationCard";
+import { CATEGORIES, allItems, isCategory } from "@/components/inspirations/model";
+import { categoryColor } from "@/components/design/palette";
 
 export const metadata = {
-  title: "Inspirations | Le Four Argile",
-  description: "A curated collection of ceramics traditions, artists, techniques, and ideas",
+  title: "Inspiration | Le Four Argile",
+  description: "Traditions, artists, places, surfaces, techniques and ideas from the long history of clay.",
 };
 
-interface InspirationItem {
-  id: string;
-  name: string;
-  origin?: string;
-  period?: string;
-  hasImage?: boolean;
-  imageUrl?: string;
-  fallbackColor?: string;
-  visualCaption?: string;
-  story?: {
-    hook?: string;
-  };
-  tags?: string[];
-}
-
-interface SearchParams {
-  category?: string;
-}
-
-export default async function InspirationsPage({
-  searchParams,
-}: {
-  searchParams: Promise<SearchParams>;
-}) {
-  const params = await searchParams;
+export default async function InspirationsPage({ searchParams }: { searchParams: Promise<{ category?: string }> }) {
+  const { category } = await searchParams;
   const data = await getInspirations();
-
-  const categories = [
-    { key: "traditions", label: "Traditions" },
-    { key: "artists", label: "Artists" },
-    { key: "places", label: "Places" },
-    { key: "surfaces", label: "Surfaces" },
-    { key: "techniques", label: "Techniques" },
-    { key: "ideas", label: "Ideas" },
-    { key: "moments", label: "Moments" },
-  ];
-
-  // Get all items or filter by category
-  let items: Array<InspirationItem & { category: string }> = [];
-
-  if (params.category && params.category !== "all") {
-    const categoryData = data[params.category as keyof typeof data] as InspirationItem[] | undefined;
-    if (categoryData) {
-      items = categoryData.map((item) => ({ ...item, category: params.category! }));
-    }
-  } else {
-    // Get all items from all categories
-    for (const cat of categories) {
-      const categoryData = data[cat.key as keyof typeof data] as InspirationItem[] | undefined;
-      if (categoryData) {
-        items.push(...categoryData.map((item) => ({ ...item, category: cat.key })));
-      }
-    }
-  }
+  const everything = allItems(data);
+  const active = isCategory(category) ? category! : undefined;
+  const items = active ? everything.filter((i) => i.category === active) : everything;
 
   return (
     <div>
-      {/* Hero Section */}
-      <section className="relative h-[50vh] w-full bg-gradient-to-br from-stone-600 via-stone-700 to-stone-800">
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
-          <h1 className="font-serif text-5xl md:text-6xl text-white tracking-tight">
-            Inspirations
-          </h1>
-        </div>
-      </section>
+      <PageHeader
+        eyebrow="Explore"
+        title="Inspiration"
+        lede="Traditions, makers, places and surfaces from sixteen thousand years of clay. A slow shelf to wander."
+        photo={PHOTOS.onta}
+        photoOnPhone={false}
+      >
+        <ExploreNav active="/inspirations" />
+      </PageHeader>
 
-      {/* Category Filter */}
-      <section className="py-12 border-b border-warm-100">
-        <div className="flex justify-center items-center gap-4 text-xs uppercase tracking-widest flex-wrap px-5 md:px-8">
-          <Link
-            href="/inspirations"
-            className={`py-3 -my-3 px-2 md:px-0 transition-opacity hover:opacity-100 ${
-              !params.category || params.category === "all"
-                ? "opacity-100"
-                : "opacity-40"
-            }`}
-          >
-            All
+      <section className="wrap mt-6 md:mt-8" aria-label="Filters">
+        <ChipScroller label="Filter by category">
+          <Link href="/inspirations" aria-current={!active ? "page" : undefined} className={`chip ${!active ? "chip-on" : "chip-off"}`} scroll={false}>
+            All <span className="opacity-60 tabular-nums">{everything.length}</span>
           </Link>
-          {categories.map((cat) => (
-            <span key={cat.key} className="flex items-center gap-4">
-              <span className="text-warm-200">|</span>
+          {CATEGORIES.map((c) => {
+            const on = active === c.key;
+            const n = everything.filter((i) => i.category === c.key).length;
+            return (
               <Link
-                href={`/inspirations?category=${cat.key}`}
-                className={`py-3 -my-3 px-2 md:px-0 transition-opacity hover:opacity-100 ${
-                  params.category === cat.key ? "opacity-100" : "opacity-40"
-                }`}
+                key={c.key}
+                href={`/inspirations?category=${c.key}`}
+                aria-current={on ? "page" : undefined}
+                className={`chip ${on ? "chip-on" : "chip-off"}`}
+                scroll={false}
               >
-                {cat.label}
+                <span className="block w-1.5 h-1.5 rounded-full" style={{ background: categoryColor(c.key) }} aria-hidden="true" />
+                {c.label} <span className="opacity-60 tabular-nums">{n}</span>
               </Link>
-            </span>
-          ))}
-          <span className="text-warm-200">|</span>
-          <Link
-            href="/inspirations/connections"
-            className="py-3 -my-3 px-2 md:px-0 opacity-40 hover:opacity-100 transition-opacity"
-          >
-            Connections
+            );
+          })}
+        </ChipScroller>
+
+        <div className="flex items-baseline justify-between gap-6 mt-5 pb-3 border-b border-line">
+          <p className="text-body-sm text-ink-2">
+            {items.length} {items.length === 1 ? "entry" : "entries"}
+          </p>
+          <Link href="/inspirations/connections" className="link-quiet">
+            How they connect <span aria-hidden="true">→</span>
           </Link>
         </div>
       </section>
 
-      {/* Results Count */}
-      <section className="pt-8 pb-4">
-        <div className="max-w-6xl mx-auto px-8">
-          <p className="text-center text-sm text-warm-500">
-            {items.length} inspirations
-          </p>
-        </div>
-      </section>
-
-      {/* Grid */}
-      <section className="pb-24 pt-4">
-        <div className="max-w-6xl mx-auto px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12">
-            {items.map((item) => (
-              <InspirationCard key={`${item.category}-${item.id}`} item={item} />
-            ))}
-          </div>
-
-          {items.length === 0 && (
-            <div className="text-center py-24">
-              <p className="text-warm-500">No items found</p>
-            </div>
-          )}
+      <section className="wrap mt-8 md:mt-12">
+        <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 gap-y-10 sm:gap-x-8 sm:gap-y-14">
+          {items.map((item, i) => (
+            <InspirationCard key={`${item.category}-${item.id}`} item={item} priority={i < 4} />
+          ))}
         </div>
       </section>
     </div>
-  );
-}
-
-function InspirationCard({
-  item,
-}: {
-  item: InspirationItem & { category: string };
-}) {
-  // Category-based gradients
-  const categoryGradients: Record<string, string> = {
-    traditions: "from-amber-700 via-stone-700 to-stone-800",
-    artists: "from-rose-700 via-stone-700 to-stone-800",
-    places: "from-emerald-700 via-stone-700 to-stone-800",
-    surfaces: "from-slate-600 via-stone-700 to-stone-800",
-    techniques: "from-orange-700 via-stone-700 to-stone-800",
-    ideas: "from-purple-700 via-stone-700 to-stone-800",
-    moments: "from-blue-700 via-stone-700 to-stone-800",
-  };
-
-  const gradient = categoryGradients[item.category] || "from-stone-600 via-stone-700 to-stone-800";
-
-  return (
-    <Link
-      href={`/inspirations/${item.category}/${item.id}`}
-      className="group block"
-    >
-      {/* Image or Color Block */}
-      <div className="aspect-[4/3] overflow-hidden mb-4 relative">
-        {item.hasImage && item.imageUrl ? (
-          <Image
-            src={item.imageUrl}
-            alt={item.name}
-            fill
-            className="object-cover transition-transform duration-500 group-hover:scale-[1.02]"
-          />
-        ) : (
-          <div
-            className={`w-full h-full bg-gradient-to-br ${gradient} transition-transform duration-500 group-hover:scale-[1.02]`}
-            style={item.fallbackColor ? { backgroundColor: item.fallbackColor } : undefined}
-          >
-            <div className="w-full h-full flex items-end p-4">
-              <span className="text-white/40 text-xs uppercase tracking-wider">
-                {item.category}
-              </span>
-            </div>
-          </div>
-        )}
-      </div>
-
-      {/* Content */}
-      <h3 className="text-center text-sm tracking-wide uppercase mb-1">
-        {item.name}
-      </h3>
-
-      {(item.origin || item.period) && (
-        <p className="text-center text-xs text-warm-500">
-          {[item.origin, item.period].filter(Boolean).join(" · ")}
-        </p>
-      )}
-    </Link>
   );
 }

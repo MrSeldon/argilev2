@@ -10,71 +10,35 @@ interface OpportunityDetailClientProps {
   summary: string;
 }
 
-export function OpportunityDetailClient({
-  suitability,
-  score,
-  summary,
-}: OpportunityDetailClientProps) {
+export function OpportunityDetailClient({ suitability, score, summary }: OpportunityDetailClientProps) {
   const [isModalOpen, setIsModalOpen] = useState(false);
-
-  // Get score color for badge
-  const getScoreColor = (score: number) => {
-    if (score >= 70) return "bg-emerald-100 text-emerald-800 border-emerald-200";
-    if (score >= 50) return "bg-amber-100 text-amber-800 border-amber-200";
-    return "bg-stone-100 text-stone-700 border-stone-200";
-  };
 
   return (
     <>
-      {/* Discover This Place Button */}
-      <div className="border-t border-warm-100 pt-8 mt-8">
-        <button
-          onClick={() => setIsModalOpen(true)}
-          className="w-full group"
-        >
-          <div className="flex items-center justify-between p-6 bg-warm-50 hover:bg-warm-100 transition-colors">
-            <div className="text-left">
-              <p className="text-xs uppercase tracking-widest text-warm-400 mb-1">
-                Suitability Index
-              </p>
-              <p className="font-serif text-lg text-charcoal">
-                Discover this place
-              </p>
-            </div>
-            <div className="flex items-center gap-4">
-              {/* Score Badge */}
-              <div
-                className={`w-12 h-12 rounded-full flex items-center justify-center border ${getScoreColor(
-                  score
-                )}`}
-              >
-                <span className="text-lg font-serif">{score}</span>
-              </div>
-              {/* Arrow */}
-              <svg
-                className="w-5 h-5 text-warm-400 group-hover:text-charcoal transition-colors"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={1.5}
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </div>
-          </div>
-        </button>
-      </div>
+      <button
+        type="button"
+        onClick={() => setIsModalOpen(true)}
+        className="group w-full text-left border border-line bg-paper-soft hover:border-line-strong transition-colors duration-400 p-5"
+      >
+        <span className="flex items-center justify-between gap-4">
+          <span>
+            <span className="eyebrow block mb-1">Living there</span>
+            <span className="font-serif text-heading-lg block leading-tight">Discover this place</span>
+            {summary && <span className="block text-body-sm text-ink-3 mt-1.5 line-clamp-2">{summary}</span>}
+          </span>
+          <span className="flex flex-col items-center shrink-0">
+            <span className="w-14 h-14 rounded-full border border-celadon-deep/50 flex items-center justify-center font-serif text-[1.5rem] text-celadon-deep">
+              {score}
+            </span>
+            <span className="text-[10px] uppercase tracking-[0.14em] text-ink-3 mt-1">of 100</span>
+          </span>
+        </span>
+        <span className="mt-3 inline-flex items-center gap-1.5 text-label uppercase text-ink-2 group-hover:text-terracotta-deep transition-colors duration-400">
+          Climate, costs, community <span aria-hidden="true">→</span>
+        </span>
+      </button>
 
-      {isModalOpen && (
-        <SuitabilityModalV1
-          locationData={suitability}
-          onClose={() => setIsModalOpen(false)}
-        />
-      )}
+      {isModalOpen && <SuitabilityModalV1 locationData={suitability} onClose={() => setIsModalOpen(false)} />}
     </>
   );
 }

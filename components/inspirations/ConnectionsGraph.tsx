@@ -92,7 +92,7 @@ export function ConnectionsGraph({ nodes, links }: ConnectionsGraphProps) {
       .selectAll("line")
       .data(linksCopy)
       .join("line")
-      .attr("stroke", "#cbc7c1")
+      .attr("stroke", "#CBBFAB")
       .attr("stroke-opacity", 0.6)
       .attr("stroke-width", 1);
 
@@ -128,7 +128,7 @@ export function ConnectionsGraph({ nodes, links }: ConnectionsGraphProps) {
       .append("circle")
       .attr("r", 12)
       .attr("fill", (d) => d.color)
-      .attr("stroke", "#fff")
+      .attr("stroke", "#FBF8F3")
       .attr("stroke-width", 2)
       .on("click", (event, d) => {
         setSelectedNode(d);
@@ -152,7 +152,7 @@ export function ConnectionsGraph({ nodes, links }: ConnectionsGraphProps) {
       .attr("x", 16)
       .attr("y", 4)
       .attr("font-size", "11px")
-      .attr("fill", "#5f5852")
+      .attr("fill", "#4A463F")
       .attr("pointer-events", "none");
 
     // Update positions on tick
@@ -183,7 +183,7 @@ export function ConnectionsGraph({ nodes, links }: ConnectionsGraphProps) {
 
       {/* Selected Node Info */}
       {selectedNode && (
-        <div className="absolute top-4 right-4 card p-4 max-w-xs animate-fade-in">
+        <div className="absolute top-4 right-4 left-4 sm:left-auto bg-paper-soft border border-line shadow-card p-4 sm:max-w-xs animate-fade-in">
           <div className="flex items-start gap-3">
             <div
               className="w-4 h-4 rounded-full shrink-0 mt-1"
@@ -196,7 +196,7 @@ export function ConnectionsGraph({ nodes, links }: ConnectionsGraphProps) {
               </p>
               <a
                 href={`/inspirations/${selectedNode.category}/${selectedNode.id}`}
-                className="text-body-sm text-glaze-600 hover:text-glaze-700"
+                className="inline-flex items-center min-h-11 text-label uppercase text-ink-2 hover:text-terracotta-deep"
               >
                 View details &rarr;
               </a>

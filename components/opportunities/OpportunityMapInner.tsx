@@ -19,24 +19,21 @@ import {
   type MapOpportunity,
   type MapScope,
 } from "@/lib/opportunity-map";
+import { ChipScroller } from "@/components/site/ChipScroller";
+import { isUnconfirmed, prettyDate, typeLabel } from "./facts";
 
 interface Props {
   opportunities: Opportunity[];
   initialScope?: MapScope;
+  initialSelected?: string;
 }
 
-type View = "map" | "list";
-
-export default function OpportunityMapInner({
-  opportunities,
-  initialScope = "bay",
-}: Props) {
+export default function OpportunityMapInner({ opportunities, initialScope = "bay", initialSelected }: Props) {
   const all = opportunities as MapOpportunity[];
   const [scope, setScope] = useState<MapScope>(initialScope);
-  const [view, setView] = useState<View>("map");
   const [types, setTypes] = useState<string[]>([]);
   const [cats, setCats] = useState<string[]>([]);
-  const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [selectedId, setSelectedId] = useState<string | null>(initialSelected || null);
 
   const changeScope = (s: MapScope) => {
     setScope(s);
@@ -45,6 +42,7 @@ export default function OpportunityMapInner({
       const url = new URL(window.location.href);
       if (s === "world") url.searchParams.set("scope", "world");
       else url.searchParams.delete("scope");
+      url.searchParams.delete("focus");
       window.history.replaceState(window.history.state, "", url.toString());
     } catch {
       /* non-critical */
@@ -70,9 +68,7 @@ export default function OpportunityMapInner({
 
   const categoryOptions = useMemo(() => {
     const counts = new Map<string, number>();
-    scoped.forEach((o) =>
-      categoriesOf(o).forEach((c) => counts.set(c, (counts.get(c) || 0) + 1))
-    );
+    scoped.forEach((o) => categoriesOf(o).forEach((c) => counts.set(c, (counts.get(c) || 0) + 1)));
     return [...counts.entries()].sort((a, b) => b[1] - a[1]);
   }, [scoped]);
 
@@ -80,17 +76,13 @@ export default function OpportunityMapInner({
     () =>
       scoped.filter((o) => {
         if (types.length && !types.includes(o.type)) return false;
-        if (cats.length && !categoriesOf(o).some((c) => cats.includes(c)))
-          return false;
+        if (cats.length && !categoriesOf(o).some((c) => cats.includes(c))) return false;
         return true;
       }),
     [scoped, types, cats]
   );
 
-  const selected = useMemo(
-    () => filtered.find((o) => o.id === selectedId) || null,
-    [filtered, selectedId]
-  );
+  const selected = useMemo(() => filtered.find((o) => o.id === selectedId) || null, [filtered, selectedId]);
 
   const toggle = (list: string[], set: (v: string[]) => void, v: string) =>
     set(list.includes(v) ? list.filter((x) => x !== v) : [...list, v]);
@@ -100,123 +92,70 @@ export default function OpportunityMapInner({
     setCats([]);
   };
 
-  const showOnMap = (id: string) => {
-    setSelectedId(id);
-    setView("map");
-  };
-
   return (
     <div className="flex flex-col flex-1 min-h-0">
       {/* Toolbar */}
-      <div className="border-b border-warm-100 bg-cream py-2 space-y-2">
-        <div className="flex gap-2 px-5 md:px-8 max-w-6xl mx-auto w-full">
-          <Segmented
-            label="Area"
-            value={scope}
-            onChange={(v) => changeScope(v as MapScope)}
-            options={[
-              { value: "bay", label: "Bay Area" },
-              { value: "world", label: "World" },
-            ]}
-          />
-          <Segmented
-            label="View"
-            value={view}
-            onChange={(v) => setView(v as View)}
-            options={[
-              { value: "map", label: "Map" },
-              { value: "list", label: "List" },
-            ]}
-          />
-        </div>
+      <div className="wrap shrink-0 pb-3 space-y-2">
+        <Segmented
+          label="Area"
+          value={scope}
+          onChange={(v) => changeScope(v as MapScope)}
+          options={[
+            { value: "bay", label: "Bay Area" },
+            { value: "world", label: "World" },
+          ]}
+        />
 
-        <ChipRow label="Filter by type">
+        <ChipScroller label="Filter by type">
           <Chip active={types.length === 0} onClick={() => setTypes([])}>
-            All
+            All types
           </Chip>
           {typeOptions.map(([t, n]) => (
-            <Chip
-              key={t}
-              active={types.includes(t)}
-              onClick={() => toggle(types, setTypes, t)}
-              dot={typeHex(t)}
-            >
-              {t} <span className="opacity-60">{n}</span>
+            <Chip key={t} active={types.includes(t)} onClick={() => toggle(types, setTypes, t)} dot={typeHex(t)}>
+              {typeLabel(t)} <span className="opacity-60 tabular-nums">{n}</span>
             </Chip>
           ))}
-        </ChipRow>
+        </ChipScroller>
 
         {categoryOptions.length > 0 && (
-          <ChipRow label="Filter by category">
+          <ChipScroller label="Filter by category">
             <Chip active={cats.length === 0} onClick={() => setCats([])}>
               Any category
             </Chip>
             {categoryOptions.map(([c, n]) => (
-              <Chip
-                key={c}
-                active={cats.includes(c)}
-                onClick={() => toggle(cats, setCats, c)}
-              >
-                {titleCase(c)} <span className="opacity-60">{n}</span>
+              <Chip key={c} active={cats.includes(c)} onClick={() => toggle(cats, setCats, c)}>
+                {titleCase(c)} <span className="opacity-60 tabular-nums">{n}</span>
               </Chip>
             ))}
-          </ChipRow>
+          </ChipScroller>
         )}
       </div>
 
-      {/* Body */}
-      <div className="relative flex-1 min-h-[320px]">
-        {view === "map" ? (
-          <>
-            <LeafletCanvas
-              scope={scope}
-              items={filtered}
-              selectedId={selected?.id ?? null}
-              onSelect={setSelectedId}
-              onBackground={() => setSelectedId(null)}
-            />
+      {/* Map */}
+      <div className="relative flex-1 min-h-[320px] border-t border-line">
+        <LeafletCanvas
+          scope={scope}
+          items={filtered}
+          selectedId={selected?.id ?? null}
+          onSelect={setSelectedId}
+          onBackground={() => setSelectedId(null)}
+        />
 
-            <div className="absolute top-3 left-3 z-[500] bg-white/95 shadow-subtle px-3 py-2 text-xs text-warm-700 pointer-events-none">
-              {filtered.length} {filtered.length === 1 ? "place" : "places"}
-              {scope === "bay" ? " in the Bay Area" : " worldwide"}
-            </div>
+        <div className="absolute top-3 left-3 z-[500] bg-paper-soft/95 border border-line px-3 py-2 text-caption text-ink-2 pointer-events-none">
+          {filtered.length} {filtered.length === 1 ? "place" : "places"}
+          {scope === "bay" ? " in the Bay Area" : " worldwide"}
+        </div>
 
-            {filtered.length === 0 && (
-              <EmptyState
-                scope={scope}
-                onReset={resetFilters}
-                onWorld={() => changeScope("world")}
-                className="absolute inset-x-0 top-1/3 z-[500] px-6"
-              />
-            )}
-
-            {selected && (
-              <PinSheet opp={selected} onClose={() => setSelectedId(null)} />
-            )}
-          </>
-        ) : (
-          <div className="absolute inset-0 overflow-y-auto bg-cream">
-            <div className="max-w-6xl mx-auto px-5 md:px-8 pb-10">
-              <p className="py-3 text-xs text-warm-500">
-                {filtered.length} {filtered.length === 1 ? "place" : "places"}
-                {scope === "bay" ? " in the Bay Area" : " worldwide"}
-              </p>
-              {filtered.length === 0 ? (
-                <EmptyState
-                  scope={scope}
-                  onReset={resetFilters}
-                  onWorld={() => changeScope("world")}
-                />
-              ) : (
-                <ul className="md:grid md:grid-cols-2 md:gap-x-10">
-                  {filtered.map((o) => (
-                    <ListRow key={o.id} opp={o} onShowOnMap={showOnMap} />
-                  ))}
-                </ul>
-              )}
-            </div>
-          </div>
+        {filtered.length === 0 && (
+          <EmptyState
+            scope={scope}
+            onReset={resetFilters}
+            onWorld={() => changeScope("world")}
+            className="absolute inset-x-0 top-1/3 z-[500] px-6"
+          />
         )}
+
+        {selected && <PinSheet opp={selected} onClose={() => setSelectedId(null)} />}
       </div>
     </div>
   );
@@ -264,8 +203,7 @@ function LeafletCanvas({
       zoom: 9,
     });
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      attribution:
-        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
       maxZoom: 19,
     }).addTo(map);
     L.control.zoom({ position: "topright" }).addTo(map);
@@ -290,7 +228,8 @@ function LeafletCanvas({
     const map = mapRef.current;
     if (!map || !ready) return;
     map.invalidateSize();
-    const animate = !firstFit.current;
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const animate = !firstFit.current && !reduce;
     if (scope === "bay") {
       map.fitBounds(BAY_BOUNDS, { padding: [8, 8], animate });
     } else {
@@ -310,14 +249,14 @@ function LeafletCanvas({
       const c = o.location.coordinates;
       if (!c) return;
       const selected = o.id === selectedId;
-      const dot = selected ? 30 : scope === "bay" ? 24 : 16;
-      const hit = scope === "bay" ? 44 : 32;
-      const ring = selected ? "0 0 0 5px rgba(45,45,42,0.28)," : "";
+      const dot = selected ? 26 : scope === "bay" ? 18 : 13;
+      const hit = 44;
+      const ring = selected ? "0 0 0 6px rgba(34,33,30,0.18)," : "";
       const icon = L.divIcon({
         className: "argile-pin",
         html: `<div style="width:${hit}px;height:${hit}px;display:flex;align-items:center;justify-content:center"><div style="width:${dot}px;height:${dot}px;background:${typeHex(
           o.type
-        )};border:2.5px solid #fff;border-radius:50%;box-shadow:${ring}0 2px 5px rgba(0,0,0,0.35)"></div></div>`,
+        )};border:2px solid #FBF8F3;border-radius:50%;box-shadow:${ring}0 1px 4px rgba(34,33,30,0.35)"></div></div>`,
         iconSize: [hit, hit],
         iconAnchor: [hit / 2, hit / 2],
       });
@@ -336,13 +275,14 @@ function LeafletCanvas({
   useEffect(() => {
     const map = mapRef.current;
     const sel = items.find((o) => o.id === selectedId)?.location.coordinates;
-    if (!map || !sel) return;
-    const z = map.getZoom();
+    if (!map || !sel || !ready) return;
+    const z = Math.max(map.getZoom(), scope === "world" ? 3 : map.getZoom());
     const p = map.project([sel.lat, sel.lng], z);
     if (map.getSize().x < 768) p.y += Math.min(150, map.getSize().y * 0.25);
-    map.setView(map.unproject(p, z), z, { animate: true });
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    map.setView(map.unproject(p, z), z, { animate: !reduce });
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedId]);
+  }, [selectedId, ready]);
 
   return <div ref={elRef} className="absolute inset-0 z-0" />;
 }
@@ -351,13 +291,7 @@ function LeafletCanvas({
 /* Bottom sheet (phones) / side card (desktop)                                */
 /* -------------------------------------------------------------------------- */
 
-function PinSheet({
-  opp,
-  onClose,
-}: {
-  opp: MapOpportunity;
-  onClose: () => void;
-}) {
+function PinSheet({ opp, onClose }: { opp: MapOpportunity; onClose: () => void }) {
   const src = sourceUrl(opp);
   const address = addressOf(opp);
   const cats = categoriesOf(opp);
@@ -372,119 +306,57 @@ function PinSheet({
     <aside
       role="dialog"
       aria-label={opp.name}
-      className="absolute z-[1100] bottom-0 inset-x-0 max-h-[62%] overflow-y-auto bg-white shadow-elevated rounded-t-2xl px-5 pt-3 pb-5 md:inset-x-auto md:right-4 md:bottom-4 md:w-[380px] md:max-h-[80%] md:rounded-card"
+      className="absolute z-[1100] bottom-0 inset-x-0 max-h-[62%] overflow-y-auto bg-paper-soft shadow-elevated rounded-t-2xl px-5 pt-3 pb-5 animate-rise-in md:inset-x-auto md:right-4 md:bottom-4 md:w-[380px] md:max-h-[80%] md:rounded-card"
     >
-      <div className="mx-auto mb-2 h-1 w-10 rounded-full bg-warm-100 md:hidden" aria-hidden="true" />
+      <div className="mx-auto mb-2 h-1 w-10 rounded-full bg-line md:hidden" aria-hidden="true" />
       <div className="flex items-start justify-between gap-3">
         <div className="min-w-0">
-          <div className="flex flex-wrap items-center gap-2 mb-2">
-            <span
-              className="inline-flex items-center gap-1.5 text-[11px] uppercase tracking-wider text-warm-700"
-            >
-              <span
-                className="inline-block w-2.5 h-2.5 rounded-full"
-                style={{ background: typeHex(opp.type) }}
-              />
-              {opp.type}
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mb-2">
+            <span className="eyebrow text-ink-2 inline-flex items-center gap-2">
+              <span className="inline-block w-2 h-2 rounded-full" style={{ background: typeHex(opp.type) }} />
+              {typeLabel(opp.type)}
             </span>
-            {cats.map((c) => (
-              <span key={c} className="tag !py-0.5 !px-2 !text-[10px]">
-                {titleCase(c)}
-              </span>
-            ))}
+            {cats
+              .filter((c) => c !== opp.type)
+              .map((c) => (
+                <span key={c} className="text-caption text-ink-3">
+                  {titleCase(c)}
+                </span>
+              ))}
           </div>
-          <h2 className="font-serif text-xl leading-snug">{opp.name}</h2>
-          {opp.nameEnglish && (
-            <p className="text-xs italic text-warm-500">{opp.nameEnglish}</p>
-          )}
+          <h2 className="font-serif text-[1.5rem] leading-tight">{opp.name}</h2>
+          {opp.nameEnglish && <p className="text-caption italic text-ink-3">{opp.nameEnglish}</p>}
         </div>
         <button
           type="button"
           onClick={onClose}
           aria-label="Close"
-          className="-mt-2 -mr-3 shrink-0 w-11 h-11 flex items-center justify-center text-warm-500"
+          className="-mt-2 -mr-3 shrink-0 w-11 h-11 flex items-center justify-center text-ink-3 hover:text-ink"
         >
-          <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
-            <path d="M3 3l12 12M15 3L3 15" stroke="currentColor" strokeWidth="1.5" fill="none" />
+          <svg width="16" height="16" viewBox="0 0 18 18" aria-hidden="true">
+            <path d="M3 3l12 12M15 3L3 15" stroke="currentColor" strokeWidth="1.3" fill="none" />
           </svg>
         </button>
       </div>
 
-      <p className="text-sm text-warm-500 mt-1">{address || formatLocation(opp.location)}</p>
-      {address && (
-        <p className="text-xs text-warm-500">{formatLocation(opp.location)}</p>
-      )}
+      <p className="text-body-sm text-ink-2 mt-1">{address || formatLocation(opp.location)}</p>
+      {address && <p className="text-caption text-ink-3">{formatLocation(opp.location)}</p>}
+      {isUnconfirmed(opp as Opportunity) && <p className="text-caption italic text-ink-3 mt-1">Not recently confirmed</p>}
 
-      {opp.description && (
-        <p className="text-sm text-warm-700 mt-3 line-clamp-4">{opp.description}</p>
-      )}
+      {opp.description && <p className="text-body-sm text-ink-2 mt-3 line-clamp-4">{opp.description}</p>}
 
       <div className="flex gap-2 mt-4">
-        <Link
-          href={`/opportunities/${opp.id}`}
-          className="flex-1 inline-flex items-center justify-center min-h-11 px-4 text-xs uppercase tracking-wider bg-charcoal text-cream"
-        >
+        <Link href={`/opportunities/${opp.id}`} className="btn-primary flex-1">
           View details
         </Link>
         {src && (
-          <a
-            href={src}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex-1 inline-flex items-center justify-center min-h-11 px-4 text-xs uppercase tracking-wider border border-charcoal text-charcoal"
-          >
-            {sourceLabel(opp) === "Source" ? "Source" : sourceLabel(opp)} &#8599;
+          <a href={src} target="_blank" rel="noopener noreferrer" className="btn-secondary flex-1">
+            {sourceLabel(opp) === "Source" ? "Website" : sourceLabel(opp)} <span aria-hidden="true">↗</span>
           </a>
         )}
       </div>
-      {opp.lastVerified && (
-        <p className="text-[11px] text-warm-500 mt-3">Last verified {opp.lastVerified}</p>
-      )}
+      {opp.lastVerified && <p className="text-[11px] text-ink-3 mt-3">Last verified {prettyDate(opp.lastVerified)}</p>}
     </aside>
-  );
-}
-
-/* -------------------------------------------------------------------------- */
-/* List view                                                                  */
-/* -------------------------------------------------------------------------- */
-
-function ListRow({
-  opp,
-  onShowOnMap,
-}: {
-  opp: MapOpportunity;
-  onShowOnMap: (id: string) => void;
-}) {
-  return (
-    <li className="flex items-stretch border-b border-warm-100">
-      <Link
-        href={`/opportunities/${opp.id}`}
-        className="flex-1 min-w-0 py-4 min-h-[64px] block"
-      >
-        <span className="flex items-center gap-1.5 text-[11px] uppercase tracking-wider text-warm-500 mb-1">
-          <span
-            className="inline-block w-2.5 h-2.5 rounded-full"
-            style={{ background: typeHex(opp.type) }}
-          />
-          {opp.type}
-        </span>
-        <span className="block text-sm tracking-wide uppercase">{opp.name}</span>
-        <span className="block text-xs text-warm-500 mt-0.5">
-          {addressOf(opp) || formatLocation(opp.location)}
-        </span>
-      </Link>
-      <button
-        type="button"
-        onClick={() => onShowOnMap(opp.id)}
-        aria-label={`Show ${opp.name} on map`}
-        className="shrink-0 w-12 flex items-center justify-center text-warm-500"
-      >
-        <svg width="18" height="20" viewBox="0 0 18 20" fill="none" stroke="currentColor" strokeWidth="1.4" aria-hidden="true">
-          <path d="M9 19s6-5.4 6-10a6 6 0 10-12 0c0 4.6 6 10 6 10z" />
-          <circle cx="9" cy="9" r="2" />
-        </svg>
-      </button>
-    </li>
   );
 }
 
@@ -501,22 +373,14 @@ function EmptyState({
 }) {
   return (
     <div className={className}>
-      <div className="bg-white shadow-card p-5 text-center max-w-sm mx-auto">
-        <p className="text-sm text-warm-700 mb-3">No places match these filters.</p>
+      <div className="bg-paper-soft shadow-card p-5 text-center max-w-sm mx-auto">
+        <p className="text-body-sm text-ink-2 mb-3">No places match these filters.</p>
         <div className="flex gap-2 justify-center">
-          <button
-            type="button"
-            onClick={onReset}
-            className="min-h-11 px-4 text-xs uppercase tracking-wider border border-charcoal"
-          >
+          <button type="button" onClick={onReset} className="btn-secondary">
             Clear filters
           </button>
           {scope === "bay" && (
-            <button
-              type="button"
-              onClick={onWorld}
-              className="min-h-11 px-4 text-xs uppercase tracking-wider bg-charcoal text-cream"
-            >
+            <button type="button" onClick={onWorld} className="btn-primary">
               Show world
             </button>
           )}
@@ -542,11 +406,7 @@ function Segmented({
   options: { value: string; label: string }[];
 }) {
   return (
-    <div
-      role="group"
-      aria-label={label}
-      className="flex flex-1 md:flex-none md:w-60 border border-warm-200 bg-white"
-    >
+    <div role="group" aria-label={label} className="inline-flex p-1 rounded-full bg-oat/80 border border-line">
       {options.map((o) => {
         const active = o.value === value;
         return (
@@ -555,32 +415,14 @@ function Segmented({
             type="button"
             aria-pressed={active}
             onClick={() => onChange(o.value)}
-            className={`flex-1 min-h-11 px-2 text-xs uppercase tracking-wider whitespace-nowrap transition-colors ${
-              active ? "bg-charcoal text-cream" : "text-warm-700"
+            className={`min-h-11 px-5 rounded-full text-body-sm whitespace-nowrap transition-colors duration-400 ${
+              active ? "bg-paper-soft text-ink shadow-subtle" : "text-ink-3 hover:text-ink"
             }`}
           >
             {o.label}
           </button>
         );
       })}
-    </div>
-  );
-}
-
-function ChipRow({
-  label,
-  children,
-}: {
-  label: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <div
-      role="group"
-      aria-label={label}
-      className="flex gap-2 overflow-x-auto scrollbar-hide px-5 md:px-8 max-w-6xl mx-auto w-full"
-    >
-      {children}
     </div>
   );
 }
@@ -597,22 +439,8 @@ function Chip({
   children: React.ReactNode;
 }) {
   return (
-    <button
-      type="button"
-      aria-pressed={active}
-      onClick={onClick}
-      className={`shrink-0 inline-flex items-center gap-1.5 min-h-10 px-4 text-xs uppercase tracking-wider border transition-colors ${
-        active
-          ? "bg-charcoal text-cream border-charcoal"
-          : "bg-white text-warm-700 border-warm-200"
-      }`}
-    >
-      {dot && (
-        <span
-          className="inline-block w-2.5 h-2.5 rounded-full border border-white/70"
-          style={{ background: dot }}
-        />
-      )}
+    <button type="button" aria-pressed={active} onClick={onClick} className={`chip ${active ? "chip-on" : "chip-off"}`}>
+      {dot && <span className="inline-block w-1.5 h-1.5 rounded-full" style={{ background: dot }} />}
       {children}
     </button>
   );
