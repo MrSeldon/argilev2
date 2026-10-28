@@ -1,0 +1,860 @@
+[
+  {
+    "id": "fund-mino-international-ceramics-competition",
+    "name": "International Ceramics Competition Mino (14th edition)",
+    "type": "grant",
+    "status": "active",
+    "location": {
+      "city": "Tajimi",
+      "region": "Gifu",
+      "country": "Japan",
+      "coordinates": {
+        "lat": 35.333,
+        "lng": 137.13195
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "ceramics",
+      "competition",
+      "prize",
+      "exhibition"
+    ],
+    "description": "Triennial international ceramics competition in Japan's Mino pottery region, with an Arts category and a Design category. Open to everyone, free to enter, and judged from images in the first two rounds.",
+    "details": "The 14th edition takes entries from 2 February 2026 to 29 January 2027 (5:00 PM Japan time). The first two screenings are online, from images; only works that reach the final judging are shipped to Japan, at the applicant's expense (transport, insurance and other delivery costs). Up to three entries per category. Results of the first screening around end of February 2027, second screening mid to late April 2027; exhibition at Ceramics Park MINO, 8 October to 7 November 2027. The Grand Prix winner's round trip and accommodation for the award ceremony are covered by the organiser. The official guidelines note that prize money may be taxed.",
+    "website": "https://www.icfmino.com/en/iccm-en",
+    "tags": [
+      "ceramics",
+      "prize",
+      "competition",
+      "japan",
+      "international",
+      "no-fee",
+      "deadline-2027-01"
+    ],
+    "category": "prize",
+    "categories": [
+      "prize",
+      "grant"
+    ],
+    "discipline": "ceramics",
+    "funding": {
+      "amount": "Grand Prix JPY 5,000,000; Gold JPY 2,000,000; Silver JPY 1,000,000; Bronze JPY 500,000; Special Judge's Award JPY 100,000 (several of each per category)",
+      "pays": "prize"
+    },
+    "deadline": "29 January 2027, 5:00 PM Japan Standard Time (applications open since 2 February 2026)",
+    "eligibility": "\"None. The competition is open to everyone.\" No registration fee. Rwandan citizens: eligible.",
+    "visa": {
+      "fit": "fine-from-abroad",
+      "note": "A prize for work made and entered from anywhere, with no US work involved; she can enter from San Francisco or Kigali."
+    },
+    "source": "https://www.icfmino.com/icfmino/wp-content/uploads/2026/01/2027youkou_EN20260119.pdf",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "fund-loewe-foundation-craft-prize",
+    "name": "LOEWE FOUNDATION Craft Prize",
+    "type": "grant",
+    "status": "active",
+    "location": {
+      "city": "Madrid",
+      "region": "Comunidad de Madrid",
+      "country": "Spain",
+      "coordinates": {
+        "lat": 40.41678,
+        "lng": -3.70351
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "craft",
+      "ceramics",
+      "textiles",
+      "prize",
+      "exhibition"
+    ],
+    "description": "Annual international prize for contemporary craft (ceramics, textiles, wood, metal and more). The winner receives EUR 50,000 and 30 finalists are exhibited and catalogued.",
+    "details": "The 10th edition (Craft Prize 2027) closed on 15 October 2026 and will be awarded in Milan in spring 2027. Entries are online: 2 to 5 photographs of one work or series (optional video) and a short conceptual statement in English. Work must be original, handmade or partly handmade, made in the last five years, one of a kind, not previously awarded, and 'update tradition'. Watch for the next edition's call; recent editions have closed in mid-October.",
+    "website": "https://craftprize.loewe.com/en/craftprize2027",
+    "tags": [
+      "craft",
+      "ceramics",
+      "weaving",
+      "prize",
+      "international",
+      "annual"
+    ],
+    "category": "prize",
+    "categories": [
+      "prize",
+      "grant"
+    ],
+    "discipline": "craft",
+    "funding": {
+      "amount": "EUR 50,000 to the winner; finalists exhibited and catalogued",
+      "pays": "prize"
+    },
+    "deadline": "Annual; the 2027 edition closed 15 October 2026, next call not yet announced",
+    "eligibility": "Professional artisans aged 18 or older, individuals or collectives; \"All nationalities are welcome.\" Rwandan citizens: eligible.",
+    "visa": {
+      "fit": "fine-from-abroad",
+      "note": "An international prize entered online; travel to the Milan exhibition would be a normal visitor trip."
+    },
+    "source": "https://craftprize.loewe.com/en/craftprize2027",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "fund-premio-faenza",
+    "name": "Premio Faenza: International Competition of Contemporary Ceramic Art",
+    "type": "grant",
+    "status": "active",
+    "location": {
+      "city": "Faenza",
+      "region": "Emilia-Romagna",
+      "country": "Italy",
+      "coordinates": {
+        "lat": 44.28947,
+        "lng": 11.88106
+      },
+      "neighborhood": "MIC Faenza"
+    },
+    "focusAreas": [
+      "ceramics",
+      "competition",
+      "prize",
+      "museum-collection"
+    ],
+    "description": "One of the oldest ceramics competitions, run by the International Museum of Ceramics (MIC) in Faenza since 1938 and biennial since 1989. Winning works enter the museum's contemporary collection.",
+    "details": "The 63rd edition was held in 2025. MIC's official site does not yet list a call for the 64th edition, so the amount and deadline for the next round are not published; subscribe to the Premio Faenza newsletter on premiofaenza.it. Check the official rules when the call appears.",
+    "website": "https://www.premiofaenza.it",
+    "tags": [
+      "ceramics",
+      "prize",
+      "competition",
+      "italy",
+      "biennial",
+      "museum"
+    ],
+    "category": "prize",
+    "categories": [
+      "prize",
+      "grant"
+    ],
+    "discipline": "ceramics",
+    "funding": {
+      "amount": "Not yet announced for the 64th edition",
+      "pays": "prize"
+    },
+    "deadline": "Biennial; the call for the 64th edition has not been announced",
+    "eligibility": "International competition (extended to international artists in 1963); full rules not yet published for the next edition. Rwandan citizens: unclear until the 64th-edition rules are out.",
+    "visa": {
+      "fit": "fine-from-abroad",
+      "note": "A prize and museum acquisition for work entered from abroad; no US work involved."
+    },
+    "source": "https://www.premiofaenza.it",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "fund-officine-saffi-award",
+    "name": "Officine Saffi Award",
+    "type": "grant",
+    "status": "active",
+    "location": {
+      "city": "Milan",
+      "region": "Lombardy",
+      "country": "Italy",
+      "coordinates": {
+        "lat": 45.46419,
+        "lng": 9.18963
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "ceramics",
+      "prize",
+      "residency-prizes",
+      "exhibition"
+    ],
+    "description": "International prize for contemporary ceramics from Fondazione Officine Saffi in Milan, with a main acquisition prize plus residency prizes at partner centres (Guldagergaard, Taoxichuan and others).",
+    "details": "The 6th edition ('Forms of Belonging') drew more than 1,000 applications from 41 countries; 28 finalists are exhibited at Fondazione Officine Saffi until 13 November 2026. The EUR 10,000 Main Acquisition Prize went to South African ceramist Andile Dyalvane, and residency and collateral prizes went to 10 finalists. The next edition's call has not been announced.",
+    "website": "https://officinesaffi.org/en/award/award",
+    "tags": [
+      "ceramics",
+      "prize",
+      "residency",
+      "italy",
+      "international"
+    ],
+    "category": "prize",
+    "categories": [
+      "prize",
+      "residency"
+    ],
+    "discipline": "ceramics",
+    "funding": {
+      "amount": "6th edition: EUR 10,000 Main Acquisition Prize, plus residency and collateral prizes",
+      "pays": "prize"
+    },
+    "deadline": "Next edition not yet announced (6th edition finalists exhibited until 13 November 2026)",
+    "eligibility": "International open call (6th edition applicants came from 41 countries). Rwandan citizens: unclear until the next edition's rules are published.",
+    "visa": {
+      "fit": "fine-from-abroad",
+      "note": "A prize entered from abroad; residency prizes are in Europe and Asia, not the US."
+    },
+    "source": "https://officinesaffi.org/en/award/award",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "fund-prince-claus-seed-award",
+    "name": "Prince Claus Fund Seed Award",
+    "type": "grant",
+    "status": "active",
+    "location": {
+      "city": "Amsterdam",
+      "region": "North Holland",
+      "country": "Netherlands",
+      "coordinates": {
+        "lat": 52.37308,
+        "lng": 4.89245
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "early-career",
+      "unrestricted",
+      "social-practice",
+      "africa"
+    ],
+    "description": "EUR 5,000 unrestricted awards to 100 early-career artists a year from eligible countries in Africa, Asia, Latin America, the Caribbean and Eastern Europe whose work engages urgent social or political issues in their local context.",
+    "details": "The 2026 round closed on 8 January 2026 (decisions by mid-July 2026); the 2027 call has not been posted yet. Applicants submit work samples, a CV, a reference letter and a short pitch video or audio. One-time award; recipients can later apply for the Fellows Award. Key condition: you must come from AND be living and working in an eligible country when you apply, so Winnie should apply while still based in Rwanda.",
+    "website": "https://princeclausfund.nl/awards-and-programmes/seed-award",
+    "tags": [
+      "africa",
+      "rwanda",
+      "grant",
+      "unrestricted",
+      "early-career",
+      "annual"
+    ],
+    "category": "grant",
+    "categories": [
+      "grant",
+      "prize"
+    ],
+    "discipline": "multi",
+    "funding": {
+      "amount": "EUR 5,000",
+      "pays": "grant to project"
+    },
+    "deadline": "Annual; the 2026 round closed 8 January 2026, the 2027 call has not been announced",
+    "eligibility": "1 to 5 years of professional practice (excluding study), little or no institutional support, from and living and working in an eligible country at the time of applying. Rwanda is on the eligible-countries list. Rwandan citizens: eligible (while living and working in Rwanda).",
+    "visa": {
+      "fit": "fine-from-abroad",
+      "note": "Paid to the artist for her own practice; she would lose eligibility once she lives in the US, so this one is for before the move."
+    },
+    "source": "https://princeclausfund.nl/awards-and-programmes/seed-award",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "fund-goethe-aepc-mobility",
+    "name": "Africa-Europe Partnerships for Culture: Mobility Grants (Goethe-Institut)",
+    "type": "grant",
+    "status": "active",
+    "location": {
+      "city": "Munich",
+      "region": "Bavaria",
+      "country": "Germany",
+      "coordinates": {
+        "lat": 48.13711,
+        "lng": 11.57538
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "travel",
+      "mobility",
+      "africa",
+      "europe",
+      "residency-travel"
+    ],
+    "description": "Travel and subsistence grants of up to EUR 4,000 per trip for artists and culture professionals based in Sub-Saharan Africa (Rwanda included) or the EU, for mobility within Africa or between Africa and Europe.",
+    "details": "Part of the EUR 8 million Africa-Europe Partnerships for Culture programme (2025-2028), Sub-Saharan Africa Connect & Create component, run by the Goethe-Institut with Expertise France and Institut francais. Round III opened 15 August 2026 and closed 16 September 2026 for trips between 1 January and 31 August 2027; notifications mid-November 2026. Covers flights (flat rate EUR 1,500 within Sub-Saharan Africa, EUR 1,000 between Africa and Europe), lump sums for accommodation and per diem, plus visa and insurance costs. Visual arts are an eligible discipline. Watch www.goethe.de/aepc for a further round. Travel to the US is not covered.",
+    "website": "https://www.goethe.de/aepc",
+    "tags": [
+      "africa",
+      "rwanda",
+      "east-africa",
+      "travel-grant",
+      "mobility",
+      "europe"
+    ],
+    "category": "travel",
+    "categories": [
+      "grant",
+      "travel"
+    ],
+    "discipline": "multi",
+    "funding": {
+      "amount": "Up to EUR 4,000 per mobility (travel, accommodation and per diem lump sums, visa and insurance)",
+      "pays": "travel"
+    },
+    "deadline": "Round III closed 16 September 2026; programme runs to 2028, next round not yet announced",
+    "eligibility": "Artists or culture professionals currently based in Sub-Saharan Africa or the EU; Rwanda is on the East Africa eligibility list. Rwandan citizens: eligible (while based in Sub-Saharan Africa).",
+    "visa": {
+      "fit": "fine-from-abroad",
+      "note": "Travel money for trips within Africa or to Europe, not US work; it requires being based in Africa when applying."
+    },
+    "source": "https://www.goethe.de/resources/files/pdf359/mobility-round-iii-final-cfp.pdf",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "fund-unesco-ifcd",
+    "name": "UNESCO International Fund for Cultural Diversity (IFCD)",
+    "type": "grant",
+    "status": "active",
+    "location": {
+      "city": "Paris",
+      "region": "Ile-de-France",
+      "country": "France",
+      "coordinates": {
+        "lat": 48.85037,
+        "lng": 2.30681
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "creative-economy",
+      "cultural-policy",
+      "community",
+      "organisation-grant"
+    ],
+    "description": "Project grants of up to US$100,000 over 12 to 24 months for cultural and creative industry projects in developing countries that are Parties to the 2005 Convention. Applicants must be public institutions or NGOs, not individuals.",
+    "details": "The 17th call ran 23 March to 6 May 2026 (noon Paris time) and is closed; the fund calls annually. Rwanda is on the 2026 list of eligible countries. A realistic route for Winnie is a Rwandan NGO or cooperative partner (for example a potters' cooperative or Laini Studio if registered as an association) applying for a community clay, heritage-craft or market-access project.",
+    "website": "https://www.unesco.org/creativity/en/ifcd/apply",
+    "tags": [
+      "rwanda",
+      "africa",
+      "unesco",
+      "organisation",
+      "community",
+      "heritage-craft",
+      "annual"
+    ],
+    "category": "grant",
+    "categories": [
+      "grant"
+    ],
+    "discipline": "multi",
+    "funding": {
+      "amount": "Up to US$100,000 per project (12-24 months)",
+      "pays": "grant to project"
+    },
+    "deadline": "Annual, usually March to May (2026 call: 23 March to 6 May 2026)",
+    "eligibility": "Public authorities/institutions and NGOs from eligible developing-country Parties to the 2005 Convention, and INGOs registered in a Party. Individuals cannot apply. Rwandan citizens: not eligible as individuals; a Rwandan NGO or public body is eligible (Rwanda is on the 2026 list).",
+    "visa": {
+      "fit": "fine-from-abroad",
+      "note": "Money goes to a Rwandan organisation for work in Rwanda, so her US status is not the issue; any personal pay from it should be for work done in Rwanda."
+    },
+    "source": "https://www.unesco.org/creativity/en/articles/2026-call-funding-requests-international-fund-cultural-diversity-now-open",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "fund-us-embassy-kigali-pd-grants",
+    "name": "U.S. Embassy Kigali Public Diplomacy Grants (Annual Program Statement)",
+    "type": "grant",
+    "status": "active",
+    "location": {
+      "city": "Kigali",
+      "region": "Kigali City",
+      "country": "Rwanda",
+      "coordinates": {
+        "lat": -1.95344,
+        "lng": 30.11401
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "rwanda",
+      "us-rwanda-exchange",
+      "economic-growth",
+      "skills"
+    ],
+    "description": "Annual US Embassy grants (US$10,000 to US$35,000 in the FY25 notice) for projects of 12 months or less that strengthen ties between the US and Rwanda. Individuals, NGOs and educational institutions can apply.",
+    "details": "The FY25 notice (PDS-KIGALI-FY25-001) is archived on simpler.grants.gov (last updated 13 May 2026). Its priorities were STEM, media and journalism, sports diplomacy and economic growth, with professional skills development and English proficiency also listed. Arts are not a stated priority, so a ceramics proposal would need to be framed as craft livelihoods, skills training or US-Rwanda exchange. Individuals do not need a SAM.gov registration. Watch the embassy site and grants.gov for the next annual statement.",
+    "website": "https://simpler.grants.gov/opportunity/0887832d-836c-465c-8419-7c259b5fd569",
+    "tags": [
+      "rwanda",
+      "kigali",
+      "us-embassy",
+      "grant",
+      "annual",
+      "community"
+    ],
+    "category": "grant",
+    "categories": [
+      "grant"
+    ],
+    "discipline": "multi",
+    "funding": {
+      "amount": "FY25 notice: award minimum US$10,000, maximum US$35,000",
+      "pays": "grant to project"
+    },
+    "deadline": "Annual program statement; the FY25 round is archived and the next notice has not been posted",
+    "eligibility": "U.S. and foreign not-for-profits, educational institutions and individuals; projects must fit embassy priorities. Rwandan citizens: eligible.",
+    "visa": {
+      "fit": "check-with-attorney",
+      "note": "Fine for a project carried out in Rwanda; if any of it would be done while she is in the US, ask an attorney first."
+    },
+    "source": "https://simpler.grants.gov/opportunity/0887832d-836c-465c-8419-7c259b5fd569",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "fund-fulbright-visiting-scholar-rwanda",
+    "name": "Fulbright Visiting Scholar Program (for Rwandan scholars)",
+    "type": "fellowship",
+    "status": "active",
+    "location": {
+      "city": "Kigali",
+      "region": "Kigali City",
+      "country": "Rwanda",
+      "coordinates": {
+        "lat": -1.95344,
+        "lng": 30.11401
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "research",
+      "j-1",
+      "university",
+      "material-culture"
+    ],
+    "description": "US State Department grants for scholars and professionals from abroad to research or lecture at a US university, with J-1 visa sponsorship, round-trip travel, health benefits and in most cases a monthly stipend.",
+    "details": "The State Department's Rwanda page says Rwandan scholars may apply through the Fulbright Visiting Scholar Program. Applications go through the Public Affairs Section of the US Embassy in Kigali, which sets local deadlines and terms. A host invitation letter (for example from UC Berkeley's Center for African Studies or an art department) strengthens the application. Fulbright scholars enter on the State Department's J-1 Exchange Visitor Program, so the host university does not have to issue the visa document. Usually aimed at faculty and professionals with an established research record; ask PAS Kigali whether a practising ceramic artist-researcher qualifies.",
+    "website": "https://fulbrightscholars.org/non-us-scholars/fulbright-visiting-scholar-program",
+    "tags": [
+      "rwanda",
+      "fulbright",
+      "j-1",
+      "research",
+      "usa",
+      "bay-area-possible"
+    ],
+    "category": "fellowship",
+    "categories": [
+      "fellowship",
+      "research"
+    ],
+    "discipline": "multi",
+    "funding": {
+      "amount": "Round-trip travel and health benefits; most scholars also receive a monthly stipend and allowances (amounts set per award)",
+      "pays": "stipend"
+    },
+    "deadline": "Set by the US Embassy Kigali Public Affairs Section; contact them for the current cycle",
+    "eligibility": "Citizens of participating countries (US citizens and permanent residents are not eligible); further terms set at country level. Rwandan citizens: eligible.",
+    "visa": {
+      "fit": "sponsors-visa",
+      "note": "Comes with its own J-1 status, which allows the funded research and lecturing; switching from her current visa needs an attorney's advice."
+    },
+    "source": "https://2012-2025.eca.state.gov/fulbright/country/rwanda.html",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "fund-kohler-arts-industry",
+    "name": "Arts/Industry Residency (John Michael Kohler Arts Center)",
+    "type": "residency",
+    "status": "active",
+    "location": {
+      "city": "Kohler",
+      "region": "Wisconsin",
+      "country": "USA",
+      "coordinates": {
+        "lat": 43.73916,
+        "lng": -87.78175
+      }
+    },
+    "focusAreas": [
+      "ceramics",
+      "slip-casting",
+      "mold-making",
+      "industrial",
+      "residency"
+    ],
+    "description": "Three-month residencies inside Kohler Co.'s working pottery and foundry, with 24-hour studio access, free industrial materials, technical help, housing, round-trip travel and a US$5,000 stipend. International artists are welcome.",
+    "details": "Up to twelve artists a year, in three cohorts of four (two in the Pottery, two in the Foundry). No prior slip-casting experience needed. The 2027 application ran 1 January to 28 February 2026 on Submittable; the 2028 dates are not yet posted. The stipend is paid in four equal payments with no restrictions. Pottery studios are hot and humid year-round; respirators required. The page does not say what visa international residents use.",
+    "website": "https://www.jmkac.org/engage/programs/arts-industry/applications/",
+    "tags": [
+      "ceramics",
+      "residency",
+      "usa",
+      "wisconsin",
+      "stipend",
+      "housing",
+      "travel",
+      "international"
+    ],
+    "category": "residency",
+    "categories": [
+      "residency"
+    ],
+    "discipline": "ceramics",
+    "funding": {
+      "amount": "US$5,000 stipend, plus housing, round-trip transportation and free industrial materials",
+      "pays": "stipend"
+    },
+    "deadline": "Annual; the 2027 cycle ran 1 January to 28 February 2026, 2028 dates not yet posted",
+    "eligibility": "Artists from all disciplines; \"International artists are welcome and encouraged to apply.\" Rwandan citizens: eligible.",
+    "visa": {
+      "fit": "check-with-attorney",
+      "note": "A paid residency in the US, so ask JMKAC what status past international residents used and have an attorney confirm it works with her visa."
+    },
+    "source": "https://www.jmkac.org/engage/programs/arts-industry/applications/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "fund-winterthur-maker-creator",
+    "name": "Winterthur Maker-Creator Fellowship",
+    "type": "fellowship",
+    "status": "active",
+    "location": {
+      "city": "Winterthur",
+      "region": "Delaware",
+      "country": "USA",
+      "coordinates": {
+        "lat": 39.80611,
+        "lng": -75.60088
+      }
+    },
+    "focusAreas": [
+      "material-culture",
+      "research",
+      "museum-collections",
+      "craft"
+    ],
+    "description": "Four to six week research fellowship for artists and makers working with the Winterthur Museum, Garden & Library collections (American decorative arts and material culture, including ceramics and textiles). Pays US$3,000 a month.",
+    "details": "Applications for 2027-28 fellowships: portal opens 1 November 2026, optional draft review by 1 December 2026, due 15 January 2027, decisions by 1 April 2027, fellowships held 1 September 2027 to 31 August 2028. Maker-Creator applicants submit 5 to 10 images or videos as work samples. Fellows are on site at least four days a week; part can be done remotely. Short-term fellowships (4-6 weeks, US$3,000 a month) are also open to independent researchers at all levels.",
+    "website": "https://www.winterthur.org/research-and-scholars/research-fellowships/",
+    "tags": [
+      "research",
+      "fellowship",
+      "usa",
+      "museum",
+      "material-culture",
+      "deadline-2027-01"
+    ],
+    "category": "fellowship",
+    "categories": [
+      "fellowship",
+      "research"
+    ],
+    "discipline": "craft",
+    "funding": {
+      "amount": "US$3,000 per month for 4-6 weeks",
+      "pays": "stipend"
+    },
+    "deadline": "15 January 2027 (portal opens 1 November 2026; optional draft review by 1 December 2026)",
+    "eligibility": "Maker-Creator: open to artists and creative professionals. The page sets no nationality limit for this fellowship (only the NEH postdoctoral fellowship is restricted to US citizens). Rwandan citizens: eligible.",
+    "visa": {
+      "fit": "check-with-attorney",
+      "note": "A US stipend for research done in the US; ask Winterthur which visa its international fellows hold before relying on it."
+    },
+    "source": "https://www.winterthur.org/fellowships-available/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "fund-fca-emergency-grants",
+    "name": "Foundation for Contemporary Arts Emergency Grants",
+    "type": "grant",
+    "status": "active",
+    "location": {
+      "city": "New York",
+      "region": "New York",
+      "country": "USA",
+      "coordinates": {
+        "lat": 40.71273,
+        "lng": -74.00602
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "emergency",
+      "project-costs",
+      "exhibition",
+      "experimental"
+    ],
+    "description": "Year-round grants of US$500 to US$3,000 for unexpected costs of an experimental project with a confirmed exhibition or performance date. For artists living in the US with a US tax ID.",
+    "details": "Rolling, monthly decisions (about 15-20 grants a month, average US$2,200). Apply 8 to 10 weeks before the public presentation date; you need a committed show with specific dates. Work must fit FCA's mission of experimental contemporary art. A 36-month wait applies after an FCA grant. Projects can take place in the US or abroad, so a Kigali exhibition would qualify if she lives in the US.",
+    "website": "https://www.foundationforcontemporaryarts.org/grants/emergency-grants/",
+    "tags": [
+      "usa",
+      "grant",
+      "rolling",
+      "emergency",
+      "exhibition"
+    ],
+    "category": "grant",
+    "categories": [
+      "grant"
+    ],
+    "discipline": "multi",
+    "funding": {
+      "amount": "US$500 to US$3,000 (average US$2,200)",
+      "pays": "grant to project"
+    },
+    "deadline": "Rolling (apply 8-10 weeks before the presentation date)",
+    "eligibility": "Individual artists living in the US or US territories with a US Tax ID (SSN, EIN, ITIN or other), with a committed exhibition or performance; not enrolled in a degree programme. Rwandan citizens: eligible if living in the US with an ITIN or other tax ID.",
+    "visa": {
+      "fit": "check-with-attorney",
+      "note": "A project grant rather than a wage, which is often treated differently, but she should confirm with an attorney before accepting money while in the US."
+    },
+    "source": "https://www.foundationforcontemporaryarts.org/grants/emergency-grants/guidelines/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "fund-cac-individual-artists-fellowship-bay-area",
+    "name": "California Arts Council Individual Artists Fellowship (Bay Area, via Kala Institute)",
+    "type": "fellowship",
+    "status": "active",
+    "location": {
+      "city": "Berkeley",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.85245,
+        "lng": -122.28664
+      },
+      "neighborhood": "Kala Institute"
+    },
+    "focusAreas": [
+      "bay-area",
+      "california",
+      "unrestricted",
+      "fellowship"
+    ],
+    "description": "State fellowships for California artists at three levels (US$5,000 emerging, US$10,000 established, US$50,000 legacy), run in the Bay Area by Kala Institute for Alameda, Contra Costa, Marin, Napa, San Francisco, San Mateo, Santa Clara and Sonoma counties.",
+    "details": "The 2026 Bay Area round ran 2 April to 5 June 2026 for a fellowship period of 1 September 2026 to 31 August 2027. Artists must live in the region they apply to and may apply to only one region. Kala's own guidelines set the detailed residency and eligibility rules; check them when the next round opens (likely spring 2027 if the programme continues).",
+    "website": "https://arts.ca.gov/grant_program/individual-artists-fellowship/",
+    "tags": [
+      "bay-area",
+      "san-francisco",
+      "california",
+      "fellowship",
+      "sf-bay"
+    ],
+    "category": "fellowship",
+    "categories": [
+      "fellowship",
+      "grant"
+    ],
+    "discipline": "multi",
+    "funding": {
+      "amount": "US$5,000 (Emerging), US$10,000 (Established) or US$50,000 (Legacy)",
+      "pays": "grant to project"
+    },
+    "deadline": "Annual, usually spring (2026 Bay Area round: 2 April to 5 June 2026)",
+    "eligibility": "California artists living in the Bay Area region they apply to; one region only. Rwandan citizens: unclear (depends on Kala's residency and status rules; not stated on the CAC page).",
+    "visa": {
+      "fit": "check-with-attorney",
+      "note": "Paid by a US state programme to a California resident, so she needs both the residency rules and an attorney's view on her status."
+    },
+    "source": "https://arts.ca.gov/grant_program/individual-artists-fellowship/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "fund-acta-apprenticeship",
+    "name": "ACTA Apprenticeship Program (Alliance for California Traditional Arts)",
+    "type": "grant",
+    "status": "active",
+    "location": {
+      "city": "Fresno",
+      "region": "California",
+      "country": "USA",
+      "coordinates": {
+        "lat": 36.73944,
+        "lng": -119.78483
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "traditional-arts",
+      "mentorship",
+      "heritage-craft",
+      "california"
+    ],
+    "description": "US$5,000 contracts for a California mentor artist to teach a traditional art form one-on-one to an apprentice for 6 to 12 months. Pairs apply together.",
+    "details": "The 2026 cycle application ran 3 March to 27 April 2026 with notifications in late June; activities run 1 July 2026 to 30 June 2027. The contract is made with the mentor and covers the mentor's fees, supplies and travel. Each pair gives a public presentation and is documented for ACTA's archive. A natural fit for Rwandan pottery or weaving traditions taught within the Rwandan or East African diaspora in California. ACTA has offices in Fresno and Los Angeles.",
+    "website": "https://actaonline.org/program/apprenticeships/",
+    "tags": [
+      "california",
+      "bay-area",
+      "traditional-arts",
+      "heritage-craft",
+      "teaching",
+      "needs-work-authorization"
+    ],
+    "category": "grant",
+    "categories": [
+      "grant",
+      "teaching"
+    ],
+    "discipline": "craft",
+    "funding": {
+      "amount": "US$5,000 contract to the mentor artist",
+      "pays": "fees"
+    },
+    "deadline": "Annual, usually March to April (2026 cycle: 3 March to 27 April 2026)",
+    "eligibility": "Mentor and apprentice apply together; both must be California residents; mentor must be recognised by their community as an exemplary practitioner. Rwandan citizens: eligible as California residents (the page states no citizenship rule).",
+    "visa": {
+      "fit": "needs-work-authorization",
+      "note": "The money is a fee to the mentor for teaching in California, which is paid work, so she would need work authorization to be the mentor."
+    },
+    "source": "https://actaonline.org/program/apprenticeships/",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "fund-creative-capital-award",
+    "name": "Creative Capital Award",
+    "type": "grant",
+    "status": "active",
+    "location": {
+      "city": "New York",
+      "region": "New York",
+      "country": "USA",
+      "coordinates": {
+        "lat": 40.71273,
+        "lng": -74.00602
+      },
+      "approximate": true
+    },
+    "focusAreas": [
+      "new-work",
+      "unrestricted",
+      "professional-development"
+    ],
+    "description": "Unrestricted project grants of US$15,000 to US$50,000 plus professional development for new work in any discipline, open to US citizens, permanent residents, Tribal ID holders and O-1 visa holders.",
+    "details": "The 2027 open call ran from 2 March to 2 April 2026 (final notification December 2026). Applicants must be at least 25. All applicants are also considered for the US$10,000 State of the Art Prize (one artist per US state and territory) in the 2026 and 2027 cycles. Next cycle dates not yet announced. Relevant to Winnie only if she later holds O-1 status or a green card.",
+    "website": "https://creative-capital.org/creative-capital-award/award-application/",
+    "tags": [
+      "usa",
+      "grant",
+      "o-1",
+      "new-work",
+      "needs-work-authorization"
+    ],
+    "category": "grant",
+    "categories": [
+      "grant"
+    ],
+    "discipline": "multi",
+    "funding": {
+      "amount": "US$15,000 to US$50,000 unrestricted project grant (State of the Art Prize: US$10,000)",
+      "pays": "grant to project"
+    },
+    "deadline": "Annual; the 2027 call closed 2 April 2026, next cycle not yet announced",
+    "eligibility": "US citizen, permanent resident, Tribal ID holder or O-1 visa holder at time of application; at least 25 years old. Rwandan citizens: not eligible unless holding O-1 status or US permanent residence.",
+    "visa": {
+      "fit": "needs-work-authorization",
+      "note": "Only open to O-1 holders and permanent residents among non-citizens, so it becomes an option only after an O-1B or green card."
+    },
+    "source": "https://creative-capital.org/applicationhandbook",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "fund-rijksakademie-residency",
+    "name": "Rijksakademie Residency",
+    "type": "residency",
+    "status": "active",
+    "location": {
+      "city": "Amsterdam",
+      "region": "North Holland",
+      "country": "Netherlands",
+      "coordinates": {
+        "lat": 52.36294,
+        "lng": 4.91779
+      },
+      "neighborhood": "Weesperbuurt"
+    },
+    "focusAreas": [
+      "residency",
+      "stipend",
+      "experimental",
+      "workshops"
+    ],
+    "description": "One to two year studio residency in Amsterdam with a stipend (EUR 19,800 in 2026), a EUR 2,500 yearly work budget, technical workshops, visa support and help finding housing. About 12 of the roughly 23 places a year go to artists from outside the Netherlands.",
+    "details": "The 2027 residency deadline was 1 February 2026; the open call for the 2028 residency opens 1 January 2027 (deadline expected around 1 February 2027, confirm on the site). Recommended: 2-3 years of independent practice; artists 36 and over may apply but should explain why now. Application fee EUR 60, waived for artists living in DAC-list countries (so free if she applies while living in Rwanda, charged if she applies from the US).",
+    "website": "https://rijksakademie.nl/en/residency-apply/apply",
+    "tags": [
+      "residency",
+      "netherlands",
+      "stipend",
+      "visa-support",
+      "international",
+      "opens-2027-01"
+    ],
+    "category": "residency",
+    "categories": [
+      "residency"
+    ],
+    "discipline": "multi",
+    "funding": {
+      "amount": "Stipend EUR 19,800 (2026 figure) plus EUR 2,500 work budget per year",
+      "pays": "stipend"
+    },
+    "deadline": "2028 residency call opens 1 January 2027 (2027 residency deadline was 1 February 2026)",
+    "eligibility": "\"Open to artists from all countries and all disciplines.\" Not open to current or former residents of Jan van Eyck or De Ateliers. Rwandan citizens: eligible.",
+    "visa": {
+      "fit": "sponsors-visa",
+      "note": "The Rijksakademie supports the Dutch visa process for international residents; it is outside the US, so her US status only matters for re-entry."
+    },
+    "source": "https://rijksakademie.nl/en/residency-apply/apply",
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "fund-bellagio-center-residency",
+    "name": "Rockefeller Foundation Bellagio Center Residency",
+    "type": "residency",
+    "status": "active",
+    "location": {
+      "city": "Bellagio",
+      "region": "Lombardy",
+      "country": "Italy",
+      "coordinates": {
+        "lat": 45.98725,
+        "lng": 9.2613
+      }
+    },
+    "focusAreas": [
+      "residency",
+      "social-impact",
+      "interdisciplinary"
+    ],
+    "description": "26-day residency on Lake Como for up to 14 scholars, artists and practitioners at a time, with room and board, a private studio and travel funding. Seeks established leaders whose projects have clear social impact.",
+    "details": "Applications for the 2027 programme are closed; the next open call has not been announced (sign up on the site to be notified). Selection runs through a general open call and thematic calls (2027 themes included energy, food systems and nutrition, and economic mobility). A long shot for a mid-career potter, but a wild-clay, community-livelihood project could fit the economic-mobility framing.",
+    "website": "https://www.rockefellerfoundation.org/fellowships-convenings/bellagio-center/residency-program/",
+    "tags": [
+      "residency",
+      "italy",
+      "travel",
+      "international",
+      "long-shot"
+    ],
+    "category": "residency",
+    "categories": [
+      "residency",
+      "travel"
+    ],
+    "discipline": "multi",
+    "funding": {
+      "amount": "Room and board for 26 days, private studio, travel funding",
+      "pays": "travel"
+    },
+    "deadline": "Annual; 2027 applications closed, next call not yet announced",
+    "eligibility": "Leaders with significant achievement and recognition in their field, any discipline or country. Rwandan citizens: eligible.",
+    "visa": {
+      "fit": "fine-from-abroad",
+      "note": "A residency in Italy with no US work; she would only need to check travel and re-entry on her US visa."
+    },
+    "source": "https://www.rockefellerfoundation.org/fellowships-convenings/bellagio-center/residency-program/",
+    "lastVerified": "2026-10-27"
+  }
+]
