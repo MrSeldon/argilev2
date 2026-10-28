@@ -37,6 +37,7 @@ export default async function InspirationDetailPage({ params }: { params: Promis
   const unlinked = (item.connections || []).filter((c) => !byId.has(c));
   const meta = [item.origin, item.period].filter(Boolean).join(" · ");
   const paragraphs = (item.story?.body || "").split(/\n{2,}/).filter((p) => p.trim());
+  const extra = item as typeof item & { tryIt?: string; links?: { label: string; url: string }[] };
 
   return (
     <article>
@@ -96,9 +97,30 @@ export default async function InspirationDetailPage({ params }: { params: Promis
               <p className="font-serif italic text-[1.45rem] md:text-[1.6rem] leading-snug text-ink-2">{item.story.reflection}</p>
             </blockquote>
           )}
+          {extra.tryIt && (
+            <section className="mt-12 p-5 md:p-6 bg-paper-soft border border-line">
+              <h2 className="eyebrow mb-2">Try it in the studio</h2>
+              <p className="text-body-md text-ink-2 leading-relaxed">{extra.tryIt}</p>
+            </section>
+          )}
         </div>
 
         <aside className="md:col-span-4 md:col-start-9 mt-14 md:mt-2 space-y-10">
+          {extra.links && extra.links.length > 0 && (
+            <section>
+              <h2 className="eyebrow mb-2">Explore further</h2>
+              <ul>
+                {extra.links.map((l) => (
+                  <li key={l.url} className="border-b border-line">
+                    <a href={l.url} target="_blank" rel="noopener noreferrer" className="flex items-center justify-between gap-3 py-3 min-h-11 text-body-md text-ink-2 hover:text-terracotta-deep transition-colors duration-400">
+                      <span>{l.label}</span>
+                      <span aria-hidden="true" className="text-ink-3">↗</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
           {item.techniques && item.techniques.length > 0 && (
             <section>
               <h2 className="eyebrow mb-2">Techniques</h2>
