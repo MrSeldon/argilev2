@@ -1,52 +1,42 @@
 import { getOpportunities } from "@/lib/data";
 import { OpportunityMap } from "@/components/opportunities/OpportunityMap";
-import Link from "next/link";
+import { ListMapSwitch } from "@/components/opportunities/ExploreNav";
+import { inBayArea } from "@/lib/opportunity-map";
+import { isPast } from "@/components/opportunities/facts";
 
 export const metadata = {
-  title: "Opportunities Map | Le Four Argile",
-  description: "Explore ceramics opportunities in the Bay Area and around the world",
+  title: "Opportunities map | Le Four Argile",
+  description: "Ceramics studios, schools, residencies and suppliers on a map: the Bay Area and the world.",
 };
 
 export default async function OpportunitiesMapPage({
   searchParams,
 }: {
-  searchParams: Promise<{ scope?: string }>;
+  searchParams: Promise<{ scope?: string; focus?: string }>;
 }) {
-  const { scope } = await searchParams;
+  const { scope, focus } = await searchParams;
   const opportunities = await getOpportunities();
 
-  // Filter opportunities with valid coordinates
-  const mappableOpportunities = opportunities.filter(
-    (opp) =>
-      opp.location.coordinates?.lat !== undefined &&
-      opp.location.coordinates?.lng !== undefined
+  const mappable = opportunities.filter(
+    (o) =>
+      !isPast(o) &&
+      typeof o.location === "object" &&
+      o.location.coordinates?.lat !== undefined &&
+      o.location.coordinates?.lng !== undefined
   );
 
-  return (
-    // Fills the screen below the fixed nav (56px on phones, ~76px on desktop)
-    <div className="h-[100dvh] flex flex-col pt-14 md:pt-[76px]">
-      {/* Header */}
-      <section className="py-2 md:py-5 border-b border-warm-100 shrink-0">
-        <div className="max-w-6xl mx-auto px-5 md:px-8">
-          <div className="flex items-center justify-between gap-4">
-            <h1 className="font-serif text-xl md:text-3xl tracking-tight">
-              Opportunities Map
-            </h1>
-            <Link
-              href="/opportunities"
-              className="inline-flex items-center min-h-11 -mr-2 px-2 text-sm text-warm-500 hover:text-charcoal transition-colors whitespace-nowrap"
-            >
-              ← Back to List
-            </Link>
-          </div>
-        </div>
-      </section>
+  // A focused place outside the Bay opens the world view.
+  const focused = focus ? mappable.find((o) => o.id === focus) : undefined;
+  const c = focused?.location.coordinates;
+  const initialScope = scope === "world" || (c && !inBayArea(c.lat, c.lng)) ? "world" : "bay";
 
-      {/* Map */}
-      <OpportunityMap
-        opportunities={mappableOpportunities}
-        initialScope={scope === "world" ? "world" : "bay"}
-      />
+  return (
+    <div className="h-view flex flex-col">
+      <div className="wrap shrink-0 flex items-center justify-between gap-4 py-2.5 md:py-4">
+        <h1 className="font-serif text-[1.6rem] md:text-display-sm leading-none">Opportunities</h1>
+        <ListMapSwitch active="map" />
+      </div>
+      <OpportunityMap opportunities={mappable} initialScope={initialScope} initialSelected={focused?.id} />
     </div>
   );
 }

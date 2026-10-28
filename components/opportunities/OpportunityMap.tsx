@@ -7,8 +7,8 @@ import type { Opportunity } from "@/lib/types";
 const OpportunityMapInner = dynamic(() => import("./OpportunityMapInner"), {
   ssr: false,
   loading: () => (
-    <div className="flex-1 min-h-[300px] bg-clay-100 flex items-center justify-center">
-      <p className="text-clay-500">Loading map...</p>
+    <div className="flex-1 min-h-[300px] bg-oat flex items-center justify-center">
+      <p className="eyebrow animate-breathe">Unfolding the map</p>
     </div>
   ),
 });
@@ -16,13 +16,11 @@ const OpportunityMapInner = dynamic(() => import("./OpportunityMapInner"), {
 interface OpportunityMapProps {
   opportunities: Opportunity[];
   initialScope?: "bay" | "world";
+  initialSelected?: string;
 }
 
-export function OpportunityMap({ opportunities, initialScope }: OpportunityMapProps) {
+export function OpportunityMap({ opportunities, initialScope, initialSelected }: OpportunityMapProps) {
   return (
-    <OpportunityMapInner
-      opportunities={opportunities}
-      initialScope={initialScope}
-    />
+    <OpportunityMapInner opportunities={opportunities} initialScope={initialScope} initialSelected={initialSelected} />
   );
 }

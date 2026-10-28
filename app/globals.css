@@ -2,273 +2,268 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+ * Le Four Argile
+ * Calm, cinematic, lots of air. Tiny refined labels, light serif display,
+ * warm paper ground. Motion is slow and soft and disappears entirely for
+ * people who ask for reduced motion.
+ */
+
 @layer base {
   :root {
-    /* Primary colors */
-    --color-bg: #FAFAF8;
-    --color-bg-dark: #1A1A18;
-    --color-text: #2D2D2A;
-    --color-text-light: #6B6B66;
-    --color-text-inverse: #FAFAF8;
+    --paper: #f5f0e8;
+    --paper-soft: #fbf8f3;
+    --oat: #ece4d6;
+    --line: #dcd2c1;
+    --ink: #22211e;
+    --ink-2: #4a463f;
+    --ink-3: #6b655b;
+    --terracotta: #b4633f;
+    --celadon: #9bae8e;
+    --teal: #2e5552;
 
-    /* Accent colors */
-    --color-accent: #8B7355;
-    --color-accent-light: #C4B5A0;
-    --color-gold: #B8956E;
+    /* Height taken by the site chrome: top bar (+ bottom tab bar on phones).
+       Full-height views (map, graph) size themselves with it. */
+    --topbar: 3.5rem;
+    --tabbar: calc(3.75rem + env(safe-area-inset-bottom));
+    --chrome: calc(var(--topbar) + var(--tabbar));
+  }
 
-    /* Surface colors */
-    --color-surface: #FFFFFF;
-    --color-surface-warm: #F5F3EF;
-    --color-border: #E5E3DF;
+  @media (min-width: 768px) {
+    :root {
+      --topbar: 4.5rem;
+      --tabbar: 0px;
+    }
   }
 
   html {
     scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    background: var(--paper);
   }
 
   body {
-    @apply antialiased;
+    @apply antialiased bg-paper text-ink;
+    font-feature-settings: "kern", "liga", "calt";
   }
 
-  /* Typography - Serif headlines */
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-serif text-charcoal;
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-serif text-ink;
+    font-weight: 400;
   }
 
-  /* Selection styling - subtle warm tone */
   ::selection {
-    background-color: rgba(196, 181, 160, 0.3);
+    background-color: rgba(180, 99, 63, 0.18);
     color: inherit;
   }
 
-  /* Default border color */
   * {
-    @apply border-warm-100;
+    @apply border-line;
+  }
+
+  :focus-visible {
+    outline: 1.5px solid var(--terracotta);
+    outline-offset: 3px;
+  }
+
+  input,
+  textarea,
+  select {
+    @apply text-ink;
   }
 }
 
 @layer components {
-  /* Container */
+  /* Layout ----------------------------------------------------------------- */
+  .wrap {
+    @apply mx-auto w-full max-w-content px-5 md:px-10;
+  }
+  .wrap-narrow {
+    @apply mx-auto w-full max-w-narrow px-5 md:px-10;
+  }
+  /* kept for older markup */
   .container-content {
-    @apply max-w-content mx-auto px-gutter;
+    @apply wrap;
   }
-
   .container-narrow {
-    @apply max-w-narrow mx-auto px-gutter;
+    @apply wrap-narrow;
   }
 
-  /* Hero sections */
-  .hero {
-    @apply relative h-hero w-full overflow-hidden;
+  /* Type ------------------------------------------------------------------- */
+  .eyebrow {
+    @apply font-sans text-label uppercase text-ink-3;
+  }
+  .display {
+    @apply font-serif font-light tracking-tight text-ink;
+  }
+  .lede {
+    @apply text-body-lg text-ink-2;
+  }
+  .meta {
+    @apply text-caption text-ink-3;
   }
 
-  .hero-full {
-    @apply relative h-hero-full w-full overflow-hidden;
+  /* Links & buttons -------------------------------------------------------- */
+  .link {
+    @apply underline decoration-line-strong underline-offset-4 transition-colors duration-400
+           hover:decoration-terracotta;
+  }
+  .link-quiet {
+    @apply inline-flex items-center gap-2 min-h-11 text-label uppercase text-ink-2
+           transition-colors duration-400 hover:text-terracotta-deep;
   }
 
-  .hero-overlay {
-    @apply absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent;
-  }
-
-  .hero-content {
-    @apply absolute inset-0 flex flex-col items-center justify-center text-center;
-  }
-
-  /* Card component - minimal, no borders */
-  .card {
-    @apply bg-white transition-all duration-300;
-  }
-
-  .card-bordered {
-    @apply card border border-warm-100;
-  }
-
-  /* Gallery-style button - underline style */
-  .btn-link {
-    @apply inline-flex items-center text-sm uppercase tracking-widest
-           border-b border-current pb-1
-           hover:opacity-70 transition-opacity duration-200;
-  }
-
-  /* Filled button - for primary actions */
   .btn {
-    @apply inline-flex items-center justify-center px-6 py-3
-           text-sm uppercase tracking-wider
-           transition-all duration-200;
+    @apply inline-flex items-center justify-center gap-2 min-h-11 px-5
+           text-label uppercase transition-colors duration-400 ease-soft
+           disabled:opacity-40 disabled:cursor-not-allowed;
   }
-
   .btn-primary {
-    @apply btn bg-charcoal text-cream hover:bg-charcoal-dark;
+    @apply btn bg-ink text-paper hover:bg-matte;
   }
-
   .btn-secondary {
-    @apply btn border border-charcoal text-charcoal
-           hover:bg-charcoal hover:text-cream;
+    @apply btn border border-ink/70 text-ink hover:bg-ink hover:text-paper;
   }
-
   .btn-ghost {
-    @apply btn text-charcoal hover:bg-warm-50;
+    @apply btn text-ink-2 hover:text-ink hover:bg-oat/60;
   }
 
-  /* Tag/badge - minimal */
+  /* Small things ----------------------------------------------------------- */
   .tag {
-    @apply inline-flex items-center px-3 py-1
-           text-xs uppercase tracking-wider
-           bg-warm-50 text-warm-700;
+    @apply inline-flex items-center px-2.5 py-1 text-caption text-ink-2 bg-oat/70;
+  }
+  .chip {
+    @apply shrink-0 inline-flex items-center gap-1.5 min-h-11 px-4 rounded-full border
+           text-body-sm whitespace-nowrap transition-colors duration-400;
+  }
+  .chip-on {
+    @apply bg-ink text-paper border-ink;
+  }
+  .chip-off {
+    @apply bg-paper-soft text-ink-2 border-line hover:border-line-strong;
   }
 
-  /* Input styling - underline only */
   .input {
-    @apply w-full bg-transparent border-b border-warm-200
-           py-3 text-body-md
-           focus:border-charcoal focus:outline-none
-           transition-colors duration-200
-           placeholder:text-warm-200;
+    @apply w-full bg-transparent border-b border-line-strong py-3 text-body-md
+           focus:border-ink focus:outline-none transition-colors duration-400
+           placeholder:text-ink-3/70;
   }
 
-  .input-filled {
-    @apply w-full px-4 py-3 bg-warm-50 border-0
-           text-body-md
-           focus:outline-none focus:ring-1 focus:ring-warm-200
-           transition-all duration-200
-           placeholder:text-warm-200;
+  .hairline {
+    @apply border-t border-line;
   }
 
-  /* Section spacing */
-  .section {
-    @apply py-section;
-  }
-
-  .section-lg {
-    @apply py-section-lg;
-  }
-
-  /* Navigation link - gallery style */
-  .nav-link {
-    @apply text-xs uppercase tracking-widest
-           transition-opacity duration-200 hover:opacity-60;
-  }
-
-  .nav-link-active {
-    @apply opacity-100;
-  }
-
-  /* Grid layouts */
-  .grid-gallery {
-    @apply grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4;
-  }
-
-  .grid-cards {
-    @apply grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3;
-  }
-
-  /* Prose for long-form content */
   .prose-custom {
-    @apply text-body-md leading-relaxed;
-    color: var(--color-text-light);
+    @apply text-body-md leading-relaxed text-ink-2;
   }
-
   .prose-custom p {
-    @apply mb-6;
+    @apply mb-5;
   }
 
-  .prose-custom a {
-    @apply text-charcoal underline underline-offset-4
-           hover:opacity-70 transition-opacity;
+  /* Photo with a slow, soft hover on cards */
+  .photo-zoom {
+    @apply transition-transform duration-1200 ease-soft;
   }
-
-  /* Pull quote */
-  .pull-quote {
-    @apply text-display-sm font-serif italic text-center
-           max-w-prose mx-auto py-section;
-    color: var(--color-text-light);
-  }
-
-  /* Filter tabs - horizontal pipe-separated */
-  .filter-tabs {
-    @apply flex justify-center items-center gap-4
-           text-xs uppercase tracking-widest;
-  }
-
-  .filter-tab {
-    @apply transition-opacity duration-200 hover:opacity-100;
-  }
-
-  .filter-tab-active {
-    @apply opacity-100;
-  }
-
-  .filter-tab-inactive {
-    @apply opacity-40;
-  }
-
-  .filter-divider {
-    @apply text-warm-200;
+  .group:hover .photo-zoom {
+    transform: scale(1.025);
   }
 }
 
 @layer utilities {
-  /* Text utilities */
   .text-balance {
     text-wrap: balance;
   }
-
-  /* Image zoom on hover */
-  .img-zoom {
-    @apply transition-transform duration-500 ease-out;
+  .text-pretty {
+    text-wrap: pretty;
   }
 
-  .group:hover .img-zoom {
-    @apply scale-105;
-  }
-
-  /* Hide scrollbar but keep functionality */
   .scrollbar-hide {
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
-
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
   }
 
-  /* Fade edges for horizontal scroll */
-  .fade-edges {
-    mask-image: linear-gradient(to right, transparent, black 1rem, black calc(100% - 1rem), transparent);
+  .pb-tabbar {
+    padding-bottom: var(--tabbar);
+  }
+  .h-view {
+    height: calc(100dvh - var(--chrome));
   }
 
-  /* Aspect ratios */
-  .aspect-portrait {
-    aspect-ratio: 3 / 4;
+  /* Gentle entrance for page content. Disabled for reduced motion below. */
+  .reveal {
+    animation: rise-in 1.1s cubic-bezier(0.22, 0.61, 0.36, 1) both;
   }
-
-  .aspect-landscape {
-    aspect-ratio: 4 / 3;
+  .reveal-1 {
+    animation-delay: 120ms;
   }
-
-  .aspect-wide {
-    aspect-ratio: 16 / 9;
+  .reveal-2 {
+    animation-delay: 240ms;
+  }
+  .reveal-3 {
+    animation-delay: 360ms;
   }
 }
 
-/* Leaflet: bigger, touch-friendly controls and pins */
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    animation-delay: 0ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Leaflet: touch-friendly controls, warm map ground ------------------------- */
 .leaflet-container .leaflet-bar a,
 .leaflet-touch .leaflet-bar a,
 .leaflet-bar a {
-  width: 40px !important;
-  height: 40px !important;
-  line-height: 40px !important;
+  width: 44px !important;
+  height: 44px !important;
+  line-height: 44px !important;
+  color: var(--ink) !important;
+  background: var(--paper-soft) !important;
+}
+.leaflet-touch .leaflet-bar,
+.leaflet-bar {
+  border: 1px solid var(--line) !important;
+  box-shadow: none !important;
+  border-radius: 2px !important;
 }
 .leaflet-container {
   font-family: inherit;
-  background: #f5f3ef;
+  background: var(--oat);
+}
+.leaflet-tile-pane {
+  filter: saturate(0.55) sepia(0.12) brightness(1.02);
 }
 .argile-pin {
   background: transparent;
   border: 0;
 }
 
-/* Extend a small link tap area (~48px tall) without changing its layout */
+/* Extend a small link's tap area without changing its layout */
 .hit-area {
   position: relative;
 }

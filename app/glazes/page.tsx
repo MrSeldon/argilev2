@@ -1,6 +1,8 @@
 import { DescribeIt } from "@/components/glazes/DescribeIt";
 import { GlazeCredits } from "@/components/glazes/GlazeCredits";
-import { GlazeHero } from "@/components/glazes/GlazeHero";
+import { PageHeader } from "@/components/site/PageHeader";
+import { GlazeNav } from "@/components/glazes/GlazeNav";
+import { PHOTOS } from "@/components/site/photos";
 
 export const metadata = {
   title: "Glazes | Le Four Argile",
@@ -9,19 +11,23 @@ export const metadata = {
 
 export default function GlazesPage() {
   return (
-    <div className="min-h-screen">
-      <GlazeHero title="Glazes" subtitle="9,800 recipes from Glazy & Digitalfire" link={{ href: "/glazes/my-materials", label: "My shelf →" }} />
+    <div>
+      <PageHeader
+        eyebrow="Recipes and materials"
+        title="Glazes"
+        lede="About 9,800 recipes from Glazy and Digitalfire. Say what you’re after in your own words, then adapt it to what’s on your shelf."
+        photo={PHOTOS.shino}
+        photoOnPhone={false}
+      >
+        <GlazeNav active="/glazes" />
+      </PageHeader>
 
-      <section className="py-6 md:py-12">
-        <div className="max-w-narrow mx-auto px-4 md:px-8">
-          <DescribeIt />
-        </div>
+      <section className="wrap-narrow !max-w-[46rem] mt-8 md:mt-14">
+        <DescribeIt />
       </section>
 
-      <section className="pb-16 pt-4">
-        <div className="max-w-narrow mx-auto px-4 md:px-8 border-t border-warm-100 pt-6">
-          <GlazeCredits />
-        </div>
+      <section className="wrap-narrow !max-w-[46rem] mt-16">
+        <GlazeCredits className="border-t border-line pt-6" />
       </section>
     </div>
   );
