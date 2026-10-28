@@ -1,0 +1,3120 @@
+[
+ {
+  "id": "baycer-bisk-clay-studio",
+  "name": "Bisk Clay Studio",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.76477,
+    "lng": -122.4334
+   },
+   "neighborhood": "Duboce Triangle / Castro"
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "membership",
+   "open-studio"
+  ],
+  "description": "A small neighbourhood pottery and jewelry studio that opened in late 2025 in a former laundromat on Noe Street, running four-week classes and an all-inclusive membership.",
+  "details": "Four-week classes $265 (4 x 2.5 h sessions; clay, glazes, firing and daily open-studio access included): Intro to Handbuilding (Sundays 3-5:30pm from Nov 1), Intro to Pottery Wheel (Mon/Tue/Wed 6:30-9pm from Nov 2-4, Sat 2-4:30pm from Nov 7), Intermediate Wheel (Thursdays 6:30-9pm). November sessions listed as sold out. Membership $225/month: personal shelf, unlimited studio access, studio glazes, all firing fees included, free community classes and workshops; request via form on membership page. No refunds within 14 days of class start. Contact hello@biskclaystudio.com. Owner Kani Tkhon (per Hoodline, Oct 2025).",
+  "website": "https://biskclaystudio.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "studio",
+   "class"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class"
+  ],
+  "discipline": "ceramics",
+  "source": "https://biskclaystudio.com/membership",
+  "lastVerified": "2026-10-28",
+  "address": "262 Noe St, San Francisco, CA"
+ },
+ {
+  "id": "baycer-uncle-pauls-ceramics-haight-street",
+  "name": "Uncle Paul's Ceramics (Haight Street)",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.77001,
+    "lng": -122.44944
+   },
+   "neighborhood": "Upper Haight"
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "membership",
+   "workshops",
+   "kids"
+  ],
+  "description": "A cosy, roughly 30 x 30 ft family-run studio in the Upper Haight, offering memberships, six-week courses and one-night workshops with a music-loving community feel.",
+  "details": "Members' hours daily 8am-10pm. Classes listed: One Night Class $89, Tiny Animal Workshop $99, Sept/Oct 6-week wheel course $350 (sold out), Sept/Oct Handbuilding 6-week course $350 (sold out). 'Family Membership' includes 8am-10pm access, personal shelf, glazes; clay must be bought from the studio and its price includes glaze and firing fees; cone 5/6 midfire; kilns run 1-2 times a week. Membership via request form. Contact (847) 287-8880, unclepaulsceramics@gmail.com. Teaching lead: No hiring page. The studio runs a 'Featured Artist Series' of guest-taught workshops (Susan Gold teapot workshop, Oct 2026) and its team page lists working-artist instructors; a guest workshop pitch (e.g. wild clay or glaze chemistry) could be sent to unclepaulsceramics@gmail.com. Paid teaching is US employment: it needs work authorization (her current visa doesn't allow it; an O-1B or a sponsoring employer could).",
+  "website": "https://unclepaulshaight.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "studio",
+   "class",
+   "teaching"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class",
+   "teaching"
+  ],
+  "discipline": "ceramics",
+  "source": "https://unclepaulshaight.com/classes",
+  "lastVerified": "2026-10-28",
+  "address": "1644 Haight Street, San Francisco, CA 94117"
+ },
+ {
+  "id": "baycer-uncle-pauls-ceramics-north-beach",
+  "name": "Uncle Paul's Ceramics (North Beach)",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.79796,
+    "lng": -122.40525
+   },
+   "neighborhood": "North Beach"
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "membership",
+   "workshops",
+   "soda-firing"
+  ],
+  "description": "The second Uncle Paul's studio, on Broadway in North Beach, with open memberships, six-week wheel and handbuilding courses and a guest-artist workshop series run with the SF Ceramic Artists Guild.",
+  "details": "Membership $240 (monthly), members' access daily 8am-10pm, personal shelf, studio glazes with purchase of clay (clay price includes firing). Studio manager Chloe Kobernuss teaches 6-week Handbuilding (Tuesdays) and 6-week Wheel (Wednesdays). Featured Artist Series: Susan Gold two-day teapot workshop, Oct 10-11, 2026, 11am-2pm, $175, with SFCAG member discount. A soda-firing series was run with Oribe Firing Center (San Gregorio) in 2026. Contact (847) 287-8880, unclepaulsceramics@gmail.com. Teaching lead: Featured Artist Series brings in guest instructors for paid multi-day workshops. Not a posted job, but a clear route for a visiting-artist workshop proposal: email unclepaulsceramics@gmail.com. Paid teaching is US employment: it needs work authorization (her current visa doesn't allow it; an O-1B or a sponsoring employer could).",
+  "website": "https://unclepaulsnorthbeach.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "studio",
+   "class",
+   "community",
+   "teaching"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class",
+   "community",
+   "teaching"
+  ],
+  "discipline": "ceramics",
+  "source": "https://unclepaulsnorthbeach.com/featured-artist-series-susan-gold-two-day-teapot-workshop",
+  "lastVerified": "2026-10-28",
+  "address": "493 Broadway, San Francisco, CA 94133"
+ },
+ {
+  "id": "baycer-speckle-studio-formerly-pinckney-clay",
+  "name": "Speckle Studio (formerly Pinckney Clay)",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.73901,
+    "lng": -122.41733
+   },
+   "neighborhood": "Bernal Heights"
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "membership",
+   "kids",
+   "nerikomi",
+   "workshops"
+  ],
+  "description": "A women-owned community pottery and 2D art studio on Cortland Avenue (the former Pinckney Clay, once at 30th and Mission) with 18 wheels, a backyard, a shop of local artists' work, and youth after-school clay.",
+  "details": "18 wheels, slab roller, three work areas, cone 6 glaze / cone 06 bisque. 4-week Adult Intro Wheel $250 (e.g. Tuesdays Oct 13-Nov 3, 6-8:30pm; Saturdays Oct 31-Nov 21, 9-11:30am), includes open studio Thu-Sun, clay, firing, glazes. Youth After School Arts Enrichment: Sculpture $260 (Tuesdays Oct 6-27, ages 7-12), Wheel $300 (Wednesdays Oct 7-28). Memberships: Rutile $250/month (currently full, waitlist), Luster $295/month billed quarterly; glaze firing fees included, monthly member workshops; requires a completed 6-week beginner class; no production potters. Shop hours Wed-Sat 12-5, Sun 11-5. Contact 415-525-4574, hello@specklestudio.com. Owner Holly Coley. Teaching lead: Classes page says they offer 'private lessons, visiting artist workshops, and more. Have something in mind? Get in touch' and are 'developing an after school program for your kids and teens'. Team page lists many part-time artist instructors. Pitch a visiting-artist workshop or class to hello@specklestudio.com. Paid teaching is US employment: it needs work authorization (her current visa doesn't allow it; an O-1B or a sponsoring employer could).",
+  "website": "https://www.specklestudio.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "studio",
+   "class",
+   "community",
+   "teaching"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class",
+   "community",
+   "teaching"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.specklestudio.com/memberships",
+  "lastVerified": "2026-10-28",
+  "address": "416 Cortland Avenue, San Francisco, CA 94110"
+ },
+ {
+  "id": "baycer-san-francisco-state-university-school-of-art-ceramics",
+  "name": "San Francisco State University School of Art (Ceramics)",
+  "type": "school",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.72452,
+    "lng": -122.48
+   },
+   "neighborhood": "Lakeshore / Park Merced"
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "glaze",
+   "gas-kiln",
+   "BA",
+   "MFA",
+   "teaching"
+  ],
+  "description": "SF State's School of Art runs a ceramics area within its BA and MFA programmes, with a 1,500 sq ft clay studio, an 800 sq ft glaze room and gas and electric kilns.",
+  "details": "Clay studio over 1,500 sq ft with handbuilding tables, large slab roller, extruder and 20 electric Brent wheels; 800 sq ft glaze room with raw materials, in-house and commercial glazes, spray booth; 500 sq ft critique room; gas and electric kilns; 1,200 sq ft shared graduate ceramics studio. School office: sch_art@sfsu.edu, (415) 338-2176, Fine Arts Building Room 293, Mon-Fri 9-5. Teaching lead: Jobs page: 'To be considered for a lecturer position please email a resume/CV and cover letter to sch_art@sfsu.edu with the subject Lecturer Pool.' Applicants must have a graduate degree or equivalent experience; applications go into the School of Art lecturer pool. No open faculty search (the listed Museum Studies position is filled). No posting found in this pass; CSU lecturer pools are posted on the SFSU careers site. Contact sch_art@sfsu.edu. Paid teaching is US employment: it needs work authorization (her current visa doesn't allow it; an O-1B or a sponsoring employer could).",
+  "website": "https://art.sfsu.edu/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "school",
+   "teaching"
+  ],
+  "category": "school",
+  "categories": [
+   "school",
+   "teaching"
+  ],
+  "discipline": "ceramics",
+  "source": "https://art.sfsu.edu/jobs",
+  "lastVerified": "2026-10-28",
+  "address": "1600 Holloway Avenue, Fine Arts Building, San Francisco, CA 94132"
+ },
+ {
+  "id": "baycer-randall-museum-ceramics-studio-sf-rec-and-park",
+  "name": "Randall Museum Ceramics Studio (SF Rec & Park)",
+  "type": "workshop",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.7644,
+    "lng": -122.43837
+   },
+   "neighborhood": "Corona Heights"
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "kids",
+   "family",
+   "gas-kiln"
+  ],
+  "description": "The city-run Randall Museum on Corona Heights has a refurbished ceramics studio among its hands-on labs, used for its seasonal art classes for children, teens and adults.",
+  "details": "Ceramics studio has electric wheels, manual wheels, electric and gas-powered kilns, a clay trap, hand tools, glazes and clays for all age groups. Classes run in quarterly sessions; Fall 2026 member registration opened Aug 1, non-member Aug 15; registration is through SF Recreation and Parks (family account). Withdrawal fee $14 or 20%. Contact sfreconline@sfgov.org, (628) 652-2900. Specific ceramics class titles and prices were not visible on the pages opened; check the SF Rec & Park ActiveNet catalog. Teaching lead: Randall classes are SF Rec & Park programmes; instructor roles would go through SF Rec & Park / city hiring. Nothing posted on the pages opened.",
+  "website": "https://randallmuseum.org/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "class",
+   "community"
+  ],
+  "category": "class",
+  "categories": [
+   "class",
+   "community"
+  ],
+  "discipline": "ceramics",
+  "source": "https://randallmuseum.org/labs-studios-learning-spaces/",
+  "lastVerified": "2026-10-28"
+ },
+ {
+  "id": "baycer-shipyard-open-studios-hunters-point-shipyard",
+  "name": "Shipyard Open Studios (Hunters Point Shipyard)",
+  "type": "community",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.72852,
+    "lng": -122.36688
+   },
+   "neighborhood": "Bayview-Hunters Point"
+  },
+  "focusAreas": [
+   "open-studios",
+   "studio-space",
+   "artist-community"
+  ],
+  "description": "The Hunters Point Shipyard is San Francisco's largest cluster of working artist studios, ceramicists among them, and opens its doors twice a year through the Shipyard Trust for the Arts (STAR).",
+  "details": "Fall 2026 edition Oct 17-18, 2026, 11am-6pm, free with RSVP, free parking, Muni 19/15/54; 130+ open studios (painting, sculpture, jewelry, photography, ceramics, metalwork); presented by STAR with ArtSpan. Useful for meeting ceramic artists and asking about shared studio space in the Shipyard buildings.",
+  "website": "https://www.shipyardartists.com/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "community",
+   "artist",
+   "gallery"
+  ],
+  "category": "community",
+  "categories": [
+   "community",
+   "artist",
+   "gallery"
+  ],
+  "discipline": "ceramics",
+  "source": "https://sf.funcheap.com/shipyard-open-studios-fall-2026-130-artists-free-admission-parking/",
+  "lastVerified": "2026-10-28",
+  "address": "451 Galvez Ave, San Francisco (Hunters Point Shipyard); satellite studios at Islais Creek"
+ },
+ {
+  "id": "baycer-artspan-sf-open-studios",
+  "name": "ArtSpan SF Open Studios",
+  "type": "community",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.77081,
+    "lng": -122.40628
+   },
+   "neighborhood": "Citywide (exhibition at SOMArts Cultural Center)"
+  },
+  "focusAreas": [
+   "open-studios",
+   "artist-community",
+   "exhibition"
+  ],
+  "description": "San Francisco's citywide open studios programme, run by ArtSpan since 1991, where hundreds of artists open their studios across consecutive neighbourhood weekends each autumn.",
+  "details": "52nd edition ran Sept 18 - Oct 25, 2026, grouped by region over consecutive weekends, with an exhibition at SOMArts Cultural Center. Interim Executive Director Ruth Nott. Artists take part by registering with ArtSpan (terms not visible on pages opened).",
+  "website": "https://www.artspan.org/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "community",
+   "artist"
+  ],
+  "category": "community",
+  "categories": [
+   "community",
+   "artist"
+  ],
+  "discipline": "ceramics",
+  "source": "https://hoodline.com/2026/10/san-francisco-s-52nd-open-studios-welcomes-hundreds-of-artists/",
+  "lastVerified": "2026-10-28",
+  "address": "ArtSpan, 934 Brannan St., San Francisco, CA 94103"
+ },
+ {
+  "id": "baycer-clayroom-oakland-temescal",
+  "name": "Clayroom Oakland (Temescal)",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "Oakland",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.83093,
+    "lng": -122.25477
+   },
+   "neighborhood": "Temescal / Rockridge"
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "slip-casting",
+   "membership",
+   "raku",
+   "classes"
+  ],
+  "description": "Clayroom's East Bay studio, opened in 2024, with classes, memberships and workshops plus a 1,500 sq ft outdoor yard used year-round for monthly raku firings, craft sales and community events.",
+  "details": "Phone (341) 234-0162, Oakland@clayroomsf.com. Hours Mon-Sat 10am-9pm, Sun 10am-7:30pm. Membership: open studio access 10am-9pm Mon-Sat and 10am-7:30pm Sun, 18x18x36 in shelf, Shimpo Whisper wheels, slab roller, spray booth, extruder, 30+ glazes; glaze access at all Clayroom studios (75+ dipping glazes); members-only 'Power Hour' lessons 4-5 times a month; firing fees included in clay cost. Members are expected to use the space 2-3 times a week and take part in mentorship, teaching opportunities and member sales. Membership via inquiry form; Oakland class scholarship application available. Teaching lead: Clayroom careers page (https://www.clayroomsf.com/careers): 'We're always looking for talented individuals in both woodworking and ceramics. If interested in potentially working at one of our studios please email jobs@clayroomsf.com with your resume.' The Oakland membership page also mentions member 'mentorship, teaching opportunities'. Winnie has already been approached by Clayroom, so this is the East Bay branch to ask about. Paid teaching is US employment: it needs work authorization (her current visa doesn't allow it; an O-1B or a sponsoring employer could).",
+  "website": "https://www.clayroomsf.com/oakland",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "oakland",
+   "ceramics",
+   "studio",
+   "class",
+   "community",
+   "teaching"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class",
+   "community",
+   "teaching"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.clayroomsf.com/oakland",
+  "lastVerified": "2026-10-28",
+  "address": "4268 Broadway, Oakland, CA 94611"
+ },
+ {
+  "id": "baycer-clayroom-west-oakland",
+  "name": "Clayroom West Oakland",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "Oakland",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.81429,
+    "lng": -122.29148
+   },
+   "neighborhood": "West Oakland (Prescott Market)"
+  },
+  "focusAreas": [
+   "membership",
+   "cone-10-reduction",
+   "cone-5",
+   "gas-kiln",
+   "wheel",
+   "handbuilding"
+  ],
+  "description": "A member-centred Clayroom studio in a two-storey, 5,700 sq ft space in Prescott Market, offering both cone 5 electric and cone 10 gas reduction firing under one roof.",
+  "details": "Phone (341)-241-5414, Westoakland@clayroomsf.com. The studio says it hopes to host regular craft fairs within the farmer's market, community events and artist talks. Membership terms are shared with Clayroom Oakland (see Temescal entry); the membership page notes 'West Oakland has both electric and gas kilns for mid-fire and reduction firings.' Teaching lead: Same as Clayroom: email jobs@clayroomsf.com with a resume (https://www.clayroomsf.com/careers). A reduction-fire studio could suit Winnie's glaze-chemistry teaching. Paid teaching is US employment: it needs work authorization (her current visa doesn't allow it; an O-1B or a sponsoring employer could).",
+  "website": "https://www.clayroomsf.com/westoakland",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "oakland",
+   "ceramics",
+   "studio",
+   "class",
+   "community",
+   "teaching"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class",
+   "community",
+   "teaching"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.clayroomsf.com/westoakland",
+  "lastVerified": "2026-10-28",
+  "address": "1723 Peralta Street, Oakland, CA 94607"
+ },
+ {
+  "id": "baycer-the-crucible-ceramics",
+  "name": "The Crucible: Ceramics",
+  "type": "workshop",
+  "status": "active",
+  "location": {
+   "city": "Oakland",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.80503,
+    "lng": -122.29064
+   },
+   "neighborhood": "West Oakland"
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "slip-casting",
+   "raku",
+   "mid-fire",
+   "teaching"
+  ],
+  "description": "West Oakland nonprofit fine and industrial arts school whose ceramics department teaches pinching, coiling, slabs, wheel throwing, press molds, slip casting, mid-fire glazing and raku, for adults and youth.",
+  "details": "Classes include 3-Hour Tasters (mug, planter, wheel throwing), Ceramic Bowls, Ceramics I and II, Fundamentals of Wheel Throwing, Wheel Throwing I and II, and youth classes. Members-only Ceramics Lab sessions (8-week series or drop-in, lab monitor present, bring your own materials; clay $15 per bag). Phone 510.444.0919, info@thecrucible.org. Teaching lead: Faculty Openings: 'The Crucible is always looking for talented faculty... We are seeking skilled, part-time instructors in several departments.' Lead faculty paid $25.00-$27.50/hr; teaching assistants from $19.44/hr. Apply via the Faculty Job Application form on https://www.thecrucible.org/job-opportunities/ (select Ceramics; letter of interest, resume/CV, work examples, three references). Questions: teaching@thecrucible.org. Strong, current lead. Paid teaching is US employment: it needs work authorization (her current visa doesn't allow it; an O-1B or a sponsoring employer could).",
+  "website": "https://www.thecrucible.org/departments/ceramics/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "oakland",
+   "ceramics",
+   "class",
+   "school",
+   "community",
+   "teaching"
+  ],
+  "category": "class",
+  "categories": [
+   "class",
+   "school",
+   "community",
+   "teaching"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.thecrucible.org/job-opportunities/",
+  "lastVerified": "2026-10-28",
+  "address": "1260 7th St., Oakland, CA 94607"
+ },
+ {
+  "id": "baycer-studio-one-art-center-city-of-oakland",
+  "name": "Studio One Art Center (City of Oakland)",
+  "type": "workshop",
+  "status": "active",
+  "location": {
+   "city": "Oakland",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.83284,
+    "lng": -122.25695
+   },
+   "neighborhood": "Temescal / North Oakland"
+  },
+  "focusAreas": [
+   "city-rec",
+   "ceramics-classes",
+   "youth",
+   "adult",
+   "low-cost"
+  ],
+  "description": "The City of Oakland's only city-run studio arts centre, offering classes by working artists in ceramics alongside painting, drawing, music and dance for youth and adults.",
+  "details": "Phone (510) 597-5027, studiooneartcenter@gmail.com. Fall-Winter '26-27 catalog: Fall session Aug 31-Oct 17 (enrollment opened Aug 3); Holiday session Oct 26-Dec 16 (enrollment opened Sept 14); Winter session Jan 4-Mar 1 2027 (enrollment opens Mon Oct 19, 9:30am). Prices not stated on the page (catalog is a PDF). Teaching lead: No instructor hiring info on the page. Instructors are city 'master artists'; ask studiooneartcenter@gmail.com or (510) 597-5027 how to propose a ceramics class. (Bob Johnson, a Potters' Studio teaching artist, has taught at Studio One since 1990 per thepottersstudio.org/our-team-1.)",
+  "website": "https://www.oaklandca.gov/topics/studio-one-arts-center",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "oakland",
+   "ceramics",
+   "class",
+   "community"
+  ],
+  "category": "class",
+  "categories": [
+   "class",
+   "community"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.oaklandca.gov/topics/studio-one-arts-center",
+  "lastVerified": "2026-10-28",
+  "address": "365 45th St, Oakland, CA 94609"
+ },
+ {
+  "id": "baycer-merritt-ceramics",
+  "name": "Merritt Ceramics",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "Oakland",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.7996,
+    "lng": -122.25083
+   },
+   "neighborhood": "Park Blvd / Lakeshore"
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "membership",
+   "firing-service",
+   "artist-in-residence",
+   "work-exchange",
+   "craft-fair"
+  ],
+  "description": "A neighbourhood studio with classes, courses, memberships and private events, plus an outside firing service for home potters and a one-year artist residency that prioritises Black and Indigenous Oakland artists.",
+  "details": "Open hours Tue-Sun 11am-6pm. Outside firing (cone 5/6 only, clay bought from Merritt or proof of a cone 5/6 body): 5x5x5 in $15; per cubic foot $30; half kiln (5 cu ft) $100; full kiln (9.9 cu ft) $165; glazing day pass $35; about 10-14 days turnaround per firing. Work exchange: Daisy Membership + 1 bag clay/month for 2 hrs/week (waitlist currently closed). AIR: Tulip Membership, 24/7 access Sept 1 2026-Aug 31 2027, two 6-week courses, mentor pairing; deadline was Aug 1 2026; Oakland residents 18+; apply to info@merrittceramics.com. Financial assistance for memberships. MerrittFest 2026 (Bay Area ceramics craft fair, Nov 7, 10-4, with demos and wheel-throwing challenges sponsored by Clay People). Best Glaze Practices workshop with Don Santos, Nov 14. Teaching lead: No instructor posting found. The AIR pairs residents with mentors 'tailored to their specific interests', and the Nov 14 glaze workshop is guest-taught, so Merritt may be open to a pitch for a guest glaze-chemistry or wild-clay workshop (contact info@merrittceramics.com). This is an inference, not a posted opening. Paid teaching is US employment: it needs work authorization (her current visa doesn't allow it; an O-1B or a sponsoring employer could).",
+  "website": "https://www.merrittceramics.com/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "oakland",
+   "ceramics",
+   "studio",
+   "class",
+   "community",
+   "supplier",
+   "residency",
+   "mentorship",
+   "teaching"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class",
+   "community",
+   "supplier",
+   "residency",
+   "mentorship",
+   "teaching"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.merrittceramics.com/pages/opportunities",
+  "lastVerified": "2026-10-28",
+  "address": "1823 Park Blvd, Oakland, CA 94606"
+ },
+ {
+  "id": "baycer-yolin-art-studio",
+  "name": "YoLin Art Studio",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "Oakland",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.80447,
+    "lng": -122.24521
+   },
+   "neighborhood": "Cleveland Heights / Lake Merritt"
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "6-week-classes",
+   "sculpture",
+   "ceramics-travel"
+  ],
+  "description": "Artist-run ceramics studio of Yingling Lin and Yoyo Hu, teaching functional pottery and expressive sculpture, and running an 18-day ceramics and culture trip to Taiwan.",
+  "details": "Next course series Nov 3-Dec 13, 2026; registration opened Oct 13. Studio visits by appointment. A third-party comparison page (honhongva.org) lists intro throwing at $385 for 6 weeks; not confirmed on YoLin's own site.",
+  "website": "https://yolinartstudio.com/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "oakland",
+   "ceramics",
+   "studio",
+   "class",
+   "community"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class",
+   "community"
+  ],
+  "discipline": "ceramics",
+  "source": "https://yolinartstudio.com/",
+  "lastVerified": "2026-10-28",
+  "address": "539 Athol Avenue, Oakland, CA 94606"
+ },
+ {
+  "id": "baycer-moon-jelly-ceramics",
+  "name": "Moon Jelly Ceramics",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "Berkeley",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.87084,
+    "lng": -122.27286
+   },
+   "neighborhood": "Southwest Berkeley",
+   "approximate": true
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "membership",
+   "sliding-scale",
+   "queer-bipoc-owned"
+  ],
+  "description": "A small queer, BIPOC and woman-owned studio that opened in September 2025, built around slow, intentional making, with 6-week classes, 2-hour classes, clay nights and sliding-scale pricing.",
+  "details": "6-week classes $360 (Intro to Wheel, Intermediate Wheel, Intermediate Handbuilding), max 10 students, including open studio M-Th 2-8:30pm and Sun 12-5pm and up to 25 lb clay with firing; session runs the week of Oct 26-Dec 7 with a Nov 23-29 break. Memberships (after 1 Moon Jelly class + 2 community-studio classes): Small Shelf $180/month, Large Shelf $230/month, 7am-11pm access after a 1-month trial, firing $1.12/lb paid with clay. Waitlist application. Contact info@moonjellyceramics.com. Owner/teacher Elani Gitterman. Street address is not published on the site; pin is the Berkeley city centre.",
+  "website": "https://www.moonjellyceramics.com/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "berkeley",
+   "ceramics",
+   "studio",
+   "class",
+   "community"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class",
+   "community"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.moonjellyceramics.com/6-week-classes-info",
+  "lastVerified": "2026-10-28"
+ },
+ {
+  "id": "baycer-mudworks-studio",
+  "name": "Mudworks Studio",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "El Cerrito",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.90411,
+    "lng": -122.29186
+   }
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "slip-casting",
+   "membership",
+   "work-exchange",
+   "nerikomi",
+   "cone-6"
+  ],
+  "description": "An inclusive neighbourhood studio offering wheel, handbuilding and slip-casting classes, private lessons and 24/7 memberships, with quarterly member sales and a work-exchange track.",
+  "details": "Membership $250/month: 24/7 key-code access after one month, own shelf, communal glazes and tools, priority glaze firing, free bag of reclaim monthly, 10% off classes, sell in quarterly sales with no cut; bisque charged at $0.04 per cubic inch. Fires cone 04 bisque and cone 6 glaze (electric Skutt); FAQ said cone 10 gas was planned for 2025. Work exchange: free membership for 2 hrs/week, 5 spots rotating every 6 months (currently closed). Classes: beginner/intermediate wheel 6-week $375; 7-week porcelain nerikomi intensive with Jennifer Cuaro $500 (Saturdays from Oct 17); 2-day holiday ornament workshop $175 (Nov 12 and 19). Clay sold: 25 lb from $30, 15 lb recycled $15. Teaching lead: No posting, but the studio runs guest-led intensives (e.g. the nerikomi course), so a guest workshop pitch is plausible. Inference only.",
+  "website": "https://www.mudworks-pottery.com/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "el-cerrito",
+   "ceramics",
+   "studio",
+   "class",
+   "community"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class",
+   "community"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.mudworks-pottery.com/services/p/ornaments2week",
+  "lastVerified": "2026-10-28",
+  "address": "7523 Fairmount Ave, El Cerrito, CA 94530"
+ },
+ {
+  "id": "baycer-waveform-ceramics",
+  "name": "Waveform Ceramics",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "Oakland",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.84086,
+    "lng": -122.27444
+   },
+   "neighborhood": "North Oakland",
+   "approximate": true
+  },
+  "focusAreas": [
+   "beginners",
+   "wheel",
+   "handbuilding",
+   "therapeutic-clay",
+   "team-building",
+   "studio-rental"
+  ],
+  "description": "A small North Oakland classroom studio run by art educator Caty Monahon that specialises in beginners, with trauma-aware, body-awareness teaching and 'Claybody' workshops for people who are burned out.",
+  "details": "Single drop-in throwing classes (up to six seats), sequential class bundles, private 'Claydates' for up to 5, Handbuild 'n' Chill, plus candle-making and woodburning; team-building, parties and studio rental. A Berkeley Parents Network comment places it on Aileen St (https://www.berkeleyparentsnetwork.org/recommend/classes/pottery). No street address on the site; pin is Aileen Street, North Oakland, per a Berkeley Parents Network comment.",
+  "website": "https://www.waveformceramics.com/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "oakland",
+   "ceramics",
+   "studio",
+   "class"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.waveformceramics.com/blog",
+  "lastVerified": "2026-10-28"
+ },
+ {
+  "id": "baycer-kids-n-clay",
+  "name": "Kids 'N' Clay",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "Berkeley",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.87072,
+    "lng": -122.29302
+   },
+   "neighborhood": "West Berkeley"
+  },
+  "focusAreas": [
+   "youth",
+   "kids",
+   "wet-clay",
+   "camps",
+   "wheel"
+  ],
+  "description": "A long-running children's clay studio with nationally recognised wet-clay programmes, weekly classes, Monday day camps, summer camps and one-time visits.",
+  "details": "Fall 2026 semester started Tuesday Sept 1 (studio closed Aug 15-31); 2026/27 Monday Day Camps; one-time visits; no birthday parties or private events at this time. info@kidsnclay.com, 510-845-0982.",
+  "website": "https://kidsnclay.com/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "berkeley",
+   "ceramics",
+   "studio",
+   "class"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class"
+  ],
+  "discipline": "ceramics",
+  "source": "https://kidsnclay.com/",
+  "lastVerified": "2026-10-28",
+  "address": "1822 San Pablo Avenue, Berkeley, CA 94702"
+ },
+ {
+  "id": "baycer-jereds-pottery",
+  "name": "Jered's Pottery",
+  "type": "artist",
+  "status": "active",
+  "location": {
+   "city": "Emeryville",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.83137,
+    "lng": -122.28821
+   },
+   "neighborhood": "Horton Street",
+   "approximate": true
+  },
+  "focusAreas": [
+   "wheel",
+   "throwing-clinic",
+   "production-pottery",
+   "dinnerware"
+  ],
+  "description": "Production dinnerware studio of potter Jered Nelson that also runs small monthly throwing clinics on centring and matching sets, plus writing workshops by Sarah Kobrinsky.",
+  "details": "November Throwing Clinic with Jered, Sat Nov 14, 10am-1pm, $150, six students, a wheel each; December clinic Sat Dec 12, 10am-1pm, $150. Contact jeredspottery@gmail.com. A 2017 E'ville Eye article reports the studio moved from Richmond to the former Midsummer Studios space on Horton Street, Emeryville (https://evilleeye.com/in-the-neighborhood/jereds-pottery-sarah-kobrinskys-familys-triumphant-return-to-emeryville/); the shop site gives no street address. Pin is Horton Street, Emeryville (2017 E'ville Eye article); the shop site gives no street address.",
+  "website": "https://jeredspottery.com/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "emeryville",
+   "ceramics",
+   "class",
+   "artist"
+  ],
+  "category": "class",
+  "categories": [
+   "class",
+   "artist"
+  ],
+  "discipline": "ceramics",
+  "source": "https://jeredspottery.com/collections/pottery-classes-1",
+  "lastVerified": "2026-10-28"
+ },
+ {
+  "id": "baycer-happy-life-pottery",
+  "name": "Happy Life Pottery",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "Benicia",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 38.05414,
+    "lng": -122.15549
+   },
+   "neighborhood": "Downtown Benicia"
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "youth",
+   "beginners",
+   "artists-co-op",
+   "gift-shop"
+  ],
+  "description": "A downtown Benicia teaching studio and art and gift boutique that focuses on getting beginners onto the wheel, with handbuilding projects, youth clay programmes and a small members-only artists' co-op.",
+  "details": "6-week Beginner Wheel (16+) $385 all-inclusive with Monday open studio 1-8pm for enrolled students, offered mostly to the waiting list (take a one-day wheel class first). After-school youth wheel 6 weeks $250 (4 spots); Summer Wheel Camp $250. No open studio for experienced potters. Store hours Wed-Sat 10-6, Sun 11-5. (707) 742-3411.",
+  "website": "https://happylifepottery.com/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "benicia",
+   "ceramics",
+   "studio",
+   "class",
+   "community",
+   "gallery"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class",
+   "community",
+   "gallery"
+  ],
+  "discipline": "ceramics",
+  "source": "https://happylifepottery.com/wheel-throwing",
+  "lastVerified": "2026-10-28",
+  "address": "632 First Street, Benicia, CA 94510"
+ },
+ {
+  "id": "baycer-niad-art-center",
+  "name": "NIAD Art Center",
+  "type": "community",
+  "status": "active",
+  "location": {
+   "city": "Richmond",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.93924,
+    "lng": -122.34762
+   },
+   "neighborhood": "23rd Street"
+  },
+  "focusAreas": [
+   "disability-arts",
+   "studio-facilitation",
+   "ceramics",
+   "jobs"
+  ],
+  "description": "A progressive Richmond art studio and gallery for adult artists with developmental disabilities, whose practice spans painting, sculpture, ceramics, fiber and printmaking. It is multi-media rather than ceramics-only.",
+  "details": "Main gallery show 'North Star' Sept 12-Oct 30, 2026. Contact admin@niadart.org, 510 620 0290. Teaching lead: Open roles (posted 10/16/26, priority review 10/30/26): Studio Manager, 28 hrs/week, $35-38/hr, 'a good fit for a practicing artist with real breadth across materials', on-site in Richmond; Substitute Facilitator (rolling; send proposals to Studio Director Shantanice Swain, shantanice.swain@niadart.org). These are facilitation roles, not ceramics-specific teaching. Paid teaching is US employment: it needs work authorization (her current visa doesn't allow it; an O-1B or a sponsoring employer could).",
+  "website": "https://niadart.org/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "richmond",
+   "ceramics",
+   "community",
+   "gallery",
+   "teaching"
+  ],
+  "category": "community",
+  "categories": [
+   "community",
+   "gallery",
+   "teaching"
+  ],
+  "discipline": "ceramics",
+  "source": "https://niadart.org/pages/work-at-niad",
+  "lastVerified": "2026-10-28"
+ },
+ {
+  "id": "baycer-northeastern-university-oakland-ceramics-studio-former-mills",
+  "name": "Northeastern University Oakland Ceramics Studio (former Mills College)",
+  "type": "school",
+  "status": "active",
+  "location": {
+   "city": "Oakland",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.77991,
+    "lng": -122.18347
+   },
+   "neighborhood": "Mills / Northeastern Oakland campus"
+  },
+  "focusAreas": [
+   "university",
+   "wheel",
+   "handbuilding",
+   "students-only"
+  ],
+  "description": "The makerspace ceramics studio on Northeastern's Oakland campus, where students learn handbuilding and wheel throwing through hosted workshops, with staff handling kiln firings.",
+  "details": "Access only through a hosted workshop or tutorial; aimed at students. Upcoming: 'Dia de los Muertos' painting workshop, Oct 29, 2026, 5:30-7:30pm. Teaching lead: No openings listed; workshops are staff-hosted, so oak.ceramics@northeastern.edu is the contact to ask about guest workshops.",
+  "website": "https://makerspaces.northeastern.edu/spaces/oakland-ceramics/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "oakland",
+   "ceramics",
+   "school"
+  ],
+  "category": "school",
+  "categories": [
+   "school"
+  ],
+  "discipline": "ceramics",
+  "source": "https://makerspaces.northeastern.edu/spaces/oakland-ceramics/",
+  "lastVerified": "2026-10-28",
+  "address": "Aron Art Center Building C, Northeastern University Oakland campus"
+ },
+ {
+  "id": "baycer-clayroom-san-mateo",
+  "name": "Clayroom San Mateo",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "San Mateo",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.54048,
+    "lng": -122.29885
+   },
+   "neighborhood": "Bay Meadows"
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "slip-casting",
+   "membership",
+   "teaching"
+  ],
+  "description": "Clayroom's light-filled Peninsula studio in Bay Meadows, open since November 2023, with 6-week and one-time classes in wheel, hand-building and slip-casting, plus a member community that shares glazes across the Clayroom studios.",
+  "details": "Individual membership $615/quarter or $1,055/semi-annual (no family memberships). Includes a shelf, members-only workspace, access 10am-9pm 7 days, free Power Hour classes 5-6 times a month, and firing included in the clay cost. Membership is currently at capacity, with a waitlist form. Hours Mon-Sat 10am-9pm, Sun 10am-7:30pm. Phone (650) 865-5673, Sanmateo@clayroomsf.com. Kids classes 'coming soon' (questions to sally@clayroomsf.com). Teaching lead: Clayroom careers page: 'We're always looking for talented individuals in both woodworking and ceramics. If interested in potentially working at one of our studios please email jobs@clayroomsf.com with your resume.' (https://www.clayroomsf.com/careers). Relevant because Winnie has already been approached by Clayroom, and San Mateo is one of its five studios. Paid teaching is US employment: it needs work authorization (her current visa doesn't allow it; an O-1B or a sponsoring employer could).",
+  "website": "https://www.clayroomsf.com/san-mateo",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-mateo",
+   "ceramics",
+   "studio",
+   "class",
+   "community",
+   "teaching"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class",
+   "community",
+   "teaching"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.clayroomsf.com/san-mateo-memberships",
+  "lastVerified": "2026-10-28",
+  "address": "3050 South Delaware Street, Suite 100, San Mateo, CA 94403"
+ },
+ {
+  "id": "baycer-south-bay-ceramics",
+  "name": "South Bay Ceramics",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "Mountain View",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.41503,
+    "lng": -122.09003
+   }
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "membership",
+   "workshops",
+   "teaching"
+  ],
+  "description": "Community ceramics studio with two locations a short walk apart on Old Middlefield Way. It runs 6-week classes, member open studio and guest workshops (past guests include Miki Shim Rutter and Yunting).",
+  "details": "Memberships: monthly $250 + $100 initiation; 6-month $1,500; annual $2,750. The page also shows $225 / $1,350 / $2,460 figures, which may be current rates. Members need prior clay experience. Clay is bought at the studio at wholesale plus $15 firing per 25 lb bag; 30 days notice to cancel. Benefits include a private shelf, member wheel and handbuilding sections and 15% off workshops. The page notes short wait times for new members. MV Voice (2024) listed hours Mon-Fri 10am-9pm, Sat-Sun 10am-7pm. Teaching lead: Careers page: 'Pottery Instructors: We're always looking for wheel-throwing and handbuilding instructors for 6-week classes, one-time classes and events! Feel free to reach out to us with an overview of your experience.' Instructor qualifications: 3+ years in ceramics, prior teaching experience, ability to develop specialized classes or workshops, evening/weekend availability; a portfolio is preferred. There is also a Studio Technician role at US$22.50-24/hour (16+ hrs/week). Apply via https://www.southbayceramics.com/careers. Paid teaching is US employment: it needs work authorization (her current visa doesn't allow it; an O-1B or a sponsoring employer could).",
+  "website": "https://www.southbayceramics.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "mountain-view",
+   "ceramics",
+   "studio",
+   "class",
+   "community",
+   "teaching"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class",
+   "community",
+   "teaching"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.southbayceramics.com/careers",
+  "lastVerified": "2026-10-28",
+  "address": "Old Middlefield Way, Mountain View (two studios: Studio 1954 and Studio 2485); MV Voice lists 1954 Old Middlefield Way, Suite I"
+ },
+ {
+  "id": "baycer-capybara-clay-and-art-studio",
+  "name": "Capybara Clay & Art Studio",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "Cupertino",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.32752,
+    "lng": -122.03377
+   }
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "sculpting",
+   "membership",
+   "kids",
+   "family"
+  ],
+  "description": "A 3,000+ sq ft family-friendly clay studio in Cupertino with separate adult and kids areas, a pottery wheel room, a hand-sculpting focus and an unlimited member pass.",
+  "details": "Unlimited pass from $165/month including firing and glazes; members have 24/7 access. Classes from $49; courses from $399; free studio tours. Business hours Thu-Fri 4-7pm, Sat-Sun 2-7pm. info@capybaraclay.com, +1 701 367 0187 (text only). Summer kids camps $549/week.",
+  "website": "https://www.capybaraclay.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "cupertino",
+   "ceramics",
+   "studio",
+   "class"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.capybaraclay.com/camps26",
+  "lastVerified": "2026-10-28",
+  "address": "10268 Bandley Dr #103, Cupertino, CA 95014"
+ },
+ {
+  "id": "baycer-amphora-ceramic-studio",
+  "name": "Amphora Ceramic Studio",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "San Rafael",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.96326,
+    "lng": -122.51741
+   }
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "membership",
+   "firing-service",
+   "kids",
+   "workshops"
+  ],
+  "description": "San Rafael teaching studio with 5-6 week adult courses (wheel, hand-building, surface work), tiered memberships, youth programs and a firing service for outside work.",
+  "details": "Courses meet weekly for 3 hours and include 3 hours/week of open studio; Session 7 2026 ran Sept 21 - Nov 1. Memberships: Bronze open-studio access $258/month; Silver all-access $309/month (Silver, Gold and Platinum get the members-only area 6am-midnight daily); 1-month minimum, 30 days notice. Non-member firing: bisque ^06 and glaze ^5 at 4 cents per cubic inch, $35 minimum per batch, 2-3 week turnaround. NOTE: no homemade glazes or wild clays are fired. Info@amphoraceramicstudio.com, (415) 233-1181.",
+  "website": "https://www.amphoraceramicstudio.org",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-rafael",
+   "ceramics",
+   "studio",
+   "class",
+   "supplier"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class",
+   "supplier"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.amphoraceramicstudio.org/courses-1",
+  "lastVerified": "2026-10-28",
+  "address": "452 Du Bois St, San Rafael, CA 94901"
+ },
+ {
+  "id": "baycer-ceramic-art-center-of-marin-cacm",
+  "name": "Ceramic Art Center of Marin (CACM)",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "San Anselmo",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.97727,
+    "lng": -122.56162
+   }
+  },
+  "focusAreas": [
+   "advanced",
+   "sculpture",
+   "high-fire",
+   "gas-kiln",
+   "mentorship",
+   "membership",
+   "lectures"
+  ],
+  "description": "A studio and gallery for intermediate-to-professional ceramic artists, founded by Nadia Tarzi-Saccardi (former director of Terra Linda Ceramics). It is built around mentor-led Ateliers, a gas kiln for cone 10 work and a 'Clay Talks' speaker series.",
+  "details": "Associate membership $25/year (needs 18 months of intermediate experience; access is tied to mentor-led 4-6 week Ateliers, e.g. Bird Sculpture Atelier $400). Part-time $250/month and Full-time $325/month, each plus the $25 annual fee (2 and 4 years of experience required). Equipment: gas kiln, mid-range and high fire (cone 10 experience required), Brent wheels and slab roller, slip-casting table, spray booth. Clay Talks $25: Jeff Downing Oct 24 and John Toki Nov 21 (4-6pm). (415) 370-1694, info@cacm.studio. Teaching lead: No hiring page, but the studio runs mentor-led Ateliers and a speaker series, and the founder emphasises mentoring. Worth a direct pitch to info@cacm.studio about mentoring an Atelier (e.g. wild clay or glaze chemistry). The 2027 residency also requires one artist talk or demo. Paid teaching is US employment: it needs work authorization (her current visa doesn't allow it; an O-1B or a sponsoring employer could).",
+  "website": "https://www.cacm.studio",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-anselmo",
+   "ceramics",
+   "studio",
+   "community",
+   "mentorship",
+   "residency",
+   "gallery",
+   "teaching"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "community",
+   "mentorship",
+   "residency",
+   "gallery",
+   "teaching"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.cacm.studio/program",
+  "lastVerified": "2026-10-28",
+  "address": "110 Spaulding Street, San Anselmo, CA 94960"
+ },
+ {
+  "id": "baycer-cacm-artist-in-residence-2027",
+  "name": "CACM Artist-in-Residence 2027",
+  "type": "residency",
+  "status": "active",
+  "location": {
+   "city": "San Anselmo",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.97727,
+    "lng": -122.56162
+   }
+  },
+  "focusAreas": [
+   "residency",
+   "exhibition",
+   "advanced"
+  ],
+  "description": "A two-month ceramics residency at the Ceramic Art Center of Marin, open to emerging and established ceramic artists pursuing a specific project, ending in a gallery show.",
+  "details": "March-April 2027. Apply by January 30, 2027 (notification by February 10) with a project proposal, artist statement, resume and 5-10 images via the online form. Offers a two-month full-time membership (valued at $650) with studio access and kiln firings, plus an exhibition in the CACM Gallery. Residents give one artist talk or demo. No cost; lodging is not provided. Questions: info@cacm.studio. Teaching lead: The residency requires one artist talk or demonstration for the CACM community, a good way for Winnie to introduce her wild-clay and glaze-chemistry work to Marin potters.",
+  "website": "https://www.cacm.studio/residency",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-anselmo",
+   "ceramics",
+   "residency",
+   "studio"
+  ],
+  "category": "residency",
+  "categories": [
+   "residency",
+   "studio"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.cacm.studio/residency",
+  "lastVerified": "2026-10-28",
+  "address": "110 Spaulding Street, San Anselmo, CA 94960"
+ },
+ {
+  "id": "baycer-the-clay-lounge",
+  "name": "The Clay Lounge",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "San Carlos",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.49605,
+    "lng": -122.24722
+   }
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "membership",
+   "workshops",
+   "camps"
+  ],
+  "description": "A small boutique pottery studio serving San Carlos, Belmont and Redwood City. It offers Try It wheel classes, six-week Wheel I/II and handbuilding sessions, project workshops and memberships.",
+  "details": "Try It wheel class $105 (2 hrs); private classes $105-$175; workshops about $90; six-week Wheel I $405 (Wheel I Wed 7pm Sept 23 - Nov 4; Wheel II Thu 7pm Oct 22 - Dec 3; Handbuilding I Tue 10:30am Nov 3 - Dec 15); summer clay camps $450/week. Membership requires a one-time $25 orientation (waived after Wheel I/II); the fee includes open-hours access, glazes and firing. Studio clay only, and no production work over 1.5 cu ft per firing. Hours Mon and Wed-Sun 10am-5pm, Tue 2-8pm. 650-264-8192, studio@theclaylounge.com.",
+  "website": "https://www.theclaylounge.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-carlos",
+   "ceramics",
+   "studio",
+   "class"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.theclaylounge.com/classes",
+  "lastVerified": "2026-10-28",
+  "address": "620 El Camino Real, San Carlos, CA 94070"
+ },
+ {
+  "id": "baycer-spiffy-pottery-studio",
+  "name": "Spiffy Pottery Studio",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "Menlo Park",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.45898,
+    "lng": -122.1527
+   },
+   "neighborhood": "The Willows"
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "membership",
+   "kids",
+   "teens",
+   "teaching"
+  ],
+  "description": "A community pottery studio in Menlo Park's Willows neighbourhood (opened 2025) offering 4-week classes, kids and teens programmes, workshops and memberships with long open hours.",
+  "details": "Open Mon-Sun 7am-11pm. Membership: unlimited access 7am-11pm, a shelf about 36x18x12.5 in, door code, underglazes and brush-on and in-house dipping glazes. Members sit in on adult 4-week classes free and get 50% off in-house workshops. Clay is bought from Spiffy with $15 firing per 25 lb bag; 15 days cancellation notice; 18+. Contact spiffy@thespiffystudio.info. Teaching lead: Careers page: 'Handbuilding Instructor for Kids (Part-Time)', leading kids' handbuilding classes (ages 4-12) in pinch, coil, slab, joining and surface design. Shifts Tue 3:30-5pm, Thu 2:30-4pm, Sat 9-10:30am and/or 2-3:30pm, Sun 2-3:30pm. Pay $25.00-$32.00/hour. Requires 6 months to 1 year of studio experience and experience teaching ages 4-12. Apply by emailing a resume to spiffy@thespiffystudio.info. There is also a full-time Studio Manager role (kilns, glaze making, Instagram). Paid teaching is US employment: it needs work authorization (her current visa doesn't allow it; an O-1B or a sponsoring employer could).",
+  "website": "https://thespiffystudio.info",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "menlo-park",
+   "ceramics",
+   "studio",
+   "class",
+   "teaching"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class",
+   "teaching"
+  ],
+  "discipline": "ceramics",
+  "source": "https://thespiffystudio.info/pages/careers",
+  "lastVerified": "2026-10-28",
+  "address": "1919 Menalto Ave, Menlo Park, CA 94025"
+ },
+ {
+  "id": "baycer-colibri-pottery-studio",
+  "name": "Colibri Pottery Studio",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "San Jose",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.38141,
+    "lng": -121.89419
+   }
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "membership",
+   "teaching"
+  ],
+  "description": "A minority woman-owned pottery studio with two San Jose locations (North San Jose and one by Campbell) and 23 wheels across both. It offers beginner wheel classes, 6-week courses and memberships.",
+  "details": "Membership $220/month + $98 one-time initiation, 3-month minimum. Includes a shelf and members-only area with two bins, 23 wheels and 40+ glazes; clay at wholesale with $15 firing per 25 lb bag. Not for production potters. Requires wheel or handbuilding proficiency, or completing their 6-week course. Phones: North San Jose 408-592-6297, Campbell 408-593-4080. info@colibripotterystudio.com. Teaching lead: The jobs page lists open roles including 'Pottery Instructor' (also Studio Tech, Studio Manager and Art Intern). No pay is listed. Apply via the online form at https://www.colibripotterystudio.com/jobs, which asks for name, email, phone, roles, preferred studio, an optional portfolio link, and your 'experience with clay or teaching, availability, and why you'd like to join'. Paid teaching is US employment: it needs work authorization (her current visa doesn't allow it; an O-1B or a sponsoring employer could).",
+  "website": "https://www.colibripotterystudio.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-jose",
+   "ceramics",
+   "studio",
+   "class",
+   "teaching"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class",
+   "teaching"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.colibripotterystudio.com/jobs",
+  "lastVerified": "2026-10-28",
+  "address": "North San Jose: 1620 Oakland Rd, Suite D102, San Jose, CA 95131; 'Campbell' studio: 1033 S Bascom Ave, San Jose, CA 95128"
+ },
+ {
+  "id": "baycer-blossom-hill-ceramics",
+  "name": "Blossom Hill Ceramics",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "Los Gatos",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.23643,
+    "lng": -121.94601
+   }
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "high-fire",
+   "mid-fire",
+   "porcelain",
+   "membership",
+   "workshops"
+  ],
+  "description": "A long-running South Bay pottery school (55-year history, started in a Los Gatos garage) with 200+ artists, 40+ wheels, a dedicated handbuilding room, a porcelain studio, and mid and high fire kilns.",
+  "details": "Open studio 7am-11pm, 365 days a year. Membership with an ongoing intermediate/advanced class is $355/month (3-month minimum); membership without a class is $296/month after 3 months. Membership includes all clay, glazes, firings and free workshops; locker +$10/month; porcelain studio $59/month after 3 months. 6-week handbuilding series $425 (members $120). teambhc@blossomhillcrafts.com, 408-202-7125. Teaching lead: The employment page lists a Studio Technician role (clay recycling, kiln loading, mixing glazes and slips) at $21-22/hour, 10-20 hrs/week, including a studio membership. Apply with a resume and three references to tasha@blossomhillcrafts.com (https://www.blossomhillcrafts.com/jobposting-studiotech.html). It is not a teaching post, but the ongoing classes are instructor-led, so a direct inquiry about teaching is reasonable.",
+  "website": "https://www.blossomhillcrafts.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "los-gatos",
+   "ceramics",
+   "studio",
+   "class",
+   "community"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class",
+   "community"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.blossomhillcrafts.com/workshops.html",
+  "lastVerified": "2026-10-28",
+  "address": "15900 Blossom Hill Rd, Los Gatos, CA (store: 354 East Campbell Avenue, Campbell)"
+ },
+ {
+  "id": "baycer-creative-crew-studio",
+  "name": "Creative Crew Studio",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "Saratoga",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.29202,
+    "lng": -122.03285
+   }
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "open-studio",
+   "workshops",
+   "events"
+  ],
+  "description": "A small Saratoga pottery studio run by Amita, offering wheel and hand-building experiences, workshops, members-only open studio and private events.",
+  "details": "Pottery wheel experience $75; pottery painting from $35; DIY kits $45. Workshops are open to the public; open studio is for members only. Phone 408-505-4972.",
+  "website": "https://www.ccspotteryart.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "saratoga",
+   "ceramics",
+   "studio",
+   "class"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.ccspotteryart.com/",
+  "lastVerified": "2026-10-28",
+  "address": "12175 Saratoga Sunnyvale Road, Suite C, Saratoga, CA 95070"
+ },
+ {
+  "id": "baycer-art-space-on-the-coast",
+  "name": "Art Space on the Coast",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "Pacifica",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.63355,
+    "lng": -122.49199
+   }
+  },
+  "focusAreas": [
+   "studio-rental",
+   "firing-service",
+   "wheel",
+   "classes",
+   "kids"
+  ],
+  "description": "A community art studio in downtown Pacifica founded by local ceramic artist Jennifer Christiansen. It offers daily studio rental (4 wheels, slab roller), classes, and a firing service for work made elsewhere.",
+  "details": "Daily studio space rental bookable online. Firing service (bisque, low and mid-range, electric): $0.07/cu in for bisque or low fire (cone 04/06), $0.10/cu in for mid-fire (cone 5/6), $10 minimum; cookies $2. Only commercial clays and glazes are accepted (no wild clay). The learning space can be rented for one-time events (up to 16) or a class series (8). Teaching lead: The studio hosts outside instructors: the learning space can be rented for a class series (capacity 8), so Winnie could run her own short course here. Contact via the site. Paid teaching is US employment: it needs work authorization (her current visa doesn't allow it; an O-1B or a sponsoring employer could).",
+  "website": "https://www.artspaceonthecoast.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "pacifica",
+   "ceramics",
+   "studio",
+   "class",
+   "supplier",
+   "community",
+   "teaching"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class",
+   "supplier",
+   "community",
+   "teaching"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.artspaceonthecoast.com/",
+  "lastVerified": "2026-10-28",
+  "address": "2021 Palmetto Avenue, Pacifica, CA"
+ },
+ {
+  "id": "baycer-art-beat-studio",
+  "name": "Art Beat Studio",
+  "type": "studio",
+  "status": "active",
+  "location": {
+   "city": "Campbell",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.28694,
+    "lng": -121.94869
+   }
+  },
+  "focusAreas": [
+   "wheel",
+   "kids",
+   "camps",
+   "beginner"
+  ],
+  "description": "A downtown Campbell art and pottery studio for kids, teens and adults, running a weekly beginner wheel 'Try it' night, camps and workshops.",
+  "details": "Wheel experience: 2-hour lesson, your own wheel, up to 3 pieces (keep the best 2), 15 glaze colours, firing included, pickup in 3-4 weeks. Open studio $15 for 2 hours. Phone 408-370-5002; Instagram @the.art.beat; site www.artbeatstudio.co. 2026 activity is not confirmed: the evidence is a Downtown Campbell listing of weekly wheel nights through December 2025, and the studio site needs JavaScript.",
+  "website": "https://www.artbeatstudio.co",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "campbell",
+   "ceramics",
+   "studio",
+   "class"
+  ],
+  "category": "studio",
+  "categories": [
+   "studio",
+   "class"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.downtowncampbell.com/node/4628",
+  "lastVerified": "2026-10-28",
+  "address": "68 E Campbell Ave, Campbell, CA 95008"
+ },
+ {
+  "id": "baycer-foster-city-community-center-ceramics-studio",
+  "name": "Foster City Community Center Ceramics Studio",
+  "type": "workshop",
+  "status": "active",
+  "location": {
+   "city": "Foster City",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.55716,
+    "lng": -122.27025
+   }
+  },
+  "focusAreas": [
+   "rec-centre",
+   "classes",
+   "open-studio",
+   "teaching"
+  ],
+  "description": "The new Foster City Community Center in Leo Ryan Park opened in September 2026 with a dedicated ceramics studio. It replaces the old Recreation Center pottery programme, whose members moved to Clayroom San Mateo during construction.",
+  "details": "The city sought an outside operator for the ceramics studio (RFI, proposals due March 20, 2026) to run classes, workshops, camps and open studio. No operator is named on the pages I could open. Ribbon cutting and building dedication on Saturday, September 19, 2026. Contact: Tiffany Oren, Recreation Manager, (650) 286-3395; general line (650) 286-3380. Teaching lead: Feb 2026 release: 'the City is looking for enthusiastic individuals to serve as class instructors in the new facility. Those interested should provide qualifications, a proposed program approach, and submit a resume in the class instructors tab on the application website'. This is separate from the operator RFI and has no fixed deadline. The vendor application page URL in the release now returns 404, so contact the Recreation Manager directly, and ask who won the ceramics operator contract. Paid teaching is US employment: it needs work authorization (her current visa doesn't allow it; an O-1B or a sponsoring employer could).",
+  "website": "https://www.fostercity.org",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "foster-city",
+   "ceramics",
+   "class",
+   "community",
+   "teaching"
+  ],
+  "category": "class",
+  "categories": [
+   "class",
+   "community",
+   "teaching"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.fostercity.org/m/newsflash/Home/Detail/239",
+  "lastVerified": "2026-10-28",
+  "address": "650 Shell Boulevard, Foster City, CA"
+ },
+ {
+  "id": "baycer-pacifica-community-center-ceramics",
+  "name": "Pacifica Community Center Ceramics",
+  "type": "workshop",
+  "status": "active",
+  "location": {
+   "city": "Pacifica",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.5989,
+    "lng": -122.49922
+   }
+  },
+  "focusAreas": [
+   "rec-centre",
+   "open-studio",
+   "seniors"
+  ],
+  "description": "City of Pacifica ceramics sessions in the Community Center's ceramics room: a relaxed morning work session for people with basic clay experience.",
+  "details": "Thursdays, Oct 1 - Dec 17, 2026; the next session is listed for Jan 7 - Mar 25, 2027. Listed for ages 50+. 'No major instructions given during class'; instructor George Bunea. Price shown at registration.",
+  "website": "https://www.active.com/pacifica-ca/pottery-and-ceramics/classes/ceramics-2026-110465272",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "pacifica",
+   "ceramics",
+   "class",
+   "community"
+  ],
+  "category": "class",
+  "categories": [
+   "class",
+   "community"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.active.com/pacifica-ca/pottery-and-ceramics/classes/ceramics-2026-110465272",
+  "lastVerified": "2026-10-28",
+  "address": "540 Crespi Drive, Pacifica, CA 94044"
+ },
+ {
+  "id": "baycer-southside-community-center-ceramics-san-jose-prns",
+  "name": "Southside Community Center Ceramics (San Jose PRNS)",
+  "type": "workshop",
+  "status": "active",
+  "location": {
+   "city": "San Jose",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.25239,
+    "lng": -121.80491
+   }
+  },
+  "focusAreas": [
+   "rec-centre",
+   "seniors"
+  ],
+  "description": "San Jose Parks, Recreation and Neighborhood Services ceramics sessions at Southside Community Center, run year-round for older adults.",
+  "details": "Tuesdays Nov 3 - Dec 15, 2026 (with earlier 2026 sessions also listed). Ages 50+. The instructor is listed as a PRNS Volunteer. Price at registration. Teaching lead: The instructor slot is a PRNS volunteer role. Volunteering with San Jose PRNS could be an easy first local teaching credit (ask Southside Community Center).",
+  "website": "https://www.active.com/san-jose-ca/pottery-and-ceramics/classes/ceramics-2026-110004427",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-jose",
+   "ceramics",
+   "class",
+   "community"
+  ],
+  "category": "class",
+  "categories": [
+   "class",
+   "community"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.active.com/san-jose-ca/pottery-and-ceramics/classes/ceramics-2026-110004427",
+  "lastVerified": "2026-10-28",
+  "address": "5585 Cottle Rd, San Jose, CA 95123"
+ },
+ {
+  "id": "baycer-heath-ceramics-sausalito-factory-and-showroom",
+  "name": "Heath Ceramics Sausalito Factory & Showroom",
+  "type": "gallery",
+  "status": "active",
+  "location": {
+   "city": "Sausalito",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.86925,
+    "lng": -122.50021
+   }
+  },
+  "focusAreas": [
+   "factory-tour",
+   "dinnerware",
+   "showroom",
+   "seconds"
+  ],
+  "description": "Heath's original 1959 dinnerware factory, where about 40 craftspeople still make the clay and form, glaze and fire every dinnerware piece. It has a showroom, seconds, an overstock tile shed and factory tours by RSVP.",
+  "details": "Showroom and pickup Mon-Sun 10am-5pm; Overstock Tile Shed Mon-Sun 10am-4pm. Factory tours by advance RSVP. Phone 415 332 3732 x1. Approach via Harbor Drive because of the condition of Gate 5 Road. (The SF Alabama St factory is already on the map.) Teaching lead: Heath careers page (https://www.heathceramics.com/pages/careers) currently lists only a temporary accounting role, no clay studio or production openings. Worth watching; the Heath Clay Studio's master potters run public workshops.",
+  "website": "https://www.heathceramics.com/pages/locations/sausalito",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "sausalito",
+   "ceramics",
+   "gallery",
+   "supplier"
+  ],
+  "category": "gallery",
+  "categories": [
+   "gallery",
+   "supplier"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.heathceramics.com/pages/locations/sausalito",
+  "lastVerified": "2026-10-28",
+  "address": "400 Gate Five Road, Sausalito, CA 94965"
+ },
+ {
+  "id": "baycer-mt-vision-ceramics-studio-jess-taylor",
+  "name": "Mt Vision Ceramics Studio (Jess Taylor)",
+  "type": "artist",
+  "status": "active",
+  "location": {
+   "city": "Inverness",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 38.08059,
+    "lng": -122.84514
+   },
+   "neighborhood": "Point Reyes Peninsula",
+   "approximate": true
+  },
+  "focusAreas": [
+   "local-materials",
+   "granite-glaze",
+   "glaze-chemistry",
+   "cone-6",
+   "wheel"
+  ],
+  "description": "Inverness potter and geophysicist Jess Taylor makes glazes and clay bodies from the local Mount Vision granite and clay, and publishes detailed glaze tests and firing schedules online.",
+  "details": "Studio on the eastern slope of Mount Vision above Inverness, open during Point Reyes Open Studios. Contact info@mtvision.studio. The site has an organized series of granite-glaze articles (copper, controlled cooling, specific gravity). Teaching lead: Not a job lead, but a natural peer for Winnie's wild-clay and glaze-chemistry work (local granite glazes). A possible collaboration or exchange contact via info@mtvision.studio.",
+  "website": "https://www.mtvision.studio",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "inverness",
+   "ceramics",
+   "artist",
+   "materials"
+  ],
+  "category": "artist",
+  "categories": [
+   "artist",
+   "materials"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.mtvision.studio/",
+  "lastVerified": "2026-10-28"
+ },
+ {
+  "id": "baycer-joy-imai-special-handling-pottery",
+  "name": "Joy Imai, Special Handling Pottery",
+  "type": "artist",
+  "status": "active",
+  "location": {
+   "city": "Menlo Park",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.44178,
+    "lng": -122.1792
+   }
+  },
+  "focusAreas": [
+   "porcelain",
+   "wheel",
+   "handbuilding",
+   "retail"
+  ],
+  "description": "Studio potter Joy Imai has thrown and hand-built porcelain in her studio and shop at the historic Allied Arts Guild since 1986. The shop also carries Japanese pottery and work by other artisans.",
+  "details": "Winter hours: Nov 1-28, 2026 Wed-Sat 11:30am-3:30pm; Dec 1, 2026 to Mar 2027 open five days (closed Sun-Mon). Phone 650-321-8188.",
+  "website": "http://www.joyimai.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "menlo-park",
+   "ceramics",
+   "artist",
+   "gallery"
+  ],
+  "category": "artist",
+  "categories": [
+   "artist",
+   "gallery"
+  ],
+  "discipline": "ceramics",
+  "source": "http://www.joyimai.com/",
+  "lastVerified": "2026-10-28",
+  "address": "Allied Arts Guild, 75 Arbor Road, Suite R, Menlo Park, CA 94025"
+ },
+ {
+  "id": "baycer-point-reyes-open-studios",
+  "name": "Point Reyes Open Studios",
+  "type": "community",
+  "status": "active",
+  "location": {
+   "city": "Point Reyes Station",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 38.08751,
+    "lng": -122.81449
+   },
+   "approximate": true
+  },
+  "focusAreas": [
+   "open-studios",
+   "west-marin",
+   "ceramicists"
+  ],
+  "description": "Artist-run open studios held twice a year around Tomales Bay (Point Reyes Station, Inverness, Olema, Marshall), with about 25 members, ceramicists among them.",
+  "details": "Studios open 11am-5pm, Saturday-Monday on Memorial Day weekend and Friday-Sunday on Thanksgiving weekend. Free and self-guided; map on the site.",
+  "website": "https://pointreyesart.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "point-reyes-station",
+   "ceramics",
+   "community",
+   "artist"
+  ],
+  "category": "community",
+  "categories": [
+   "community",
+   "artist"
+  ],
+  "discipline": "ceramics",
+  "source": "https://pointreyesart.com/",
+  "lastVerified": "2026-10-28"
+ },
+ {
+  "id": "baycer-foothill-college-ceramics",
+  "name": "Foothill College Ceramics",
+  "type": "school",
+  "status": "active",
+  "location": {
+   "city": "Los Altos Hills",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.36172,
+    "lng": -122.1283
+   }
+  },
+  "focusAreas": [
+   "college",
+   "wheel",
+   "sculpture",
+   "gas-kiln",
+   "soda",
+   "raku"
+  ],
+  "description": "A community college ceramics emphasis within the Art AA and certificate, with a strong kiln setup and the Claybodies student club, which brings in visiting artists and runs an annual pottery sale.",
+  "details": "25 wheels; Geil DBL-30 downdraft gas kiln, Alpine 24 gas kiln, 4 Skutt 1224 electric kilns, 1 Paragon front-loader, 2 raku kilns and a catenary arch cross-draft soda kiln. Lead: Andy Ruble, rubleandy@fhda.edu. Teaching lead: Community college adjunct teaching goes through Foothill-De Anza district HR. Andy Ruble (ceramics lead) is the person to ask about adjunct pools or visiting-artist talks with Claybodies. Foothill-De Anza district posts part-time faculty pools (a district 'Studio Art Instructor' pool PT041 mentioning ceramics exists but its PDF could not be opened). CA minimum qualification for art is a Master's in fine arts (incl. ceramics), art or art history, or equivalency. Ask Andy Ruble about adjunct needs; district HR employment@fhda.edu.",
+  "website": "https://foothill.edu/art/ceramics.html",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "los-altos-hills",
+   "ceramics",
+   "school",
+   "class"
+  ],
+  "category": "school",
+  "categories": [
+   "school",
+   "class"
+  ],
+  "discipline": "ceramics",
+  "source": "https://foothill.edu/art/ceramics.html",
+  "lastVerified": "2026-10-28",
+  "address": "12345 El Monte Road, Los Altos Hills, CA 94022"
+ },
+ {
+  "id": "baycer-college-of-san-mateo-ceramics",
+  "name": "College of San Mateo Ceramics",
+  "type": "school",
+  "status": "active",
+  "location": {
+   "city": "San Mateo",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.53504,
+    "lng": -122.33476
+   }
+  },
+  "focusAreas": [
+   "college",
+   "ceramics-lab"
+  ],
+  "description": "CSM's art department runs a ceramics lab within its 3D Art, Ceramics and Sculpture area, a low-cost way to get kiln and wheel access on the Peninsula.",
+  "details": "Ceramics Lab Coordinator: Eric Elfving, elfvinge@smccd.edu, (650) 574-6290. Teaching lead: Adjunct hiring goes through the San Mateo County Community College District; contact the Ceramics Lab Coordinator about openings. San Mateo County CCD (CSM, Skyline, Canada) adjunct postings are on the SMCCD jobs site; none found for ceramics in this pass. Eric Elfving is the lab contact.",
+  "website": "https://collegeofsanmateo.edu/art/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-mateo",
+   "ceramics",
+   "school",
+   "class"
+  ],
+  "category": "school",
+  "categories": [
+   "school",
+   "class"
+  ],
+  "discipline": "ceramics",
+  "source": "https://collegeofsanmateo.edu/art/",
+  "lastVerified": "2026-10-28",
+  "address": "1700 W. Hillsdale Boulevard, San Mateo, CA 94402"
+ },
+ {
+  "id": "baycer-mission-college-ceramics",
+  "name": "Mission College Ceramics",
+  "type": "school",
+  "status": "active",
+  "location": {
+   "city": "Santa Clara",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.39237,
+    "lng": -121.98291
+   }
+  },
+  "focusAreas": [
+   "college",
+   "handbuilding",
+   "wheel"
+  ],
+  "description": "Mission College's art programme has ceramics studios and repeatable Ceramics-Handbuilding (ART 065A-D) and Ceramics-Potter's Wheel (ART 067A-D) courses.",
+  "details": "A new course rotation starts in the 2026-27 academic year; courses may be cancelled due to circumstances (contact the department). Teaching lead: Part-Time Ceramics Instructor (Pool), work location Mission College, posted 05/20/2025, open until filled, applications kept one year. Pay prorated from $38,464-$55,582/semester. This posting lists MQ as a bachelor's plus two years related professional experience, an associate's plus six years, a CA CC Instructor's Credential, or equivalent (lower bar than the usual art MQ, so worth checking). Apply online via the district (careers.insidehighered.com job 3418837 links to the application). Paid teaching is US employment: it needs work authorization (her current visa doesn't allow it; an O-1B or a sponsoring employer could).",
+  "website": "https://missioncollege.edu/academics/art/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "santa-clara",
+   "ceramics",
+   "school",
+   "class",
+   "teaching"
+  ],
+  "category": "school",
+  "categories": [
+   "school",
+   "class",
+   "teaching"
+  ],
+  "discipline": "ceramics",
+  "source": "https://missioncollege.edu/academics/art/",
+  "lastVerified": "2026-10-28",
+  "address": "3000 Mission College Blvd, Santa Clara, CA 95054"
+ },
+ {
+  "id": "baycer-creative-growth-art-center",
+  "name": "Creative Growth Art Center",
+  "type": "community",
+  "status": "active",
+  "location": {
+   "city": "Oakland",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.81293,
+    "lng": -122.26419
+   },
+   "neighborhood": "Downtown / Uptown"
+  },
+  "focusAreas": [
+   "ceramics",
+   "disability-arts",
+   "studio-facilitation",
+   "teaching"
+  ],
+  "description": "The oldest and largest art centre for artists with developmental, mental and physical disabilities, where ceramics is one of the core studio disciplines; its 2025 show \"Fired Up\" surveyed clay work by studio artists.",
+  "details": "Studio Program disciplines listed: drawing, painting, video production, ceramics, wood, fiber arts, textiles, printmaking. Saturday Youth Program also includes ceramics and runs year round. Phone 510.836.2340; general email gallery@creativegrowth.org. Teaching lead: Open Positions page (creativegrowth.org/open-positions) currently lists Studio Director and Studio Operations Manager (apply via the APPLY button, which opens a Google Drive job description). No ceramics facilitator role is posted right now; the studio uses a team of facilitators and has previously recruited substitute art facilitators, so worth contacting gallery@creativegrowth.org to ask about facilitator or substitute pools. Has a 'Join Our Team' page (https://www.creativegrowth.org/join-our-team) with an 'Open Positions' section; no specific roles were readable in the fetched page, so check it directly for studio or ceramics facilitator openings.",
+  "website": "https://creativegrowth.org",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "oakland",
+   "ceramics",
+   "community",
+   "studio"
+  ],
+  "category": "community",
+  "categories": [
+   "community",
+   "studio"
+  ],
+  "discipline": "ceramics",
+  "source": "https://creativegrowth.org/open-positions",
+  "lastVerified": "2026-10-28",
+  "address": "355 24th Street, Oakland, CA 94612"
+ },
+ {
+  "id": "baycer-creativity-explored",
+  "name": "Creativity Explored",
+  "type": "community",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.76447,
+    "lng": -122.42505
+   },
+   "neighborhood": "Mission"
+  },
+  "focusAreas": [
+   "ceramics",
+   "disability-arts",
+   "teaching-artist"
+  ],
+  "description": "A Mission District studio and gallery for artists with developmental disabilities with an active ceramics practice, which has hired part-time ceramics teaching artists in recent years.",
+  "details": "Past ceramics postings: 'Teaching Artist, Ceramics' (Aug 2023, $24/hr, about 28 hrs/week, apply by emailing cover letter and resume as PDF to jobs@creativityexplored.org) and 'Teaching Artist, Ceramics, Float' (June 2024, $25/hr, 21 hrs/week, sites at 3245 16th St, 1 Arkansas St and Art Explosion at 2425 17th St). Current careers page lists Associate Director, Youth and Community Programs ($77,000-$80,000), who manages a team of teaching artists. Teaching lead: No ceramics role open right now, but Creativity Explored hired ceramics teaching artists in 2023 and 2024 (part-time, $24-25/hr). Watch creativityexplored.org/careers; past postings asked for cover letter and resume as PDF to jobs@creativityexplored.org, no calls. Paid teaching is US employment: it needs work authorization (her current visa doesn't allow it; an O-1B or a sponsoring employer could).",
+  "website": "https://creativityexplored.org",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "community",
+   "studio",
+   "teaching"
+  ],
+  "category": "community",
+  "categories": [
+   "community",
+   "studio",
+   "teaching"
+  ],
+  "discipline": "ceramics",
+  "source": "https://creativityexplored.org/careers",
+  "lastVerified": "2026-10-28",
+  "address": "3245 16th Street, San Francisco, CA 94103 (second studio CE2 at 1 Arkansas Street)"
+ },
+ {
+  "id": "baycer-sfartsed-san-francisco-arts-education-project",
+  "name": "SFArtsED (San Francisco Arts Education Project)",
+  "type": "community",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.75425,
+    "lng": -122.38939
+   },
+   "neighborhood": "Dogpatch"
+  },
+  "focusAreas": [
+   "teaching-artist",
+   "youth",
+   "school-residencies",
+   "ceramics"
+  ],
+  "description": "Nonprofit that places professional artists in SF public schools for residencies, plus summer camps and after-school programs. Ceramics is listed among the visual arts disciplines they hire for.",
+  "details": "Resident Artists are part-time employees; pay rises with experience (no rates stated). K-8 residencies run six weeks to a full school year; summer camp artists recruited late winter and spring; 'We interview all year for upcoming positions.' Teaching lead: Artist Disciplines include 'Visual Arts (Mixed media, Fine Arts, Ceramics, Textile)'. Apply via the application form on the Opportunities page, then email resume, cover letter, examples of professional work, work with students and a sample project proposal to Mia Waller, Program Director, mia.w@sfartsed.org (or mail to the Minnesota Street address). Selected artists get an interview and classroom audition. Paid teaching is US employment: it needs work authorization (her current visa doesn't allow it; an O-1B or a sponsoring employer could).",
+  "website": "https://www.sfartsed.org",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "community",
+   "teaching"
+  ],
+  "category": "community",
+  "categories": [
+   "community",
+   "teaching"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.sfartsed.org/opportunities/",
+  "lastVerified": "2026-10-28",
+  "address": "SFArtsED @ Minnesota Street Project, 1275 Minnesota Street, San Francisco, CA 94107"
+ },
+ {
+  "id": "baycer-root-division",
+  "name": "Root Division",
+  "type": "workshop",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.77844,
+    "lng": -122.41145
+   },
+   "neighborhood": "SoMa"
+  },
+  "focusAreas": [
+   "handbuilding",
+   "teaching",
+   "subsidized-studio"
+  ],
+  "description": "Artist-run nonprofit with subsidized studios, a gallery and adult classes taught by its studio artists and alums, including an intro handbuilding course. Studio artists can choose teaching in the adult education program as their work-trade.",
+  "details": "Ceramics Studio: Intro to Handbuilding with Tony Lopez-Romero, Mondays 6:30-8:30 PM, Jan 26-Feb 23 (2026 season), $385. Studio Artist program: subsidized studios 100-230 sq ft in exchange for 8 hours/month work-trade (teaching is one option); next deadline November 1, 2026 for February 2027 move-in; must tour studios (Tue/Thu) at least three months before applying; apply via SlideRoom. Note: the studios page does not list a kiln or ceramics as a suited discipline. Contact info@rootdivision.org, 415.863.7668. Teaching lead: Adult classes are 'Taught by our Studio Artists or Alums'. Becoming a Root Division Studio Artist (rootdivision.org/apply/apply-studio/) is the route to teaching there; teaching in adult education counts toward the 8-hour monthly work-trade. Root Division also runs teaching fellowships (Filipinx Teaching Artist Fellowship 2026-27 is closed; Education Fellowship paid a $4,000 stipend in 2025-26). Paid teaching is US employment: it needs work authorization (her current visa doesn't allow it; an O-1B or a sponsoring employer could).",
+  "website": "https://rootdivision.org",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "class",
+   "studio",
+   "teaching"
+  ],
+  "category": "class",
+  "categories": [
+   "class",
+   "studio",
+   "teaching"
+  ],
+  "discipline": "ceramics",
+  "source": "https://rootdivision.org/?p=22519",
+  "lastVerified": "2026-10-28",
+  "address": "1131 Mission Street, San Francisco, CA 94103"
+ },
+ {
+  "id": "baycer-de-anza-college-ceramics",
+  "name": "De Anza College Ceramics",
+  "type": "school",
+  "status": "active",
+  "location": {
+   "city": "Cupertino",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.3177,
+    "lng": -122.04456
+   }
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "raku",
+   "low-fire",
+   "community-college"
+  ],
+  "description": "Large community college ceramics programme with a full ladder of wheel throwing (beginning to advanced) plus handbuilding, raku, decoration and low-fire courses.",
+  "details": "2025-26 rotation: ARTS 18A Ceramics (3 sections each in Fall 2025, Winter 2026, Spring 2026), 18B Beginning Wheel Throwing, 18C Intermediate Wheel Throwing, 18E Advanced Wheel Throwing (1 section each quarter), 18D Hand Building (1-2 sections); 19H Raku, 19J Ceramics Techniques, 19K Ceramics Decoration, 19M Low Fire also in rotation. Plan subject to change. Teaching lead: Same district as Foothill (Foothill-De Anza CCD); part-time pools posted on the district jobs site. CA MQ: Master's in fine arts/art/art history or equivalency.",
+  "website": "https://www.deanza.edu/creativearts/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "cupertino",
+   "ceramics",
+   "school",
+   "class"
+  ],
+  "category": "school",
+  "categories": [
+   "school",
+   "class"
+  ],
+  "discipline": "ceramics",
+  "source": "https://cis.deanza.edu/creativearts/course-rotation/ceramics.html",
+  "lastVerified": "2026-10-28"
+ },
+ {
+  "id": "baycer-west-valley-college-ceramics",
+  "name": "West Valley College Ceramics",
+  "type": "school",
+  "status": "active",
+  "location": {
+   "city": "Saratoga",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.26377,
+    "lng": -122.00969
+   }
+  },
+  "focusAreas": [
+   "handbuilding",
+   "wheel",
+   "community-college",
+   "adjunct-pool"
+  ],
+  "description": "Community college visual arts department with dedicated ceramics, painting and drawing studios and a bronze foundry. Its district runs an open part-time ceramics instructor pool.",
+  "details": "2026-2027 catalog lists Studio Arts AA-T and Portfolio Development certificate; art faculty include Kathy Arnold, Heidi Brueckner, Jason Challas, Chris Cryer (Chair), Mitra Fabian, Dan Fenstermacher, Ron Guzman, Cynthia Napoli-Abella Reiss. Department phone (408) 741-4013. Teaching lead: West Valley-Mission CCD 'Part-Time Ceramics Instructor (Pool)', West Valley College, posted April 8, 2026, open until filled (listing shows as expired on Chronicle, so check the district portal). Pay: prorated from $38,464-$55,582 per semester by load (up to 67%). MQ: Master's in fine arts, art or art history; or Bachelor's in those plus Master's in humanities; or CA CC Instructor's Credential in Art; or equivalent. Apply at wvm.peopleadmin.com with application, resume, unofficial transcripts and equivalency form if needed. Paid teaching is US employment: it needs work authorization (her current visa doesn't allow it; an O-1B or a sponsoring employer could).",
+  "website": "https://www.westvalley.edu/schools/art-design/visual-arts.html",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "saratoga",
+   "ceramics",
+   "school",
+   "class",
+   "teaching"
+  ],
+  "category": "school",
+  "categories": [
+   "school",
+   "class",
+   "teaching"
+  ],
+  "discipline": "ceramics",
+  "source": "https://jobs.chronicle.com/job/37973024/part-time-ceramics-instructor-pool-/",
+  "lastVerified": "2026-10-28",
+  "address": "14000 Fruitvale Ave, Saratoga, CA 95070"
+ },
+ {
+  "id": "baycer-ohlone-college-ceramics-part-time-faculty-pool",
+  "name": "Ohlone College Ceramics (part-time faculty pool)",
+  "type": "school",
+  "status": "active",
+  "location": {
+   "city": "Fremont",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.53355,
+    "lng": -121.90633
+   }
+  },
+  "focusAreas": [
+   "community-college",
+   "adjunct-pool",
+   "ceramics"
+  ],
+  "description": "Ohlone College in Fremont/Newark runs a standing part-time faculty pool specifically for ceramics, one of the clearest adjunct routes in the East Bay.",
+  "details": "Art (Ceramics Emphasis) Instructor (Part-Time Faculty Pool), job 202300013; Fremont Campus, Newark Center and/or eCampus; $73.90-$124.47 per hour; applications accepted year-round and kept two years; reviewed as needed. HR (510) 659-6088. Ohlone's own ceramics course pages were not opened; the evidence is the live faculty-pool posting. Teaching lead: Apply at schooljobs.com/careers/ohlone/jobs/4194399 with resume/CV, cover letter addressing desirable qualifications and diversity commitment, three professional references, and unofficial transcripts. MQ: Master's in fine arts (includes ceramics), art or art history; or Bachelor's in those plus Master's in humanities; or equivalent (submit equivalency form). Foreign transcripts need a course-by-course evaluation, relevant for Winnie's non-US credentials. Paid teaching is US employment: it needs work authorization (her current visa doesn't allow it; an O-1B or a sponsoring employer could).",
+  "website": "https://www.ohlone.edu",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "fremont",
+   "ceramics",
+   "school",
+   "teaching"
+  ],
+  "category": "school",
+  "categories": [
+   "school",
+   "teaching"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.schooljobs.com/careers/ohlone/jobs/4194399/art-ceramics-emphasis-instructor-part-time-faculty-pool",
+  "lastVerified": "2026-10-28"
+ },
+ {
+  "id": "baycer-cal-state-east-bay-art-and-design-ceramics",
+  "name": "Cal State East Bay Art & Design (Ceramics)",
+  "type": "school",
+  "status": "active",
+  "location": {
+   "city": "Hayward",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.65552,
+    "lng": -122.05588
+   }
+  },
+  "focusAreas": [
+   "university",
+   "ceramics",
+   "lecturer-pool"
+  ],
+  "description": "CSU art department with ceramics, sculpture, printmaking and painting studios on the Hayward campus. It keeps an annual lecturer pool that explicitly covers ceramics.",
+  "details": "Lecture Pool for Department of Art and Design (AY 26-27), job 557363, advertised April 23, 2026, open until filled. Appointments for Fall 2026 (starts Aug 17, 2026) and Spring 2027 (starts Jan 19, 2027). Lecturer ranges from $5,507 up to $15,211 (Range 2-5; hiring generally near the minimum). Department email artdept@csueastbay.edu. Teaching lead: Lecture Pool AY 26-27 (job 557363): MQ is a suitable Master's degree plus some college teaching experience; applicants may be asked for syllabi, student work samples or evaluations. Apply via 'Apply now' on the CSUEB careers portal. Note: the university does not sponsor visas for lecturer positions. Paid teaching is US employment: it needs work authorization (her current visa doesn't allow it; an O-1B or a sponsoring employer could).",
+  "website": "https://www.csueastbay.edu/art/index.html",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "hayward",
+   "ceramics",
+   "school",
+   "teaching"
+  ],
+  "category": "school",
+  "categories": [
+   "school",
+   "teaching"
+  ],
+  "discipline": "ceramics",
+  "source": "https://careers.csueastbay.edu/en-us/job/557363/lecture-pool-for-department-of-art-and-design-ay-2627",
+  "lastVerified": "2026-10-28",
+  "address": "Art & Education Building, 25800 Carlos Bee Blvd, Hayward, CA 94542"
+ },
+ {
+  "id": "baycer-chabot-college-ceramics",
+  "name": "Chabot College Ceramics",
+  "type": "school",
+  "status": "active",
+  "location": {
+   "city": "Hayward",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.64307,
+    "lng": -122.10753
+   }
+  },
+  "focusAreas": [
+   "community-college",
+   "applied-ceramics",
+   "fine-art-ceramics"
+  ],
+  "description": "East Bay community college offering both an Applied Ceramics Certificate of Achievement and a Fine Art Ceramics AA.",
+  "details": "Programs: Applied Ceramics (Certificate of Achievement), Fine Art Ceramics (AA). Art faculty contacts: Bonnie Stipe (bstipe@chabotcollege.edu, 510.723.7555), Clayton Thiel (cthiel@chabotcollege.edu, 510.723.6844). Main (510) 723-6600. Teaching lead: Chabot-Las Positas CCD posted an 'Instructor, Art (Ceramics and Sculpture)' role in late 2024 (EdJoin 2029563, now removed). Watch the district jobs site for ceramics adjunct pools.",
+  "website": "https://chabotcollege.edu/academics/arts-media-communications/art/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "hayward",
+   "ceramics",
+   "school",
+   "class"
+  ],
+  "category": "school",
+  "categories": [
+   "school",
+   "class"
+  ],
+  "discipline": "ceramics",
+  "source": "https://chabotcollege.edu/academics/arts-media-communications/art/index.php",
+  "lastVerified": "2026-10-28",
+  "address": "25555 Hesperian Blvd, Hayward, CA 94545"
+ },
+ {
+  "id": "baycer-skyline-college-ceramics",
+  "name": "Skyline College Ceramics",
+  "type": "school",
+  "status": "active",
+  "location": {
+   "city": "San Bruno",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.63031,
+    "lng": -122.46613
+   }
+  },
+  "focusAreas": [
+   "community-college",
+   "sculpture",
+   "pottery"
+  ],
+  "description": "Community college ceramics programme led by Tiffany Schmierer that has shown student work at the California Conference for the Advancement of Ceramic Art in Davis for 17 years.",
+  "details": "Faculty/staff: Tiffany Schmierer (Art Professor, heads ceramics), Ash Asaro (Studio Art Lab Coordinator). Intermediate ceramics classes use the Davis exhibition as a capstone. Most recent dated evidence is a May 2025 college news post.",
+  "website": "https://skylinecollege.edu",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-bruno",
+   "ceramics",
+   "school",
+   "class"
+  ],
+  "category": "school",
+  "categories": [
+   "school",
+   "class"
+  ],
+  "discipline": "ceramics",
+  "source": "https://skylineshines.skylinecollege.edu/uncategorized/ceramics-students-faculty-and-staff-showcase-artwork-at-the-2025-california-clay-conference/",
+  "lastVerified": "2026-10-28"
+ },
+ {
+  "id": "baycer-los-medanos-college-ceramics",
+  "name": "Los Medanos College Ceramics",
+  "type": "school",
+  "status": "active",
+  "location": {
+   "city": "Pittsburg",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 38.00541,
+    "lng": -121.86111
+   }
+  },
+  "focusAreas": [
+   "community-college",
+   "ceramics"
+  ],
+  "description": "Contra Costa district community college whose art department has a much-expanded 3-D ceramics space from a 2010 remodel. Bay Area potter Ian Bassett teaches here.",
+  "details": "Pittsburg Campus (925) 439-2181; Brentwood Center (925) 513-1625. Art contact page losmedanos.edu/art/contact.aspx. Teaching artist Ian Bassett is listed by The Potters' Studio as teaching at Sonoma State and Los Medanos College. Teaching lead: Contra Costa CCD (DVC, LMC, Contra Costa College) recruited ceramics adjuncts for Fall 2025/Spring 2026 (EdJoin 2072180, now removed). Watch the 4CD jobs site for the next art/ceramics adjunct pool.",
+  "website": "https://www.losmedanos.edu/art/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "pittsburg",
+   "ceramics",
+   "school",
+   "class"
+  ],
+  "category": "school",
+  "categories": [
+   "school",
+   "class"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.losmedanos.edu/art/",
+  "lastVerified": "2026-10-28",
+  "address": "2700 East Leland Rd., Pittsburg, CA 94565"
+ },
+ {
+  "id": "baycer-uc-berkeley-art-practice-ceramics",
+  "name": "UC Berkeley Art Practice: Ceramics",
+  "type": "school",
+  "status": "active",
+  "location": {
+   "city": "Berkeley",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.87058,
+    "lng": -122.2549
+   }
+  },
+  "focusAreas": [
+   "university",
+   "ceramic-sculpture",
+   "mold-making",
+   "glaze-lab"
+  ],
+  "description": "University ceramics area with a glaze lab, plaster mold room, car kiln and decal printer, overseen by artist Cathy Lu with ceramic artist Ehren Tool running the studio.",
+  "details": "Courses (rotating): ART 15 Ceramics: Foundations; ART 132 Advanced Ceramics: Research and Methods; ART 137 Advanced Projects in Ceramic Sculpture; ART 160 Special Topics. Kilns: Skutt, Bailey front-loader, 40 cu ft Bailey downdraft car kiln, test kilns. Access limited to enrolled students and Art Practice majors/grads; others are directed to Berkeley Art Studio. Contacts: Cathy Lu, Assistant Professor (cathyclu@berkeley.edu); Ehren Tool, Ceramic Studio Mechanician (tool@berkeley.edu, 510-642-3673).",
+  "website": "https://art.berkeley.edu",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "berkeley",
+   "ceramics",
+   "school"
+  ],
+  "category": "school",
+  "categories": [
+   "school"
+  ],
+  "discipline": "ceramics",
+  "source": "https://art.berkeley.edu/practices/ceramics",
+  "lastVerified": "2026-10-28",
+  "address": "182 Bauer Wurster Hall, UC Berkeley, Berkeley, CA"
+ },
+ {
+  "id": "baycer-stanford-ceramics-studio",
+  "name": "Stanford Ceramics Studio",
+  "type": "school",
+  "status": "active",
+  "location": {
+   "city": "Stanford",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.42418,
+    "lng": -122.178
+   }
+  },
+  "focusAreas": [
+   "wheel",
+   "community-studio",
+   "volunteer-teaching"
+  ],
+  "description": "Heavily subsidised campus studio running 10-week quarters of beginner and intermediate classes taught by volunteers, with 24/7 studio access for enrolled students.",
+  "details": "$115 per quarter including glaze, firings, 24/7 access and unlimited clay (new for Fall 2025). Beginner classes Mon/Tue/Wed 6-9pm (occasional 9am-12pm), intermediate Thu 6-9pm. First-come, first-served, priority to Stanford affiliates; not for credit; financial aid available. Teaching lead: Classes are taught by volunteers; no paid instructor hiring listed. Only relevant if Winnie has a Stanford affiliation.",
+  "website": "https://ceramics.stanford.edu",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "stanford",
+   "ceramics",
+   "school",
+   "class",
+   "community"
+  ],
+  "category": "school",
+  "categories": [
+   "school",
+   "class",
+   "community"
+  ],
+  "discipline": "ceramics",
+  "source": "https://ceramics.stanford.edu/classes",
+  "lastVerified": "2026-10-28",
+  "address": "Elliot Programming Center, 589 Governor's Ave, Stanford, CA 94305"
+ },
+ {
+  "id": "baycer-flm-ceramics-and-tile-forrest-lesch-middelton",
+  "name": "FLM Ceramics & Tile (Forrest Lesch-Middelton)",
+  "type": "artist",
+  "status": "active",
+  "location": {
+   "city": "Petaluma",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 38.2329,
+    "lng": -122.63494
+   }
+  },
+  "focusAreas": [
+   "tile",
+   "image-transfer",
+   "pottery",
+   "showroom"
+  ],
+  "description": "Handmade tile and pottery studio of Forrest Lesch-Middelton, author of Handmade Tile and co-founder of the community studio Petaluma Pottery. His patterned image-transfer work had a FOCUS exhibition at Penland in summer 2026.",
+  "details": "Storefront hours: Mon 10-4, Thu-Fri 10-5, Sat 10-3; full studio tour by appointment. Phone 415.272.9997; flmceramics@gmail.com. Offers a free 2026 tile catalog. Teaching lead: No apprenticeship or job posting found on the site (Workshops & Events page returned 404). A Sonoma Magazine piece (search result, not opened) mentions he works with an apprentice, but there is no current call, so this is a contact-directly lead only (flmceramics@gmail.com).",
+  "website": "https://www.flmceramics.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "petaluma",
+   "ceramics",
+   "artist",
+   "studio"
+  ],
+  "category": "artist",
+  "categories": [
+   "artist",
+   "studio"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.flmceramics.com/contact",
+  "lastVerified": "2026-10-28",
+  "address": "301 2nd St., Petaluma, CA 94952"
+ },
+ {
+  "id": "baycer-douglas-and-sturgess-richmond",
+  "name": "Douglas & Sturgess (Richmond)",
+  "type": "supplier",
+  "status": "active",
+  "location": {
+   "city": "Richmond",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.94778,
+    "lng": -122.36673
+   }
+  },
+  "focusAreas": [
+   "clay",
+   "plaster",
+   "mold-making",
+   "slip-casting",
+   "tools",
+   "pigments"
+  ],
+  "description": "Long-running sculpture and mold-making supplier with Laguna B-Mix clays (cone 5 and cone 10, 25 lb), plasters and gypsum cements, pigments and tools, useful for slip-casting molds as much as for clay. They also run workshops on mold making and casting.",
+  "details": "Phone (510) 235-8411. Hours Mon-Fri 8:30am-5:30pm, Sat 10am-3pm. Free parking in lot or street. In-store shopping and will-call pickup; ships within the lower 48 but strongly suggests picking up items of 50 lb or more. Example prices on clays page: B Mix Cone 10 Clay 25 lbs $24, B Mix Cone 5 Clay 25 lbs $26. Email sales@douglasandsturgess.com.",
+  "website": "https://douglasandsturgess.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "richmond",
+   "ceramics",
+   "supplier",
+   "materials",
+   "class"
+  ],
+  "category": "supplier",
+  "categories": [
+   "supplier",
+   "materials",
+   "class"
+  ],
+  "discipline": "ceramics",
+  "source": "https://douglasandsturgess.com/pages/contact-us",
+  "lastVerified": "2026-10-28",
+  "address": "1023 Factory Street, Richmond, CA 94801"
+ },
+ {
+  "id": "baycer-douglas-and-sturgess-san-francisco",
+  "name": "Douglas & Sturgess (San Francisco)",
+  "type": "supplier",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.77746,
+    "lng": -122.4011
+   },
+   "neighborhood": "SoMa"
+  },
+  "focusAreas": [
+   "clay",
+   "plaster",
+   "mold-making",
+   "tools"
+  ],
+  "description": "The San Francisco counter of Douglas & Sturgess, handy for picking up plaster, mold rubbers, B-Mix clay and tools without crossing the bay.",
+  "details": "Phone (415) 896-6283. Hours Mon-Fri 9am-3pm; closed Sat-Sun. Free parking behind the store (back alley, 88 Merlin St.). Email sales@douglasandsturgess.com.",
+  "website": "https://douglasandsturgess.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "supplier",
+   "materials"
+  ],
+  "category": "supplier",
+  "categories": [
+   "supplier",
+   "materials"
+  ],
+  "discipline": "ceramics",
+  "source": "https://douglasandsturgess.com/pages/contact-us",
+  "lastVerified": "2026-10-28",
+  "address": "730 Bryant Street, San Francisco, CA 94107"
+ },
+ {
+  "id": "baycer-sfmoma-go-your-own-way-northern-california-craft-1945-80",
+  "name": "SFMOMA: Go Your Own Way: Northern California Craft, 1945-80",
+  "type": "gallery",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.78592,
+    "lng": -122.40074
+   },
+   "neighborhood": "SoMa"
+  },
+  "focusAreas": [
+   "exhibition",
+   "craft-history",
+   "ceramics",
+   "upcoming-2027"
+  ],
+  "description": "Upcoming survey billed as the first major museum exhibition of postwar Northern California craft, with 100 makers and more than 200 objects including ceramics, and attention to the schools, communities and shops that shaped them. A good primer on the Bay Area clay lineage Winnie is stepping into.",
+  "details": "February 13 - November 14, 2027. Also on view now: 'RM x SFMOMA: Between You and Me' (October 3, 2026 - February 7, 2027), Korean modern and contemporary art from RM's collection.",
+  "website": "https://www.sfmoma.org",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "gallery"
+  ],
+  "category": "gallery",
+  "categories": [
+   "gallery"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.sfmoma.org/press-release/sfmomas-2026-27-exhibitions-highlight-fashion-korean-modern-art-and-northern-california-craft/",
+  "lastVerified": "2026-10-28",
+  "address": "151 Third Street, San Francisco, CA"
+ },
+ {
+  "id": "baycer-de-young-museum-rose-b-simpson-lexicon",
+  "name": "de Young Museum: Rose B. Simpson: LEXICON",
+  "type": "gallery",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.7715,
+    "lng": -122.46909
+   },
+   "neighborhood": "Golden Gate Park"
+  },
+  "focusAreas": [
+   "exhibition",
+   "pueblo-pottery",
+   "indigenous-ceramics"
+  ],
+  "description": "Santa Clara Pueblo artist Rose B. Simpson's two custom cars, painted with black-on-black Tewa pottery motifs (in honor of Maria Martinez) and a new polychrome design, fill Wilsey Court as a large-scale meditation on Pueblo pottery traditions.",
+  "details": "Wilsey Court, August 30, 2025 - February 7, 2027. Included in general admission. Exhibition page links a Rose B. Simpson lecture resource. 'Rooted in Place: California Native Art' is also on view through Jun 6, 2027.",
+  "website": "https://www.famsf.org",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "gallery"
+  ],
+  "category": "gallery",
+  "categories": [
+   "gallery"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.famsf.org/exhibitions/rose-b-simpson",
+  "lastVerified": "2026-10-28",
+  "address": "50 Hagiwara Tea Garden Drive, San Francisco, CA"
+ },
+ {
+  "id": "baycer-asian-art-museum-of-san-francisco",
+  "name": "Asian Art Museum of San Francisco",
+  "type": "gallery",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.78032,
+    "lng": -122.41599
+   },
+   "neighborhood": "Civic Center"
+  },
+  "focusAreas": [
+   "japanese-ceramics",
+   "chinese-ceramics",
+   "collection"
+  ],
+  "description": "Major Asian art museum with a strong ceramics collection and recent contemporary clay programming, including 'New Japanese Clay', 32 works by 29 Japanese ceramic artists.",
+  "details": "'New Japanese Clay' ran Aug. 15, 2025 - Feb. 2, 2026 (per the museum's press release). No ceramics-specific exhibition is listed on the exhibitions site as of late October 2026 (current headline show: 'Vishnu's Cosmic Ocean'). Phone 415.581.3500.",
+  "website": "https://asianart.org",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "gallery"
+  ],
+  "category": "gallery",
+  "categories": [
+   "gallery"
+  ],
+  "discipline": "ceramics",
+  "source": "https://about.asianart.org/press/asian-art-museum-presents-japanese-ceramics-29-modern-and-contemporary-artists-defy-gravity-challenge-tradition-with-playful-innovative-clay-creations/",
+  "lastVerified": "2026-10-28",
+  "address": "200 Larkin Street, San Francisco, CA 94102"
+ },
+ {
+  "id": "baycer-rebecca-camacho-presents",
+  "name": "Rebecca Camacho Presents",
+  "type": "gallery",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.79582,
+    "lng": -122.40253
+   },
+   "neighborhood": "Jackson Square"
+  },
+  "focusAreas": [
+   "contemporary-ceramics",
+   "exhibition"
+  ],
+  "description": "Contemporary gallery that regularly shows clay, including Oakland ceramist Sahar Khoury and, in 2026, a capsule show of Paige Valentine's coil-built, soda-fired lamps, jars and vessels.",
+  "details": "Capsule | Paige Valentine, 7 May - 20 Jun 2026. Upcoming: Simon Evans & Sarah Lannan and Max Jansons, 5 Nov - 19 Dec 2026 (not ceramics). Email info@rebeccacamacho.com, +1 415 800 7228.",
+  "website": "https://rebeccacamacho.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "gallery"
+  ],
+  "category": "gallery",
+  "categories": [
+   "gallery"
+  ],
+  "discipline": "ceramics",
+  "source": "https://rebeccacamacho.com/exhibitions/",
+  "lastVerified": "2026-10-28",
+  "address": "526 Washington Street, San Francisco, CA 94111"
+ },
+ {
+  "id": "baycer-center-for-community-arts-walnut-creek-ceramics",
+  "name": "Center for Community Arts Walnut Creek: Ceramics",
+  "type": "workshop",
+  "status": "active",
+  "location": {
+   "city": "Walnut Creek",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.90298,
+    "lng": -122.06033
+   }
+  },
+  "focusAreas": [
+   "wheel",
+   "handbuilding",
+   "glaze",
+   "open-studio",
+   "cone-10",
+   "teaching"
+  ],
+  "description": "Large city-run community arts school with a well-equipped ceramics studio at Civic Park: handbuilding into wheel, glazing and firing, advanced portfolio work, open studio, and chances for students to sell. Supported by the student-run Clay Arts Guild.",
+  "details": "Adult ceramics at Civic Park; youth ceramics at Shadelands. Clay must be bought from the studio (stoneware incl. B-Mix, Soldate 60, Death Valley; porcelain Babu and 550), max 2 bags per class per quarter. Arts + Rec customer service (925) 295-1490, artsrec@walnut-creek.org; Shadelands 925-943-5846. Scholarships funded partly by the Clay Arts Guild. Teaching lead: Opportunities page: 'Center for Community Arts is currently seeking professional, practicing visual and performing artists to teach afterschool programming, camp, and 10-session quarterly classes as part of our youth and adult programming' (contract positions). Apply via the 'Becoming a Teaching Artist' link on https://www.communityarts.org/about/opportunities; also the City of Walnut Creek jobs page. Paid teaching is US employment: it needs work authorization (her current visa doesn't allow it; an O-1B or a sponsoring employer could).",
+  "website": "https://www.communityarts.org/classes/ceramics-sculpture",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "walnut-creek",
+   "ceramics",
+   "class",
+   "studio",
+   "community",
+   "teaching"
+  ],
+  "category": "class",
+  "categories": [
+   "class",
+   "studio",
+   "community",
+   "teaching"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.communityarts.org/about/opportunities",
+  "lastVerified": "2026-10-28",
+  "address": "Ceramics Studio, 1365 Civic Drive, Walnut Creek (admin: Shadelands Art Center, 111 N. Wiget Lane)"
+ },
+ {
+  "id": "baycer-walnut-creek-chili-bowl-and-handcrafted-holiday-sale",
+  "name": "Walnut Creek Chili Bowl and Handcrafted Holiday Sale",
+  "type": "community",
+  "status": "active",
+  "location": {
+   "city": "Walnut Creek",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.9251,
+    "lng": -122.02445
+   }
+  },
+  "focusAreas": [
+   "market",
+   "holiday-sale",
+   "fundraiser"
+  ],
+  "description": "Annual community events from the Walnut Creek arts school: a Chili Bowl fundraiser and a Handcrafted Holiday Sale of ceramics, prints and more by teaching artists and students.",
+  "details": "Chili Bowl Fundraiser 11/14/2026, 11:00 AM; Handcrafted Holiday Sale 12/05/2026 (per home page upcoming events). Earlier listings put the sale at the Shadelands center, 111 N. Wiget Lane, free to attend.",
+  "website": "https://www.communityarts.org/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "walnut-creek",
+   "ceramics",
+   "community"
+  ],
+  "category": "community",
+  "categories": [
+   "community"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.communityarts.org/",
+  "lastVerified": "2026-10-28",
+  "address": "Shadelands Art Center, 111 N. Wiget Lane, Walnut Creek"
+ },
+ {
+  "id": "baycer-renegade-craft-fair-san-francisco",
+  "name": "Renegade Craft Fair San Francisco",
+  "type": "community",
+  "status": "active",
+  "location": {
+   "city": "San Francisco",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.80633,
+    "lng": -122.43206
+   },
+   "neighborhood": "Marina / Fort Mason"
+  },
+  "focusAreas": [
+   "market",
+   "selling",
+   "craft-fair"
+  ],
+  "description": "Big juried indie craft fair at Fort Mason, a common first market for Bay Area potters selling mugs and functional ware.",
+  "details": "Fall/Winter: November 14 + 15, 2026 at Fort Mason Center Festival Pavilion. Spring fair listed March 28 + 29 at Fort Mason (indoors). Vendor costs on apply page: $35 nonrefundable application fee per event; 5x10 ft shared booth $400, 10x10 ft $800, 10x20 ft $2000. Each fair juried independently.",
+  "website": "https://www.renegadecraft.com",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-francisco",
+   "ceramics",
+   "community"
+  ],
+  "category": "community",
+  "categories": [
+   "community"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.renegadecraft.com/events/",
+  "lastVerified": "2026-10-28",
+  "address": "Fort Mason Center Festival Pavilion, San Francisco"
+ },
+ {
+  "id": "baycer-mill-valley-fall-arts-festival",
+  "name": "Mill Valley Fall Arts Festival",
+  "type": "community",
+  "status": "active",
+  "location": {
+   "city": "Mill Valley",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.90507,
+    "lng": -122.55297
+   }
+  },
+  "focusAreas": [
+   "market",
+   "juried",
+   "selling",
+   "fine-craft"
+  ],
+  "description": "Juried show of 135 fine art and fine craft artists under the redwoods, in its 69th year; production work is not allowed, so it suits one-off studio pottery.",
+  "details": "2026 festival Sept 19-20, 10am-5pm. 2026 call: 5 images, $45 application fee ($55 after April 15), deadline May 15, notification by May 22; booth fees tiered from $385; four $500 Awards of Excellence; artists must be present both days and hold a California resale permit. Applications via Zapplication. Expect a similar spring 2027 call.",
+  "website": "https://www.mvfaf.org/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "mill-valley",
+   "ceramics",
+   "community"
+  ],
+  "category": "community",
+  "categories": [
+   "community"
+  ],
+  "discipline": "ceramics",
+  "source": "https://app.entrythingy.com/calls/external/mill-valley-fall-arts-festival-2026/",
+  "lastVerified": "2026-10-28",
+  "address": "Old Mill Park, Throckmorton Ave. & Cascade Drive, Mill Valley"
+ },
+ {
+  "id": "baycer-marin-open-studios",
+  "name": "Marin Open Studios",
+  "type": "community",
+  "status": "active",
+  "location": {
+   "city": "San Rafael",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.97478,
+    "lng": -122.53167
+   },
+   "approximate": true
+  },
+  "focusAreas": [
+   "open-studios",
+   "selling",
+   "marin"
+  ],
+  "description": "Two-weekend county-wide open studios in May where Marin artists, potters included, open their workspaces and sell directly.",
+  "details": "2026 dates: May 2-3 and May 9-10 (2025: May 3-4 and 10-11). Site has artist login, loan forms and a juried exhibit. Marin-wide event; San Rafael given only as a county reference city.",
+  "website": "https://marinopenstudios.org/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-rafael",
+   "ceramics",
+   "community"
+  ],
+  "category": "community",
+  "categories": [
+   "community"
+  ],
+  "discipline": "ceramics",
+  "source": "https://marinopenstudios.org/",
+  "lastVerified": "2026-10-28"
+ },
+ {
+  "id": "baycer-east-bay-open-studios",
+  "name": "East Bay Open Studios",
+  "type": "community",
+  "status": "active",
+  "location": {
+   "city": "Oakland",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.80446,
+    "lng": -122.27136
+   },
+   "approximate": true
+  },
+  "focusAreas": [
+   "open-studios",
+   "selling",
+   "east-bay"
+  ],
+  "description": "Free open studios across ten East Bay cities, now run by Oakland Art Murmur, with a winter edition coming up just before the holidays.",
+  "details": "Winter 2026: December 5-6 and 12-13, studios open 11am-5pm, 250+ artists across 10 East Bay cities, free. The spring 2026 edition ran June 6-7 and 13-14 with an opening at Orchard Galleries May 30. Site has 'Register for EBOS', an Artist Professional Development Series, and Space Requests & Fee Waivers.",
+  "website": "https://www.eastbayopenstudios.com/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "oakland",
+   "ceramics",
+   "community"
+  ],
+  "category": "community",
+  "categories": [
+   "community"
+  ],
+  "discipline": "ceramics",
+  "source": "https://www.eastbayopenstudios.com/",
+  "lastVerified": "2026-10-28"
+ },
+ {
+  "id": "baycer-silicon-valley-open-studios",
+  "name": "Silicon Valley Open Studios",
+  "type": "community",
+  "status": "active",
+  "location": {
+   "city": "San Jose",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 37.33617,
+    "lng": -121.89059
+   },
+   "approximate": true
+  },
+  "focusAreas": [
+   "open-studios",
+   "selling",
+   "peninsula",
+   "south-bay"
+  ],
+  "description": "Three May weekends of open studios from the coast and Peninsula to the South Bay, with ceramics among the featured media; 2026 was its 40th year with 370+ artists.",
+  "details": "SVOS 2027: May 1-2 Coastside and Northern Peninsula; May 8-9 Mid-Peninsula; May 15-16 South Bay; 11am-5pm. Registration for exhibiting artists opens December 1 (Dec/Jan). Year-round SVVA membership $50 (directory listing, quarterly mixers and exhibitions, artist webinars). Region-wide; San Jose given as a reference city.",
+  "website": "https://svos.org/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "san-jose",
+   "ceramics",
+   "community"
+  ],
+  "category": "community",
+  "categories": [
+   "community"
+  ],
+  "discipline": "ceramics",
+  "source": "https://svos.org/",
+  "lastVerified": "2026-10-28"
+ },
+ {
+  "id": "baycer-ccaca-california-conference-for-the-advancement-of-ceramic-a",
+  "name": "CCACA: California Conference for the Advancement of Ceramic Art",
+  "type": "community",
+  "status": "active",
+  "location": {
+   "city": "Davis",
+   "region": "California",
+   "country": "USA",
+   "coordinates": {
+    "lat": 38.54212,
+    "lng": -121.74098
+   }
+  },
+  "focusAreas": [
+   "conference",
+   "lectures",
+   "demonstrations",
+   "student-shows"
+  ],
+  "description": "Annual ceramics conference founded by John Natsoulas and Robert Arneson, pairing lectures and demos by working ceramic artists with 50+ student exhibitions around downtown Davis. Outside the core Bay Area (about 75 miles) but the main regional clay conference, and Bay Area colleges take part.",
+  "details": "CCACA 2027 presenters listed: Gerit Grim, Clayton Keyes, Kyungmin Park, George Rodriguez, Bonnie Seeman, George Grant & Eusebio Lozano. 2027 dates not stated on the page (the 2026 edition was in April). The gallery also hosts workshops.",
+  "website": "https://natsoulas.com/",
+  "tags": [
+   "sf-bay",
+   "bay-area",
+   "davis",
+   "ceramics",
+   "community",
+   "gallery"
+  ],
+  "category": "community",
+  "categories": [
+   "community",
+   "gallery"
+  ],
+  "discipline": "ceramics",
+  "source": "https://natsoulas.com/about-ccaca",
+  "lastVerified": "2026-10-28",
+  "address": "John Natsoulas Gallery, 521 1st Street, Davis, CA"
+ }
+]

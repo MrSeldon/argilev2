@@ -792,42 +792,6 @@
   "lastVerified": "2026-10-28"
  },
  {
-  "id": "sfbay-headlands-center-for-the-arts-artist-in-residence-program",
-  "name": "Headlands Center for the Arts - Artist in Residence Program",
-  "type": "residency",
-  "status": "active",
-  "location": {
-   "city": "Sausalito",
-   "region": "California",
-   "country": "USA",
-   "coordinates": {
-    "lat": 37.85903,
-    "lng": -122.48547
-   },
-   "approximate": true
-  },
-  "focusAreas": [
-   "interdisciplinary"
-  ],
-  "deadline": "2027 applications closed (deadline was June 1, 2026 per a third-party listing); 2028 applications open April 2027.",
-  "description": "Fully sponsored residency in the Marin Headlands for artists in all disciplines (sculpture listed among media; ceramics not named), covering studio, housing, chef-prepared meals, and travel and living expenses.",
-  "details": "Contact info@headlands.org to confirm ceramics fit. Jury results for 2027 announced by December 11, 2026. Address as stated on source: 944 Simmonds Road, Sausalito, CA 94965",
-  "eligibility": "Artists in all disciplines; prior-residency and award restrictions apply",
-  "website": "https://www.headlands.org/programs/",
-  "tags": [
-   "sf-bay",
-   "bay-area",
-   "sausalito",
-   "residency"
-  ],
-  "category": "residency",
-  "categories": [
-   "residency"
-  ],
-  "source": "https://www.headlands.org/programs/",
-  "lastVerified": "2026-10-28"
- },
- {
   "id": "sfbay-recology-san-francisco-artist-in-residence-program",
   "name": "Recology San Francisco Artist in Residence Program",
   "type": "residency",
@@ -1517,7 +1481,7 @@
   },
   "description": "Laney College Art Studio/Ceramics runs a 12-week wood-firing course for intermediate potters who load and fire a train kiln.",
   "details": "Thursdays 10am-4pm, Sept 3-Nov 19; $66 student rate, $765 public rate; covers 12 six-hour sessions, glaze materials, firings. Instructor Ian Bassett; organizer Mary Catherine Bassett (Art Dept Chair). Sales ended. | Thursdays 10am-4pm; registration via Eventbrite. Phone (510) 464-3540.",
-  "website": "https://www.eventbrite.com/e/wood-firing-workshop-tickets-1987875889297",
+  "website": "https://laney.edu/art",
   "tags": [
    "sf-bay",
    "bay-area",
@@ -1648,54 +1612,6 @@
   ],
   "source": "https://www.paloalto.gov/Events-Directory/Community-Services/2026-Clay-and-Glass-Festival",
   "lastVerified": "2026-10-28"
- },
- {
-  "id": "sfbay-clayroom-sf-oakland-san-mateo",
-  "name": "Clayroom Oakland (Temescal)",
-  "type": "studio",
-  "status": "active",
-  "location": {
-   "city": "Oakland",
-   "region": "California",
-   "country": "USA",
-   "coordinates": {
-    "lat": 37.83192,
-    "lng": -122.2538
-   }
-  },
-  "focusAreas": [
-   "raku",
-   "obvara",
-   "workshops",
-   "firing"
-  ],
-  "deadline": "Raku Nov 29, 2026; Obvara Nov 1 and Dec 6, 2026 (first Sundays); Nov 7-8, 2026 workshop",
-  "description": "Clayroom's Temescal studio in Oakland: six-week classes, one-time classes and memberships. The San Francisco studios (SoMa and Potrero) have their own entries.",
-  "details": "Raku firing last Sunday of each month 10am-4pm (next: Nov 29, 2026); Obvara firing first Sunday monthly 12-4pm (next: Nov 1, 2026), weather permitting. Workshop: Transforming the Cube with Bill Abright, Sat-Sun Nov 7-8, 10:30am-2:30pm, 3050 S Delaware St Ste 100, San Mateo. Other studios: 375 9th St SF; 1431 17th St SF; 1723 Peralta St Oakland. Year of dated workshops inferred from weekdays. Studios named on site: SoMa and Potrero Hill (SF), San Mateo, Oakland Temescal, West Oakland. Offers 6-week classes, one-time classes, workshops and independent-member studio memberships (prices not on page).",
-  "website": "https://www.clayroomsf.com/workshop",
-  "tags": [
-   "sf-bay",
-   "bay-area",
-   "oakland",
-   "studio",
-   "class",
-   "community"
-  ],
-  "category": "studio",
-  "categories": [
-   "studio",
-   "class",
-   "community"
-  ],
-  "source": "https://www.clayroomsf.com/workshop",
-  "lastVerified": "2026-10-28",
-  "image": {
-   "src": "/images/opportunities/sfbay-clayroom-sf-oakland-san-mateo.webp",
-   "alt": "Clayroom studio",
-   "credit": "Image: Clayroom (SF, Oakland, San Mateo)",
-   "creditUrl": "https://www.clayroomsf.com/workshop",
-   "license": "publisher image"
-  }
  },
  {
   "id": "sfbay-berkeley-potters-guild",
