@@ -15,7 +15,7 @@ const OpportunityMapInner = dynamic(() => import("./OpportunityMapInner"), {
 
 interface OpportunityMapProps {
   opportunities: Opportunity[];
-  initialScope?: "bay" | "world";
+  initialScope?: import("@/lib/opportunity-map").MapScope;
   initialSelected?: string;
 }
 

@@ -7,11 +7,11 @@ import "leaflet/dist/leaflet.css";
 import type { Opportunity } from "@/lib/types";
 import { formatLocation } from "@/lib/utils";
 import {
-  BAY_BOUNDS,
+  REGIONS,
+  inScope,
   WORLD_VIEW,
   addressOf,
   categoriesOf,
-  inBayArea,
   sourceLabel,
   sourceUrl,
   titleCase,
@@ -40,7 +40,7 @@ export default function OpportunityMapInner({ opportunities, initialScope = "bay
     setSelectedId(null);
     try {
       const url = new URL(window.location.href);
-      if (s === "world") url.searchParams.set("scope", "world");
+      if (s !== "bay") url.searchParams.set("scope", s);
       else url.searchParams.delete("scope");
       url.searchParams.delete("focus");
       window.history.replaceState(window.history.state, "", url.toString());
@@ -55,7 +55,7 @@ export default function OpportunityMapInner({ opportunities, initialScope = "bay
       all.filter((o) => {
         const c = o.location.coordinates;
         if (!c) return false;
-        return scope === "world" ? true : inBayArea(c.lat, c.lng);
+        return inScope(scope, c.lat, c.lng);
       }),
     [all, scope]
   );
@@ -102,6 +102,8 @@ export default function OpportunityMapInner({ opportunities, initialScope = "bay
           onChange={(v) => changeScope(v as MapScope)}
           options={[
             { value: "bay", label: "Bay Area" },
+            { value: "colombia", label: "Colombia" },
+            { value: "east-africa", label: "East Africa" },
             { value: "world", label: "World" },
           ]}
         />
@@ -143,7 +145,7 @@ export default function OpportunityMapInner({ opportunities, initialScope = "bay
 
         <div className="absolute top-3 left-3 z-[500] bg-paper-soft/95 border border-line px-3 py-2 text-caption text-ink-2 pointer-events-none">
           {filtered.length} {filtered.length === 1 ? "place" : "places"}
-          {scope === "bay" ? " in the Bay Area" : " worldwide"}
+          {scope === "world" ? " worldwide" : ` ${REGIONS[scope].phrase}`}
         </div>
 
         {filtered.length === 0 && (
@@ -230,8 +232,8 @@ function LeafletCanvas({
     map.invalidateSize();
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const animate = !firstFit.current && !reduce;
-    if (scope === "bay") {
-      map.fitBounds(BAY_BOUNDS, { padding: [8, 8], animate });
+    if (scope !== "world") {
+      map.fitBounds(REGIONS[scope].bounds, { padding: [8, 8], animate });
     } else {
       const narrow = map.getSize().x < 600;
       map.setView(WORLD_VIEW.center, narrow ? 1.5 : WORLD_VIEW.zoom, { animate });
@@ -249,7 +251,7 @@ function LeafletCanvas({
       const c = o.location.coordinates;
       if (!c) return;
       const selected = o.id === selectedId;
-      const dot = selected ? 26 : scope === "bay" ? 18 : 13;
+      const dot = selected ? 26 : scope === "world" ? 13 : 18;
       const hit = 44;
       const ring = selected ? "0 0 0 6px rgba(34,33,30,0.18)," : "";
       const icon = L.divIcon({
@@ -379,7 +381,7 @@ function EmptyState({
           <button type="button" onClick={onReset} className="btn-secondary">
             Clear filters
           </button>
-          {scope === "bay" && (
+          {scope !== "world" && (
             <button type="button" onClick={onWorld} className="btn-primary">
               Show world
             </button>

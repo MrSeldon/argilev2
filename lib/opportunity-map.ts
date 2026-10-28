@@ -14,7 +14,7 @@ export type MapOpportunity = Omit<Opportunity, "source"> & {
   address?: string;
 };
 
-export type MapScope = "bay" | "world";
+export type MapScope = "bay" | "colombia" | "east-africa" | "world";
 
 // Rough Bay Area box: Santa Cruz / Half Moon Bay up to Santa Rosa / Napa,
 // east to Livermore.
@@ -22,6 +22,24 @@ export const BAY_BOUNDS: [[number, number], [number, number]] = [
   [36.9, -123.2],
   [38.65, -121.5],
 ];
+
+/** The places Winnie moves between: each opens as a framed region; "world" shows everything. */
+export const REGIONS: Record<Exclude<MapScope, "world">, { label: string; bounds: [[number, number], [number, number]]; phrase: string }> = {
+  bay: { label: "Bay Area", bounds: BAY_BOUNDS, phrase: "in the Bay Area" },
+  colombia: { label: "Colombia", bounds: [[-4.3, -79.1], [12.6, -66.8]], phrase: "in Colombia" },
+  "east-africa": { label: "East Africa", bounds: [[-11.8, 28.8], [5.5, 42.0]], phrase: "in East Africa" },
+};
+
+export function inScope(scope: MapScope, lat: number, lng: number): boolean {
+  if (scope === "world") return true;
+  const [[a, b], [c, d]] = REGIONS[scope].bounds;
+  return lat >= a && lat <= c && lng >= b && lng <= d;
+}
+
+/** The region a place falls in, for opening the map on it. */
+export function regionOf(lat: number, lng: number): MapScope {
+  return (Object.keys(REGIONS) as Exclude<MapScope, "world">[]).find((r) => inScope(r, lat, lng)) || "world";
+}
 
 export const WORLD_VIEW = { center: [25, 10] as [number, number], zoom: 2 };
 

@@ -1,7 +1,7 @@
 import { getOpportunities } from "@/lib/data";
 import { OpportunityMap } from "@/components/opportunities/OpportunityMap";
 import { ListMapSwitch } from "@/components/opportunities/ExploreNav";
-import { inBayArea } from "@/lib/opportunity-map";
+import { regionOf, type MapScope } from "@/lib/opportunity-map";
 import { isPast } from "@/components/opportunities/facts";
 
 export const metadata = {
@@ -28,7 +28,8 @@ export default async function OpportunitiesMapPage({
   // A focused place outside the Bay opens the world view.
   const focused = focus ? mappable.find((o) => o.id === focus) : undefined;
   const c = focused?.location.coordinates;
-  const initialScope = scope === "world" || (c && !inBayArea(c.lat, c.lng)) ? "world" : "bay";
+  const asked = (["bay", "colombia", "east-africa", "world"] as MapScope[]).find((r) => r === scope);
+  const initialScope: MapScope = c ? regionOf(c.lat, c.lng) : asked || "bay";   // a focused place opens on its own region
 
   return (
     <div className="h-view flex flex-col">
