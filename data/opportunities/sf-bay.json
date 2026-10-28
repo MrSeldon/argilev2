@@ -35,13 +35,13 @@
       "class"
     ],
     "source": "https://www.castroclay.com",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-sharon-art-studio-sf-rec-park",
     "name": "Sharon Art Studio (SF Rec & Park)",
     "type": "workshop",
-    "status": "active",
+    "status": "unconfirmed",
     "location": {
       "city": "San Francisco",
       "region": "California",
@@ -74,7 +74,7 @@
       "studio"
     ],
     "source": "https://sfrecpark.org/704/Sharon-Art-Studio",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-mission-arts-center-sf-rec-park",
@@ -108,7 +108,7 @@
       "class"
     ],
     "source": "https://sfrecpark.org/697/Mission-Arts-Center",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-studio-ceramica-mel-rice-ceramica",
@@ -152,13 +152,20 @@
       "class"
     ],
     "source": "https://www.melriceceramica.com/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/sfbay-studio-ceramica-mel-rice-ceramica.webp",
+      "alt": "Mel Rice Ceramica studio",
+      "credit": "Image: Studio Ceramica (Mel Rice Ceramica)",
+      "creditUrl": "https://www.melriceceramica.com/",
+      "license": "publisher image"
+    }
   },
   {
     "id": "sfbay-earthfire-arts-studio",
     "name": "Earthfire Arts Studio",
     "type": "workshop",
-    "status": "active",
+    "status": "unconfirmed",
     "location": {
       "city": "San Francisco",
       "region": "California",
@@ -185,13 +192,13 @@
       "class"
     ],
     "source": "https://ma.to/venue/earthfirearts",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-the-potters-studio",
     "name": "The Potters' Studio",
     "type": "studio",
-    "status": "active",
+    "status": "unconfirmed",
     "location": {
       "city": "Berkeley",
       "region": "California",
@@ -225,7 +232,14 @@
       "class"
     ],
     "source": "https://www.thepottersstudio.org/about-membership",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/sfbay-the-potters-studio.webp",
+      "alt": "The Potters' Studio in Berkeley",
+      "credit": "Image: The Potters' Studio",
+      "creditUrl": "https://www.thepottersstudio.org",
+      "license": "publisher image"
+    }
   },
   {
     "id": "sfbay-petaluma-pottery",
@@ -265,7 +279,14 @@
       "class"
     ],
     "source": "https://www.petalumapottery.com/classes",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/sfbay-petaluma-pottery.webp",
+      "alt": "Petaluma Pottery class",
+      "credit": "Image: Petaluma Pottery",
+      "creditUrl": "https://www.petalumapottery.com",
+      "license": "publisher image"
+    }
   },
   {
     "id": "sfbay-alameda-pots",
@@ -302,13 +323,20 @@
       "class"
     ],
     "source": "https://www.alamedapots.art/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/sfbay-alameda-pots.webp",
+      "alt": "Pottery vases at Alameda Pots",
+      "credit": "Image: Alameda Pots",
+      "creditUrl": "https://www.alamedapots.art/",
+      "license": "publisher image"
+    }
   },
   {
     "id": "sfbay-higher-fire-clayspace-gallery",
     "name": "Higher Fire Clayspace & Gallery",
     "type": "studio",
-    "status": "active",
+    "status": "unconfirmed",
     "location": {
       "city": "San Jose",
       "region": "California",
@@ -341,7 +369,7 @@
       "class"
     ],
     "source": "https://www.higherfirestudios.com/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-halo-pottery",
@@ -375,13 +403,20 @@
       "class"
     ],
     "source": "https://halopottery.net/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/sfbay-halo-pottery.webp",
+      "alt": "Halo Pottery work",
+      "credit": "Image: Halo Pottery",
+      "creditUrl": "https://halopottery.net/",
+      "license": "publisher image"
+    }
   },
   {
     "id": "sfbay-mill-valley-potter-s-studio",
     "name": "Mill Valley Potter's Studio",
     "type": "studio",
-    "status": "active",
+    "status": "unconfirmed",
     "location": {
       "city": "Mill Valley",
       "region": "California",
@@ -412,7 +447,14 @@
       "class"
     ],
     "source": "https://www.millvalleypotterystudio.com/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/sfbay-mill-valley-potter-s-studio.webp",
+      "alt": "Mill Valley Pottery Studio",
+      "credit": "Image: Mill Valley Potter's Studio",
+      "creditUrl": "https://www.millvalleypotterystudio.com/",
+      "license": "publisher image"
+    }
   },
   {
     "id": "sfbay-cass-ceramics",
@@ -452,7 +494,7 @@
       "class"
     ],
     "source": "https://cassceramics.com",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-sebastopol-center-for-the-arts-sebarts-ceramics",
@@ -488,7 +530,7 @@
       "class"
     ],
     "source": "https://www.sebarts.org/classes-lectures/intro-to-wheel-throwing-02/27-04/03-2026",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-kollektiv-clay-studio",
@@ -525,7 +567,14 @@
       "class"
     ],
     "source": "https://www.kollektivclaystudio.com/six-week-courses",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/sfbay-kollektiv-clay-studio.webp",
+      "alt": "Kollektiv Clay Studio in Oakland",
+      "credit": "Image: Kollektiv Clay Studio",
+      "creditUrl": "https://www.kollektivclaystudio.com/",
+      "license": "publisher image"
+    }
   },
   {
     "id": "sfbay-common-clay-space",
@@ -563,7 +612,14 @@
       "class"
     ],
     "source": "https://www.commonclayspace.com/workshops",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/sfbay-common-clay-space.webp",
+      "alt": "Common Clay Space studio",
+      "credit": "Image: Common Clay Space",
+      "creditUrl": "https://www.commonclayspace.com",
+      "license": "publisher image"
+    }
   },
   {
     "id": "sfbay-clay-creations-pacifica",
@@ -607,13 +663,20 @@
       "studio"
     ],
     "source": "https://claycreationspacifica.com/artist-workshops/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/sfbay-clay-creations-pacifica.webp",
+      "alt": "Clay Creations studio in Pacifica",
+      "credit": "Image: Clay Creations Pacifica",
+      "creditUrl": "https://claycreationspacifica.com",
+      "license": "publisher image"
+    }
   },
   {
     "id": "sfbay-terra-linda-ceramic-artists",
     "name": "Terra Linda Ceramic Artists",
     "type": "workshop",
-    "status": "active",
+    "status": "unconfirmed",
     "location": {
       "city": "San Rafael",
       "region": "California",
@@ -643,13 +706,13 @@
       "studio"
     ],
     "source": "https://www.terralindaceramicartists.com/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-cobb-mountain-art-and-ecology-project-wood-fire-long-term-an",
     "name": "Cobb Mountain Art and Ecology Project (wood-fire, long-term and short-term residencies)",
     "type": "residency",
-    "status": "active",
+    "status": "unconfirmed",
     "location": {
       "city": "Cobb",
       "region": "California",
@@ -686,7 +749,7 @@
       "mentorship"
     ],
     "source": "https://cobbartandecology.org/woodfire-residency",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-chalk-hill-artist-residency",
@@ -726,7 +789,7 @@
       "residency"
     ],
     "source": "https://artistcommunities.org/directory/open-calls/call-artists-2027",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-headlands-center-for-the-arts-artist-in-residence-program",
@@ -762,7 +825,7 @@
       "residency"
     ],
     "source": "https://www.headlands.org/programs/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-recology-san-francisco-artist-in-residence-program",
@@ -799,7 +862,7 @@
       "residency"
     ],
     "source": "https://www.recology.com/?p=9861",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-matt-fishman-local-materials-potter-teaches-at-the-potters-s",
@@ -834,7 +897,7 @@
       "artist"
     ],
     "source": "https://studiopotter.org/following-materials",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-west-coast-craft-winter-26-fort-mason",
@@ -874,7 +937,7 @@
       "community"
     ],
     "source": "https://westcoastcraft.com/attendee-calendar",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-the-fellowship-of-craft-formerly-craneway-craft-fair",
@@ -913,7 +976,7 @@
       "community"
     ],
     "source": "https://www.fellowshipofcraft.com",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-san-francisco-ceramic-artists-guild-1st-annual-holiday-marke",
@@ -954,7 +1017,7 @@
       "community"
     ],
     "source": "https://www.sfcag.org/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-ruby-s-clay-studio-gallery",
@@ -991,13 +1054,13 @@
       "community"
     ],
     "source": "https://www.rubysclaystudio.org/gallery",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-claypeople",
     "name": "ClayPeople",
     "type": "supplier",
-    "status": "active",
+    "status": "unconfirmed",
     "location": {
       "city": "Richmond",
       "region": "California",
@@ -1026,7 +1089,7 @@
       "supplier"
     ],
     "source": "https://claypeople.net",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-clay-planet",
@@ -1062,7 +1125,7 @@
       "supplier"
     ],
     "source": "https://shop.clay-planet.com",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-gladding-mcbean-lincoln-ca",
@@ -1099,7 +1162,7 @@
       "materials"
     ],
     "source": "https://www.gladdingmcbean.com",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-creative-ceramics-and-glass-glazequeen-santa-rosa",
@@ -1135,7 +1198,7 @@
       "supplier"
     ],
     "source": "https://www.creativeceramicsandglass.com",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-norcal-kiln-repair",
@@ -1170,7 +1233,7 @@
       "supplier"
     ],
     "source": "https://norcalkilnrepair.com",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-foraging-clay-at-thornton-state-beach-with-artillery-ceramic",
@@ -1205,7 +1268,14 @@
       "materials"
     ],
     "source": "https://missionlocal.org/2024/08/foraging-for-clay-with-artillery-ceramics/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/sfbay-foraging-clay-at-thornton-state-beach-with-artillery-ceramic.webp",
+      "alt": "Foraging clay at the beach with Artillery Ceramics",
+      "credit": "Image: Mission Local",
+      "creditUrl": "https://missionlocal.org/2024/08/foraging-for-clay-with-artillery-ceramics/",
+      "license": "publisher image"
+    }
   },
   {
     "id": "sfbay-east-bay-regional-park-district-ordinance-38-section-805-geo",
@@ -1240,13 +1310,13 @@
       "materials"
     ],
     "source": "https://www.ebparks.org/sites/default/files/Ord38-09052023FINAL.pdf",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-california-state-parks-regulation-14-ccr-4307-geological-fea",
     "name": "California State Parks regulation 14 CCR 4307 - Geological Features (and 4301(v) rockhounding)",
     "type": "materials",
-    "status": "active",
+    "status": "unconfirmed",
     "location": {
       "city": "Daly City",
       "region": "California",
@@ -1275,7 +1345,7 @@
       "materials"
     ],
     "source": "https://www.law.cornell.edu/regulations/california/14-CCR-4307",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-ggnra-2025-superintendent-s-compendium-collecting-rules",
@@ -1310,7 +1380,7 @@
       "materials"
     ],
     "source": "https://www.nps.gov/goga/learn/management/superintendents-compendium.htm",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-sonoma-community-center-ceramics-residency-open-studio-works",
@@ -1362,13 +1432,20 @@
       "community"
     ],
     "source": "https://sonomacommunitycenter.org/ceramics/ceramics-residency",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/sfbay-sonoma-community-center-ceramics-residency-open-studio-works.webp",
+      "alt": "Sonoma Community Center ceramics studio",
+      "credit": "Image: Sonoma Community Center Ceramics (residency, open studio, workshops)",
+      "creditUrl": "https://sonomacommunitycenter.org/ceramics/",
+      "license": "publisher image"
+    }
   },
   {
     "id": "sfbay-hickory-clay",
     "name": "Hickory Clay",
     "type": "studio",
-    "status": "active",
+    "status": "unconfirmed",
     "location": {
       "city": "San Francisco",
       "region": "California",
@@ -1405,7 +1482,14 @@
       "supplier"
     ],
     "source": "https://hickoryclay.com/membership",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/sfbay-hickory-clay.webp",
+      "alt": "Hickory Clay studio in San Francisco",
+      "credit": "Image: Hickory Clay",
+      "creditUrl": "https://hickoryclay.com",
+      "license": "publisher image"
+    }
   },
   {
     "id": "sfbay-laney-college-ceramics-wood-firing-workshop",
@@ -1447,7 +1531,7 @@
       "mentorship"
     ],
     "source": "https://www.eventbrite.com/e/wood-firing-workshop-tickets-1987875889297",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-berkeley-art-studio-uc-berkeley",
@@ -1487,7 +1571,7 @@
       "supplier"
     ],
     "source": "https://artstudio.berkeley.edu/ceramics",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-palo-alto-art-center",
@@ -1524,7 +1608,7 @@
       "community"
     ],
     "source": "https://www.paloalto.gov/Departments/Community-Services/Arts-Sciences/Palo-Alto-Art-Center/Make-Art/Adults",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-acga-clay-glass-festival-association-of-clay-and-glass-artis",
@@ -1563,7 +1647,7 @@
       "community"
     ],
     "source": "https://www.paloalto.gov/Events-Directory/Community-Services/2026-Clay-and-Glass-Festival",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-clayroom-sf-oakland-san-mateo",
@@ -1604,7 +1688,14 @@
       "community"
     ],
     "source": "https://www.clayroomsf.com/workshop",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/sfbay-clayroom-sf-oakland-san-mateo.webp",
+      "alt": "Clayroom studio",
+      "credit": "Image: Clayroom (SF, Oakland, San Mateo)",
+      "creditUrl": "https://www.clayroomsf.com/workshop",
+      "license": "publisher image"
+    }
   },
   {
     "id": "sfbay-berkeley-potters-guild",
@@ -1643,7 +1734,7 @@
       "artist"
     ],
     "source": "https://berkeleypotters.com/current-upcoming-events",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-wheelhouse-clay-studio",
@@ -1686,7 +1777,7 @@
       "class"
     ],
     "source": "https://www.wheelhouseclaysf.com/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-marin-pottery",
@@ -1725,7 +1816,14 @@
       "class"
     ],
     "source": "https://www.marinpottery.org/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/sfbay-marin-pottery.webp",
+      "alt": "Wheel throwing at Marin Pottery",
+      "credit": "Image: Marin Pottery",
+      "creditUrl": "https://www.marinpottery.org/",
+      "license": "publisher image"
+    }
   },
   {
     "id": "sfbay-the-clay-life",
@@ -1762,7 +1860,14 @@
       "class"
     ],
     "source": "https://theclaylife.com/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/sfbay-the-clay-life.webp",
+      "alt": "Clay Life Art Studios entrance",
+      "credit": "Image: The Clay Life",
+      "creditUrl": "https://theclaylife.com/",
+      "license": "publisher image"
+    }
   },
   {
     "id": "sfbay-richmond-art-center",
@@ -1798,7 +1903,7 @@
       "gallery"
     ],
     "source": "https://richmondartcenter.org/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-museum-of-craft-and-design",
@@ -1833,7 +1938,7 @@
       "gallery"
     ],
     "source": "https://sfmcd.org/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28"
   },
   {
     "id": "sfbay-silica-sio2-northern-california-ceramics-santa-cruz-museum-o",
@@ -1870,6 +1975,13 @@
       "community"
     ],
     "source": "https://www.handwork2026.org/event/silica-sio2-northern-california-ceramics/",
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-10-28",
+    "image": {
+      "src": "/images/opportunities/sfbay-silica-sio2-northern-california-ceramics-santa-cruz-museum-o.webp",
+      "alt": "Silica / SiO2 Northern California ceramics exhibition",
+      "credit": "Image: Santa Cruz Museum of Art and History",
+      "creditUrl": "https://www.handwork2026.org/event/silica-sio2-northern-california-ceramics/",
+      "license": "publisher image"
+    }
   }
 ]
