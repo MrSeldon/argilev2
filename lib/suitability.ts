@@ -61,7 +61,8 @@ export async function getAllSuitabilityLocations(): Promise<SuitabilityLocation[
 export async function getSuitabilityForOpportunity(
   city: string,
   region: string,
-  country: string
+  country: string,
+  coords?: { lat: number; lng: number }
 ): Promise<SuitabilityLocation | null> {
   // Try exact match first
   const exactKey = `${city}, ${region}, ${country}`;
@@ -76,7 +77,31 @@ export async function getSuitabilityForOpportunity(
     }
   }
 
+  // A town without its own entry borrows the nearest covered place within 40 km (Emeryville → Oakland, Mill Valley → Sausalito)
+  if (coords) {
+    let best: SuitabilityLocation | null = null;
+    let bestKm = 40;
+    for (const location of Object.values(data.locations)) {
+      const c = (location as { coordinates?: { lat: number; lng: number } }).coordinates;
+      if (!c) continue;
+      const km = distanceKm(coords, c);
+      if (km < bestKm) {
+        bestKm = km;
+        best = location;
+      }
+    }
+    return best;
+  }
+
   return null;
+}
+
+function distanceKm(a: { lat: number; lng: number }, b: { lat: number; lng: number }): number {
+  const r = (d: number) => (d * Math.PI) / 180;
+  const dLat = r(b.lat - a.lat);
+  const dLng = r(b.lng - a.lng);
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(r(a.lat)) * Math.cos(r(b.lat)) * Math.sin(dLng / 2) ** 2;
+  return 6371 * 2 * Math.asin(Math.sqrt(h));
 }
 
 /**

@@ -8,10 +8,23 @@ interface OpportunityDetailClientProps {
   suitability: SuitabilityLocation;
   score: number;
   summary: string;
+  compact?: boolean;   // a one-line button for the key facts band
 }
 
-export function OpportunityDetailClient({ suitability, score, summary }: OpportunityDetailClientProps) {
+export function OpportunityDetailClient({ suitability, score, summary, compact = false }: OpportunityDetailClientProps) {
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  if (compact) {
+    return (
+      <>
+        <button type="button" onClick={() => setIsModalOpen(true)} className="btn-ghost w-full justify-between">
+          <span>Discover {suitability.city || "this place"}</span>
+          <span className="tabular-nums text-celadon-deep">{score}</span>
+        </button>
+        {isModalOpen && <SuitabilityModalV1 locationData={suitability} onClose={() => setIsModalOpen(false)} />}
+      </>
+    );
+  }
 
   return (
     <>

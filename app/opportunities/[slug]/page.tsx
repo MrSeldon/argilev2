@@ -41,7 +41,12 @@ export default async function OpportunityPage({ params }: { params: Promise<{ sl
 
   const suitability =
     f.place.city || f.place.country
-      ? await getSuitabilityForOpportunity(f.place.city || "", f.place.region || "", f.place.country || "")
+      ? await getSuitabilityForOpportunity(
+          f.place.city || "",
+          f.place.region || "",
+          f.place.country || "",
+          hasCoords ? { lat: f.place.lat as number, lng: f.place.lng as number } : undefined
+        )
       : null;
   const suitabilityScore = suitability ? calculateSuitabilityScore(suitability) : null;
   const suitabilitySummary = suitability ? getSuitabilitySummary(suitability) : null;
@@ -112,6 +117,9 @@ export default async function OpportunityPage({ params }: { params: Promise<{ sl
               <Link href={`/opportunities/map?focus=${encodeURIComponent(o.id)}`} className="btn-ghost w-full">
                 See on the map
               </Link>
+            )}
+            {suitability && suitabilityScore !== null && suitabilitySummary && (
+              <OpportunityDetailClient suitability={suitability} score={suitabilityScore} summary={suitabilitySummary} compact />
             )}
           </div>
         </div>

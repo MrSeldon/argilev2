@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { ForWinnie, PlaceLife, type PlaceLifeData } from "./PlaceLife";
 import { SuitabilityLocation } from "@/lib/types";
 
 interface SuitabilityModalV1Props {
@@ -14,6 +15,7 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
   const [currentTime, setCurrentTime] = useState(new Date());
   const [selectedKigaliHour, setSelectedKigaliHour] = useState<number | null>(null);
   const [ccMode, setCcMode] = useState(false);
+  const life = locationData as unknown as PlaceLifeData;
   const weed = (locationData as { cc?: { probabilityOfWeed?: { score?: number; status?: string; notes?: string } } } | undefined)?.cc?.probabilityOfWeed;
   const [hoveredChili, setHoveredChili] = useState(false);
   const [hoveredMonth, setHoveredMonth] = useState<number | null>(null);
@@ -283,6 +285,7 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
           {(() => {
             return (
               <>
+                {!ccMode && <ForWinnie data={life} />}
                 {/* Climate Almanac - Tufte-inspired */}
                 {locationData?.climate && Array.isArray(locationData.climate) && locationData.climate.length > 0 && (() => {
                   const climate = locationData.climate;
@@ -716,6 +719,7 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
                   </div>
                 )}
 
+                {!ccMode && <PlaceLife data={life} />}
                 {/* Beach & Escape */}
                 {locationData?.beachAccess && (
                   <div style={{ marginBottom: '2.5rem' }}>
@@ -1189,6 +1193,9 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
                       {locationData.practicalInfo.visaInfo && (
                         <p style={{ fontSize: '0.8125rem', color: '#57534e', margin: '0 0 0.5rem', lineHeight: 1.7 }}>
                           <strong>Visa:</strong> {locationData.practicalInfo.visaInfo}
+                          <span style={{ display: 'block', fontSize: '0.75rem', color: '#a8a29e', fontStyle: 'italic' }}>
+                            General guidance; what applies to a Rwandan passport can differ. Check the country&apos;s official site before planning.
+                          </span>
                         </p>
                       )}
                       {locationData.practicalInfo.healthcareAccess && (
