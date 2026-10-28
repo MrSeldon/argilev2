@@ -18,6 +18,7 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
   const life = locationData as unknown as PlaceLifeData;
   const fashion = (locationData as { cc?: { fashionEcosystem?: { clothingMfg?: string; fabricSourcing?: string; vintageThrift?: string; danceTheatre?: string; places?: { name: string; kind?: string; what?: string; neighborhood?: string; notes?: string; url?: string }[] } } } | undefined)?.cc?.fashionEcosystem;
   const trim = (locationData as { cc?: { trimWorkOpportunities?: { available?: boolean; season?: string; notes?: string } } } | undefined)?.cc?.trimWorkOpportunities;
+  const braiding = (locationData as { hairBraiding?: { notes?: string; salons?: { name: string; neighborhood?: string; address?: string; rating?: string; prices?: string; url?: string }[] } } | undefined)?.hairBraiding;
   const weed = (locationData as { cc?: { probabilityOfWeed?: { score?: number; status?: string; notes?: string } } } | undefined)?.cc?.probabilityOfWeed;
   const [hoveredChili, setHoveredChili] = useState(false);
   const [hoveredMonth, setHoveredMonth] = useState<number | null>(null);
@@ -1178,6 +1179,26 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
                       </div>
                     </div>
                   </div>
+                  {braiding?.salons && braiding.salons.length > 0 && (
+                    <div style={{ marginTop: '1rem', padding: '1.25rem', backgroundColor: '#faf8f5', borderLeft: '3px solid #B4633F' }}>
+                      <p style={{ fontSize: '0.5625rem', color: '#a8a29e', letterSpacing: '0.15em', margin: '0 0 0.5rem' }}>BRAIDING</p>
+                      {braiding.notes && <p style={{ fontSize: '0.75rem', color: '#78716c', margin: 0, lineHeight: 1.6, fontStyle: 'italic' }}>{braiding.notes}</p>}
+                      <ul style={{ listStyle: 'none', padding: 0, margin: '0.75rem 0 0' }}>
+                        {braiding.salons.map((b) => (
+                          <li key={b.name} style={{ padding: '0.625rem 0', borderTop: '1px solid #e7e5e4', fontSize: '0.8125rem', lineHeight: 1.5 }}>
+                            {b.url ? (
+                              <a href={b.url} target="_blank" rel="noopener noreferrer" style={{ color: '#292524', textDecoration: 'underline', textUnderlineOffset: 3, textDecorationColor: '#d6d3d1' }}>{b.name}</a>
+                            ) : (
+                              <span style={{ color: '#292524' }}>{b.name}</span>
+                            )}
+                            <span style={{ color: '#78716c' }}> · {[b.neighborhood, b.address].filter(Boolean).join(', ')}</span>
+                            {b.prices && <span style={{ display: 'block', color: '#57534e', fontSize: '0.75rem' }}>{b.prices}</span>}
+                            {b.rating && <span style={{ display: 'block', color: '#a8a29e', fontSize: '0.6875rem' }}>{b.rating}</span>}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                 </div>
 
                 {/* Practical Info */}

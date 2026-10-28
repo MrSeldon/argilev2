@@ -5925,7 +5925,44 @@
         ],
         "notes": "Expect roughly $4,000 a month for a one-bedroom (Zumper, mid-2026); the west side and the southern neighbourhoods are sometimes a little cheaper, but not dramatically, and many artists share flats. Studio memberships run about $190-300 a month, and most have wait-lists."
       },
-      "forWinnie": "San Francisco is home base, and it has the most clay in the smallest space: the Mission alone holds The Pottery Studio, RedBrick, Artillery, SMAart and Heath's factory, Clayroom is on 9th Street in SoMa, and Douglas & Sturgess sells clay and glaze materials a short ride away. Most of what you'll need, classes, open studios, teaching, materials and shows, is reachable by Muni or bike. The summer fog is real (July afternoons around 18 °C on the west side, warmer in the Mission), so a wool layer is a year-round habit. The hard part is cost; choosing a neighbourhood close to the studio you join makes the city much easier to live in."
+      "forWinnie": "San Francisco is home base, and it has the most clay in the smallest space: the Mission alone holds The Pottery Studio, RedBrick, Artillery, SMAart and Heath's factory, Clayroom is on 9th Street in SoMa, and Douglas & Sturgess sells clay and glaze materials a short ride away. Most of what you'll need, classes, open studios, teaching, materials and shows, is reachable by Muni or bike. The summer fog is real (July afternoons around 18 °C on the west side, warmer in the Mission), so a wool layer is a year-round habit. The hard part is cost; choosing a neighbourhood close to the studio you join makes the city much easier to live in.",
+      "hairBraiding": {
+        "notes": "There's good braiding in the city itself, mostly along the Mission Street corridor and in the Fillmore, so Oakland is optional rather than necessary. Prices are starting prices from each salon's booking page (October 2026); length and size change the final cost, and most expect you to bring or buy hair. Book ahead for long styles.",
+        "salons": [
+          {
+            "name": "L'Elegance Hair Braiding",
+            "neighborhood": "Fillmore / Western Addition",
+            "address": "1260 Fillmore St",
+            "rating": "5.0 on Booksy (49 reviews)",
+            "prices": "Medium box braids from $200, knotless from $250, feed-ins from $200, cornrows without extensions from $85",
+            "url": "https://booksy.com/en-us/409226_lelegance_hair-salon_134715_san-francisco"
+          },
+          {
+            "name": "African Braids by Lima",
+            "neighborhood": "Excelsior / Crocker-Amazon",
+            "address": "5503 Mission St",
+            "rating": "4.9 on Booksy (98 reviews)",
+            "prices": "Large knotless or box braids (mid-back) $275, medium knotless $350, natural cornrows $85",
+            "url": "https://booksy.com/en-us/913471_african-braids-by-lima_braids-locs_134715_san-francisco"
+          },
+          {
+            "name": "Wakanda African Hair Braiding by Mimi",
+            "neighborhood": "Mission",
+            "address": "2088 Mission St",
+            "rating": "4.5 on Booksy (61 reviews)",
+            "prices": "Jumbo knotless $180, knotless from $250, medium box braids from $200, Senegalese twists from $200",
+            "url": "https://booksy.com/en-us/1365430_wakanda-african-hair-braiding-by-mimi_hair-salon_134715_san-francisco"
+          },
+          {
+            "name": "Mama Africa Hair Braiding",
+            "neighborhood": "Just south of the city, Daly City (near Top of the Hill)",
+            "address": "22 W Market St, Daly City",
+            "rating": "4.2 on Booksy (69 reviews; mostly five stars, some complaints)",
+            "prices": "Large knotless $200, medium knotless $275, large box braids $165, medium Senegalese twists $300",
+            "url": "https://booksy.com/en-us/844811_mama-africa-hair-braiding_braids-locs_103214_daly-city"
+          }
+        ]
+      }
     },
     "San Jose, California, USA": {
       "location": "San Jose, California, USA",
@@ -47941,7 +47978,28 @@
         ],
         "notes": "One-bedrooms averaged about $2,100 a month in mid-2026 (Zumper). Crime is higher than in the suburbs and varies a lot by block."
       },
-      "forWinnie": "Oakland is the big neighbour across the bay, fifteen minutes by BART: worth knowing for Clayroom's West Oakland studio with cone 10 gas reduction, Merritt Ceramics' outside firing and residency, The Crucible's classes, and natural-dye classes at A Verb for Keeping Warm. It's a few degrees sunnier than San Francisco and much cheaper to rent in, so friends and collaborators may live here even if you don't. Think of it as a day out for firing, materials and markets rather than a second home base."
+      "forWinnie": "Oakland is the big neighbour across the bay, fifteen minutes by BART: worth knowing for Clayroom's West Oakland studio with cone 10 gas reduction, Merritt Ceramics' outside firing and residency, The Crucible's classes, and natural-dye classes at A Verb for Keeping Warm. It's a few degrees sunnier than San Francisco and much cheaper to rent in, so friends and collaborators may live here even if you don't. Think of it as a day out for firing, materials and markets rather than a second home base.",
+      "hairBraiding": {
+        "notes": "Oakland has more braiding salons than San Francisco and is generally a little cheaper. Prices are starting prices from each salon's booking page (October 2026).",
+        "salons": [
+          {
+            "name": "Exquisite Braids",
+            "neighborhood": "Dimond",
+            "address": "3627 Coolidge Ave",
+            "rating": "4.7 on Booksy (83 reviews)",
+            "prices": "Medium knotless $200-230, large knotless $190-200, waist-length small knotless $260-285, straight-back feed-ins $180-195",
+            "url": "https://booksy.com/en-us/601894_exquisite-braids_braids-locs_134730_oakland"
+          },
+          {
+            "name": "Famarisa African Hair Braiding",
+            "neighborhood": "Dimond / MacArthur",
+            "address": "2433 MacArthur Blvd",
+            "rating": "4.7 on Booksy (35 reviews)",
+            "prices": "Knotless from $180-202, armpit-length box braids about $158, cornrows from $54 (listed discounts)",
+            "url": "https://booksy.com/en-us/862760_famarisa-african-hair-braiding_hair-salon_134730_oakland"
+          }
+        ]
+      }
     },
     "San Rafael, California, USA": {
       "location": "San Rafael, California, USA",
