@@ -16,6 +16,7 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
   const [selectedKigaliHour, setSelectedKigaliHour] = useState<number | null>(null);
   const [ccMode, setCcMode] = useState(false);
   const life = locationData as unknown as PlaceLifeData;
+  const fashion = (locationData as { cc?: { fashionEcosystem?: { clothingMfg?: string; fabricSourcing?: string; vintageThrift?: string; danceTheatre?: string; places?: { name: string; kind?: string; what?: string; neighborhood?: string; notes?: string; url?: string }[] } } } | undefined)?.cc?.fashionEcosystem;
   const weed = (locationData as { cc?: { probabilityOfWeed?: { score?: number; status?: string; notes?: string } } } | undefined)?.cc?.probabilityOfWeed;
   const [hoveredChili, setHoveredChili] = useState(false);
   const [hoveredMonth, setHoveredMonth] = useState<number | null>(null);
@@ -223,17 +224,9 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
       >
         {/* Header */}
         <div style={{ padding: '1.5rem', borderBottom: '1px solid #e7e5e4', position: 'sticky', top: 0, backgroundColor: '#faf8f5', zIndex: 10 }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
-            <div>
-              <p style={{ fontSize: '0.5625rem', color: '#a8a29e', letterSpacing: '0.15em', margin: '0 0 0.5rem' }}>SUITABILITY INDEX</p>
-              <h2 style={{ fontFamily: 'Georgia, serif', fontSize: '1.75rem', color: '#292524', margin: 0, lineHeight: 1.2 }}>
-                {locationData.location}
-              </h2>
-              <p style={{ fontSize: '0.8125rem', color: '#78716c', margin: '0.5rem 0 0', lineHeight: 1.5, maxWidth: '400px' }}>
-                {summary}
-              </p>
-            </div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '0.75rem' }}>
+            <p style={{ fontSize: '0.5625rem', color: '#a8a29e', letterSpacing: '0.15em', margin: 0 }}>SUITABILITY INDEX</p>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', flexShrink: 0 }}>
               {/* Score Badge */}
               <div style={{
                 width: '56px',
@@ -278,10 +271,16 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
               </button>
             </div>
           </div>
+          <h2 style={{ fontFamily: 'Georgia, serif', fontSize: '1.6rem', color: '#292524', margin: '0.5rem 0 0', lineHeight: 1.2 }}>
+            {locationData.location}
+          </h2>
         </div>
 
         {/* Content */}
         <div style={{ padding: '1.5rem' }}>
+          {summary && !life.forWinnie && (   /* places with a note for Winnie open on that instead; the practical details follow below */
+            <p style={{ fontSize: '0.875rem', color: '#57534e', margin: '0 0 2rem', lineHeight: 1.65 }}>{summary}</p>
+          )}
           {(() => {
             return (
               <>
@@ -682,9 +681,9 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
                       <div style={{ padding: '1rem', backgroundColor: '#e0f2f1' }}>
                         <p style={{ fontSize: '0.5rem', color: '#00695c', margin: '0 0 0.375rem', letterSpacing: '0.1em' }}>CLOTHING MFG</p>
                         <p style={{ fontSize: '0.8125rem', color: '#292524', margin: 0 }}>
-                          {locationData?.country === 'Italy' || locationData?.country === 'France' ? 'High-end ateliers' :
+                          {fashion?.clothingMfg || (locationData?.country === 'Italy' || locationData?.country === 'France' ? 'High-end ateliers' :
                            locationData?.country === 'Japan' ? 'Precision craftwork' :
-                           locationData?.country === 'USA' ? 'Indie designers' : 'Local production'}
+                           locationData?.country === 'USA' ? 'Indie designers' : 'Local production')}
                         </p>
                       </div>
 
@@ -692,9 +691,9 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
                       <div style={{ padding: '1rem', backgroundColor: '#e0f2f1' }}>
                         <p style={{ fontSize: '0.5rem', color: '#00695c', margin: '0 0 0.375rem', letterSpacing: '0.1em' }}>FABRIC SOURCING</p>
                         <p style={{ fontSize: '0.8125rem', color: '#292524', margin: 0 }}>
-                          {locationData?.country === 'Japan' ? 'Premium denim, indigo' :
+                          {fashion?.fabricSourcing || (locationData?.country === 'Japan' ? 'Premium denim, indigo' :
                            locationData?.country === 'Italy' ? 'Silk, wool, leather' :
-                           locationData?.country === 'India' ? 'Cotton, textiles' : 'Local materials'}
+                           locationData?.country === 'India' ? 'Cotton, textiles' : 'Local materials')}
                         </p>
                       </div>
 
@@ -702,8 +701,8 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
                       <div style={{ padding: '1rem', backgroundColor: '#e0f2f1' }}>
                         <p style={{ fontSize: '0.5rem', color: '#00695c', margin: '0 0 0.375rem', letterSpacing: '0.1em' }}>VINTAGE & THRIFT</p>
                         <p style={{ fontSize: '0.8125rem', color: '#292524', margin: 0 }}>
-                          {locationData?.country === 'Japan' ? 'Excellent selection' :
-                           locationData?.country === 'USA' || locationData?.country === 'UK' ? 'Strong scene' : 'Growing'}
+                          {fashion?.vintageThrift || (locationData?.country === 'Japan' ? 'Excellent selection' :
+                           locationData?.country === 'USA' || locationData?.country === 'UK' ? 'Strong scene' : 'Growing')}
                         </p>
                       </div>
 
@@ -711,11 +710,21 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
                       <div style={{ padding: '1rem', backgroundColor: '#e0f2f1' }}>
                         <p style={{ fontSize: '0.5rem', color: '#00695c', margin: '0 0 0.375rem', letterSpacing: '0.1em' }}>DANCE & THEATRE</p>
                         <p style={{ fontSize: '0.8125rem', color: '#292524', margin: 0 }}>
-                          {locationData?.city?.includes('New York') || locationData?.city?.includes('London') ? 'World-class' :
-                           locationData?.country === 'Japan' ? 'Traditional & contemporary' : 'Local scene'}
+                          {fashion?.danceTheatre || (locationData?.city?.includes('New York') || locationData?.city?.includes('London') ? 'World-class' :
+                           locationData?.country === 'Japan' ? 'Traditional & contemporary' : 'Local scene')}
                         </p>
                       </div>
                     </div>
+                    {fashion?.places && fashion.places.length > 0 && (
+                      <ul style={{ listStyle: 'none', padding: 0, margin: '0.75rem 0 0' }}>
+                        {fashion.places.map((pl) => (
+                          <li key={pl.name} style={{ padding: '0.5rem 0', borderTop: '1px solid #b2dfdb', fontSize: '0.8125rem', lineHeight: 1.5 }}>
+                            {pl.url ? <a href={pl.url} target="_blank" rel="noopener noreferrer" style={{ color: '#004d40', textDecoration: 'underline', textUnderlineOffset: 3 }}>{pl.name}</a> : <span style={{ color: '#004d40' }}>{pl.name}</span>}
+                            {(pl.notes || pl.what || pl.neighborhood) && <span style={{ color: '#4f6f6a' }}> · {pl.notes || [pl.what, pl.neighborhood].filter(Boolean).join(' · ')}</span>}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
                   </div>
                 )}
 
