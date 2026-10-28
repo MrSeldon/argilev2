@@ -143,7 +143,7 @@ const config: Config = {
       },
       animation: {
         "fade-in": "fade-in 0.9s cubic-bezier(0.22,0.61,0.36,1) both",
-        "rise-in": "rise-in 1.1s cubic-bezier(0.22,0.61,0.36,1) both",
+        "rise-in": "rise-in 0.7s cubic-bezier(0.22,0.61,0.36,1) both",
         breathe: "breathe 1.8s ease-in-out infinite",
       },
       keyframes: {
@@ -152,7 +152,7 @@ const config: Config = {
           "100%": { opacity: "1" },
         },
         "rise-in": {
-          "0%": { opacity: "0", transform: "translateY(10px)" },
+          "0%": { opacity: "0.55", transform: "translateY(8px)" },
           "100%": { opacity: "1", transform: "translateY(0)" },
         },
         breathe: {

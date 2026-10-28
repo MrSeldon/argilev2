@@ -9,6 +9,7 @@ type Item = { href: string; label: string; match: string[]; icon: (p: { active: 
 
 const ITEMS: Item[] = [
   { href: "/", label: "Home", match: ["/"], icon: IconHome },
+  { href: "/make", label: "Make", match: ["/make"], icon: IconMake },
   { href: "/glazes", label: "Glazes", match: ["/glazes"], icon: IconGlaze },
   { href: "/opportunities", label: "Explore", match: ["/opportunities", "/inspirations"], icon: IconExplore },
   { href: "/mentor", label: "Ask", match: ["/mentor"], icon: IconAsk },
@@ -118,7 +119,7 @@ function TabBar({ pathname }: { pathname: string }) {
       className="md:hidden fixed bottom-0 inset-x-0 z-[1300] bg-paper/95 backdrop-blur-md border-t border-line"
       style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
     >
-      <ul className="grid grid-cols-4 h-[3.75rem]">
+      <ul className="grid grid-cols-5 h-[3.75rem]">
         {ITEMS.map((item) => {
           const active = isActive(pathname, item);
           const Icon = item.icon;
@@ -132,7 +133,7 @@ function TabBar({ pathname }: { pathname: string }) {
                 }`}
               >
                 <Icon active={active} />
-                <span className="text-[10px] uppercase tracking-[0.14em]">{item.label}</span>
+                <span className="text-[10px] uppercase tracking-[0.08em]">{item.label}</span>
               </Link>
             </li>
           );
@@ -158,6 +159,15 @@ function IconHome({ active }: { active: boolean }) {
     <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" {...stroke(active)}>
       <path d="M9 3.5h6M9.5 3.5c0 2-3.5 3.6-3.5 8.2 0 4.5 2.7 8.3 6 8.3s6-3.8 6-8.3c0-4.6-3.5-6.2-3.5-8.2" />
       {active && <path d="M7 13.5c3 1 7 1 10 0" />}
+    </svg>
+  );
+}
+
+function IconMake({ active }: { active: boolean }) {
+  return (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={active ? 1.7 : 1.3} aria-hidden="true">
+      <path d="M8 4h8M9 4c0 3-3 5-3 9a6 6 0 0 0 12 0c0-4-3-6-3-9" strokeLinejoin="round" />
+      <path d="M4 20l5-5" strokeLinecap="round" />
     </svg>
   );
 }

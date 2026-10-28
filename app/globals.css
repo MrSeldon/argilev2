@@ -197,23 +197,23 @@
 
   /* Gentle entrance for page content. Disabled for reduced motion below. */
   .reveal {
-    animation: rise-in 1.1s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+    animation: rise-in 0.7s cubic-bezier(0.22, 0.61, 0.36, 1) both;
   }
   .reveal-1 {
-    animation-delay: 120ms;
+    animation-delay: 60ms;
   }
   .reveal-2 {
-    animation-delay: 240ms;
+    animation-delay: 120ms;
   }
   .reveal-3 {
-    animation-delay: 360ms;
+    animation-delay: 180ms;
   }
 }
 
 @keyframes rise-in {
   from {
-    opacity: 0;
-    transform: translateY(10px);
+    opacity: 0.55;           /* never fully hidden: on a slow phone the words are there from the first paint */
+    transform: translateY(8px);
   }
   to {
     opacity: 1;

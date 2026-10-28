@@ -32,8 +32,9 @@ const DOORWAYS: Doorway[] = [
     n: "01",
     title: "Make",
     line: "Sketch a form and see it rendered in clay and glaze before the wheel turns.",
+    href: "/make",
+    cta: "Send a sketch",
     photo: PHOTOS.wheel,
-    soon: true,
   },
   {
     n: "02",
