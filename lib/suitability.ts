@@ -23,7 +23,17 @@ async function loadSuitabilityData(): Promise<SuitabilityDataFile> {
 
   const filePath = path.join(process.cwd(), "data", "suitability", "index.json");
   const data = await fs.readFile(filePath, "utf-8");
-  suitabilityCache = JSON.parse(data);
+  const parsed: SuitabilityDataFile = JSON.parse(data);
+  // CC mode's own layer (cannabis, fashion, trim work), keyed by the same place name, rides along on each location
+  try {
+    const cc = JSON.parse(await fs.readFile(path.join(process.cwd(), "data", "suitability", "ccMode.json"), "utf-8")) as {
+      locations: Record<string, unknown>;
+    };
+    for (const [k, v] of Object.entries(parsed.locations)) (v as SuitabilityLocation & { cc?: unknown }).cc = cc.locations[k];
+  } catch {
+    /* CC layer is optional */
+  }
+  suitabilityCache = parsed;
   return suitabilityCache!;
 }
 

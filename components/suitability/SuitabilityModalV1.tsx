@@ -14,6 +14,7 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
   const [currentTime, setCurrentTime] = useState(new Date());
   const [selectedKigaliHour, setSelectedKigaliHour] = useState<number | null>(null);
   const [ccMode, setCcMode] = useState(false);
+  const weed = (locationData as { cc?: { probabilityOfWeed?: { score?: number; status?: string; notes?: string } } } | undefined)?.cc?.probabilityOfWeed;
   const [hoveredChili, setHoveredChili] = useState(false);
   const [hoveredMonth, setHoveredMonth] = useState<number | null>(null);
   const [hoveredBeach, setHoveredBeach] = useState(false);
@@ -786,26 +787,12 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
                           {/* CC Mode: Weed Probability */}
                           <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.75rem', marginBottom: '0.5rem' }}>
                             <span style={{ fontFamily: 'Georgia, serif', fontSize: '2rem', color: '#292524' }}>
-                              {locationData?.country === 'Netherlands' || locationData?.country === 'Canada' ? 'A' :
-                               locationData?.region === 'California' || locationData?.region === 'Colorado' || locationData?.region === 'Oregon' ? 'A' :
-                               locationData?.country === 'Spain' || locationData?.country === 'Portugal' ? 'B' :
-                               locationData?.country === 'USA' ? 'C' : 'D'}
+                              {weedGrade(weed?.score)}
                             </span>
-                            <span style={{ fontSize: '0.875rem', color: '#78716c' }}>
-                              {locationData?.country === 'Netherlands' ? 'Coffeeshop culture' :
-                               locationData?.country === 'Canada' ? 'Fully legal' :
-                               locationData?.region === 'California' || locationData?.region === 'Colorado' ? 'Recreational legal' :
-                               locationData?.country === 'Japan' || locationData?.country === 'Singapore' ? 'Strictly prohibited' : 'Varies'}
-                            </span>
+                            <span style={{ fontSize: '0.875rem', color: '#78716c' }}>{weed?.status || 'Not researched yet'}</span>
                           </div>
                           <p style={{ fontSize: '0.75rem', color: '#78716c', margin: 0, lineHeight: 1.6, fontStyle: 'italic' }}>
-                            {locationData?.country === 'Japan' || locationData?.country === 'Singapore' || locationData?.country === 'South Korea' ?
-                              'Do NOT attempt. Severe penalties including imprisonment.' :
-                             locationData?.country === 'Netherlands' ?
-                              'Coffeeshops legally sell cannabis. Amsterdam, Rotterdam, The Hague have many options.' :
-                             locationData?.region === 'California' ?
-                              'Legal dispensaries throughout. Premium quality available.' :
-                              'Research local laws carefully before arrival.'}
+                            {weed?.notes || 'Research local laws carefully before arrival.'}
                           </p>
                         </>
                       ) : (
@@ -1282,4 +1269,10 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
       </div>
     </div>
   );
+}
+
+/** CC mode's cannabis grade from the researched score (0-100): walk-in legal shops are an A. */
+function weedGrade(score?: number): string {
+  if (typeof score !== "number") return "?";
+  return score >= 85 ? "A" : score >= 70 ? "B" : score >= 50 ? "C" : score >= 25 ? "D" : "F";
 }
