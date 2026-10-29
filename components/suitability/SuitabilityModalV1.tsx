@@ -777,7 +777,7 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
                         <div style={{ position: 'absolute', bottom: '100%', left: 0, right: 0, backgroundColor: '#292524', color: 'white', padding: '0.875rem', fontSize: '0.6875rem', zIndex: 10, marginBottom: '4px' }}>
                           <p style={{ margin: '0 0 0.5rem', fontWeight: 500, fontSize: '0.75rem' }}>Beach Escape</p>
                           <p style={{ margin: 0, opacity: 0.9, lineHeight: 1.6 }}>
-                            Winnie needs occasional ocean therapy. This measures access to beach getaways for creative reset.
+                            Measures access to beach getaways, for an occasional creative reset by the ocean.
                           </p>
                         </div>
                       )}
@@ -833,8 +833,8 @@ export function SuitabilityModalV1({ locationData, onClose }: SuitabilityModalV1
                         <div style={{ position: 'absolute', bottom: '100%', left: 0, right: 0, backgroundColor: '#292524', color: 'white', padding: '0.875rem', fontSize: '0.6875rem', zIndex: 10, marginBottom: '4px' }}>
                           <p style={{ margin: '0 0 0.5rem', fontWeight: 500, fontSize: '0.75rem' }}>What is this?</p>
                           <p style={{ margin: 0, opacity: 0.9, lineHeight: 1.6 }}>
-                            Probability of Chili&trade; began with Winnie&apos;s first taste at The River Time bar in Guerneville.
-                            That single bite became her favorite food discovery. The score represents likelihood of finding
+                            Probability of Chili&trade; began with a first taste at The River Time bar in Guerneville,
+                            a single bite that became a favourite food discovery. The score represents likelihood of finding
                             a satisfying bowl within reasonable distance.
                           </p>
                         </div>

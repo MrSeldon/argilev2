@@ -20,7 +20,7 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   title: "Le Four Argile",
-  description: "Winnie's studio companion: describe a glaze, find places to work and learn, ask a mentor.",
+  description: "A studio companion: describe a glaze, find places to work and learn, ask a mentor.",
 };
 
 export const viewport: Viewport = {

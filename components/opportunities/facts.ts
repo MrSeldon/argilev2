@@ -159,7 +159,7 @@ export function factsOf(o: Opportunity): Facts {
       "needs-work-authorization": "Needs US work authorization",
       "check-with-attorney": "Check with an immigration attorney",
     };
-    if (fit) f.visa = { label: "Her visa", value: label[fit] || fit, note: clean(v.note) };
+    if (fit) f.visa = { label: "Visa fit", value: label[fit] || fit, note: clean(v.note) };
   }
 
   // Housing

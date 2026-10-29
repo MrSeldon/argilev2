@@ -23,16 +23,17 @@ Your personality:
 
 Keep responses focused and actionable. When discussing techniques, be specific about materials, temperatures, and processes. If you don't know something, say so and suggest where the user might find that information.`;
 
-const ADAPT_SYSTEM = `You help a studio potter (wheel and hand-building, wild clay, local materials such as wood ash and lime) adapt a glaze recipe toward a look she described.
+const ADAPT_SYSTEM = `You help a studio potter (wheel and hand-building, wild clay, local materials such as wood ash and lime) adapt a glaze recipe toward a look they described.
 
 Rules:
 - Explain the chemistry in plain words a potter uses: what melts it, what makes it glossy or matte, where the colour comes from, why it breaks or pools. Short paragraphs, no jargon without a gloss.
-- Propose exactly ONE change that moves the glaze toward what she described. Prefer materials on her shelf when they would work.
+- Propose exactly ONE change that moves the glaze toward the described look. Prefer materials on the shelf when they would work.
+- Write in a neutral voice: talk about the glaze and the change, not about the potter (no "she", "her" or "the user").
 - Do NOT do arithmetic. Do not compute batch weights, new percentages or totals - the app computes those from your proposed change. Only name the material and the amount to add/remove in recipe parts (percentage points of the base).
 - Use material ids only from the provided list.
 - Mention one safety or testing point if relevant (e.g. variable local materials: test tile first).
 Reply with JSON only, no code fences:
-{"chemistry": "2-4 short paragraphs", "change": {"action": "add|increase|decrease|remove|swap", "material": "<material id>", "toMaterial": "<material id, swap only>", "amount": <number of parts, not for remove/swap>, "asAddition": <true if it is a colourant/opacifier added on top of the base>}, "why": "1-2 sentences on why this change moves it toward her description", "expect": "what to look for on the test tile", "test": "a simple line-blend or test suggestion in words, without numbers you calculated"}`;
+{"chemistry": "2-4 short paragraphs", "change": {"action": "add|increase|decrease|remove|swap", "material": "<material id>", "toMaterial": "<material id, swap only>", "amount": <number of parts, not for remove/swap>, "asAddition": <true if it is a colourant/opacifier added on top of the base>}, "why": "1-2 sentences on why this change moves it toward the described look", "expect": "what to look for on the test tile", "test": "a simple line-blend or test suggestion in words, without numbers you calculated"}`;
 
 function missingKeyResponse() {
   return Response.json(
@@ -106,7 +107,7 @@ async function adapt(body: { code?: string; goal?: string; shelf?: string[] }) {
   const candidateIds = [
     ...new Set([...recipe.ingredients.map((i) => i.id).filter(Boolean), ...shelf, "silica", "kaolin", "whiting", "red-iron-oxide", "rutile", "tin-oxide", "zircon", "talc", "dolomite", "potash-feldspar", "nepheline-syenite", "frit-3134", "gerstley-borate", "wood-ash", "lime-slaked", "copper-carbonate", "cobalt-carbonate", "titanium-dioxide", "bone-ash", "zinc-oxide", "wollastonite", "magnesium-carbonate"]),
   ] as string[];
-  const userMsg = `What she wants: "${goal}"
+  const userMsg = `The look wanted: "${goal}"
 
 Recipe: ${recipe.name} (${recipe.source}, ${coneText(recipe.cone)}${recipe.atmosphere?.length ? ", " + recipe.atmosphere.join("/") : ""}, surface: ${recipe.surface || "not recorded"})
 Description: ${recipe.description}
@@ -117,7 +118,7 @@ Computed fired oxide analysis (weight %): ${ox}
 Computed unity formula: ${umf}; Si:Al ratio ${chem.siAl ?? "n/a"}.${chem.unknownPct ? ` ${chem.unknownPct}% of the batch has no known analysis.` : ""}${chem.variablePct ? ` ${chem.variablePct}% comes from variable local materials.` : ""}
 Source note: ${recipe.note || "none"}
 
-Her shelf (material ids): ${shelf.length ? shelf.join(", ") : "not set"}
+Shelf (material ids): ${shelf.length ? shelf.join(", ") : "not set"}
 Allowed material ids for your change: ${candidateIds.join(", ")}`;
 
   try {

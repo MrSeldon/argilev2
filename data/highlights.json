@@ -1,5 +1,5 @@
 {
-  "about": "Hand-picked finds for Winnie, rotated a few at a time on the home page and listed in full at /highlights. Dated ones disappear after `until`. `tag` is the small label; `line` says why it's worth her time. Curated 2026-10-28.",
+  "about": "Hand-picked finds, rotated a few at a time on the home page and listed in full at /highlights. Dated ones disappear after `until`. `tag` is the small label; `line` says why it's worth the time. Curated 2026-10-28.",
   "items": [
     {
       "id": "baycer-root-division",
@@ -70,12 +70,12 @@
       "id": "baycer-sfmoma-go-your-own-way-northern-california-craft-1945-80",
       "tag": "Opens Feb 13",
       "until": "2027-11-14",
-      "line": "SFMOMA's survey of Northern California craft, 1945 to 1980: the studio-pottery world she's moving into, and where it came from."
+      "line": "SFMOMA's survey of Northern California craft, 1945 to 1980: where the Bay's studio-pottery world came from."
     },
     {
       "id": "sfst-clayroom-soma",
       "tag": "They asked you",
-      "line": "Clayroom invited you to teach here. Their SoMa studio is on 9th Street; résumés go to jobs@clayroomsf.com."
+      "line": "An open invitation to teach here. Their SoMa studio is on 9th Street; résumés go to jobs@clayroomsf.com."
     },
     {
       "id": "sfst-the-pottery-studio-sf",
@@ -90,7 +90,7 @@
     {
       "id": "baycer-mt-vision-ceramics-studio-jess-taylor",
       "tag": "A kindred studio",
-      "line": "Jess Taylor makes glazes from local granite above Inverness and publishes every test: the closest thing in the Bay to your own way of working."
+      "line": "Jess Taylor makes glazes from local granite above Inverness and publishes every test: the closest thing in the Bay to a wild-materials glaze practice."
     },
     {
       "id": "baycer-douglas-and-sturgess-san-francisco",
@@ -100,7 +100,7 @@
     {
       "id": "sfbay-hickory-clay",
       "tag": "Glaze class",
-      "line": "A six-week Glaze Design and Mixing course in the Mission, plus their own handmade glazes to buy while you build up a shelf."
+      "line": "A six-week Glaze Design and Mixing course in the Mission, plus their own handmade glazes to buy while building up a shelf."
     },
     {
       "id": "baycer-san-francisco-state-university-school-of-art-ceramics",
@@ -130,7 +130,7 @@
     {
       "id": "fund-unesco-ifcd",
       "tag": "For Rwanda",
-      "line": "Up to US$100,000 for cultural projects, applied for through a Rwandan NGO or cooperative: the route for scaling up her Rwanda project. Usually opens in March."
+      "line": "Up to US$100,000 for cultural projects, applied for through a Rwandan NGO or cooperative: the route for scaling up a project in Rwanda. Usually opens in March."
     }
   ]
 }

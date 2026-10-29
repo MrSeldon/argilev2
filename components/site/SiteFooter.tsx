@@ -15,7 +15,7 @@ export function SiteFooter() {
         <div className="md:col-span-5">
           <p className="font-serif text-[1.35rem] leading-none">Le Four Argile</p>
           <p className="mt-3 text-body-sm text-ink-3 max-w-xs">
-            A studio companion for Winnie, Laini Studio. Kigali, and soon San Francisco.
+            A studio companion for Laini Studio. Kigali, and soon San Francisco.
           </p>
         </div>
         <nav aria-label="Footer" className="md:col-span-7 grid grid-cols-2 sm:grid-cols-3 gap-x-6 text-body-sm">

@@ -13,7 +13,7 @@ import { isPast } from "@/components/opportunities/facts";
 
 export const metadata = {
   title: "Le Four Argile",
-  description: "Winnie's studio companion: describe a glaze, find places to work and learn, ask a mentor.",
+  description: "A studio companion: describe a glaze, find places to work and learn, ask a mentor.",
 };
 
 // Re-render daily so the inspiration picks change.
@@ -101,7 +101,7 @@ export default async function Home() {
               Le Four Argile
             </h1>
             <p className="text-paper/90 text-body-lg md:text-[1.2rem] leading-relaxed max-w-[30rem] mt-4 reveal reveal-2 text-pretty">
-              Winnie’s studio companion. A quiet place to chase a glaze, find somewhere to work and learn, and ask
+              A quiet studio companion: a place to chase a glaze, find somewhere to work and learn, and ask
               what the kiln is trying to say.
             </p>
           </div>

@@ -56,7 +56,7 @@ export function ForWinnie({ data }: { data: PlaceLifeData }) {
   if (!data.forWinnie) return null;
   return (
     <div style={{ marginBottom: "2.5rem" }}>
-      <p style={label}>FOR WINNIE</p>
+      <p style={label}>IN SHORT</p>
       <p style={{ fontFamily: "Georgia, serif", fontSize: "1.15rem", lineHeight: 1.6, color: "#44403c", margin: 0 }}>{data.forWinnie}</p>
     </div>
   );

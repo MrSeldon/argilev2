@@ -5,7 +5,7 @@ import { ExploreNav } from "@/components/opportunities/ExploreNav";
 
 export const metadata = {
   title: "Highlights | Le Four Argile",
-  description: "Hand-picked finds around the Bay and beyond: what's on, what's due, and places worth her time.",
+  description: "Hand-picked finds around the Bay and beyond: what's on, what's due, and places worth the time.",
 };
 export const revalidate = 3600; // dated finds drop off on their own
 
