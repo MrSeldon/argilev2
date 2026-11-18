@@ -28,7 +28,7 @@ export function SiteFooter() {
               ["Inspiration", "/inspirations"],
             ]}
           />
-          <FooterCol title="Elsewhere" links={[["Ask the mentor", "/mentor"], ["Clouds", "/argile-sky-complete.html"]]} />
+          <FooterCol title="Elsewhere" links={[["Ask the mentor", "/mentor"], ["Clouds", "/argile-sky-complete.html"], ["Archive", "https://archive.argile.room527.com"]]} />
         </nav>
       </div>
     </footer>
@@ -42,7 +42,7 @@ function FooterCol({ title, links }: { title: string; links: [string, string][] 
       <ul>
         {links.map(([label, href]) => (
           <li key={href}>
-            {href.endsWith(".html") ? (
+            {href.endsWith(".html") || href.startsWith("http") ? (
               <a href={href} className="inline-flex items-center min-h-11 text-ink-2 hover:text-ink transition-colors duration-400">
                 {label}
               </a>
