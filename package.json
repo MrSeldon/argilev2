@@ -10,7 +10,8 @@
     "glazes:glossary": "node scripts/glazes/glossary-source.mjs",
     "glazes:index": "node scripts/glazes/build-index.mjs",
     "glazes:reindex": "node scripts/glazes/build-index.mjs --force",
-    "test:shelf": "node --test scripts/shelf/match.test.mts scripts/shelf/ops.test.mts"
+    "test:shelf": "node --test scripts/shelf/match.test.mts scripts/shelf/ops.test.mts",
+    "test:slip": "node --test scripts/slip/math.test.mts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.71.2",

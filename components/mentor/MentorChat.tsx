@@ -23,6 +23,13 @@ export function MentorChat() {
   const [error, setError] = useState<string | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
+  // A link from another page can arrive with the question already typed: /mentor?q=...
+  // It is only placed in the box; nothing is sent until Send is pressed.
+  useEffect(() => {
+    const q = new URLSearchParams(window.location.search).get("q")?.trim();
+    if (q) setInput((cur) => cur || q.slice(0, 500));
+  }, []);
+
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   };
